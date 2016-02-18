@@ -21,7 +21,7 @@ public class NMSItemStack extends NMSWrap {
     }
 
     public NMSItemStack(ItemStack itemStack) {
-        super(Reflection.staticReflection("CraftItemStack", "asNMSCopy", new Object[]{ItemStack.class}, new Object[]{itemStack}));
+        super(Reflection.craftStaticReflection("inventory.CraftItemStack", "asNMSCopy", new Object[]{ItemStack.class}, new Object[]{itemStack}));
     }
 
     public Boolean hasTag() {
@@ -41,7 +41,7 @@ public class NMSItemStack extends NMSWrap {
     }
 
     public ItemStack getItemStack(){
-        return (ItemStack) nmsObject;
+        return (ItemStack) Reflection.craftStaticReflection("inventory.CraftItemStack", "asCraftMirror", new Object[]{"ItemStack"}, new Object[]{nmsObject});
     }
 
     public void setTag(NMSNBTTagCompound tag) {

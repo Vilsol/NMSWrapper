@@ -6,7 +6,7 @@
 
     <groupId>me.vilsol</groupId>
     <artifactId>nmswrapper</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>NMSWrapper</name>
     <description>An abstraction layer between NMS and Plugins</description>
     <url>https://github.com/Vilsol/NMSWrapper</url>
