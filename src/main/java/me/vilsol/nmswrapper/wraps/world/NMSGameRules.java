@@ -10,19 +10,19 @@ public class NMSGameRules extends NMSWrap {
     }
 
     public void set(String key, String value) {
-        Reflection.doMethod(nmsObject, "set", new Object[]{String.class, String.class}, new Object[]{key, value});
+        Reflection.executeMethod(nmsObject, "set", new Object[]{String.class, String.class}, new Object[]{key, value});
     }
 
     public String get(String key) {
-        return (String) Reflection.doMethod(nmsObject, "get", new Object[]{String.class}, new Object[]{key});
+        return (String) Reflection.executeMethod(nmsObject, "get", new Object[]{String.class}, new Object[]{key});
     }
 
     public boolean getBoolean(String key) {
-        return (boolean) Reflection.doMethod(nmsObject, "getBoolean", new Object[]{String.class}, new Object[]{key});
+        return (boolean) Reflection.executeMethod(nmsObject, "getBoolean", new Object[]{String.class}, new Object[]{key});
     }
 
     public String[] getGameRules() {
-        return (String[]) Reflection.doMethod(nmsObject, "getGameRules", new Object[]{}, new Object[]{});
+        return (String[]) Reflection.executeMethod(nmsObject, "getGameRules", new Object[]{}, new Object[]{});
     }
 
 }

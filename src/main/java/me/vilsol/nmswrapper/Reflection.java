@@ -74,7 +74,7 @@ public class Reflection {
         return null;
     }
 
-    public static Object doMethod(Object nmsObject, String method, Object[] paramTypes, Object[] params) {
+    public static Object executeMethod(Object nmsObject, String method, Object[] paramTypes, Object[] params) {
         try {
             Class<?> clazz = nmsObject.getClass();
             Method m = clazz.getMethod(method, paramTypes(paramTypes));

@@ -9,15 +9,15 @@ public class NMSBoundingBox extends NMSWrap {
     }
 
     public NMSBoundingBox grow(double x, double y, double z) {
-        return new NMSBoundingBox(Reflection.doMethod(nmsObject, "grow", new Object[]{double.class, double.class, double.class}, new Object[]{x, y, z}));
+        return new NMSBoundingBox(Reflection.executeMethod(nmsObject, "grow", new Object[]{double.class, double.class, double.class}, new Object[]{x, y, z}));
     }
 
     public NMSBoundingBox shrink(double x, double y, double z) {
-        return new NMSBoundingBox(Reflection.doMethod(nmsObject, "shrink", new Object[]{double.class, double.class, double.class}, new Object[]{x, y, z}));
+        return new NMSBoundingBox(Reflection.executeMethod(nmsObject, "shrink", new Object[]{double.class, double.class, double.class}, new Object[]{x, y, z}));
     }
 
     public boolean contains(NMSVec3D vector) {
-        return (boolean) Reflection.doMethod(nmsObject, "a", new Object[]{"Vec3D"}, new Object[]{vector});
+        return (boolean) Reflection.executeMethod(nmsObject, "a", new Object[]{"Vec3D"}, new Object[]{vector});
     }
 
 }

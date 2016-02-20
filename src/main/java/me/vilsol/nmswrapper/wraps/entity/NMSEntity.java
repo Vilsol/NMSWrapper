@@ -12,11 +12,11 @@ public class NMSEntity extends NMSWrap {
     }
 
     public NMSEntity(Entity entity) {
-        super(Reflection.doMethod(entity, "getHandle", new Object[]{}, new Object[]{}));
+        super(Reflection.executeMethod(entity, "getHandle", new Object[]{}, new Object[]{}));
     }
 
     public void setEquipment(int slot, NMSItemStack item){
-        Reflection.doMethod(nmsObject, "setEquipment", new Object[]{int.class, "ItemStack"}, new Object[]{slot, item});
+        Reflection.executeMethod(nmsObject, "setEquipment", new Object[]{int.class, "ItemStack"}, new Object[]{slot, item});
     }
 
 }

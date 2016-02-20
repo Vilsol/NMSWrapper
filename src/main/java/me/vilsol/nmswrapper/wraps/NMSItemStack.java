@@ -25,19 +25,19 @@ public class NMSItemStack extends NMSWrap {
     }
 
     public Boolean hasTag() {
-        return (Boolean) Reflection.doMethod(nmsObject, "hasTag", new Object[]{}, new Object[]{});
+        return (Boolean) Reflection.executeMethod(nmsObject, "hasTag", new Object[]{}, new Object[]{});
     }
 
     public NMSNBTTagCompound getTag() {
-        return new NMSNBTTagCompound(Reflection.doMethod(nmsObject, "getTag", new Object[]{}, new Object[]{}));
+        return new NMSNBTTagCompound(Reflection.executeMethod(nmsObject, "getTag", new Object[]{}, new Object[]{}));
     }
 
     public void setData(int data){
-        Reflection.doMethod(nmsObject, "setData", new Object[]{int.class}, new Object[]{data});
+        Reflection.executeMethod(nmsObject, "setData", new Object[]{int.class}, new Object[]{data});
     }
 
     public NMSItem getItem(){
-        return new NMSItem(Reflection.doMethod(nmsObject, "getItem", new Object[]{}, new Object[]{}));
+        return new NMSItem(Reflection.executeMethod(nmsObject, "getItem", new Object[]{}, new Object[]{}));
     }
 
     public ItemStack getItemStack(){
@@ -45,7 +45,7 @@ public class NMSItemStack extends NMSWrap {
     }
 
     public void setTag(NMSNBTTagCompound tag) {
-        Reflection.doMethod(nmsObject, "setTag", new Object[]{"NBTTagCompound"}, new Object[]{tag});
+        Reflection.executeMethod(nmsObject, "setTag", new Object[]{"NBTTagCompound"}, new Object[]{tag});
     }
 
 }

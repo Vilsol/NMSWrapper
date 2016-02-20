@@ -16,11 +16,11 @@ public class NMSCraftEntity extends NMSWrap {
     }
 
     public NMSEntity getHandle(){
-        return new NMSEntity(Reflection.doMethod(nmsObject, "getHandle", new Object[]{}, new Object[]{}));
+        return new NMSEntity(Reflection.executeMethod(nmsObject, "getHandle", new Object[]{}, new Object[]{}));
     }
 
     public NMSBoundingBox getBoundingBox(){
-        return new NMSBoundingBox(Reflection.doMethod(nmsObject, "getBoundingBox", new Object[]{}, new Object[]{}));
+        return new NMSBoundingBox(Reflection.executeMethod(nmsObject, "getBoundingBox", new Object[]{}, new Object[]{}));
     }
 
 }
