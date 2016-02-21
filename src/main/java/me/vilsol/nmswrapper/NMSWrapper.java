@@ -4,6 +4,9 @@ import me.vilsol.nmswrapper.reflections.Reflection;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveField;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.reflections.type.ReflectionClass;
+import me.vilsol.nmswrapper.reflections.type.ReflectionField;
+import me.vilsol.nmswrapper.reflections.type.ReflectionMethod;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.File;
@@ -20,8 +23,7 @@ public class NMSWrapper extends JavaPlugin {
 
     private static NMSWrapper instance;
 
-    private HashMap<String, HashMap<String, Method>> methods = new HashMap<>();
-    private HashMap<String, HashMap<String, Field>> fields = new HashMap<>();
+    private HashMap<String, ReflectionClass> types = new HashMap<>();
 
     public static NMSWrapper getInstance() {
         return instance;
@@ -40,22 +42,18 @@ public class NMSWrapper extends JavaPlugin {
             if(aClass.isAnnotationPresent(ReflectiveClass.class)) {
                 ReflectiveClass c = aClass.getAnnotation(ReflectiveClass.class);
                 for (Method method : aClass.getMethods()) {
-                    if (method.isAnnotationPresent(ReflectiveMethod.class)){
-                        if(!methods.containsKey(aClass.getName())){
-                            methods.put(aClass.getName(), new HashMap<String, Method>());
-                        }
+                    if(!types.containsKey(aClass.getName())){
+                        types.put(aClass.getName(), new ReflectionClass(aClass));
+                    }
 
+                    if (method.isAnnotationPresent(ReflectiveMethod.class)){
                         ReflectiveMethod m = method.getAnnotation(ReflectiveMethod.class);
                         Method nmsMethod = Reflection.getMethod(c.name(), m.name(), m.types(), c.craft());
-                        methods.get(aClass.getName()).put(method.getName(), nmsMethod);
+                        types.get(aClass.getName()).add(method.getName(), new ReflectionMethod(nmsMethod));
                     }else if(method.isAnnotationPresent(ReflectiveField.class)){
-                        if(!fields.containsKey(aClass.getName())){
-                            fields.put(aClass.getName(), new HashMap<String, Field>());
-                        }
-
                         ReflectiveField f = method.getAnnotation(ReflectiveField.class);
                         Field nmsField = Reflection.getField(c.name(), f.name(), c.craft());
-                        fields.get(aClass.getName()).put(method.getName(), nmsField);
+                        types.get(aClass.getName()).add(method.getName(), new ReflectionField(nmsField));
                     }
                 }
             }
@@ -65,21 +63,10 @@ public class NMSWrapper extends JavaPlugin {
     public Object exec(Object nms, Object ... params){
         StackTraceElement trace = Thread.currentThread().getStackTrace()[2];
         String clazz = trace.getClassName();
-        String method = trace.getMethodName();
 
         try {
-            if(methods.containsKey(clazz)){
-                if(methods.get(clazz).containsKey(method)){
-                        return methods.get(clazz).get(method).invoke(nms, params);
-                }
-            }else if(fields.containsKey(clazz)){
-                if(fields.get(clazz).containsKey(method)){
-                    if(params.length > 0){
-                        fields.get(clazz).get(method).set(nms, params[0]);
-                    }else{
-                        return fields.get(clazz).get(method).get(nms);
-                    }
-                }
+            if(types.containsKey(clazz)){
+                return types.get(clazz).exec(nms, params);
             }
         } catch (Exception e) {
             e.printStackTrace();

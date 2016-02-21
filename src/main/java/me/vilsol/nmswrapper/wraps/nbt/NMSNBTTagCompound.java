@@ -117,9 +117,9 @@ public class NMSNBTTagCompound extends NMSNBTBase {
         return new NMSNBTTagCompound(NMSWrapper.getInstance().exec(nmsObject, name));
     }
 
-    @ReflectiveMethod(name = "getList", types = {String.class})
-    public NMSNBTTagList getList(String name) {
-        return new NMSNBTTagList(NMSWrapper.getInstance().exec(nmsObject, name));
+    @ReflectiveMethod(name = "getList", types = {String.class, int.class})
+    public NMSNBTTagList getList(String name, int thing) {
+        return new NMSNBTTagList(NMSWrapper.getInstance().exec(nmsObject, name, thing));
     }
 
     @ReflectiveMethod(name = "getBoolean", types = {String.class})
