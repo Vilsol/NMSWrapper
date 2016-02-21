@@ -1,7 +1,9 @@
 package me.vilsol.nmswrapper.wraps;
 
-import me.vilsol.nmswrapper.Reflection;
+import me.vilsol.nmswrapper.reflections.Reflection;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 
+@ReflectiveClass(name = "Item")
 public class NMSItem extends NMSWrap {
 
     public NMSItem(Object nmsObject) {
@@ -10,11 +12,6 @@ public class NMSItem extends NMSWrap {
 
     public NMSItem(int id) {
         super(Reflection.staticReflection("Item", "getById", new Object[]{int.class}, new Object[]{id}));
-    }
-
-    @Override
-    public String toString() {
-        return "NMSItem{} " + super.toString();
     }
 
 }

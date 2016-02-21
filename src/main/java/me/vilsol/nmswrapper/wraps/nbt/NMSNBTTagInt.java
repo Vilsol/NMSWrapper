@@ -1,5 +1,8 @@
 package me.vilsol.nmswrapper.wraps.nbt;
 
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+
+@ReflectiveClass(name = "NBTTagInt")
 public class NMSNBTTagInt extends NMSNBTBase {
 
     public NMSNBTTagInt(Object nmsObject) {

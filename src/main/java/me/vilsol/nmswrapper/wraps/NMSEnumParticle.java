@@ -1,9 +1,11 @@
 package me.vilsol.nmswrapper.wraps;
 
-import me.vilsol.nmswrapper.Reflection;
+import me.vilsol.nmswrapper.reflections.Reflection;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 
 import java.util.HashMap;
 
+@ReflectiveClass(name = "EnumParticle")
 public class NMSEnumParticle extends NMSWrap {
 
     private static NMSEnumParticle EXPLOSION_NORMAL = new NMSEnumParticle(0);
@@ -53,7 +55,9 @@ public class NMSEnumParticle extends NMSWrap {
     
     private NMSEnumParticle(int position) {
         super(Reflection.getClassDef("EnumParticle").getEnumConstants()[position]);
-        map.put(position, this);
+        if(map != null) {
+            map.put(position, this);
+        }
     }
 
     public static NMSEnumParticle getParticle(int position){
@@ -63,7 +67,7 @@ public class NMSEnumParticle extends NMSWrap {
     public static NMSEnumParticle getParticle(String name){
         Object[] enumParticles = Reflection.getClassDef("EnumParticle").getEnumConstants();
         for (int i = 0; i < enumParticles.length; i++) {
-            if(Reflection.getField(enumParticles[i], "Q").equals(name)){
+            if(Reflection.getFieldValue(enumParticles[i], "Q").equals(name)){
                 return getParticle(i);
             }
         }

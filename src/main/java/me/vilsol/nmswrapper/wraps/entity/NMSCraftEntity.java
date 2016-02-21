@@ -1,10 +1,12 @@
 package me.vilsol.nmswrapper.wraps.entity;
 
-import me.vilsol.nmswrapper.Reflection;
-import me.vilsol.nmswrapper.wraps.NMSBoundingBox;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 import me.vilsol.nmswrapper.wraps.NMSWrap;
 import org.bukkit.entity.Entity;
 
+@ReflectiveClass(name = "entity.CraftEntity", craft = true)
 public class NMSCraftEntity extends NMSWrap {
 
     public NMSCraftEntity(Object nmsObject) {
@@ -15,12 +17,9 @@ public class NMSCraftEntity extends NMSWrap {
         super(entity);
     }
 
+    @ReflectiveMethod(name = "getHandle")
     public NMSEntity getHandle(){
-        return new NMSEntity(Reflection.executeMethod(nmsObject, "getHandle", new Object[]{}, new Object[]{}));
-    }
-
-    public NMSBoundingBox getBoundingBox(){
-        return new NMSBoundingBox(Reflection.executeMethod(nmsObject, "getBoundingBox", new Object[]{}, new Object[]{}));
+        return new NMSEntity(NMSWrapper.getInstance().exec(nmsObject));
     }
 
 }

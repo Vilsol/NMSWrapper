@@ -1,10 +1,14 @@
 package me.vilsol.nmswrapper.wraps;
 
-import me.vilsol.nmswrapper.Reflection;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.Reflection;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 import me.vilsol.nmswrapper.wraps.nbt.NMSNBTTagCompound;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
+@ReflectiveClass(name = "ItemStack")
 public class NMSItemStack extends NMSWrap {
 
     public NMSItemStack(Material type) {
@@ -24,28 +28,34 @@ public class NMSItemStack extends NMSWrap {
         super(Reflection.craftStaticReflection("inventory.CraftItemStack", "asNMSCopy", new Object[]{ItemStack.class}, new Object[]{itemStack}));
     }
 
+    @ReflectiveMethod(name = "hasTag")
     public Boolean hasTag() {
-        return (Boolean) Reflection.executeMethod(nmsObject, "hasTag", new Object[]{}, new Object[]{});
+        return (Boolean) NMSWrapper.getInstance().exec(nmsObject);
     }
 
+    @ReflectiveMethod(name = "getTag")
     public NMSNBTTagCompound getTag() {
-        return new NMSNBTTagCompound(Reflection.executeMethod(nmsObject, "getTag", new Object[]{}, new Object[]{}));
+        return new NMSNBTTagCompound(NMSWrapper.getInstance().exec(nmsObject));
     }
 
+    @ReflectiveMethod(name = "setData", types = {int.class})
     public void setData(int data){
-        Reflection.executeMethod(nmsObject, "setData", new Object[]{int.class}, new Object[]{data});
+        NMSWrapper.getInstance().exec(nmsObject, data);
     }
 
+    @ReflectiveMethod(name = "getItem")
     public NMSItem getItem(){
-        return new NMSItem(Reflection.executeMethod(nmsObject, "getItem", new Object[]{}, new Object[]{}));
+        return new NMSItem(NMSWrapper.getInstance().exec(nmsObject));
     }
 
-    public ItemStack getItemStack(){
+    public ItemStack getAsItemStack(){
+        // TODO Make this more efficient
         return (ItemStack) Reflection.craftStaticReflection("inventory.CraftItemStack", "asCraftMirror", new Object[]{"ItemStack"}, new Object[]{nmsObject});
     }
 
+    @ReflectiveMethod(name = "setTag", types = {NMSNBTTagCompound.class})
     public void setTag(NMSNBTTagCompound tag) {
-        Reflection.executeMethod(nmsObject, "setTag", new Object[]{"NBTTagCompound"}, new Object[]{tag});
+        NMSWrapper.getInstance().exec(nmsObject, tag);
     }
 
 }

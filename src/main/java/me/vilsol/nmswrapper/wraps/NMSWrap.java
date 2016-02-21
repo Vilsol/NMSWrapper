@@ -1,6 +1,6 @@
 package me.vilsol.nmswrapper.wraps;
 
-import me.vilsol.nmswrapper.Reflection;
+import me.vilsol.nmswrapper.reflections.Reflection;
 
 public abstract class NMSWrap {
 

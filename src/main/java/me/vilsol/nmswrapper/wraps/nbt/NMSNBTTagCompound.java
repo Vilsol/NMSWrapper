@@ -1,7 +1,10 @@
 package me.vilsol.nmswrapper.wraps.nbt;
 
-import me.vilsol.nmswrapper.Reflection;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 
+@ReflectiveClass(name = "NBTTagCompound")
 public class NMSNBTTagCompound extends NMSNBTBase {
 
     public NMSNBTTagCompound() {
@@ -12,17 +15,20 @@ public class NMSNBTTagCompound extends NMSNBTBase {
         super(nmsObject);
     }
 
+    @ReflectiveMethod(name = "hasKey", types = {String.class})
     public Boolean hasKey(String name) {
-        return (Boolean) Reflection.executeMethod(nmsObject, "hasKey", new Object[]{String.class}, new Object[]{name});
+        return (Boolean) NMSWrapper.getInstance().exec(nmsObject, name);
     }
 
+    @ReflectiveMethod(name = "hasKeyOfType", types = {String.class, int.class})
     public Boolean hasKeyOfType(String name, int type) {
-        return (Boolean) Reflection.executeMethod(nmsObject, "hasKeyOfType", new Object[]{String.class, int.class}, new Object[]{name, type});
+        return (Boolean) NMSWrapper.getInstance().exec(nmsObject, name, type);
     }
 
+    @ReflectiveMethod(name = "get", types = {String.class})
     public NMSNBTBase get(String name) {
         NMSNBTBase tag = null;
-        Object nmsObject = Reflection.executeMethod(this.nmsObject, "getByte", new Object[]{String.class}, new Object[]{name});
+        Object nmsObject = NMSWrapper.getInstance().exec(this.nmsObject, name);
 
         if(nmsObject == null){
             return null;
@@ -61,100 +67,124 @@ public class NMSNBTTagCompound extends NMSNBTBase {
         return tag;
     }
 
+    @ReflectiveMethod(name = "getByte", types = {String.class})
     public byte getByte(String name) {
-        return (byte) Reflection.executeMethod(nmsObject, "getByte", new Object[]{String.class}, new Object[]{name});
+        return (byte) NMSWrapper.getInstance().exec(nmsObject, name);
     }
 
+    @ReflectiveMethod(name = "getShort", types = {String.class})
     public short getShort(String name) {
-        return (short) Reflection.executeMethod(nmsObject, "getShort", new Object[]{String.class}, new Object[]{name});
+        return (short) NMSWrapper.getInstance().exec(nmsObject, name);
     }
 
+    @ReflectiveMethod(name = "getInt", types = {String.class})
     public int getInt(String name) {
-        return (int) Reflection.executeMethod(nmsObject, "getInt", new Object[]{String.class}, new Object[]{name});
+        return (int) NMSWrapper.getInstance().exec(nmsObject, name);
     }
 
+    @ReflectiveMethod(name = "getLong", types = {String.class})
     public long getLong(String name) {
-        return (long) Reflection.executeMethod(nmsObject, "getLong", new Object[]{String.class}, new Object[]{name});
+        return (long) NMSWrapper.getInstance().exec(nmsObject, name);
     }
 
+    @ReflectiveMethod(name = "getFloat", types = {String.class})
     public float getFloat(String name) {
-        return (float) Reflection.executeMethod(nmsObject, "getFloat", new Object[]{String.class}, new Object[]{name});
+        return (float) NMSWrapper.getInstance().exec(nmsObject, name);
     }
 
+    @ReflectiveMethod(name = "getDouble", types = {String.class})
     public double getDouble(String name) {
-        return (double) Reflection.executeMethod(nmsObject, "getDouble", new Object[]{String.class}, new Object[]{name});
+        return (double) NMSWrapper.getInstance().exec(nmsObject, name);
     }
 
+    @ReflectiveMethod(name = "getString", types = {String.class})
     public String getString(String name) {
-        return (String) Reflection.executeMethod(nmsObject, "getString", new Object[]{String.class}, new Object[]{name});
+        return (String) NMSWrapper.getInstance().exec(nmsObject, name);
     }
 
+    @ReflectiveMethod(name = "getByteArray", types = {String.class})
     public byte[] getByteArray(String name) {
-        return (byte[]) Reflection.executeMethod(nmsObject, "getByteArray", new Object[]{String.class}, new Object[]{name});
+        return (byte[]) NMSWrapper.getInstance().exec(nmsObject, name);
     }
 
+    @ReflectiveMethod(name = "getIntArray", types = {String.class})
     public int[] getIntArray(String name) {
-        return (int[]) Reflection.executeMethod(nmsObject, "getIntArray", new Object[]{String.class}, new Object[]{name});
+        return (int[]) NMSWrapper.getInstance().exec(nmsObject, name);
     }
 
+    @ReflectiveMethod(name = "getCompound", types = {String.class})
     public NMSNBTTagCompound getCompound(String name) {
-        return new NMSNBTTagCompound(Reflection.executeMethod(nmsObject, "getCompound", new Object[]{String.class}, new Object[]{name}));
+        return new NMSNBTTagCompound(NMSWrapper.getInstance().exec(nmsObject, name));
     }
 
-    public NMSNBTTagList getList(String name, int thing) {
-        return new NMSNBTTagList(Reflection.executeMethod(nmsObject, "getList", new Object[]{String.class}, new Object[]{name}));
+    @ReflectiveMethod(name = "getList", types = {String.class})
+    public NMSNBTTagList getList(String name) {
+        return new NMSNBTTagList(NMSWrapper.getInstance().exec(nmsObject, name));
     }
 
+    @ReflectiveMethod(name = "getBoolean", types = {String.class})
     public boolean getBoolean(String name) {
-        return (boolean) Reflection.executeMethod(nmsObject, "getBoolean", new Object[]{String.class}, new Object[]{name});
+        return (boolean) NMSWrapper.getInstance().exec(nmsObject, name);
     }
 
+    @ReflectiveMethod(name = "set", types = {String.class, NMSNBTBase.class})
     public void set(String key, NMSNBTBase value) {
-        Reflection.executeMethod(nmsObject, "set", new Object[]{String.class, "NBTBase"}, new Object[]{key, value});
+        NMSWrapper.getInstance().exec(nmsObject, key, value);
     }
 
+    @ReflectiveMethod(name = "setByte", types = {String.class, byte.class})
     public void setByte(String key, byte value) {
-        Reflection.executeMethod(nmsObject, "setByte", new Object[]{String.class, byte.class}, new Object[]{key, value});
+        NMSWrapper.getInstance().exec(nmsObject, key, value);
     }
 
+    @ReflectiveMethod(name = "setShort", types = {String.class, short.class})
     public void setShort(String key, short value) {
-        Reflection.executeMethod(nmsObject, "setShort", new Object[]{String.class, short.class}, new Object[]{key, value});
+        NMSWrapper.getInstance().exec(nmsObject, key, value);
     }
 
+    @ReflectiveMethod(name = "setInt", types = {String.class, int.class})
     public void setInt(String key, int value) {
-        Reflection.executeMethod(nmsObject, "setInt", new Object[]{String.class, int.class}, new Object[]{key, value});
+        NMSWrapper.getInstance().exec(nmsObject, key, value);
     }
 
+    @ReflectiveMethod(name = "setLong", types = {String.class, long.class})
     public void setLong(String key, long value) {
-        Reflection.executeMethod(nmsObject, "setLong", new Object[]{String.class, long.class}, new Object[]{key, value});
+        NMSWrapper.getInstance().exec(nmsObject, key, value);
     }
 
+    @ReflectiveMethod(name = "setFloat", types = {String.class, float.class})
     public void setFloat(String key, float value) {
-        Reflection.executeMethod(nmsObject, "setFloat", new Object[]{String.class, float.class}, new Object[]{key, value});
+        NMSWrapper.getInstance().exec(nmsObject, key, value);
     }
 
+    @ReflectiveMethod(name = "setDouble", types = {String.class, double.class})
     public void setDouble(String key, double value) {
-        Reflection.executeMethod(nmsObject, "setDouble", new Object[]{String.class, double.class}, new Object[]{key, value});
+        NMSWrapper.getInstance().exec(nmsObject, key, value);
     }
 
+    @ReflectiveMethod(name = "setString", types = {String.class, String.class})
     public void setString(String key, String value) {
-        Reflection.executeMethod(nmsObject, "setString(", new Object[]{String.class, String.class}, new Object[]{key, value});
+        NMSWrapper.getInstance().exec(nmsObject, key, value);
     }
 
+    @ReflectiveMethod(name = "setByteArray", types = {String.class, byte[].class})
     public void setByteArray(String key, byte[] value) {
-        Reflection.executeMethod(nmsObject, "setByteArray", new Object[]{String.class, byte[].class}, new Object[]{key, value});
+        NMSWrapper.getInstance().exec(nmsObject, key, value);
     }
 
+    @ReflectiveMethod(name = "setIntArray", types = {String.class, int[].class})
     public void setIntArray(String key, int[] value) {
-        Reflection.executeMethod(nmsObject, "setIntArray", new Object[]{String.class, int[].class}, new Object[]{key, value});
+        NMSWrapper.getInstance().exec(nmsObject, key, value);
     }
 
+    @ReflectiveMethod(name = "setBoolean", types = {String.class, boolean.class})
     public void setBoolean(String key, boolean value) {
-        Reflection.executeMethod(nmsObject, "setBoolean", new Object[]{String.class, boolean.class}, new Object[]{key, value});
+        NMSWrapper.getInstance().exec(nmsObject, key, value);
     }
 
+    @ReflectiveMethod(name = "remove", types = {String.class})
     public void remove(String name) {
-        Reflection.executeMethod(nmsObject, "remove", new Object[]{String.class}, new Object[]{name});
+        NMSWrapper.getInstance().exec(nmsObject, name);
     }
 
 

@@ -1,7 +1,9 @@
 package me.vilsol.nmswrapper.wraps;
 
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import org.bukkit.util.Vector;
 
+@ReflectiveClass(name = "Vec3D")
 public class NMSVec3D extends NMSWrap {
 
     public NMSVec3D(Object nmsObject) {

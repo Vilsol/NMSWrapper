@@ -1,4 +1,4 @@
-package me.vilsol.nmswrapper;
+package me.vilsol.nmswrapper.reflections;
 
 import me.vilsol.nmswrapper.wraps.NMSWrap;
 import org.bukkit.Bukkit;
@@ -93,7 +93,6 @@ public class Reflection {
         return null;
     }
 
-
     public static void setField(Object nmsObject, String field, Object value) {
         try {
             Class<?> clazz = nmsObject.getClass();
@@ -105,8 +104,7 @@ public class Reflection {
         }
     }
 
-
-    public static Object getField(Object nmsObject, String field) {
+    public static Object getFieldValue(Object nmsObject, String field) {
         try {
             Class<?> clazz = nmsObject.getClass();
             Field f = clazz.getDeclaredField(field);
@@ -117,6 +115,45 @@ public class Reflection {
         }
 
         return null;
+    }
+
+    public static Field getField(String nmsClass, String field, boolean craftType) {
+        try {
+            Class<?> clazz = Class.forName((craftType ? craft : nms) + nmsClass);
+            Field declaredField = clazz.getDeclaredField(field);
+            declaredField.setAccessible(true);
+            return declaredField;
+        } catch (Exception e) {
+            System.err.println("Failed " + nmsClass + "#" + field);
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+    public static Method getMethod(String nmsClass, String method, Class<?>[] types, boolean craftType) {
+        try {
+            Class<?> clazz = Class.forName((craftType ? craft : nms) + nmsClass);
+            return clazz.getMethod(method, classParamTypes(types));
+        } catch (Exception e) {
+            System.err.println("Failed " + nmsClass + "#" + method);
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+    private static Class<?>[] classParamTypes(Class<?>[] params) throws ClassNotFoundException {
+        Class<?>[] types = new Class[params.length];
+        for (int i = 0; i < params.length; i++) {
+            if(NMSWrap.class.isAssignableFrom(params[i])) {
+                ReflectiveClass c = params[i].getAnnotation(ReflectiveClass.class);
+                types[i] = Class.forName((c.craft() ? craft : nms) + c.name());
+            }else{
+                types[i] = params[i];
+            }
+        }
+        return types;
     }
 
     private static Class<?>[] paramTypes(Object[] params) throws ClassNotFoundException {

@@ -1,7 +1,11 @@
 package me.vilsol.nmswrapper.wraps;
 
-import me.vilsol.nmswrapper.Reflection;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.Reflection;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveField;
 
+@ReflectiveClass(name = "MinecraftServer")
 public class NMSMinecraftServer extends NMSWrap {
 
     private static NMSMinecraftServer instance = new NMSMinecraftServer();
@@ -14,8 +18,9 @@ public class NMSMinecraftServer extends NMSWrap {
         super(Reflection.staticReflection("MinecraftServer", "getServer", new Object[]{}, new Object[]{}));
     }
 
+    @ReflectiveField(name = "primaryThread")
     public Thread getPrimaryThread(){
-        return (Thread) Reflection.getField(nmsObject, "primaryThread");
+        return (Thread) NMSWrapper.getInstance().exec(nmsObject);
     }
 
 }
