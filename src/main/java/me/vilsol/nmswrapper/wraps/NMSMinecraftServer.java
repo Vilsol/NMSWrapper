@@ -18,6 +18,9 @@ public class NMSMinecraftServer extends NMSWrap {
         super(Reflection.staticReflection("MinecraftServer", "getServer", new Object[]{}, new Object[]{}));
     }
 
+    /**
+     * @see net.minecraft.server.v1_8_R3.MinecraftServer#primaryThread
+     */
     @ReflectiveField(name = "primaryThread")
     public Thread getPrimaryThread(){
         return (Thread) NMSWrapper.getInstance().exec(nmsObject);

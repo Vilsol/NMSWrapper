@@ -1,0 +1,26 @@
+package me.vilsol.nmswrapper.wraps.unparsed;
+
+import me.vilsol.nmswrapper.*;
+import me.vilsol.nmswrapper.reflections.*;
+import me.vilsol.nmswrapper.wraps.*;
+
+@ReflectiveClass(name = "ChatMessageException")
+public class NMSChatMessageException extends IllegalArgumentException {
+
+    public NMSChatMessageException(Object nmsObject){
+        super(nmsObject);
+    }
+
+    public NMSChatMessageException(NMSChatMessage chatMessage, String s){
+        super("ChatMessageException", new Object[]{NMSChatMessage.class, String.class}, new Object[]{chatMessage, s});
+    }
+
+    public NMSChatMessageException(NMSChatMessage chatMessage, int i){
+        super("ChatMessageException", new Object[]{NMSChatMessage.class, int.class}, new Object[]{chatMessage, i});
+    }
+
+    public NMSChatMessageException(NMSChatMessage chatMessage, Throwable throwable){
+        super("ChatMessageException", new Object[]{NMSChatMessage.class, Throwable.class}, new Object[]{chatMessage, throwable});
+    }
+
+}

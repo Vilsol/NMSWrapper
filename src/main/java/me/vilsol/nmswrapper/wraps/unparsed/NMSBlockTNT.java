@@ -1,0 +1,87 @@
+package me.vilsol.nmswrapper.wraps.unparsed;
+
+import me.vilsol.nmswrapper.*;
+import me.vilsol.nmswrapper.reflections.*;
+import me.vilsol.nmswrapper.wraps.*;
+
+@ReflectiveClass(name = "BlockTNT")
+public class NMSBlockTNT extends NMSBlock {
+
+    public NMSBlockTNT(Object nmsObject){
+        super(nmsObject);
+    }
+
+    /**
+     * TODO Find correct name
+     * @see net.minecraft.server.v1_8_R3.BlockTNT#a(net.minecraft.server.v1_8_R3.Explosion)
+     */
+    @ReflectiveMethod(name = "a", types = {NMSExplosion.class})
+    public boolean a(NMSExplosion explosion){
+        return (boolean) NMSWrapper.getInstance().exec(nmsObject, explosion);
+    }
+
+    /**
+     * @see net.minecraft.server.v1_8_R3.BlockTNT#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     */
+    @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
+    public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
+        NMSWrapper.getInstance().exec(nmsObject, world, blockPosition, iBlockData, block);
+    }
+
+    /**
+     * @see net.minecraft.server.v1_8_R3.BlockTNT#fromLegacyData(int)
+     */
+    @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
+    public NMSIBlockData fromLegacyData(int i){
+        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject, i));
+    }
+
+    /**
+     * @see net.minecraft.server.v1_8_R3.BlockTNT#getStateList()
+     */
+    @ReflectiveMethod(name = "getStateList", types = {})
+    public NMSBlockStateList getStateList(){
+        return new NMSBlockStateList(NMSWrapper.getInstance().exec(nmsObject));
+    }
+
+    /**
+     * @see net.minecraft.server.v1_8_R3.BlockTNT#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     */
+    @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
+    public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
+        return (boolean) NMSWrapper.getInstance().exec(nmsObject, world, blockPosition, iBlockData, entityHuman, enumDirection, f, f1, f2);
+    }
+
+    /**
+     * @see net.minecraft.server.v1_8_R3.BlockTNT#onPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     */
+    @ReflectiveMethod(name = "onPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
+    public void onPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
+        NMSWrapper.getInstance().exec(nmsObject, world, blockPosition, iBlockData);
+    }
+
+    /**
+     * @see net.minecraft.server.v1_8_R3.BlockTNT#postBreak(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     */
+    @ReflectiveMethod(name = "postBreak", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
+    public void postBreak(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
+        NMSWrapper.getInstance().exec(nmsObject, world, blockPosition, iBlockData);
+    }
+
+    /**
+     * @see net.minecraft.server.v1_8_R3.BlockTNT#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     */
+    @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
+    public int toLegacyData(NMSIBlockData iBlockData){
+        return (int) NMSWrapper.getInstance().exec(nmsObject, iBlockData);
+    }
+
+    /**
+     * @see net.minecraft.server.v1_8_R3.BlockTNT#wasExploded(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.Explosion)
+     */
+    @ReflectiveMethod(name = "wasExploded", types = {NMSWorld.class, NMSBlockPosition.class, NMSExplosion.class})
+    public void wasExploded(NMSWorld world, NMSBlockPosition blockPosition, NMSExplosion explosion){
+        NMSWrapper.getInstance().exec(nmsObject, world, blockPosition, explosion);
+    }
+
+}
