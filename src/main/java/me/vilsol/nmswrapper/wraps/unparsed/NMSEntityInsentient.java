@@ -1,8 +1,10 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSItemStack;
+import org.bukkit.event.entity.EntityTargetEvent;
 
 @ReflectiveClass(name = "EntityInsentient")
 public class NMSEntityInsentient extends NMSEntityLiving {
@@ -417,8 +419,8 @@ public class NMSEntityInsentient extends NMSEntityLiving {
     /**
      * @see net.minecraft.server.v1_8_R3.EntityInsentient#setGoalTarget(net.minecraft.server.v1_8_R3.EntityLiving, org.bukkit.event.entity.EntityTargetEvent$TargetReason, boolean)
      */
-    @ReflectiveMethod(name = "setGoalTarget", types = {NMSEntityLiving.class, TargetReason.class, boolean.class})
-    public void setGoalTarget(NMSEntityLiving entityLiving, TargetReason targetReason, boolean b){
+    @ReflectiveMethod(name = "setGoalTarget", types = {NMSEntityLiving.class, EntityTargetEvent.TargetReason.class, boolean.class})
+    public void setGoalTarget(NMSEntityLiving entityLiving, EntityTargetEvent.TargetReason targetReason, boolean b){
         NMSWrapper.getInstance().exec(nmsObject, entityLiving, targetReason, b);
     }
 

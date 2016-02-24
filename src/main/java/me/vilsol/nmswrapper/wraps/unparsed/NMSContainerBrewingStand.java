@@ -1,8 +1,10 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSItemStack;
+import org.bukkit.inventory.InventoryView;
 
 @ReflectiveClass(name = "ContainerBrewingStand")
 public class NMSContainerBrewingStand extends NMSContainer {
@@ -46,7 +48,7 @@ public class NMSContainerBrewingStand extends NMSContainer {
      */
     @ReflectiveMethod(name = "getBukkitView", types = {})
     public InventoryView getBukkitView(){
-        return new InventoryView(NMSWrapper.getInstance().exec(nmsObject));
+        return (InventoryView) NMSWrapper.getInstance().exec(nmsObject);
     }
 
 }

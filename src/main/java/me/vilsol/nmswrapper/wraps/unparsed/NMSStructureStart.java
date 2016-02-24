@@ -11,6 +11,10 @@ public class NMSStructureStart extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSStructureStart(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSStructureStart(int i, int i1){
         super("StructureStart", new Object[]{int.class, int.class}, new Object[]{i, i1});
     }

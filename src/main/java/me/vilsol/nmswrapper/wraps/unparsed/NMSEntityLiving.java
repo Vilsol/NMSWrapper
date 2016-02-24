@@ -4,6 +4,7 @@ import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 import me.vilsol.nmswrapper.wraps.NMSItemStack;
+import org.bukkit.event.entity.EntityRegainHealthEvent;
 
 import java.util.Random;
 
@@ -681,8 +682,8 @@ public class NMSEntityLiving extends NMSEntity {
     /**
      * @see net.minecraft.server.v1_8_R3.EntityLiving#heal(float, org.bukkit.event.entity.EntityRegainHealthEvent$RegainReason)
      */
-    @ReflectiveMethod(name = "heal", types = {float.class, RegainReason.class})
-    public void heal(float f, RegainReason regainReason){
+    @ReflectiveMethod(name = "heal", types = {float.class, EntityRegainHealthEvent.RegainReason.class})
+    public void heal(float f, EntityRegainHealthEvent.RegainReason regainReason){
         NMSWrapper.getInstance().exec(nmsObject, f, regainReason);
     }
 

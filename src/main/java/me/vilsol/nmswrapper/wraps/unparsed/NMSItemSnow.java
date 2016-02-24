@@ -11,6 +11,10 @@ public class NMSItemSnow extends NMSItemBlock {
         super(nmsObject);
     }
 
+    public NMSItemSnow(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSItemSnow(NMSBlock block){
         super("ItemSnow", new Object[]{NMSBlock.class}, new Object[]{block});
     }

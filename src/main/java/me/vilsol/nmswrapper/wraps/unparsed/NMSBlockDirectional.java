@@ -1,8 +1,6 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 
 @ReflectiveClass(name = "BlockDirectional")
 public class NMSBlockDirectional extends NMSBlock {
@@ -11,4 +9,7 @@ public class NMSBlockDirectional extends NMSBlock {
         super(nmsObject);
     }
 
+    public NMSBlockDirectional(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
 }

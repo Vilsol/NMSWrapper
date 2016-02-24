@@ -5,7 +5,7 @@ import me.vilsol.nmswrapper.reflections.*;
 import me.vilsol.nmswrapper.wraps.*;
 
 @ReflectiveClass(name = "EnumProtocol")
-public class NMSEnumProtocol extends Enum {
+public class NMSEnumProtocol extends NMSWrap {
 
     public NMSEnumProtocol(Object nmsObject){
         super(nmsObject);

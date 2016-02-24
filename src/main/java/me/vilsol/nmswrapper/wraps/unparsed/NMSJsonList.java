@@ -24,18 +24,18 @@ public class NMSJsonList extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.JsonList#a(K)
+     * @see net.minecraft.server.v1_8_R3.JsonList#a(Object)
      */
-    @ReflectiveMethod(name = "a", types = {K.class})
-    public String a(K k){
+    @ReflectiveMethod(name = "a", types = {Object.class})
+    public String a(Object k){
         return (String) NMSWrapper.getInstance().exec(nmsObject, k);
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.JsonList#add(V)
+     * @see net.minecraft.server.v1_8_R3.JsonList#add(Object)
      */
-    @ReflectiveMethod(name = "add", types = {V.class})
-    public void add(V v){
+    @ReflectiveMethod(name = "add", types = {Object.class})
+    public void add(Object v){
         NMSWrapper.getInstance().exec(nmsObject, v);
     }
 
@@ -50,19 +50,19 @@ public class NMSJsonList extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.JsonList#d(K)
+     * @see net.minecraft.server.v1_8_R3.JsonList#d(Object)
      */
-    @ReflectiveMethod(name = "d", types = {K.class})
-    public boolean d(K k){
+    @ReflectiveMethod(name = "d", types = {Object.class})
+    public boolean d(Object k){
         return (boolean) NMSWrapper.getInstance().exec(nmsObject, k);
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.JsonList#get(K)
+     * @see net.minecraft.server.v1_8_R3.JsonList#get(Object)
      */
-    @ReflectiveMethod(name = "get", types = {K.class})
-    public V get(K k){
-        return new V(NMSWrapper.getInstance().exec(nmsObject, k));
+    @ReflectiveMethod(name = "get", types = {Object.class})
+    public Object get(Object k){
+        return new Object(NMSWrapper.getInstance().exec(nmsObject, k));
     }
 
     /**
@@ -82,10 +82,10 @@ public class NMSJsonList extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.JsonList#remove(K)
+     * @see net.minecraft.server.v1_8_R3.JsonList#remove(Object)
      */
-    @ReflectiveMethod(name = "remove", types = {K.class})
-    public void remove(K k){
+    @ReflectiveMethod(name = "remove", types = {Object.class})
+    public void remove(Object k){
         NMSWrapper.getInstance().exec(nmsObject, k);
     }
 

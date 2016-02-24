@@ -50,15 +50,6 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#a(net.minecraft.server.v1_8_R3.PacketPlayInSettings)
-     */
-    @ReflectiveMethod(name = "a", types = {NMSPacketPlayInSettings.class})
-    public void a(NMSPacketPlayInSettings packetPlayInSettings){
-        NMSWrapper.getInstance().exec(nmsObject, packetPlayInSettings);
-    }
-
-    /**
-     * TODO Find correct name
      * @see net.minecraft.server.v1_8_R3.EntityPlayer#ad()
      */
     @ReflectiveMethod(name = "ad", types = {})
@@ -219,7 +210,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
      */
     @ReflectiveMethod(name = "getPlayerWeather", types = {})
     public WeatherType getPlayerWeather(){
-        return new WeatherType(NMSWrapper.getInstance().exec(nmsObject));
+        return (WeatherType) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

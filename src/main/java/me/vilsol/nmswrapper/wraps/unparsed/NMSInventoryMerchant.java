@@ -1,8 +1,11 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSItemStack;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
+import org.bukkit.inventory.InventoryHolder;
 
 @ReflectiveClass(name = "InventoryMerchant")
 public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
@@ -88,7 +91,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
      */
     @ReflectiveMethod(name = "getOwner", types = {})
     public InventoryHolder getOwner(){
-        return new InventoryHolder(NMSWrapper.getInstance().exec(nmsObject));
+        return (InventoryHolder) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

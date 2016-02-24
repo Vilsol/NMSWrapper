@@ -11,6 +11,10 @@ public class NMSScoreboardTeamBase extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSScoreboardTeamBase(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     /**
      * @see net.minecraft.server.v1_8_R3.ScoreboardTeamBase#allowFriendlyFire()
      */

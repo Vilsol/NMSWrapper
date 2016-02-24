@@ -13,11 +13,11 @@ public class NMSInsensitiveStringMap extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InsensitiveStringMap#a(java.lang.String, V)
+     * @see net.minecraft.server.v1_8_R3.InsensitiveStringMap#a(java.lang.String, Object)
      */
-    @ReflectiveMethod(name = "a", types = {String.class, V.class})
-    public V a(String s, V v){
-        return new V(NMSWrapper.getInstance().exec(nmsObject, s, v));
+    @ReflectiveMethod(name = "a", types = {String.class, Object.class})
+    public Object a(String s, Object v){
+        return NMSWrapper.getInstance().exec(nmsObject, s, v);
     }
 
     /**
@@ -48,8 +48,8 @@ public class NMSInsensitiveStringMap extends NMSWrap {
      * @see net.minecraft.server.v1_8_R3.InsensitiveStringMap#get(java.lang.Object)
      */
     @ReflectiveMethod(name = "get", types = {Object.class})
-    public V get(Object object){
-        return new V(NMSWrapper.getInstance().exec(nmsObject, object));
+    public Object get(Object object){
+        return NMSWrapper.getInstance().exec(nmsObject, object);
     }
 
     /**
@@ -65,15 +65,15 @@ public class NMSInsensitiveStringMap extends NMSWrap {
      */
     @ReflectiveMethod(name = "put", types = {Object.class, Object.class})
     public Object put(Object object, Object object1){
-        return new Object(NMSWrapper.getInstance().exec(nmsObject, object, object1));
+        return NMSWrapper.getInstance().exec(nmsObject, object, object1);
     }
 
     /**
      * @see net.minecraft.server.v1_8_R3.InsensitiveStringMap#remove(java.lang.Object)
      */
     @ReflectiveMethod(name = "remove", types = {Object.class})
-    public V remove(Object object){
-        return new V(NMSWrapper.getInstance().exec(nmsObject, object));
+    public Object remove(Object object){
+        return NMSWrapper.getInstance().exec(nmsObject, object);
     }
 
     /**

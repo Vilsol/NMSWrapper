@@ -116,10 +116,10 @@ public class NMSDataWatcher extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DataWatcher#watch(int, T)
+     * @see net.minecraft.server.v1_8_R3.DataWatcher#watch(int, Object)
      */
-    @ReflectiveMethod(name = "watch", types = {int.class, T.class})
-    public void watch(int i, T t){
+    @ReflectiveMethod(name = "watch", types = {int.class, Object.class})
+    public void watch(int i, Object t){
         NMSWrapper.getInstance().exec(nmsObject, i, t);
     }
 
@@ -149,7 +149,7 @@ public class NMSDataWatcher extends NMSWrap {
          */
         @ReflectiveMethod(name = "b", types = {})
         public Object b(){
-            return new Object(NMSWrapper.getInstance().exec(nmsObject));
+            return NMSWrapper.getInstance().exec(nmsObject);
         }
 
         /**

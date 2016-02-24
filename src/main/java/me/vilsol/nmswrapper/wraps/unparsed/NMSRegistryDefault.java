@@ -11,16 +11,12 @@ public class NMSRegistryDefault extends NMSWrap {
         super(nmsObject);
     }
 
-    public NMSRegistryDefault(V v){
-        super("RegistryDefault", new Object[]{V.class}, new Object[]{v});
-    }
-
     /**
-     * @see net.minecraft.server.v1_8_R3.RegistryDefault#get(K)
+     * @see net.minecraft.server.v1_8_R3.RegistryDefault#get(Object)
      */
-    @ReflectiveMethod(name = "get", types = {K.class})
-    public V get(K k){
-        return new V(NMSWrapper.getInstance().exec(nmsObject, k));
+    @ReflectiveMethod(name = "get", types = {Object.class})
+    public Object get(Object k){
+        return NMSWrapper.getInstance().exec(nmsObject, k);
     }
 
 }

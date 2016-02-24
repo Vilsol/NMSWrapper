@@ -13,28 +13,28 @@ public class NMSRegistrySimple extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegistrySimple#a(K, V)
+     * @see net.minecraft.server.v1_8_R3.RegistrySimple#a(Object, Object)
      */
-    @ReflectiveMethod(name = "a", types = {K.class, V.class})
-    public void a(K k, V v){
+    @ReflectiveMethod(name = "a", types = {Object.class, Object.class})
+    public void a(Object k, Object v){
         NMSWrapper.getInstance().exec(nmsObject, k, v);
     }
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegistrySimple#d(K)
+     * @see net.minecraft.server.v1_8_R3.RegistrySimple#d(Object)
      */
-    @ReflectiveMethod(name = "d", types = {K.class})
-    public boolean d(K k){
+    @ReflectiveMethod(name = "d", types = {Object.class})
+    public boolean d(Object k){
         return (boolean) NMSWrapper.getInstance().exec(nmsObject, k);
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RegistrySimple#get(K)
+     * @see net.minecraft.server.v1_8_R3.RegistrySimple#get(Object)
      */
-    @ReflectiveMethod(name = "get", types = {K.class})
-    public V get(K k){
-        return new V(NMSWrapper.getInstance().exec(nmsObject, k));
+    @ReflectiveMethod(name = "get", types = {Object.class})
+    public Object get(Object k){
+        return NMSWrapper.getInstance().exec(nmsObject, k);
     }
 
 }

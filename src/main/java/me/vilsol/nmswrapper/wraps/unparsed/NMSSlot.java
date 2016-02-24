@@ -11,6 +11,10 @@ public class NMSSlot extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSSlot(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSSlot(NMSIInventory iInventory, int i, int i1, int i2){
         super("Slot", new Object[]{NMSIInventory.class, int.class, int.class, int.class}, new Object[]{iInventory, i, i1, i2});
     }

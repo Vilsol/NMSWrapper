@@ -59,7 +59,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
      */
     @ReflectiveMethod(name = "getDirectory", types = {})
     public File getDirectory(){
-        return new File(NMSWrapper.getInstance().exec(nmsObject));
+        return (File) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -75,7 +75,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
      */
     @ReflectiveMethod(name = "getPlayerDir", types = {})
     public File getPlayerDir(){
-        return new File(NMSWrapper.getInstance().exec(nmsObject));
+        return (File) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

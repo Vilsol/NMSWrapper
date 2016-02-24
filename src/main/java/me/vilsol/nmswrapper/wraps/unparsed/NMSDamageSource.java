@@ -14,6 +14,10 @@ public class NMSDamageSource extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSDamageSource(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     /**
      * TODO Find correct name
      * @see net.minecraft.server.v1_8_R3.DamageSource#a()

@@ -16,16 +16,16 @@ public class NMSLazyInitVar extends NMSWrap {
      * @see net.minecraft.server.v1_8_R3.LazyInitVar#c()
      */
     @ReflectiveMethod(name = "c", types = {})
-    public T c(){
-        return new T(NMSWrapper.getInstance().exec(nmsObject));
+    public Object c(){
+        return NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
      * @see net.minecraft.server.v1_8_R3.LazyInitVar#init()
      */
     @ReflectiveMethod(name = "init", types = {})
-    public T init(){
-        return new T(NMSWrapper.getInstance().exec(nmsObject));
+    public Object init(){
+        return NMSWrapper.getInstance().exec(nmsObject);
     }
 
 }

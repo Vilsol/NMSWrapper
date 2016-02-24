@@ -1,8 +1,10 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import org.bukkit.World;
+import org.bukkit.generator.ChunkGenerator;
 
 @ReflectiveClass(name = "SecondaryWorldServer")
 public class NMSSecondaryWorldServer extends NMSWorldServer {
@@ -11,8 +13,8 @@ public class NMSSecondaryWorldServer extends NMSWorldServer {
         super(nmsObject);
     }
 
-    public NMSSecondaryWorldServer(NMSMinecraftServer minecraftServer, NMSIDataManager iDataManager, int i, NMSWorldServer worldServer, NMSMethodProfiler methodProfiler, NMSWorldData worldData, Environment environment, ChunkGenerator chunkGenerator){
-        super("SecondaryWorldServer", new Object[]{NMSMinecraftServer.class, NMSIDataManager.class, int.class, NMSWorldServer.class, NMSMethodProfiler.class, NMSWorldData.class, Environment.class, ChunkGenerator.class}, new Object[]{minecraftServer, iDataManager, i, worldServer, methodProfiler, worldData, environment, chunkGenerator});
+    public NMSSecondaryWorldServer(NMSMinecraftServer minecraftServer, NMSIDataManager iDataManager, int i, NMSWorldServer worldServer, NMSMethodProfiler methodProfiler, NMSWorldData worldData, World.Environment environment, ChunkGenerator chunkGenerator){
+        super("SecondaryWorldServer", new Object[]{NMSMinecraftServer.class, NMSIDataManager.class, int.class, NMSWorldServer.class, NMSMethodProfiler.class, NMSWorldData.class, World.Environment.class, ChunkGenerator.class}, new Object[]{minecraftServer, iDataManager, i, worldServer, methodProfiler, worldData, environment, chunkGenerator});
     }
 
     /**

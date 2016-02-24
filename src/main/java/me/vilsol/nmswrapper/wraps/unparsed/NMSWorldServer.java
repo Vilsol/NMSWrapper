@@ -23,6 +23,10 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
         super("WorldServer", new Object[]{NMSMinecraftServer.class, NMSIDataManager.class, NMSWorldData.class, int.class, NMSMethodProfiler.class, World.Environment.class, ChunkGenerator.class}, new Object[]{minecraftServer, iDataManager, worldData, i, methodProfiler, environment, chunkGenerator});
     }
 
+    public NMSWorldServer(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     /**
      * TODO Find correct name
      * @see net.minecraft.server.v1_8_R3.WorldServer#a(net.minecraft.server.v1_8_R3.EnumParticle, boolean, double, double, double, int, double, double, double, double, int...)

@@ -7,6 +7,7 @@ import me.vilsol.nmswrapper.wraps.NMSNBTTagCompound;
 import me.vilsol.nmswrapper.wraps.NMSWorld;
 import me.vilsol.nmswrapper.wraps.NMSWrap;
 
+import java.util.List;
 import java.util.Random;
 
 @ReflectiveClass(name = "WorldGenNetherPieces")

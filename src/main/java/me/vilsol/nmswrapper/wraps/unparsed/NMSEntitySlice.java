@@ -12,10 +12,10 @@ public class NMSEntitySlice extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySlice#add(T)
+     * @see net.minecraft.server.v1_8_R3.EntitySlice#add(Object)
      */
-    @ReflectiveMethod(name = "add", types = {T.class})
-    public boolean add(T t){
+    @ReflectiveMethod(name = "add", types = {Object.class})
+    public boolean add(Object t){
         return (boolean) NMSWrapper.getInstance().exec(nmsObject, t);
     }
 

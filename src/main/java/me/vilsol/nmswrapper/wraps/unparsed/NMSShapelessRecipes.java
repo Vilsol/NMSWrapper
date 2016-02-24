@@ -1,8 +1,11 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSItemStack;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
+import org.bukkit.inventory.Recipe;
 
 @ReflectiveClass(name = "ShapelessRecipes")
 public class NMSShapelessRecipes extends NMSWrap implements NMSIRecipe {
@@ -34,7 +37,7 @@ public class NMSShapelessRecipes extends NMSWrap implements NMSIRecipe {
      */
     @ReflectiveMethod(name = "toBukkitRecipe", types = {})
     public Recipe toBukkitRecipe(){
-        return new Recipe(NMSWrapper.getInstance().exec(nmsObject));
+        return (Recipe) NMSWrapper.getInstance().exec(nmsObject);
     }
 
 }

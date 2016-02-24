@@ -1,11 +1,10 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
 
 @ReflectiveClass(name = "ChatMessageException")
-public class NMSChatMessageException extends IllegalArgumentException {
+public class NMSChatMessageException extends NMSWrap {
 
     public NMSChatMessageException(Object nmsObject){
         super(nmsObject);

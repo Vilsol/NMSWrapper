@@ -11,6 +11,10 @@ public class NMSEntityHanging extends NMSEntity {
         super(nmsObject);
     }
 
+    public NMSEntityHanging(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSEntityHanging(NMSWorld world){
         super("EntityHanging", new Object[]{NMSWorld.class}, new Object[]{world});
     }

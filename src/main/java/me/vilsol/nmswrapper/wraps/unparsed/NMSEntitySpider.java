@@ -14,6 +14,10 @@ public class NMSEntitySpider extends NMSEntityMonster {
         super(nmsObject);
     }
 
+    public NMSEntitySpider(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSEntitySpider(NMSWorld world){
         super("EntitySpider", new Object[]{NMSWorld.class}, new Object[]{world});
     }

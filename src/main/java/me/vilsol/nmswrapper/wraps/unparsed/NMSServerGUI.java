@@ -5,7 +5,7 @@ import me.vilsol.nmswrapper.reflections.*;
 import me.vilsol.nmswrapper.wraps.*;
 
 @ReflectiveClass(name = "ServerGUI")
-public class NMSServerGUI extends JComponent {
+public class NMSServerGUI extends NMSWrap {
 
     public NMSServerGUI(Object nmsObject){
         super(nmsObject);

@@ -11,8 +11,8 @@ public class NMSTuple extends NMSWrap {
         super(nmsObject);
     }
 
-    public NMSTuple(A a, B b){
-        super("Tuple", new Object[]{A.class, B.class}, new Object[]{a, b});
+    public NMSTuple(Object a, Object b){
+        super("Tuple", new Object[]{Object.class, Object.class}, new Object[]{a, b});
     }
 
     /**
@@ -20,8 +20,8 @@ public class NMSTuple extends NMSWrap {
      * @see net.minecraft.server.v1_8_R3.Tuple#a()
      */
     @ReflectiveMethod(name = "a", types = {})
-    public A a(){
-        return new A(NMSWrapper.getInstance().exec(nmsObject));
+    public Object a(){
+        return NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -29,8 +29,8 @@ public class NMSTuple extends NMSWrap {
      * @see net.minecraft.server.v1_8_R3.Tuple#b()
      */
     @ReflectiveMethod(name = "b", types = {})
-    public B b(){
-        return new B(NMSWrapper.getInstance().exec(nmsObject));
+    public Object b(){
+        return NMSWrapper.getInstance().exec(nmsObject);
     }
 
 }

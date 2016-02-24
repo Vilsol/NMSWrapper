@@ -25,8 +25,8 @@ public class NMSStatisticWrapper extends NMSWrap {
      * @see net.minecraft.server.v1_8_R3.StatisticWrapper#b()
      */
     @ReflectiveMethod(name = "b", types = {})
-    public T b(){
-        return new T(NMSWrapper.getInstance().exec(nmsObject));
+    public Object b(){
+        return NMSWrapper.getInstance().exec(nmsObject);
     }
 
 }

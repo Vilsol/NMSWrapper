@@ -11,6 +11,10 @@ public class NMSScoreboard extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSScoreboard(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     /**
      * TODO Find correct name
      * @see net.minecraft.server.v1_8_R3.Scoreboard#a(net.minecraft.server.v1_8_R3.Entity)

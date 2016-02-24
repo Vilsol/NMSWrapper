@@ -97,7 +97,7 @@ public class NMSServerPing extends NMSWrap {
          */
         @ReflectiveMethod(name = "a", types = {NMSServerData.class, Type.class, JsonSerializationContext.class})
         public JsonElement a(NMSServerData serverData, Type type, JsonSerializationContext jsonSerializationContext){
-            return new JsonElement(NMSWrapper.getInstance().exec(nmsObject, serverData, type, jsonSerializationContext));
+            return (JsonElement) NMSWrapper.getInstance().exec(nmsObject, serverData, type, jsonSerializationContext);
         }
 
         /**
@@ -105,33 +105,7 @@ public class NMSServerPing extends NMSWrap {
          */
         @ReflectiveMethod(name = "serialize", types = {Object.class, Type.class, JsonSerializationContext.class})
         public JsonElement serialize(Object object, Type type, JsonSerializationContext jsonSerializationContext){
-            return new JsonElement(NMSWrapper.getInstance().exec(nmsObject, object, type, jsonSerializationContext));
-        }
-
-    }
-
-    @ReflectiveClass(name = "Serializer")
-    public class NMSSerializer extends NMSWrap {
-
-        public NMSSerializer(Object nmsObject){
-            super(nmsObject);
-        }
-
-        /**
-         * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.ServerPing$Serializer#a(net.minecraft.server.v1_8_R3.ServerPing, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
-         */
-        @ReflectiveMethod(name = "a", types = {NMSServerPing.class, Type.class, JsonSerializationContext.class})
-        public JsonElement a(NMSServerPing serverPing, Type type, JsonSerializationContext jsonSerializationContext){
-            return new JsonElement(NMSWrapper.getInstance().exec(nmsObject, serverPing, type, jsonSerializationContext));
-        }
-
-        /**
-         * @see net.minecraft.server.v1_8_R3.ServerPing$Serializer#serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
-         */
-        @ReflectiveMethod(name = "serialize", types = {Object.class, Type.class, JsonSerializationContext.class})
-        public JsonElement serialize(Object object, Type type, JsonSerializationContext jsonSerializationContext){
-            return new JsonElement(NMSWrapper.getInstance().exec(nmsObject, object, type, jsonSerializationContext));
+            return (JsonElement) NMSWrapper.getInstance().exec(nmsObject, object, type, jsonSerializationContext);
         }
 
     }
@@ -194,32 +168,6 @@ public class NMSServerPing extends NMSWrap {
         @ReflectiveMethod(name = "b", types = {})
         public int b(){
             return (int) NMSWrapper.getInstance().exec(nmsObject);
-        }
-
-    }
-
-    @ReflectiveClass(name = "Serializer")
-    public class NMSSerializer extends NMSWrap {
-
-        public NMSSerializer(Object nmsObject){
-            super(nmsObject);
-        }
-
-        /**
-         * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.ServerPing$ServerPingPlayerSample$Serializer#a(net.minecraft.server.v1_8_R3.ServerPing$ServerPingPlayerSample, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
-         */
-        @ReflectiveMethod(name = "a", types = {NMSServerPingPlayerSample.class, Type.class, JsonSerializationContext.class})
-        public JsonElement a(NMSServerPingPlayerSample serverPingPlayerSample, Type type, JsonSerializationContext jsonSerializationContext){
-            return new JsonElement(NMSWrapper.getInstance().exec(nmsObject, serverPingPlayerSample, type, jsonSerializationContext));
-        }
-
-        /**
-         * @see net.minecraft.server.v1_8_R3.ServerPing$ServerPingPlayerSample$Serializer#serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
-         */
-        @ReflectiveMethod(name = "serialize", types = {Object.class, Type.class, JsonSerializationContext.class})
-        public JsonElement serialize(Object object, Type type, JsonSerializationContext jsonSerializationContext){
-            return new JsonElement(NMSWrapper.getInstance().exec(nmsObject, object, type, jsonSerializationContext));
         }
 
     }

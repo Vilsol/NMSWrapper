@@ -1,8 +1,10 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSItemStack;
+import org.bukkit.inventory.InventoryHolder;
 
 @ReflectiveClass(name = "EntityMinecartContainer")
 public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implements NMSITileInventory {
@@ -17,6 +19,10 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
 
     public NMSEntityMinecartContainer(NMSWorld world, double d, double d1, double d2){
         super("EntityMinecartContainer", new Object[]{NMSWorld.class, double.class, double.class, double.class}, new Object[]{world, d, d1, d2});
+    }
+
+    public NMSEntityMinecartContainer(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
     }
 
     /**

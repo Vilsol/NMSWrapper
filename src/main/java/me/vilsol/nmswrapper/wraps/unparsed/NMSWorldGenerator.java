@@ -1,14 +1,21 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
+
+import java.util.Random;
 
 @ReflectiveClass(name = "WorldGenerator")
 public class NMSWorldGenerator extends NMSWrap {
 
     public NMSWorldGenerator(Object nmsObject){
         super(nmsObject);
+    }
+
+    public NMSWorldGenerator(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
     }
 
     public NMSWorldGenerator(boolean b){

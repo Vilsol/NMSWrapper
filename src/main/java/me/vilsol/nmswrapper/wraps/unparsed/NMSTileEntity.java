@@ -1,14 +1,21 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSNBTTagCompound;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
+import org.bukkit.inventory.InventoryHolder;
 
 @ReflectiveClass(name = "TileEntity")
 public class NMSTileEntity extends NMSWrap {
 
     public NMSTileEntity(Object nmsObject){
         super(nmsObject);
+    }
+
+    public NMSTileEntity(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
     }
 
     /**
@@ -70,7 +77,7 @@ public class NMSTileEntity extends NMSWrap {
      */
     @ReflectiveMethod(name = "getOwner", types = {})
     public InventoryHolder getOwner(){
-        return new InventoryHolder(NMSWrapper.getInstance().exec(nmsObject));
+        return (InventoryHolder) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

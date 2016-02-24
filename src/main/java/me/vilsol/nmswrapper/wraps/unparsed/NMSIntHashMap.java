@@ -15,8 +15,8 @@ public class NMSIntHashMap extends NMSWrap {
      * TODO Find correct name
      * @see net.minecraft.server.v1_8_R3.IntHashMap#a(int, V)
      */
-    @ReflectiveMethod(name = "a", types = {int.class, V.class})
-    public void a(int i, V v){
+    @ReflectiveMethod(name = "a", types = {int.class, Object.class})
+    public void a(int i, Object v){
         NMSWrapper.getInstance().exec(nmsObject, i, v);
     }
 
@@ -43,8 +43,8 @@ public class NMSIntHashMap extends NMSWrap {
      * @see net.minecraft.server.v1_8_R3.IntHashMap#d(int)
      */
     @ReflectiveMethod(name = "d", types = {int.class})
-    public V d(int i){
-        return new V(NMSWrapper.getInstance().exec(nmsObject, i));
+    public Object d(int i){
+        return NMSWrapper.getInstance().exec(nmsObject, i);
     }
 
     /**
@@ -60,8 +60,8 @@ public class NMSIntHashMap extends NMSWrap {
      * @see net.minecraft.server.v1_8_R3.IntHashMap#get(int)
      */
     @ReflectiveMethod(name = "get", types = {int.class})
-    public V get(int i){
-        return new V(NMSWrapper.getInstance().exec(nmsObject, i));
+    public Object get(int i){
+        return NMSWrapper.getInstance().exec(nmsObject, i);
     }
 
 }

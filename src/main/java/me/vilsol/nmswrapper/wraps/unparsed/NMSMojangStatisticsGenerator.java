@@ -1,8 +1,11 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
+
+import java.util.Map;
 
 @ReflectiveClass(name = "MojangStatisticsGenerator")
 public class NMSMojangStatisticsGenerator extends NMSWrap {
@@ -30,7 +33,7 @@ public class NMSMojangStatisticsGenerator extends NMSWrap {
      */
     @ReflectiveMethod(name = "b", types = {NMSMojangStatisticsGenerator.class})
     public Object b(NMSMojangStatisticsGenerator mojangStatisticsGenerator){
-        return new Object(NMSWrapper.getInstance().exec(nmsObject, mojangStatisticsGenerator));
+        return NMSWrapper.getInstance().exec(nmsObject, mojangStatisticsGenerator);
     }
 
     /**
@@ -39,7 +42,7 @@ public class NMSMojangStatisticsGenerator extends NMSWrap {
      */
     @ReflectiveMethod(name = "c", types = {NMSMojangStatisticsGenerator.class})
     public Map c(NMSMojangStatisticsGenerator mojangStatisticsGenerator){
-        return new Map(NMSWrapper.getInstance().exec(nmsObject, mojangStatisticsGenerator));
+        return (Map) NMSWrapper.getInstance().exec(nmsObject, mojangStatisticsGenerator);
     }
 
     /**

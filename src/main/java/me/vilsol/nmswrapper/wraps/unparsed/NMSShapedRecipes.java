@@ -37,7 +37,7 @@ public class NMSShapedRecipes extends NMSWrap implements NMSIRecipe {
      */
     @ReflectiveMethod(name = "toBukkitRecipe", types = {})
     public Recipe toBukkitRecipe(){
-        return new Recipe(NMSWrapper.getInstance().exec(nmsObject));
+        return (Recipe) NMSWrapper.getInstance().exec(nmsObject);
     }
 
 }

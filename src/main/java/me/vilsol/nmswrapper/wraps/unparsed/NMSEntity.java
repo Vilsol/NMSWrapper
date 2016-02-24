@@ -7,6 +7,7 @@ import me.vilsol.nmswrapper.wraps.NMSCraftEntity;
 import me.vilsol.nmswrapper.wraps.NMSItemStack;
 import me.vilsol.nmswrapper.wraps.NMSNBTTagCompound;
 import me.vilsol.nmswrapper.wraps.NMSWrap;
+import org.bukkit.Location;
 
 import java.util.UUID;
 
@@ -653,7 +654,7 @@ public class NMSEntity extends NMSWrap implements NMSICommandListener {
      */
     @ReflectiveMethod(name = "getUniqueID", types = {})
     public UUID getUniqueID(){
-        return new UUID(NMSWrapper.getInstance().exec(nmsObject));
+        return (UUID) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

@@ -11,6 +11,10 @@ public class NMSItemBlock extends NMSItem {
         super(nmsObject);
     }
 
+    public NMSItemBlock(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSItemBlock(NMSBlock block){
         super("ItemBlock", new Object[]{NMSBlock.class}, new Object[]{block});
     }

@@ -1,8 +1,12 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSItemStack;
+import me.vilsol.nmswrapper.wraps.NMSNBTTagList;
+
+import java.util.Random;
 
 @ReflectiveClass(name = "ItemEnchantedBook")
 public class NMSItemEnchantedBook extends NMSItem {

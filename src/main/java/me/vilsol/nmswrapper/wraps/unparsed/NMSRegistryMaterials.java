@@ -16,43 +16,43 @@ public class NMSRegistryMaterials extends NMSWrap {
      * @see net.minecraft.server.v1_8_R3.RegistryMaterials#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
-    public V a(int i){
-        return new V(NMSWrapper.getInstance().exec(nmsObject, i));
+    public Object a(int i){
+        return NMSWrapper.getInstance().exec(nmsObject, i);
     }
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegistryMaterials#b(V)
+     * @see net.minecraft.server.v1_8_R3.RegistryMaterials#b(Object)
      */
-    @ReflectiveMethod(name = "b", types = {V.class})
-    public int b(V v){
+    @ReflectiveMethod(name = "b", types = {Object.class})
+    public int b(Object v){
         return (int) NMSWrapper.getInstance().exec(nmsObject, v);
     }
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegistryMaterials#c(V)
+     * @see net.minecraft.server.v1_8_R3.RegistryMaterials#c(Object)
      */
-    @ReflectiveMethod(name = "c", types = {V.class})
-    public K c(V v){
-        return new K(NMSWrapper.getInstance().exec(nmsObject, v));
+    @ReflectiveMethod(name = "c", types = {Object.class})
+    public Object c(Object v){
+        return NMSWrapper.getInstance().exec(nmsObject, v);
     }
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegistryMaterials#d(K)
+     * @see net.minecraft.server.v1_8_R3.RegistryMaterials#d(Object)
      */
-    @ReflectiveMethod(name = "d", types = {K.class})
-    public boolean d(K k){
+    @ReflectiveMethod(name = "d", types = {Object.class})
+    public boolean d(Object k){
         return (boolean) NMSWrapper.getInstance().exec(nmsObject, k);
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RegistryMaterials#get(K)
+     * @see net.minecraft.server.v1_8_R3.RegistryMaterials#get(Object)
      */
-    @ReflectiveMethod(name = "get", types = {K.class})
-    public V get(K k){
-        return new V(NMSWrapper.getInstance().exec(nmsObject, k));
+    @ReflectiveMethod(name = "get", types = {Object.class})
+    public Object get(Object k){
+        return NMSWrapper.getInstance().exec(nmsObject, k);
     }
 
 }

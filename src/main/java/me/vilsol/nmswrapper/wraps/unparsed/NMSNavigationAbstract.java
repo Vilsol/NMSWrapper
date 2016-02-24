@@ -11,6 +11,10 @@ public class NMSNavigationAbstract extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSNavigationAbstract(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSNavigationAbstract(NMSEntityInsentient entityInsentient, NMSWorld world){
         super("NavigationAbstract", new Object[]{NMSEntityInsentient.class, NMSWorld.class}, new Object[]{entityInsentient, world});
     }

@@ -36,8 +36,8 @@ public class NMSSourceBlock extends NMSWrap implements NMSISourceBlock {
      * @see net.minecraft.server.v1_8_R3.SourceBlock#getTileEntity()
      */
     @ReflectiveMethod(name = "getTileEntity", types = {})
-    public T getTileEntity(){
-        return new T(NMSWrapper.getInstance().exec(nmsObject));
+    public Object getTileEntity(){
+        return NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

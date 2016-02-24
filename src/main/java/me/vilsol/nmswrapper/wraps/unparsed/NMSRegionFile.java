@@ -1,8 +1,13 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.File;
 
 @ReflectiveClass(name = "RegionFile")
 public class NMSRegionFile extends NMSWrap {
@@ -21,7 +26,7 @@ public class NMSRegionFile extends NMSWrap {
      */
     @ReflectiveMethod(name = "a", types = {int.class, int.class})
     public DataInputStream a(int i, int i1){
-        return new DataInputStream(NMSWrapper.getInstance().exec(nmsObject, i, i1));
+        return (DataInputStream) NMSWrapper.getInstance().exec(nmsObject, i, i1);
     }
 
     /**
@@ -30,7 +35,7 @@ public class NMSRegionFile extends NMSWrap {
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public DataOutputStream b(int i, int i1){
-        return new DataOutputStream(NMSWrapper.getInstance().exec(nmsObject, i, i1));
+        return (DataOutputStream) NMSWrapper.getInstance().exec(nmsObject, i, i1);
     }
 
     /**

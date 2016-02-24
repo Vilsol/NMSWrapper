@@ -19,6 +19,10 @@ public class NMSStatistic extends NMSWrap {
         super("Statistic", new Object[]{String.class, NMSIChatBaseComponent.class}, new Object[]{s, iChatBaseComponent});
     }
 
+    public NMSStatistic(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     /**
      * TODO Find correct name
      * @see net.minecraft.server.v1_8_R3.Statistic#d()

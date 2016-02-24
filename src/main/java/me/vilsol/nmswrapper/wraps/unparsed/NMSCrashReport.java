@@ -30,7 +30,7 @@ public class NMSCrashReport extends NMSWrap {
      */
     @ReflectiveMethod(name = "b", types = {})
     public Throwable b(){
-        return new Throwable(NMSWrapper.getInstance().exec(nmsObject));
+        return (Throwable) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

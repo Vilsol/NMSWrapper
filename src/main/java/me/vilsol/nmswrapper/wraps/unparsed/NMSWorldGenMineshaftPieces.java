@@ -7,6 +7,7 @@ import me.vilsol.nmswrapper.wraps.NMSNBTTagCompound;
 import me.vilsol.nmswrapper.wraps.NMSWorld;
 import me.vilsol.nmswrapper.wraps.NMSWrap;
 
+import java.util.List;
 import java.util.Random;
 
 @ReflectiveClass(name = "WorldGenMineshaftPieces")
@@ -31,7 +32,7 @@ public class NMSWorldGenMineshaftPieces extends NMSWrap {
      */
     @ReflectiveMethod(name = "b", types = {})
     public List b(){
-        return new List(NMSWrapper.getInstance().exec(nmsObject));
+        return (List) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     @ReflectiveClass(name = "WorldGenMineshaftCorridor")

@@ -5,11 +5,12 @@ import io.netty.channel.SimpleChannelInboundHandler;
 import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
 
 import java.net.SocketAddress;
 
 @ReflectiveClass(name = "NetworkManager")
-public class NMSNetworkManager extends SimpleChannelInboundHandler {
+public class NMSNetworkManager extends NMSWrap {
 
     public NMSNetworkManager(Object nmsObject){
         super(nmsObject);

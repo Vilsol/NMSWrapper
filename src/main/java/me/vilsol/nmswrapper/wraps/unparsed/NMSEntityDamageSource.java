@@ -2,7 +2,6 @@ package me.vilsol.nmswrapper.wraps.unparsed;
 
 import me.vilsol.nmswrapper.*;
 import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
 
 @ReflectiveClass(name = "EntityDamageSource")
 public class NMSEntityDamageSource extends NMSDamageSource {
@@ -13,6 +12,10 @@ public class NMSEntityDamageSource extends NMSDamageSource {
 
     public NMSEntityDamageSource(String s, NMSEntity entity){
         super("EntityDamageSource", new Object[]{String.class, NMSEntity.class}, new Object[]{s, entity});
+    }
+
+    public NMSEntityDamageSource(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
     }
 
     /**

@@ -19,8 +19,8 @@ public class NMSExpirableListEntry extends NMSWrap {
         super(nmsName, paramTypes, params);
     }
 
-    public NMSExpirableListEntry(T t, Date date, String s, Date date1, String s1){
-        super("ExpirableListEntry", new Object[]{T.class, Date.class, String.class, Date.class, String.class}, new Object[]{t, date, s, date1, s1});
+    public NMSExpirableListEntry(Object t, Date date, String s, Date date1, String s1){
+        super("ExpirableListEntry", new Object[]{Object.class, Date.class, String.class, Date.class, String.class}, new Object[]{t, date, s, date1, s1});
     }
 
     /**
@@ -37,7 +37,7 @@ public class NMSExpirableListEntry extends NMSWrap {
      */
     @ReflectiveMethod(name = "getCreated", types = {})
     public Date getCreated(){
-        return new Date(NMSWrapper.getInstance().exec(nmsObject));
+        return (Date) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -45,7 +45,7 @@ public class NMSExpirableListEntry extends NMSWrap {
      */
     @ReflectiveMethod(name = "getExpires", types = {})
     public Date getExpires(){
-        return new Date(NMSWrapper.getInstance().exec(nmsObject));
+        return (Date) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

@@ -13,6 +13,14 @@ public class NMSWorld extends NMSWrap {
         super(Reflection.executeMethod(world, "getHandle", new Object[]{}, new Object[]{}));
     }
 
+    public NMSWorld(Object nmsObject) {
+        super(nmsObject);
+    }
+
+    public NMSWorld(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     @ReflectiveMethod(name = "getGameRules")
     public NMSGameRules getGameRules(){
         return new NMSGameRules(NMSWrapper.getInstance().exec(nmsObject));

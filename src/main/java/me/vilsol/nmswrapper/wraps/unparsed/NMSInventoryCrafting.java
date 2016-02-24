@@ -104,7 +104,7 @@ public class NMSInventoryCrafting extends NMSWrap implements NMSIInventory {
      */
     @ReflectiveMethod(name = "getOwner", types = {})
     public InventoryHolder getOwner(){
-        return new InventoryHolder(NMSWrapper.getInstance().exec(nmsObject));
+        return (InventoryHolder) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

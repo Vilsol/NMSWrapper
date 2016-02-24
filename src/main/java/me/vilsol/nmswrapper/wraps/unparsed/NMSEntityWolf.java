@@ -3,10 +3,11 @@ package me.vilsol.nmswrapper.wraps.unparsed;
 import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
-import me.vilsol.nmswrapper.wraps.NMSItemStack;
-import me.vilsol.nmswrapper.wraps.NMSWorld;
 import me.vilsol.nmswrapper.wraps.NMSEntity;
 import me.vilsol.nmswrapper.wraps.NMSEntityLiving;
+import me.vilsol.nmswrapper.wraps.NMSItemStack;
+import me.vilsol.nmswrapper.wraps.NMSWorld;
+import org.bukkit.event.entity.EntityTargetEvent;
 
 @ReflectiveClass(name = "EntityWolf")
 public class NMSEntityWolf extends NMSEntityTameableAnimal {
@@ -245,8 +246,8 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
     /**
      * @see net.minecraft.server.v1_8_R3.EntityWolf#setGoalTarget(net.minecraft.server.v1_8_R3.EntityLiving, org.bukkit.event.entity.EntityTargetEvent$TargetReason, boolean)
      */
-    @ReflectiveMethod(name = "setGoalTarget", types = {NMSEntityLiving.class, TargetReason.class, boolean.class})
-    public void setGoalTarget(NMSEntityLiving entityLiving, TargetReason targetReason, boolean b){
+    @ReflectiveMethod(name = "setGoalTarget", types = {NMSEntityLiving.class, EntityTargetEvent.TargetReason.class, boolean.class})
+    public void setGoalTarget(NMSEntityLiving entityLiving, EntityTargetEvent.TargetReason targetReason, boolean b){
         NMSWrapper.getInstance().exec(nmsObject, entityLiving, targetReason, b);
     }
 

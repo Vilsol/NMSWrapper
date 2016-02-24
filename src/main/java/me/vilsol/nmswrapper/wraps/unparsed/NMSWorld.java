@@ -1,8 +1,13 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSEnumParticle;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
+import org.bukkit.event.entity.CreatureSpawnEvent;
+
+import java.util.Calendar;
 
 @ReflectiveClass(name = "World")
 public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
@@ -125,7 +130,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
      */
     @ReflectiveMethod(name = "Y", types = {})
     public Calendar Y(){
-        return new Calendar(NMSWrapper.getInstance().exec(nmsObject));
+        return (Calendar) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -158,8 +163,8 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     /**
      * @see net.minecraft.server.v1_8_R3.World#addEntity(net.minecraft.server.v1_8_R3.Entity, org.bukkit.event.entity.CreatureSpawnEvent$SpawnReason)
      */
-    @ReflectiveMethod(name = "addEntity", types = {NMSEntity.class, SpawnReason.class})
-    public boolean addEntity(NMSEntity entity, SpawnReason spawnReason){
+    @ReflectiveMethod(name = "addEntity", types = {NMSEntity.class, CreatureSpawnEvent.SpawnReason.class})
+    public boolean addEntity(NMSEntity entity, CreatureSpawnEvent.SpawnReason spawnReason){
         return (boolean) NMSWrapper.getInstance().exec(nmsObject, entity, spawnReason);
     }
 

@@ -11,25 +11,21 @@ public class NMSRegistryBlocks extends NMSWrap {
         super(nmsObject);
     }
 
-    public NMSRegistryBlocks(K k){
-        super("RegistryBlocks", new Object[]{K.class}, new Object[]{k});
-    }
-
     /**
      * TODO Find correct name
      * @see net.minecraft.server.v1_8_R3.RegistryBlocks#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
-    public V a(int i){
-        return new V(NMSWrapper.getInstance().exec(nmsObject, i));
+    public Object a(int i){
+        return NMSWrapper.getInstance().exec(nmsObject, i);
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RegistryBlocks#get(K)
+     * @see net.minecraft.server.v1_8_R3.RegistryBlocks#get(Object)
      */
-    @ReflectiveMethod(name = "get", types = {K.class})
-    public V get(K k){
-        return new V(NMSWrapper.getInstance().exec(nmsObject, k));
+    @ReflectiveMethod(name = "get", types = {Object.class})
+    public Object get(Object k){
+        return NMSWrapper.getInstance().exec(nmsObject, k);
     }
 
 }

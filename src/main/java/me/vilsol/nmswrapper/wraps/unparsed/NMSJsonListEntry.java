@@ -13,6 +13,10 @@ public class NMSJsonListEntry extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSJsonListEntry(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     /**
      * TODO Find correct name
      * @see net.minecraft.server.v1_8_R3.JsonListEntry#a(com.google.gson.JsonObject)

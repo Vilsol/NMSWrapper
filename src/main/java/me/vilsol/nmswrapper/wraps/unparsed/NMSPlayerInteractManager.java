@@ -14,6 +14,10 @@ public class NMSPlayerInteractManager extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSPlayerInteractManager(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSPlayerInteractManager(NMSWorld world){
         super("PlayerInteractManager", new Object[]{NMSWorld.class}, new Object[]{world});
     }

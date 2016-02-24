@@ -1,14 +1,23 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import com.mojang.authlib.GameProfile;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSCraftEntity;
+import me.vilsol.nmswrapper.wraps.NMSItemStack;
+
+import java.util.UUID;
 
 @ReflectiveClass(name = "EntityHuman")
 public class NMSEntityHuman extends NMSEntityLiving {
 
     public NMSEntityHuman(Object nmsObject){
         super(nmsObject);
+    }
+
+    public NMSEntityHuman(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
     }
 
     public NMSEntityHuman(NMSWorld world, GameProfile gameProfile){
@@ -475,7 +484,7 @@ public class NMSEntityHuman extends NMSEntityLiving {
      */
     @ReflectiveMethod(name = "getProfile", types = {})
     public GameProfile getProfile(){
-        return new GameProfile(NMSWrapper.getInstance().exec(nmsObject));
+        return (GameProfile) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

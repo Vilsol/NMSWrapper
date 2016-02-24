@@ -5,9 +5,10 @@ import com.mojang.authlib.GameProfile;
 import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
 
 @ReflectiveClass(name = "OpListEntry")
-public class NMSOpListEntry extends NMSJsonListEntry {
+public class NMSOpListEntry extends NMSWrap {
 
     public NMSOpListEntry(Object nmsObject){
         super(nmsObject);

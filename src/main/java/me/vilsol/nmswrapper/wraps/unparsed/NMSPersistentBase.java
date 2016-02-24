@@ -11,6 +11,10 @@ public class NMSPersistentBase extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSPersistentBase(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSPersistentBase(String s){
         super("PersistentBase", new Object[]{String.class}, new Object[]{s});
     }

@@ -1,14 +1,18 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 
 @ReflectiveClass(name = "WorldGenTreeAbstract")
 public class NMSWorldGenTreeAbstract extends NMSWorldGenerator {
 
     public NMSWorldGenTreeAbstract(Object nmsObject){
         super(nmsObject);
+    }
+
+    public NMSWorldGenTreeAbstract(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
     }
 
     public NMSWorldGenTreeAbstract(boolean b){

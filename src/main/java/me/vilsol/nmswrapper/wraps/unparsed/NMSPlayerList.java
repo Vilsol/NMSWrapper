@@ -7,6 +7,7 @@ import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 import me.vilsol.nmswrapper.wraps.NMSNBTTagCompound;
 import me.vilsol.nmswrapper.wraps.NMSWrap;
 import org.bukkit.Location;
+import org.bukkit.event.player.PlayerTeleportEvent;
 
 import java.util.UUID;
 
@@ -68,14 +69,14 @@ public class NMSPlayerList extends NMSWrap {
      */
     @ReflectiveMethod(name = "calculateTarget", types = {Location.class, NMSWorld.class})
     public Location calculateTarget(Location location, NMSWorld world){
-        return new Location(NMSWrapper.getInstance().exec(nmsObject, location, world));
+        return (Location) NMSWrapper.getInstance().exec(nmsObject, location, world);
     }
 
     /**
      * @see net.minecraft.server.v1_8_R3.PlayerList#changeDimension(net.minecraft.server.v1_8_R3.EntityPlayer, int, org.bukkit.event.player.PlayerTeleportEvent$TeleportCause)
      */
-    @ReflectiveMethod(name = "changeDimension", types = {NMSEntityPlayer.class, int.class, TeleportCause.class})
-    public void changeDimension(NMSEntityPlayer entityPlayer, int i, TeleportCause teleportCause){
+    @ReflectiveMethod(name = "changeDimension", types = {NMSEntityPlayer.class, int.class, PlayerTeleportEvent.TeleportCause.class})
+    public void changeDimension(NMSEntityPlayer entityPlayer, int i, PlayerTeleportEvent.TeleportCause teleportCause){
         NMSWrapper.getInstance().exec(nmsObject, entityPlayer, i, teleportCause);
     }
 

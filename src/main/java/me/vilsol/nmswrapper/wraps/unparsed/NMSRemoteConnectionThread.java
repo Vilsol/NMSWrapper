@@ -14,6 +14,10 @@ public class NMSRemoteConnectionThread extends NMSWrap implements Runnable {
         super(nmsObject);
     }
 
+    public NMSRemoteConnectionThread(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     /**
      * TODO Find correct name
      * @see net.minecraft.server.v1_8_R3.RemoteConnectionThread#a(boolean)

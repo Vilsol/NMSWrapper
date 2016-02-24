@@ -329,6 +329,10 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
             super(nmsObject);
         }
 
+        public NMSWorldGenStrongholdStairs2(String nmsName, Object[] paramTypes, Object[] params) {
+            super(nmsName, paramTypes, params);
+        }
+
         public NMSWorldGenStrongholdStairs2(int i, Random random, int i1, int i2){
             super("WorldGenStrongholdStairs2", new Object[]{int.class, Random.class, int.class, int.class}, new Object[]{i, random, i1, i2});
         }

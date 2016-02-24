@@ -13,6 +13,10 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
         super(nmsObject);
     }
 
+    public NMSEntityMinecartAbstract(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSEntityMinecartAbstract(NMSWorld world){
         super("EntityMinecartAbstract", new Object[]{NMSWorld.class}, new Object[]{world});
     }
@@ -128,7 +132,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
      */
     @ReflectiveMethod(name = "getDerailedVelocityMod", types = {})
     public Vector getDerailedVelocityMod(){
-        return new Vector(NMSWrapper.getInstance().exec(nmsObject));
+        return (Vector) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -152,7 +156,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
      */
     @ReflectiveMethod(name = "getFlyingVelocityMod", types = {})
     public Vector getFlyingVelocityMod(){
-        return new Vector(NMSWrapper.getInstance().exec(nmsObject));
+        return NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
