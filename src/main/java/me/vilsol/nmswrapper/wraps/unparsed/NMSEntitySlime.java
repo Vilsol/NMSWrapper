@@ -11,6 +11,10 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
         super(nmsObject);
     }
 
+    public NMSEntitySlime(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSEntitySlime(NMSWorld world){
         super("EntitySlime", new Object[]{NMSWorld.class}, new Object[]{world});
     }

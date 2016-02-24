@@ -11,6 +11,10 @@ public class NMSAttributeBase extends NMSWrap implements NMSIAttribute {
         super(nmsObject);
     }
 
+    public NMSAttributeBase(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     /**
      * TODO Find correct name
      * @see net.minecraft.server.v1_8_R3.AttributeBase#a(boolean)

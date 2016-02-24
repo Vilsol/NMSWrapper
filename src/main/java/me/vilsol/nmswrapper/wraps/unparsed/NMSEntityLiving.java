@@ -295,7 +295,7 @@ public class NMSEntityLiving extends NMSEntity {
      */
     @ReflectiveMethod(name = "bc", types = {})
     public Random bc(){
-        return new Random(NMSWrapper.getInstance().exec(nmsObject));
+        return (Random) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

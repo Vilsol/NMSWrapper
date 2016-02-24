@@ -11,6 +11,10 @@ public class NMSBlockHalfTransparent extends NMSBlock {
         super(nmsObject);
     }
 
+    public NMSBlockHalfTransparent(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     /**
      * TODO Find correct name
      * @see net.minecraft.server.v1_8_R3.BlockHalfTransparent#c()

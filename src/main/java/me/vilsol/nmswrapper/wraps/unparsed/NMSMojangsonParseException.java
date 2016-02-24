@@ -1,11 +1,10 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
 
 @ReflectiveClass(name = "MojangsonParseException")
-public class NMSMojangsonParseException extends Exception {
+public class NMSMojangsonParseException extends NMSWrap {
 
     public NMSMojangsonParseException(Object nmsObject){
         super(nmsObject);

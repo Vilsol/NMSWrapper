@@ -51,7 +51,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
      */
     @ReflectiveMethod(name = "getDataFile", types = {String.class})
     public File getDataFile(String s){
-        return new File(NMSWrapper.getInstance().exec(nmsObject, s));
+        return (File) NMSWrapper.getInstance().exec(nmsObject, s);
     }
 
     /**
@@ -91,7 +91,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
      */
     @ReflectiveMethod(name = "getUUID", types = {})
     public UUID getUUID(){
-        return new UUID(NMSWrapper.getInstance().exec(nmsObject));
+        return (UUID) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

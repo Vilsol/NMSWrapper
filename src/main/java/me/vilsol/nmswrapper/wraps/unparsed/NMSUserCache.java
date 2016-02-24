@@ -27,7 +27,7 @@ public class NMSUserCache extends NMSWrap {
      */
     @ReflectiveMethod(name = "a", types = {UUID.class})
     public GameProfile a(UUID uUID){
-        return new GameProfile(NMSWrapper.getInstance().exec(nmsObject, uUID));
+        return (GameProfile) NMSWrapper.getInstance().exec(nmsObject, uUID);
     }
 
     /**
@@ -53,7 +53,7 @@ public class NMSUserCache extends NMSWrap {
      */
     @ReflectiveMethod(name = "getProfile", types = {String.class})
     public GameProfile getProfile(String s){
-        return new GameProfile(NMSWrapper.getInstance().exec(nmsObject, s));
+        return (GameProfile) NMSWrapper.getInstance().exec(nmsObject, s);
     }
 
 }

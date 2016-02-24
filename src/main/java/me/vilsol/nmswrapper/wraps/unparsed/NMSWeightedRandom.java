@@ -1,8 +1,7 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
 
 @ReflectiveClass(name = "WeightedRandom")
 public class NMSWeightedRandom extends NMSWrap {
@@ -16,6 +15,10 @@ public class NMSWeightedRandom extends NMSWrap {
 
         public NMSWeightedRandomChoice(Object nmsObject){
             super(nmsObject);
+        }
+
+        public NMSWeightedRandomChoice(String nmsName, Object[] paramTypes, Object[] params) {
+            super(nmsName, paramTypes, params);
         }
 
         public NMSWeightedRandomChoice(int i){

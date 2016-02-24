@@ -16,16 +16,16 @@ public class NMSRegistryID extends NMSWrap {
      * @see net.minecraft.server.v1_8_R3.RegistryID#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
-    public T a(int i){
-        return new T(NMSWrapper.getInstance().exec(nmsObject, i));
+    public Object a(int i){
+        return NMSWrapper.getInstance().exec(nmsObject, i);
     }
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegistryID#b(T)
+     * @see net.minecraft.server.v1_8_R3.RegistryID#b(Object)
      */
-    @ReflectiveMethod(name = "b", types = {T.class})
-    public int b(T t){
+    @ReflectiveMethod(name = "b", types = {Object.class})
+    public int b(Object t){
         return (int) NMSWrapper.getInstance().exec(nmsObject, t);
     }
 

@@ -24,7 +24,7 @@ public class NMSLoginListener extends NMSWrap implements NMSIUpdatePlayerListBox
      */
     @ReflectiveMethod(name = "a", types = {GameProfile.class})
     public GameProfile a(GameProfile gameProfile){
-        return new GameProfile(NMSWrapper.getInstance().exec(nmsObject, gameProfile));
+        return (GameProfile) NMSWrapper.getInstance().exec(nmsObject, gameProfile);
     }
 
     /**

@@ -14,6 +14,10 @@ public class NMSWorldLoader extends NMSWrap implements NMSConvertable {
         super(nmsObject);
     }
 
+    public NMSWorldLoader(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSWorldLoader(File file){
         super("WorldLoader", new Object[]{File.class}, new Object[]{file});
     }

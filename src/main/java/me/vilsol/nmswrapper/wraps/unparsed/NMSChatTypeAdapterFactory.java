@@ -5,7 +5,7 @@ import me.vilsol.nmswrapper.reflections.*;
 import me.vilsol.nmswrapper.wraps.*;
 
 @ReflectiveClass(name = "ChatTypeAdapterFactory")
-public class NMSChatTypeAdapterFactory extends NMSWrap implements TypeAdapterFactory {
+public class NMSChatTypeAdapterFactory extends NMSWrap {
 
     public NMSChatTypeAdapterFactory(Object nmsObject){
         super(nmsObject);

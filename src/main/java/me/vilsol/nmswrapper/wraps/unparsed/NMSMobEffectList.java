@@ -4,14 +4,16 @@ import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 import me.vilsol.nmswrapper.wraps.NMSWrap;
-import me.vilsol.nmswrapper.wraps.NMSEntity;
-import me.vilsol.nmswrapper.wraps.NMSEntityLiving;
 
 @ReflectiveClass(name = "MobEffectList")
 public class NMSMobEffectList extends NMSWrap {
 
     public NMSMobEffectList(Object nmsObject){
         super(nmsObject);
+    }
+
+    public NMSMobEffectList(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
     }
 
     /**

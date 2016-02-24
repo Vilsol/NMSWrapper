@@ -3,13 +3,16 @@ package me.vilsol.nmswrapper.wraps.unparsed;
 import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
-import me.vilsol.nmswrapper.wraps.NMSEntity;
 
 @ReflectiveClass(name = "BlockPosition")
 public class NMSBlockPosition extends NMSBaseBlockPosition {
 
     public NMSBlockPosition(Object nmsObject){
         super(nmsObject);
+    }
+
+    public NMSBlockPosition(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
     }
 
     public NMSBlockPosition(int i, int i1, int i2){

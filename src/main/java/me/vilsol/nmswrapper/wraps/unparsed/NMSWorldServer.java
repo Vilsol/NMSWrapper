@@ -5,7 +5,6 @@ import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 import me.vilsol.nmswrapper.wraps.NMSEnumParticle;
 import me.vilsol.nmswrapper.wraps.NMSMinecraftServer;
-import me.vilsol.nmswrapper.wraps.NMSEntity;
 import me.vilsol.nmswrapper.wraps.NMSWorld;
 import org.bukkit.World;
 import org.bukkit.generator.ChunkGenerator;

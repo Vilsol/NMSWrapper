@@ -3,9 +3,10 @@ package me.vilsol.nmswrapper.wraps;
 import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveField;
+import me.vilsol.nmswrapper.wraps.unparsed.NMSEntity;
 
 @ReflectiveClass(name = "EntityInsentient")
-public class NMSEntityInsentient extends NMSEntityLiving {
+public class NMSEntityInsentient extends NMSEntity {
 
     public NMSEntityInsentient(Object nmsObject) {
         super(nmsObject);

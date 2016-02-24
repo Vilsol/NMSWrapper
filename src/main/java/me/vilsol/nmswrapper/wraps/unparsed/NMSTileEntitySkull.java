@@ -36,7 +36,7 @@ public class NMSTileEntitySkull extends NMSTileEntity {
      */
     @ReflectiveMethod(name = "getGameProfile", types = {})
     public GameProfile getGameProfile(){
-        return new GameProfile(NMSWrapper.getInstance().exec(nmsObject));
+        return (GameProfile) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

@@ -11,6 +11,10 @@ public class NMSStructurePiece extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSStructurePiece(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     /**
      * TODO Find correct name
      * @see net.minecraft.server.v1_8_R3.StructurePiece#a(int, int, int)

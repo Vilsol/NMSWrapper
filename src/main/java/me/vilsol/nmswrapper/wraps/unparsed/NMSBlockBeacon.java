@@ -4,7 +4,6 @@ import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 import me.vilsol.nmswrapper.wraps.NMSItemStack;
-import me.vilsol.nmswrapper.wraps.NMSEntityLiving;
 import me.vilsol.nmswrapper.wraps.NMSWorld;
 
 @ReflectiveClass(name = "BlockBeacon")

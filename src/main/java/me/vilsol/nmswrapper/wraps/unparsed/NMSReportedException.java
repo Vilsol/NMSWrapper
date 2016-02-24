@@ -5,7 +5,7 @@ import me.vilsol.nmswrapper.reflections.*;
 import me.vilsol.nmswrapper.wraps.*;
 
 @ReflectiveClass(name = "ReportedException")
-public class NMSReportedException extends RuntimeException {
+public class NMSReportedException extends NMSWrap {
 
     public NMSReportedException(Object nmsObject){
         super(nmsObject);
@@ -29,7 +29,7 @@ public class NMSReportedException extends RuntimeException {
      */
     @ReflectiveMethod(name = "getCause", types = {})
     public Throwable getCause(){
-        return new Throwable(NMSWrapper.getInstance().exec(nmsObject));
+        return (Throwable) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

@@ -11,6 +11,10 @@ public class NMSEntityZombie extends NMSEntityMonster {
         super(nmsObject);
     }
 
+    public NMSEntityZombie(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSEntityZombie(NMSWorld world){
         super("EntityZombie", new Object[]{NMSWorld.class}, new Object[]{world});
     }

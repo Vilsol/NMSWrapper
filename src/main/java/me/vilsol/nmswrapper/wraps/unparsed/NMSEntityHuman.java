@@ -4,7 +4,6 @@ import com.mojang.authlib.GameProfile;
 import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
-import me.vilsol.nmswrapper.wraps.NMSCraftEntity;
 import me.vilsol.nmswrapper.wraps.NMSItemStack;
 
 import java.util.UUID;
@@ -152,7 +151,7 @@ public class NMSEntityHuman extends NMSEntityLiving {
      */
     @ReflectiveMethod(name = "b", types = {String.class})
     public UUID b(String s){
-        return new UUID(NMSWrapper.getInstance().exec(nmsObject, s));
+        return (UUID) NMSWrapper.getInstance().exec(nmsObject, s);
     }
 
     /**

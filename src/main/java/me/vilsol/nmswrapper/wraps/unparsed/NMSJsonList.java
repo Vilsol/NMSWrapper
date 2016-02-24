@@ -45,7 +45,7 @@ public class NMSJsonList extends NMSWrap {
      */
     @ReflectiveMethod(name = "c", types = {})
     public File c(){
-        return new File(NMSWrapper.getInstance().exec(nmsObject));
+        return (File) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -62,7 +62,7 @@ public class NMSJsonList extends NMSWrap {
      */
     @ReflectiveMethod(name = "get", types = {Object.class})
     public Object get(Object k){
-        return new Object(NMSWrapper.getInstance().exec(nmsObject, k));
+        return NMSWrapper.getInstance().exec(nmsObject, k);
     }
 
     /**

@@ -11,6 +11,10 @@ public class NMSMaterial extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSMaterial(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSMaterial(NMSMaterialMapColor materialMapColor){
         super("Material", new Object[]{NMSMaterialMapColor.class}, new Object[]{materialMapColor});
     }

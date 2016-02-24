@@ -1,14 +1,18 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 
 @ReflectiveClass(name = "WorldGenMegaTreeAbstract")
 public class NMSWorldGenMegaTreeAbstract extends NMSWorldGenTreeAbstract {
 
     public NMSWorldGenMegaTreeAbstract(Object nmsObject){
         super(nmsObject);
+    }
+
+    public NMSWorldGenMegaTreeAbstract(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
     }
 
     public NMSWorldGenMegaTreeAbstract(boolean b, int i, int i1, NMSIBlockData iBlockData, NMSIBlockData iBlockData1){

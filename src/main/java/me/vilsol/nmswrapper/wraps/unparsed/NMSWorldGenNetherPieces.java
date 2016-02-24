@@ -139,6 +139,10 @@ public class NMSWorldGenNetherPieces extends NMSWrap {
             super(nmsObject);
         }
 
+        public NMSWorldGenNetherPiece1(String nmsName, Object[] paramTypes, Object[] params) {
+            super(nmsName, paramTypes, params);
+        }
+
         public NMSWorldGenNetherPiece1(int i, Random random, NMSStructureBoundingBox structureBoundingBox, NMSEnumDirection enumDirection){
             super("WorldGenNetherPiece1", new Object[]{int.class, Random.class, NMSStructureBoundingBox.class, NMSEnumDirection.class}, new Object[]{i, random, structureBoundingBox, enumDirection});
         }

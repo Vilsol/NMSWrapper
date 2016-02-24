@@ -5,6 +5,7 @@ import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 import me.vilsol.nmswrapper.wraps.NMSWrap;
 
+import java.net.URL;
 import java.util.Map;
 
 @ReflectiveClass(name = "MojangStatisticsGenerator")
@@ -60,7 +61,7 @@ public class NMSMojangStatisticsGenerator extends NMSWrap {
      */
     @ReflectiveMethod(name = "e", types = {NMSMojangStatisticsGenerator.class})
     public Map e(NMSMojangStatisticsGenerator mojangStatisticsGenerator){
-        return new Map(NMSWrapper.getInstance().exec(nmsObject, mojangStatisticsGenerator));
+        return (Map) NMSWrapper.getInstance().exec(nmsObject, mojangStatisticsGenerator);
     }
 
     /**
@@ -87,7 +88,7 @@ public class NMSMojangStatisticsGenerator extends NMSWrap {
      */
     @ReflectiveMethod(name = "h", types = {NMSMojangStatisticsGenerator.class})
     public URL h(NMSMojangStatisticsGenerator mojangStatisticsGenerator){
-        return new URL(NMSWrapper.getInstance().exec(nmsObject, mojangStatisticsGenerator));
+        return (URL) NMSWrapper.getInstance().exec(nmsObject, mojangStatisticsGenerator);
     }
 
 }

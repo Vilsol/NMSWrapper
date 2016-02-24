@@ -11,6 +11,10 @@ public class NMSScoreboardBaseCriteria extends NMSWrap implements NMSIScoreboard
         super(nmsObject);
     }
 
+    public NMSScoreboardBaseCriteria(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSScoreboardBaseCriteria(String s){
         super("ScoreboardBaseCriteria", new Object[]{String.class}, new Object[]{s});
     }

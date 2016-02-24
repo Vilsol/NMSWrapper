@@ -1,13 +1,13 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import com.google.common.collect.ForwardingSet;
 import com.google.gson.JsonElement;
 import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
 
 @ReflectiveClass(name = "AchievementSet")
-public class NMSAchievementSet extends ForwardingSet {
+public class NMSAchievementSet extends NMSWrap {
 
     public NMSAchievementSet(Object nmsObject){
         super(nmsObject);
@@ -19,7 +19,7 @@ public class NMSAchievementSet extends ForwardingSet {
      */
     @ReflectiveMethod(name = "a", types = {})
     public JsonElement a(){
-        return new JsonElement(NMSWrapper.getInstance().exec(nmsObject));
+        return (JsonElement) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

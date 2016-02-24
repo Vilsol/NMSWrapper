@@ -3,7 +3,6 @@ package me.vilsol.nmswrapper.wraps.unparsed;
 import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
-import me.vilsol.nmswrapper.wraps.NMSEntity;
 import me.vilsol.nmswrapper.wraps.NMSItemStack;
 import me.vilsol.nmswrapper.wraps.NMSWorld;
 import org.bukkit.event.entity.CreatureSpawnEvent;

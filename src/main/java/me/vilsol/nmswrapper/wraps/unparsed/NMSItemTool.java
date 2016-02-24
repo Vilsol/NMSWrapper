@@ -11,6 +11,10 @@ public class NMSItemTool extends NMSItem {
         super(nmsObject);
     }
 
+    public NMSItemTool(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     /**
      * TODO Find correct name
      * @see net.minecraft.server.v1_8_R3.ItemTool#a(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.ItemStack)

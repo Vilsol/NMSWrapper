@@ -22,7 +22,7 @@ public class NMSMinecraftEncryption extends NMSWrap {
      */
     @ReflectiveMethod(name = "a", types = {int.class, Key.class})
     public Cipher a(int i, Key key){
-        return new Cipher(NMSWrapper.getInstance().exec(nmsObject, i, key));
+        return (Cipher) NMSWrapper.getInstance().exec(nmsObject, i, key);
     }
 
     /**
@@ -31,7 +31,7 @@ public class NMSMinecraftEncryption extends NMSWrap {
      */
     @ReflectiveMethod(name = "b", types = {})
     public KeyPair b(){
-        return new KeyPair(NMSWrapper.getInstance().exec(nmsObject));
+        return (KeyPair) NMSWrapper.getInstance().exec(nmsObject);
     }
 
 }

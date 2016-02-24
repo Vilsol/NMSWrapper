@@ -1,14 +1,18 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 
 @ReflectiveClass(name = "EntityAmbient")
 public class NMSEntityAmbient extends NMSEntityInsentient implements NMSIAnimal {
 
     public NMSEntityAmbient(Object nmsObject){
         super(nmsObject);
+    }
+
+    public NMSEntityAmbient(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
     }
 
     public NMSEntityAmbient(NMSWorld world){

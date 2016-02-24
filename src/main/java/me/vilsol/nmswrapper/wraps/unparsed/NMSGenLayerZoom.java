@@ -1,14 +1,18 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 
 @ReflectiveClass(name = "GenLayerZoom")
 public class NMSGenLayerZoom extends NMSGenLayer {
 
     public NMSGenLayerZoom(Object nmsObject){
         super(nmsObject);
+    }
+
+    public NMSGenLayerZoom(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
     }
 
     public NMSGenLayerZoom(long l, NMSGenLayer genLayer){

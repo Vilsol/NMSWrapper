@@ -37,7 +37,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "alloc", types = {})
     public ByteBufAllocator alloc(){
-        return new ByteBufAllocator(NMSWrapper.getInstance().exec(nmsObject));
+        return (ByteBufAllocator) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -79,7 +79,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "capacity", types = {int.class})
     public ByteBuf capacity(int i){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i);
     }
 
     /**
@@ -87,7 +87,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "clear", types = {})
     public ByteBuf clear(){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -103,7 +103,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "copy", types = {int.class, int.class})
     public ByteBuf copy(int i, int i1){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i, i1));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i, i1);
     }
 
     /**
@@ -111,7 +111,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "discardReadBytes", types = {})
     public ByteBuf discardReadBytes(){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -119,7 +119,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "discardSomeReadBytes", types = {})
     public ByteBuf discardSomeReadBytes(){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -127,7 +127,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "duplicate", types = {})
     public ByteBuf duplicate(){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -186,7 +186,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "g", types = {})
     public UUID g(){
-        return new UUID(NMSWrapper.getInstance().exec(nmsObject));
+        return (UUID) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -210,7 +210,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "getBytes", types = {int.class, ByteBuffer.class})
     public ByteBuf getBytes(int i, ByteBuffer byteBuffer){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i, byteBuffer));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i, byteBuffer);
     }
 
     /**
@@ -338,7 +338,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "internalNioBuffer", types = {int.class, int.class})
     public ByteBuffer internalNioBuffer(int i, int i1){
-        return new ByteBuffer(NMSWrapper.getInstance().exec(nmsObject, i, i1));
+        return (ByteBuffer) NMSWrapper.getInstance().exec(nmsObject, i, i1);
     }
 
     /**
@@ -370,7 +370,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "markReaderIndex", types = {})
     public ByteBuf markReaderIndex(){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -378,7 +378,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "markWriterIndex", types = {})
     public ByteBuf markWriterIndex(){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -410,7 +410,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "nioBuffer", types = {int.class, int.class})
     public ByteBuffer nioBuffer(int i, int i1){
-        return new ByteBuffer(NMSWrapper.getInstance().exec(nmsObject, i, i1));
+        return (ByteBuffer) NMSWrapper.getInstance().exec(nmsObject, i, i1);
     }
 
     /**
@@ -426,7 +426,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "order", types = {ByteOrder.class})
     public ByteBuf order(ByteOrder byteOrder){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, byteOrder));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, byteOrder);
     }
 
     /**
@@ -450,7 +450,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "readBytes", types = {ByteBuffer.class})
     public ByteBuf readBytes(ByteBuffer byteBuffer){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, byteBuffer));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, byteBuffer);
     }
 
     /**
@@ -514,7 +514,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "readSlice", types = {int.class})
     public ByteBuf readSlice(int i){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i);
     }
 
     /**
@@ -562,7 +562,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "readerIndex", types = {int.class})
     public ByteBuf readerIndex(int i){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i);
     }
 
     /**
@@ -586,7 +586,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "resetReaderIndex", types = {})
     public ByteBuf resetReaderIndex(){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -594,7 +594,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "resetWriterIndex", types = {})
     public ByteBuf resetWriterIndex(){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -602,7 +602,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "retain", types = {})
     public ByteBuf retain(){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -610,7 +610,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "setBoolean", types = {int.class, boolean.class})
     public ByteBuf setBoolean(int i, boolean b){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i, b));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i, b);
     }
 
     /**
@@ -618,7 +618,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "setByte", types = {int.class, int.class})
     public ByteBuf setByte(int i, int i1){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i, i1));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i, i1);
     }
 
     /**
@@ -626,7 +626,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "setBytes", types = {int.class, ByteBuffer.class})
     public ByteBuf setBytes(int i, ByteBuffer byteBuffer){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i, byteBuffer));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i, byteBuffer);
     }
 
     /**
@@ -634,7 +634,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "setChar", types = {int.class, int.class})
     public ByteBuf setChar(int i, int i1){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i, i1));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i, i1);
     }
 
     /**
@@ -642,7 +642,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "setDouble", types = {int.class, double.class})
     public ByteBuf setDouble(int i, double d){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i, d));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i, d);
     }
 
     /**
@@ -650,7 +650,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "setFloat", types = {int.class, float.class})
     public ByteBuf setFloat(int i, float f){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i, f));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i, f);
     }
 
     /**
@@ -658,7 +658,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "setIndex", types = {int.class, int.class})
     public ByteBuf setIndex(int i, int i1){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i, i1));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i, i1);
     }
 
     /**
@@ -666,7 +666,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "setInt", types = {int.class, int.class})
     public ByteBuf setInt(int i, int i1){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i, i1));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i, i1);
     }
 
     /**
@@ -674,7 +674,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "setLong", types = {int.class, long.class})
     public ByteBuf setLong(int i, long l){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i, l));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i, l);
     }
 
     /**
@@ -682,7 +682,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "setMedium", types = {int.class, int.class})
     public ByteBuf setMedium(int i, int i1){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i, i1));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i, i1);
     }
 
     /**
@@ -690,7 +690,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "setShort", types = {int.class, int.class})
     public ByteBuf setShort(int i, int i1){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i, i1));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i, i1);
     }
 
     /**
@@ -698,7 +698,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "setZero", types = {int.class, int.class})
     public ByteBuf setZero(int i, int i1){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i, i1));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i, i1);
     }
 
     /**
@@ -706,7 +706,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "skipBytes", types = {int.class})
     public ByteBuf skipBytes(int i){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i);
     }
 
     /**
@@ -714,7 +714,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "slice", types = {int.class, int.class})
     public ByteBuf slice(int i, int i1){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i, i1));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i, i1);
     }
 
     /**
@@ -730,7 +730,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "unwrap", types = {})
     public ByteBuf unwrap(){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -746,7 +746,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "writeBoolean", types = {boolean.class})
     public ByteBuf writeBoolean(boolean b){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, b));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, b);
     }
 
     /**
@@ -754,7 +754,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "writeByte", types = {int.class})
     public ByteBuf writeByte(int i){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i);
     }
 
     /**
@@ -762,7 +762,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "writeBytes", types = {ByteBuffer.class})
     public ByteBuf writeBytes(ByteBuffer byteBuffer){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, byteBuffer));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, byteBuffer);
     }
 
     /**
@@ -770,7 +770,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "writeChar", types = {int.class})
     public ByteBuf writeChar(int i){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i);
     }
 
     /**
@@ -778,7 +778,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "writeDouble", types = {double.class})
     public ByteBuf writeDouble(double d){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, d));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, d);
     }
 
     /**
@@ -786,7 +786,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "writeFloat", types = {float.class})
     public ByteBuf writeFloat(float f){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, f));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, f);
     }
 
     /**
@@ -794,7 +794,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "writeInt", types = {int.class})
     public ByteBuf writeInt(int i){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i);
     }
 
     /**
@@ -802,7 +802,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "writeLong", types = {long.class})
     public ByteBuf writeLong(long l){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, l));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, l);
     }
 
     /**
@@ -810,7 +810,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "writeMedium", types = {int.class})
     public ByteBuf writeMedium(int i){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i);
     }
 
     /**
@@ -818,7 +818,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "writeShort", types = {int.class})
     public ByteBuf writeShort(int i){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i);
     }
 
     /**
@@ -826,7 +826,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "writeZero", types = {int.class})
     public ByteBuf writeZero(int i){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i);
     }
 
     /**
@@ -834,7 +834,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "writerIndex", types = {int.class})
     public ByteBuf writerIndex(int i){
-        return new ByteBuf(NMSWrapper.getInstance().exec(nmsObject, i));
+        return (ByteBuf) NMSWrapper.getInstance().exec(nmsObject, i);
     }
 
 }

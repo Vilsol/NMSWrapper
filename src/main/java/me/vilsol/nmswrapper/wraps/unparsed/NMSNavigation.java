@@ -13,6 +13,10 @@ public class NMSNavigation extends NMSNavigationAbstract {
         super(nmsObject);
     }
 
+    public NMSNavigation(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSNavigation(NMSEntityInsentient entityInsentient, NMSWorld world){
         super("Navigation", new Object[]{NMSEntityInsentient.class, NMSWorld.class}, new Object[]{entityInsentient, world});
     }

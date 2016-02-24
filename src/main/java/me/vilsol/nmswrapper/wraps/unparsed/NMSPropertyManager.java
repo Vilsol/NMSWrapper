@@ -37,7 +37,7 @@ public class NMSPropertyManager extends NMSWrap {
      */
     @ReflectiveMethod(name = "c", types = {})
     public File c(){
-        return new File(NMSWrapper.getInstance().exec(nmsObject));
+        return (File) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

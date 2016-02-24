@@ -13,6 +13,10 @@ public class NMSWorldGenTrees extends NMSWorldGenTreeAbstract {
         super(nmsObject);
     }
 
+    public NMSWorldGenTrees(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSWorldGenTrees(boolean b){
         super("WorldGenTrees", new Object[]{boolean.class}, new Object[]{b});
     }

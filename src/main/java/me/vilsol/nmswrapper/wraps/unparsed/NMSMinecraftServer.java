@@ -100,7 +100,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
      */
     @ReflectiveMethod(name = "Q", types = {})
     public KeyPair Q(){
-        return new KeyPair(NMSWrapper.getInstance().exec(nmsObject));
+        return (KeyPair) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -226,7 +226,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
      */
     @ReflectiveMethod(name = "aM", types = {})
     public Thread aM(){
-        return new Thread(NMSWrapper.getInstance().exec(nmsObject));
+        return (Thread) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -905,7 +905,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
      */
     @ReflectiveMethod(name = "y", types = {})
     public File y(){
-        return new File(NMSWrapper.getInstance().exec(nmsObject));
+        return (File) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

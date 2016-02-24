@@ -20,7 +20,7 @@ public class NMSBlockDoubleStepAbstract extends NMSBlockStepAbstract {
      */
     @ReflectiveMethod(name = "a", types = {NMSItemStack.class})
     public Object a(NMSItemStack itemStack){
-        return new Object(NMSWrapper.getInstance().exec(nmsObject, itemStack));
+        return NMSWrapper.getInstance().exec(nmsObject, itemStack);
     }
 
     /**

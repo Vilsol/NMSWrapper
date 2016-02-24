@@ -11,6 +11,10 @@ public class NMSEntityFireball extends NMSEntity {
         super(nmsObject);
     }
 
+    public NMSEntityFireball(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSEntityFireball(NMSWorld world){
         super("EntityFireball", new Object[]{NMSWorld.class}, new Object[]{world});
     }

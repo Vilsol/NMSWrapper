@@ -75,7 +75,7 @@ public class NMSChatDeserializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "l", types = {JsonElement.class, String.class})
     public JsonObject l(JsonElement jsonElement, String s){
-        return new JsonObject(NMSWrapper.getInstance().exec(nmsObject, jsonElement, s));
+        return (JsonObject) NMSWrapper.getInstance().exec(nmsObject, jsonElement, s);
     }
 
     /**
@@ -84,7 +84,7 @@ public class NMSChatDeserializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "m", types = {JsonElement.class, String.class})
     public JsonArray m(JsonElement jsonElement, String s){
-        return new JsonArray(NMSWrapper.getInstance().exec(nmsObject, jsonElement, s));
+        return (JsonArray) NMSWrapper.getInstance().exec(nmsObject, jsonElement, s);
     }
 
     /**
@@ -93,7 +93,7 @@ public class NMSChatDeserializer extends NMSWrap {
      */
     @ReflectiveMethod(name = "t", types = {JsonObject.class, String.class})
     public JsonArray t(JsonObject jsonObject, String s){
-        return new JsonArray(NMSWrapper.getInstance().exec(nmsObject, jsonObject, s));
+        return (JsonArray) NMSWrapper.getInstance().exec(nmsObject, jsonObject, s);
     }
 
 }

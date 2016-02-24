@@ -11,6 +11,10 @@ public class NMSWorldData extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSWorldData(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSWorldData(NMSNBTTagCompound nBTTagCompound){
         super("WorldData", new Object[]{NMSNBTTagCompound.class}, new Object[]{nBTTagCompound});
     }

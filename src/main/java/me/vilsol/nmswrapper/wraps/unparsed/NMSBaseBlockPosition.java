@@ -11,6 +11,10 @@ public class NMSBaseBlockPosition extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSBaseBlockPosition(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSBaseBlockPosition(int i, int i1, int i2){
         super("BaseBlockPosition", new Object[]{int.class, int.class, int.class}, new Object[]{i, i1, i2});
     }

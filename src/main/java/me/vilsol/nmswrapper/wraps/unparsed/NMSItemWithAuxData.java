@@ -11,6 +11,10 @@ public class NMSItemWithAuxData extends NMSItemBlock {
         super(nmsObject);
     }
 
+    public NMSItemWithAuxData(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSItemWithAuxData(NMSBlock block, boolean b){
         super("ItemWithAuxData", new Object[]{NMSBlock.class, boolean.class}, new Object[]{block, b});
     }

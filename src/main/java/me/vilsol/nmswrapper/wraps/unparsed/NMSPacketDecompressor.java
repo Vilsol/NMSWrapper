@@ -5,7 +5,7 @@ import me.vilsol.nmswrapper.reflections.*;
 import me.vilsol.nmswrapper.wraps.*;
 
 @ReflectiveClass(name = "PacketDecompressor")
-public class NMSPacketDecompressor extends ByteToMessageDecoder {
+public class NMSPacketDecompressor extends NMSWrap {
 
     public NMSPacketDecompressor(Object nmsObject){
         super(nmsObject);

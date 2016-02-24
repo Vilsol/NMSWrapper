@@ -11,6 +11,10 @@ public class NMSControllerJump extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSControllerJump(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSControllerJump(NMSEntityInsentient entityInsentient){
         super("ControllerJump", new Object[]{NMSEntityInsentient.class}, new Object[]{entityInsentient});
     }

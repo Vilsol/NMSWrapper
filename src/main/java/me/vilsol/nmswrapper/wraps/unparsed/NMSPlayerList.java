@@ -18,6 +18,10 @@ public class NMSPlayerList extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSPlayerList(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSPlayerList(NMSMinecraftServer minecraftServer){
         super("PlayerList", new Object[]{NMSMinecraftServer.class}, new Object[]{minecraftServer});
     }

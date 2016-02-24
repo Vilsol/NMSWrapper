@@ -1,11 +1,9 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 
 @ReflectiveClass(name = "WeightedRandomEnchant")
-public class NMSWeightedRandomEnchant extends NMSWeightedRandomChoice {
+public class NMSWeightedRandomEnchant extends NMSWeightedRandom.NMSWeightedRandomChoice {
 
     public NMSWeightedRandomEnchant(Object nmsObject){
         super(nmsObject);
