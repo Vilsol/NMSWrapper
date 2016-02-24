@@ -234,7 +234,7 @@ public class NMSChatModifier extends NMSWrap {
          */
         @ReflectiveMethod(name = "a", types = {NMSChatModifier.class, Type.class, JsonSerializationContext.class})
         public JsonElement a(NMSChatModifier chatModifier, Type type, JsonSerializationContext jsonSerializationContext){
-            return new JsonElement(NMSWrapper.getInstance().exec(nmsObject, chatModifier, type, jsonSerializationContext));
+            return (JsonElement) NMSWrapper.getInstance().exec(nmsObject, chatModifier, type, jsonSerializationContext);
         }
 
         /**
@@ -242,7 +242,7 @@ public class NMSChatModifier extends NMSWrap {
          */
         @ReflectiveMethod(name = "serialize", types = {Object.class, Type.class, JsonSerializationContext.class})
         public JsonElement serialize(Object object, Type type, JsonSerializationContext jsonSerializationContext){
-            return new JsonElement(NMSWrapper.getInstance().exec(nmsObject, object, type, jsonSerializationContext));
+            return (JsonElement) NMSWrapper.getInstance().exec(nmsObject, object, type, jsonSerializationContext);
         }
 
     }

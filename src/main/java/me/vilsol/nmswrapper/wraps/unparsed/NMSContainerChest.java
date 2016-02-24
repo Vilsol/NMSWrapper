@@ -40,7 +40,7 @@ public class NMSContainerChest extends NMSContainer {
      */
     @ReflectiveMethod(name = "e", types = {})
     public NMSIInventory e(){
-        return new NMSIInventory(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIInventory) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

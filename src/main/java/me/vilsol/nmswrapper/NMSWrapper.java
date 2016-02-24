@@ -98,4 +98,15 @@ public class NMSWrapper extends JavaPlugin {
         return classes;
     }
 
+    public Object createApplicableObject(Object nmsObject) {
+        try {
+            ReflectionClass reflectionClass = types.get("NMS" + nmsObject.getClass().getSimpleName());
+            return reflectionClass.getClazz().getConstructor(Object.class).newInstance(nmsObject);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
 }

@@ -5,7 +5,6 @@ import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 import me.vilsol.nmswrapper.wraps.NMSItemStack;
-import me.vilsol.nmswrapper.wraps.NMSMinecraftServer;
 import me.vilsol.nmswrapper.wraps.NMSWorld;
 import org.bukkit.WeatherType;
 
@@ -165,14 +164,6 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#getBukkitEntity()
-     */
-    @ReflectiveMethod(name = "getBukkitEntity", types = {})
-    public NMSCraftHumanEntity getBukkitEntity(){
-        return new NMSCraftHumanEntity(NMSWrapper.getInstance().exec(nmsObject));
-    }
-
-    /**
      * @see net.minecraft.server.v1_8_R3.EntityPlayer#getChatFlags()
      */
     @ReflectiveMethod(name = "getChatFlags", types = {})
@@ -193,7 +184,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
      */
     @ReflectiveMethod(name = "getPlayerListName", types = {})
     public NMSIChatBaseComponent getPlayerListName(){
-        return new NMSIChatBaseComponent(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIChatBaseComponent) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

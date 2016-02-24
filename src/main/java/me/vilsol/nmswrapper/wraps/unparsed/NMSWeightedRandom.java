@@ -11,7 +11,7 @@ public class NMSWeightedRandom extends NMSWrap {
     }
 
     @ReflectiveClass(name = "WeightedRandomChoice")
-    public class NMSWeightedRandomChoice extends NMSWrap {
+    public static class NMSWeightedRandomChoice extends NMSWrap {
 
         public NMSWeightedRandomChoice(Object nmsObject){
             super(nmsObject);

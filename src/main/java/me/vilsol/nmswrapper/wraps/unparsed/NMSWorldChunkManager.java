@@ -13,6 +13,10 @@ public class NMSWorldChunkManager extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSWorldChunkManager(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSWorldChunkManager(long l, NMSWorldType worldType, String s){
         super("WorldChunkManager", new Object[]{long.class, NMSWorldType.class, String.class}, new Object[]{l, worldType, s});
     }

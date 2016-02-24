@@ -1,8 +1,8 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 
 @ReflectiveClass(name = "WorldProviderHell")
 public class NMSWorldProviderHell extends NMSWorldProvider {
@@ -60,7 +60,7 @@ public class NMSWorldProviderHell extends NMSWorldProvider {
      */
     @ReflectiveMethod(name = "getChunkProvider", types = {})
     public NMSIChunkProvider getChunkProvider(){
-        return new NMSIChunkProvider(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIChunkProvider) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

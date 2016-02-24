@@ -85,7 +85,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
      */
     @ReflectiveMethod(name = "N", types = {})
     public NMSIChunkProvider N(){
-        return new NMSIChunkProvider(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIChunkProvider) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**
@@ -412,7 +412,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
      */
     @ReflectiveMethod(name = "getDataManager", types = {})
     public NMSIDataManager getDataManager(){
-        return new NMSIDataManager(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIDataManager) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**
@@ -516,7 +516,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
      */
     @ReflectiveMethod(name = "getType", types = {NMSBlockPosition.class, boolean.class})
     public NMSIBlockData getType(NMSBlockPosition blockPosition, boolean b){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject, blockPosition, b));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, blockPosition, b));
     }
 
     /**

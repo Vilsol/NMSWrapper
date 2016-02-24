@@ -26,7 +26,7 @@ public class NMSAttributeMapBase extends NMSWrap {
      */
     @ReflectiveMethod(name = "b", types = {NMSIAttribute.class})
     public NMSAttributeInstance b(NMSIAttribute iAttribute){
-        return new NMSAttributeInstance(NMSWrapper.getInstance().exec(nmsObject, iAttribute));
+        return (NMSAttributeInstance) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, iAttribute));
     }
 
     /**
@@ -35,7 +35,7 @@ public class NMSAttributeMapBase extends NMSWrap {
      */
     @ReflectiveMethod(name = "c", types = {NMSIAttribute.class})
     public NMSAttributeInstance c(NMSIAttribute iAttribute){
-        return new NMSAttributeInstance(NMSWrapper.getInstance().exec(nmsObject, iAttribute));
+        return (NMSAttributeInstance) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, iAttribute));
     }
 
 }

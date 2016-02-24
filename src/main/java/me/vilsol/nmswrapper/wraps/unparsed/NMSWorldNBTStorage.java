@@ -16,6 +16,10 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
         super(nmsObject);
     }
 
+    public NMSWorldNBTStorage(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSWorldNBTStorage(File file, String s, boolean b){
         super("WorldNBTStorage", new Object[]{File.class, String.class, boolean.class}, new Object[]{file, s, b});
     }
@@ -34,7 +38,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
      */
     @ReflectiveMethod(name = "createChunkLoader", types = {NMSWorldProvider.class})
     public NMSIChunkLoader createChunkLoader(NMSWorldProvider worldProvider){
-        return new NMSIChunkLoader(NMSWrapper.getInstance().exec(nmsObject, worldProvider));
+        return (NMSIChunkLoader) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, worldProvider));
     }
 
     /**
@@ -83,7 +87,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
      */
     @ReflectiveMethod(name = "getPlayerFileData", types = {})
     public NMSIPlayerFileData getPlayerFileData(){
-        return new NMSIPlayerFileData(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIPlayerFileData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

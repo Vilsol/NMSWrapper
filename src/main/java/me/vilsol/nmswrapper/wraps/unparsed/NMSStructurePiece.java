@@ -64,7 +64,7 @@ public class NMSStructurePiece extends NMSWrap {
          */
         @ReflectiveMethod(name = "a", types = {})
         public NMSIBlockData a(){
-            return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject));
+            return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
         }
 
     }

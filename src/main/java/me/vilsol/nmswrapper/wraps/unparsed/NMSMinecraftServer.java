@@ -18,6 +18,10 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
         super(nmsObject);
     }
 
+    public NMSMinecraftServer(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSMinecraftServer(NMSOptionSet optionSet, Proxy proxy, File file){
         super("MinecraftServer", new Object[]{NMSOptionSet.class, Proxy.class, File.class}, new Object[]{optionSet, proxy, file});
     }
@@ -172,7 +176,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
      */
     @ReflectiveMethod(name = "aD", types = {})
     public MinecraftSessionService aD(){
-        return new MinecraftSessionService(NMSWrapper.getInstance().exec(nmsObject));
+        return (MinecraftSessionService) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -307,7 +311,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
      */
     @ReflectiveMethod(name = "ay", types = {})
     public Proxy ay(){
-        return new Proxy(NMSWrapper.getInstance().exec(nmsObject));
+        return (Proxy) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -393,7 +397,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
      */
     @ReflectiveMethod(name = "getCommandHandler", types = {})
     public NMSICommandHandler getCommandHandler(){
-        return new NMSICommandHandler(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSICommandHandler) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**
@@ -401,7 +405,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
      */
     @ReflectiveMethod(name = "getConvertable", types = {})
     public NMSConvertable getConvertable(){
-        return new NMSConvertable(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSConvertable) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**
@@ -433,7 +437,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
      */
     @ReflectiveMethod(name = "getGameProfileRepository", types = {})
     public GameProfileRepository getGameProfileRepository(){
-        return new GameProfileRepository(NMSWrapper.getInstance().exec(nmsObject));
+        return (GameProfileRepository) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -537,7 +541,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
      */
     @ReflectiveMethod(name = "getScoreboardDisplayName", types = {})
     public NMSIChatBaseComponent getScoreboardDisplayName(){
-        return new NMSIChatBaseComponent(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIChatBaseComponent) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

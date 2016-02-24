@@ -38,7 +38,7 @@ public class NMSScoreboardObjective extends NMSWrap {
      */
     @ReflectiveMethod(name = "getCriteria", types = {})
     public NMSIScoreboardCriteria getCriteria(){
-        return new NMSIScoreboardCriteria(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIScoreboardCriteria) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

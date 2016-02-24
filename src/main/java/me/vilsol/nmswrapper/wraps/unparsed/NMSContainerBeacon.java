@@ -49,7 +49,7 @@ public class NMSContainerBeacon extends NMSContainer {
      */
     @ReflectiveMethod(name = "e", types = {})
     public NMSIInventory e(){
-        return new NMSIInventory(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIInventory) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**
@@ -57,7 +57,7 @@ public class NMSContainerBeacon extends NMSContainer {
      */
     @ReflectiveMethod(name = "getBukkitView", types = {})
     public InventoryView getBukkitView(){
-        return new InventoryView(NMSWrapper.getInstance().exec(nmsObject));
+        return (InventoryView) NMSWrapper.getInstance().exec(nmsObject);
     }
 
 }

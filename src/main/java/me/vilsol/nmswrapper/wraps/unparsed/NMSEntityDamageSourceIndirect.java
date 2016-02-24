@@ -1,8 +1,8 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 
 @ReflectiveClass(name = "EntityDamageSourceIndirect")
 public class NMSEntityDamageSourceIndirect extends NMSEntityDamageSource {
@@ -28,7 +28,7 @@ public class NMSEntityDamageSourceIndirect extends NMSEntityDamageSource {
      */
     @ReflectiveMethod(name = "getLocalizedDeathMessage", types = {NMSEntityLiving.class})
     public NMSIChatBaseComponent getLocalizedDeathMessage(NMSEntityLiving entityLiving){
-        return new NMSIChatBaseComponent(NMSWrapper.getInstance().exec(nmsObject, entityLiving));
+        return (NMSIChatBaseComponent) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, entityLiving));
     }
 
     /**

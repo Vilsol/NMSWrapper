@@ -52,7 +52,7 @@ public class NMSBlockMycel extends NMSBlock {
      */
     @ReflectiveMethod(name = "updateState", types = {NMSIBlockData.class, NMSIBlockAccess.class, NMSBlockPosition.class})
     public NMSIBlockData updateState(NMSIBlockData iBlockData, NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject, iBlockData, iBlockAccess, blockPosition));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, iBlockData, iBlockAccess, blockPosition));
     }
 
 }

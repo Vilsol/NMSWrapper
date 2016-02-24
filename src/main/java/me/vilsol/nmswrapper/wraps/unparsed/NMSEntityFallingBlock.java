@@ -68,7 +68,7 @@ public class NMSEntityFallingBlock extends NMSEntity {
      */
     @ReflectiveMethod(name = "getBlock", types = {})
     public NMSIBlockData getBlock(){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

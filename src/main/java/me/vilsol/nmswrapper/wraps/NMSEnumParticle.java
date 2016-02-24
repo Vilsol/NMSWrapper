@@ -60,6 +60,10 @@ public class NMSEnumParticle extends NMSWrap {
         }
     }
 
+    public NMSEnumParticle(Object nmsObject) {
+        super(nmsObject);
+    }
+
     public static NMSEnumParticle getParticle(int position){
         return map.get(position);
     }

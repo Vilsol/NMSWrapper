@@ -15,6 +15,10 @@ public class NMSChunk extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSChunk(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSChunk(NMSWorld world, int i, int i1){
         super("Chunk", new Object[]{NMSWorld.class, int.class, int.class}, new Object[]{world, i, i1});
     }
@@ -29,7 +33,7 @@ public class NMSChunk extends NMSWrap {
      */
     @ReflectiveMethod(name = "a", types = {long.class})
     public Random a(long l){
-        return new Random(NMSWrapper.getInstance().exec(nmsObject, l));
+        return (Random) NMSWrapper.getInstance().exec(nmsObject, l);
     }
 
     /**
@@ -115,7 +119,7 @@ public class NMSChunk extends NMSWrap {
      */
     @ReflectiveMethod(name = "getBlockData", types = {NMSBlockPosition.class})
     public NMSIBlockData getBlockData(NMSBlockPosition blockPosition){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject, blockPosition));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, blockPosition));
     }
 
     /**

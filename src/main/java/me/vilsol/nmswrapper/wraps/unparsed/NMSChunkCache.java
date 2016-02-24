@@ -36,7 +36,7 @@ public class NMSChunkCache extends NMSWrap implements NMSIBlockAccess {
      */
     @ReflectiveMethod(name = "getType", types = {NMSBlockPosition.class})
     public NMSIBlockData getType(NMSBlockPosition blockPosition){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject, blockPosition));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, blockPosition));
     }
 
     /**

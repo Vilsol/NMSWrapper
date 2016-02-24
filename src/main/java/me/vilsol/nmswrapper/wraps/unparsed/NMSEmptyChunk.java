@@ -23,7 +23,7 @@ public class NMSEmptyChunk extends NMSChunk {
      */
     @ReflectiveMethod(name = "a", types = {long.class})
     public Random a(long l){
-        return new Random(NMSWrapper.getInstance().exec(nmsObject, l));
+        return (Random) NMSWrapper.getInstance().exec(nmsObject, l);
     }
 
     /**

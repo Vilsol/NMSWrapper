@@ -30,7 +30,7 @@ public class NMSChatHoverable extends NMSWrap {
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSIChatBaseComponent b(){
-        return new NMSIChatBaseComponent(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIChatBaseComponent) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

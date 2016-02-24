@@ -17,7 +17,7 @@ public class NMSBlockDispenser extends NMSBlockContainer {
      */
     @ReflectiveMethod(name = "a", types = {NMSISourceBlock.class})
     public NMSIPosition a(NMSISourceBlock iSourceBlock){
-        return new NMSIPosition(NMSWrapper.getInstance().exec(nmsObject, iSourceBlock));
+        return (NMSIPosition) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, iSourceBlock));
     }
 
     /**
@@ -50,7 +50,7 @@ public class NMSBlockDispenser extends NMSBlockContainer {
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject, i));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, i));
     }
 
     /**
@@ -58,7 +58,7 @@ public class NMSBlockDispenser extends NMSBlockContainer {
      */
     @ReflectiveMethod(name = "getPlacedState", types = {NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class, float.class, float.class, float.class, int.class, NMSEntityLiving.class})
     public NMSIBlockData getPlacedState(NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, float f, float f1, float f2, int i, NMSEntityLiving entityLiving){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject, world, blockPosition, enumDirection, f, f1, f2, i, entityLiving));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, world, blockPosition, enumDirection, f, f1, f2, i, entityLiving));
     }
 
     /**

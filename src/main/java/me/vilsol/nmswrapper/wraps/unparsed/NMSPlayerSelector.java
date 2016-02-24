@@ -33,7 +33,7 @@ public class NMSPlayerSelector extends NMSWrap {
      */
     @ReflectiveMethod(name = "getPlayerNames", types = {NMSICommandListener.class, String.class})
     public NMSIChatBaseComponent getPlayerNames(NMSICommandListener iCommandListener, String s){
-        return new NMSIChatBaseComponent(NMSWrapper.getInstance().exec(nmsObject, iCommandListener, s));
+        return (NMSIChatBaseComponent) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, iCommandListener, s));
     }
 
     /**

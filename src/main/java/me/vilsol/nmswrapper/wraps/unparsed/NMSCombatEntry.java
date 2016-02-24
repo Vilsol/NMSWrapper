@@ -57,7 +57,7 @@ public class NMSCombatEntry extends NMSWrap {
      */
     @ReflectiveMethod(name = "h", types = {})
     public NMSIChatBaseComponent h(){
-        return new NMSIChatBaseComponent(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIChatBaseComponent) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

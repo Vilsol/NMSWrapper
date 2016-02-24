@@ -48,7 +48,7 @@ public class NMSAttributeBase extends NMSWrap implements NMSIAttribute {
      */
     @ReflectiveMethod(name = "d", types = {})
     public NMSIAttribute d(){
-        return new NMSIAttribute(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIAttribute) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

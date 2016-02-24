@@ -1,8 +1,8 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 
 @ReflectiveClass(name = "ChatComponentSelector")
 public class NMSChatComponentSelector extends NMSChatBaseComponent {
@@ -29,7 +29,7 @@ public class NMSChatComponentSelector extends NMSChatBaseComponent {
      */
     @ReflectiveMethod(name = "f", types = {})
     public NMSIChatBaseComponent f(){
-        return new NMSIChatBaseComponent(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIChatBaseComponent) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

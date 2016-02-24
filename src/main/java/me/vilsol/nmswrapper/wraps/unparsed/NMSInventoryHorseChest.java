@@ -33,7 +33,7 @@ public class NMSInventoryHorseChest extends NMSInventorySubcontainer {
      */
     @ReflectiveMethod(name = "getOwner", types = {})
     public InventoryHolder getOwner(){
-        return new InventoryHolder(NMSWrapper.getInstance().exec(nmsObject));
+        return (InventoryHolder) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

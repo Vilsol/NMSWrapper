@@ -61,7 +61,7 @@ public class NMSEntityMinecartMobSpawner extends NMSEntityMinecartAbstract {
      */
     @ReflectiveMethod(name = "u", types = {})
     public NMSIBlockData u(){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
 }

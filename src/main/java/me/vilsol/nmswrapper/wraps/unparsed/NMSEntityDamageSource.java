@@ -31,7 +31,7 @@ public class NMSEntityDamageSource extends NMSDamageSource {
      */
     @ReflectiveMethod(name = "getLocalizedDeathMessage", types = {NMSEntityLiving.class})
     public NMSIChatBaseComponent getLocalizedDeathMessage(NMSEntityLiving entityLiving){
-        return new NMSIChatBaseComponent(NMSWrapper.getInstance().exec(nmsObject, entityLiving));
+        return (NMSIChatBaseComponent) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, entityLiving));
     }
 
     /**

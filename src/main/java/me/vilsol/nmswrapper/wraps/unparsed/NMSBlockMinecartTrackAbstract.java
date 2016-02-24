@@ -1,8 +1,8 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 
 @ReflectiveClass(name = "BlockMinecartTrackAbstract")
 public class NMSBlockMinecartTrackAbstract extends NMSBlock {
@@ -17,7 +17,7 @@ public class NMSBlockMinecartTrackAbstract extends NMSBlock {
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, boolean.class})
     public NMSIBlockData a(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, boolean b){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject, world, blockPosition, iBlockData, b));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, world, blockPosition, iBlockData, b));
     }
 
     /**

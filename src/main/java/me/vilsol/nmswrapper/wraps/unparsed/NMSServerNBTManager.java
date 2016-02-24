@@ -32,7 +32,7 @@ public class NMSServerNBTManager extends NMSWorldNBTStorage {
      */
     @ReflectiveMethod(name = "createChunkLoader", types = {NMSWorldProvider.class})
     public NMSIChunkLoader createChunkLoader(NMSWorldProvider worldProvider){
-        return new NMSIChunkLoader(NMSWrapper.getInstance().exec(nmsObject, worldProvider));
+        return (NMSIChunkLoader) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, worldProvider));
     }
 
     /**

@@ -17,7 +17,7 @@ public class NMSCommandHandler extends NMSWrap implements NMSICommandHandler {
      */
     @ReflectiveMethod(name = "a", types = {NMSICommand.class})
     public NMSICommand a(NMSICommand iCommand){
-        return new NMSICommand(NMSWrapper.getInstance().exec(nmsObject, iCommand));
+        return (NMSICommand) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, iCommand));
     }
 
 }

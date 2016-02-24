@@ -66,7 +66,7 @@ public class NMSContainerMerchant extends NMSContainer {
      */
     @ReflectiveMethod(name = "getBukkitView", types = {})
     public InventoryView getBukkitView(){
-        return new InventoryView(NMSWrapper.getInstance().exec(nmsObject));
+        return (InventoryView) NMSWrapper.getInstance().exec(nmsObject);
     }
 
 }

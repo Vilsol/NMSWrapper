@@ -39,7 +39,7 @@ public class NMSShapeDetector extends NMSWrap {
     }
 
     @ReflectiveClass(name = "ShapeDetectorCollection")
-    public class NMSShapeDetectorCollection extends NMSWrap {
+    public static class NMSShapeDetectorCollection extends NMSWrap {
 
         public NMSShapeDetectorCollection(Object nmsObject){
             super(nmsObject);

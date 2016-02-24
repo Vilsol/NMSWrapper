@@ -81,7 +81,7 @@ public class NMSChunkSection extends NMSWrap {
      */
     @ReflectiveMethod(name = "getType", types = {int.class, int.class, int.class})
     public NMSIBlockData getType(int i, int i1, int i2){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject, i, i1, i2));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, i, i1, i2));
     }
 
     /**

@@ -21,7 +21,7 @@ public class NMSChatBaseComponent extends NMSWrap implements NMSIChatBaseCompone
      */
     @ReflectiveMethod(name = "a", types = {String.class})
     public NMSIChatBaseComponent a(String s){
-        return new NMSIChatBaseComponent(NMSWrapper.getInstance().exec(nmsObject, s));
+        return (NMSIChatBaseComponent) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, s));
     }
 
     /**
@@ -29,7 +29,7 @@ public class NMSChatBaseComponent extends NMSWrap implements NMSIChatBaseCompone
      */
     @ReflectiveMethod(name = "addSibling", types = {NMSIChatBaseComponent.class})
     public NMSIChatBaseComponent addSibling(NMSIChatBaseComponent iChatBaseComponent){
-        return new NMSIChatBaseComponent(NMSWrapper.getInstance().exec(nmsObject, iChatBaseComponent));
+        return (NMSIChatBaseComponent) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, iChatBaseComponent));
     }
 
     /**
@@ -70,7 +70,7 @@ public class NMSChatBaseComponent extends NMSWrap implements NMSIChatBaseCompone
      */
     @ReflectiveMethod(name = "setChatModifier", types = {NMSChatModifier.class})
     public NMSIChatBaseComponent setChatModifier(NMSChatModifier chatModifier){
-        return new NMSIChatBaseComponent(NMSWrapper.getInstance().exec(nmsObject, chatModifier));
+        return (NMSIChatBaseComponent) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, chatModifier));
     }
 
     /**

@@ -28,7 +28,7 @@ public class NMSBlockStateList extends NMSWrap {
      */
     @ReflectiveMethod(name = "getBlockData", types = {})
     public NMSIBlockData getBlockData(){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

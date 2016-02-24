@@ -68,7 +68,7 @@ public class NMSWorldProvider extends NMSWrap {
      */
     @ReflectiveMethod(name = "getChunkProvider", types = {})
     public NMSIChunkProvider getChunkProvider(){
-        return new NMSIChunkProvider(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIChunkProvider) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

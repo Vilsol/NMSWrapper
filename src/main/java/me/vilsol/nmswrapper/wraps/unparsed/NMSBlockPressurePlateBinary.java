@@ -1,8 +1,8 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 
 @ReflectiveClass(name = "BlockPressurePlateBinary")
 public class NMSBlockPressurePlateBinary extends NMSBlockPressurePlateAbstract {
@@ -17,7 +17,7 @@ public class NMSBlockPressurePlateBinary extends NMSBlockPressurePlateAbstract {
      */
     @ReflectiveMethod(name = "a", types = {NMSIBlockData.class, int.class})
     public NMSIBlockData a(NMSIBlockData iBlockData, int i){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject, iBlockData, i));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, iBlockData, i));
     }
 
     /**
@@ -43,7 +43,7 @@ public class NMSBlockPressurePlateBinary extends NMSBlockPressurePlateAbstract {
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject, i));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, i));
     }
 
     /**

@@ -14,6 +14,10 @@ public class NMSInventorySubcontainer extends NMSWrap implements NMSIInventory {
         super(nmsObject);
     }
 
+    public NMSInventorySubcontainer(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSInventorySubcontainer(String s, boolean b, int i){
         super("InventorySubcontainer", new Object[]{String.class, boolean.class, int.class}, new Object[]{s, b, i});
     }
@@ -86,7 +90,7 @@ public class NMSInventorySubcontainer extends NMSWrap implements NMSIInventory {
      */
     @ReflectiveMethod(name = "getOwner", types = {})
     public InventoryHolder getOwner(){
-        return new InventoryHolder(NMSWrapper.getInstance().exec(nmsObject));
+        return (InventoryHolder) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -102,7 +106,7 @@ public class NMSInventorySubcontainer extends NMSWrap implements NMSIInventory {
      */
     @ReflectiveMethod(name = "getScoreboardDisplayName", types = {})
     public NMSIChatBaseComponent getScoreboardDisplayName(){
-        return new NMSIChatBaseComponent(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIChatBaseComponent) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

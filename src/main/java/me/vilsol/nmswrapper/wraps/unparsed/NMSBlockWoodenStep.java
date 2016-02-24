@@ -37,7 +37,7 @@ public class NMSBlockWoodenStep extends NMSBlockStepAbstract {
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject, i));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, i));
     }
 
     /**

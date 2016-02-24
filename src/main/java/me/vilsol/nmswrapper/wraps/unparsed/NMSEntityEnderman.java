@@ -1,8 +1,8 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 
 @ReflectiveClass(name = "EntityEnderman")
 public class NMSEntityEnderman extends NMSEntityMonster {
@@ -90,7 +90,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
      */
     @ReflectiveMethod(name = "getCarried", types = {})
     public NMSIBlockData getCarried(){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

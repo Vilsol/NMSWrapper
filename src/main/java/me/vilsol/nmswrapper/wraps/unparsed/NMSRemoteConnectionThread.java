@@ -8,7 +8,7 @@ import me.vilsol.nmswrapper.wraps.NMSWrap;
 import java.net.ServerSocket;
 
 @ReflectiveClass(name = "RemoteConnectionThread")
-public class NMSRemoteConnectionThread extends NMSWrap implements Runnable {
+public class NMSRemoteConnectionThread extends NMSWrap {
 
     public NMSRemoteConnectionThread(Object nmsObject){
         super(nmsObject);

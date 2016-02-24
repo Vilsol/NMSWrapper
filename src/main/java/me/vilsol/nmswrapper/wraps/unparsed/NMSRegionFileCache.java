@@ -31,7 +31,7 @@ public class NMSRegionFileCache extends NMSWrap {
      */
     @ReflectiveMethod(name = "c", types = {File.class, int.class, int.class})
     public DataInputStream c(File file, int i, int i1){
-        return new DataInputStream(NMSWrapper.getInstance().exec(nmsObject, file, i, i1));
+        return (DataInputStream) NMSWrapper.getInstance().exec(nmsObject, file, i, i1);
     }
 
     /**
@@ -40,7 +40,7 @@ public class NMSRegionFileCache extends NMSWrap {
      */
     @ReflectiveMethod(name = "d", types = {File.class, int.class, int.class})
     public DataOutputStream d(File file, int i, int i1){
-        return new DataOutputStream(NMSWrapper.getInstance().exec(nmsObject, file, i, i1));
+        return (DataOutputStream) NMSWrapper.getInstance().exec(nmsObject, file, i, i1);
     }
 
 }

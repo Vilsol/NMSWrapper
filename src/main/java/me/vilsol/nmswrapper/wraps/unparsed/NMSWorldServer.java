@@ -4,7 +4,6 @@ import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 import me.vilsol.nmswrapper.wraps.NMSEnumParticle;
-import me.vilsol.nmswrapper.wraps.NMSMinecraftServer;
 import me.vilsol.nmswrapper.wraps.NMSWorld;
 import org.bukkit.World;
 import org.bukkit.generator.ChunkGenerator;
@@ -189,7 +188,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
      */
     @ReflectiveMethod(name = "k", types = {})
     public NMSIChunkProvider k(){
-        return new NMSIChunkProvider(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIChunkProvider) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

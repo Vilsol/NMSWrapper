@@ -30,7 +30,7 @@ public class NMSChunkProviderDebug extends NMSWrap implements NMSIChunkProvider 
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public NMSIBlockData b(int i, int i1){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject, i, i1));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, i, i1));
     }
 
     /**

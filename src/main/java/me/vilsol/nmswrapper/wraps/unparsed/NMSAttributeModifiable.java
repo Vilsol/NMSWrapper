@@ -56,7 +56,7 @@ public class NMSAttributeModifiable extends NMSWrap implements NMSAttributeInsta
      */
     @ReflectiveMethod(name = "getAttribute", types = {})
     public NMSIAttribute getAttribute(){
-        return new NMSIAttribute(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIAttribute) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

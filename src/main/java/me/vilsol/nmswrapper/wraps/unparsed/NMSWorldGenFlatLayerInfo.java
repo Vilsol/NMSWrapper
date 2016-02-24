@@ -38,7 +38,7 @@ public class NMSWorldGenFlatLayerInfo extends NMSWrap {
      */
     @ReflectiveMethod(name = "c", types = {})
     public NMSIBlockData c(){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

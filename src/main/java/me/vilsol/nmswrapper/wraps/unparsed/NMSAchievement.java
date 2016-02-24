@@ -65,7 +65,7 @@ public class NMSAchievement extends NMSStatistic {
      */
     @ReflectiveMethod(name = "e", types = {})
     public NMSIChatBaseComponent e(){
-        return new NMSIChatBaseComponent(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIChatBaseComponent) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

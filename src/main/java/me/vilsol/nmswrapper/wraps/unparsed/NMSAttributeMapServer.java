@@ -1,8 +1,8 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 
 @ReflectiveClass(name = "AttributeMapServer")
 public class NMSAttributeMapServer extends NMSAttributeMapBase {
@@ -17,7 +17,7 @@ public class NMSAttributeMapServer extends NMSAttributeMapBase {
      */
     @ReflectiveMethod(name = "a", types = {NMSIAttribute.class})
     public NMSAttributeInstance a(NMSIAttribute iAttribute){
-        return new NMSAttributeInstance(NMSWrapper.getInstance().exec(nmsObject, iAttribute));
+        return (NMSAttributeInstance) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, iAttribute));
     }
 
     /**
@@ -26,7 +26,7 @@ public class NMSAttributeMapServer extends NMSAttributeMapBase {
      */
     @ReflectiveMethod(name = "b", types = {NMSIAttribute.class})
     public NMSAttributeInstance b(NMSIAttribute iAttribute){
-        return new NMSAttributeInstance(NMSWrapper.getInstance().exec(nmsObject, iAttribute));
+        return (NMSAttributeInstance) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, iAttribute));
     }
 
     /**
@@ -35,7 +35,7 @@ public class NMSAttributeMapServer extends NMSAttributeMapBase {
      */
     @ReflectiveMethod(name = "c", types = {NMSIAttribute.class})
     public NMSAttributeInstance c(NMSIAttribute iAttribute){
-        return new NMSAttributeInstance(NMSWrapper.getInstance().exec(nmsObject, iAttribute));
+        return (NMSAttributeInstance) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, iAttribute));
     }
 
     /**

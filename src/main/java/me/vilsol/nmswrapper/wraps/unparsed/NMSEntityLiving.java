@@ -555,7 +555,7 @@ public class NMSEntityLiving extends NMSEntity {
      */
     @ReflectiveMethod(name = "getAttributeInstance", types = {NMSIAttribute.class})
     public NMSAttributeInstance getAttributeInstance(NMSIAttribute iAttribute){
-        return new NMSAttributeInstance(NMSWrapper.getInstance().exec(nmsObject, iAttribute));
+        return (NMSAttributeInstance) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, iAttribute));
     }
 
     /**

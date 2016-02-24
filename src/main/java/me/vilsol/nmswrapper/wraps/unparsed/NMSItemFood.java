@@ -11,6 +11,10 @@ public class NMSItemFood extends NMSItem {
         super(nmsObject);
     }
 
+    public NMSItemFood(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     public NMSItemFood(int i, float f, boolean b){
         super("ItemFood", new Object[]{int.class, float.class, boolean.class}, new Object[]{i, f, b});
     }

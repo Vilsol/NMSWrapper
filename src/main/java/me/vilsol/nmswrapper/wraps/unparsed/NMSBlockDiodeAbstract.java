@@ -73,7 +73,7 @@ public class NMSBlockDiodeAbstract extends NMSBlockDirectional {
      */
     @ReflectiveMethod(name = "e", types = {NMSIBlockData.class})
     public NMSIBlockData e(NMSIBlockData iBlockData){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject, iBlockData));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, iBlockData));
     }
 
     /**
@@ -99,7 +99,7 @@ public class NMSBlockDiodeAbstract extends NMSBlockDirectional {
      */
     @ReflectiveMethod(name = "getPlacedState", types = {NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class, float.class, float.class, float.class, int.class, NMSEntityLiving.class})
     public NMSIBlockData getPlacedState(NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, float f, float f1, float f2, int i, NMSEntityLiving entityLiving){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject, world, blockPosition, enumDirection, f, f1, f2, i, entityLiving));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, world, blockPosition, enumDirection, f, f1, f2, i, entityLiving));
     }
 
     /**
@@ -134,7 +134,7 @@ public class NMSBlockDiodeAbstract extends NMSBlockDirectional {
      */
     @ReflectiveMethod(name = "k", types = {NMSIBlockData.class})
     public NMSIBlockData k(NMSIBlockData iBlockData){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject, iBlockData));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, iBlockData));
     }
 
     /**

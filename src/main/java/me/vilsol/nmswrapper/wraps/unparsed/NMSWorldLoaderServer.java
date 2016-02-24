@@ -23,7 +23,7 @@ public class NMSWorldLoaderServer extends NMSWorldLoader {
      */
     @ReflectiveMethod(name = "a", types = {String.class, boolean.class})
     public NMSIDataManager a(String s, boolean b){
-        return new NMSIDataManager(NMSWrapper.getInstance().exec(nmsObject, s, b));
+        return (NMSIDataManager) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, s, b));
     }
 
     /**

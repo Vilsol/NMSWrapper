@@ -38,7 +38,7 @@ public class NMSStatistic extends NMSWrap {
      */
     @ReflectiveMethod(name = "e", types = {})
     public NMSIChatBaseComponent e(){
-        return new NMSIChatBaseComponent(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIChatBaseComponent) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**
@@ -81,7 +81,7 @@ public class NMSStatistic extends NMSWrap {
      */
     @ReflectiveMethod(name = "j", types = {})
     public NMSIChatBaseComponent j(){
-        return new NMSIChatBaseComponent(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIChatBaseComponent) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**
@@ -90,7 +90,7 @@ public class NMSStatistic extends NMSWrap {
      */
     @ReflectiveMethod(name = "k", types = {})
     public NMSIScoreboardCriteria k(){
-        return new NMSIScoreboardCriteria(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIScoreboardCriteria) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

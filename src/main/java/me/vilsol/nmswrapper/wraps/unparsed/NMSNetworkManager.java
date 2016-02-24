@@ -1,7 +1,6 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
 
-import io.netty.channel.SimpleChannelInboundHandler;
 import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
@@ -68,7 +67,7 @@ public class NMSNetworkManager extends NMSWrap {
      */
     @ReflectiveMethod(name = "getRawAddress", types = {})
     public SocketAddress getRawAddress(){
-        return new SocketAddress(NMSWrapper.getInstance().exec(nmsObject));
+        return (SocketAddress) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -76,7 +75,7 @@ public class NMSNetworkManager extends NMSWrap {
      */
     @ReflectiveMethod(name = "getSocketAddress", types = {})
     public SocketAddress getSocketAddress(){
-        return new SocketAddress(NMSWrapper.getInstance().exec(nmsObject));
+        return (SocketAddress) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -102,7 +101,7 @@ public class NMSNetworkManager extends NMSWrap {
      */
     @ReflectiveMethod(name = "j", types = {})
     public NMSIChatBaseComponent j(){
-        return new NMSIChatBaseComponent(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIChatBaseComponent) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

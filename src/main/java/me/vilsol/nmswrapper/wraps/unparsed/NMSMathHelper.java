@@ -21,7 +21,7 @@ public class NMSMathHelper extends NMSWrap {
      */
     @ReflectiveMethod(name = "a", types = {Random.class})
     public UUID a(Random random){
-        return new UUID(NMSWrapper.getInstance().exec(nmsObject, random));
+        return (UUID) NMSWrapper.getInstance().exec(nmsObject, random);
     }
 
     /**

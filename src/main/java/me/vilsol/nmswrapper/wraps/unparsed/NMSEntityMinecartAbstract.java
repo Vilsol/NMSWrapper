@@ -140,7 +140,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
      */
     @ReflectiveMethod(name = "getDisplayBlock", types = {})
     public NMSIBlockData getDisplayBlock(){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**
@@ -156,7 +156,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
      */
     @ReflectiveMethod(name = "getFlyingVelocityMod", types = {})
     public Vector getFlyingVelocityMod(){
-        return NMSWrapper.getInstance().exec(nmsObject);
+        return (Vector) NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**
@@ -172,7 +172,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
      */
     @ReflectiveMethod(name = "getScoreboardDisplayName", types = {})
     public NMSIChatBaseComponent getScoreboardDisplayName(){
-        return new NMSIChatBaseComponent(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIChatBaseComponent) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**
@@ -335,7 +335,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
      */
     @ReflectiveMethod(name = "u", types = {})
     public NMSIBlockData u(){
-        return new NMSIBlockData(NMSWrapper.getInstance().exec(nmsObject));
+        return (NMSIBlockData) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject));
     }
 
     /**

@@ -29,4 +29,7 @@ public class ReflectionClass implements ReflectionType {
         types.put(name, type);
     }
 
+    public Class<?> getClazz() {
+        return clazz;
+    }
 }

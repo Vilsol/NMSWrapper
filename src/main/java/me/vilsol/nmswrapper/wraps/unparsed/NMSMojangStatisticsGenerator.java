@@ -25,7 +25,7 @@ public class NMSMojangStatisticsGenerator extends NMSWrap {
      */
     @ReflectiveMethod(name = "a", types = {NMSMojangStatisticsGenerator.class})
     public NMSIMojangStatistics a(NMSMojangStatisticsGenerator mojangStatisticsGenerator){
-        return new NMSIMojangStatistics(NMSWrapper.getInstance().exec(nmsObject, mojangStatisticsGenerator));
+        return (NMSIMojangStatistics) NMSWrapper.getInstance().createApplicableObject(NMSWrapper.getInstance().exec(nmsObject, mojangStatisticsGenerator));
     }
 
     /**
