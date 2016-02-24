@@ -1,8 +1,7 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import io.netty.channel.ChannelInboundHandlerAdapter;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 
 @ReflectiveClass(name = "LegacyPingHandler")
 public class NMSLegacyPingHandler extends ChannelInboundHandlerAdapter {

@@ -1,4 +1,4 @@
-package me.vilsol.nmswrapper.wraps.entity;
+package me.vilsol.nmswrapper.wraps;
 
 import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;

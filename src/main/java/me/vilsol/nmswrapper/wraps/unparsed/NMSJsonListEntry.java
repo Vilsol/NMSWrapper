@@ -1,18 +1,16 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import com.google.gson.JsonObject;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
 
 @ReflectiveClass(name = "JsonListEntry")
 public class NMSJsonListEntry extends NMSWrap {
 
     public NMSJsonListEntry(Object nmsObject){
         super(nmsObject);
-    }
-
-    public NMSJsonListEntry(T t){
-        super("JsonListEntry", new Object[]{T.class}, new Object[]{t});
     }
 
     /**
@@ -28,8 +26,8 @@ public class NMSJsonListEntry extends NMSWrap {
      * @see net.minecraft.server.v1_8_R3.JsonListEntry#getKey()
      */
     @ReflectiveMethod(name = "getKey", types = {})
-    public T getKey(){
-        return new T(NMSWrapper.getInstance().exec(nmsObject));
+    public Object getKey(){
+        return NMSWrapper.getInstance().exec(nmsObject);
     }
 
     /**

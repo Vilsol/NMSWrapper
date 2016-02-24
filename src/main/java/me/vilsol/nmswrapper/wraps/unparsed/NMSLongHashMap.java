@@ -40,15 +40,15 @@ public class NMSLongHashMap extends NMSWrap {
      * @see net.minecraft.server.v1_8_R3.LongHashMap#getEntry(long)
      */
     @ReflectiveMethod(name = "getEntry", types = {long.class})
-    public V getEntry(long l){
-        return new V(NMSWrapper.getInstance().exec(nmsObject, l));
+    public Object getEntry(long l){
+        return NMSWrapper.getInstance().exec(nmsObject, l);
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.LongHashMap#put(long, V)
+     * @see net.minecraft.server.v1_8_R3.LongHashMap#put(long, Object)
      */
-    @ReflectiveMethod(name = "put", types = {long.class, V.class})
-    public void put(long l, V v){
+    @ReflectiveMethod(name = "put", types = {long.class, Object.class})
+    public void put(long l, Object v){
         NMSWrapper.getInstance().exec(nmsObject, l, v);
     }
 
@@ -56,8 +56,8 @@ public class NMSLongHashMap extends NMSWrap {
      * @see net.minecraft.server.v1_8_R3.LongHashMap#remove(long)
      */
     @ReflectiveMethod(name = "remove", types = {long.class})
-    public V remove(long l){
-        return new V(NMSWrapper.getInstance().exec(nmsObject, l));
+    public Object remove(long l){
+        return NMSWrapper.getInstance().exec(nmsObject, l);
     }
 
 }

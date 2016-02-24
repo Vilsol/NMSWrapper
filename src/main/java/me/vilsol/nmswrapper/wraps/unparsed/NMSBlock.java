@@ -5,7 +5,7 @@ import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 import me.vilsol.nmswrapper.wraps.NMSItemStack;
 import me.vilsol.nmswrapper.wraps.NMSWrap;
-import me.vilsol.nmswrapper.wraps.entity.NMSEntityLiving;
+import me.vilsol.nmswrapper.wraps.NMSEntityLiving;
 import me.vilsol.nmswrapper.wraps.NMSWorld;
 
 import java.util.Random;
@@ -15,6 +15,10 @@ public class NMSBlock extends NMSWrap {
 
     public NMSBlock(Object nmsObject){
         super(nmsObject);
+    }
+
+    public NMSBlock(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
     }
 
     public NMSBlock(NMSMaterial material, NMSMaterialMapColor materialMapColor){

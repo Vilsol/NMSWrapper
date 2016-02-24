@@ -4,8 +4,6 @@ import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.Reflection;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
-import me.vilsol.nmswrapper.wraps.NMSWrap;
-import me.vilsol.nmswrapper.wraps.world.NMSGameRules;
 import org.bukkit.World;
 
 @ReflectiveClass(name = "World")

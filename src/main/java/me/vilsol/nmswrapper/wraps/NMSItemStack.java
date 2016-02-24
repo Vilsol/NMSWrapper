@@ -4,12 +4,15 @@ import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.Reflection;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
-import me.vilsol.nmswrapper.wraps.nbt.NMSNBTTagCompound;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 @ReflectiveClass(name = "ItemStack")
 public class NMSItemStack extends NMSWrap {
+
+    public NMSItemStack(Object nmsObject) {
+        super(nmsObject);
+    }
 
     public NMSItemStack(Material type) {
         this(type, 1);

@@ -1,8 +1,11 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
+import me.vilsol.nmswrapper.wraps.NMSEntityLiving;
+import me.vilsol.nmswrapper.wraps.NMSNBTTagCompound;
 
 @ReflectiveClass(name = "MobEffect")
 public class NMSMobEffect extends NMSWrap {

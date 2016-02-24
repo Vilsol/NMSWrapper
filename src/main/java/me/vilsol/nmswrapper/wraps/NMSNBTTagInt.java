@@ -1,4 +1,4 @@
-package me.vilsol.nmswrapper.wraps.nbt;
+package me.vilsol.nmswrapper.wraps;
 
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 

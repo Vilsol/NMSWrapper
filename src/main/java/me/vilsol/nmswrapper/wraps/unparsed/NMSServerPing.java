@@ -1,10 +1,13 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
+import com.google.gson.JsonElement;
 import com.google.gson.JsonSerializationContext;
 import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 import me.vilsol.nmswrapper.wraps.NMSWrap;
+
+import java.lang.reflect.Type;
 
 @ReflectiveClass(name = "ServerPing")
 public class NMSServerPing extends NMSWrap {

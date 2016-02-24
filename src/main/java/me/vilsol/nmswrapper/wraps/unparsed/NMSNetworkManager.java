@@ -1,8 +1,12 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+
+import io.netty.channel.SimpleChannelInboundHandler;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+
+import java.net.SocketAddress;
 
 @ReflectiveClass(name = "NetworkManager")
 public class NMSNetworkManager extends SimpleChannelInboundHandler {

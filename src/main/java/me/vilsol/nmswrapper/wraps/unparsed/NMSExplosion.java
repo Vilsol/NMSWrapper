@@ -4,8 +4,8 @@ import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 import me.vilsol.nmswrapper.wraps.NMSWrap;
-import me.vilsol.nmswrapper.wraps.entity.NMSEntity;
-import me.vilsol.nmswrapper.wraps.entity.NMSEntityLiving;
+import me.vilsol.nmswrapper.wraps.NMSEntity;
+import me.vilsol.nmswrapper.wraps.NMSEntityLiving;
 import me.vilsol.nmswrapper.wraps.NMSWorld;
 
 @ReflectiveClass(name = "Explosion")

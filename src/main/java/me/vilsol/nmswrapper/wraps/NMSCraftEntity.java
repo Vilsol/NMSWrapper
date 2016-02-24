@@ -1,9 +1,8 @@
-package me.vilsol.nmswrapper.wraps.entity;
+package me.vilsol.nmswrapper.wraps;
 
 import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
-import me.vilsol.nmswrapper.wraps.NMSWrap;
 import org.bukkit.entity.Entity;
 
 @ReflectiveClass(name = "entity.CraftEntity", craft = true)

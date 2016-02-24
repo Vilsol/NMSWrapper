@@ -1,8 +1,10 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import com.google.common.collect.ForwardingSet;
+import com.google.gson.JsonElement;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 
 @ReflectiveClass(name = "AchievementSet")
 public class NMSAchievementSet extends ForwardingSet {
@@ -25,7 +27,7 @@ public class NMSAchievementSet extends ForwardingSet {
      */
     @ReflectiveMethod(name = "delegate", types = {})
     public Object delegate(){
-        return new Object(NMSWrapper.getInstance().exec(nmsObject));
+        return NMSWrapper.getInstance().exec(nmsObject);
     }
 
 }

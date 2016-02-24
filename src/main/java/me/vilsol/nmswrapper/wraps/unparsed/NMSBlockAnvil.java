@@ -5,7 +5,7 @@ import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 import me.vilsol.nmswrapper.wraps.NMSWorld;
 import me.vilsol.nmswrapper.wraps.NMSWrap;
-import me.vilsol.nmswrapper.wraps.entity.NMSEntityLiving;
+import me.vilsol.nmswrapper.wraps.NMSEntityLiving;
 
 @ReflectiveClass(name = "BlockAnvil")
 public class NMSBlockAnvil extends NMSBlockFalling {

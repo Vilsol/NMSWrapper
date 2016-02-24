@@ -5,6 +5,7 @@ import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 import me.vilsol.nmswrapper.wraps.NMSItemStack;
 import me.vilsol.nmswrapper.wraps.NMSWorld;
+import me.vilsol.nmswrapper.wraps.NMSNBTTagCompound;
 
 @ReflectiveClass(name = "ItemSkull")
 public class NMSItemSkull extends NMSItem {
