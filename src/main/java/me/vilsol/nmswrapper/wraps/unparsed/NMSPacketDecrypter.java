@@ -1,8 +1,9 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import io.netty.handler.codec.MessageToMessageDecoder;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+
+import javax.crypto.Cipher;
 
 @ReflectiveClass(name = "PacketDecrypter")
 public class NMSPacketDecrypter extends MessageToMessageDecoder {

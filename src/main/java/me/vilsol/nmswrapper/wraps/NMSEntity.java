@@ -4,9 +4,6 @@ import me.vilsol.nmswrapper.NMSWrapper;
 import me.vilsol.nmswrapper.reflections.Reflection;
 import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
-import me.vilsol.nmswrapper.wraps.NMSBoundingBox;
-import me.vilsol.nmswrapper.wraps.NMSItemStack;
-import me.vilsol.nmswrapper.wraps.NMSWrap;
 import org.bukkit.entity.Entity;
 
 @ReflectiveClass(name = "Entity")
@@ -14,6 +11,10 @@ public class NMSEntity extends NMSWrap {
 
     public NMSEntity(Object nmsObject) {
         super(nmsObject);
+    }
+
+    public NMSEntity(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
     }
 
     public NMSEntity(Entity entity) {

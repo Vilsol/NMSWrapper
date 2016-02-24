@@ -1,11 +1,12 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
+
+import javax.crypto.Cipher;
 
 @ReflectiveClass(name = "PacketEncrypter")
-public class NMSPacketEncrypter extends MessageToByteEncoder {
+public class NMSPacketEncrypter extends NMSWrap {
 
     public NMSPacketEncrypter(Object nmsObject){
         super(nmsObject);

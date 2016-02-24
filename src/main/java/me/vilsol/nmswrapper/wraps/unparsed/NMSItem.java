@@ -14,6 +14,10 @@ public class NMSItem extends NMSWrap {
         super(nmsObject);
     }
 
+    public NMSItem(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     /**
      * TODO Find correct name
      * @see net.minecraft.server.v1_8_R3.Item#a(net.minecraft.server.v1_8_R3.Block, net.minecraft.server.v1_8_R3.Item)

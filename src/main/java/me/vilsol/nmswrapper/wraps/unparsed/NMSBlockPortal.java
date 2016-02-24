@@ -1,8 +1,13 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSEntity;
+import me.vilsol.nmswrapper.wraps.NMSWorld;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
+
+import java.util.Random;
 
 @ReflectiveClass(name = "BlockPortal")
 public class NMSBlockPortal extends NMSBlockHalfTransparent {
@@ -60,8 +65,8 @@ public class NMSBlockPortal extends NMSBlockHalfTransparent {
      * @see net.minecraft.server.v1_8_R3.BlockPortal#f(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
      */
     @ReflectiveMethod(name = "f", types = {NMSWorld.class, NMSBlockPosition.class})
-    public NMSShapeDetectorCollection f(NMSWorld world, NMSBlockPosition blockPosition){
-        return new NMSShapeDetectorCollection(NMSWrapper.getInstance().exec(nmsObject, world, blockPosition));
+    public NMSShapeDetector.NMSShapeDetectorCollection f(NMSWorld world, NMSBlockPosition blockPosition){
+        return new NMSShapeDetector.NMSShapeDetectorCollection(NMSWrapper.getInstance().exec(nmsObject, world, blockPosition));
     }
 
     /**

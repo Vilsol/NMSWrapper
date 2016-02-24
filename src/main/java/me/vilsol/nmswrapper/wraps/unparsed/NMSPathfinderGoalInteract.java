@@ -1,8 +1,6 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
 
 @ReflectiveClass(name = "PathfinderGoalInteract")
 public class NMSPathfinderGoalInteract extends NMSPathfinderGoalLookAtPlayer {
@@ -11,4 +9,7 @@ public class NMSPathfinderGoalInteract extends NMSPathfinderGoalLookAtPlayer {
         super(nmsObject);
     }
 
+    public NMSPathfinderGoalInteract(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
 }

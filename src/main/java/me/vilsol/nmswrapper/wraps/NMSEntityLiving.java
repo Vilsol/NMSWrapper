@@ -9,4 +9,7 @@ public class NMSEntityLiving extends NMSEntity {
         super(nmsObject);
     }
 
+    public NMSEntityLiving(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
 }

@@ -6,6 +6,7 @@ import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
 import me.vilsol.nmswrapper.wraps.NMSNBTTagCompound;
 import me.vilsol.nmswrapper.wraps.NMSWrap;
 
+import java.io.File;
 import java.util.UUID;
 
 @ReflectiveClass(name = "WorldNBTStorage")

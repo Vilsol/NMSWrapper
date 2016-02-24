@@ -5,7 +5,7 @@ import me.vilsol.nmswrapper.reflections.*;
 import me.vilsol.nmswrapper.wraps.*;
 
 @ReflectiveClass(name = "PacketCompressor")
-public class NMSPacketCompressor extends MessageToByteEncoder {
+public class NMSPacketCompressor extends NMSWrap {
 
     public NMSPacketCompressor(Object nmsObject){
         super(nmsObject);

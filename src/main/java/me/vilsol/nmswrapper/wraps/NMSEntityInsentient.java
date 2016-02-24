@@ -11,6 +11,10 @@ public class NMSEntityInsentient extends NMSEntityLiving {
         super(nmsObject);
     }
 
+    public NMSEntityInsentient(String nmsName, Object[] paramTypes, Object[] params) {
+        super(nmsName, paramTypes, params);
+    }
+
     @ReflectiveField(name = "dropChances")
     public float[] getDropChances(){
         return (float[]) NMSWrapper.getInstance().exec(nmsObject);

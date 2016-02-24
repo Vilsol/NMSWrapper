@@ -1,8 +1,13 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import com.avaje.ebean.text.json.JsonElement;
+import com.google.gson.JsonSerializationContext;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
+
+import java.lang.reflect.Type;
 
 @ReflectiveClass(name = "ChatModifier")
 public class NMSChatModifier extends NMSWrap {

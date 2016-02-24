@@ -1,11 +1,14 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSWrap;
+
+import java.io.OutputStream;
 
 @ReflectiveClass(name = "RedirectStream")
-public class NMSRedirectStream extends PrintStream {
+public class NMSRedirectStream extends NMSWrap {
 
     public NMSRedirectStream(Object nmsObject){
         super(nmsObject);

@@ -1,8 +1,12 @@
 package me.vilsol.nmswrapper.wraps.unparsed;
 
-import me.vilsol.nmswrapper.*;
-import me.vilsol.nmswrapper.reflections.*;
-import me.vilsol.nmswrapper.wraps.*;
+import me.vilsol.nmswrapper.NMSWrapper;
+import me.vilsol.nmswrapper.reflections.ReflectiveClass;
+import me.vilsol.nmswrapper.reflections.ReflectiveMethod;
+import me.vilsol.nmswrapper.wraps.NMSEntity;
+import me.vilsol.nmswrapper.wraps.NMSItemStack;
+import me.vilsol.nmswrapper.wraps.NMSWorld;
+import org.bukkit.event.entity.CreatureSpawnEvent;
 
 @ReflectiveClass(name = "ItemMonsterEgg")
 public class NMSItemMonsterEgg extends NMSItem {
@@ -31,8 +35,8 @@ public class NMSItemMonsterEgg extends NMSItem {
     /**
      * @see net.minecraft.server.v1_8_R3.ItemMonsterEgg#spawnCreature(net.minecraft.server.v1_8_R3.World, int, double, double, double, org.bukkit.event.entity.CreatureSpawnEvent$SpawnReason)
      */
-    @ReflectiveMethod(name = "spawnCreature", types = {NMSWorld.class, int.class, double.class, double.class, double.class, SpawnReason.class})
-    public NMSEntity spawnCreature(NMSWorld world, int i, double d, double d1, double d2, SpawnReason spawnReason){
+    @ReflectiveMethod(name = "spawnCreature", types = {NMSWorld.class, int.class, double.class, double.class, double.class, CreatureSpawnEvent.SpawnReason.class})
+    public NMSEntity spawnCreature(NMSWorld world, int i, double d, double d1, double d2, CreatureSpawnEvent.SpawnReason spawnReason){
         return new NMSEntity(NMSWrapper.getInstance().exec(nmsObject, world, i, d, d1, d2, spawnReason));
     }
 
