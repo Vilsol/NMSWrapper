@@ -17,7 +17,7 @@ public class NMSSlotMerchantResult extends NMSSlot {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SlotMerchantResult#a(net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.SlotMerchantResult#a(net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class, NMSItemStack.class})
     public void a(NMSEntityHuman entityHuman, NMSItemStack itemStack){
@@ -26,7 +26,7 @@ public class NMSSlotMerchantResult extends NMSSlot {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SlotMerchantResult#c(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.SlotMerchantResult#c(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "c", types = {NMSItemStack.class})
     public void c(NMSItemStack itemStack){
@@ -34,7 +34,7 @@ public class NMSSlotMerchantResult extends NMSSlot {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SlotMerchantResult#isAllowed(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.SlotMerchantResult#isAllowed(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "isAllowed", types = {NMSItemStack.class})
     public boolean isAllowed(NMSItemStack itemStack){

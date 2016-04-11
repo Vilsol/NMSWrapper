@@ -17,7 +17,7 @@ public class NMSEntityEndermite extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEndermite#a(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityEndermite#a(boolean)
      */
     @ReflectiveMethod(name = "a", types = {boolean.class})
     public void a(boolean b){
@@ -26,7 +26,7 @@ public class NMSEntityEndermite extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEndermite#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityEndermite#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -35,7 +35,7 @@ public class NMSEntityEndermite extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEndermite#bR()
+     * @see net.minecraft.server.v1_9_R1.EntityEndermite#bR()
      */
     @ReflectiveMethod(name = "bR", types = {})
     public boolean bR(){
@@ -44,7 +44,7 @@ public class NMSEntityEndermite extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEndermite#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityEndermite#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -53,7 +53,7 @@ public class NMSEntityEndermite extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEndermite#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityEndermite#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -61,7 +61,7 @@ public class NMSEntityEndermite extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityEndermite#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntityEndermite#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -69,7 +69,7 @@ public class NMSEntityEndermite extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityEndermite#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntityEndermite#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -77,7 +77,7 @@ public class NMSEntityEndermite extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityEndermite#getMonsterType()
+     * @see net.minecraft.server.v1_9_R1.EntityEndermite#getMonsterType()
      */
     @ReflectiveMethod(name = "getMonsterType", types = {})
     public NMSEnumMonsterType getMonsterType(){
@@ -85,7 +85,7 @@ public class NMSEntityEndermite extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityEndermite#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityEndermite#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -94,7 +94,7 @@ public class NMSEntityEndermite extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEndermite#m()
+     * @see net.minecraft.server.v1_9_R1.EntityEndermite#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -103,7 +103,7 @@ public class NMSEntityEndermite extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEndermite#n()
+     * @see net.minecraft.server.v1_9_R1.EntityEndermite#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public boolean n(){
@@ -112,7 +112,7 @@ public class NMSEntityEndermite extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEndermite#n_()
+     * @see net.minecraft.server.v1_9_R1.EntityEndermite#n_()
      */
     @ReflectiveMethod(name = "n_", types = {})
     public boolean n_(){
@@ -121,7 +121,7 @@ public class NMSEntityEndermite extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEndermite#s_()
+     * @see net.minecraft.server.v1_9_R1.EntityEndermite#s_()
      */
     @ReflectiveMethod(name = "s_", types = {})
     public boolean s_(){
@@ -130,7 +130,7 @@ public class NMSEntityEndermite extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEndermite#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityEndermite#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){
@@ -139,7 +139,7 @@ public class NMSEntityEndermite extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEndermite#z()
+     * @see net.minecraft.server.v1_9_R1.EntityEndermite#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

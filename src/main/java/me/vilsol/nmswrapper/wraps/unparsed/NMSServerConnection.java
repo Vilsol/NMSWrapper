@@ -17,7 +17,7 @@ public class NMSServerConnection extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ServerConnection#b()
+     * @see net.minecraft.server.v1_9_R1.ServerConnection#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public void b(){
@@ -26,7 +26,7 @@ public class NMSServerConnection extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ServerConnection#c()
+     * @see net.minecraft.server.v1_9_R1.ServerConnection#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -35,7 +35,7 @@ public class NMSServerConnection extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ServerConnection#d()
+     * @see net.minecraft.server.v1_9_R1.ServerConnection#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public NMSMinecraftServer d(){

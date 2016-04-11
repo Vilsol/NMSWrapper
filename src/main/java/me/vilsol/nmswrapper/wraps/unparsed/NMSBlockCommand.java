@@ -17,7 +17,7 @@ public class NMSBlockCommand extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCommand#a(java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockCommand#a(java.util.Random)
      */
     @ReflectiveMethod(name = "a", types = {Random.class})
     public int a(Random random){
@@ -26,7 +26,7 @@ public class NMSBlockCommand extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCommand#b()
+     * @see net.minecraft.server.v1_9_R1.BlockCommand#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public int b(){
@@ -34,7 +34,7 @@ public class NMSBlockCommand extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCommand#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockCommand#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -42,7 +42,7 @@ public class NMSBlockCommand extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCommand#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockCommand#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -50,7 +50,7 @@ public class NMSBlockCommand extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCommand#getPlacedState(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float, int, net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.BlockCommand#getPlacedState(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float, int, net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getPlacedState", types = {NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class, float.class, float.class, float.class, int.class, NMSEntityLiving.class})
     public NMSIBlockData getPlacedState(NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, float f, float f1, float f2, int i, NMSEntityLiving entityLiving){
@@ -58,7 +58,7 @@ public class NMSBlockCommand extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCommand#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockCommand#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -66,7 +66,7 @@ public class NMSBlockCommand extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCommand#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockCommand#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -74,7 +74,7 @@ public class NMSBlockCommand extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCommand#isComplexRedstone()
+     * @see net.minecraft.server.v1_9_R1.BlockCommand#isComplexRedstone()
      */
     @ReflectiveMethod(name = "isComplexRedstone", types = {})
     public boolean isComplexRedstone(){
@@ -83,7 +83,7 @@ public class NMSBlockCommand extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCommand#l(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockCommand#l(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "l", types = {NMSWorld.class, NMSBlockPosition.class})
     public int l(NMSWorld world, NMSBlockPosition blockPosition){
@@ -91,7 +91,7 @@ public class NMSBlockCommand extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCommand#postPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityLiving, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.BlockCommand#postPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityLiving, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "postPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityLiving.class, NMSItemStack.class})
     public void postPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityLiving entityLiving, NMSItemStack itemStack){
@@ -99,7 +99,7 @@ public class NMSBlockCommand extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCommand#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockCommand#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

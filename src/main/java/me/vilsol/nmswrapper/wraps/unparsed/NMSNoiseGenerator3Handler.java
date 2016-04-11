@@ -20,7 +20,7 @@ public class NMSNoiseGenerator3Handler extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NoiseGenerator3Handler#a(double, double)
+     * @see net.minecraft.server.v1_9_R1.NoiseGenerator3Handler#a(double, double)
      */
     @ReflectiveMethod(name = "a", types = {double.class, double.class})
     public double a(double d, double d1){

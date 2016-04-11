@@ -16,7 +16,7 @@ public class NMSBlockWoodenStep extends NMSBlockStepAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockWoodenStep#a(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.BlockWoodenStep#a(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "a", types = {NMSItemStack.class})
     public Object a(NMSItemStack itemStack){
@@ -25,7 +25,7 @@ public class NMSBlockWoodenStep extends NMSBlockStepAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockWoodenStep#b(int)
+     * @see net.minecraft.server.v1_9_R1.BlockWoodenStep#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public String b(int i){
@@ -33,7 +33,7 @@ public class NMSBlockWoodenStep extends NMSBlockStepAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockWoodenStep#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockWoodenStep#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -42,7 +42,7 @@ public class NMSBlockWoodenStep extends NMSBlockStepAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockWoodenStep#g(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockWoodenStep#g(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "g", types = {NMSIBlockData.class})
     public NMSMaterialMapColor g(NMSIBlockData iBlockData){
@@ -50,7 +50,7 @@ public class NMSBlockWoodenStep extends NMSBlockStepAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockWoodenStep#getDropData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockWoodenStep#getDropData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSIBlockData.class})
     public int getDropData(NMSIBlockData iBlockData){
@@ -58,7 +58,7 @@ public class NMSBlockWoodenStep extends NMSBlockStepAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockWoodenStep#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockWoodenStep#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -66,7 +66,7 @@ public class NMSBlockWoodenStep extends NMSBlockStepAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockWoodenStep#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockWoodenStep#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -74,7 +74,7 @@ public class NMSBlockWoodenStep extends NMSBlockStepAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockWoodenStep#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockWoodenStep#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

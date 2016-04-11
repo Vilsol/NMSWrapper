@@ -13,7 +13,7 @@ public class NMSUtilColor extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.UtilColor#b(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.UtilColor#b(java.lang.String)
      */
     @ReflectiveMethod(name = "b", types = {String.class})
     public boolean b(String s){

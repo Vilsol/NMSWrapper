@@ -13,7 +13,7 @@ public class NMSCommandStats extends NMSCommandAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandStats#a()
+     * @see net.minecraft.server.v1_9_R1.CommandStats#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public int a(){
@@ -21,7 +21,7 @@ public class NMSCommandStats extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandStats#getCommand()
+     * @see net.minecraft.server.v1_9_R1.CommandStats#getCommand()
      */
     @ReflectiveMethod(name = "getCommand", types = {})
     public String getCommand(){
@@ -29,7 +29,7 @@ public class NMSCommandStats extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandStats#getUsage(net.minecraft.server.v1_8_R3.ICommandListener)
+     * @see net.minecraft.server.v1_9_R1.CommandStats#getUsage(net.minecraft.server.v1_9_R1.ICommandListener)
      */
     @ReflectiveMethod(name = "getUsage", types = {NMSICommandListener.class})
     public String getUsage(NMSICommandListener iCommandListener){

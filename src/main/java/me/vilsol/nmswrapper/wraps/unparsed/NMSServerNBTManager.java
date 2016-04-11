@@ -20,7 +20,7 @@ public class NMSServerNBTManager extends NMSWorldNBTStorage {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ServerNBTManager#a()
+     * @see net.minecraft.server.v1_9_R1.ServerNBTManager#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public void a(){
@@ -28,7 +28,7 @@ public class NMSServerNBTManager extends NMSWorldNBTStorage {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ServerNBTManager#createChunkLoader(net.minecraft.server.v1_8_R3.WorldProvider)
+     * @see net.minecraft.server.v1_9_R1.ServerNBTManager#createChunkLoader(net.minecraft.server.v1_9_R1.WorldProvider)
      */
     @ReflectiveMethod(name = "createChunkLoader", types = {NMSWorldProvider.class})
     public NMSIChunkLoader createChunkLoader(NMSWorldProvider worldProvider){
@@ -36,7 +36,7 @@ public class NMSServerNBTManager extends NMSWorldNBTStorage {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ServerNBTManager#saveWorldData(net.minecraft.server.v1_8_R3.WorldData, net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.ServerNBTManager#saveWorldData(net.minecraft.server.v1_9_R1.WorldData, net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "saveWorldData", types = {NMSWorldData.class, NMSNBTTagCompound.class})
     public void saveWorldData(NMSWorldData worldData, NMSNBTTagCompound nBTTagCompound){

@@ -12,7 +12,7 @@ public class NMSBlockQuartz extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockQuartz#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockQuartz#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -21,7 +21,7 @@ public class NMSBlockQuartz extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockQuartz#g(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockQuartz#g(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "g", types = {NMSIBlockData.class})
     public NMSMaterialMapColor g(NMSIBlockData iBlockData){
@@ -29,7 +29,7 @@ public class NMSBlockQuartz extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockQuartz#getDropData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockQuartz#getDropData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSIBlockData.class})
     public int getDropData(NMSIBlockData iBlockData){
@@ -37,7 +37,7 @@ public class NMSBlockQuartz extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockQuartz#getPlacedState(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float, int, net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.BlockQuartz#getPlacedState(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float, int, net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getPlacedState", types = {NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class, float.class, float.class, float.class, int.class, NMSEntityLiving.class})
     public NMSIBlockData getPlacedState(NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, float f, float f1, float f2, int i, NMSEntityLiving entityLiving){
@@ -45,7 +45,7 @@ public class NMSBlockQuartz extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockQuartz#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockQuartz#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -54,7 +54,7 @@ public class NMSBlockQuartz extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockQuartz#i(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockQuartz#i(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "i", types = {NMSIBlockData.class})
     public NMSItemStack i(NMSIBlockData iBlockData){
@@ -62,7 +62,7 @@ public class NMSBlockQuartz extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockQuartz#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockQuartz#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

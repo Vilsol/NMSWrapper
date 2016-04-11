@@ -21,7 +21,7 @@ public class NMSEntityItemFrame extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItemFrame#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityItemFrame#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -30,7 +30,7 @@ public class NMSEntityItemFrame extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItemFrame#ao()
+     * @see net.minecraft.server.v1_9_R1.EntityItemFrame#ao()
      */
     @ReflectiveMethod(name = "ao", types = {})
     public float ao(){
@@ -39,7 +39,7 @@ public class NMSEntityItemFrame extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItemFrame#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityItemFrame#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -47,7 +47,7 @@ public class NMSEntityItemFrame extends NMSEntityHanging {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityItemFrame#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityItemFrame#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -56,7 +56,7 @@ public class NMSEntityItemFrame extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItemFrame#e(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityItemFrame#e(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "e", types = {NMSEntityHuman.class})
     public boolean e(NMSEntityHuman entityHuman){
@@ -64,7 +64,7 @@ public class NMSEntityItemFrame extends NMSEntityHanging {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityItemFrame#getItem()
+     * @see net.minecraft.server.v1_9_R1.EntityItemFrame#getItem()
      */
     @ReflectiveMethod(name = "getItem", types = {})
     public NMSItemStack getItem(){
@@ -72,7 +72,7 @@ public class NMSEntityItemFrame extends NMSEntityHanging {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityItemFrame#getRotation()
+     * @see net.minecraft.server.v1_9_R1.EntityItemFrame#getRotation()
      */
     @ReflectiveMethod(name = "getRotation", types = {})
     public int getRotation(){
@@ -81,7 +81,7 @@ public class NMSEntityItemFrame extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItemFrame#h()
+     * @see net.minecraft.server.v1_9_R1.EntityItemFrame#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -90,7 +90,7 @@ public class NMSEntityItemFrame extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItemFrame#l()
+     * @see net.minecraft.server.v1_9_R1.EntityItemFrame#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public int l(){
@@ -99,7 +99,7 @@ public class NMSEntityItemFrame extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItemFrame#m()
+     * @see net.minecraft.server.v1_9_R1.EntityItemFrame#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public int m(){
@@ -108,7 +108,7 @@ public class NMSEntityItemFrame extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItemFrame#q()
+     * @see net.minecraft.server.v1_9_R1.EntityItemFrame#q()
      */
     @ReflectiveMethod(name = "q", types = {})
     public int q(){
@@ -116,7 +116,7 @@ public class NMSEntityItemFrame extends NMSEntityHanging {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityItemFrame#setItem(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityItemFrame#setItem(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "setItem", types = {NMSItemStack.class})
     public void setItem(NMSItemStack itemStack){
@@ -124,7 +124,7 @@ public class NMSEntityItemFrame extends NMSEntityHanging {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityItemFrame#setRotation(int)
+     * @see net.minecraft.server.v1_9_R1.EntityItemFrame#setRotation(int)
      */
     @ReflectiveMethod(name = "setRotation", types = {int.class})
     public void setRotation(int i){

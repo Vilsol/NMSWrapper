@@ -19,7 +19,7 @@ public class NMSEmptyChunk extends NMSChunk {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EmptyChunk#a(long)
+     * @see net.minecraft.server.v1_9_R1.EmptyChunk#a(long)
      */
     @ReflectiveMethod(name = "a", types = {long.class})
     public Random a(long l){
@@ -27,7 +27,7 @@ public class NMSEmptyChunk extends NMSChunk {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EmptyChunk#addEntities()
+     * @see net.minecraft.server.v1_9_R1.EmptyChunk#addEntities()
      */
     @ReflectiveMethod(name = "addEntities", types = {})
     public void addEntities(){
@@ -36,7 +36,7 @@ public class NMSEmptyChunk extends NMSChunk {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EmptyChunk#b(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EmptyChunk#b(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntity.class})
     public void b(NMSEntity entity){
@@ -45,7 +45,7 @@ public class NMSEmptyChunk extends NMSChunk {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EmptyChunk#c(int, int)
+     * @see net.minecraft.server.v1_9_R1.EmptyChunk#c(int, int)
      */
     @ReflectiveMethod(name = "c", types = {int.class, int.class})
     public boolean c(int i, int i1){
@@ -54,7 +54,7 @@ public class NMSEmptyChunk extends NMSChunk {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EmptyChunk#d(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.EmptyChunk#d(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "d", types = {NMSBlockPosition.class})
     public boolean d(NMSBlockPosition blockPosition){
@@ -63,7 +63,7 @@ public class NMSEmptyChunk extends NMSChunk {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EmptyChunk#e()
+     * @see net.minecraft.server.v1_9_R1.EmptyChunk#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){
@@ -71,7 +71,7 @@ public class NMSEmptyChunk extends NMSChunk {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EmptyChunk#getBrightness(net.minecraft.server.v1_8_R3.EnumSkyBlock, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.EmptyChunk#getBrightness(net.minecraft.server.v1_9_R1.EnumSkyBlock, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getBrightness", types = {NMSEnumSkyBlock.class, NMSBlockPosition.class})
     public int getBrightness(NMSEnumSkyBlock enumSkyBlock, NMSBlockPosition blockPosition){
@@ -79,7 +79,7 @@ public class NMSEmptyChunk extends NMSChunk {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EmptyChunk#getType(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.EmptyChunk#getType(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getType", types = {NMSBlockPosition.class})
     public NMSBlock getType(NMSBlockPosition blockPosition){
@@ -87,7 +87,7 @@ public class NMSEmptyChunk extends NMSChunk {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EmptyChunk#initLighting()
+     * @see net.minecraft.server.v1_9_R1.EmptyChunk#initLighting()
      */
     @ReflectiveMethod(name = "initLighting", types = {})
     public void initLighting(){
@@ -95,7 +95,7 @@ public class NMSEmptyChunk extends NMSChunk {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EmptyChunk#isEmpty()
+     * @see net.minecraft.server.v1_9_R1.EmptyChunk#isEmpty()
      */
     @ReflectiveMethod(name = "isEmpty", types = {})
     public boolean isEmpty(){
@@ -103,7 +103,7 @@ public class NMSEmptyChunk extends NMSChunk {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EmptyChunk#removeEntities()
+     * @see net.minecraft.server.v1_9_R1.EmptyChunk#removeEntities()
      */
     @ReflectiveMethod(name = "removeEntities", types = {})
     public void removeEntities(){

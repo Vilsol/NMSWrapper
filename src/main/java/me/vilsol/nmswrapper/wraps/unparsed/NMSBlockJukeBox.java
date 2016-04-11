@@ -13,7 +13,7 @@ public class NMSBlockJukeBox extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockJukeBox#a(net.minecraft.server.v1_8_R3.World, int)
+     * @see net.minecraft.server.v1_9_R1.BlockJukeBox#a(net.minecraft.server.v1_9_R1.World, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, int.class})
     public NMSTileEntity a(NMSWorld world, int i){
@@ -22,7 +22,7 @@ public class NMSBlockJukeBox extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockJukeBox#b()
+     * @see net.minecraft.server.v1_9_R1.BlockJukeBox#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public int b(){
@@ -30,7 +30,7 @@ public class NMSBlockJukeBox extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockJukeBox#dropNaturally(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, float, int)
+     * @see net.minecraft.server.v1_9_R1.BlockJukeBox#dropNaturally(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, float, int)
      */
     @ReflectiveMethod(name = "dropNaturally", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, float.class, int.class})
     public void dropNaturally(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, float f, int i){
@@ -38,7 +38,7 @@ public class NMSBlockJukeBox extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockJukeBox#dropRecord(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockJukeBox#dropRecord(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "dropRecord", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void dropRecord(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -46,7 +46,7 @@ public class NMSBlockJukeBox extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockJukeBox#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockJukeBox#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -54,7 +54,7 @@ public class NMSBlockJukeBox extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockJukeBox#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockJukeBox#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -62,7 +62,7 @@ public class NMSBlockJukeBox extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockJukeBox#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockJukeBox#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -70,7 +70,7 @@ public class NMSBlockJukeBox extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockJukeBox#isComplexRedstone()
+     * @see net.minecraft.server.v1_9_R1.BlockJukeBox#isComplexRedstone()
      */
     @ReflectiveMethod(name = "isComplexRedstone", types = {})
     public boolean isComplexRedstone(){
@@ -79,7 +79,7 @@ public class NMSBlockJukeBox extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockJukeBox#l(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockJukeBox#l(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "l", types = {NMSWorld.class, NMSBlockPosition.class})
     public int l(NMSWorld world, NMSBlockPosition blockPosition){
@@ -87,7 +87,7 @@ public class NMSBlockJukeBox extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockJukeBox#remove(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockJukeBox#remove(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "remove", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void remove(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -95,7 +95,7 @@ public class NMSBlockJukeBox extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockJukeBox#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockJukeBox#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -111,7 +111,7 @@ public class NMSBlockJukeBox extends NMSBlockContainer {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.BlockJukeBox$TileEntityRecordPlayer#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.BlockJukeBox$TileEntityRecordPlayer#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
         public void a(NMSNBTTagCompound nBTTagCompound){
@@ -120,7 +120,7 @@ public class NMSBlockJukeBox extends NMSBlockContainer {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.BlockJukeBox$TileEntityRecordPlayer#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.BlockJukeBox$TileEntityRecordPlayer#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -128,7 +128,7 @@ public class NMSBlockJukeBox extends NMSBlockContainer {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockJukeBox$TileEntityRecordPlayer#getRecord()
+         * @see net.minecraft.server.v1_9_R1.BlockJukeBox$TileEntityRecordPlayer#getRecord()
          */
         @ReflectiveMethod(name = "getRecord", types = {})
         public NMSItemStack getRecord(){
@@ -136,7 +136,7 @@ public class NMSBlockJukeBox extends NMSBlockContainer {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockJukeBox$TileEntityRecordPlayer#setRecord(net.minecraft.server.v1_8_R3.ItemStack)
+         * @see net.minecraft.server.v1_9_R1.BlockJukeBox$TileEntityRecordPlayer#setRecord(net.minecraft.server.v1_9_R1.ItemStack)
          */
         @ReflectiveMethod(name = "setRecord", types = {NMSItemStack.class})
         public void setRecord(NMSItemStack itemStack){

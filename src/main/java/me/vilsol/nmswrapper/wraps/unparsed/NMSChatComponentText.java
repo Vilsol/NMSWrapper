@@ -16,7 +16,7 @@ public class NMSChatComponentText extends NMSChatBaseComponent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatComponentText#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.ChatComponentText#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -25,7 +25,7 @@ public class NMSChatComponentText extends NMSChatBaseComponent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatComponentText#f()
+     * @see net.minecraft.server.v1_9_R1.ChatComponentText#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public NMSIChatBaseComponent f(){
@@ -34,7 +34,7 @@ public class NMSChatComponentText extends NMSChatBaseComponent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatComponentText#g()
+     * @see net.minecraft.server.v1_9_R1.ChatComponentText#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public String g(){
@@ -42,7 +42,7 @@ public class NMSChatComponentText extends NMSChatBaseComponent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatComponentText#getText()
+     * @see net.minecraft.server.v1_9_R1.ChatComponentText#getText()
      */
     @ReflectiveMethod(name = "getText", types = {})
     public String getText(){
@@ -51,7 +51,7 @@ public class NMSChatComponentText extends NMSChatBaseComponent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatComponentText#h()
+     * @see net.minecraft.server.v1_9_R1.ChatComponentText#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public NMSChatComponentText h(){
@@ -59,7 +59,7 @@ public class NMSChatComponentText extends NMSChatBaseComponent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatComponentText#toString()
+     * @see net.minecraft.server.v1_9_R1.ChatComponentText#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

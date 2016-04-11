@@ -16,7 +16,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -25,7 +25,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#b(int, int)
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#b(int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public void b(int i, int i1){
@@ -33,7 +33,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#closeContainer(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#closeContainer(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "closeContainer", types = {NMSEntityHuman.class})
     public void closeContainer(NMSEntityHuman entityHuman){
@@ -42,7 +42,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#g()
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public int g(){
@@ -50,7 +50,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#getItem(int)
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#getItem(int)
      */
     @ReflectiveMethod(name = "getItem", types = {int.class})
     public NMSItemStack getItem(int i){
@@ -58,7 +58,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#getMaxStackSize()
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#getMaxStackSize()
      */
     @ReflectiveMethod(name = "getMaxStackSize", types = {})
     public int getMaxStackSize(){
@@ -66,7 +66,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#getName()
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -74,7 +74,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#getOwner()
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#getOwner()
      */
     @ReflectiveMethod(name = "getOwner", types = {})
     public InventoryHolder getOwner(){
@@ -82,7 +82,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#getProperty(int)
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#getProperty(int)
      */
     @ReflectiveMethod(name = "getProperty", types = {int.class})
     public int getProperty(int i){
@@ -90,7 +90,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#getScoreboardDisplayName()
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#getScoreboardDisplayName()
      */
     @ReflectiveMethod(name = "getScoreboardDisplayName", types = {})
     public NMSIChatBaseComponent getScoreboardDisplayName(){
@@ -98,7 +98,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#getSize()
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#getSize()
      */
     @ReflectiveMethod(name = "getSize", types = {})
     public int getSize(){
@@ -106,7 +106,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#hasCustomName()
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#hasCustomName()
      */
     @ReflectiveMethod(name = "hasCustomName", types = {})
     public boolean hasCustomName(){
@@ -115,7 +115,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#l()
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public void l(){
@@ -123,7 +123,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#onClose(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#onClose(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onClose", types = {NMSCraftHumanEntity.class})
     public void onClose(NMSCraftHumanEntity craftHumanEntity){
@@ -131,7 +131,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#onOpen(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#onOpen(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onOpen", types = {NMSCraftHumanEntity.class})
     public void onOpen(NMSCraftHumanEntity craftHumanEntity){
@@ -139,7 +139,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#setItem(int, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#setItem(int, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "setItem", types = {int.class, NMSItemStack.class})
     public void setItem(int i, NMSItemStack itemStack){
@@ -147,7 +147,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#setMaxStackSize(int)
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#setMaxStackSize(int)
      */
     @ReflectiveMethod(name = "setMaxStackSize", types = {int.class})
     public void setMaxStackSize(int i){
@@ -155,7 +155,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#splitStack(int, int)
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#splitStack(int, int)
      */
     @ReflectiveMethod(name = "splitStack", types = {int.class, int.class})
     public NMSItemStack splitStack(int i, int i1){
@@ -163,7 +163,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#splitWithoutUpdate(int)
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#splitWithoutUpdate(int)
      */
     @ReflectiveMethod(name = "splitWithoutUpdate", types = {int.class})
     public NMSItemStack splitWithoutUpdate(int i){
@@ -171,7 +171,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#startOpen(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#startOpen(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "startOpen", types = {NMSEntityHuman.class})
     public void startOpen(NMSEntityHuman entityHuman){
@@ -179,7 +179,7 @@ public class NMSInventoryCraftResult extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryCraftResult#update()
+     * @see net.minecraft.server.v1_9_R1.InventoryCraftResult#update()
      */
     @ReflectiveMethod(name = "update", types = {})
     public void update(){

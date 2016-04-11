@@ -17,7 +17,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#clone()
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#clone()
      */
     @ReflectiveMethod(name = "clone", types = {})
     public NMSChatModifier clone(){
@@ -25,7 +25,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -34,7 +34,7 @@ public class NMSChatModifier extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#g()
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public boolean g(){
@@ -42,7 +42,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#getColor()
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#getColor()
      */
     @ReflectiveMethod(name = "getColor", types = {})
     public NMSEnumChatFormat getColor(){
@@ -51,7 +51,7 @@ public class NMSChatModifier extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#h()
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public NMSChatClickable h(){
@@ -59,7 +59,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#hashCode()
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -68,7 +68,7 @@ public class NMSChatModifier extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#i()
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public NMSChatHoverable i(){
@@ -76,7 +76,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#isBold()
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#isBold()
      */
     @ReflectiveMethod(name = "isBold", types = {})
     public boolean isBold(){
@@ -84,7 +84,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#isItalic()
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#isItalic()
      */
     @ReflectiveMethod(name = "isItalic", types = {})
     public boolean isItalic(){
@@ -92,7 +92,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#isRandom()
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#isRandom()
      */
     @ReflectiveMethod(name = "isRandom", types = {})
     public boolean isRandom(){
@@ -100,7 +100,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#isStrikethrough()
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#isStrikethrough()
      */
     @ReflectiveMethod(name = "isStrikethrough", types = {})
     public boolean isStrikethrough(){
@@ -108,7 +108,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#isUnderlined()
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#isUnderlined()
      */
     @ReflectiveMethod(name = "isUnderlined", types = {})
     public boolean isUnderlined(){
@@ -117,7 +117,7 @@ public class NMSChatModifier extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#j()
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public String j(){
@@ -126,7 +126,7 @@ public class NMSChatModifier extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#n()
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public NMSChatModifier n(){
@@ -134,7 +134,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#setBold(java.lang.Boolean)
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#setBold(java.lang.Boolean)
      */
     @ReflectiveMethod(name = "setBold", types = {Boolean.class})
     public NMSChatModifier setBold(Boolean b){
@@ -142,7 +142,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#setChatClickable(net.minecraft.server.v1_8_R3.ChatClickable)
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#setChatClickable(net.minecraft.server.v1_9_R1.ChatClickable)
      */
     @ReflectiveMethod(name = "setChatClickable", types = {NMSChatClickable.class})
     public NMSChatModifier setChatClickable(NMSChatClickable chatClickable){
@@ -150,7 +150,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#setChatHoverable(net.minecraft.server.v1_8_R3.ChatHoverable)
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#setChatHoverable(net.minecraft.server.v1_9_R1.ChatHoverable)
      */
     @ReflectiveMethod(name = "setChatHoverable", types = {NMSChatHoverable.class})
     public NMSChatModifier setChatHoverable(NMSChatHoverable chatHoverable){
@@ -158,7 +158,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#setChatModifier(net.minecraft.server.v1_8_R3.ChatModifier)
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#setChatModifier(net.minecraft.server.v1_9_R1.ChatModifier)
      */
     @ReflectiveMethod(name = "setChatModifier", types = {NMSChatModifier.class})
     public NMSChatModifier setChatModifier(NMSChatModifier chatModifier){
@@ -166,7 +166,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#setColor(net.minecraft.server.v1_8_R3.EnumChatFormat)
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#setColor(net.minecraft.server.v1_9_R1.EnumChatFormat)
      */
     @ReflectiveMethod(name = "setColor", types = {NMSEnumChatFormat.class})
     public NMSChatModifier setColor(NMSEnumChatFormat enumChatFormat){
@@ -174,7 +174,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#setInsertion(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#setInsertion(java.lang.String)
      */
     @ReflectiveMethod(name = "setInsertion", types = {String.class})
     public NMSChatModifier setInsertion(String s){
@@ -182,7 +182,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#setItalic(java.lang.Boolean)
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#setItalic(java.lang.Boolean)
      */
     @ReflectiveMethod(name = "setItalic", types = {Boolean.class})
     public NMSChatModifier setItalic(Boolean b){
@@ -190,7 +190,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#setRandom(java.lang.Boolean)
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#setRandom(java.lang.Boolean)
      */
     @ReflectiveMethod(name = "setRandom", types = {Boolean.class})
     public NMSChatModifier setRandom(Boolean b){
@@ -198,7 +198,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#setStrikethrough(java.lang.Boolean)
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#setStrikethrough(java.lang.Boolean)
      */
     @ReflectiveMethod(name = "setStrikethrough", types = {Boolean.class})
     public NMSChatModifier setStrikethrough(Boolean b){
@@ -206,7 +206,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#setUnderline(java.lang.Boolean)
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#setUnderline(java.lang.Boolean)
      */
     @ReflectiveMethod(name = "setUnderline", types = {Boolean.class})
     public NMSChatModifier setUnderline(Boolean b){
@@ -214,7 +214,7 @@ public class NMSChatModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatModifier#toString()
+     * @see net.minecraft.server.v1_9_R1.ChatModifier#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){
@@ -230,7 +230,7 @@ public class NMSChatModifier extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.ChatModifier$ChatModifierSerializer#a(net.minecraft.server.v1_8_R3.ChatModifier, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
+         * @see net.minecraft.server.v1_9_R1.ChatModifier$ChatModifierSerializer#a(net.minecraft.server.v1_9_R1.ChatModifier, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
          */
         @ReflectiveMethod(name = "a", types = {NMSChatModifier.class, Type.class, JsonSerializationContext.class})
         public JsonElement a(NMSChatModifier chatModifier, Type type, JsonSerializationContext jsonSerializationContext){
@@ -238,7 +238,7 @@ public class NMSChatModifier extends NMSWrap {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.ChatModifier$ChatModifierSerializer#serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
+         * @see net.minecraft.server.v1_9_R1.ChatModifier$ChatModifierSerializer#serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
          */
         @ReflectiveMethod(name = "serialize", types = {Object.class, Type.class, JsonSerializationContext.class})
         public JsonElement serialize(Object object, Type type, JsonSerializationContext jsonSerializationContext){

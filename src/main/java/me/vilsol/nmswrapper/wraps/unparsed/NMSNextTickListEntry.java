@@ -17,7 +17,7 @@ public class NMSNextTickListEntry extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NextTickListEntry#a()
+     * @see net.minecraft.server.v1_9_R1.NextTickListEntry#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public NMSBlock a(){
@@ -25,7 +25,7 @@ public class NMSNextTickListEntry extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NextTickListEntry#compareTo(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.NextTickListEntry#compareTo(java.lang.Object)
      */
     @ReflectiveMethod(name = "compareTo", types = {Object.class})
     public int compareTo(Object object){
@@ -33,7 +33,7 @@ public class NMSNextTickListEntry extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NextTickListEntry#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.NextTickListEntry#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -41,7 +41,7 @@ public class NMSNextTickListEntry extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NextTickListEntry#hashCode()
+     * @see net.minecraft.server.v1_9_R1.NextTickListEntry#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -49,7 +49,7 @@ public class NMSNextTickListEntry extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NextTickListEntry#toString()
+     * @see net.minecraft.server.v1_9_R1.NextTickListEntry#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

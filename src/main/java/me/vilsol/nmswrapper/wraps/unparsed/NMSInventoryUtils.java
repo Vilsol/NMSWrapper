@@ -12,7 +12,7 @@ public class NMSInventoryUtils extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryUtils#dropEntity(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.Entity, net.minecraft.server.v1_8_R3.IInventory)
+     * @see net.minecraft.server.v1_9_R1.InventoryUtils#dropEntity(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.Entity, net.minecraft.server.v1_9_R1.IInventory)
      */
     @ReflectiveMethod(name = "dropEntity", types = {NMSWorld.class, NMSEntity.class, NMSIInventory.class})
     public void dropEntity(NMSWorld world, NMSEntity entity, NMSIInventory iInventory){
@@ -20,7 +20,7 @@ public class NMSInventoryUtils extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryUtils#dropInventory(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IInventory)
+     * @see net.minecraft.server.v1_9_R1.InventoryUtils#dropInventory(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IInventory)
      */
     @ReflectiveMethod(name = "dropInventory", types = {NMSWorld.class, NMSBlockPosition.class, NMSIInventory.class})
     public void dropInventory(NMSWorld world, NMSBlockPosition blockPosition, NMSIInventory iInventory){

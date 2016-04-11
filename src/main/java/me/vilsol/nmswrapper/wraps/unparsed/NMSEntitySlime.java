@@ -21,7 +21,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -30,7 +30,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -39,7 +39,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#bB()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#bB()
      */
     @ReflectiveMethod(name = "bB", types = {})
     public float bB(){
@@ -48,7 +48,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#bF()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#bF()
      */
     @ReflectiveMethod(name = "bF", types = {})
     public void bF(){
@@ -57,7 +57,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#bQ()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#bQ()
      */
     @ReflectiveMethod(name = "bQ", types = {})
     public int bQ(){
@@ -66,7 +66,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#bR()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#bR()
      */
     @ReflectiveMethod(name = "bR", types = {})
     public boolean bR(){
@@ -75,7 +75,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#bo()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -84,7 +84,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#bp()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -93,7 +93,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#cf()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#cf()
      */
     @ReflectiveMethod(name = "cf", types = {})
     public NMSEntitySlime cf(){
@@ -102,7 +102,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#cg()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#cg()
      */
     @ReflectiveMethod(name = "cg", types = {})
     public int cg(){
@@ -111,7 +111,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#ch()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#ch()
      */
     @ReflectiveMethod(name = "ch", types = {})
     public void ch(){
@@ -120,7 +120,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#ci()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#ci()
      */
     @ReflectiveMethod(name = "ci", types = {})
     public boolean ci(){
@@ -129,7 +129,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#cj()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#cj()
      */
     @ReflectiveMethod(name = "cj", types = {})
     public int cj(){
@@ -138,7 +138,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#ck()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#ck()
      */
     @ReflectiveMethod(name = "ck", types = {})
     public String ck(){
@@ -147,7 +147,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#cl()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#cl()
      */
     @ReflectiveMethod(name = "cl", types = {})
     public boolean cl(){
@@ -156,7 +156,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#cn()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#cn()
      */
     @ReflectiveMethod(name = "cn", types = {})
     public boolean cn(){
@@ -164,7 +164,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#collide(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#collide(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "collide", types = {NMSEntity.class})
     public void collide(NMSEntity entity){
@@ -173,7 +173,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#d(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#d(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "d", types = {NMSEntityHuman.class})
     public void d(NMSEntityHuman entityHuman){
@@ -181,7 +181,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#die()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#die()
      */
     @ReflectiveMethod(name = "die", types = {})
     public void die(){
@@ -190,7 +190,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#e(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#e(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "e", types = {NMSEntityLiving.class})
     public void e(NMSEntityLiving entityLiving){
@@ -198,7 +198,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -206,7 +206,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -214,7 +214,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#getSize()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#getSize()
      */
     @ReflectiveMethod(name = "getSize", types = {})
     public int getSize(){
@@ -223,7 +223,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#h()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -232,7 +232,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#i(int)
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#i(int)
      */
     @ReflectiveMethod(name = "i", types = {int.class})
     public void i(int i){
@@ -241,7 +241,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#n()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public NMSEnumParticle n(){
@@ -249,7 +249,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#prepare(net.minecraft.server.v1_8_R3.DifficultyDamageScaler, net.minecraft.server.v1_8_R3.GroupDataEntity)
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#prepare(net.minecraft.server.v1_9_R1.DifficultyDamageScaler, net.minecraft.server.v1_9_R1.GroupDataEntity)
      */
     @ReflectiveMethod(name = "prepare", types = {NMSDifficultyDamageScaler.class, NMSGroupDataEntity.class})
     public NMSGroupDataEntity prepare(NMSDifficultyDamageScaler difficultyDamageScaler, NMSGroupDataEntity groupDataEntity){
@@ -257,7 +257,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#setSize(int)
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#setSize(int)
      */
     @ReflectiveMethod(name = "setSize", types = {int.class})
     public void setSize(int i){
@@ -266,7 +266,7 @@ public class NMSEntitySlime extends NMSEntityInsentient implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySlime#t_()
+     * @see net.minecraft.server.v1_9_R1.EntitySlime#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){

@@ -27,7 +27,7 @@ public class NMSWorldChunkManager extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldChunkManager#b()
+     * @see net.minecraft.server.v1_9_R1.WorldChunkManager#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public void b(){
@@ -35,7 +35,7 @@ public class NMSWorldChunkManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldChunkManager#getBiome(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.BiomeBase)
+     * @see net.minecraft.server.v1_9_R1.WorldChunkManager#getBiome(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.BiomeBase)
      */
     @ReflectiveMethod(name = "getBiome", types = {NMSBlockPosition.class, NMSBiomeBase.class})
     public NMSBiomeBase getBiome(NMSBlockPosition blockPosition, NMSBiomeBase biomeBase){

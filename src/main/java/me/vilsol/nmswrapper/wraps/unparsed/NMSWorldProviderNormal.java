@@ -12,7 +12,7 @@ public class NMSWorldProviderNormal extends NMSWorldProvider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldProviderNormal#getName()
+     * @see net.minecraft.server.v1_9_R1.WorldProviderNormal#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -20,7 +20,7 @@ public class NMSWorldProviderNormal extends NMSWorldProvider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldProviderNormal#getSuffix()
+     * @see net.minecraft.server.v1_9_R1.WorldProviderNormal#getSuffix()
      */
     @ReflectiveMethod(name = "getSuffix", types = {})
     public String getSuffix(){

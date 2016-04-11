@@ -18,7 +18,7 @@ public class NMSWorldGenRegistration extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenRegistration#a()
+     * @see net.minecraft.server.v1_9_R1.WorldGenRegistration#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public void a(){
@@ -38,7 +38,7 @@ public class NMSWorldGenRegistration extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenRegistration$WorldGenPyramidPiece#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenRegistration$WorldGenPyramidPiece#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -47,7 +47,7 @@ public class NMSWorldGenRegistration extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenRegistration$WorldGenPyramidPiece#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenRegistration$WorldGenPyramidPiece#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -69,7 +69,7 @@ public class NMSWorldGenRegistration extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenRegistration$WorldGenJungleTemple#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenRegistration$WorldGenJungleTemple#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -78,7 +78,7 @@ public class NMSWorldGenRegistration extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenRegistration$WorldGenJungleTemple#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenRegistration$WorldGenJungleTemple#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -100,7 +100,7 @@ public class NMSWorldGenRegistration extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenRegistration$WorldGenWitchHut#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenRegistration$WorldGenWitchHut#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -109,7 +109,7 @@ public class NMSWorldGenRegistration extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenRegistration$WorldGenWitchHut#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenRegistration$WorldGenWitchHut#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){

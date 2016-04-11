@@ -15,7 +15,7 @@ public class NMSBlockSnow extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSnow#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockSnow#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean a(NMSWorld world, NMSBlockPosition blockPosition){
@@ -24,7 +24,7 @@ public class NMSBlockSnow extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSnow#b(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockSnow#b(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, java.util.Random)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, Random.class})
     public void b(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, Random random){
@@ -33,7 +33,7 @@ public class NMSBlockSnow extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSnow#c()
+     * @see net.minecraft.server.v1_9_R1.BlockSnow#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -41,7 +41,7 @@ public class NMSBlockSnow extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSnow#canPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockSnow#canPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "canPlace", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean canPlace(NMSWorld world, NMSBlockPosition blockPosition){
@@ -50,7 +50,7 @@ public class NMSBlockSnow extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSnow#d()
+     * @see net.minecraft.server.v1_9_R1.BlockSnow#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -58,7 +58,7 @@ public class NMSBlockSnow extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSnow#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockSnow#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -66,7 +66,7 @@ public class NMSBlockSnow extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSnow#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockSnow#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -74,7 +74,7 @@ public class NMSBlockSnow extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSnow#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockSnow#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -82,7 +82,7 @@ public class NMSBlockSnow extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSnow#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockSnow#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -91,7 +91,7 @@ public class NMSBlockSnow extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSnow#j()
+     * @see net.minecraft.server.v1_9_R1.BlockSnow#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public void j(){
@@ -99,7 +99,7 @@ public class NMSBlockSnow extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSnow#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSnow#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -107,7 +107,7 @@ public class NMSBlockSnow extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSnow#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockSnow#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

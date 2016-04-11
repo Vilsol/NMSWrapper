@@ -17,7 +17,7 @@ public class NMSMathHelper extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MathHelper#a(java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.MathHelper#a(java.util.Random)
      */
     @ReflectiveMethod(name = "a", types = {Random.class})
     public UUID a(Random random){
@@ -26,7 +26,7 @@ public class NMSMathHelper extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MathHelper#b(double, double)
+     * @see net.minecraft.server.v1_9_R1.MathHelper#b(double, double)
      */
     @ReflectiveMethod(name = "b", types = {double.class, double.class})
     public double b(double d, double d1){
@@ -35,7 +35,7 @@ public class NMSMathHelper extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MathHelper#c(double, double, double)
+     * @see net.minecraft.server.v1_9_R1.MathHelper#c(double, double, double)
      */
     @ReflectiveMethod(name = "c", types = {double.class, double.class, double.class})
     public double c(double d, double d1, double d2){
@@ -43,7 +43,7 @@ public class NMSMathHelper extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MathHelper#clamp(int, int, int)
+     * @see net.minecraft.server.v1_9_R1.MathHelper#clamp(int, int, int)
      */
     @ReflectiveMethod(name = "clamp", types = {int.class, int.class, int.class})
     public int clamp(int i, int i1, int i2){
@@ -51,7 +51,7 @@ public class NMSMathHelper extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MathHelper#cos(float)
+     * @see net.minecraft.server.v1_9_R1.MathHelper#cos(float)
      */
     @ReflectiveMethod(name = "cos", types = {float.class})
     public float cos(float f){
@@ -60,7 +60,7 @@ public class NMSMathHelper extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MathHelper#d(double)
+     * @see net.minecraft.server.v1_9_R1.MathHelper#d(double)
      */
     @ReflectiveMethod(name = "d", types = {double.class})
     public long d(double d){
@@ -69,7 +69,7 @@ public class NMSMathHelper extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MathHelper#e(float)
+     * @see net.minecraft.server.v1_9_R1.MathHelper#e(float)
      */
     @ReflectiveMethod(name = "e", types = {float.class})
     public float e(float f){
@@ -78,7 +78,7 @@ public class NMSMathHelper extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MathHelper#f(double)
+     * @see net.minecraft.server.v1_9_R1.MathHelper#f(double)
      */
     @ReflectiveMethod(name = "f", types = {double.class})
     public int f(double d){
@@ -86,7 +86,7 @@ public class NMSMathHelper extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MathHelper#floor(double)
+     * @see net.minecraft.server.v1_9_R1.MathHelper#floor(double)
      */
     @ReflectiveMethod(name = "floor", types = {double.class})
     public int floor(double d){
@@ -95,7 +95,7 @@ public class NMSMathHelper extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MathHelper#g(double)
+     * @see net.minecraft.server.v1_9_R1.MathHelper#g(double)
      */
     @ReflectiveMethod(name = "g", types = {double.class})
     public double g(double d){
@@ -104,7 +104,7 @@ public class NMSMathHelper extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MathHelper#i(double)
+     * @see net.minecraft.server.v1_9_R1.MathHelper#i(double)
      */
     @ReflectiveMethod(name = "i", types = {double.class})
     public double i(double d){
@@ -112,7 +112,7 @@ public class NMSMathHelper extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MathHelper#nextInt(java.util.Random, int, int)
+     * @see net.minecraft.server.v1_9_R1.MathHelper#nextInt(java.util.Random, int, int)
      */
     @ReflectiveMethod(name = "nextInt", types = {Random.class, int.class, int.class})
     public int nextInt(Random random, int i, int i1){
@@ -120,7 +120,7 @@ public class NMSMathHelper extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MathHelper#sin(float)
+     * @see net.minecraft.server.v1_9_R1.MathHelper#sin(float)
      */
     @ReflectiveMethod(name = "sin", types = {float.class})
     public float sin(float f){
@@ -128,7 +128,7 @@ public class NMSMathHelper extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MathHelper#sqrt(double)
+     * @see net.minecraft.server.v1_9_R1.MathHelper#sqrt(double)
      */
     @ReflectiveMethod(name = "sqrt", types = {double.class})
     public float sqrt(double d){

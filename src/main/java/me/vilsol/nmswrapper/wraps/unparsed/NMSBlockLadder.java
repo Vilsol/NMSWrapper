@@ -13,7 +13,7 @@ public class NMSBlockLadder extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLadder#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.BlockLadder#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class})
     public boolean a(NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection){
@@ -22,7 +22,7 @@ public class NMSBlockLadder extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLadder#c()
+     * @see net.minecraft.server.v1_9_R1.BlockLadder#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -30,7 +30,7 @@ public class NMSBlockLadder extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLadder#canPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockLadder#canPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "canPlace", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean canPlace(NMSWorld world, NMSBlockPosition blockPosition){
@@ -39,7 +39,7 @@ public class NMSBlockLadder extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLadder#d()
+     * @see net.minecraft.server.v1_9_R1.BlockLadder#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -47,7 +47,7 @@ public class NMSBlockLadder extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLadder#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockLadder#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -55,7 +55,7 @@ public class NMSBlockLadder extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLadder#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockLadder#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -63,7 +63,7 @@ public class NMSBlockLadder extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLadder#getPlacedState(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float, int, net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.BlockLadder#getPlacedState(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float, int, net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getPlacedState", types = {NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class, float.class, float.class, float.class, int.class, NMSEntityLiving.class})
     public NMSIBlockData getPlacedState(NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, float f, float f1, float f2, int i, NMSEntityLiving entityLiving){
@@ -71,7 +71,7 @@ public class NMSBlockLadder extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLadder#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockLadder#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -79,7 +79,7 @@ public class NMSBlockLadder extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLadder#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockLadder#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -87,7 +87,7 @@ public class NMSBlockLadder extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLadder#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockLadder#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

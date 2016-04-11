@@ -14,7 +14,7 @@ public class NMSBlockStone extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStone#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockStone#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -23,7 +23,7 @@ public class NMSBlockStone extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStone#g(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockStone#g(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "g", types = {NMSIBlockData.class})
     public NMSMaterialMapColor g(NMSIBlockData iBlockData){
@@ -31,7 +31,7 @@ public class NMSBlockStone extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStone#getDropData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockStone#getDropData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSIBlockData.class})
     public int getDropData(NMSIBlockData iBlockData){
@@ -39,7 +39,7 @@ public class NMSBlockStone extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStone#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockStone#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -47,7 +47,7 @@ public class NMSBlockStone extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStone#getName()
+     * @see net.minecraft.server.v1_9_R1.BlockStone#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -55,7 +55,7 @@ public class NMSBlockStone extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStone#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockStone#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -63,7 +63,7 @@ public class NMSBlockStone extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStone#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockStone#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

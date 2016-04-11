@@ -16,7 +16,7 @@ public class NMSBlockDragonEgg extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDragonEgg#a(net.minecraft.server.v1_8_R3.World)
+     * @see net.minecraft.server.v1_9_R1.BlockDragonEgg#a(net.minecraft.server.v1_9_R1.World)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class})
     public int a(NMSWorld world){
@@ -24,7 +24,7 @@ public class NMSBlockDragonEgg extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockDragonEgg#attack(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.BlockDragonEgg#attack(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "attack", types = {NMSWorld.class, NMSBlockPosition.class, NMSEntityHuman.class})
     public void attack(NMSWorld world, NMSBlockPosition blockPosition, NMSEntityHuman entityHuman){
@@ -33,7 +33,7 @@ public class NMSBlockDragonEgg extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDragonEgg#b(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockDragonEgg#b(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, java.util.Random)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, Random.class})
     public void b(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, Random random){
@@ -42,7 +42,7 @@ public class NMSBlockDragonEgg extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDragonEgg#c()
+     * @see net.minecraft.server.v1_9_R1.BlockDragonEgg#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -51,7 +51,7 @@ public class NMSBlockDragonEgg extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDragonEgg#d()
+     * @see net.minecraft.server.v1_9_R1.BlockDragonEgg#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -59,7 +59,7 @@ public class NMSBlockDragonEgg extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockDragonEgg#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockDragonEgg#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -67,7 +67,7 @@ public class NMSBlockDragonEgg extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockDragonEgg#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockDragonEgg#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -75,7 +75,7 @@ public class NMSBlockDragonEgg extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockDragonEgg#onPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockDragonEgg#onPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "onPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void onPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){

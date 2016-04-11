@@ -18,7 +18,7 @@ public class NMSMinecraftEncryption extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftEncryption#a(int, java.security.Key)
+     * @see net.minecraft.server.v1_9_R1.MinecraftEncryption#a(int, java.security.Key)
      */
     @ReflectiveMethod(name = "a", types = {int.class, Key.class})
     public Cipher a(int i, Key key){
@@ -27,7 +27,7 @@ public class NMSMinecraftEncryption extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftEncryption#b()
+     * @see net.minecraft.server.v1_9_R1.MinecraftEncryption#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public KeyPair b(){

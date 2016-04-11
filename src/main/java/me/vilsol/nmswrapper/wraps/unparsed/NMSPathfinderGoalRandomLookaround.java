@@ -17,7 +17,7 @@ public class NMSPathfinderGoalRandomLookaround extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalRandomLookaround#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalRandomLookaround#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalRandomLookaround extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalRandomLookaround#b()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalRandomLookaround#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -35,7 +35,7 @@ public class NMSPathfinderGoalRandomLookaround extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalRandomLookaround#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalRandomLookaround#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -44,7 +44,7 @@ public class NMSPathfinderGoalRandomLookaround extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalRandomLookaround#e()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalRandomLookaround#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){

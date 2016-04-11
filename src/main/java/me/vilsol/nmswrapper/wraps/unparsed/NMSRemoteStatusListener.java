@@ -17,7 +17,7 @@ public class NMSRemoteStatusListener extends NMSRemoteConnectionThread {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RemoteStatusListener#a()
+     * @see net.minecraft.server.v1_9_R1.RemoteStatusListener#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public void a(){
@@ -25,7 +25,7 @@ public class NMSRemoteStatusListener extends NMSRemoteConnectionThread {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RemoteStatusListener#run()
+     * @see net.minecraft.server.v1_9_R1.RemoteStatusListener#run()
      */
     @ReflectiveMethod(name = "run", types = {})
     public void run(){

@@ -17,7 +17,7 @@ public class NMSRemoteControlListener extends NMSRemoteConnectionThread {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RemoteControlListener#a()
+     * @see net.minecraft.server.v1_9_R1.RemoteControlListener#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public void a(){
@@ -25,7 +25,7 @@ public class NMSRemoteControlListener extends NMSRemoteConnectionThread {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RemoteControlListener#run()
+     * @see net.minecraft.server.v1_9_R1.RemoteControlListener#run()
      */
     @ReflectiveMethod(name = "run", types = {})
     public void run(){

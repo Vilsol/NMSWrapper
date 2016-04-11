@@ -13,7 +13,7 @@ public class NMSBlockPressurePlateAbstract extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateAbstract#a(net.minecraft.server.v1_8_R3.IBlockData, int)
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateAbstract#a(net.minecraft.server.v1_9_R1.IBlockData, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSIBlockData.class, int.class})
     public NMSIBlockData a(NMSIBlockData iBlockData, int i){
@@ -22,7 +22,7 @@ public class NMSBlockPressurePlateAbstract extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateAbstract#b(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateAbstract#b(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "b", types = {NMSIBlockAccess.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEnumDirection.class})
     public int b(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEnumDirection enumDirection){
@@ -31,7 +31,7 @@ public class NMSBlockPressurePlateAbstract extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateAbstract#c()
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateAbstract#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -39,7 +39,7 @@ public class NMSBlockPressurePlateAbstract extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateAbstract#canPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateAbstract#canPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "canPlace", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean canPlace(NMSWorld world, NMSBlockPosition blockPosition){
@@ -48,7 +48,7 @@ public class NMSBlockPressurePlateAbstract extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateAbstract#d()
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateAbstract#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -56,7 +56,7 @@ public class NMSBlockPressurePlateAbstract extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateAbstract#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateAbstract#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -65,7 +65,7 @@ public class NMSBlockPressurePlateAbstract extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateAbstract#e(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateAbstract#e(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "e", types = {NMSIBlockData.class})
     public int e(NMSIBlockData iBlockData){
@@ -74,7 +74,7 @@ public class NMSBlockPressurePlateAbstract extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateAbstract#f(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateAbstract#f(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "f", types = {NMSWorld.class, NMSBlockPosition.class})
     public int f(NMSWorld world, NMSBlockPosition blockPosition){
@@ -83,7 +83,7 @@ public class NMSBlockPressurePlateAbstract extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateAbstract#g()
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateAbstract#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public boolean g(){
@@ -91,7 +91,7 @@ public class NMSBlockPressurePlateAbstract extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateAbstract#isPowerSource()
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateAbstract#isPowerSource()
      */
     @ReflectiveMethod(name = "isPowerSource", types = {})
     public boolean isPowerSource(){
@@ -100,7 +100,7 @@ public class NMSBlockPressurePlateAbstract extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateAbstract#j()
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateAbstract#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public void j(){
@@ -109,7 +109,7 @@ public class NMSBlockPressurePlateAbstract extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateAbstract#k()
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateAbstract#k()
      */
     @ReflectiveMethod(name = "k", types = {})
     public int k(){
@@ -117,7 +117,7 @@ public class NMSBlockPressurePlateAbstract extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateAbstract#remove(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateAbstract#remove(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "remove", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void remove(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -125,7 +125,7 @@ public class NMSBlockPressurePlateAbstract extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateAbstract#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateAbstract#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

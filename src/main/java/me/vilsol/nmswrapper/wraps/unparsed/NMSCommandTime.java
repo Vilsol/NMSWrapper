@@ -13,7 +13,7 @@ public class NMSCommandTime extends NMSCommandAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandTime#a(net.minecraft.server.v1_8_R3.ICommandListener, int)
+     * @see net.minecraft.server.v1_9_R1.CommandTime#a(net.minecraft.server.v1_9_R1.ICommandListener, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSICommandListener.class, int.class})
     public void a(NMSICommandListener iCommandListener, int i){
@@ -22,7 +22,7 @@ public class NMSCommandTime extends NMSCommandAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandTime#b(net.minecraft.server.v1_8_R3.ICommandListener, int)
+     * @see net.minecraft.server.v1_9_R1.CommandTime#b(net.minecraft.server.v1_9_R1.ICommandListener, int)
      */
     @ReflectiveMethod(name = "b", types = {NMSICommandListener.class, int.class})
     public void b(NMSICommandListener iCommandListener, int i){
@@ -30,7 +30,7 @@ public class NMSCommandTime extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandTime#getCommand()
+     * @see net.minecraft.server.v1_9_R1.CommandTime#getCommand()
      */
     @ReflectiveMethod(name = "getCommand", types = {})
     public String getCommand(){
@@ -38,7 +38,7 @@ public class NMSCommandTime extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandTime#getUsage(net.minecraft.server.v1_8_R3.ICommandListener)
+     * @see net.minecraft.server.v1_9_R1.CommandTime#getUsage(net.minecraft.server.v1_9_R1.ICommandListener)
      */
     @ReflectiveMethod(name = "getUsage", types = {NMSICommandListener.class})
     public String getUsage(NMSICommandListener iCommandListener){

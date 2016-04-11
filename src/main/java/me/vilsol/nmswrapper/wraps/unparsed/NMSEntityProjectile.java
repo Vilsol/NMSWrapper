@@ -17,7 +17,7 @@ public class NMSEntityProjectile extends NMSEntity implements NMSIProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityProjectile#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityProjectile#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -26,7 +26,7 @@ public class NMSEntityProjectile extends NMSEntity implements NMSIProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityProjectile#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityProjectile#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -34,7 +34,7 @@ public class NMSEntityProjectile extends NMSEntity implements NMSIProjectile {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityProjectile#getShooter()
+     * @see net.minecraft.server.v1_9_R1.EntityProjectile#getShooter()
      */
     @ReflectiveMethod(name = "getShooter", types = {})
     public NMSEntityLiving getShooter(){
@@ -43,7 +43,7 @@ public class NMSEntityProjectile extends NMSEntity implements NMSIProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityProjectile#h()
+     * @see net.minecraft.server.v1_9_R1.EntityProjectile#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -52,7 +52,7 @@ public class NMSEntityProjectile extends NMSEntity implements NMSIProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityProjectile#j()
+     * @see net.minecraft.server.v1_9_R1.EntityProjectile#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public float j(){
@@ -61,7 +61,7 @@ public class NMSEntityProjectile extends NMSEntity implements NMSIProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityProjectile#l()
+     * @see net.minecraft.server.v1_9_R1.EntityProjectile#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public float l(){
@@ -70,7 +70,7 @@ public class NMSEntityProjectile extends NMSEntity implements NMSIProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityProjectile#m()
+     * @see net.minecraft.server.v1_9_R1.EntityProjectile#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public float m(){
@@ -78,7 +78,7 @@ public class NMSEntityProjectile extends NMSEntity implements NMSIProjectile {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityProjectile#shoot(double, double, double, float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityProjectile#shoot(double, double, double, float, float)
      */
     @ReflectiveMethod(name = "shoot", types = {double.class, double.class, double.class, float.class, float.class})
     public void shoot(double d, double d1, double d2, float f, float f1){
@@ -87,7 +87,7 @@ public class NMSEntityProjectile extends NMSEntity implements NMSIProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityProjectile#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityProjectile#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){

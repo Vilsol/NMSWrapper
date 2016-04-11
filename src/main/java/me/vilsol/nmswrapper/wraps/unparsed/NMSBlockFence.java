@@ -21,7 +21,7 @@ public class NMSBlockFence extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFence#b(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockFence#b(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "b", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public boolean b(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -30,7 +30,7 @@ public class NMSBlockFence extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFence#c()
+     * @see net.minecraft.server.v1_9_R1.BlockFence#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -39,7 +39,7 @@ public class NMSBlockFence extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFence#d()
+     * @see net.minecraft.server.v1_9_R1.BlockFence#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -48,7 +48,7 @@ public class NMSBlockFence extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFence#e(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockFence#e(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "e", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public boolean e(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -56,7 +56,7 @@ public class NMSBlockFence extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFence#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockFence#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -64,7 +64,7 @@ public class NMSBlockFence extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFence#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockFence#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -72,7 +72,7 @@ public class NMSBlockFence extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFence#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockFence#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -80,7 +80,7 @@ public class NMSBlockFence extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFence#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockFence#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -88,7 +88,7 @@ public class NMSBlockFence extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFence#updateState(net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockFence#updateState(net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateState", types = {NMSIBlockData.class, NMSIBlockAccess.class, NMSBlockPosition.class})
     public NMSIBlockData updateState(NMSIBlockData iBlockData, NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

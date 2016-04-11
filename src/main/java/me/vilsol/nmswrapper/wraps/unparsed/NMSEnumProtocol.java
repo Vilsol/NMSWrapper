@@ -13,7 +13,7 @@ public class NMSEnumProtocol extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnumProtocol#a(net.minecraft.server.v1_8_R3.Packet)
+     * @see net.minecraft.server.v1_9_R1.EnumProtocol#a(net.minecraft.server.v1_9_R1.Packet)
      */
     @ReflectiveMethod(name = "a", types = {NMSPacket.class})
     public NMSEnumProtocol a(NMSPacket packet){
@@ -21,7 +21,7 @@ public class NMSEnumProtocol extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnumProtocol#valueOf(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.EnumProtocol#valueOf(java.lang.String)
      */
     @ReflectiveMethod(name = "valueOf", types = {String.class})
     public NMSEnumProtocol valueOf(String s){

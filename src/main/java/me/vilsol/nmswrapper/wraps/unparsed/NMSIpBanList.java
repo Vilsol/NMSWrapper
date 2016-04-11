@@ -19,7 +19,7 @@ public class NMSIpBanList extends NMSJsonList {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.IpBanList#get(java.net.SocketAddress)
+     * @see net.minecraft.server.v1_9_R1.IpBanList#get(java.net.SocketAddress)
      */
     @ReflectiveMethod(name = "get", types = {SocketAddress.class})
     public NMSIpBanEntry get(SocketAddress socketAddress){
@@ -27,7 +27,7 @@ public class NMSIpBanList extends NMSJsonList {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.IpBanList#isBanned(java.net.SocketAddress)
+     * @see net.minecraft.server.v1_9_R1.IpBanList#isBanned(java.net.SocketAddress)
      */
     @ReflectiveMethod(name = "isBanned", types = {SocketAddress.class})
     public boolean isBanned(SocketAddress socketAddress){

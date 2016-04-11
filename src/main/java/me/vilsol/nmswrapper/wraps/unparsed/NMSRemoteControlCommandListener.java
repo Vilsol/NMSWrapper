@@ -13,7 +13,7 @@ public class NMSRemoteControlCommandListener extends NMSWrap implements NMSIComm
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RemoteControlCommandListener#a(net.minecraft.server.v1_8_R3.CommandObjectiveExecutor$EnumCommandResult, int)
+     * @see net.minecraft.server.v1_9_R1.RemoteControlCommandListener#a(net.minecraft.server.v1_9_R1.CommandObjectiveExecutor$EnumCommandResult, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSEnumCommandResult.class, int.class})
     public void a(NMSEnumCommandResult enumCommandResult, int i){
@@ -22,7 +22,7 @@ public class NMSRemoteControlCommandListener extends NMSWrap implements NMSIComm
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RemoteControlCommandListener#d()
+     * @see net.minecraft.server.v1_9_R1.RemoteControlCommandListener#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public NMSVec3D d(){
@@ -31,7 +31,7 @@ public class NMSRemoteControlCommandListener extends NMSWrap implements NMSIComm
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RemoteControlCommandListener#f()
+     * @see net.minecraft.server.v1_9_R1.RemoteControlCommandListener#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public NMSEntity f(){
@@ -39,7 +39,7 @@ public class NMSRemoteControlCommandListener extends NMSWrap implements NMSIComm
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RemoteControlCommandListener#getChunkCoordinates()
+     * @see net.minecraft.server.v1_9_R1.RemoteControlCommandListener#getChunkCoordinates()
      */
     @ReflectiveMethod(name = "getChunkCoordinates", types = {})
     public NMSBlockPosition getChunkCoordinates(){
@@ -47,7 +47,7 @@ public class NMSRemoteControlCommandListener extends NMSWrap implements NMSIComm
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RemoteControlCommandListener#getInstance()
+     * @see net.minecraft.server.v1_9_R1.RemoteControlCommandListener#getInstance()
      */
     @ReflectiveMethod(name = "getInstance", types = {})
     public NMSRemoteControlCommandListener getInstance(){
@@ -55,7 +55,7 @@ public class NMSRemoteControlCommandListener extends NMSWrap implements NMSIComm
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RemoteControlCommandListener#getName()
+     * @see net.minecraft.server.v1_9_R1.RemoteControlCommandListener#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -63,7 +63,7 @@ public class NMSRemoteControlCommandListener extends NMSWrap implements NMSIComm
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RemoteControlCommandListener#getScoreboardDisplayName()
+     * @see net.minecraft.server.v1_9_R1.RemoteControlCommandListener#getScoreboardDisplayName()
      */
     @ReflectiveMethod(name = "getScoreboardDisplayName", types = {})
     public NMSIChatBaseComponent getScoreboardDisplayName(){
@@ -71,7 +71,7 @@ public class NMSRemoteControlCommandListener extends NMSWrap implements NMSIComm
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RemoteControlCommandListener#getSendCommandFeedback()
+     * @see net.minecraft.server.v1_9_R1.RemoteControlCommandListener#getSendCommandFeedback()
      */
     @ReflectiveMethod(name = "getSendCommandFeedback", types = {})
     public boolean getSendCommandFeedback(){
@@ -79,7 +79,7 @@ public class NMSRemoteControlCommandListener extends NMSWrap implements NMSIComm
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RemoteControlCommandListener#getWorld()
+     * @see net.minecraft.server.v1_9_R1.RemoteControlCommandListener#getWorld()
      */
     @ReflectiveMethod(name = "getWorld", types = {})
     public NMSWorld getWorld(){
@@ -88,7 +88,7 @@ public class NMSRemoteControlCommandListener extends NMSWrap implements NMSIComm
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RemoteControlCommandListener#i()
+     * @see net.minecraft.server.v1_9_R1.RemoteControlCommandListener#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public void i(){
@@ -97,7 +97,7 @@ public class NMSRemoteControlCommandListener extends NMSWrap implements NMSIComm
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RemoteControlCommandListener#j()
+     * @see net.minecraft.server.v1_9_R1.RemoteControlCommandListener#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public String j(){
@@ -105,7 +105,7 @@ public class NMSRemoteControlCommandListener extends NMSWrap implements NMSIComm
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RemoteControlCommandListener#sendMessage(net.minecraft.server.v1_8_R3.IChatBaseComponent)
+     * @see net.minecraft.server.v1_9_R1.RemoteControlCommandListener#sendMessage(net.minecraft.server.v1_9_R1.IChatBaseComponent)
      */
     @ReflectiveMethod(name = "sendMessage", types = {NMSIChatBaseComponent.class})
     public void sendMessage(NMSIChatBaseComponent iChatBaseComponent){

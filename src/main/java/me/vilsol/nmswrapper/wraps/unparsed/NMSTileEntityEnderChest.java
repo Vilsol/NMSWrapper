@@ -13,7 +13,7 @@ public class NMSTileEntityEnderChest extends NMSTileEntity implements NMSIUpdate
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityEnderChest#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityEnderChest#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -22,7 +22,7 @@ public class NMSTileEntityEnderChest extends NMSTileEntity implements NMSIUpdate
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityEnderChest#b()
+     * @see net.minecraft.server.v1_9_R1.TileEntityEnderChest#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public void b(){
@@ -31,7 +31,7 @@ public class NMSTileEntityEnderChest extends NMSTileEntity implements NMSIUpdate
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityEnderChest#c(int, int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityEnderChest#c(int, int)
      */
     @ReflectiveMethod(name = "c", types = {int.class, int.class})
     public boolean c(int i, int i1){
@@ -40,7 +40,7 @@ public class NMSTileEntityEnderChest extends NMSTileEntity implements NMSIUpdate
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityEnderChest#d()
+     * @see net.minecraft.server.v1_9_R1.TileEntityEnderChest#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -49,7 +49,7 @@ public class NMSTileEntityEnderChest extends NMSTileEntity implements NMSIUpdate
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityEnderChest#y()
+     * @see net.minecraft.server.v1_9_R1.TileEntityEnderChest#y()
      */
     @ReflectiveMethod(name = "y", types = {})
     public void y(){

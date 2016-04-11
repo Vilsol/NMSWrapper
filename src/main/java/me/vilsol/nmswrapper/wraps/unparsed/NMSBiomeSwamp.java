@@ -16,7 +16,7 @@ public class NMSBiomeSwamp extends NMSBiomeBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeSwamp#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.ChunkSnapshot, int, int, double)
+     * @see net.minecraft.server.v1_9_R1.BiomeSwamp#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.ChunkSnapshot, int, int, double)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSChunkSnapshot.class, int.class, int.class, double.class})
     public void a(NMSWorld world, Random random, NMSChunkSnapshot chunkSnapshot, int i, int i1, double d){

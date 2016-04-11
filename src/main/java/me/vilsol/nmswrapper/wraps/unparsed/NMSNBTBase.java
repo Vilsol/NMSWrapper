@@ -13,7 +13,7 @@ public class NMSNBTBase extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NBTBase#a_()
+     * @see net.minecraft.server.v1_9_R1.NBTBase#a_()
      */
     @ReflectiveMethod(name = "a_", types = {})
     public String a_(){
@@ -21,7 +21,7 @@ public class NMSNBTBase extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NBTBase#clone()
+     * @see net.minecraft.server.v1_9_R1.NBTBase#clone()
      */
     @ReflectiveMethod(name = "clone", types = {})
     public NMSNBTBase clone(){
@@ -29,7 +29,7 @@ public class NMSNBTBase extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NBTBase#createTag(byte)
+     * @see net.minecraft.server.v1_9_R1.NBTBase#createTag(byte)
      */
     @ReflectiveMethod(name = "createTag", types = {byte.class})
     public NMSNBTBase createTag(byte b){
@@ -37,7 +37,7 @@ public class NMSNBTBase extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NBTBase#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.NBTBase#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -45,7 +45,7 @@ public class NMSNBTBase extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NBTBase#getTypeId()
+     * @see net.minecraft.server.v1_9_R1.NBTBase#getTypeId()
      */
     @ReflectiveMethod(name = "getTypeId", types = {})
     public byte getTypeId(){
@@ -53,7 +53,7 @@ public class NMSNBTBase extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NBTBase#hashCode()
+     * @see net.minecraft.server.v1_9_R1.NBTBase#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -61,7 +61,7 @@ public class NMSNBTBase extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NBTBase#isEmpty()
+     * @see net.minecraft.server.v1_9_R1.NBTBase#isEmpty()
      */
     @ReflectiveMethod(name = "isEmpty", types = {})
     public boolean isEmpty(){
@@ -69,7 +69,7 @@ public class NMSNBTBase extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NBTBase#toString()
+     * @see net.minecraft.server.v1_9_R1.NBTBase#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){
@@ -85,7 +85,7 @@ public class NMSNBTBase extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.NBTBase$NBTNumber#c()
+         * @see net.minecraft.server.v1_9_R1.NBTBase$NBTNumber#c()
          */
         @ReflectiveMethod(name = "c", types = {})
         public long c(){
@@ -94,7 +94,7 @@ public class NMSNBTBase extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.NBTBase$NBTNumber#d()
+         * @see net.minecraft.server.v1_9_R1.NBTBase$NBTNumber#d()
          */
         @ReflectiveMethod(name = "d", types = {})
         public int d(){
@@ -103,7 +103,7 @@ public class NMSNBTBase extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.NBTBase$NBTNumber#e()
+         * @see net.minecraft.server.v1_9_R1.NBTBase$NBTNumber#e()
          */
         @ReflectiveMethod(name = "e", types = {})
         public short e(){
@@ -112,7 +112,7 @@ public class NMSNBTBase extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.NBTBase$NBTNumber#f()
+         * @see net.minecraft.server.v1_9_R1.NBTBase$NBTNumber#f()
          */
         @ReflectiveMethod(name = "f", types = {})
         public byte f(){
@@ -121,7 +121,7 @@ public class NMSNBTBase extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.NBTBase$NBTNumber#g()
+         * @see net.minecraft.server.v1_9_R1.NBTBase$NBTNumber#g()
          */
         @ReflectiveMethod(name = "g", types = {})
         public double g(){
@@ -130,7 +130,7 @@ public class NMSNBTBase extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.NBTBase$NBTNumber#h()
+         * @see net.minecraft.server.v1_9_R1.NBTBase$NBTNumber#h()
          */
         @ReflectiveMethod(name = "h", types = {})
         public float h(){

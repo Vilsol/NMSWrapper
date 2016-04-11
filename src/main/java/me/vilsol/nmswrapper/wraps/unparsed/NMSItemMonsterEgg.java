@@ -16,7 +16,7 @@ public class NMSItemMonsterEgg extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemMonsterEgg#a(net.minecraft.server.v1_8_R3.World, int, double, double, double)
+     * @see net.minecraft.server.v1_9_R1.ItemMonsterEgg#a(net.minecraft.server.v1_9_R1.World, int, double, double, double)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, int.class, double.class, double.class, double.class})
     public NMSEntity a(NMSWorld world, int i, double d, double d1, double d2){
@@ -24,7 +24,7 @@ public class NMSItemMonsterEgg extends NMSItem {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemMonsterEgg#interactWith(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.ItemMonsterEgg#interactWith(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interactWith", types = {NMSItemStack.class, NMSEntityHuman.class, NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interactWith(NMSItemStack itemStack, NMSEntityHuman entityHuman, NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -32,7 +32,7 @@ public class NMSItemMonsterEgg extends NMSItem {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemMonsterEgg#spawnCreature(net.minecraft.server.v1_8_R3.World, int, double, double, double, org.bukkit.event.entity.CreatureSpawnEvent$SpawnReason)
+     * @see net.minecraft.server.v1_9_R1.ItemMonsterEgg#spawnCreature(net.minecraft.server.v1_9_R1.World, int, double, double, double, org.bukkit.event.entity.CreatureSpawnEvent$SpawnReason)
      */
     @ReflectiveMethod(name = "spawnCreature", types = {NMSWorld.class, int.class, double.class, double.class, double.class, CreatureSpawnEvent.SpawnReason.class})
     public NMSEntity spawnCreature(NMSWorld world, int i, double d, double d1, double d2, CreatureSpawnEvent.SpawnReason spawnReason){

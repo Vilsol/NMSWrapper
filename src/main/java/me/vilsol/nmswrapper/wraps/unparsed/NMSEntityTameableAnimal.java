@@ -21,7 +21,7 @@ public class NMSEntityTameableAnimal extends NMSEntityAnimal implements NMSEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityTameableAnimal#a(net.minecraft.server.v1_8_R3.EntityLiving, net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.EntityTameableAnimal#a(net.minecraft.server.v1_9_R1.EntityLiving, net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityLiving.class, NMSEntityLiving.class})
     public boolean a(NMSEntityLiving entityLiving, NMSEntityLiving entityLiving1){
@@ -30,7 +30,7 @@ public class NMSEntityTameableAnimal extends NMSEntityAnimal implements NMSEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityTameableAnimal#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityTameableAnimal#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -39,7 +39,7 @@ public class NMSEntityTameableAnimal extends NMSEntityAnimal implements NMSEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityTameableAnimal#c(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.EntityTameableAnimal#c(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "c", types = {NMSEntityLiving.class})
     public boolean c(NMSEntityLiving entityLiving){
@@ -48,7 +48,7 @@ public class NMSEntityTameableAnimal extends NMSEntityAnimal implements NMSEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityTameableAnimal#cm()
+     * @see net.minecraft.server.v1_9_R1.EntityTameableAnimal#cm()
      */
     @ReflectiveMethod(name = "cm", types = {})
     public void cm(){
@@ -56,7 +56,7 @@ public class NMSEntityTameableAnimal extends NMSEntityAnimal implements NMSEntit
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTameableAnimal#die(net.minecraft.server.v1_8_R3.DamageSource)
+     * @see net.minecraft.server.v1_9_R1.EntityTameableAnimal#die(net.minecraft.server.v1_9_R1.DamageSource)
      */
     @ReflectiveMethod(name = "die", types = {NMSDamageSource.class})
     public void die(NMSDamageSource damageSource){
@@ -65,7 +65,7 @@ public class NMSEntityTameableAnimal extends NMSEntityAnimal implements NMSEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityTameableAnimal#e(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.EntityTameableAnimal#e(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "e", types = {NMSEntityLiving.class})
     public boolean e(NMSEntityLiving entityLiving){
@@ -73,7 +73,7 @@ public class NMSEntityTameableAnimal extends NMSEntityAnimal implements NMSEntit
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTameableAnimal#getGoalSit()
+     * @see net.minecraft.server.v1_9_R1.EntityTameableAnimal#getGoalSit()
      */
     @ReflectiveMethod(name = "getGoalSit", types = {})
     public NMSPathfinderGoalSit getGoalSit(){
@@ -81,7 +81,7 @@ public class NMSEntityTameableAnimal extends NMSEntityAnimal implements NMSEntit
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTameableAnimal#getOwner()
+     * @see net.minecraft.server.v1_9_R1.EntityTameableAnimal#getOwner()
      */
     @ReflectiveMethod(name = "getOwner", types = {})
     public NMSEntity getOwner(){
@@ -89,7 +89,7 @@ public class NMSEntityTameableAnimal extends NMSEntityAnimal implements NMSEntit
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTameableAnimal#getOwnerUUID()
+     * @see net.minecraft.server.v1_9_R1.EntityTameableAnimal#getOwnerUUID()
      */
     @ReflectiveMethod(name = "getOwnerUUID", types = {})
     public String getOwnerUUID(){
@@ -97,7 +97,7 @@ public class NMSEntityTameableAnimal extends NMSEntityAnimal implements NMSEntit
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTameableAnimal#getScoreboardTeam()
+     * @see net.minecraft.server.v1_9_R1.EntityTameableAnimal#getScoreboardTeam()
      */
     @ReflectiveMethod(name = "getScoreboardTeam", types = {})
     public NMSScoreboardTeamBase getScoreboardTeam(){
@@ -106,7 +106,7 @@ public class NMSEntityTameableAnimal extends NMSEntityAnimal implements NMSEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityTameableAnimal#h()
+     * @see net.minecraft.server.v1_9_R1.EntityTameableAnimal#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -114,7 +114,7 @@ public class NMSEntityTameableAnimal extends NMSEntityAnimal implements NMSEntit
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTameableAnimal#isSitting()
+     * @see net.minecraft.server.v1_9_R1.EntityTameableAnimal#isSitting()
      */
     @ReflectiveMethod(name = "isSitting", types = {})
     public boolean isSitting(){
@@ -122,7 +122,7 @@ public class NMSEntityTameableAnimal extends NMSEntityAnimal implements NMSEntit
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTameableAnimal#isTamed()
+     * @see net.minecraft.server.v1_9_R1.EntityTameableAnimal#isTamed()
      */
     @ReflectiveMethod(name = "isTamed", types = {})
     public boolean isTamed(){
@@ -131,7 +131,7 @@ public class NMSEntityTameableAnimal extends NMSEntityAnimal implements NMSEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityTameableAnimal#l(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityTameableAnimal#l(boolean)
      */
     @ReflectiveMethod(name = "l", types = {boolean.class})
     public void l(boolean b){
@@ -139,7 +139,7 @@ public class NMSEntityTameableAnimal extends NMSEntityAnimal implements NMSEntit
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTameableAnimal#setOwnerUUID(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.EntityTameableAnimal#setOwnerUUID(java.lang.String)
      */
     @ReflectiveMethod(name = "setOwnerUUID", types = {String.class})
     public void setOwnerUUID(String s){
@@ -147,7 +147,7 @@ public class NMSEntityTameableAnimal extends NMSEntityAnimal implements NMSEntit
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTameableAnimal#setSitting(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityTameableAnimal#setSitting(boolean)
      */
     @ReflectiveMethod(name = "setSitting", types = {boolean.class})
     public void setSitting(boolean b){
@@ -155,7 +155,7 @@ public class NMSEntityTameableAnimal extends NMSEntityAnimal implements NMSEntit
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTameableAnimal#setTamed(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityTameableAnimal#setTamed(boolean)
      */
     @ReflectiveMethod(name = "setTamed", types = {boolean.class})
     public void setTamed(boolean b){

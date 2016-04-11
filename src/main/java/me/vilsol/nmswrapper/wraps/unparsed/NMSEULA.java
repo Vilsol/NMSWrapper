@@ -20,7 +20,7 @@ public class NMSEULA extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EULA#a()
+     * @see net.minecraft.server.v1_9_R1.EULA#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -29,7 +29,7 @@ public class NMSEULA extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EULA#b()
+     * @see net.minecraft.server.v1_9_R1.EULA#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public void b(){

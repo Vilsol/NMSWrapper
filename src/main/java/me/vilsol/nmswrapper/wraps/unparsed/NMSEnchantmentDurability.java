@@ -16,7 +16,7 @@ public class NMSEnchantmentDurability extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentDurability#a(net.minecraft.server.v1_8_R3.ItemStack, int, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentDurability#a(net.minecraft.server.v1_9_R1.ItemStack, int, java.util.Random)
      */
     @ReflectiveMethod(name = "a", types = {NMSItemStack.class, int.class, Random.class})
     public boolean a(NMSItemStack itemStack, int i, Random random){
@@ -25,7 +25,7 @@ public class NMSEnchantmentDurability extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentDurability#b(int)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentDurability#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public int b(int i){
@@ -33,7 +33,7 @@ public class NMSEnchantmentDurability extends NMSEnchantment {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentDurability#canEnchant(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentDurability#canEnchant(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "canEnchant", types = {NMSItemStack.class})
     public boolean canEnchant(NMSItemStack itemStack){
@@ -41,7 +41,7 @@ public class NMSEnchantmentDurability extends NMSEnchantment {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentDurability#getMaxLevel()
+     * @see net.minecraft.server.v1_9_R1.EnchantmentDurability#getMaxLevel()
      */
     @ReflectiveMethod(name = "getMaxLevel", types = {})
     public int getMaxLevel(){

@@ -21,7 +21,7 @@ public class NMSBiomeBaseSub extends NMSBiomeBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeBaseSub#a(net.minecraft.server.v1_8_R3.BiomeBase)
+     * @see net.minecraft.server.v1_9_R1.BiomeBaseSub#a(net.minecraft.server.v1_9_R1.BiomeBase)
      */
     @ReflectiveMethod(name = "a", types = {NMSBiomeBase.class})
     public boolean a(NMSBiomeBase biomeBase){
@@ -30,7 +30,7 @@ public class NMSBiomeBaseSub extends NMSBiomeBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeBaseSub#g()
+     * @see net.minecraft.server.v1_9_R1.BiomeBaseSub#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public float g(){
@@ -39,7 +39,7 @@ public class NMSBiomeBaseSub extends NMSBiomeBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeBaseSub#m()
+     * @see net.minecraft.server.v1_9_R1.BiomeBaseSub#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public NMSEnumTemperature m(){

@@ -21,7 +21,7 @@ public class NMSEntityMinecartTNT extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartTNT#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartTNT#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -30,7 +30,7 @@ public class NMSEntityMinecartTNT extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartTNT#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartTNT#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -38,7 +38,7 @@ public class NMSEntityMinecartTNT extends NMSEntityMinecartAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartTNT#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartTNT#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -47,7 +47,7 @@ public class NMSEntityMinecartTNT extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartTNT#e(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartTNT#e(float, float)
      */
     @ReflectiveMethod(name = "e", types = {float.class, float.class})
     public void e(float f, float f1){
@@ -56,7 +56,7 @@ public class NMSEntityMinecartTNT extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartTNT#j()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartTNT#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public void j(){
@@ -65,7 +65,7 @@ public class NMSEntityMinecartTNT extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartTNT#s()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartTNT#s()
      */
     @ReflectiveMethod(name = "s", types = {})
     public NMSEnumMinecartType s(){
@@ -74,7 +74,7 @@ public class NMSEntityMinecartTNT extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartTNT#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartTNT#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){
@@ -83,7 +83,7 @@ public class NMSEntityMinecartTNT extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartTNT#u()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartTNT#u()
      */
     @ReflectiveMethod(name = "u", types = {})
     public NMSIBlockData u(){
@@ -92,7 +92,7 @@ public class NMSEntityMinecartTNT extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartTNT#y()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartTNT#y()
      */
     @ReflectiveMethod(name = "y", types = {})
     public boolean y(){

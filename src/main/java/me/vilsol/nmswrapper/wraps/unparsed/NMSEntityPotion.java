@@ -29,7 +29,7 @@ public class NMSEntityPotion extends NMSEntityProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPotion#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityPotion#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -38,7 +38,7 @@ public class NMSEntityPotion extends NMSEntityProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPotion#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityPotion#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -46,7 +46,7 @@ public class NMSEntityPotion extends NMSEntityProjectile {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPotion#getPotionValue()
+     * @see net.minecraft.server.v1_9_R1.EntityPotion#getPotionValue()
      */
     @ReflectiveMethod(name = "getPotionValue", types = {})
     public int getPotionValue(){
@@ -55,7 +55,7 @@ public class NMSEntityPotion extends NMSEntityProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPotion#j()
+     * @see net.minecraft.server.v1_9_R1.EntityPotion#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public float j(){
@@ -64,7 +64,7 @@ public class NMSEntityPotion extends NMSEntityProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPotion#l()
+     * @see net.minecraft.server.v1_9_R1.EntityPotion#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public float l(){
@@ -73,7 +73,7 @@ public class NMSEntityPotion extends NMSEntityProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPotion#m()
+     * @see net.minecraft.server.v1_9_R1.EntityPotion#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public float m(){
@@ -81,7 +81,7 @@ public class NMSEntityPotion extends NMSEntityProjectile {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPotion#setPotionValue(int)
+     * @see net.minecraft.server.v1_9_R1.EntityPotion#setPotionValue(int)
      */
     @ReflectiveMethod(name = "setPotionValue", types = {int.class})
     public void setPotionValue(int i){

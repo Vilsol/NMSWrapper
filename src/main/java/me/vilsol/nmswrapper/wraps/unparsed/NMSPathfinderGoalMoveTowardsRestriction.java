@@ -17,7 +17,7 @@ public class NMSPathfinderGoalMoveTowardsRestriction extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalMoveTowardsRestriction#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalMoveTowardsRestriction#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalMoveTowardsRestriction extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalMoveTowardsRestriction#b()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalMoveTowardsRestriction#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -35,7 +35,7 @@ public class NMSPathfinderGoalMoveTowardsRestriction extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalMoveTowardsRestriction#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalMoveTowardsRestriction#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){

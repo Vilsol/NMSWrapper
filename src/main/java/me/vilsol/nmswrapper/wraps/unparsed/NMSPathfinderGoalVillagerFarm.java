@@ -17,7 +17,7 @@ public class NMSPathfinderGoalVillagerFarm extends NMSPathfinderGoalGotoTarget {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalVillagerFarm#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalVillagerFarm#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean a(NMSWorld world, NMSBlockPosition blockPosition){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalVillagerFarm extends NMSPathfinderGoalGotoTarget {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalVillagerFarm#b()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalVillagerFarm#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -35,7 +35,7 @@ public class NMSPathfinderGoalVillagerFarm extends NMSPathfinderGoalGotoTarget {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalVillagerFarm#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalVillagerFarm#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -44,7 +44,7 @@ public class NMSPathfinderGoalVillagerFarm extends NMSPathfinderGoalGotoTarget {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalVillagerFarm#d()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalVillagerFarm#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -53,7 +53,7 @@ public class NMSPathfinderGoalVillagerFarm extends NMSPathfinderGoalGotoTarget {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalVillagerFarm#e()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalVillagerFarm#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){

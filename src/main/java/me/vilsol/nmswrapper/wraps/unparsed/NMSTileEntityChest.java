@@ -13,7 +13,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#E()
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#E()
      */
     @ReflectiveMethod(name = "E", types = {})
     public void E(){
@@ -22,7 +22,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#a(net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#a(net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "a", types = {NMSEnumDirection.class})
     public NMSTileEntityChest a(NMSEnumDirection enumDirection){
@@ -31,7 +31,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#b(int, int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#b(int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public void b(int i, int i1){
@@ -40,7 +40,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#c(int, int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#c(int, int)
      */
     @ReflectiveMethod(name = "c", types = {int.class, int.class})
     public boolean c(int i, int i1){
@@ -48,7 +48,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#closeContainer(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#closeContainer(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "closeContainer", types = {NMSEntityHuman.class})
     public void closeContainer(NMSEntityHuman entityHuman){
@@ -56,7 +56,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#createContainer(net.minecraft.server.v1_8_R3.PlayerInventory, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#createContainer(net.minecraft.server.v1_9_R1.PlayerInventory, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "createContainer", types = {NMSPlayerInventory.class, NMSEntityHuman.class})
     public NMSContainer createContainer(NMSPlayerInventory playerInventory, NMSEntityHuman entityHuman){
@@ -65,7 +65,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#g()
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public int g(){
@@ -73,7 +73,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#getContainerName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#getContainerName()
      */
     @ReflectiveMethod(name = "getContainerName", types = {})
     public String getContainerName(){
@@ -81,7 +81,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#getItem(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#getItem(int)
      */
     @ReflectiveMethod(name = "getItem", types = {int.class})
     public NMSItemStack getItem(int i){
@@ -89,7 +89,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#getMaxStackSize()
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#getMaxStackSize()
      */
     @ReflectiveMethod(name = "getMaxStackSize", types = {})
     public int getMaxStackSize(){
@@ -97,7 +97,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#getName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -105,7 +105,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#getProperty(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#getProperty(int)
      */
     @ReflectiveMethod(name = "getProperty", types = {int.class})
     public int getProperty(int i){
@@ -113,7 +113,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#getSize()
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#getSize()
      */
     @ReflectiveMethod(name = "getSize", types = {})
     public int getSize(){
@@ -121,7 +121,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#hasCustomName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#hasCustomName()
      */
     @ReflectiveMethod(name = "hasCustomName", types = {})
     public boolean hasCustomName(){
@@ -130,7 +130,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#l()
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public void l(){
@@ -139,7 +139,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#m()
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -148,7 +148,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#n()
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public int n(){
@@ -156,7 +156,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#onClose(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#onClose(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onClose", types = {NMSCraftHumanEntity.class})
     public void onClose(NMSCraftHumanEntity craftHumanEntity){
@@ -164,7 +164,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#onOpen(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#onOpen(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onOpen", types = {NMSCraftHumanEntity.class})
     public void onOpen(NMSCraftHumanEntity craftHumanEntity){
@@ -172,7 +172,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#setItem(int, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#setItem(int, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "setItem", types = {int.class, NMSItemStack.class})
     public void setItem(int i, NMSItemStack itemStack){
@@ -180,7 +180,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#setMaxStackSize(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#setMaxStackSize(int)
      */
     @ReflectiveMethod(name = "setMaxStackSize", types = {int.class})
     public void setMaxStackSize(int i){
@@ -188,7 +188,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#splitStack(int, int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#splitStack(int, int)
      */
     @ReflectiveMethod(name = "splitStack", types = {int.class, int.class})
     public NMSItemStack splitStack(int i, int i1){
@@ -196,7 +196,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#splitWithoutUpdate(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#splitWithoutUpdate(int)
      */
     @ReflectiveMethod(name = "splitWithoutUpdate", types = {int.class})
     public NMSItemStack splitWithoutUpdate(int i){
@@ -204,7 +204,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#startOpen(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#startOpen(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "startOpen", types = {NMSEntityHuman.class})
     public void startOpen(NMSEntityHuman entityHuman){
@@ -213,7 +213,7 @@ public class NMSTileEntityChest extends NMSTileEntityContainer implements NMSIIn
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityChest#y()
+     * @see net.minecraft.server.v1_9_R1.TileEntityChest#y()
      */
     @ReflectiveMethod(name = "y", types = {})
     public void y(){

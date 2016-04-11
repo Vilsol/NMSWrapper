@@ -19,7 +19,7 @@ public class NMSPacketLoginOutSuccess extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PacketLoginOutSuccess#a(net.minecraft.server.v1_8_R3.PacketListener)
+     * @see net.minecraft.server.v1_9_R1.PacketLoginOutSuccess#a(net.minecraft.server.v1_9_R1.PacketListener)
      */
     @ReflectiveMethod(name = "a", types = {NMSPacketListener.class})
     public void a(NMSPacketListener packetListener){

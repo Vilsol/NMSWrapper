@@ -13,7 +13,7 @@ public class NMSCommandSpreadPlayers extends NMSCommandAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandSpreadPlayers#a()
+     * @see net.minecraft.server.v1_9_R1.CommandSpreadPlayers#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public int a(){
@@ -21,7 +21,7 @@ public class NMSCommandSpreadPlayers extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandSpreadPlayers#compareTo(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.CommandSpreadPlayers#compareTo(java.lang.Object)
      */
     @ReflectiveMethod(name = "compareTo", types = {Object.class})
     public int compareTo(Object object){
@@ -29,7 +29,7 @@ public class NMSCommandSpreadPlayers extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandSpreadPlayers#getCommand()
+     * @see net.minecraft.server.v1_9_R1.CommandSpreadPlayers#getCommand()
      */
     @ReflectiveMethod(name = "getCommand", types = {})
     public String getCommand(){
@@ -37,7 +37,7 @@ public class NMSCommandSpreadPlayers extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandSpreadPlayers#getUsage(net.minecraft.server.v1_8_R3.ICommandListener)
+     * @see net.minecraft.server.v1_9_R1.CommandSpreadPlayers#getUsage(net.minecraft.server.v1_9_R1.ICommandListener)
      */
     @ReflectiveMethod(name = "getUsage", types = {NMSICommandListener.class})
     public String getUsage(NMSICommandListener iCommandListener){

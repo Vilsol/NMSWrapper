@@ -17,7 +17,7 @@ public class NMSPacketCompressor extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PacketCompressor#a(int)
+     * @see net.minecraft.server.v1_9_R1.PacketCompressor#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public void a(int i){

@@ -16,7 +16,7 @@ public class NMSBlockMushroom extends NMSBlockPlant implements NMSIBlockFragileP
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockMushroom#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockMushroom#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSBlockPosition.class, NMSIBlockData.class})
     public boolean a(NMSWorld world, Random random, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -25,7 +25,7 @@ public class NMSBlockMushroom extends NMSBlockPlant implements NMSIBlockFragileP
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockMushroom#b(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockMushroom#b(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, Random.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void b(NMSWorld world, Random random, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -34,7 +34,7 @@ public class NMSBlockMushroom extends NMSBlockPlant implements NMSIBlockFragileP
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockMushroom#c(net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockMushroom#c(net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "c", types = {NMSBlock.class})
     public boolean c(NMSBlock block){
@@ -42,7 +42,7 @@ public class NMSBlockMushroom extends NMSBlockPlant implements NMSIBlockFragileP
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockMushroom#canPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockMushroom#canPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "canPlace", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean canPlace(NMSWorld world, NMSBlockPosition blockPosition){
@@ -51,7 +51,7 @@ public class NMSBlockMushroom extends NMSBlockPlant implements NMSIBlockFragileP
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockMushroom#d(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockMushroom#d(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, java.util.Random)
      */
     @ReflectiveMethod(name = "d", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, Random.class})
     public boolean d(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, Random random){
@@ -60,7 +60,7 @@ public class NMSBlockMushroom extends NMSBlockPlant implements NMSIBlockFragileP
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockMushroom#f(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockMushroom#f(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "f", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public boolean f(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){

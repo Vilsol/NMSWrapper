@@ -21,7 +21,7 @@ public class NMSEntityMinecartRideable extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartRideable#a(int, int, int, boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartRideable#a(int, int, int, boolean)
      */
     @ReflectiveMethod(name = "a", types = {int.class, int.class, int.class, boolean.class})
     public void a(int i, int i1, int i2, boolean b){
@@ -30,7 +30,7 @@ public class NMSEntityMinecartRideable extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartRideable#e(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartRideable#e(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "e", types = {NMSEntityHuman.class})
     public boolean e(NMSEntityHuman entityHuman){
@@ -39,7 +39,7 @@ public class NMSEntityMinecartRideable extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartRideable#s()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartRideable#s()
      */
     @ReflectiveMethod(name = "s", types = {})
     public NMSEnumMinecartType s(){

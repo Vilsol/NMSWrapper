@@ -17,7 +17,7 @@ public class NMSEntityBlaze extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBlaze#E()
+     * @see net.minecraft.server.v1_9_R1.EntityBlaze#E()
      */
     @ReflectiveMethod(name = "E", types = {})
     public void E(){
@@ -26,7 +26,7 @@ public class NMSEntityBlaze extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBlaze#a(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityBlaze#a(boolean)
      */
     @ReflectiveMethod(name = "a", types = {boolean.class})
     public void a(boolean b){
@@ -35,7 +35,7 @@ public class NMSEntityBlaze extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBlaze#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityBlaze#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -44,7 +44,7 @@ public class NMSEntityBlaze extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBlaze#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityBlaze#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -53,7 +53,7 @@ public class NMSEntityBlaze extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBlaze#c(float)
+     * @see net.minecraft.server.v1_9_R1.EntityBlaze#c(float)
      */
     @ReflectiveMethod(name = "c", types = {float.class})
     public float c(float f){
@@ -61,7 +61,7 @@ public class NMSEntityBlaze extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityBlaze#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityBlaze#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -70,7 +70,7 @@ public class NMSEntityBlaze extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBlaze#e(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityBlaze#e(float, float)
      */
     @ReflectiveMethod(name = "e", types = {float.class, float.class})
     public void e(float f, float f1){
@@ -78,7 +78,7 @@ public class NMSEntityBlaze extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityBlaze#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntityBlaze#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -87,7 +87,7 @@ public class NMSEntityBlaze extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBlaze#h()
+     * @see net.minecraft.server.v1_9_R1.EntityBlaze#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -95,7 +95,7 @@ public class NMSEntityBlaze extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityBlaze#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityBlaze#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -103,7 +103,7 @@ public class NMSEntityBlaze extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityBlaze#isBurning()
+     * @see net.minecraft.server.v1_9_R1.EntityBlaze#isBurning()
      */
     @ReflectiveMethod(name = "isBurning", types = {})
     public boolean isBurning(){
@@ -112,7 +112,7 @@ public class NMSEntityBlaze extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBlaze#m()
+     * @see net.minecraft.server.v1_9_R1.EntityBlaze#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -121,7 +121,7 @@ public class NMSEntityBlaze extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBlaze#n()
+     * @see net.minecraft.server.v1_9_R1.EntityBlaze#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public boolean n(){
@@ -130,7 +130,7 @@ public class NMSEntityBlaze extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBlaze#n_()
+     * @see net.minecraft.server.v1_9_R1.EntityBlaze#n_()
      */
     @ReflectiveMethod(name = "n_", types = {})
     public boolean n_(){
@@ -139,7 +139,7 @@ public class NMSEntityBlaze extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBlaze#z()
+     * @see net.minecraft.server.v1_9_R1.EntityBlaze#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

@@ -16,7 +16,7 @@ public class NMSChunkCache extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkCache#getBlockPower(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.ChunkCache#getBlockPower(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "getBlockPower", types = {NMSBlockPosition.class, NMSEnumDirection.class})
     public int getBlockPower(NMSBlockPosition blockPosition, NMSEnumDirection enumDirection){
@@ -24,7 +24,7 @@ public class NMSChunkCache extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkCache#getTileEntity(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.ChunkCache#getTileEntity(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getTileEntity", types = {NMSBlockPosition.class})
     public NMSTileEntity getTileEntity(NMSBlockPosition blockPosition){
@@ -32,7 +32,7 @@ public class NMSChunkCache extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkCache#getType(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.ChunkCache#getType(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getType", types = {NMSBlockPosition.class})
     public NMSIBlockData getType(NMSBlockPosition blockPosition){
@@ -40,7 +40,7 @@ public class NMSChunkCache extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkCache#isEmpty(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.ChunkCache#isEmpty(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "isEmpty", types = {NMSBlockPosition.class})
     public boolean isEmpty(NMSBlockPosition blockPosition){

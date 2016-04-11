@@ -26,7 +26,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldNBTStorage#a()
+     * @see net.minecraft.server.v1_9_R1.WorldNBTStorage#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public void a(){
@@ -34,7 +34,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldNBTStorage#createChunkLoader(net.minecraft.server.v1_8_R3.WorldProvider)
+     * @see net.minecraft.server.v1_9_R1.WorldNBTStorage#createChunkLoader(net.minecraft.server.v1_9_R1.WorldProvider)
      */
     @ReflectiveMethod(name = "createChunkLoader", types = {NMSWorldProvider.class})
     public NMSIChunkLoader createChunkLoader(NMSWorldProvider worldProvider){
@@ -43,7 +43,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldNBTStorage#g()
+     * @see net.minecraft.server.v1_9_R1.WorldNBTStorage#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public String g(){
@@ -51,7 +51,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldNBTStorage#getDataFile(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.WorldNBTStorage#getDataFile(java.lang.String)
      */
     @ReflectiveMethod(name = "getDataFile", types = {String.class})
     public File getDataFile(String s){
@@ -59,7 +59,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldNBTStorage#getDirectory()
+     * @see net.minecraft.server.v1_9_R1.WorldNBTStorage#getDirectory()
      */
     @ReflectiveMethod(name = "getDirectory", types = {})
     public File getDirectory(){
@@ -67,7 +67,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldNBTStorage#getPlayerData(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.WorldNBTStorage#getPlayerData(java.lang.String)
      */
     @ReflectiveMethod(name = "getPlayerData", types = {String.class})
     public NMSNBTTagCompound getPlayerData(String s){
@@ -75,7 +75,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldNBTStorage#getPlayerDir()
+     * @see net.minecraft.server.v1_9_R1.WorldNBTStorage#getPlayerDir()
      */
     @ReflectiveMethod(name = "getPlayerDir", types = {})
     public File getPlayerDir(){
@@ -83,7 +83,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldNBTStorage#getPlayerFileData()
+     * @see net.minecraft.server.v1_9_R1.WorldNBTStorage#getPlayerFileData()
      */
     @ReflectiveMethod(name = "getPlayerFileData", types = {})
     public NMSIPlayerFileData getPlayerFileData(){
@@ -91,7 +91,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldNBTStorage#getUUID()
+     * @see net.minecraft.server.v1_9_R1.WorldNBTStorage#getUUID()
      */
     @ReflectiveMethod(name = "getUUID", types = {})
     public UUID getUUID(){
@@ -99,7 +99,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldNBTStorage#getWorldData()
+     * @see net.minecraft.server.v1_9_R1.WorldNBTStorage#getWorldData()
      */
     @ReflectiveMethod(name = "getWorldData", types = {})
     public NMSWorldData getWorldData(){
@@ -107,7 +107,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldNBTStorage#load(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.WorldNBTStorage#load(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "load", types = {NMSEntityHuman.class})
     public NMSNBTTagCompound load(NMSEntityHuman entityHuman){
@@ -115,7 +115,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldNBTStorage#save(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.WorldNBTStorage#save(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "save", types = {NMSEntityHuman.class})
     public void save(NMSEntityHuman entityHuman){
@@ -123,7 +123,7 @@ public class NMSWorldNBTStorage extends NMSWrap implements NMSIPlayerFileData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldNBTStorage#saveWorldData(net.minecraft.server.v1_8_R3.WorldData)
+     * @see net.minecraft.server.v1_9_R1.WorldNBTStorage#saveWorldData(net.minecraft.server.v1_9_R1.WorldData)
      */
     @ReflectiveMethod(name = "saveWorldData", types = {NMSWorldData.class})
     public void saveWorldData(NMSWorldData worldData){

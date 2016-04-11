@@ -17,7 +17,7 @@ public class NMSEntityGiantZombie extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGiantZombie#a(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.EntityGiantZombie#a(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "a", types = {NMSBlockPosition.class})
     public float a(NMSBlockPosition blockPosition){
@@ -25,7 +25,7 @@ public class NMSEntityGiantZombie extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityGiantZombie#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntityGiantZombie#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -33,7 +33,7 @@ public class NMSEntityGiantZombie extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityGiantZombie#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityGiantZombie#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){

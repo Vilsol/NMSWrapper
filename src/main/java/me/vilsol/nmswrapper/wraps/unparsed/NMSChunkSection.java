@@ -17,7 +17,7 @@ public class NMSChunkSection extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkSection#a(net.minecraft.server.v1_8_R3.NibbleArray)
+     * @see net.minecraft.server.v1_9_R1.ChunkSection#a(net.minecraft.server.v1_9_R1.NibbleArray)
      */
     @ReflectiveMethod(name = "a", types = {NMSNibbleArray.class})
     public void a(NMSNibbleArray nibbleArray){
@@ -26,7 +26,7 @@ public class NMSChunkSection extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkSection#b(net.minecraft.server.v1_8_R3.NibbleArray)
+     * @see net.minecraft.server.v1_9_R1.ChunkSection#b(net.minecraft.server.v1_9_R1.NibbleArray)
      */
     @ReflectiveMethod(name = "b", types = {NMSNibbleArray.class})
     public void b(NMSNibbleArray nibbleArray){
@@ -35,7 +35,7 @@ public class NMSChunkSection extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkSection#c(int, int, int)
+     * @see net.minecraft.server.v1_9_R1.ChunkSection#c(int, int, int)
      */
     @ReflectiveMethod(name = "c", types = {int.class, int.class, int.class})
     public int c(int i, int i1, int i2){
@@ -44,7 +44,7 @@ public class NMSChunkSection extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkSection#d(int, int, int)
+     * @see net.minecraft.server.v1_9_R1.ChunkSection#d(int, int, int)
      */
     @ReflectiveMethod(name = "d", types = {int.class, int.class, int.class})
     public int d(int i, int i1, int i2){
@@ -53,7 +53,7 @@ public class NMSChunkSection extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkSection#e(int, int, int)
+     * @see net.minecraft.server.v1_9_R1.ChunkSection#e(int, int, int)
      */
     @ReflectiveMethod(name = "e", types = {int.class, int.class, int.class})
     public int e(int i, int i1, int i2){
@@ -61,7 +61,7 @@ public class NMSChunkSection extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkSection#getEmittedLightArray()
+     * @see net.minecraft.server.v1_9_R1.ChunkSection#getEmittedLightArray()
      */
     @ReflectiveMethod(name = "getEmittedLightArray", types = {})
     public NMSNibbleArray getEmittedLightArray(){
@@ -69,7 +69,7 @@ public class NMSChunkSection extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkSection#getSkyLightArray()
+     * @see net.minecraft.server.v1_9_R1.ChunkSection#getSkyLightArray()
      */
     @ReflectiveMethod(name = "getSkyLightArray", types = {})
     public NMSNibbleArray getSkyLightArray(){
@@ -77,7 +77,7 @@ public class NMSChunkSection extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkSection#getType(int, int, int)
+     * @see net.minecraft.server.v1_9_R1.ChunkSection#getType(int, int, int)
      */
     @ReflectiveMethod(name = "getType", types = {int.class, int.class, int.class})
     public NMSIBlockData getType(int i, int i1, int i2){
@@ -85,7 +85,7 @@ public class NMSChunkSection extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkSection#getYPosition()
+     * @see net.minecraft.server.v1_9_R1.ChunkSection#getYPosition()
      */
     @ReflectiveMethod(name = "getYPosition", types = {})
     public int getYPosition(){
@@ -93,7 +93,7 @@ public class NMSChunkSection extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkSection#recalcBlockCounts()
+     * @see net.minecraft.server.v1_9_R1.ChunkSection#recalcBlockCounts()
      */
     @ReflectiveMethod(name = "recalcBlockCounts", types = {})
     public void recalcBlockCounts(){
@@ -101,7 +101,7 @@ public class NMSChunkSection extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkSection#setType(int, int, int, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.ChunkSection#setType(int, int, int, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "setType", types = {int.class, int.class, int.class, NMSIBlockData.class})
     public void setType(int i, int i1, int i2, NMSIBlockData iBlockData){
@@ -109,7 +109,7 @@ public class NMSChunkSection extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkSection#shouldTick()
+     * @see net.minecraft.server.v1_9_R1.ChunkSection#shouldTick()
      */
     @ReflectiveMethod(name = "shouldTick", types = {})
     public boolean shouldTick(){

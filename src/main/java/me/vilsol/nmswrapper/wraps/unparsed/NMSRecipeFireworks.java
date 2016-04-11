@@ -13,7 +13,7 @@ public class NMSRecipeFireworks extends NMSShapelessRecipes implements NMSIRecip
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RecipeFireworks#a()
+     * @see net.minecraft.server.v1_9_R1.RecipeFireworks#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public int a(){
@@ -22,7 +22,7 @@ public class NMSRecipeFireworks extends NMSShapelessRecipes implements NMSIRecip
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RecipeFireworks#b()
+     * @see net.minecraft.server.v1_9_R1.RecipeFireworks#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSItemStack b(){

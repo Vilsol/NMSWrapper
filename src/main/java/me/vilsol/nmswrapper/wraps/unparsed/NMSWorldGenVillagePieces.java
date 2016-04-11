@@ -18,7 +18,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces#a()
+     * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public void a(){
@@ -38,7 +38,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageFarm2#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageFarm2#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -47,7 +47,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageFarm2#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageFarm2#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -69,7 +69,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageLight#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageLight#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -91,7 +91,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageHut#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageHut#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -100,7 +100,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageHut#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageHut#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -122,7 +122,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageLibrary#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageLibrary#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -131,7 +131,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageLibrary#c(int, int)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageLibrary#c(int, int)
          */
         @ReflectiveMethod(name = "c", types = {int.class, int.class})
         public int c(int i, int i1){
@@ -149,7 +149,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillagePieceWeight#a()
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillagePieceWeight#a()
          */
         @ReflectiveMethod(name = "a", types = {})
         public boolean a(){
@@ -171,7 +171,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageRoad#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageRoad#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -180,7 +180,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageRoad#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageRoad#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -202,7 +202,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageHouse2#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageHouse2#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -224,7 +224,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageButcher#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageButcher#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -233,7 +233,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageButcher#c(int, int)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageButcher#c(int, int)
          */
         @ReflectiveMethod(name = "c", types = {int.class, int.class})
         public int c(int i, int i1){
@@ -255,7 +255,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageTemple#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageTemple#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -264,7 +264,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageTemple#c(int, int)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageTemple#c(int, int)
          */
         @ReflectiveMethod(name = "c", types = {int.class, int.class})
         public int c(int i, int i1){
@@ -286,7 +286,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageBlacksmith#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageBlacksmith#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -295,7 +295,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageBlacksmith#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageBlacksmith#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -304,7 +304,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageBlacksmith#c(int, int)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageBlacksmith#c(int, int)
          */
         @ReflectiveMethod(name = "c", types = {int.class, int.class})
         public int c(int i, int i1){
@@ -322,7 +322,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageStartPiece#e()
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageStartPiece#e()
          */
         @ReflectiveMethod(name = "e", types = {})
         public NMSWorldChunkManager e(){
@@ -344,7 +344,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageFarm#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageFarm#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -353,7 +353,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageFarm#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageFarm#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -375,7 +375,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageHouse#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageHouse#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -384,7 +384,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageHouse#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageHouse#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -406,7 +406,7 @@ public class NMSWorldGenVillagePieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillagePieces$WorldGenVillageWell#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillagePieces$WorldGenVillageWell#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){

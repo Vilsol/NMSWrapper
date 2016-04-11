@@ -12,7 +12,7 @@ public class NMSBlockDataAbstract extends NMSWrap implements NMSIBlockData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockDataAbstract#toString()
+     * @see net.minecraft.server.v1_9_R1.BlockDataAbstract#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

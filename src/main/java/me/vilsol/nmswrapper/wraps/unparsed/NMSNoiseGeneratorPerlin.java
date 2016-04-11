@@ -19,7 +19,7 @@ public class NMSNoiseGeneratorPerlin extends NMSNoiseGenerator {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NoiseGeneratorPerlin#a(int, double, double, double)
+     * @see net.minecraft.server.v1_9_R1.NoiseGeneratorPerlin#a(int, double, double, double)
      */
     @ReflectiveMethod(name = "a", types = {int.class, double.class, double.class, double.class})
     public double a(int i, double d, double d1, double d2){
@@ -28,7 +28,7 @@ public class NMSNoiseGeneratorPerlin extends NMSNoiseGenerator {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NoiseGeneratorPerlin#b(double, double, double)
+     * @see net.minecraft.server.v1_9_R1.NoiseGeneratorPerlin#b(double, double, double)
      */
     @ReflectiveMethod(name = "b", types = {double.class, double.class, double.class})
     public double b(double d, double d1, double d2){

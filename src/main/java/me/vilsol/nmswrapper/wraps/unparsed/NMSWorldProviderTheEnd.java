@@ -13,7 +13,7 @@ public class NMSWorldProviderTheEnd extends NMSWorldProvider {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldProviderTheEnd#a(long, float)
+     * @see net.minecraft.server.v1_9_R1.WorldProviderTheEnd#a(long, float)
      */
     @ReflectiveMethod(name = "a", types = {long.class, float.class})
     public float a(long l, float f){
@@ -22,7 +22,7 @@ public class NMSWorldProviderTheEnd extends NMSWorldProvider {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldProviderTheEnd#b()
+     * @see net.minecraft.server.v1_9_R1.WorldProviderTheEnd#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public void b(){
@@ -30,7 +30,7 @@ public class NMSWorldProviderTheEnd extends NMSWorldProvider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldProviderTheEnd#canSpawn(int, int)
+     * @see net.minecraft.server.v1_9_R1.WorldProviderTheEnd#canSpawn(int, int)
      */
     @ReflectiveMethod(name = "canSpawn", types = {int.class, int.class})
     public boolean canSpawn(int i, int i1){
@@ -39,7 +39,7 @@ public class NMSWorldProviderTheEnd extends NMSWorldProvider {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldProviderTheEnd#d()
+     * @see net.minecraft.server.v1_9_R1.WorldProviderTheEnd#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -48,7 +48,7 @@ public class NMSWorldProviderTheEnd extends NMSWorldProvider {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldProviderTheEnd#e()
+     * @see net.minecraft.server.v1_9_R1.WorldProviderTheEnd#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public boolean e(){
@@ -56,7 +56,7 @@ public class NMSWorldProviderTheEnd extends NMSWorldProvider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldProviderTheEnd#getChunkProvider()
+     * @see net.minecraft.server.v1_9_R1.WorldProviderTheEnd#getChunkProvider()
      */
     @ReflectiveMethod(name = "getChunkProvider", types = {})
     public NMSIChunkProvider getChunkProvider(){
@@ -64,7 +64,7 @@ public class NMSWorldProviderTheEnd extends NMSWorldProvider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldProviderTheEnd#getName()
+     * @see net.minecraft.server.v1_9_R1.WorldProviderTheEnd#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -72,7 +72,7 @@ public class NMSWorldProviderTheEnd extends NMSWorldProvider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldProviderTheEnd#getSeaLevel()
+     * @see net.minecraft.server.v1_9_R1.WorldProviderTheEnd#getSeaLevel()
      */
     @ReflectiveMethod(name = "getSeaLevel", types = {})
     public int getSeaLevel(){
@@ -80,7 +80,7 @@ public class NMSWorldProviderTheEnd extends NMSWorldProvider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldProviderTheEnd#getSuffix()
+     * @see net.minecraft.server.v1_9_R1.WorldProviderTheEnd#getSuffix()
      */
     @ReflectiveMethod(name = "getSuffix", types = {})
     public String getSuffix(){
@@ -89,7 +89,7 @@ public class NMSWorldProviderTheEnd extends NMSWorldProvider {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldProviderTheEnd#h()
+     * @see net.minecraft.server.v1_9_R1.WorldProviderTheEnd#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public NMSBlockPosition h(){

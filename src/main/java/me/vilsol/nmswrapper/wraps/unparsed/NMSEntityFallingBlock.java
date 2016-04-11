@@ -21,7 +21,7 @@ public class NMSEntityFallingBlock extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFallingBlock#a(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityFallingBlock#a(boolean)
      */
     @ReflectiveMethod(name = "a", types = {boolean.class})
     public void a(boolean b){
@@ -30,7 +30,7 @@ public class NMSEntityFallingBlock extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFallingBlock#ad()
+     * @see net.minecraft.server.v1_9_R1.EntityFallingBlock#ad()
      */
     @ReflectiveMethod(name = "ad", types = {})
     public boolean ad(){
@@ -38,7 +38,7 @@ public class NMSEntityFallingBlock extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityFallingBlock#appendEntityCrashDetails(net.minecraft.server.v1_8_R3.CrashReportSystemDetails)
+     * @see net.minecraft.server.v1_9_R1.EntityFallingBlock#appendEntityCrashDetails(net.minecraft.server.v1_9_R1.CrashReportSystemDetails)
      */
     @ReflectiveMethod(name = "appendEntityCrashDetails", types = {NMSCrashReportSystemDetails.class})
     public void appendEntityCrashDetails(NMSCrashReportSystemDetails crashReportSystemDetails){
@@ -47,7 +47,7 @@ public class NMSEntityFallingBlock extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFallingBlock#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityFallingBlock#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -56,7 +56,7 @@ public class NMSEntityFallingBlock extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFallingBlock#e(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityFallingBlock#e(float, float)
      */
     @ReflectiveMethod(name = "e", types = {float.class, float.class})
     public void e(float f, float f1){
@@ -64,7 +64,7 @@ public class NMSEntityFallingBlock extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityFallingBlock#getBlock()
+     * @see net.minecraft.server.v1_9_R1.EntityFallingBlock#getBlock()
      */
     @ReflectiveMethod(name = "getBlock", types = {})
     public NMSIBlockData getBlock(){
@@ -73,7 +73,7 @@ public class NMSEntityFallingBlock extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFallingBlock#h()
+     * @see net.minecraft.server.v1_9_R1.EntityFallingBlock#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -82,7 +82,7 @@ public class NMSEntityFallingBlock extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFallingBlock#s_()
+     * @see net.minecraft.server.v1_9_R1.EntityFallingBlock#s_()
      */
     @ReflectiveMethod(name = "s_", types = {})
     public boolean s_(){
@@ -91,7 +91,7 @@ public class NMSEntityFallingBlock extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFallingBlock#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityFallingBlock#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){

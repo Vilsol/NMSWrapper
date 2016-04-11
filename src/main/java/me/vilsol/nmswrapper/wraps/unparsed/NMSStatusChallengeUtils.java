@@ -13,7 +13,7 @@ public class NMSStatusChallengeUtils extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StatusChallengeUtils#a(byte)
+     * @see net.minecraft.server.v1_9_R1.StatusChallengeUtils#a(byte)
      */
     @ReflectiveMethod(name = "a", types = {byte.class})
     public String a(byte b){

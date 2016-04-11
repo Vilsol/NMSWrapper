@@ -15,7 +15,7 @@ public class NMSBlockWeb extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockWeb#I()
+     * @see net.minecraft.server.v1_9_R1.BlockWeb#I()
      */
     @ReflectiveMethod(name = "I", types = {})
     public boolean I(){
@@ -24,7 +24,7 @@ public class NMSBlockWeb extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockWeb#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockWeb#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public NMSAxisAlignedBB a(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -33,7 +33,7 @@ public class NMSBlockWeb extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockWeb#c()
+     * @see net.minecraft.server.v1_9_R1.BlockWeb#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -42,7 +42,7 @@ public class NMSBlockWeb extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockWeb#d()
+     * @see net.minecraft.server.v1_9_R1.BlockWeb#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -50,7 +50,7 @@ public class NMSBlockWeb extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockWeb#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockWeb#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){

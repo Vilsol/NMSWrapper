@@ -29,7 +29,7 @@ public class NMSEntityFireball extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFireball#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityFireball#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -38,7 +38,7 @@ public class NMSEntityFireball extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFireball#ad()
+     * @see net.minecraft.server.v1_9_R1.EntityFireball#ad()
      */
     @ReflectiveMethod(name = "ad", types = {})
     public boolean ad(){
@@ -47,7 +47,7 @@ public class NMSEntityFireball extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFireball#ao()
+     * @see net.minecraft.server.v1_9_R1.EntityFireball#ao()
      */
     @ReflectiveMethod(name = "ao", types = {})
     public float ao(){
@@ -56,7 +56,7 @@ public class NMSEntityFireball extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFireball#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityFireball#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -65,7 +65,7 @@ public class NMSEntityFireball extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFireball#c(float)
+     * @see net.minecraft.server.v1_9_R1.EntityFireball#c(float)
      */
     @ReflectiveMethod(name = "c", types = {float.class})
     public float c(float f){
@@ -73,7 +73,7 @@ public class NMSEntityFireball extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityFireball#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityFireball#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -82,7 +82,7 @@ public class NMSEntityFireball extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFireball#h()
+     * @see net.minecraft.server.v1_9_R1.EntityFireball#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -91,7 +91,7 @@ public class NMSEntityFireball extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFireball#j()
+     * @see net.minecraft.server.v1_9_R1.EntityFireball#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public float j(){
@@ -99,7 +99,7 @@ public class NMSEntityFireball extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityFireball#setDirection(double, double, double)
+     * @see net.minecraft.server.v1_9_R1.EntityFireball#setDirection(double, double, double)
      */
     @ReflectiveMethod(name = "setDirection", types = {double.class, double.class, double.class})
     public void setDirection(double d, double d1, double d2){
@@ -108,7 +108,7 @@ public class NMSEntityFireball extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFireball#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityFireball#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){

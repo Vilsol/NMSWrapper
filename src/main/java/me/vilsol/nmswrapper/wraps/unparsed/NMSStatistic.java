@@ -25,7 +25,7 @@ public class NMSStatistic extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Statistic#d()
+     * @see net.minecraft.server.v1_9_R1.Statistic#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -34,7 +34,7 @@ public class NMSStatistic extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Statistic#e()
+     * @see net.minecraft.server.v1_9_R1.Statistic#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public NMSIChatBaseComponent e(){
@@ -42,7 +42,7 @@ public class NMSStatistic extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Statistic#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.Statistic#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -51,7 +51,7 @@ public class NMSStatistic extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Statistic#h()
+     * @see net.minecraft.server.v1_9_R1.Statistic#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public NMSStatistic h(){
@@ -59,7 +59,7 @@ public class NMSStatistic extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Statistic#hashCode()
+     * @see net.minecraft.server.v1_9_R1.Statistic#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -68,7 +68,7 @@ public class NMSStatistic extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Statistic#i()
+     * @see net.minecraft.server.v1_9_R1.Statistic#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public NMSStatistic i(){
@@ -77,7 +77,7 @@ public class NMSStatistic extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Statistic#j()
+     * @see net.minecraft.server.v1_9_R1.Statistic#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public NMSIChatBaseComponent j(){
@@ -86,7 +86,7 @@ public class NMSStatistic extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Statistic#k()
+     * @see net.minecraft.server.v1_9_R1.Statistic#k()
      */
     @ReflectiveMethod(name = "k", types = {})
     public NMSIScoreboardCriteria k(){
@@ -94,7 +94,7 @@ public class NMSStatistic extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Statistic#toString()
+     * @see net.minecraft.server.v1_9_R1.Statistic#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

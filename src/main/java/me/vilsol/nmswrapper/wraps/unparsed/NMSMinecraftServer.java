@@ -28,7 +28,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#B()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#B()
      */
     @ReflectiveMethod(name = "B", types = {})
     public void B(){
@@ -37,7 +37,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#C()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#C()
      */
     @ReflectiveMethod(name = "C", types = {})
     public void C(){
@@ -46,7 +46,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#E()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#E()
      */
     @ReflectiveMethod(name = "E", types = {})
     public String E(){
@@ -55,7 +55,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#F()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#F()
      */
     @ReflectiveMethod(name = "F", types = {})
     public int F(){
@@ -64,7 +64,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#G()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#G()
      */
     @ReflectiveMethod(name = "G", types = {})
     public String G(){
@@ -73,7 +73,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#I()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#I()
      */
     @ReflectiveMethod(name = "I", types = {})
     public int I(){
@@ -82,7 +82,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#J()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#J()
      */
     @ReflectiveMethod(name = "J", types = {})
     public int J(){
@@ -91,7 +91,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#O()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#O()
      */
     @ReflectiveMethod(name = "O", types = {})
     public boolean O(){
@@ -100,7 +100,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#Q()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#Q()
      */
     @ReflectiveMethod(name = "Q", types = {})
     public KeyPair Q(){
@@ -109,7 +109,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#R()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#R()
      */
     @ReflectiveMethod(name = "R", types = {})
     public int R(){
@@ -118,7 +118,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#S()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#S()
      */
     @ReflectiveMethod(name = "S", types = {})
     public String S(){
@@ -127,7 +127,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#T()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#T()
      */
     @ReflectiveMethod(name = "T", types = {})
     public boolean T(){
@@ -136,7 +136,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#U()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#U()
      */
     @ReflectiveMethod(name = "U", types = {})
     public String U(){
@@ -145,7 +145,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#X()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#X()
      */
     @ReflectiveMethod(name = "X", types = {})
     public boolean X(){
@@ -154,7 +154,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#a(net.minecraft.server.v1_8_R3.CommandObjectiveExecutor$EnumCommandResult, int)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#a(net.minecraft.server.v1_9_R1.CommandObjectiveExecutor$EnumCommandResult, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSEnumCommandResult.class, int.class})
     public void a(NMSEnumCommandResult enumCommandResult, int i){
@@ -163,7 +163,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#aB()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#aB()
      */
     @ReflectiveMethod(name = "aB", types = {})
     public boolean aB(){
@@ -172,7 +172,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#aD()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#aD()
      */
     @ReflectiveMethod(name = "aD", types = {})
     public MinecraftSessionService aD(){
@@ -181,7 +181,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#aG()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#aG()
      */
     @ReflectiveMethod(name = "aG", types = {})
     public NMSServerPing aG(){
@@ -190,7 +190,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#aH()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#aH()
      */
     @ReflectiveMethod(name = "aH", types = {})
     public void aH(){
@@ -199,7 +199,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#aI()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#aI()
      */
     @ReflectiveMethod(name = "aI", types = {})
     public int aI(){
@@ -208,7 +208,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#aK()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#aK()
      */
     @ReflectiveMethod(name = "aK", types = {})
     public int aK(){
@@ -217,7 +217,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#aL()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#aL()
      */
     @ReflectiveMethod(name = "aL", types = {})
     public long aL(){
@@ -226,7 +226,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#aM()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#aM()
      */
     @ReflectiveMethod(name = "aM", types = {})
     public Thread aM(){
@@ -235,7 +235,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#a_(java.lang.String, int)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#a_(java.lang.String, int)
      */
     @ReflectiveMethod(name = "a_", types = {String.class, int.class})
     public void a_(String s, int i){
@@ -244,7 +244,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#aa()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#aa()
      */
     @ReflectiveMethod(name = "aa", types = {})
     public void aa(){
@@ -253,7 +253,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#ae()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#ae()
      */
     @ReflectiveMethod(name = "ae", types = {})
     public boolean ae(){
@@ -262,7 +262,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#ai()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#ai()
      */
     @ReflectiveMethod(name = "ai", types = {})
     public boolean ai(){
@@ -271,7 +271,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#aq()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#aq()
      */
     @ReflectiveMethod(name = "aq", types = {})
     public NMSServerConnection aq(){
@@ -280,7 +280,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#as()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#as()
      */
     @ReflectiveMethod(name = "as", types = {})
     public boolean as(){
@@ -289,7 +289,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#at()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#at()
      */
     @ReflectiveMethod(name = "at", types = {})
     public int at(){
@@ -298,7 +298,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#au()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#au()
      */
     @ReflectiveMethod(name = "au", types = {})
     public void au(){
@@ -307,7 +307,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#ay()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#ay()
      */
     @ReflectiveMethod(name = "ay", types = {})
     public Proxy ay(){
@@ -316,7 +316,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#az()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#az()
      */
     @ReflectiveMethod(name = "az", types = {})
     public long az(){
@@ -325,7 +325,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#b(net.minecraft.server.v1_8_R3.MojangStatisticsGenerator)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#b(net.minecraft.server.v1_9_R1.MojangStatisticsGenerator)
      */
     @ReflectiveMethod(name = "b", types = {NMSMojangStatisticsGenerator.class})
     public void b(NMSMojangStatisticsGenerator mojangStatisticsGenerator){
@@ -334,7 +334,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#c(int)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#c(int)
      */
     @ReflectiveMethod(name = "c", types = {int.class})
     public void c(int i){
@@ -343,7 +343,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#d()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public NMSVec3D d(){
@@ -352,7 +352,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#f()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public NMSEntity f(){
@@ -361,7 +361,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#g(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#g(java.lang.String)
      */
     @ReflectiveMethod(name = "g", types = {String.class})
     public void g(String s){
@@ -369,7 +369,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getAllowFlight()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getAllowFlight()
      */
     @ReflectiveMethod(name = "getAllowFlight", types = {})
     public boolean getAllowFlight(){
@@ -377,7 +377,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getAllowNether()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getAllowNether()
      */
     @ReflectiveMethod(name = "getAllowNether", types = {})
     public boolean getAllowNether(){
@@ -385,7 +385,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getChunkCoordinates()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getChunkCoordinates()
      */
     @ReflectiveMethod(name = "getChunkCoordinates", types = {})
     public NMSBlockPosition getChunkCoordinates(){
@@ -393,7 +393,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getCommandHandler()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getCommandHandler()
      */
     @ReflectiveMethod(name = "getCommandHandler", types = {})
     public NMSICommandHandler getCommandHandler(){
@@ -401,7 +401,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getConvertable()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getConvertable()
      */
     @ReflectiveMethod(name = "getConvertable", types = {})
     public NMSConvertable getConvertable(){
@@ -409,7 +409,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getDifficulty()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getDifficulty()
      */
     @ReflectiveMethod(name = "getDifficulty", types = {})
     public NMSEnumDifficulty getDifficulty(){
@@ -417,7 +417,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getEnableCommandBlock()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getEnableCommandBlock()
      */
     @ReflectiveMethod(name = "getEnableCommandBlock", types = {})
     public boolean getEnableCommandBlock(){
@@ -425,7 +425,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getForceGamemode()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getForceGamemode()
      */
     @ReflectiveMethod(name = "getForceGamemode", types = {})
     public boolean getForceGamemode(){
@@ -433,7 +433,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getGameProfileRepository()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getGameProfileRepository()
      */
     @ReflectiveMethod(name = "getGameProfileRepository", types = {})
     public GameProfileRepository getGameProfileRepository(){
@@ -441,7 +441,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getGamemode()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getGamemode()
      */
     @ReflectiveMethod(name = "getGamemode", types = {})
     public NMSEnumGamemode getGamemode(){
@@ -449,7 +449,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getGenerateStructures()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getGenerateStructures()
      */
     @ReflectiveMethod(name = "getGenerateStructures", types = {})
     public boolean getGenerateStructures(){
@@ -457,7 +457,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getIdleTimeout()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getIdleTimeout()
      */
     @ReflectiveMethod(name = "getIdleTimeout", types = {})
     public int getIdleTimeout(){
@@ -465,7 +465,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getMaxBuildHeight()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getMaxBuildHeight()
      */
     @ReflectiveMethod(name = "getMaxBuildHeight", types = {})
     public int getMaxBuildHeight(){
@@ -473,7 +473,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getMotd()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getMotd()
      */
     @ReflectiveMethod(name = "getMotd", types = {})
     public String getMotd(){
@@ -481,7 +481,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getName()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -489,7 +489,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getOnlineMode()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getOnlineMode()
      */
     @ReflectiveMethod(name = "getOnlineMode", types = {})
     public boolean getOnlineMode(){
@@ -497,7 +497,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getPVP()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getPVP()
      */
     @ReflectiveMethod(name = "getPVP", types = {})
     public boolean getPVP(){
@@ -505,7 +505,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getPlayerList()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getPlayerList()
      */
     @ReflectiveMethod(name = "getPlayerList", types = {})
     public NMSPlayerList getPlayerList(){
@@ -513,7 +513,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getPropertyManager()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getPropertyManager()
      */
     @ReflectiveMethod(name = "getPropertyManager", types = {})
     public NMSPropertyManager getPropertyManager(){
@@ -521,7 +521,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getResourcePack()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getResourcePack()
      */
     @ReflectiveMethod(name = "getResourcePack", types = {})
     public String getResourcePack(){
@@ -529,7 +529,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getResourcePackHash()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getResourcePackHash()
      */
     @ReflectiveMethod(name = "getResourcePackHash", types = {})
     public String getResourcePackHash(){
@@ -537,7 +537,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getScoreboardDisplayName()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getScoreboardDisplayName()
      */
     @ReflectiveMethod(name = "getScoreboardDisplayName", types = {})
     public NMSIChatBaseComponent getScoreboardDisplayName(){
@@ -545,7 +545,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getSendCommandFeedback()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getSendCommandFeedback()
      */
     @ReflectiveMethod(name = "getSendCommandFeedback", types = {})
     public boolean getSendCommandFeedback(){
@@ -553,7 +553,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getServer()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getServer()
      */
     @ReflectiveMethod(name = "getServer", types = {})
     public NMSMinecraftServer getServer(){
@@ -561,7 +561,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getServerConnection()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getServerConnection()
      */
     @ReflectiveMethod(name = "getServerConnection", types = {})
     public NMSServerConnection getServerConnection(){
@@ -569,7 +569,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getServerIp()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getServerIp()
      */
     @ReflectiveMethod(name = "getServerIp", types = {})
     public String getServerIp(){
@@ -577,7 +577,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getServerModName()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getServerModName()
      */
     @ReflectiveMethod(name = "getServerModName", types = {})
     public String getServerModName(){
@@ -585,7 +585,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getSnooperEnabled()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getSnooperEnabled()
      */
     @ReflectiveMethod(name = "getSnooperEnabled", types = {})
     public boolean getSnooperEnabled(){
@@ -593,7 +593,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getSpawnAnimals()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getSpawnAnimals()
      */
     @ReflectiveMethod(name = "getSpawnAnimals", types = {})
     public boolean getSpawnAnimals(){
@@ -601,7 +601,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getSpawnMonsters()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getSpawnMonsters()
      */
     @ReflectiveMethod(name = "getSpawnMonsters", types = {})
     public boolean getSpawnMonsters(){
@@ -609,7 +609,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getSpawnNPCs()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getSpawnNPCs()
      */
     @ReflectiveMethod(name = "getSpawnNPCs", types = {})
     public boolean getSpawnNPCs(){
@@ -617,7 +617,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getSpawnProtection()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getSpawnProtection()
      */
     @ReflectiveMethod(name = "getSpawnProtection", types = {})
     public int getSpawnProtection(){
@@ -625,7 +625,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getUserCache()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getUserCache()
      */
     @ReflectiveMethod(name = "getUserCache", types = {})
     public NMSUserCache getUserCache(){
@@ -633,7 +633,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getVersion()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getVersion()
      */
     @ReflectiveMethod(name = "getVersion", types = {})
     public String getVersion(){
@@ -641,7 +641,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getWorld()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getWorld()
      */
     @ReflectiveMethod(name = "getWorld", types = {})
     public NMSWorld getWorld(){
@@ -649,7 +649,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#getWorldServer(int)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#getWorldServer(int)
      */
     @ReflectiveMethod(name = "getWorldServer", types = {int.class})
     public NMSWorldServer getWorldServer(int i){
@@ -658,7 +658,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#h(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#h(java.lang.String)
      */
     @ReflectiveMethod(name = "h", types = {String.class})
     public void h(String s){
@@ -667,7 +667,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#i(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#i(java.lang.String)
      */
     @ReflectiveMethod(name = "i", types = {String.class})
     public void i(String s){
@@ -675,7 +675,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#info(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#info(java.lang.String)
      */
     @ReflectiveMethod(name = "info", types = {String.class})
     public void info(String s){
@@ -683,7 +683,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#isDebugging()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#isDebugging()
      */
     @ReflectiveMethod(name = "isDebugging", types = {})
     public boolean isDebugging(){
@@ -691,7 +691,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#isHardcore()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#isHardcore()
      */
     @ReflectiveMethod(name = "isHardcore", types = {})
     public boolean isHardcore(){
@@ -699,7 +699,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#isMainThread()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#isMainThread()
      */
     @ReflectiveMethod(name = "isMainThread", types = {})
     public boolean isMainThread(){
@@ -707,7 +707,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#isRunning()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#isRunning()
      */
     @ReflectiveMethod(name = "isRunning", types = {})
     public boolean isRunning(){
@@ -715,7 +715,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#isStopped()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#isStopped()
      */
     @ReflectiveMethod(name = "isStopped", types = {})
     public boolean isStopped(){
@@ -724,7 +724,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#k()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#k()
      */
     @ReflectiveMethod(name = "k", types = {})
     public void k(){
@@ -732,7 +732,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#main(org.bukkit.craftbukkit.libs.joptsimple.OptionSet)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#main(org.bukkit.craftbukkit.libs.joptsimple.OptionSet)
      */
     @ReflectiveMethod(name = "main", types = {NMSOptionSet.class})
     public void main(NMSOptionSet optionSet){
@@ -741,7 +741,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#p()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#p()
      */
     @ReflectiveMethod(name = "p", types = {})
     public int p(){
@@ -750,7 +750,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#q()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#q()
      */
     @ReflectiveMethod(name = "q", types = {})
     public boolean q(){
@@ -759,7 +759,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#r()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#r()
      */
     @ReflectiveMethod(name = "r", types = {})
     public boolean r(){
@@ -767,7 +767,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#run()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#run()
      */
     @ReflectiveMethod(name = "run", types = {})
     public void run(){
@@ -776,7 +776,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#s()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#s()
      */
     @ReflectiveMethod(name = "s", types = {})
     public void s(){
@@ -784,7 +784,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#safeShutdown()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#safeShutdown()
      */
     @ReflectiveMethod(name = "safeShutdown", types = {})
     public void safeShutdown(){
@@ -792,7 +792,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#sendMessage(net.minecraft.server.v1_8_R3.IChatBaseComponent)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#sendMessage(net.minecraft.server.v1_9_R1.IChatBaseComponent)
      */
     @ReflectiveMethod(name = "sendMessage", types = {NMSIChatBaseComponent.class})
     public void sendMessage(NMSIChatBaseComponent iChatBaseComponent){
@@ -800,7 +800,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#setAllowFlight(boolean)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#setAllowFlight(boolean)
      */
     @ReflectiveMethod(name = "setAllowFlight", types = {boolean.class})
     public void setAllowFlight(boolean b){
@@ -808,7 +808,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#setForceGamemode(boolean)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#setForceGamemode(boolean)
      */
     @ReflectiveMethod(name = "setForceGamemode", types = {boolean.class})
     public void setForceGamemode(boolean b){
@@ -816,7 +816,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#setGamemode(net.minecraft.server.v1_8_R3.WorldSettings$EnumGamemode)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#setGamemode(net.minecraft.server.v1_9_R1.WorldSettings$EnumGamemode)
      */
     @ReflectiveMethod(name = "setGamemode", types = {NMSEnumGamemode.class})
     public void setGamemode(NMSEnumGamemode enumGamemode){
@@ -824,7 +824,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#setIdleTimeout(int)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#setIdleTimeout(int)
      */
     @ReflectiveMethod(name = "setIdleTimeout", types = {int.class})
     public void setIdleTimeout(int i){
@@ -832,7 +832,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#setMotd(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#setMotd(java.lang.String)
      */
     @ReflectiveMethod(name = "setMotd", types = {String.class})
     public void setMotd(String s){
@@ -840,7 +840,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#setOnlineMode(boolean)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#setOnlineMode(boolean)
      */
     @ReflectiveMethod(name = "setOnlineMode", types = {boolean.class})
     public void setOnlineMode(boolean b){
@@ -848,7 +848,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#setPVP(boolean)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#setPVP(boolean)
      */
     @ReflectiveMethod(name = "setPVP", types = {boolean.class})
     public void setPVP(boolean b){
@@ -856,7 +856,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#setPort(int)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#setPort(int)
      */
     @ReflectiveMethod(name = "setPort", types = {int.class})
     public void setPort(int i){
@@ -864,7 +864,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#setResourcePack(java.lang.String, java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#setResourcePack(java.lang.String, java.lang.String)
      */
     @ReflectiveMethod(name = "setResourcePack", types = {String.class, String.class})
     public void setResourcePack(String s, String s1){
@@ -872,7 +872,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#setSpawnAnimals(boolean)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#setSpawnAnimals(boolean)
      */
     @ReflectiveMethod(name = "setSpawnAnimals", types = {boolean.class})
     public void setSpawnAnimals(boolean b){
@@ -880,7 +880,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#setSpawnNPCs(boolean)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#setSpawnNPCs(boolean)
      */
     @ReflectiveMethod(name = "setSpawnNPCs", types = {boolean.class})
     public void setSpawnNPCs(boolean b){
@@ -888,7 +888,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#setWorld(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#setWorld(java.lang.String)
      */
     @ReflectiveMethod(name = "setWorld", types = {String.class})
     public void setWorld(String s){
@@ -896,7 +896,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#warning(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#warning(java.lang.String)
      */
     @ReflectiveMethod(name = "warning", types = {String.class})
     public void warning(String s){
@@ -905,7 +905,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#y()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#y()
      */
     @ReflectiveMethod(name = "y", types = {})
     public File y(){
@@ -914,7 +914,7 @@ public class NMSMinecraftServer extends NMSWrap implements NMSIMojangStatistics 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftServer#z()
+     * @see net.minecraft.server.v1_9_R1.MinecraftServer#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public void z(){

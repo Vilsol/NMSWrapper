@@ -20,7 +20,7 @@ public class NMSBiomeForest extends NMSBiomeBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeForest#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BiomeForest#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSBlockPosition.class})
     public void a(NMSWorld world, Random random, NMSBlockPosition blockPosition){
@@ -29,7 +29,7 @@ public class NMSBiomeForest extends NMSBiomeBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeForest#d(int)
+     * @see net.minecraft.server.v1_9_R1.BiomeForest#d(int)
      */
     @ReflectiveMethod(name = "d", types = {int.class})
     public NMSBiomeBase d(int i){

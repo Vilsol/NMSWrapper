@@ -13,7 +13,7 @@ public class NMSSharedConstants extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SharedConstants#a(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.SharedConstants#a(java.lang.String)
      */
     @ReflectiveMethod(name = "a", types = {String.class})
     public String a(String s){
@@ -21,7 +21,7 @@ public class NMSSharedConstants extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SharedConstants#isAllowedChatCharacter(char)
+     * @see net.minecraft.server.v1_9_R1.SharedConstants#isAllowedChatCharacter(char)
      */
     @ReflectiveMethod(name = "isAllowedChatCharacter", types = {char.class})
     public boolean isAllowedChatCharacter(char c){

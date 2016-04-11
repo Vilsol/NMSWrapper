@@ -13,7 +13,7 @@ public class NMSPathfinderGoalAvoidTarget extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalAvoidTarget#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalAvoidTarget#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -22,7 +22,7 @@ public class NMSPathfinderGoalAvoidTarget extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalAvoidTarget#b()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalAvoidTarget#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -31,7 +31,7 @@ public class NMSPathfinderGoalAvoidTarget extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalAvoidTarget#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalAvoidTarget#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -40,7 +40,7 @@ public class NMSPathfinderGoalAvoidTarget extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalAvoidTarget#d()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalAvoidTarget#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -49,7 +49,7 @@ public class NMSPathfinderGoalAvoidTarget extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalAvoidTarget#e()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalAvoidTarget#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){

@@ -21,7 +21,7 @@ public class NMSEntityFireworks extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFireworks#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityFireworks#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -30,7 +30,7 @@ public class NMSEntityFireworks extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFireworks#aD()
+     * @see net.minecraft.server.v1_9_R1.EntityFireworks#aD()
      */
     @ReflectiveMethod(name = "aD", types = {})
     public boolean aD(){
@@ -39,7 +39,7 @@ public class NMSEntityFireworks extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFireworks#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityFireworks#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -48,7 +48,7 @@ public class NMSEntityFireworks extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFireworks#c(float)
+     * @see net.minecraft.server.v1_9_R1.EntityFireworks#c(float)
      */
     @ReflectiveMethod(name = "c", types = {float.class})
     public float c(float f){
@@ -57,7 +57,7 @@ public class NMSEntityFireworks extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFireworks#h()
+     * @see net.minecraft.server.v1_9_R1.EntityFireworks#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -65,7 +65,7 @@ public class NMSEntityFireworks extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityFireworks#inactiveTick()
+     * @see net.minecraft.server.v1_9_R1.EntityFireworks#inactiveTick()
      */
     @ReflectiveMethod(name = "inactiveTick", types = {})
     public void inactiveTick(){
@@ -74,7 +74,7 @@ public class NMSEntityFireworks extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFireworks#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityFireworks#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){

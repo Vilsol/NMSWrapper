@@ -12,7 +12,7 @@ public class NMSCommandSaveOn extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandSaveOn#getCommand()
+     * @see net.minecraft.server.v1_9_R1.CommandSaveOn#getCommand()
      */
     @ReflectiveMethod(name = "getCommand", types = {})
     public String getCommand(){
@@ -20,7 +20,7 @@ public class NMSCommandSaveOn extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandSaveOn#getUsage(net.minecraft.server.v1_8_R3.ICommandListener)
+     * @see net.minecraft.server.v1_9_R1.CommandSaveOn#getUsage(net.minecraft.server.v1_9_R1.ICommandListener)
      */
     @ReflectiveMethod(name = "getUsage", types = {NMSICommandListener.class})
     public String getUsage(NMSICommandListener iCommandListener){

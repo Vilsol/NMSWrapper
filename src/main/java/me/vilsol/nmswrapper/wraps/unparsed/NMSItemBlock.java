@@ -21,7 +21,7 @@ public class NMSItemBlock extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemBlock#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemBlock#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSEntityHuman.class, NMSBlockPosition.class, NMSItemStack.class})
     public boolean a(NMSWorld world, NMSEntityHuman entityHuman, NMSBlockPosition blockPosition, NMSItemStack itemStack){
@@ -30,7 +30,7 @@ public class NMSItemBlock extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemBlock#b(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.ItemBlock#b(java.lang.String)
      */
     @ReflectiveMethod(name = "b", types = {String.class})
     public NMSItemBlock b(String s){
@@ -39,7 +39,7 @@ public class NMSItemBlock extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemBlock#c(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.ItemBlock#c(java.lang.String)
      */
     @ReflectiveMethod(name = "c", types = {String.class})
     public NMSItem c(String s){
@@ -48,7 +48,7 @@ public class NMSItemBlock extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemBlock#d()
+     * @see net.minecraft.server.v1_9_R1.ItemBlock#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public NMSBlock d(){
@@ -57,7 +57,7 @@ public class NMSItemBlock extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemBlock#e_(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemBlock#e_(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "e_", types = {NMSItemStack.class})
     public String e_(NMSItemStack itemStack){
@@ -65,7 +65,7 @@ public class NMSItemBlock extends NMSItem {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemBlock#getName()
+     * @see net.minecraft.server.v1_9_R1.ItemBlock#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -73,7 +73,7 @@ public class NMSItemBlock extends NMSItem {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemBlock#interactWith(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.ItemBlock#interactWith(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interactWith", types = {NMSItemStack.class, NMSEntityHuman.class, NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interactWith(NMSItemStack itemStack, NMSEntityHuman entityHuman, NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, float f, float f1, float f2){

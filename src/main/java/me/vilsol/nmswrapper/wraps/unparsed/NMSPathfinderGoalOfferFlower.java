@@ -17,7 +17,7 @@ public class NMSPathfinderGoalOfferFlower extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalOfferFlower#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalOfferFlower#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalOfferFlower extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalOfferFlower#b()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalOfferFlower#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -35,7 +35,7 @@ public class NMSPathfinderGoalOfferFlower extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalOfferFlower#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalOfferFlower#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -44,7 +44,7 @@ public class NMSPathfinderGoalOfferFlower extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalOfferFlower#d()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalOfferFlower#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -53,7 +53,7 @@ public class NMSPathfinderGoalOfferFlower extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalOfferFlower#e()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalOfferFlower#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){

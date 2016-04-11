@@ -31,7 +31,7 @@ public class NMSEntityArrow extends NMSEntity implements NMSIProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArrow#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityArrow#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -40,7 +40,7 @@ public class NMSEntityArrow extends NMSEntity implements NMSIProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArrow#aD()
+     * @see net.minecraft.server.v1_9_R1.EntityArrow#aD()
      */
     @ReflectiveMethod(name = "aD", types = {})
     public boolean aD(){
@@ -49,7 +49,7 @@ public class NMSEntityArrow extends NMSEntity implements NMSIProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArrow#b(double)
+     * @see net.minecraft.server.v1_9_R1.EntityArrow#b(double)
      */
     @ReflectiveMethod(name = "b", types = {double.class})
     public void b(double d){
@@ -58,7 +58,7 @@ public class NMSEntityArrow extends NMSEntity implements NMSIProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArrow#d(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityArrow#d(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "d", types = {NMSEntityHuman.class})
     public void d(NMSEntityHuman entityHuman){
@@ -66,7 +66,7 @@ public class NMSEntityArrow extends NMSEntity implements NMSIProjectile {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArrow#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntityArrow#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -75,7 +75,7 @@ public class NMSEntityArrow extends NMSEntity implements NMSIProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArrow#h()
+     * @see net.minecraft.server.v1_9_R1.EntityArrow#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -83,7 +83,7 @@ public class NMSEntityArrow extends NMSEntity implements NMSIProjectile {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArrow#inactiveTick()
+     * @see net.minecraft.server.v1_9_R1.EntityArrow#inactiveTick()
      */
     @ReflectiveMethod(name = "inactiveTick", types = {})
     public void inactiveTick(){
@@ -91,7 +91,7 @@ public class NMSEntityArrow extends NMSEntity implements NMSIProjectile {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArrow#isCritical()
+     * @see net.minecraft.server.v1_9_R1.EntityArrow#isCritical()
      */
     @ReflectiveMethod(name = "isCritical", types = {})
     public boolean isCritical(){
@@ -99,7 +99,7 @@ public class NMSEntityArrow extends NMSEntity implements NMSIProjectile {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArrow#isInGround()
+     * @see net.minecraft.server.v1_9_R1.EntityArrow#isInGround()
      */
     @ReflectiveMethod(name = "isInGround", types = {})
     public boolean isInGround(){
@@ -108,7 +108,7 @@ public class NMSEntityArrow extends NMSEntity implements NMSIProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArrow#j()
+     * @see net.minecraft.server.v1_9_R1.EntityArrow#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public double j(){
@@ -117,7 +117,7 @@ public class NMSEntityArrow extends NMSEntity implements NMSIProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArrow#s_()
+     * @see net.minecraft.server.v1_9_R1.EntityArrow#s_()
      */
     @ReflectiveMethod(name = "s_", types = {})
     public boolean s_(){
@@ -125,7 +125,7 @@ public class NMSEntityArrow extends NMSEntity implements NMSIProjectile {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArrow#setCritical(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityArrow#setCritical(boolean)
      */
     @ReflectiveMethod(name = "setCritical", types = {boolean.class})
     public void setCritical(boolean b){
@@ -133,7 +133,7 @@ public class NMSEntityArrow extends NMSEntity implements NMSIProjectile {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArrow#setKnockbackStrength(int)
+     * @see net.minecraft.server.v1_9_R1.EntityArrow#setKnockbackStrength(int)
      */
     @ReflectiveMethod(name = "setKnockbackStrength", types = {int.class})
     public void setKnockbackStrength(int i){
@@ -141,7 +141,7 @@ public class NMSEntityArrow extends NMSEntity implements NMSIProjectile {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArrow#shoot(double, double, double, float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityArrow#shoot(double, double, double, float, float)
      */
     @ReflectiveMethod(name = "shoot", types = {double.class, double.class, double.class, float.class, float.class})
     public void shoot(double d, double d1, double d2, float f, float f1){
@@ -150,7 +150,7 @@ public class NMSEntityArrow extends NMSEntity implements NMSIProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArrow#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityArrow#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){

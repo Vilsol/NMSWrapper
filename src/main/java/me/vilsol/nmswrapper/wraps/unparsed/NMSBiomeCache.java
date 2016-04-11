@@ -17,7 +17,7 @@ public class NMSBiomeCache extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeCache#a(net.minecraft.server.v1_8_R3.BiomeCache)
+     * @see net.minecraft.server.v1_9_R1.BiomeCache#a(net.minecraft.server.v1_9_R1.BiomeCache)
      */
     @ReflectiveMethod(name = "a", types = {NMSBiomeCache.class})
     public NMSWorldChunkManager a(NMSBiomeCache biomeCache){
@@ -37,7 +37,7 @@ public class NMSBiomeCache extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.BiomeCache$BiomeCacheBlock#a(int, int)
+         * @see net.minecraft.server.v1_9_R1.BiomeCache$BiomeCacheBlock#a(int, int)
          */
         @ReflectiveMethod(name = "a", types = {int.class, int.class})
         public NMSBiomeBase a(int i, int i1){

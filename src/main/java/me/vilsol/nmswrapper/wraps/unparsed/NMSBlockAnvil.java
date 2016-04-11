@@ -15,7 +15,7 @@ public class NMSBlockAnvil extends NMSBlockFalling {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockAnvil#a(net.minecraft.server.v1_8_R3.EntityFallingBlock)
+     * @see net.minecraft.server.v1_9_R1.BlockAnvil#a(net.minecraft.server.v1_9_R1.EntityFallingBlock)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityFallingBlock.class})
     public void a(NMSEntityFallingBlock entityFallingBlock){
@@ -24,7 +24,7 @@ public class NMSBlockAnvil extends NMSBlockFalling {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockAnvil#a_(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockAnvil#a_(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "a_", types = {NMSWorld.class, NMSBlockPosition.class})
     public void a_(NMSWorld world, NMSBlockPosition blockPosition){
@@ -33,7 +33,7 @@ public class NMSBlockAnvil extends NMSBlockFalling {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockAnvil#c()
+     * @see net.minecraft.server.v1_9_R1.BlockAnvil#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -42,7 +42,7 @@ public class NMSBlockAnvil extends NMSBlockFalling {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockAnvil#d()
+     * @see net.minecraft.server.v1_9_R1.BlockAnvil#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -50,7 +50,7 @@ public class NMSBlockAnvil extends NMSBlockFalling {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockAnvil#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockAnvil#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -58,7 +58,7 @@ public class NMSBlockAnvil extends NMSBlockFalling {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockAnvil#getDropData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockAnvil#getDropData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSIBlockData.class})
     public int getDropData(NMSIBlockData iBlockData){
@@ -66,7 +66,7 @@ public class NMSBlockAnvil extends NMSBlockFalling {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockAnvil#getPlacedState(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float, int, net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.BlockAnvil#getPlacedState(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float, int, net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getPlacedState", types = {NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class, float.class, float.class, float.class, int.class, NMSEntityLiving.class})
     public NMSIBlockData getPlacedState(NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, float f, float f1, float f2, int i, NMSEntityLiving entityLiving){
@@ -74,7 +74,7 @@ public class NMSBlockAnvil extends NMSBlockFalling {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockAnvil#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockAnvil#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -82,7 +82,7 @@ public class NMSBlockAnvil extends NMSBlockFalling {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockAnvil#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockAnvil#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -90,7 +90,7 @@ public class NMSBlockAnvil extends NMSBlockFalling {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockAnvil#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockAnvil#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -98,7 +98,7 @@ public class NMSBlockAnvil extends NMSBlockFalling {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockAnvil#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockAnvil#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -117,7 +117,7 @@ public class NMSBlockAnvil extends NMSBlockFalling {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockAnvil$TileEntityContainerAnvil#createContainer(net.minecraft.server.v1_8_R3.PlayerInventory, net.minecraft.server.v1_8_R3.EntityHuman)
+         * @see net.minecraft.server.v1_9_R1.BlockAnvil$TileEntityContainerAnvil#createContainer(net.minecraft.server.v1_9_R1.PlayerInventory, net.minecraft.server.v1_9_R1.EntityHuman)
          */
         @ReflectiveMethod(name = "createContainer", types = {NMSPlayerInventory.class, NMSEntityHuman.class})
         public NMSContainer createContainer(NMSPlayerInventory playerInventory, NMSEntityHuman entityHuman){
@@ -125,7 +125,7 @@ public class NMSBlockAnvil extends NMSBlockFalling {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockAnvil$TileEntityContainerAnvil#getContainerName()
+         * @see net.minecraft.server.v1_9_R1.BlockAnvil$TileEntityContainerAnvil#getContainerName()
          */
         @ReflectiveMethod(name = "getContainerName", types = {})
         public String getContainerName(){
@@ -133,7 +133,7 @@ public class NMSBlockAnvil extends NMSBlockFalling {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockAnvil$TileEntityContainerAnvil#getName()
+         * @see net.minecraft.server.v1_9_R1.BlockAnvil$TileEntityContainerAnvil#getName()
          */
         @ReflectiveMethod(name = "getName", types = {})
         public String getName(){
@@ -141,7 +141,7 @@ public class NMSBlockAnvil extends NMSBlockFalling {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockAnvil$TileEntityContainerAnvil#getScoreboardDisplayName()
+         * @see net.minecraft.server.v1_9_R1.BlockAnvil$TileEntityContainerAnvil#getScoreboardDisplayName()
          */
         @ReflectiveMethod(name = "getScoreboardDisplayName", types = {})
         public NMSIChatBaseComponent getScoreboardDisplayName(){
@@ -149,7 +149,7 @@ public class NMSBlockAnvil extends NMSBlockFalling {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockAnvil$TileEntityContainerAnvil#hasCustomName()
+         * @see net.minecraft.server.v1_9_R1.BlockAnvil$TileEntityContainerAnvil#hasCustomName()
          */
         @ReflectiveMethod(name = "hasCustomName", types = {})
         public boolean hasCustomName(){

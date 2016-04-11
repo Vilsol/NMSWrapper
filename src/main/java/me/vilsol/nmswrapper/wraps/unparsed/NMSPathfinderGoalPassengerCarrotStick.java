@@ -18,7 +18,7 @@ public class NMSPathfinderGoalPassengerCarrotStick extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalPassengerCarrotStick#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalPassengerCarrotStick#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -27,7 +27,7 @@ public class NMSPathfinderGoalPassengerCarrotStick extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalPassengerCarrotStick#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalPassengerCarrotStick#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -36,7 +36,7 @@ public class NMSPathfinderGoalPassengerCarrotStick extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalPassengerCarrotStick#d()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalPassengerCarrotStick#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -45,7 +45,7 @@ public class NMSPathfinderGoalPassengerCarrotStick extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalPassengerCarrotStick#e()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalPassengerCarrotStick#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){
@@ -54,7 +54,7 @@ public class NMSPathfinderGoalPassengerCarrotStick extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalPassengerCarrotStick#f()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalPassengerCarrotStick#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public boolean f(){
@@ -63,7 +63,7 @@ public class NMSPathfinderGoalPassengerCarrotStick extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalPassengerCarrotStick#g()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalPassengerCarrotStick#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public void g(){
@@ -72,7 +72,7 @@ public class NMSPathfinderGoalPassengerCarrotStick extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalPassengerCarrotStick#h()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalPassengerCarrotStick#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public boolean h(){

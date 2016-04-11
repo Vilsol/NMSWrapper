@@ -13,7 +13,7 @@ public class NMSWorldType extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldType#a(int)
+     * @see net.minecraft.server.v1_9_R1.WorldType#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public NMSWorldType a(int i){
@@ -22,7 +22,7 @@ public class NMSWorldType extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldType#f()
+     * @see net.minecraft.server.v1_9_R1.WorldType#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public boolean f(){
@@ -31,7 +31,7 @@ public class NMSWorldType extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldType#g()
+     * @see net.minecraft.server.v1_9_R1.WorldType#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public int g(){
@@ -39,7 +39,7 @@ public class NMSWorldType extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldType#getType(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.WorldType#getType(java.lang.String)
      */
     @ReflectiveMethod(name = "getType", types = {String.class})
     public NMSWorldType getType(String s){
@@ -47,7 +47,7 @@ public class NMSWorldType extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldType#getVersion()
+     * @see net.minecraft.server.v1_9_R1.WorldType#getVersion()
      */
     @ReflectiveMethod(name = "getVersion", types = {})
     public int getVersion(){
@@ -55,7 +55,7 @@ public class NMSWorldType extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldType#name()
+     * @see net.minecraft.server.v1_9_R1.WorldType#name()
      */
     @ReflectiveMethod(name = "name", types = {})
     public String name(){

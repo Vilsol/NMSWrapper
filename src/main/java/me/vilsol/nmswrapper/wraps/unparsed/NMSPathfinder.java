@@ -17,7 +17,7 @@ public class NMSPathfinder extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Pathfinder#a(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.Entity, net.minecraft.server.v1_8_R3.BlockPosition, float)
+     * @see net.minecraft.server.v1_9_R1.Pathfinder#a(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.Entity, net.minecraft.server.v1_9_R1.BlockPosition, float)
      */
     @ReflectiveMethod(name = "a", types = {NMSIBlockAccess.class, NMSEntity.class, NMSBlockPosition.class, float.class})
     public NMSPathEntity a(NMSIBlockAccess iBlockAccess, NMSEntity entity, NMSBlockPosition blockPosition, float f){

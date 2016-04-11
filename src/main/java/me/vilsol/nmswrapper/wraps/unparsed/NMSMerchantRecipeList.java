@@ -23,7 +23,7 @@ public class NMSMerchantRecipeList extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MerchantRecipeList#a()
+     * @see net.minecraft.server.v1_9_R1.MerchantRecipeList#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public NMSNBTTagCompound a(){

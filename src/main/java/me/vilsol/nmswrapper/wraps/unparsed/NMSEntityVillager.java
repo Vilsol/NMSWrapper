@@ -21,7 +21,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#E()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#E()
      */
     @ReflectiveMethod(name = "E", types = {})
     public void E(){
@@ -30,7 +30,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#a(net.minecraft.server.v1_8_R3.EntityItem)
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#a(net.minecraft.server.v1_9_R1.EntityItem)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityItem.class})
     public void a(NMSEntityItem entityItem){
@@ -39,7 +39,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#a_(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#a_(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "a_", types = {NMSItemStack.class})
     public void a_(NMSItemStack itemStack){
@@ -48,7 +48,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#b(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#b(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityAgeable.class})
     public NMSEntityVillager b(NMSEntityAgeable entityAgeable){
@@ -57,7 +57,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -66,7 +66,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -75,7 +75,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#cb()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#cb()
      */
     @ReflectiveMethod(name = "cb", types = {})
     public boolean cb(){
@@ -84,7 +84,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#cm()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#cm()
      */
     @ReflectiveMethod(name = "cm", types = {})
     public boolean cm(){
@@ -93,7 +93,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#cn()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#cn()
      */
     @ReflectiveMethod(name = "cn", types = {})
     public boolean cn(){
@@ -102,7 +102,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#co()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#co()
      */
     @ReflectiveMethod(name = "co", types = {})
     public boolean co(){
@@ -111,7 +111,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#cp()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#cp()
      */
     @ReflectiveMethod(name = "cp", types = {})
     public void cp(){
@@ -120,7 +120,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#cq()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#cq()
      */
     @ReflectiveMethod(name = "cq", types = {})
     public NMSInventorySubcontainer cq(){
@@ -129,7 +129,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#cr()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#cr()
      */
     @ReflectiveMethod(name = "cr", types = {})
     public boolean cr(){
@@ -137,7 +137,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#createChild(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#createChild(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "createChild", types = {NMSEntityAgeable.class})
     public NMSEntityAgeable createChild(NMSEntityAgeable entityAgeable){
@@ -146,7 +146,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#cs()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#cs()
      */
     @ReflectiveMethod(name = "cs", types = {})
     public boolean cs(){
@@ -155,7 +155,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#ct()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#ct()
      */
     @ReflectiveMethod(name = "ct", types = {})
     public boolean ct(){
@@ -164,7 +164,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#cu()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#cu()
      */
     @ReflectiveMethod(name = "cu", types = {})
     public boolean cu(){
@@ -173,7 +173,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#d(int, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#d(int, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "d", types = {int.class, NMSItemStack.class})
     public boolean d(int i, NMSItemStack itemStack){
@@ -181,7 +181,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#die(net.minecraft.server.v1_8_R3.DamageSource)
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#die(net.minecraft.server.v1_9_R1.DamageSource)
      */
     @ReflectiveMethod(name = "die", types = {NMSDamageSource.class})
     public void die(NMSDamageSource damageSource){
@@ -189,7 +189,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -197,7 +197,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#getOffers(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#getOffers(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "getOffers", types = {NMSEntityHuman.class})
     public NMSMerchantRecipeList getOffers(NMSEntityHuman entityHuman){
@@ -205,7 +205,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#getProfession()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#getProfession()
      */
     @ReflectiveMethod(name = "getProfession", types = {})
     public int getProfession(){
@@ -213,7 +213,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#getScoreboardDisplayName()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#getScoreboardDisplayName()
      */
     @ReflectiveMethod(name = "getScoreboardDisplayName", types = {})
     public NMSIChatBaseComponent getScoreboardDisplayName(){
@@ -222,7 +222,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#h()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -230,7 +230,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -238,7 +238,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#isTypeNotPersistent()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#isTypeNotPersistent()
      */
     @ReflectiveMethod(name = "isTypeNotPersistent", types = {})
     public boolean isTypeNotPersistent(){
@@ -247,7 +247,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#l(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#l(boolean)
      */
     @ReflectiveMethod(name = "l", types = {boolean.class})
     public void l(boolean b){
@@ -256,7 +256,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#m(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#m(boolean)
      */
     @ReflectiveMethod(name = "m", types = {boolean.class})
     public void m(boolean b){
@@ -265,7 +265,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#n(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#n(boolean)
      */
     @ReflectiveMethod(name = "n", types = {boolean.class})
     public boolean n(boolean b){
@@ -274,7 +274,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#o(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#o(boolean)
      */
     @ReflectiveMethod(name = "o", types = {boolean.class})
     public void o(boolean b){
@@ -282,7 +282,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#onLightningStrike(net.minecraft.server.v1_8_R3.EntityLightning)
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#onLightningStrike(net.minecraft.server.v1_9_R1.EntityLightning)
      */
     @ReflectiveMethod(name = "onLightningStrike", types = {NMSEntityLightning.class})
     public void onLightningStrike(NMSEntityLightning entityLightning){
@@ -290,7 +290,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#prepare(net.minecraft.server.v1_8_R3.DifficultyDamageScaler, net.minecraft.server.v1_8_R3.GroupDataEntity)
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#prepare(net.minecraft.server.v1_9_R1.DifficultyDamageScaler, net.minecraft.server.v1_9_R1.GroupDataEntity)
      */
     @ReflectiveMethod(name = "prepare", types = {NMSDifficultyDamageScaler.class, NMSGroupDataEntity.class})
     public NMSGroupDataEntity prepare(NMSDifficultyDamageScaler difficultyDamageScaler, NMSGroupDataEntity groupDataEntity){
@@ -298,7 +298,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#setProfession(int)
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#setProfession(int)
      */
     @ReflectiveMethod(name = "setProfession", types = {int.class})
     public void setProfession(int i){
@@ -307,7 +307,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#v_()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#v_()
      */
     @ReflectiveMethod(name = "v_", types = {})
     public NMSEntityHuman v_(){
@@ -316,7 +316,7 @@ public class NMSEntityVillager extends NMSEntityAgeable implements NMSNPC {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityVillager#z()
+     * @see net.minecraft.server.v1_9_R1.EntityVillager#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

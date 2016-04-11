@@ -17,7 +17,7 @@ public class NMSBlockActionData extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockActionData#a()
+     * @see net.minecraft.server.v1_9_R1.BlockActionData#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public NMSBlockPosition a(){
@@ -26,7 +26,7 @@ public class NMSBlockActionData extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockActionData#b()
+     * @see net.minecraft.server.v1_9_R1.BlockActionData#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public int b(){
@@ -35,7 +35,7 @@ public class NMSBlockActionData extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockActionData#c()
+     * @see net.minecraft.server.v1_9_R1.BlockActionData#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public int c(){
@@ -44,7 +44,7 @@ public class NMSBlockActionData extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockActionData#d()
+     * @see net.minecraft.server.v1_9_R1.BlockActionData#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public NMSBlock d(){
@@ -52,7 +52,7 @@ public class NMSBlockActionData extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockActionData#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.BlockActionData#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -60,7 +60,7 @@ public class NMSBlockActionData extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockActionData#toString()
+     * @see net.minecraft.server.v1_9_R1.BlockActionData#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

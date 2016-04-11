@@ -21,7 +21,7 @@ public class NMSEntityMinecartMobSpawner extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartMobSpawner#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartMobSpawner#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -30,7 +30,7 @@ public class NMSEntityMinecartMobSpawner extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartMobSpawner#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartMobSpawner#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -39,7 +39,7 @@ public class NMSEntityMinecartMobSpawner extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartMobSpawner#s()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartMobSpawner#s()
      */
     @ReflectiveMethod(name = "s", types = {})
     public NMSEnumMinecartType s(){
@@ -48,7 +48,7 @@ public class NMSEntityMinecartMobSpawner extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartMobSpawner#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartMobSpawner#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){
@@ -57,7 +57,7 @@ public class NMSEntityMinecartMobSpawner extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartMobSpawner#u()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartMobSpawner#u()
      */
     @ReflectiveMethod(name = "u", types = {})
     public NMSIBlockData u(){

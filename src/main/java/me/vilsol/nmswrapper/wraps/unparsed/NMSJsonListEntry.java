@@ -19,7 +19,7 @@ public class NMSJsonListEntry extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.JsonListEntry#a(com.google.gson.JsonObject)
+     * @see net.minecraft.server.v1_9_R1.JsonListEntry#a(com.google.gson.JsonObject)
      */
     @ReflectiveMethod(name = "a", types = {JsonObject.class})
     public void a(JsonObject jsonObject){
@@ -27,7 +27,7 @@ public class NMSJsonListEntry extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.JsonListEntry#getKey()
+     * @see net.minecraft.server.v1_9_R1.JsonListEntry#getKey()
      */
     @ReflectiveMethod(name = "getKey", types = {})
     public Object getKey(){
@@ -35,7 +35,7 @@ public class NMSJsonListEntry extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.JsonListEntry#hasExpired()
+     * @see net.minecraft.server.v1_9_R1.JsonListEntry#hasExpired()
      */
     @ReflectiveMethod(name = "hasExpired", types = {})
     public boolean hasExpired(){

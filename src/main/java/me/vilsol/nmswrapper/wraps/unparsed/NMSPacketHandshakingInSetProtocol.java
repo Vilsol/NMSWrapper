@@ -13,7 +13,7 @@ public class NMSPacketHandshakingInSetProtocol extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PacketHandshakingInSetProtocol#a(net.minecraft.server.v1_8_R3.PacketListener)
+     * @see net.minecraft.server.v1_9_R1.PacketHandshakingInSetProtocol#a(net.minecraft.server.v1_9_R1.PacketListener)
      */
     @ReflectiveMethod(name = "a", types = {NMSPacketListener.class})
     public void a(NMSPacketListener packetListener){
@@ -22,7 +22,7 @@ public class NMSPacketHandshakingInSetProtocol extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PacketHandshakingInSetProtocol#b()
+     * @see net.minecraft.server.v1_9_R1.PacketHandshakingInSetProtocol#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public int b(){

@@ -12,7 +12,7 @@ public class NMSBlockPrismarine extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPrismarine#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockPrismarine#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -21,7 +21,7 @@ public class NMSBlockPrismarine extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPrismarine#g(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockPrismarine#g(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "g", types = {NMSIBlockData.class})
     public NMSMaterialMapColor g(NMSIBlockData iBlockData){
@@ -29,7 +29,7 @@ public class NMSBlockPrismarine extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPrismarine#getDropData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockPrismarine#getDropData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSIBlockData.class})
     public int getDropData(NMSIBlockData iBlockData){
@@ -37,7 +37,7 @@ public class NMSBlockPrismarine extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPrismarine#getName()
+     * @see net.minecraft.server.v1_9_R1.BlockPrismarine#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -45,7 +45,7 @@ public class NMSBlockPrismarine extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPrismarine#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockPrismarine#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -53,7 +53,7 @@ public class NMSBlockPrismarine extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPrismarine#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockPrismarine#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

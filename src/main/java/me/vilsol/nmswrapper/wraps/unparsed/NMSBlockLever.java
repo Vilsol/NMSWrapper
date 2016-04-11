@@ -13,7 +13,7 @@ public class NMSBlockLever extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLever#a(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.BlockLever#a(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "a", types = {NMSIBlockAccess.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEnumDirection.class})
     public int a(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEnumDirection enumDirection){
@@ -22,7 +22,7 @@ public class NMSBlockLever extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLever#b(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.BlockLever#b(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "b", types = {NMSIBlockAccess.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEnumDirection.class})
     public int b(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEnumDirection enumDirection){
@@ -31,7 +31,7 @@ public class NMSBlockLever extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLever#c()
+     * @see net.minecraft.server.v1_9_R1.BlockLever#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -39,7 +39,7 @@ public class NMSBlockLever extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLever#canPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockLever#canPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "canPlace", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean canPlace(NMSWorld world, NMSBlockPosition blockPosition){
@@ -48,7 +48,7 @@ public class NMSBlockLever extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLever#d()
+     * @see net.minecraft.server.v1_9_R1.BlockLever#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -56,7 +56,7 @@ public class NMSBlockLever extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLever#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockLever#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -64,7 +64,7 @@ public class NMSBlockLever extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLever#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockLever#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -72,7 +72,7 @@ public class NMSBlockLever extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLever#getPlacedState(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float, int, net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.BlockLever#getPlacedState(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float, int, net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getPlacedState", types = {NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class, float.class, float.class, float.class, int.class, NMSEntityLiving.class})
     public NMSIBlockData getPlacedState(NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, float f, float f1, float f2, int i, NMSEntityLiving entityLiving){
@@ -80,7 +80,7 @@ public class NMSBlockLever extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLever#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockLever#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -88,7 +88,7 @@ public class NMSBlockLever extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLever#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockLever#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -96,7 +96,7 @@ public class NMSBlockLever extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLever#isPowerSource()
+     * @see net.minecraft.server.v1_9_R1.BlockLever#isPowerSource()
      */
     @ReflectiveMethod(name = "isPowerSource", types = {})
     public boolean isPowerSource(){
@@ -104,7 +104,7 @@ public class NMSBlockLever extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLever#remove(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockLever#remove(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "remove", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void remove(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -112,7 +112,7 @@ public class NMSBlockLever extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLever#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockLever#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -120,7 +120,7 @@ public class NMSBlockLever extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLever#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockLever#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

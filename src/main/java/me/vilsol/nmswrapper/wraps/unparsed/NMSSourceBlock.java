@@ -17,7 +17,7 @@ public class NMSSourceBlock extends NMSWrap implements NMSISourceBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SourceBlock#f()
+     * @see net.minecraft.server.v1_9_R1.SourceBlock#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public int f(){
@@ -25,7 +25,7 @@ public class NMSSourceBlock extends NMSWrap implements NMSISourceBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SourceBlock#getBlockPosition()
+     * @see net.minecraft.server.v1_9_R1.SourceBlock#getBlockPosition()
      */
     @ReflectiveMethod(name = "getBlockPosition", types = {})
     public NMSBlockPosition getBlockPosition(){
@@ -33,7 +33,7 @@ public class NMSSourceBlock extends NMSWrap implements NMSISourceBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SourceBlock#getTileEntity()
+     * @see net.minecraft.server.v1_9_R1.SourceBlock#getTileEntity()
      */
     @ReflectiveMethod(name = "getTileEntity", types = {})
     public Object getTileEntity(){
@@ -41,7 +41,7 @@ public class NMSSourceBlock extends NMSWrap implements NMSISourceBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SourceBlock#getX()
+     * @see net.minecraft.server.v1_9_R1.SourceBlock#getX()
      */
     @ReflectiveMethod(name = "getX", types = {})
     public double getX(){
@@ -49,7 +49,7 @@ public class NMSSourceBlock extends NMSWrap implements NMSISourceBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SourceBlock#getY()
+     * @see net.minecraft.server.v1_9_R1.SourceBlock#getY()
      */
     @ReflectiveMethod(name = "getY", types = {})
     public double getY(){
@@ -57,7 +57,7 @@ public class NMSSourceBlock extends NMSWrap implements NMSISourceBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SourceBlock#getZ()
+     * @see net.minecraft.server.v1_9_R1.SourceBlock#getZ()
      */
     @ReflectiveMethod(name = "getZ", types = {})
     public double getZ(){
@@ -66,7 +66,7 @@ public class NMSSourceBlock extends NMSWrap implements NMSISourceBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SourceBlock#i()
+     * @see net.minecraft.server.v1_9_R1.SourceBlock#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public NMSWorld i(){

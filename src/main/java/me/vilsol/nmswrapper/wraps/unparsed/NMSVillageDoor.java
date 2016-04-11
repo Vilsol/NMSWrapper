@@ -21,7 +21,7 @@ public class NMSVillageDoor extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.VillageDoor#a(boolean)
+     * @see net.minecraft.server.v1_9_R1.VillageDoor#a(boolean)
      */
     @ReflectiveMethod(name = "a", types = {boolean.class})
     public void a(boolean b){
@@ -30,7 +30,7 @@ public class NMSVillageDoor extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.VillageDoor#b()
+     * @see net.minecraft.server.v1_9_R1.VillageDoor#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public void b(){
@@ -39,7 +39,7 @@ public class NMSVillageDoor extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.VillageDoor#c()
+     * @see net.minecraft.server.v1_9_R1.VillageDoor#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public int c(){
@@ -48,7 +48,7 @@ public class NMSVillageDoor extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.VillageDoor#d()
+     * @see net.minecraft.server.v1_9_R1.VillageDoor#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public NMSBlockPosition d(){
@@ -57,7 +57,7 @@ public class NMSVillageDoor extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.VillageDoor#e()
+     * @see net.minecraft.server.v1_9_R1.VillageDoor#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public NMSBlockPosition e(){
@@ -66,7 +66,7 @@ public class NMSVillageDoor extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.VillageDoor#f()
+     * @see net.minecraft.server.v1_9_R1.VillageDoor#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public int f(){
@@ -75,7 +75,7 @@ public class NMSVillageDoor extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.VillageDoor#g()
+     * @see net.minecraft.server.v1_9_R1.VillageDoor#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public int g(){
@@ -84,7 +84,7 @@ public class NMSVillageDoor extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.VillageDoor#h()
+     * @see net.minecraft.server.v1_9_R1.VillageDoor#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public int h(){
@@ -93,7 +93,7 @@ public class NMSVillageDoor extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.VillageDoor#i()
+     * @see net.minecraft.server.v1_9_R1.VillageDoor#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public boolean i(){

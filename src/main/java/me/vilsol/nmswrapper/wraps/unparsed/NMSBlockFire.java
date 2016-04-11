@@ -16,7 +16,7 @@ public class NMSBlockFire extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFire#A()
+     * @see net.minecraft.server.v1_9_R1.BlockFire#A()
      */
     @ReflectiveMethod(name = "A", types = {})
     public boolean A(){
@@ -25,7 +25,7 @@ public class NMSBlockFire extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFire#N()
+     * @see net.minecraft.server.v1_9_R1.BlockFire#N()
      */
     @ReflectiveMethod(name = "N", types = {})
     public boolean N(){
@@ -34,7 +34,7 @@ public class NMSBlockFire extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFire#a(net.minecraft.server.v1_8_R3.World)
+     * @see net.minecraft.server.v1_9_R1.BlockFire#a(net.minecraft.server.v1_9_R1.World)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class})
     public int a(NMSWorld world){
@@ -43,7 +43,7 @@ public class NMSBlockFire extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFire#b(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockFire#b(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, java.util.Random)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, Random.class})
     public void b(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, Random random){
@@ -52,7 +52,7 @@ public class NMSBlockFire extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFire#c()
+     * @see net.minecraft.server.v1_9_R1.BlockFire#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -60,7 +60,7 @@ public class NMSBlockFire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFire#canPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockFire#canPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "canPlace", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean canPlace(NMSWorld world, NMSBlockPosition blockPosition){
@@ -69,7 +69,7 @@ public class NMSBlockFire extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFire#d()
+     * @see net.minecraft.server.v1_9_R1.BlockFire#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -77,7 +77,7 @@ public class NMSBlockFire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFire#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockFire#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -86,7 +86,7 @@ public class NMSBlockFire extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFire#e(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockFire#e(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "e", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public boolean e(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -94,7 +94,7 @@ public class NMSBlockFire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFire#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockFire#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -103,7 +103,7 @@ public class NMSBlockFire extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFire#g(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockFire#g(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "g", types = {NMSIBlockData.class})
     public NMSMaterialMapColor g(NMSIBlockData iBlockData){
@@ -111,7 +111,7 @@ public class NMSBlockFire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFire#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockFire#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -120,7 +120,7 @@ public class NMSBlockFire extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFire#l()
+     * @see net.minecraft.server.v1_9_R1.BlockFire#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public void l(){
@@ -128,7 +128,7 @@ public class NMSBlockFire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFire#onPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockFire#onPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "onPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void onPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -136,7 +136,7 @@ public class NMSBlockFire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFire#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockFire#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -144,7 +144,7 @@ public class NMSBlockFire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFire#updateState(net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockFire#updateState(net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateState", types = {NMSIBlockData.class, NMSIBlockAccess.class, NMSBlockPosition.class})
     public NMSIBlockData updateState(NMSIBlockData iBlockData, NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

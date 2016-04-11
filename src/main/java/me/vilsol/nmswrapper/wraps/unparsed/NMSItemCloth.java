@@ -17,7 +17,7 @@ public class NMSItemCloth extends NMSItemBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemCloth#e_(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemCloth#e_(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "e_", types = {NMSItemStack.class})
     public String e_(NMSItemStack itemStack){
@@ -25,7 +25,7 @@ public class NMSItemCloth extends NMSItemBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemCloth#filterData(int)
+     * @see net.minecraft.server.v1_9_R1.ItemCloth#filterData(int)
      */
     @ReflectiveMethod(name = "filterData", types = {int.class})
     public int filterData(int i){

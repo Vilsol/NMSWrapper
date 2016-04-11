@@ -21,7 +21,7 @@ public class NMSPathfinderGoalRandomStroll extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalRandomStroll#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalRandomStroll#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -30,7 +30,7 @@ public class NMSPathfinderGoalRandomStroll extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalRandomStroll#b()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalRandomStroll#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -39,7 +39,7 @@ public class NMSPathfinderGoalRandomStroll extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalRandomStroll#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalRandomStroll#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -48,7 +48,7 @@ public class NMSPathfinderGoalRandomStroll extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalRandomStroll#f()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalRandomStroll#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public void f(){
@@ -56,7 +56,7 @@ public class NMSPathfinderGoalRandomStroll extends NMSPathfinderGoal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalRandomStroll#setTimeBetweenMovement(int)
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalRandomStroll#setTimeBetweenMovement(int)
      */
     @ReflectiveMethod(name = "setTimeBetweenMovement", types = {int.class})
     public void setTimeBetweenMovement(int i){

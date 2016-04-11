@@ -18,7 +18,7 @@ public class NMSServerPing extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ServerPing#a()
+     * @see net.minecraft.server.v1_9_R1.ServerPing#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public NMSIChatBaseComponent a(){
@@ -27,7 +27,7 @@ public class NMSServerPing extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ServerPing#b()
+     * @see net.minecraft.server.v1_9_R1.ServerPing#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSServerPingPlayerSample b(){
@@ -36,7 +36,7 @@ public class NMSServerPing extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ServerPing#c()
+     * @see net.minecraft.server.v1_9_R1.ServerPing#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public NMSServerData c(){
@@ -45,7 +45,7 @@ public class NMSServerPing extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ServerPing#d()
+     * @see net.minecraft.server.v1_9_R1.ServerPing#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public String d(){
@@ -53,7 +53,7 @@ public class NMSServerPing extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ServerPing#setFavicon(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.ServerPing#setFavicon(java.lang.String)
      */
     @ReflectiveMethod(name = "setFavicon", types = {String.class})
     public void setFavicon(String s){
@@ -61,7 +61,7 @@ public class NMSServerPing extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ServerPing#setMOTD(net.minecraft.server.v1_8_R3.IChatBaseComponent)
+     * @see net.minecraft.server.v1_9_R1.ServerPing#setMOTD(net.minecraft.server.v1_9_R1.IChatBaseComponent)
      */
     @ReflectiveMethod(name = "setMOTD", types = {NMSIChatBaseComponent.class})
     public void setMOTD(NMSIChatBaseComponent iChatBaseComponent){
@@ -69,7 +69,7 @@ public class NMSServerPing extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ServerPing#setPlayerSample(net.minecraft.server.v1_8_R3.ServerPing$ServerPingPlayerSample)
+     * @see net.minecraft.server.v1_9_R1.ServerPing#setPlayerSample(net.minecraft.server.v1_9_R1.ServerPing$ServerPingPlayerSample)
      */
     @ReflectiveMethod(name = "setPlayerSample", types = {NMSServerPingPlayerSample.class})
     public void setPlayerSample(NMSServerPingPlayerSample serverPingPlayerSample){
@@ -77,7 +77,7 @@ public class NMSServerPing extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ServerPing#setServerInfo(net.minecraft.server.v1_8_R3.ServerPing$ServerData)
+     * @see net.minecraft.server.v1_9_R1.ServerPing#setServerInfo(net.minecraft.server.v1_9_R1.ServerPing$ServerData)
      */
     @ReflectiveMethod(name = "setServerInfo", types = {NMSServerData.class})
     public void setServerInfo(NMSServerData serverData){
@@ -93,7 +93,7 @@ public class NMSServerPing extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.ServerPing$ServerData$Serializer#a(net.minecraft.server.v1_8_R3.ServerPing$ServerData, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
+         * @see net.minecraft.server.v1_9_R1.ServerPing$ServerData$Serializer#a(net.minecraft.server.v1_9_R1.ServerPing$ServerData, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
          */
         @ReflectiveMethod(name = "a", types = {NMSServerData.class, Type.class, JsonSerializationContext.class})
         public JsonElement a(NMSServerData serverData, Type type, JsonSerializationContext jsonSerializationContext){
@@ -101,7 +101,7 @@ public class NMSServerPing extends NMSWrap {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.ServerPing$ServerData$Serializer#serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
+         * @see net.minecraft.server.v1_9_R1.ServerPing$ServerData$Serializer#serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
          */
         @ReflectiveMethod(name = "serialize", types = {Object.class, Type.class, JsonSerializationContext.class})
         public JsonElement serialize(Object object, Type type, JsonSerializationContext jsonSerializationContext){
@@ -123,7 +123,7 @@ public class NMSServerPing extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.ServerPing$ServerPingPlayerSample#a()
+         * @see net.minecraft.server.v1_9_R1.ServerPing$ServerPingPlayerSample#a()
          */
         @ReflectiveMethod(name = "a", types = {})
         public int a(){
@@ -132,7 +132,7 @@ public class NMSServerPing extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.ServerPing$ServerPingPlayerSample#b()
+         * @see net.minecraft.server.v1_9_R1.ServerPing$ServerPingPlayerSample#b()
          */
         @ReflectiveMethod(name = "b", types = {})
         public int b(){
@@ -154,7 +154,7 @@ public class NMSServerPing extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.ServerPing$ServerData#a()
+         * @see net.minecraft.server.v1_9_R1.ServerPing$ServerData#a()
          */
         @ReflectiveMethod(name = "a", types = {})
         public String a(){
@@ -163,7 +163,7 @@ public class NMSServerPing extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.ServerPing$ServerData#b()
+         * @see net.minecraft.server.v1_9_R1.ServerPing$ServerData#b()
          */
         @ReflectiveMethod(name = "b", types = {})
         public int b(){

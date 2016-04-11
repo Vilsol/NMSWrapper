@@ -13,7 +13,7 @@ public class NMSBlockStateBoolean extends NMSBlockState {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStateBoolean#a(java.lang.Comparable)
+     * @see net.minecraft.server.v1_9_R1.BlockStateBoolean#a(java.lang.Comparable)
      */
     @ReflectiveMethod(name = "a", types = {Comparable.class})
     public String a(Comparable comparable){
@@ -22,7 +22,7 @@ public class NMSBlockStateBoolean extends NMSBlockState {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStateBoolean#of(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.BlockStateBoolean#of(java.lang.String)
      */
     @ReflectiveMethod(name = "of", types = {String.class})
     public NMSBlockStateBoolean of(String s){

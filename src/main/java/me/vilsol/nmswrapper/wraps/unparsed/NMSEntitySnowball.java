@@ -25,7 +25,7 @@ public class NMSEntitySnowball extends NMSEntityProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySnowball#a(net.minecraft.server.v1_8_R3.MovingObjectPosition)
+     * @see net.minecraft.server.v1_9_R1.EntitySnowball#a(net.minecraft.server.v1_9_R1.MovingObjectPosition)
      */
     @ReflectiveMethod(name = "a", types = {NMSMovingObjectPosition.class})
     public void a(NMSMovingObjectPosition movingObjectPosition){

@@ -17,7 +17,7 @@ public class NMSPathfinderGoalRestrictSun extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalRestrictSun#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalRestrictSun#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalRestrictSun extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalRestrictSun#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalRestrictSun#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -35,7 +35,7 @@ public class NMSPathfinderGoalRestrictSun extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalRestrictSun#d()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalRestrictSun#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){

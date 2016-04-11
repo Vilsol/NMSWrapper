@@ -25,7 +25,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#W()
+     * @see net.minecraft.server.v1_9_R1.EntityItem#W()
      */
     @ReflectiveMethod(name = "W", types = {})
     public boolean W(){
@@ -34,7 +34,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#a(int)
+     * @see net.minecraft.server.v1_9_R1.EntityItem#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public void a(int i){
@@ -43,7 +43,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#aD()
+     * @see net.minecraft.server.v1_9_R1.EntityItem#aD()
      */
     @ReflectiveMethod(name = "aD", types = {})
     public boolean aD(){
@@ -52,7 +52,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#b(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.EntityItem#b(java.lang.String)
      */
     @ReflectiveMethod(name = "b", types = {String.class})
     public void b(String s){
@@ -60,7 +60,7 @@ public class NMSEntityItem extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityItem#burn(int)
+     * @see net.minecraft.server.v1_9_R1.EntityItem#burn(int)
      */
     @ReflectiveMethod(name = "burn", types = {int.class})
     public void burn(int i){
@@ -69,7 +69,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#c(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.EntityItem#c(java.lang.String)
      */
     @ReflectiveMethod(name = "c", types = {String.class})
     public void c(String s){
@@ -78,7 +78,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#d(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityItem#d(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "d", types = {NMSEntityHuman.class})
     public void d(NMSEntityHuman entityHuman){
@@ -86,7 +86,7 @@ public class NMSEntityItem extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityItem#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityItem#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -94,7 +94,7 @@ public class NMSEntityItem extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityItem#getItemStack()
+     * @see net.minecraft.server.v1_9_R1.EntityItem#getItemStack()
      */
     @ReflectiveMethod(name = "getItemStack", types = {})
     public NMSItemStack getItemStack(){
@@ -102,7 +102,7 @@ public class NMSEntityItem extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityItem#getName()
+     * @see net.minecraft.server.v1_9_R1.EntityItem#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -111,7 +111,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#h()
+     * @see net.minecraft.server.v1_9_R1.EntityItem#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -119,7 +119,7 @@ public class NMSEntityItem extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityItem#inactiveTick()
+     * @see net.minecraft.server.v1_9_R1.EntityItem#inactiveTick()
      */
     @ReflectiveMethod(name = "inactiveTick", types = {})
     public void inactiveTick(){
@@ -128,7 +128,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#j()
+     * @see net.minecraft.server.v1_9_R1.EntityItem#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public void j(){
@@ -137,7 +137,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#m()
+     * @see net.minecraft.server.v1_9_R1.EntityItem#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public String m(){
@@ -146,7 +146,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#n()
+     * @see net.minecraft.server.v1_9_R1.EntityItem#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public String n(){
@@ -155,7 +155,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#p()
+     * @see net.minecraft.server.v1_9_R1.EntityItem#p()
      */
     @ReflectiveMethod(name = "p", types = {})
     public void p(){
@@ -164,7 +164,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#q()
+     * @see net.minecraft.server.v1_9_R1.EntityItem#q()
      */
     @ReflectiveMethod(name = "q", types = {})
     public void q(){
@@ -173,7 +173,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#r()
+     * @see net.minecraft.server.v1_9_R1.EntityItem#r()
      */
     @ReflectiveMethod(name = "r", types = {})
     public void r(){
@@ -182,7 +182,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#s()
+     * @see net.minecraft.server.v1_9_R1.EntityItem#s()
      */
     @ReflectiveMethod(name = "s", types = {})
     public boolean s(){
@@ -191,7 +191,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#s_()
+     * @see net.minecraft.server.v1_9_R1.EntityItem#s_()
      */
     @ReflectiveMethod(name = "s_", types = {})
     public boolean s_(){
@@ -199,7 +199,7 @@ public class NMSEntityItem extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityItem#setItemStack(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityItem#setItemStack(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "setItemStack", types = {NMSItemStack.class})
     public void setItemStack(NMSItemStack itemStack){
@@ -208,7 +208,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityItem#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){
@@ -217,7 +217,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#u()
+     * @see net.minecraft.server.v1_9_R1.EntityItem#u()
      */
     @ReflectiveMethod(name = "u", types = {})
     public void u(){
@@ -226,7 +226,7 @@ public class NMSEntityItem extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityItem#v()
+     * @see net.minecraft.server.v1_9_R1.EntityItem#v()
      */
     @ReflectiveMethod(name = "v", types = {})
     public void v(){

@@ -16,7 +16,7 @@ public class NMSBlockTallPlant extends NMSBlockPlant implements NMSIBlockFragile
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockTallPlant#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockTallPlant#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSBlockPosition.class, NMSIBlockData.class})
     public boolean a(NMSWorld world, Random random, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -25,7 +25,7 @@ public class NMSBlockTallPlant extends NMSBlockPlant implements NMSIBlockFragile
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockTallPlant#b(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockTallPlant#b(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, Random.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void b(NMSWorld world, Random random, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -33,7 +33,7 @@ public class NMSBlockTallPlant extends NMSBlockPlant implements NMSIBlockFragile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTallPlant#canPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockTallPlant#canPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "canPlace", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean canPlace(NMSWorld world, NMSBlockPosition blockPosition){
@@ -42,7 +42,7 @@ public class NMSBlockTallPlant extends NMSBlockPlant implements NMSIBlockFragile
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockTallPlant#e(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockTallPlant#e(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "e", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void e(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -51,7 +51,7 @@ public class NMSBlockTallPlant extends NMSBlockPlant implements NMSIBlockFragile
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockTallPlant#f(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockTallPlant#f(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "f", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public boolean f(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -59,7 +59,7 @@ public class NMSBlockTallPlant extends NMSBlockPlant implements NMSIBlockFragile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTallPlant#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockTallPlant#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -67,7 +67,7 @@ public class NMSBlockTallPlant extends NMSBlockPlant implements NMSIBlockFragile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTallPlant#getDropData(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockTallPlant#getDropData(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSWorld.class, NMSBlockPosition.class})
     public int getDropData(NMSWorld world, NMSBlockPosition blockPosition){
@@ -75,7 +75,7 @@ public class NMSBlockTallPlant extends NMSBlockPlant implements NMSIBlockFragile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTallPlant#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockTallPlant#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -83,7 +83,7 @@ public class NMSBlockTallPlant extends NMSBlockPlant implements NMSIBlockFragile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTallPlant#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockTallPlant#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -91,7 +91,7 @@ public class NMSBlockTallPlant extends NMSBlockPlant implements NMSIBlockFragile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTallPlant#postPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityLiving, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.BlockTallPlant#postPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityLiving, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "postPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityLiving.class, NMSItemStack.class})
     public void postPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityLiving entityLiving, NMSItemStack itemStack){
@@ -99,7 +99,7 @@ public class NMSBlockTallPlant extends NMSBlockPlant implements NMSIBlockFragile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTallPlant#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockTallPlant#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -107,7 +107,7 @@ public class NMSBlockTallPlant extends NMSBlockPlant implements NMSIBlockFragile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTallPlant#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockTallPlant#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -115,7 +115,7 @@ public class NMSBlockTallPlant extends NMSBlockPlant implements NMSIBlockFragile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTallPlant#updateState(net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockTallPlant#updateState(net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateState", types = {NMSIBlockData.class, NMSIBlockAccess.class, NMSBlockPosition.class})
     public NMSIBlockData updateState(NMSIBlockData iBlockData, NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

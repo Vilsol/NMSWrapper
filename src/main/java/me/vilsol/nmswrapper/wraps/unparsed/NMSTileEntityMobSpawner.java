@@ -13,7 +13,7 @@ public class NMSTileEntityMobSpawner extends NMSTileEntity implements NMSIUpdate
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityMobSpawner#F()
+     * @see net.minecraft.server.v1_9_R1.TileEntityMobSpawner#F()
      */
     @ReflectiveMethod(name = "F", types = {})
     public boolean F(){
@@ -22,7 +22,7 @@ public class NMSTileEntityMobSpawner extends NMSTileEntity implements NMSIUpdate
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityMobSpawner#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.TileEntityMobSpawner#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -31,7 +31,7 @@ public class NMSTileEntityMobSpawner extends NMSTileEntity implements NMSIUpdate
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityMobSpawner#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.TileEntityMobSpawner#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -40,7 +40,7 @@ public class NMSTileEntityMobSpawner extends NMSTileEntity implements NMSIUpdate
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityMobSpawner#c(int, int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityMobSpawner#c(int, int)
      */
     @ReflectiveMethod(name = "c", types = {int.class, int.class})
     public boolean c(int i, int i1){
@@ -48,7 +48,7 @@ public class NMSTileEntityMobSpawner extends NMSTileEntity implements NMSIUpdate
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityMobSpawner#getSpawner()
+     * @see net.minecraft.server.v1_9_R1.TileEntityMobSpawner#getSpawner()
      */
     @ReflectiveMethod(name = "getSpawner", types = {})
     public NMSMobSpawnerAbstract getSpawner(){
@@ -56,7 +56,7 @@ public class NMSTileEntityMobSpawner extends NMSTileEntity implements NMSIUpdate
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityMobSpawner#getUpdatePacket()
+     * @see net.minecraft.server.v1_9_R1.TileEntityMobSpawner#getUpdatePacket()
      */
     @ReflectiveMethod(name = "getUpdatePacket", types = {})
     public NMSPacket getUpdatePacket(){

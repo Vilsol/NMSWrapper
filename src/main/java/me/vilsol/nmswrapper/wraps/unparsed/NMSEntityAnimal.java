@@ -21,7 +21,7 @@ public class NMSEntityAnimal extends NMSEntityAgeable implements NMSIAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityAnimal#E()
+     * @see net.minecraft.server.v1_9_R1.EntityAnimal#E()
      */
     @ReflectiveMethod(name = "E", types = {})
     public void E(){
@@ -30,7 +30,7 @@ public class NMSEntityAnimal extends NMSEntityAgeable implements NMSIAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityAnimal#a(net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityAnimal#a(net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class, NMSItemStack.class})
     public void a(NMSEntityHuman entityHuman, NMSItemStack itemStack){
@@ -39,7 +39,7 @@ public class NMSEntityAnimal extends NMSEntityAgeable implements NMSIAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityAnimal#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityAnimal#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -48,7 +48,7 @@ public class NMSEntityAnimal extends NMSEntityAgeable implements NMSIAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityAnimal#bR()
+     * @see net.minecraft.server.v1_9_R1.EntityAnimal#bR()
      */
     @ReflectiveMethod(name = "bR", types = {})
     public boolean bR(){
@@ -57,7 +57,7 @@ public class NMSEntityAnimal extends NMSEntityAgeable implements NMSIAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityAnimal#c(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityAnimal#c(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "c", types = {NMSEntityHuman.class})
     public void c(NMSEntityHuman entityHuman){
@@ -66,7 +66,7 @@ public class NMSEntityAnimal extends NMSEntityAgeable implements NMSIAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityAnimal#cq()
+     * @see net.minecraft.server.v1_9_R1.EntityAnimal#cq()
      */
     @ReflectiveMethod(name = "cq", types = {})
     public NMSEntityHuman cq(){
@@ -75,7 +75,7 @@ public class NMSEntityAnimal extends NMSEntityAgeable implements NMSIAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityAnimal#cs()
+     * @see net.minecraft.server.v1_9_R1.EntityAnimal#cs()
      */
     @ReflectiveMethod(name = "cs", types = {})
     public void cs(){
@@ -84,7 +84,7 @@ public class NMSEntityAnimal extends NMSEntityAgeable implements NMSIAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityAnimal#d(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityAnimal#d(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "d", types = {NMSItemStack.class})
     public boolean d(NMSItemStack itemStack){
@@ -92,7 +92,7 @@ public class NMSEntityAnimal extends NMSEntityAgeable implements NMSIAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityAnimal#getExpValue(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityAnimal#getExpValue(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "getExpValue", types = {NMSEntityHuman.class})
     public int getExpValue(NMSEntityHuman entityHuman){
@@ -100,7 +100,7 @@ public class NMSEntityAnimal extends NMSEntityAgeable implements NMSIAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityAnimal#isInLove()
+     * @see net.minecraft.server.v1_9_R1.EntityAnimal#isInLove()
      */
     @ReflectiveMethod(name = "isInLove", types = {})
     public boolean isInLove(){
@@ -108,7 +108,7 @@ public class NMSEntityAnimal extends NMSEntityAgeable implements NMSIAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityAnimal#isTypeNotPersistent()
+     * @see net.minecraft.server.v1_9_R1.EntityAnimal#isTypeNotPersistent()
      */
     @ReflectiveMethod(name = "isTypeNotPersistent", types = {})
     public boolean isTypeNotPersistent(){
@@ -117,7 +117,7 @@ public class NMSEntityAnimal extends NMSEntityAgeable implements NMSIAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityAnimal#m()
+     * @see net.minecraft.server.v1_9_R1.EntityAnimal#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -125,7 +125,7 @@ public class NMSEntityAnimal extends NMSEntityAgeable implements NMSIAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityAnimal#mate(net.minecraft.server.v1_8_R3.EntityAnimal)
+     * @see net.minecraft.server.v1_9_R1.EntityAnimal#mate(net.minecraft.server.v1_9_R1.EntityAnimal)
      */
     @ReflectiveMethod(name = "mate", types = {NMSEntityAnimal.class})
     public boolean mate(NMSEntityAnimal entityAnimal){
@@ -134,7 +134,7 @@ public class NMSEntityAnimal extends NMSEntityAgeable implements NMSIAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityAnimal#w()
+     * @see net.minecraft.server.v1_9_R1.EntityAnimal#w()
      */
     @ReflectiveMethod(name = "w", types = {})
     public int w(){

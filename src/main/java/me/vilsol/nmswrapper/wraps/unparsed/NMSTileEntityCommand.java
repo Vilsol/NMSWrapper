@@ -13,7 +13,7 @@ public class NMSTileEntityCommand extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityCommand#F()
+     * @see net.minecraft.server.v1_9_R1.TileEntityCommand#F()
      */
     @ReflectiveMethod(name = "F", types = {})
     public boolean F(){
@@ -22,7 +22,7 @@ public class NMSTileEntityCommand extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityCommand#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.TileEntityCommand#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -31,7 +31,7 @@ public class NMSTileEntityCommand extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityCommand#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.TileEntityCommand#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -40,7 +40,7 @@ public class NMSTileEntityCommand extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityCommand#c()
+     * @see net.minecraft.server.v1_9_R1.TileEntityCommand#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public NMSCommandObjectiveExecutor c(){
@@ -48,7 +48,7 @@ public class NMSTileEntityCommand extends NMSTileEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityCommand#getCommandBlock()
+     * @see net.minecraft.server.v1_9_R1.TileEntityCommand#getCommandBlock()
      */
     @ReflectiveMethod(name = "getCommandBlock", types = {})
     public NMSCommandBlockListenerAbstract getCommandBlock(){
@@ -56,7 +56,7 @@ public class NMSTileEntityCommand extends NMSTileEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityCommand#getUpdatePacket()
+     * @see net.minecraft.server.v1_9_R1.TileEntityCommand#getUpdatePacket()
      */
     @ReflectiveMethod(name = "getUpdatePacket", types = {})
     public NMSPacket getUpdatePacket(){

@@ -13,7 +13,7 @@ public class NMSCommandToggleDownfall extends NMSCommandAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandToggleDownfall#a()
+     * @see net.minecraft.server.v1_9_R1.CommandToggleDownfall#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public int a(){
@@ -22,7 +22,7 @@ public class NMSCommandToggleDownfall extends NMSCommandAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandToggleDownfall#d()
+     * @see net.minecraft.server.v1_9_R1.CommandToggleDownfall#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -30,7 +30,7 @@ public class NMSCommandToggleDownfall extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandToggleDownfall#getCommand()
+     * @see net.minecraft.server.v1_9_R1.CommandToggleDownfall#getCommand()
      */
     @ReflectiveMethod(name = "getCommand", types = {})
     public String getCommand(){
@@ -38,7 +38,7 @@ public class NMSCommandToggleDownfall extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandToggleDownfall#getUsage(net.minecraft.server.v1_8_R3.ICommandListener)
+     * @see net.minecraft.server.v1_9_R1.CommandToggleDownfall#getUsage(net.minecraft.server.v1_9_R1.ICommandListener)
      */
     @ReflectiveMethod(name = "getUsage", types = {NMSICommandListener.class})
     public String getUsage(NMSICommandListener iCommandListener){

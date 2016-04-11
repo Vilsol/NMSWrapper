@@ -17,7 +17,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#E()
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#E()
      */
     @ReflectiveMethod(name = "E", types = {})
     public void E(){
@@ -26,7 +26,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#Y()
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#Y()
      */
     @ReflectiveMethod(name = "Y", types = {})
     public void Y(){
@@ -35,7 +35,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -44,7 +44,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#b(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#b(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityAgeable.class})
     public NMSEntityRabbit b(NMSEntityAgeable entityAgeable){
@@ -53,7 +53,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#bE()
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#bE()
      */
     @ReflectiveMethod(name = "bE", types = {})
     public float bE(){
@@ -62,7 +62,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -71,7 +71,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -80,7 +80,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#br()
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#br()
      */
     @ReflectiveMethod(name = "br", types = {})
     public int br(){
@@ -89,7 +89,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#cl()
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#cl()
      */
     @ReflectiveMethod(name = "cl", types = {})
     public boolean cl(){
@@ -98,7 +98,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#cm()
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#cm()
      */
     @ReflectiveMethod(name = "cm", types = {})
     public String cm(){
@@ -107,7 +107,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#co()
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#co()
      */
     @ReflectiveMethod(name = "co", types = {})
     public int co(){
@@ -116,7 +116,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#cp()
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#cp()
      */
     @ReflectiveMethod(name = "cp", types = {})
     public void cp(){
@@ -124,7 +124,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#createChild(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#createChild(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "createChild", types = {NMSEntityAgeable.class})
     public NMSEntityAgeable createChild(NMSEntityAgeable entityAgeable){
@@ -133,7 +133,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#d(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#d(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "d", types = {NMSItemStack.class})
     public boolean d(NMSItemStack itemStack){
@@ -141,7 +141,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -149,7 +149,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -157,7 +157,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#getRabbitType()
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#getRabbitType()
      */
     @ReflectiveMethod(name = "getRabbitType", types = {})
     public int getRabbitType(){
@@ -165,7 +165,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#getRareDrop()
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#getRareDrop()
      */
     @ReflectiveMethod(name = "getRareDrop", types = {})
     public void getRareDrop(){
@@ -174,7 +174,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#h()
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -182,7 +182,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -190,7 +190,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#initializePathFinderGoals()
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#initializePathFinderGoals()
      */
     @ReflectiveMethod(name = "initializePathFinderGoals", types = {})
     public void initializePathFinderGoals(){
@@ -199,7 +199,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#m()
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -207,7 +207,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#prepare(net.minecraft.server.v1_8_R3.DifficultyDamageScaler, net.minecraft.server.v1_8_R3.GroupDataEntity)
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#prepare(net.minecraft.server.v1_9_R1.DifficultyDamageScaler, net.minecraft.server.v1_9_R1.GroupDataEntity)
      */
     @ReflectiveMethod(name = "prepare", types = {NMSDifficultyDamageScaler.class, NMSGroupDataEntity.class})
     public NMSGroupDataEntity prepare(NMSDifficultyDamageScaler difficultyDamageScaler, NMSGroupDataEntity groupDataEntity){
@@ -216,7 +216,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#r(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#r(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "r", types = {NMSEntity.class})
     public boolean r(NMSEntity entity){
@@ -224,7 +224,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#setRabbitType(int)
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#setRabbitType(int)
      */
     @ReflectiveMethod(name = "setRabbitType", types = {int.class})
     public void setRabbitType(int i){
@@ -233,7 +233,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityRabbit#z()
+     * @see net.minecraft.server.v1_9_R1.EntityRabbit#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){
@@ -253,7 +253,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.EntityRabbit$ControllerJumpRabbit#a(boolean)
+         * @see net.minecraft.server.v1_9_R1.EntityRabbit$ControllerJumpRabbit#a(boolean)
          */
         @ReflectiveMethod(name = "a", types = {boolean.class})
         public void a(boolean b){
@@ -262,7 +262,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.EntityRabbit$ControllerJumpRabbit#b()
+         * @see net.minecraft.server.v1_9_R1.EntityRabbit$ControllerJumpRabbit#b()
          */
         @ReflectiveMethod(name = "b", types = {})
         public void b(){
@@ -271,7 +271,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.EntityRabbit$ControllerJumpRabbit#c()
+         * @see net.minecraft.server.v1_9_R1.EntityRabbit$ControllerJumpRabbit#c()
          */
         @ReflectiveMethod(name = "c", types = {})
         public boolean c(){
@@ -280,7 +280,7 @@ public class NMSEntityRabbit extends NMSEntityAnimal {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.EntityRabbit$ControllerJumpRabbit#d()
+         * @see net.minecraft.server.v1_9_R1.EntityRabbit$ControllerJumpRabbit#d()
          */
         @ReflectiveMethod(name = "d", types = {})
         public boolean d(){

@@ -29,7 +29,7 @@ public class NMSStructureBoundingBox extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructureBoundingBox#a(int, int, int)
+     * @see net.minecraft.server.v1_9_R1.StructureBoundingBox#a(int, int, int)
      */
     @ReflectiveMethod(name = "a", types = {int.class, int.class, int.class})
     public void a(int i, int i1, int i2){
@@ -38,7 +38,7 @@ public class NMSStructureBoundingBox extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructureBoundingBox#b()
+     * @see net.minecraft.server.v1_9_R1.StructureBoundingBox#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSBaseBlockPosition b(){
@@ -47,7 +47,7 @@ public class NMSStructureBoundingBox extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructureBoundingBox#c()
+     * @see net.minecraft.server.v1_9_R1.StructureBoundingBox#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public int c(){
@@ -56,7 +56,7 @@ public class NMSStructureBoundingBox extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructureBoundingBox#d()
+     * @see net.minecraft.server.v1_9_R1.StructureBoundingBox#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public int d(){
@@ -65,7 +65,7 @@ public class NMSStructureBoundingBox extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructureBoundingBox#e()
+     * @see net.minecraft.server.v1_9_R1.StructureBoundingBox#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public int e(){
@@ -74,7 +74,7 @@ public class NMSStructureBoundingBox extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructureBoundingBox#f()
+     * @see net.minecraft.server.v1_9_R1.StructureBoundingBox#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public NMSBaseBlockPosition f(){
@@ -83,7 +83,7 @@ public class NMSStructureBoundingBox extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructureBoundingBox#g()
+     * @see net.minecraft.server.v1_9_R1.StructureBoundingBox#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public NMSNBTTagIntArray g(){
@@ -91,7 +91,7 @@ public class NMSStructureBoundingBox extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.StructureBoundingBox#toString()
+     * @see net.minecraft.server.v1_9_R1.StructureBoundingBox#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

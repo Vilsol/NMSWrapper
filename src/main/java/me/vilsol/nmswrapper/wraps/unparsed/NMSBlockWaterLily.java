@@ -13,7 +13,7 @@ public class NMSBlockWaterLily extends NMSBlockPlant {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockWaterLily#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockWaterLily#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public NMSAxisAlignedBB a(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -22,7 +22,7 @@ public class NMSBlockWaterLily extends NMSBlockPlant {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockWaterLily#c(net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockWaterLily#c(net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "c", types = {NMSBlock.class})
     public boolean c(NMSBlock block){
@@ -31,7 +31,7 @@ public class NMSBlockWaterLily extends NMSBlockPlant {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockWaterLily#f(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockWaterLily#f(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "f", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public boolean f(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -39,7 +39,7 @@ public class NMSBlockWaterLily extends NMSBlockPlant {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockWaterLily#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockWaterLily#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

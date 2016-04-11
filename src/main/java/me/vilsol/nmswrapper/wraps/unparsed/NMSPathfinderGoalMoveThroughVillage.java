@@ -17,7 +17,7 @@ public class NMSPathfinderGoalMoveThroughVillage extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalMoveThroughVillage#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalMoveThroughVillage#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalMoveThroughVillage extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalMoveThroughVillage#b()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalMoveThroughVillage#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -35,7 +35,7 @@ public class NMSPathfinderGoalMoveThroughVillage extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalMoveThroughVillage#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalMoveThroughVillage#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -44,7 +44,7 @@ public class NMSPathfinderGoalMoveThroughVillage extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalMoveThroughVillage#d()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalMoveThroughVillage#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){

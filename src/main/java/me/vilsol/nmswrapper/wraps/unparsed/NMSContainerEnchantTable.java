@@ -19,7 +19,7 @@ public class NMSContainerEnchantTable extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerEnchantTable#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ContainerEnchantTable#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -27,7 +27,7 @@ public class NMSContainerEnchantTable extends NMSContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ContainerEnchantTable#addSlotListener(net.minecraft.server.v1_8_R3.ICrafting)
+     * @see net.minecraft.server.v1_9_R1.ContainerEnchantTable#addSlotListener(net.minecraft.server.v1_9_R1.ICrafting)
      */
     @ReflectiveMethod(name = "addSlotListener", types = {NMSICrafting.class})
     public void addSlotListener(NMSICrafting iCrafting){
@@ -36,7 +36,7 @@ public class NMSContainerEnchantTable extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerEnchantTable#b(net.minecraft.server.v1_8_R3.EntityHuman, int)
+     * @see net.minecraft.server.v1_9_R1.ContainerEnchantTable#b(net.minecraft.server.v1_9_R1.EntityHuman, int)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityHuman.class, int.class})
     public NMSItemStack b(NMSEntityHuman entityHuman, int i){
@@ -44,7 +44,7 @@ public class NMSContainerEnchantTable extends NMSContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ContainerEnchantTable#getBukkitView()
+     * @see net.minecraft.server.v1_9_R1.ContainerEnchantTable#getBukkitView()
      */
     @ReflectiveMethod(name = "getBukkitView", types = {})
     public InventoryView getBukkitView(){

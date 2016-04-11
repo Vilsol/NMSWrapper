@@ -13,7 +13,7 @@ public class NMSFileIOThread extends NMSWrap implements Runnable {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.FileIOThread#a(net.minecraft.server.v1_8_R3.IAsyncChunkSaver)
+     * @see net.minecraft.server.v1_9_R1.FileIOThread#a(net.minecraft.server.v1_9_R1.IAsyncChunkSaver)
      */
     @ReflectiveMethod(name = "a", types = {NMSIAsyncChunkSaver.class})
     public void a(NMSIAsyncChunkSaver iAsyncChunkSaver){
@@ -21,7 +21,7 @@ public class NMSFileIOThread extends NMSWrap implements Runnable {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.FileIOThread#run()
+     * @see net.minecraft.server.v1_9_R1.FileIOThread#run()
      */
     @ReflectiveMethod(name = "run", types = {})
     public void run(){

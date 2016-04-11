@@ -13,7 +13,7 @@ public class NMSBlockStateInteger extends NMSBlockState {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStateInteger#a(java.lang.Comparable)
+     * @see net.minecraft.server.v1_9_R1.BlockStateInteger#a(java.lang.Comparable)
      */
     @ReflectiveMethod(name = "a", types = {Comparable.class})
     public String a(Comparable comparable){
@@ -21,7 +21,7 @@ public class NMSBlockStateInteger extends NMSBlockState {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStateInteger#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.BlockStateInteger#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -29,7 +29,7 @@ public class NMSBlockStateInteger extends NMSBlockState {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStateInteger#hashCode()
+     * @see net.minecraft.server.v1_9_R1.BlockStateInteger#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -38,7 +38,7 @@ public class NMSBlockStateInteger extends NMSBlockState {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStateInteger#of(java.lang.String, int, int)
+     * @see net.minecraft.server.v1_9_R1.BlockStateInteger#of(java.lang.String, int, int)
      */
     @ReflectiveMethod(name = "of", types = {String.class, int.class, int.class})
     public NMSBlockStateInteger of(String s, int i, int i1){

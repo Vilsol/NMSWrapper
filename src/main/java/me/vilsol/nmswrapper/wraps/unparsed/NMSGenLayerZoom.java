@@ -21,7 +21,7 @@ public class NMSGenLayerZoom extends NMSGenLayer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.GenLayerZoom#b(long, net.minecraft.server.v1_8_R3.GenLayer, int)
+     * @see net.minecraft.server.v1_9_R1.GenLayerZoom#b(long, net.minecraft.server.v1_9_R1.GenLayer, int)
      */
     @ReflectiveMethod(name = "b", types = {long.class, NMSGenLayer.class, int.class})
     public NMSGenLayer b(long l, NMSGenLayer genLayer, int i){

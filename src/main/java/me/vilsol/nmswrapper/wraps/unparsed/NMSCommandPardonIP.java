@@ -13,7 +13,7 @@ public class NMSCommandPardonIP extends NMSCommandAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandPardonIP#a()
+     * @see net.minecraft.server.v1_9_R1.CommandPardonIP#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public int a(){
@@ -21,7 +21,7 @@ public class NMSCommandPardonIP extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandPardonIP#canUse(net.minecraft.server.v1_8_R3.ICommandListener)
+     * @see net.minecraft.server.v1_9_R1.CommandPardonIP#canUse(net.minecraft.server.v1_9_R1.ICommandListener)
      */
     @ReflectiveMethod(name = "canUse", types = {NMSICommandListener.class})
     public boolean canUse(NMSICommandListener iCommandListener){
@@ -29,7 +29,7 @@ public class NMSCommandPardonIP extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandPardonIP#getCommand()
+     * @see net.minecraft.server.v1_9_R1.CommandPardonIP#getCommand()
      */
     @ReflectiveMethod(name = "getCommand", types = {})
     public String getCommand(){
@@ -37,7 +37,7 @@ public class NMSCommandPardonIP extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandPardonIP#getUsage(net.minecraft.server.v1_8_R3.ICommandListener)
+     * @see net.minecraft.server.v1_9_R1.CommandPardonIP#getUsage(net.minecraft.server.v1_9_R1.ICommandListener)
      */
     @ReflectiveMethod(name = "getUsage", types = {NMSICommandListener.class})
     public String getUsage(NMSICommandListener iCommandListener){

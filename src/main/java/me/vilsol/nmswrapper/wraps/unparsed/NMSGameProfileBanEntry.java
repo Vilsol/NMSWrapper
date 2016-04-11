@@ -29,7 +29,7 @@ public class NMSGameProfileBanEntry extends NMSExpirableListEntry {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.GameProfileBanEntry#a(com.google.gson.JsonObject)
+     * @see net.minecraft.server.v1_9_R1.GameProfileBanEntry#a(com.google.gson.JsonObject)
      */
     @ReflectiveMethod(name = "a", types = {JsonObject.class})
     public void a(JsonObject jsonObject){

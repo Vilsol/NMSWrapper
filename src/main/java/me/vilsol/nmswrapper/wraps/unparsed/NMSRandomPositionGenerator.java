@@ -13,7 +13,7 @@ public class NMSRandomPositionGenerator extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RandomPositionGenerator#a(net.minecraft.server.v1_8_R3.EntityCreature, int, int, net.minecraft.server.v1_8_R3.Vec3D)
+     * @see net.minecraft.server.v1_9_R1.RandomPositionGenerator#a(net.minecraft.server.v1_9_R1.EntityCreature, int, int, net.minecraft.server.v1_9_R1.Vec3D)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityCreature.class, int.class, int.class, NMSVec3D.class})
     public NMSVec3D a(NMSEntityCreature entityCreature, int i, int i1, NMSVec3D vec3D){
@@ -22,7 +22,7 @@ public class NMSRandomPositionGenerator extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RandomPositionGenerator#b(net.minecraft.server.v1_8_R3.EntityCreature, int, int, net.minecraft.server.v1_8_R3.Vec3D)
+     * @see net.minecraft.server.v1_9_R1.RandomPositionGenerator#b(net.minecraft.server.v1_9_R1.EntityCreature, int, int, net.minecraft.server.v1_9_R1.Vec3D)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityCreature.class, int.class, int.class, NMSVec3D.class})
     public NMSVec3D b(NMSEntityCreature entityCreature, int i, int i1, NMSVec3D vec3D){

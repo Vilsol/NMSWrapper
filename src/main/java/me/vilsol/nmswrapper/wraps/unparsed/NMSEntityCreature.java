@@ -21,7 +21,7 @@ public class NMSEntityCreature extends NMSEntityInsentient {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreature#a(net.minecraft.server.v1_8_R3.BlockPosition, int)
+     * @see net.minecraft.server.v1_9_R1.EntityCreature#a(net.minecraft.server.v1_9_R1.BlockPosition, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSBlockPosition.class, int.class})
     public void a(NMSBlockPosition blockPosition, int i){
@@ -30,7 +30,7 @@ public class NMSEntityCreature extends NMSEntityInsentient {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreature#bR()
+     * @see net.minecraft.server.v1_9_R1.EntityCreature#bR()
      */
     @ReflectiveMethod(name = "bR", types = {})
     public boolean bR(){
@@ -39,7 +39,7 @@ public class NMSEntityCreature extends NMSEntityInsentient {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreature#ca()
+     * @see net.minecraft.server.v1_9_R1.EntityCreature#ca()
      */
     @ReflectiveMethod(name = "ca", types = {})
     public void ca(){
@@ -48,7 +48,7 @@ public class NMSEntityCreature extends NMSEntityInsentient {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreature#cf()
+     * @see net.minecraft.server.v1_9_R1.EntityCreature#cf()
      */
     @ReflectiveMethod(name = "cf", types = {})
     public boolean cf(){
@@ -57,7 +57,7 @@ public class NMSEntityCreature extends NMSEntityInsentient {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreature#cg()
+     * @see net.minecraft.server.v1_9_R1.EntityCreature#cg()
      */
     @ReflectiveMethod(name = "cg", types = {})
     public boolean cg(){
@@ -66,7 +66,7 @@ public class NMSEntityCreature extends NMSEntityInsentient {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreature#ch()
+     * @see net.minecraft.server.v1_9_R1.EntityCreature#ch()
      */
     @ReflectiveMethod(name = "ch", types = {})
     public NMSBlockPosition ch(){
@@ -75,7 +75,7 @@ public class NMSEntityCreature extends NMSEntityInsentient {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreature#ci()
+     * @see net.minecraft.server.v1_9_R1.EntityCreature#ci()
      */
     @ReflectiveMethod(name = "ci", types = {})
     public float ci(){
@@ -84,7 +84,7 @@ public class NMSEntityCreature extends NMSEntityInsentient {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreature#cj()
+     * @see net.minecraft.server.v1_9_R1.EntityCreature#cj()
      */
     @ReflectiveMethod(name = "cj", types = {})
     public void cj(){
@@ -93,7 +93,7 @@ public class NMSEntityCreature extends NMSEntityInsentient {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreature#ck()
+     * @see net.minecraft.server.v1_9_R1.EntityCreature#ck()
      */
     @ReflectiveMethod(name = "ck", types = {})
     public boolean ck(){
@@ -102,7 +102,7 @@ public class NMSEntityCreature extends NMSEntityInsentient {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreature#e(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.EntityCreature#e(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "e", types = {NMSBlockPosition.class})
     public boolean e(NMSBlockPosition blockPosition){
@@ -111,7 +111,7 @@ public class NMSEntityCreature extends NMSEntityInsentient {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreature#o(float)
+     * @see net.minecraft.server.v1_9_R1.EntityCreature#o(float)
      */
     @ReflectiveMethod(name = "o", types = {float.class})
     public void o(float f){

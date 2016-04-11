@@ -16,7 +16,7 @@ public class NMSBlockDoor extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class})
     public void a(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman){
@@ -25,7 +25,7 @@ public class NMSBlockDoor extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#b(int)
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public int b(int i){
@@ -34,7 +34,7 @@ public class NMSBlockDoor extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#c()
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -42,7 +42,7 @@ public class NMSBlockDoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#canPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#canPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "canPlace", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean canPlace(NMSWorld world, NMSBlockPosition blockPosition){
@@ -51,7 +51,7 @@ public class NMSBlockDoor extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#d()
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -59,7 +59,7 @@ public class NMSBlockDoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -68,7 +68,7 @@ public class NMSBlockDoor extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#e(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#e(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "e", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public int e(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -77,7 +77,7 @@ public class NMSBlockDoor extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#f(int)
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#f(int)
      */
     @ReflectiveMethod(name = "f", types = {int.class})
     public NMSEnumDirection f(int i){
@@ -85,7 +85,7 @@ public class NMSBlockDoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -94,7 +94,7 @@ public class NMSBlockDoor extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#g(int)
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#g(int)
      */
     @ReflectiveMethod(name = "g", types = {int.class})
     public boolean g(int i){
@@ -102,7 +102,7 @@ public class NMSBlockDoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -110,7 +110,7 @@ public class NMSBlockDoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#getName()
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -118,7 +118,7 @@ public class NMSBlockDoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -127,7 +127,7 @@ public class NMSBlockDoor extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#h(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#h(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "h", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public NMSEnumDirection h(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -136,7 +136,7 @@ public class NMSBlockDoor extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#i(int)
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#i(int)
      */
     @ReflectiveMethod(name = "i", types = {int.class})
     public boolean i(int i){
@@ -144,7 +144,7 @@ public class NMSBlockDoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -153,7 +153,7 @@ public class NMSBlockDoor extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#j(int)
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#j(int)
      */
     @ReflectiveMethod(name = "j", types = {int.class})
     public boolean j(int i){
@@ -162,7 +162,7 @@ public class NMSBlockDoor extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#k()
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#k()
      */
     @ReflectiveMethod(name = "k", types = {})
     public int k(){
@@ -170,7 +170,7 @@ public class NMSBlockDoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#setDoor(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, boolean)
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#setDoor(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, boolean)
      */
     @ReflectiveMethod(name = "setDoor", types = {NMSWorld.class, NMSBlockPosition.class, boolean.class})
     public void setDoor(NMSWorld world, NMSBlockPosition blockPosition, boolean b){
@@ -178,7 +178,7 @@ public class NMSBlockDoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -186,7 +186,7 @@ public class NMSBlockDoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -194,7 +194,7 @@ public class NMSBlockDoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockDoor#updateState(net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockDoor#updateState(net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateState", types = {NMSIBlockData.class, NMSIBlockAccess.class, NMSBlockPosition.class})
     public NMSIBlockData updateState(NMSIBlockData iBlockData, NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

@@ -17,7 +17,7 @@ public class NMSPathfinderGoalBreakDoor extends NMSPathfinderGoalDoorInteract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalBreakDoor#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalBreakDoor#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalBreakDoor extends NMSPathfinderGoalDoorInteract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalBreakDoor#b()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalBreakDoor#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -35,7 +35,7 @@ public class NMSPathfinderGoalBreakDoor extends NMSPathfinderGoalDoorInteract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalBreakDoor#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalBreakDoor#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -44,7 +44,7 @@ public class NMSPathfinderGoalBreakDoor extends NMSPathfinderGoalDoorInteract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalBreakDoor#d()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalBreakDoor#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -53,7 +53,7 @@ public class NMSPathfinderGoalBreakDoor extends NMSPathfinderGoalDoorInteract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalBreakDoor#e()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalBreakDoor#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){

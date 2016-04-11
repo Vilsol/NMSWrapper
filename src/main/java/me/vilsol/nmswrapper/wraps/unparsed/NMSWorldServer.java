@@ -27,7 +27,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldServer#a(net.minecraft.server.v1_8_R3.EnumParticle, boolean, double, double, double, int, double, double, double, double, int...)
+     * @see net.minecraft.server.v1_9_R1.WorldServer#a(net.minecraft.server.v1_9_R1.EnumParticle, boolean, double, double, double, int, double, double, double, double, int...)
      */
     @ReflectiveMethod(name = "a", types = {NMSEnumParticle.class, boolean.class, double.class, double.class, double.class, int.class, double.class, double.class, double.class, double.class, int[].class})
     public void a(NMSEnumParticle enumParticle, boolean b, double d, double d1, double d2, int i, double d3, double d4, double d5, double d6, int[] array){
@@ -36,7 +36,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldServer#b(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.WorldServer#b(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntity.class})
     public void b(NMSEntity entity){
@@ -44,7 +44,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#broadcastEntityEffect(net.minecraft.server.v1_8_R3.Entity, byte)
+     * @see net.minecraft.server.v1_9_R1.WorldServer#broadcastEntityEffect(net.minecraft.server.v1_9_R1.Entity, byte)
      */
     @ReflectiveMethod(name = "broadcastEntityEffect", types = {NMSEntity.class, byte.class})
     public void broadcastEntityEffect(NMSEntity entity, byte b){
@@ -52,7 +52,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#createExplosion(net.minecraft.server.v1_8_R3.Entity, double, double, double, float, boolean, boolean)
+     * @see net.minecraft.server.v1_9_R1.WorldServer#createExplosion(net.minecraft.server.v1_9_R1.Entity, double, double, double, float, boolean, boolean)
      */
     @ReflectiveMethod(name = "createExplosion", types = {NMSEntity.class, double.class, double.class, double.class, float.class, boolean.class, boolean.class})
     public NMSExplosion createExplosion(NMSEntity entity, double d, double d1, double d2, float f, boolean b, boolean b1){
@@ -60,7 +60,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#doTick()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#doTick()
      */
     @ReflectiveMethod(name = "doTick", types = {})
     public void doTick(){
@@ -69,7 +69,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldServer#e()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){
@@ -77,7 +77,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#everyoneDeeplySleeping()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#everyoneDeeplySleeping()
      */
     @ReflectiveMethod(name = "everyoneDeeplySleeping", types = {})
     public boolean everyoneDeeplySleeping(){
@@ -85,7 +85,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#everyoneSleeping()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#everyoneSleeping()
      */
     @ReflectiveMethod(name = "everyoneSleeping", types = {})
     public void everyoneSleeping(){
@@ -93,7 +93,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#flushSave()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#flushSave()
      */
     @ReflectiveMethod(name = "flushSave", types = {})
     public void flushSave(){
@@ -101,7 +101,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#getDimensionSpawn()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#getDimensionSpawn()
      */
     @ReflectiveMethod(name = "getDimensionSpawn", types = {})
     public NMSBlockPosition getDimensionSpawn(){
@@ -109,7 +109,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#getEntity(java.util.UUID)
+     * @see net.minecraft.server.v1_9_R1.WorldServer#getEntity(java.util.UUID)
      */
     @ReflectiveMethod(name = "getEntity", types = {UUID.class})
     public NMSEntity getEntity(UUID uUID){
@@ -117,7 +117,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#getMinecraftServer()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#getMinecraftServer()
      */
     @ReflectiveMethod(name = "getMinecraftServer", types = {})
     public NMSMinecraftServer getMinecraftServer(){
@@ -125,7 +125,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#getPlayerChunkMap()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#getPlayerChunkMap()
      */
     @ReflectiveMethod(name = "getPlayerChunkMap", types = {})
     public NMSPlayerChunkMap getPlayerChunkMap(){
@@ -133,7 +133,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#getTileEntity(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.WorldServer#getTileEntity(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getTileEntity", types = {NMSBlockPosition.class})
     public NMSTileEntity getTileEntity(NMSBlockPosition blockPosition){
@@ -141,7 +141,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#getTracker()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#getTracker()
      */
     @ReflectiveMethod(name = "getTracker", types = {})
     public NMSEntityTracker getTracker(){
@@ -149,7 +149,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#getTravelAgent()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#getTravelAgent()
      */
     @ReflectiveMethod(name = "getTravelAgent", types = {})
     public NMSPortalTravelAgent getTravelAgent(){
@@ -158,7 +158,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldServer#h()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -166,7 +166,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#isMainThread()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#isMainThread()
      */
     @ReflectiveMethod(name = "isMainThread", types = {})
     public boolean isMainThread(){
@@ -175,7 +175,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldServer#j()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public void j(){
@@ -184,7 +184,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldServer#k()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#k()
      */
     @ReflectiveMethod(name = "k", types = {})
     public NMSIChunkProvider k(){
@@ -193,7 +193,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldServer#l()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public void l(){
@@ -202,7 +202,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldServer#p()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#p()
      */
     @ReflectiveMethod(name = "p", types = {})
     public void p(){
@@ -210,7 +210,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#playBlockAction(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.Block, int, int)
+     * @see net.minecraft.server.v1_9_R1.WorldServer#playBlockAction(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.Block, int, int)
      */
     @ReflectiveMethod(name = "playBlockAction", types = {NMSBlockPosition.class, NMSBlock.class, int.class, int.class})
     public void playBlockAction(NMSBlockPosition blockPosition, NMSBlock block, int i, int i1){
@@ -219,7 +219,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldServer#q()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#q()
      */
     @ReflectiveMethod(name = "q", types = {})
     public int q(){
@@ -227,7 +227,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#saveLevel()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#saveLevel()
      */
     @ReflectiveMethod(name = "saveLevel", types = {})
     public void saveLevel(){
@@ -235,7 +235,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#sendParticles(net.minecraft.server.v1_8_R3.EntityPlayer, net.minecraft.server.v1_8_R3.EnumParticle, boolean, double, double, double, int, double, double, double, double, int...)
+     * @see net.minecraft.server.v1_9_R1.WorldServer#sendParticles(net.minecraft.server.v1_9_R1.EntityPlayer, net.minecraft.server.v1_9_R1.EnumParticle, boolean, double, double, double, int, double, double, double, double, int...)
      */
     @ReflectiveMethod(name = "sendParticles", types = {NMSEntityPlayer.class, NMSEnumParticle.class, boolean.class, double.class, double.class, double.class, int.class, double.class, double.class, double.class, double.class, int[].class})
     public void sendParticles(NMSEntityPlayer entityPlayer, NMSEnumParticle enumParticle, boolean b, double d, double d1, double d2, int i, double d3, double d4, double d5, double d6, int[] array){
@@ -243,7 +243,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#strikeLightning(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.WorldServer#strikeLightning(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "strikeLightning", types = {NMSEntity.class})
     public boolean strikeLightning(NMSEntity entity){
@@ -251,7 +251,7 @@ public class NMSWorldServer extends NMSWorld implements NMSIAsyncTaskHandler {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldServer#tickEntities()
+     * @see net.minecraft.server.v1_9_R1.WorldServer#tickEntities()
      */
     @ReflectiveMethod(name = "tickEntities", types = {})
     public void tickEntities(){

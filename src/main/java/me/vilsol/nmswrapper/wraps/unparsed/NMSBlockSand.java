@@ -12,7 +12,7 @@ public class NMSBlockSand extends NMSBlockFalling {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSand#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockSand#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -21,7 +21,7 @@ public class NMSBlockSand extends NMSBlockFalling {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSand#g(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSand#g(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "g", types = {NMSIBlockData.class})
     public NMSMaterialMapColor g(NMSIBlockData iBlockData){
@@ -29,7 +29,7 @@ public class NMSBlockSand extends NMSBlockFalling {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSand#getDropData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSand#getDropData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSIBlockData.class})
     public int getDropData(NMSIBlockData iBlockData){
@@ -37,7 +37,7 @@ public class NMSBlockSand extends NMSBlockFalling {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSand#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockSand#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -45,7 +45,7 @@ public class NMSBlockSand extends NMSBlockFalling {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSand#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSand#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

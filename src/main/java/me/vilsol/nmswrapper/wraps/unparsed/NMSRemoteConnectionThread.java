@@ -20,7 +20,7 @@ public class NMSRemoteConnectionThread extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RemoteConnectionThread#a(boolean)
+     * @see net.minecraft.server.v1_9_R1.RemoteConnectionThread#a(boolean)
      */
     @ReflectiveMethod(name = "a", types = {boolean.class})
     public void a(boolean b){
@@ -29,7 +29,7 @@ public class NMSRemoteConnectionThread extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RemoteConnectionThread#b(java.net.ServerSocket)
+     * @see net.minecraft.server.v1_9_R1.RemoteConnectionThread#b(java.net.ServerSocket)
      */
     @ReflectiveMethod(name = "b", types = {ServerSocket.class})
     public boolean b(ServerSocket serverSocket){
@@ -38,7 +38,7 @@ public class NMSRemoteConnectionThread extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RemoteConnectionThread#c(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.RemoteConnectionThread#c(java.lang.String)
      */
     @ReflectiveMethod(name = "c", types = {String.class})
     public void c(String s){
@@ -47,7 +47,7 @@ public class NMSRemoteConnectionThread extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RemoteConnectionThread#d()
+     * @see net.minecraft.server.v1_9_R1.RemoteConnectionThread#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public int d(){
@@ -56,7 +56,7 @@ public class NMSRemoteConnectionThread extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RemoteConnectionThread#e()
+     * @see net.minecraft.server.v1_9_R1.RemoteConnectionThread#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){

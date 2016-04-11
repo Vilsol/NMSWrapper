@@ -15,7 +15,7 @@ public class NMSBlockEnderPortalFrame extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockEnderPortalFrame#c()
+     * @see net.minecraft.server.v1_9_R1.BlockEnderPortalFrame#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -23,7 +23,7 @@ public class NMSBlockEnderPortalFrame extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockEnderPortalFrame#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockEnderPortalFrame#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -31,7 +31,7 @@ public class NMSBlockEnderPortalFrame extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockEnderPortalFrame#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockEnderPortalFrame#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -39,7 +39,7 @@ public class NMSBlockEnderPortalFrame extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockEnderPortalFrame#getPlacedState(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float, int, net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.BlockEnderPortalFrame#getPlacedState(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float, int, net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getPlacedState", types = {NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class, float.class, float.class, float.class, int.class, NMSEntityLiving.class})
     public NMSIBlockData getPlacedState(NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, float f, float f1, float f2, int i, NMSEntityLiving entityLiving){
@@ -47,7 +47,7 @@ public class NMSBlockEnderPortalFrame extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockEnderPortalFrame#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockEnderPortalFrame#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -55,7 +55,7 @@ public class NMSBlockEnderPortalFrame extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockEnderPortalFrame#isComplexRedstone()
+     * @see net.minecraft.server.v1_9_R1.BlockEnderPortalFrame#isComplexRedstone()
      */
     @ReflectiveMethod(name = "isComplexRedstone", types = {})
     public boolean isComplexRedstone(){
@@ -64,7 +64,7 @@ public class NMSBlockEnderPortalFrame extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockEnderPortalFrame#j()
+     * @see net.minecraft.server.v1_9_R1.BlockEnderPortalFrame#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public void j(){
@@ -73,7 +73,7 @@ public class NMSBlockEnderPortalFrame extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockEnderPortalFrame#l(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockEnderPortalFrame#l(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "l", types = {NMSWorld.class, NMSBlockPosition.class})
     public int l(NMSWorld world, NMSBlockPosition blockPosition){
@@ -81,7 +81,7 @@ public class NMSBlockEnderPortalFrame extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockEnderPortalFrame#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockEnderPortalFrame#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

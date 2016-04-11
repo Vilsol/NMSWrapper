@@ -17,7 +17,7 @@ public class NMSBlockPortal extends NMSBlockHalfTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPortal#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.BlockPortal#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntity.class})
     public void a(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntity entity){
@@ -26,7 +26,7 @@ public class NMSBlockPortal extends NMSBlockHalfTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPortal#b(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockPortal#b(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, java.util.Random)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, Random.class})
     public void b(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, Random random){
@@ -35,7 +35,7 @@ public class NMSBlockPortal extends NMSBlockHalfTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPortal#d()
+     * @see net.minecraft.server.v1_9_R1.BlockPortal#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -43,7 +43,7 @@ public class NMSBlockPortal extends NMSBlockHalfTransparent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPortal#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockPortal#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -52,7 +52,7 @@ public class NMSBlockPortal extends NMSBlockHalfTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPortal#e(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockPortal#e(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "e", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean e(NMSWorld world, NMSBlockPosition blockPosition){
@@ -61,7 +61,7 @@ public class NMSBlockPortal extends NMSBlockHalfTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPortal#f(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockPortal#f(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "f", types = {NMSWorld.class, NMSBlockPosition.class})
     public NMSShapeDetector.NMSShapeDetectorCollection f(NMSWorld world, NMSBlockPosition blockPosition){
@@ -69,7 +69,7 @@ public class NMSBlockPortal extends NMSBlockHalfTransparent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPortal#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockPortal#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -77,7 +77,7 @@ public class NMSBlockPortal extends NMSBlockHalfTransparent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPortal#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockPortal#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -85,7 +85,7 @@ public class NMSBlockPortal extends NMSBlockHalfTransparent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPortal#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockPortal#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -93,7 +93,7 @@ public class NMSBlockPortal extends NMSBlockHalfTransparent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPortal#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockPortal#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -113,7 +113,7 @@ public class NMSBlockPortal extends NMSBlockHalfTransparent {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.BlockPortal$Shape#a(net.minecraft.server.v1_8_R3.Block)
+         * @see net.minecraft.server.v1_9_R1.BlockPortal$Shape#a(net.minecraft.server.v1_9_R1.Block)
          */
         @ReflectiveMethod(name = "a", types = {NMSBlock.class})
         public boolean a(NMSBlock block){
@@ -122,7 +122,7 @@ public class NMSBlockPortal extends NMSBlockHalfTransparent {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.BlockPortal$Shape#b()
+         * @see net.minecraft.server.v1_9_R1.BlockPortal$Shape#b()
          */
         @ReflectiveMethod(name = "b", types = {})
         public int b(){
@@ -131,7 +131,7 @@ public class NMSBlockPortal extends NMSBlockHalfTransparent {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.BlockPortal$Shape#c()
+         * @see net.minecraft.server.v1_9_R1.BlockPortal$Shape#c()
          */
         @ReflectiveMethod(name = "c", types = {})
         public int c(){
@@ -140,7 +140,7 @@ public class NMSBlockPortal extends NMSBlockHalfTransparent {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.BlockPortal$Shape#d()
+         * @see net.minecraft.server.v1_9_R1.BlockPortal$Shape#d()
          */
         @ReflectiveMethod(name = "d", types = {})
         public boolean d(){
@@ -149,7 +149,7 @@ public class NMSBlockPortal extends NMSBlockHalfTransparent {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.BlockPortal$Shape#e()
+         * @see net.minecraft.server.v1_9_R1.BlockPortal$Shape#e()
          */
         @ReflectiveMethod(name = "e", types = {})
         public boolean e(){

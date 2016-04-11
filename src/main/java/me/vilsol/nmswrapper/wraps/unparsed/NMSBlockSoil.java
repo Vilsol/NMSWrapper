@@ -15,7 +15,7 @@ public class NMSBlockSoil extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSoil#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.Entity, float)
+     * @see net.minecraft.server.v1_9_R1.BlockSoil#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.Entity, float)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class, NMSEntity.class, float.class})
     public void a(NMSWorld world, NMSBlockPosition blockPosition, NMSEntity entity, float f){
@@ -24,7 +24,7 @@ public class NMSBlockSoil extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSoil#b(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockSoil#b(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, java.util.Random)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, Random.class})
     public void b(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, Random random){
@@ -33,7 +33,7 @@ public class NMSBlockSoil extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSoil#c()
+     * @see net.minecraft.server.v1_9_R1.BlockSoil#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -42,7 +42,7 @@ public class NMSBlockSoil extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSoil#d()
+     * @see net.minecraft.server.v1_9_R1.BlockSoil#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -50,7 +50,7 @@ public class NMSBlockSoil extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSoil#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockSoil#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -58,7 +58,7 @@ public class NMSBlockSoil extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSoil#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockSoil#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -66,7 +66,7 @@ public class NMSBlockSoil extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSoil#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockSoil#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -74,7 +74,7 @@ public class NMSBlockSoil extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSoil#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockSoil#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -82,7 +82,7 @@ public class NMSBlockSoil extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSoil#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSoil#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

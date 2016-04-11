@@ -13,7 +13,7 @@ public class NMSBlockLeaves2 extends NMSBlockLeaves {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLeaves2#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.TileEntity)
+     * @see net.minecraft.server.v1_9_R1.BlockLeaves2#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.TileEntity)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSEntityHuman.class, NMSBlockPosition.class, NMSIBlockData.class, NMSTileEntity.class})
     public void a(NMSWorld world, NMSEntityHuman entityHuman, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSTileEntity tileEntity){
@@ -22,7 +22,7 @@ public class NMSBlockLeaves2 extends NMSBlockLeaves {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLeaves2#b(int)
+     * @see net.minecraft.server.v1_9_R1.BlockLeaves2#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public NMSEnumLogVariant b(int i){
@@ -30,7 +30,7 @@ public class NMSBlockLeaves2 extends NMSBlockLeaves {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLeaves2#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockLeaves2#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -38,7 +38,7 @@ public class NMSBlockLeaves2 extends NMSBlockLeaves {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLeaves2#getDropData(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockLeaves2#getDropData(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSWorld.class, NMSBlockPosition.class})
     public int getDropData(NMSWorld world, NMSBlockPosition blockPosition){
@@ -46,7 +46,7 @@ public class NMSBlockLeaves2 extends NMSBlockLeaves {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLeaves2#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockLeaves2#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -55,7 +55,7 @@ public class NMSBlockLeaves2 extends NMSBlockLeaves {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLeaves2#i(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockLeaves2#i(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "i", types = {NMSIBlockData.class})
     public NMSItemStack i(NMSIBlockData iBlockData){
@@ -63,7 +63,7 @@ public class NMSBlockLeaves2 extends NMSBlockLeaves {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLeaves2#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockLeaves2#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

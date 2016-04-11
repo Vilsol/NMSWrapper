@@ -21,7 +21,7 @@ public class NMSEntityBoat extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBoat#S()
+     * @see net.minecraft.server.v1_9_R1.EntityBoat#S()
      */
     @ReflectiveMethod(name = "S", types = {})
     public NMSAxisAlignedBB S(){
@@ -30,7 +30,7 @@ public class NMSEntityBoat extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBoat#a(int)
+     * @see net.minecraft.server.v1_9_R1.EntityBoat#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public void a(int i){
@@ -39,7 +39,7 @@ public class NMSEntityBoat extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBoat#ad()
+     * @see net.minecraft.server.v1_9_R1.EntityBoat#ad()
      */
     @ReflectiveMethod(name = "ad", types = {})
     public boolean ad(){
@@ -48,7 +48,7 @@ public class NMSEntityBoat extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBoat#ae()
+     * @see net.minecraft.server.v1_9_R1.EntityBoat#ae()
      */
     @ReflectiveMethod(name = "ae", types = {})
     public boolean ae(){
@@ -57,7 +57,7 @@ public class NMSEntityBoat extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBoat#al()
+     * @see net.minecraft.server.v1_9_R1.EntityBoat#al()
      */
     @ReflectiveMethod(name = "al", types = {})
     public void al(){
@@ -66,7 +66,7 @@ public class NMSEntityBoat extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBoat#an()
+     * @see net.minecraft.server.v1_9_R1.EntityBoat#an()
      */
     @ReflectiveMethod(name = "an", types = {})
     public double an(){
@@ -75,7 +75,7 @@ public class NMSEntityBoat extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBoat#b(int)
+     * @see net.minecraft.server.v1_9_R1.EntityBoat#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public void b(int i){
@@ -83,7 +83,7 @@ public class NMSEntityBoat extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityBoat#collide(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityBoat#collide(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "collide", types = {NMSEntity.class})
     public void collide(NMSEntity entity){
@@ -91,7 +91,7 @@ public class NMSEntityBoat extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityBoat#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityBoat#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -100,7 +100,7 @@ public class NMSEntityBoat extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBoat#e(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityBoat#e(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "e", types = {NMSEntityHuman.class})
     public boolean e(NMSEntityHuman entityHuman){
@@ -109,7 +109,7 @@ public class NMSEntityBoat extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBoat#h()
+     * @see net.minecraft.server.v1_9_R1.EntityBoat#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -118,7 +118,7 @@ public class NMSEntityBoat extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBoat#j()
+     * @see net.minecraft.server.v1_9_R1.EntityBoat#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public float j(){
@@ -127,7 +127,7 @@ public class NMSEntityBoat extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBoat#l()
+     * @see net.minecraft.server.v1_9_R1.EntityBoat#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public int l(){
@@ -136,7 +136,7 @@ public class NMSEntityBoat extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBoat#m()
+     * @see net.minecraft.server.v1_9_R1.EntityBoat#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public int m(){
@@ -145,7 +145,7 @@ public class NMSEntityBoat extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBoat#s_()
+     * @see net.minecraft.server.v1_9_R1.EntityBoat#s_()
      */
     @ReflectiveMethod(name = "s_", types = {})
     public boolean s_(){
@@ -153,7 +153,7 @@ public class NMSEntityBoat extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityBoat#setDamage(float)
+     * @see net.minecraft.server.v1_9_R1.EntityBoat#setDamage(float)
      */
     @ReflectiveMethod(name = "setDamage", types = {float.class})
     public void setDamage(float f){
@@ -162,7 +162,7 @@ public class NMSEntityBoat extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityBoat#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityBoat#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){

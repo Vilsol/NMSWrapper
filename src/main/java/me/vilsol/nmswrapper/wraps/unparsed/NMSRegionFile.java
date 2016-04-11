@@ -22,7 +22,7 @@ public class NMSRegionFile extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegionFile#a(int, int)
+     * @see net.minecraft.server.v1_9_R1.RegionFile#a(int, int)
      */
     @ReflectiveMethod(name = "a", types = {int.class, int.class})
     public DataInputStream a(int i, int i1){
@@ -31,7 +31,7 @@ public class NMSRegionFile extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegionFile#b(int, int)
+     * @see net.minecraft.server.v1_9_R1.RegionFile#b(int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public DataOutputStream b(int i, int i1){
@@ -40,7 +40,7 @@ public class NMSRegionFile extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegionFile#c(int, int)
+     * @see net.minecraft.server.v1_9_R1.RegionFile#c(int, int)
      */
     @ReflectiveMethod(name = "c", types = {int.class, int.class})
     public boolean c(int i, int i1){
@@ -48,7 +48,7 @@ public class NMSRegionFile extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RegionFile#chunkExists(int, int)
+     * @see net.minecraft.server.v1_9_R1.RegionFile#chunkExists(int, int)
      */
     @ReflectiveMethod(name = "chunkExists", types = {int.class, int.class})
     public boolean chunkExists(int i, int i1){

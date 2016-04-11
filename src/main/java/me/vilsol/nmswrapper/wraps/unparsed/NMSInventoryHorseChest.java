@@ -21,7 +21,7 @@ public class NMSInventoryHorseChest extends NMSInventorySubcontainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryHorseChest#getMaxStackSize()
+     * @see net.minecraft.server.v1_9_R1.InventoryHorseChest#getMaxStackSize()
      */
     @ReflectiveMethod(name = "getMaxStackSize", types = {})
     public int getMaxStackSize(){
@@ -29,7 +29,7 @@ public class NMSInventoryHorseChest extends NMSInventorySubcontainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryHorseChest#getOwner()
+     * @see net.minecraft.server.v1_9_R1.InventoryHorseChest#getOwner()
      */
     @ReflectiveMethod(name = "getOwner", types = {})
     public InventoryHolder getOwner(){
@@ -37,7 +37,7 @@ public class NMSInventoryHorseChest extends NMSInventorySubcontainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryHorseChest#onClose(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.InventoryHorseChest#onClose(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onClose", types = {NMSCraftHumanEntity.class})
     public void onClose(NMSCraftHumanEntity craftHumanEntity){
@@ -45,7 +45,7 @@ public class NMSInventoryHorseChest extends NMSInventorySubcontainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryHorseChest#onOpen(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.InventoryHorseChest#onOpen(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onOpen", types = {NMSCraftHumanEntity.class})
     public void onOpen(NMSCraftHumanEntity craftHumanEntity){
@@ -53,7 +53,7 @@ public class NMSInventoryHorseChest extends NMSInventorySubcontainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryHorseChest#setMaxStackSize(int)
+     * @see net.minecraft.server.v1_9_R1.InventoryHorseChest#setMaxStackSize(int)
      */
     @ReflectiveMethod(name = "setMaxStackSize", types = {int.class})
     public void setMaxStackSize(int i){

@@ -13,7 +13,7 @@ public class NMSBlockDoubleStep extends NMSBlockDoubleStepAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDoubleStep#l()
+     * @see net.minecraft.server.v1_9_R1.BlockDoubleStep#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public boolean l(){

@@ -17,7 +17,7 @@ public class NMSSlotFurnaceResult extends NMSSlot {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SlotFurnaceResult#a(net.minecraft.server.v1_8_R3.ItemStack, int)
+     * @see net.minecraft.server.v1_9_R1.SlotFurnaceResult#a(net.minecraft.server.v1_9_R1.ItemStack, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSItemStack.class, int.class})
     public void a(NMSItemStack itemStack, int i){
@@ -26,7 +26,7 @@ public class NMSSlotFurnaceResult extends NMSSlot {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SlotFurnaceResult#c(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.SlotFurnaceResult#c(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "c", types = {NMSItemStack.class})
     public void c(NMSItemStack itemStack){
@@ -34,7 +34,7 @@ public class NMSSlotFurnaceResult extends NMSSlot {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SlotFurnaceResult#isAllowed(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.SlotFurnaceResult#isAllowed(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "isAllowed", types = {NMSItemStack.class})
     public boolean isAllowed(NMSItemStack itemStack){

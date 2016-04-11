@@ -17,7 +17,7 @@ public class NMSItemMultiTexture extends NMSItemBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemMultiTexture#e_(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemMultiTexture#e_(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "e_", types = {NMSItemStack.class})
     public String e_(NMSItemStack itemStack){
@@ -25,7 +25,7 @@ public class NMSItemMultiTexture extends NMSItemBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemMultiTexture#filterData(int)
+     * @see net.minecraft.server.v1_9_R1.ItemMultiTexture#filterData(int)
      */
     @ReflectiveMethod(name = "filterData", types = {int.class})
     public int filterData(int i){

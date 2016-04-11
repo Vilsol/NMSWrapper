@@ -13,7 +13,7 @@ public class NMSItemNameTag extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemNameTag#a(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.ItemNameTag#a(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "a", types = {NMSItemStack.class, NMSEntityHuman.class, NMSEntityLiving.class})
     public boolean a(NMSItemStack itemStack, NMSEntityHuman entityHuman, NMSEntityLiving entityLiving){

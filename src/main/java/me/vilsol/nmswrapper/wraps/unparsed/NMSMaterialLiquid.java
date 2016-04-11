@@ -16,7 +16,7 @@ public class NMSMaterialLiquid extends NMSMaterial {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MaterialLiquid#isBuildable()
+     * @see net.minecraft.server.v1_9_R1.MaterialLiquid#isBuildable()
      */
     @ReflectiveMethod(name = "isBuildable", types = {})
     public boolean isBuildable(){
@@ -24,7 +24,7 @@ public class NMSMaterialLiquid extends NMSMaterial {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MaterialLiquid#isLiquid()
+     * @see net.minecraft.server.v1_9_R1.MaterialLiquid#isLiquid()
      */
     @ReflectiveMethod(name = "isLiquid", types = {})
     public boolean isLiquid(){
@@ -32,7 +32,7 @@ public class NMSMaterialLiquid extends NMSMaterial {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MaterialLiquid#isSolid()
+     * @see net.minecraft.server.v1_9_R1.MaterialLiquid#isSolid()
      */
     @ReflectiveMethod(name = "isSolid", types = {})
     public boolean isSolid(){

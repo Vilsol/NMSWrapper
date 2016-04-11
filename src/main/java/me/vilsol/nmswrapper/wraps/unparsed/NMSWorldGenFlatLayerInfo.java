@@ -25,7 +25,7 @@ public class NMSWorldGenFlatLayerInfo extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenFlatLayerInfo#b(int)
+     * @see net.minecraft.server.v1_9_R1.WorldGenFlatLayerInfo#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public void b(int i){
@@ -34,7 +34,7 @@ public class NMSWorldGenFlatLayerInfo extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenFlatLayerInfo#c()
+     * @see net.minecraft.server.v1_9_R1.WorldGenFlatLayerInfo#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public NMSIBlockData c(){
@@ -43,7 +43,7 @@ public class NMSWorldGenFlatLayerInfo extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenFlatLayerInfo#d()
+     * @see net.minecraft.server.v1_9_R1.WorldGenFlatLayerInfo#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public int d(){
@@ -51,7 +51,7 @@ public class NMSWorldGenFlatLayerInfo extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldGenFlatLayerInfo#toString()
+     * @see net.minecraft.server.v1_9_R1.WorldGenFlatLayerInfo#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

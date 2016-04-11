@@ -13,7 +13,7 @@ public class NMSDispenseBehaviorProjectile extends NMSDispenseBehaviorItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DispenseBehaviorProjectile#a()
+     * @see net.minecraft.server.v1_9_R1.DispenseBehaviorProjectile#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public float a(){
@@ -22,7 +22,7 @@ public class NMSDispenseBehaviorProjectile extends NMSDispenseBehaviorItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DispenseBehaviorProjectile#b()
+     * @see net.minecraft.server.v1_9_R1.DispenseBehaviorProjectile#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public float b(){

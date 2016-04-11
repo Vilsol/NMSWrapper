@@ -13,7 +13,7 @@ public class NMSRecipeRepair extends NMSShapelessRecipes implements NMSIRecipe {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RecipeRepair#a()
+     * @see net.minecraft.server.v1_9_R1.RecipeRepair#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public int a(){
@@ -22,7 +22,7 @@ public class NMSRecipeRepair extends NMSShapelessRecipes implements NMSIRecipe {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RecipeRepair#b()
+     * @see net.minecraft.server.v1_9_R1.RecipeRepair#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSItemStack b(){

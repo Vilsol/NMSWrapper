@@ -20,7 +20,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -29,7 +29,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#b(int, int)
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#b(int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public void b(int i, int i1){
@@ -37,7 +37,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#closeContainer(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#closeContainer(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "closeContainer", types = {NMSEntityHuman.class})
     public void closeContainer(NMSEntityHuman entityHuman){
@@ -46,7 +46,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#d(int)
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#d(int)
      */
     @ReflectiveMethod(name = "d", types = {int.class})
     public void d(int i){
@@ -55,7 +55,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#g()
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public int g(){
@@ -63,7 +63,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#getItem(int)
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#getItem(int)
      */
     @ReflectiveMethod(name = "getItem", types = {int.class})
     public NMSItemStack getItem(int i){
@@ -71,7 +71,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#getMaxStackSize()
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#getMaxStackSize()
      */
     @ReflectiveMethod(name = "getMaxStackSize", types = {})
     public int getMaxStackSize(){
@@ -79,7 +79,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#getName()
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -87,7 +87,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#getOwner()
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#getOwner()
      */
     @ReflectiveMethod(name = "getOwner", types = {})
     public InventoryHolder getOwner(){
@@ -95,7 +95,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#getProperty(int)
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#getProperty(int)
      */
     @ReflectiveMethod(name = "getProperty", types = {int.class})
     public int getProperty(int i){
@@ -103,7 +103,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#getRecipe()
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#getRecipe()
      */
     @ReflectiveMethod(name = "getRecipe", types = {})
     public NMSMerchantRecipe getRecipe(){
@@ -111,7 +111,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#getScoreboardDisplayName()
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#getScoreboardDisplayName()
      */
     @ReflectiveMethod(name = "getScoreboardDisplayName", types = {})
     public NMSIChatBaseComponent getScoreboardDisplayName(){
@@ -119,7 +119,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#getSize()
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#getSize()
      */
     @ReflectiveMethod(name = "getSize", types = {})
     public int getSize(){
@@ -128,7 +128,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#h()
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -136,7 +136,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#hasCustomName()
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#hasCustomName()
      */
     @ReflectiveMethod(name = "hasCustomName", types = {})
     public boolean hasCustomName(){
@@ -145,7 +145,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#l()
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public void l(){
@@ -153,7 +153,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#onClose(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#onClose(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onClose", types = {NMSCraftHumanEntity.class})
     public void onClose(NMSCraftHumanEntity craftHumanEntity){
@@ -161,7 +161,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#onOpen(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#onOpen(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onOpen", types = {NMSCraftHumanEntity.class})
     public void onOpen(NMSCraftHumanEntity craftHumanEntity){
@@ -169,7 +169,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#setItem(int, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#setItem(int, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "setItem", types = {int.class, NMSItemStack.class})
     public void setItem(int i, NMSItemStack itemStack){
@@ -177,7 +177,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#setMaxStackSize(int)
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#setMaxStackSize(int)
      */
     @ReflectiveMethod(name = "setMaxStackSize", types = {int.class})
     public void setMaxStackSize(int i){
@@ -185,7 +185,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#splitStack(int, int)
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#splitStack(int, int)
      */
     @ReflectiveMethod(name = "splitStack", types = {int.class, int.class})
     public NMSItemStack splitStack(int i, int i1){
@@ -193,7 +193,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#splitWithoutUpdate(int)
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#splitWithoutUpdate(int)
      */
     @ReflectiveMethod(name = "splitWithoutUpdate", types = {int.class})
     public NMSItemStack splitWithoutUpdate(int i){
@@ -201,7 +201,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#startOpen(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#startOpen(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "startOpen", types = {NMSEntityHuman.class})
     public void startOpen(NMSEntityHuman entityHuman){
@@ -209,7 +209,7 @@ public class NMSInventoryMerchant extends NMSWrap implements NMSIInventory {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryMerchant#update()
+     * @see net.minecraft.server.v1_9_R1.InventoryMerchant#update()
      */
     @ReflectiveMethod(name = "update", types = {})
     public void update(){

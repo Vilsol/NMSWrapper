@@ -17,7 +17,7 @@ public class NMSWorldGenMonument extends NMSStructureGenerator {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenMonument#a(int, int)
+     * @see net.minecraft.server.v1_9_R1.WorldGenMonument#a(int, int)
      */
     @ReflectiveMethod(name = "a", types = {int.class, int.class})
     public boolean a(int i, int i1){
@@ -26,7 +26,7 @@ public class NMSWorldGenMonument extends NMSStructureGenerator {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenMonument#b(int, int)
+     * @see net.minecraft.server.v1_9_R1.WorldGenMonument#b(int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public NMSStructureStart b(int i, int i1){
@@ -46,7 +46,7 @@ public class NMSWorldGenMonument extends NMSStructureGenerator {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMonument$WorldGenMonumentStart#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMonument$WorldGenMonumentStart#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
         public void a(NMSNBTTagCompound nBTTagCompound){
@@ -55,7 +55,7 @@ public class NMSWorldGenMonument extends NMSStructureGenerator {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMonument$WorldGenMonumentStart#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMonument$WorldGenMonumentStart#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){

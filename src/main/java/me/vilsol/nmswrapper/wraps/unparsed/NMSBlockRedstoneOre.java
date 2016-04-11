@@ -21,7 +21,7 @@ public class NMSBlockRedstoneOre extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneOre#a(java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneOre#a(java.util.Random)
      */
     @ReflectiveMethod(name = "a", types = {Random.class})
     public int a(Random random){
@@ -29,7 +29,7 @@ public class NMSBlockRedstoneOre extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneOre#attack(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneOre#attack(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "attack", types = {NMSWorld.class, NMSBlockPosition.class, NMSEntityHuman.class})
     public void attack(NMSWorld world, NMSBlockPosition blockPosition, NMSEntityHuman entityHuman){
@@ -38,7 +38,7 @@ public class NMSBlockRedstoneOre extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneOre#b(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneOre#b(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, java.util.Random)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, Random.class})
     public void b(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, Random random){
@@ -46,7 +46,7 @@ public class NMSBlockRedstoneOre extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneOre#dropNaturally(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, float, int)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneOre#dropNaturally(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, float, int)
      */
     @ReflectiveMethod(name = "dropNaturally", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, float.class, int.class})
     public void dropNaturally(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, float f, int i){
@@ -54,7 +54,7 @@ public class NMSBlockRedstoneOre extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneOre#getDropCount(int, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneOre#getDropCount(int, java.util.Random)
      */
     @ReflectiveMethod(name = "getDropCount", types = {int.class, Random.class})
     public int getDropCount(int i, Random random){
@@ -62,7 +62,7 @@ public class NMSBlockRedstoneOre extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneOre#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneOre#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -70,7 +70,7 @@ public class NMSBlockRedstoneOre extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneOre#getExpDrop(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.IBlockData, int)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneOre#getExpDrop(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.IBlockData, int)
      */
     @ReflectiveMethod(name = "getExpDrop", types = {NMSWorld.class, NMSIBlockData.class, int.class})
     public int getExpDrop(NMSWorld world, NMSIBlockData iBlockData, int i){
@@ -79,7 +79,7 @@ public class NMSBlockRedstoneOre extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneOre#i(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneOre#i(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "i", types = {NMSIBlockData.class})
     public NMSItemStack i(NMSIBlockData iBlockData){
@@ -87,7 +87,7 @@ public class NMSBlockRedstoneOre extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneOre#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneOre#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){

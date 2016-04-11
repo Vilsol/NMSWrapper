@@ -14,7 +14,7 @@ public class NMSPathfinderGoalNearestAttackableTarget extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalNearestAttackableTarget#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalNearestAttackableTarget#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -23,7 +23,7 @@ public class NMSPathfinderGoalNearestAttackableTarget extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalNearestAttackableTarget#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalNearestAttackableTarget#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -43,7 +43,7 @@ public class NMSPathfinderGoalNearestAttackableTarget extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.PathfinderGoalNearestAttackableTarget$DistanceComparator#a(net.minecraft.server.v1_8_R3.Entity, net.minecraft.server.v1_8_R3.Entity)
+         * @see net.minecraft.server.v1_9_R1.PathfinderGoalNearestAttackableTarget$DistanceComparator#a(net.minecraft.server.v1_9_R1.Entity, net.minecraft.server.v1_9_R1.Entity)
          */
         @ReflectiveMethod(name = "a", types = {NMSEntity.class, NMSEntity.class})
         public int a(NMSEntity entity, NMSEntity entity1){
@@ -51,7 +51,7 @@ public class NMSPathfinderGoalNearestAttackableTarget extends NMSWrap {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.PathfinderGoalNearestAttackableTarget$DistanceComparator#compare(java.lang.Object, java.lang.Object)
+         * @see net.minecraft.server.v1_9_R1.PathfinderGoalNearestAttackableTarget$DistanceComparator#compare(java.lang.Object, java.lang.Object)
          */
         @ReflectiveMethod(name = "compare", types = {Object.class, Object.class})
         public int compare(Object object, Object object1){

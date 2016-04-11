@@ -17,7 +17,7 @@ public class NMSItemGoldenApple extends NMSItemFood {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemGoldenApple#c(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ItemGoldenApple#c(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "c", types = {NMSItemStack.class, NMSWorld.class, NMSEntityHuman.class})
     public void c(NMSItemStack itemStack, NMSWorld world, NMSEntityHuman entityHuman){
@@ -26,7 +26,7 @@ public class NMSItemGoldenApple extends NMSItemFood {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemGoldenApple#g(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemGoldenApple#g(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "g", types = {NMSItemStack.class})
     public NMSEnumItemRarity g(NMSItemStack itemStack){

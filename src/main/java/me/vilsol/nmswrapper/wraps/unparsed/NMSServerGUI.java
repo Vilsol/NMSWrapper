@@ -17,7 +17,7 @@ public class NMSServerGUI extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ServerGUI#a(net.minecraft.server.v1_8_R3.ServerGUI)
+     * @see net.minecraft.server.v1_9_R1.ServerGUI#a(net.minecraft.server.v1_9_R1.ServerGUI)
      */
     @ReflectiveMethod(name = "a", types = {NMSServerGUI.class})
     public NMSDedicatedServer a(NMSServerGUI serverGUI){

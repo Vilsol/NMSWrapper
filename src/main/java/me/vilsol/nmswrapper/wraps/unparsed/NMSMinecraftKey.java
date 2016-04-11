@@ -17,7 +17,7 @@ public class NMSMinecraftKey extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MinecraftKey#a()
+     * @see net.minecraft.server.v1_9_R1.MinecraftKey#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public String a(){
@@ -25,7 +25,7 @@ public class NMSMinecraftKey extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftKey#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.MinecraftKey#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -33,7 +33,7 @@ public class NMSMinecraftKey extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftKey#hashCode()
+     * @see net.minecraft.server.v1_9_R1.MinecraftKey#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -41,7 +41,7 @@ public class NMSMinecraftKey extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MinecraftKey#toString()
+     * @see net.minecraft.server.v1_9_R1.MinecraftKey#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

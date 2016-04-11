@@ -15,7 +15,7 @@ public class NMSBlockBeacon extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockBeacon#a(net.minecraft.server.v1_8_R3.World, int)
+     * @see net.minecraft.server.v1_9_R1.BlockBeacon#a(net.minecraft.server.v1_9_R1.World, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, int.class})
     public NMSTileEntity a(NMSWorld world, int i){
@@ -24,7 +24,7 @@ public class NMSBlockBeacon extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockBeacon#b()
+     * @see net.minecraft.server.v1_9_R1.BlockBeacon#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public int b(){
@@ -33,7 +33,7 @@ public class NMSBlockBeacon extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockBeacon#c()
+     * @see net.minecraft.server.v1_9_R1.BlockBeacon#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -42,7 +42,7 @@ public class NMSBlockBeacon extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockBeacon#d()
+     * @see net.minecraft.server.v1_9_R1.BlockBeacon#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -50,7 +50,7 @@ public class NMSBlockBeacon extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockBeacon#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockBeacon#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -59,7 +59,7 @@ public class NMSBlockBeacon extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockBeacon#f(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockBeacon#f(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "f", types = {NMSWorld.class, NMSBlockPosition.class})
     public void f(NMSWorld world, NMSBlockPosition blockPosition){
@@ -67,7 +67,7 @@ public class NMSBlockBeacon extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockBeacon#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockBeacon#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -75,7 +75,7 @@ public class NMSBlockBeacon extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockBeacon#postPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityLiving, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.BlockBeacon#postPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityLiving, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "postPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityLiving.class, NMSItemStack.class})
     public void postPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityLiving entityLiving, NMSItemStack itemStack){

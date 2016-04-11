@@ -13,7 +13,7 @@ public class NMSStatisticWrapper extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StatisticWrapper#a(net.minecraft.server.v1_8_R3.IJsonStatistic)
+     * @see net.minecraft.server.v1_9_R1.StatisticWrapper#a(net.minecraft.server.v1_9_R1.IJsonStatistic)
      */
     @ReflectiveMethod(name = "a", types = {NMSIJsonStatistic.class})
     public void a(NMSIJsonStatistic iJsonStatistic){
@@ -22,7 +22,7 @@ public class NMSStatisticWrapper extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StatisticWrapper#b()
+     * @see net.minecraft.server.v1_9_R1.StatisticWrapper#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public Object b(){

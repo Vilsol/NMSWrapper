@@ -21,7 +21,7 @@ public class NMSEntityGolem extends NMSEntityCreature implements NMSIAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGolem#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityGolem#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -30,7 +30,7 @@ public class NMSEntityGolem extends NMSEntityCreature implements NMSIAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGolem#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityGolem#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -39,7 +39,7 @@ public class NMSEntityGolem extends NMSEntityCreature implements NMSIAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGolem#e(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityGolem#e(float, float)
      */
     @ReflectiveMethod(name = "e", types = {float.class, float.class})
     public void e(float f, float f1){
@@ -47,7 +47,7 @@ public class NMSEntityGolem extends NMSEntityCreature implements NMSIAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityGolem#isTypeNotPersistent()
+     * @see net.minecraft.server.v1_9_R1.EntityGolem#isTypeNotPersistent()
      */
     @ReflectiveMethod(name = "isTypeNotPersistent", types = {})
     public boolean isTypeNotPersistent(){
@@ -56,7 +56,7 @@ public class NMSEntityGolem extends NMSEntityCreature implements NMSIAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGolem#w()
+     * @see net.minecraft.server.v1_9_R1.EntityGolem#w()
      */
     @ReflectiveMethod(name = "w", types = {})
     public int w(){
@@ -65,7 +65,7 @@ public class NMSEntityGolem extends NMSEntityCreature implements NMSIAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGolem#z()
+     * @see net.minecraft.server.v1_9_R1.EntityGolem#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

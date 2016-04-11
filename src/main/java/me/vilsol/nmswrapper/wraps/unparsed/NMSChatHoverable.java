@@ -17,7 +17,7 @@ public class NMSChatHoverable extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatHoverable#a()
+     * @see net.minecraft.server.v1_9_R1.ChatHoverable#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public NMSEnumHoverAction a(){
@@ -26,7 +26,7 @@ public class NMSChatHoverable extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatHoverable#b()
+     * @see net.minecraft.server.v1_9_R1.ChatHoverable#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSIChatBaseComponent b(){
@@ -34,7 +34,7 @@ public class NMSChatHoverable extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatHoverable#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.ChatHoverable#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -42,7 +42,7 @@ public class NMSChatHoverable extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatHoverable#hashCode()
+     * @see net.minecraft.server.v1_9_R1.ChatHoverable#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -50,7 +50,7 @@ public class NMSChatHoverable extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatHoverable#toString()
+     * @see net.minecraft.server.v1_9_R1.ChatHoverable#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

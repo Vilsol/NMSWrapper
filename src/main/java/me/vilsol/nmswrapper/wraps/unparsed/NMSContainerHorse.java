@@ -18,7 +18,7 @@ public class NMSContainerHorse extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerHorse#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ContainerHorse#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -27,7 +27,7 @@ public class NMSContainerHorse extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerHorse#b(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ContainerHorse#b(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityHuman.class})
     public void b(NMSEntityHuman entityHuman){
@@ -35,7 +35,7 @@ public class NMSContainerHorse extends NMSContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ContainerHorse#getBukkitView()
+     * @see net.minecraft.server.v1_9_R1.ContainerHorse#getBukkitView()
      */
     @ReflectiveMethod(name = "getBukkitView", types = {})
     public InventoryView getBukkitView(){

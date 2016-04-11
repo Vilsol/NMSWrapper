@@ -13,7 +13,7 @@ public class NMSItemCoal extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemCoal#e_(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemCoal#e_(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "e_", types = {NMSItemStack.class})
     public String e_(NMSItemStack itemStack){

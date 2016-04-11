@@ -13,7 +13,7 @@ public class NMSOldNibbleArray extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.OldNibbleArray#a(int, int, int)
+     * @see net.minecraft.server.v1_9_R1.OldNibbleArray#a(int, int, int)
      */
     @ReflectiveMethod(name = "a", types = {int.class, int.class, int.class})
     public int a(int i, int i1, int i2){

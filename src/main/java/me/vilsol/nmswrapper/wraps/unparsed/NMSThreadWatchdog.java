@@ -16,7 +16,7 @@ public class NMSThreadWatchdog extends NMSWrap implements Runnable {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ThreadWatchdog#run()
+     * @see net.minecraft.server.v1_9_R1.ThreadWatchdog#run()
      */
     @ReflectiveMethod(name = "run", types = {})
     public void run(){

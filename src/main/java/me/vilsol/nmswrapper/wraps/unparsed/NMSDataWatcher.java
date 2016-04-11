@@ -17,7 +17,7 @@ public class NMSDataWatcher extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DataWatcher#a()
+     * @see net.minecraft.server.v1_9_R1.DataWatcher#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -25,7 +25,7 @@ public class NMSDataWatcher extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DataWatcher#add(int, int)
+     * @see net.minecraft.server.v1_9_R1.DataWatcher#add(int, int)
      */
     @ReflectiveMethod(name = "add", types = {int.class, int.class})
     public void add(int i, int i1){
@@ -34,7 +34,7 @@ public class NMSDataWatcher extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DataWatcher#d()
+     * @see net.minecraft.server.v1_9_R1.DataWatcher#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -43,7 +43,7 @@ public class NMSDataWatcher extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DataWatcher#e()
+     * @see net.minecraft.server.v1_9_R1.DataWatcher#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){
@@ -51,7 +51,7 @@ public class NMSDataWatcher extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DataWatcher#getByte(int)
+     * @see net.minecraft.server.v1_9_R1.DataWatcher#getByte(int)
      */
     @ReflectiveMethod(name = "getByte", types = {int.class})
     public byte getByte(int i){
@@ -59,7 +59,7 @@ public class NMSDataWatcher extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DataWatcher#getFloat(int)
+     * @see net.minecraft.server.v1_9_R1.DataWatcher#getFloat(int)
      */
     @ReflectiveMethod(name = "getFloat", types = {int.class})
     public float getFloat(int i){
@@ -67,7 +67,7 @@ public class NMSDataWatcher extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DataWatcher#getInt(int)
+     * @see net.minecraft.server.v1_9_R1.DataWatcher#getInt(int)
      */
     @ReflectiveMethod(name = "getInt", types = {int.class})
     public int getInt(int i){
@@ -75,7 +75,7 @@ public class NMSDataWatcher extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DataWatcher#getItemStack(int)
+     * @see net.minecraft.server.v1_9_R1.DataWatcher#getItemStack(int)
      */
     @ReflectiveMethod(name = "getItemStack", types = {int.class})
     public NMSItemStack getItemStack(int i){
@@ -83,7 +83,7 @@ public class NMSDataWatcher extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DataWatcher#getShort(int)
+     * @see net.minecraft.server.v1_9_R1.DataWatcher#getShort(int)
      */
     @ReflectiveMethod(name = "getShort", types = {int.class})
     public short getShort(int i){
@@ -91,7 +91,7 @@ public class NMSDataWatcher extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DataWatcher#getString(int)
+     * @see net.minecraft.server.v1_9_R1.DataWatcher#getString(int)
      */
     @ReflectiveMethod(name = "getString", types = {int.class})
     public String getString(int i){
@@ -100,7 +100,7 @@ public class NMSDataWatcher extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DataWatcher#h(int)
+     * @see net.minecraft.server.v1_9_R1.DataWatcher#h(int)
      */
     @ReflectiveMethod(name = "h", types = {int.class})
     public NMSVector3f h(int i){
@@ -108,7 +108,7 @@ public class NMSDataWatcher extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DataWatcher#update(int)
+     * @see net.minecraft.server.v1_9_R1.DataWatcher#update(int)
      */
     @ReflectiveMethod(name = "update", types = {int.class})
     public void update(int i){
@@ -116,7 +116,7 @@ public class NMSDataWatcher extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DataWatcher#watch(int, Object)
+     * @see net.minecraft.server.v1_9_R1.DataWatcher#watch(int, Object)
      */
     @ReflectiveMethod(name = "watch", types = {int.class, Object.class})
     public void watch(int i, Object t){
@@ -136,7 +136,7 @@ public class NMSDataWatcher extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.DataWatcher$WatchableObject#a(boolean)
+         * @see net.minecraft.server.v1_9_R1.DataWatcher$WatchableObject#a(boolean)
          */
         @ReflectiveMethod(name = "a", types = {boolean.class})
         public void a(boolean b){
@@ -145,7 +145,7 @@ public class NMSDataWatcher extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.DataWatcher$WatchableObject#b()
+         * @see net.minecraft.server.v1_9_R1.DataWatcher$WatchableObject#b()
          */
         @ReflectiveMethod(name = "b", types = {})
         public Object b(){
@@ -154,7 +154,7 @@ public class NMSDataWatcher extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.DataWatcher$WatchableObject#c()
+         * @see net.minecraft.server.v1_9_R1.DataWatcher$WatchableObject#c()
          */
         @ReflectiveMethod(name = "c", types = {})
         public int c(){
@@ -163,7 +163,7 @@ public class NMSDataWatcher extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.DataWatcher$WatchableObject#d()
+         * @see net.minecraft.server.v1_9_R1.DataWatcher$WatchableObject#d()
          */
         @ReflectiveMethod(name = "d", types = {})
         public boolean d(){

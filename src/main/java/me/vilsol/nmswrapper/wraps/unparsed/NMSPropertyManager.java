@@ -24,7 +24,7 @@ public class NMSPropertyManager extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PropertyManager#a()
+     * @see net.minecraft.server.v1_9_R1.PropertyManager#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public void a(){
@@ -33,7 +33,7 @@ public class NMSPropertyManager extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PropertyManager#c()
+     * @see net.minecraft.server.v1_9_R1.PropertyManager#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public File c(){
@@ -41,7 +41,7 @@ public class NMSPropertyManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PropertyManager#getBoolean(java.lang.String, boolean)
+     * @see net.minecraft.server.v1_9_R1.PropertyManager#getBoolean(java.lang.String, boolean)
      */
     @ReflectiveMethod(name = "getBoolean", types = {String.class, boolean.class})
     public boolean getBoolean(String s, boolean b){
@@ -49,7 +49,7 @@ public class NMSPropertyManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PropertyManager#getInt(java.lang.String, int)
+     * @see net.minecraft.server.v1_9_R1.PropertyManager#getInt(java.lang.String, int)
      */
     @ReflectiveMethod(name = "getInt", types = {String.class, int.class})
     public int getInt(String s, int i){
@@ -57,7 +57,7 @@ public class NMSPropertyManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PropertyManager#getLong(java.lang.String, long)
+     * @see net.minecraft.server.v1_9_R1.PropertyManager#getLong(java.lang.String, long)
      */
     @ReflectiveMethod(name = "getLong", types = {String.class, long.class})
     public long getLong(String s, long l){
@@ -65,7 +65,7 @@ public class NMSPropertyManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PropertyManager#getString(java.lang.String, java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.PropertyManager#getString(java.lang.String, java.lang.String)
      */
     @ReflectiveMethod(name = "getString", types = {String.class, String.class})
     public String getString(String s, String s1){
@@ -73,7 +73,7 @@ public class NMSPropertyManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PropertyManager#savePropertiesFile()
+     * @see net.minecraft.server.v1_9_R1.PropertyManager#savePropertiesFile()
      */
     @ReflectiveMethod(name = "savePropertiesFile", types = {})
     public void savePropertiesFile(){
@@ -81,7 +81,7 @@ public class NMSPropertyManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PropertyManager#setProperty(java.lang.String, java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.PropertyManager#setProperty(java.lang.String, java.lang.Object)
      */
     @ReflectiveMethod(name = "setProperty", types = {String.class, Object.class})
     public void setProperty(String s, Object object){

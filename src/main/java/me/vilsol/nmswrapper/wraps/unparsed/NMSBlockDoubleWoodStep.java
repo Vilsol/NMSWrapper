@@ -13,7 +13,7 @@ public class NMSBlockDoubleWoodStep extends NMSBlockWoodenStep {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDoubleWoodStep#l()
+     * @see net.minecraft.server.v1_9_R1.BlockDoubleWoodStep#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public boolean l(){

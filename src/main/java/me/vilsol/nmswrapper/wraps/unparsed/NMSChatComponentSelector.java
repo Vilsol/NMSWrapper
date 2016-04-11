@@ -16,7 +16,7 @@ public class NMSChatComponentSelector extends NMSChatBaseComponent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatComponentSelector#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.ChatComponentSelector#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -25,7 +25,7 @@ public class NMSChatComponentSelector extends NMSChatBaseComponent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatComponentSelector#f()
+     * @see net.minecraft.server.v1_9_R1.ChatComponentSelector#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public NMSIChatBaseComponent f(){
@@ -34,7 +34,7 @@ public class NMSChatComponentSelector extends NMSChatBaseComponent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatComponentSelector#g()
+     * @see net.minecraft.server.v1_9_R1.ChatComponentSelector#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public String g(){
@@ -42,7 +42,7 @@ public class NMSChatComponentSelector extends NMSChatBaseComponent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatComponentSelector#getText()
+     * @see net.minecraft.server.v1_9_R1.ChatComponentSelector#getText()
      */
     @ReflectiveMethod(name = "getText", types = {})
     public String getText(){
@@ -51,7 +51,7 @@ public class NMSChatComponentSelector extends NMSChatBaseComponent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatComponentSelector#h()
+     * @see net.minecraft.server.v1_9_R1.ChatComponentSelector#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public NMSChatComponentSelector h(){
@@ -59,7 +59,7 @@ public class NMSChatComponentSelector extends NMSChatBaseComponent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatComponentSelector#toString()
+     * @see net.minecraft.server.v1_9_R1.ChatComponentSelector#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

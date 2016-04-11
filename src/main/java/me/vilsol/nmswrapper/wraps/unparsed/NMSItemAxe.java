@@ -12,7 +12,7 @@ public class NMSItemAxe extends NMSItemTool {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemAxe#getDestroySpeed(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.ItemAxe#getDestroySpeed(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "getDestroySpeed", types = {NMSItemStack.class, NMSBlock.class})
     public float getDestroySpeed(NMSItemStack itemStack, NMSBlock block){

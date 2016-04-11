@@ -17,7 +17,7 @@ public class NMSItemFish extends NMSItemFood {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemFish#c(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ItemFish#c(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "c", types = {NMSItemStack.class, NMSWorld.class, NMSEntityHuman.class})
     public void c(NMSItemStack itemStack, NMSWorld world, NMSEntityHuman entityHuman){
@@ -26,7 +26,7 @@ public class NMSItemFish extends NMSItemFood {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemFish#e_(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemFish#e_(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "e_", types = {NMSItemStack.class})
     public String e_(NMSItemStack itemStack){
@@ -34,7 +34,7 @@ public class NMSItemFish extends NMSItemFood {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemFish#getNutrition(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemFish#getNutrition(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "getNutrition", types = {NMSItemStack.class})
     public int getNutrition(NMSItemStack itemStack){
@@ -42,7 +42,7 @@ public class NMSItemFish extends NMSItemFood {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemFish#getSaturationModifier(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemFish#getSaturationModifier(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "getSaturationModifier", types = {NMSItemStack.class})
     public float getSaturationModifier(NMSItemStack itemStack){
@@ -51,7 +51,7 @@ public class NMSItemFish extends NMSItemFood {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemFish#j(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemFish#j(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "j", types = {NMSItemStack.class})
     public String j(NMSItemStack itemStack){

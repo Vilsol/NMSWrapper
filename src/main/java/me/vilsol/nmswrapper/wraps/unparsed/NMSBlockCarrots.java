@@ -13,7 +13,7 @@ public class NMSBlockCarrots extends NMSBlockCrops {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCarrots#l()
+     * @see net.minecraft.server.v1_9_R1.BlockCarrots#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public NMSItem l(){
@@ -22,7 +22,7 @@ public class NMSBlockCarrots extends NMSBlockCrops {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCarrots#n()
+     * @see net.minecraft.server.v1_9_R1.BlockCarrots#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public NMSItem n(){

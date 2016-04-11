@@ -21,7 +21,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#A()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#A()
      */
     @ReflectiveMethod(name = "A", types = {})
     public double A(){
@@ -30,7 +30,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#B()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#B()
      */
     @ReflectiveMethod(name = "B", types = {})
     public double B(){
@@ -39,7 +39,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#C()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#C()
      */
     @ReflectiveMethod(name = "C", types = {})
     public double C(){
@@ -48,7 +48,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#D()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#D()
      */
     @ReflectiveMethod(name = "D", types = {})
     public boolean D(){
@@ -57,7 +57,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#E()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#E()
      */
     @ReflectiveMethod(name = "E", types = {})
     public boolean E(){
@@ -66,7 +66,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -75,7 +75,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -83,7 +83,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#createContainer(net.minecraft.server.v1_8_R3.PlayerInventory, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#createContainer(net.minecraft.server.v1_9_R1.PlayerInventory, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "createContainer", types = {NMSPlayerInventory.class, NMSEntityHuman.class})
     public NMSContainer createContainer(NMSPlayerInventory playerInventory, NMSEntityHuman entityHuman){
@@ -92,7 +92,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#e(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#e(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "e", types = {NMSEntityHuman.class})
     public boolean e(NMSEntityHuman entityHuman){
@@ -100,7 +100,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#getContainerName()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#getContainerName()
      */
     @ReflectiveMethod(name = "getContainerName", types = {})
     public String getContainerName(){
@@ -108,7 +108,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#getSize()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#getSize()
      */
     @ReflectiveMethod(name = "getSize", types = {})
     public int getSize(){
@@ -116,7 +116,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#getWorld()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#getWorld()
      */
     @ReflectiveMethod(name = "getWorld", types = {})
     public NMSWorld getWorld(){
@@ -125,7 +125,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#i(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#i(boolean)
      */
     @ReflectiveMethod(name = "i", types = {boolean.class})
     public void i(boolean b){
@@ -134,7 +134,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#m(int)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#m(int)
      */
     @ReflectiveMethod(name = "m", types = {int.class})
     public void m(int i){
@@ -143,7 +143,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#s()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#s()
      */
     @ReflectiveMethod(name = "s", types = {})
     public NMSEnumMinecartType s(){
@@ -152,7 +152,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){
@@ -161,7 +161,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#u()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#u()
      */
     @ReflectiveMethod(name = "u", types = {})
     public NMSIBlockData u(){
@@ -170,7 +170,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#w()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#w()
      */
     @ReflectiveMethod(name = "w", types = {})
     public int w(){
@@ -179,7 +179,7 @@ public class NMSEntityMinecartHopper extends NMSEntityMinecartContainer implemen
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartHopper#y()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartHopper#y()
      */
     @ReflectiveMethod(name = "y", types = {})
     public boolean y(){

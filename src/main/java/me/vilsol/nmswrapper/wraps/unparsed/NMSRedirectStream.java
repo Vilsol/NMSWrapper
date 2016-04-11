@@ -19,7 +19,7 @@ public class NMSRedirectStream extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RedirectStream#println(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.RedirectStream#println(java.lang.Object)
      */
     @ReflectiveMethod(name = "println", types = {Object.class})
     public void println(Object object){

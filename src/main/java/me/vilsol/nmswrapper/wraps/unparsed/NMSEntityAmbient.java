@@ -21,7 +21,7 @@ public class NMSEntityAmbient extends NMSEntityInsentient implements NMSIAnimal 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityAmbient#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityAmbient#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -30,7 +30,7 @@ public class NMSEntityAmbient extends NMSEntityInsentient implements NMSIAnimal 
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityAmbient#cb()
+     * @see net.minecraft.server.v1_9_R1.EntityAmbient#cb()
      */
     @ReflectiveMethod(name = "cb", types = {})
     public boolean cb(){

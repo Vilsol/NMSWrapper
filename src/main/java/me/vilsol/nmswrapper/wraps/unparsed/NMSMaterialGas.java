@@ -16,7 +16,7 @@ public class NMSMaterialGas extends NMSMaterial {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MaterialGas#blocksLight()
+     * @see net.minecraft.server.v1_9_R1.MaterialGas#blocksLight()
      */
     @ReflectiveMethod(name = "blocksLight", types = {})
     public boolean blocksLight(){
@@ -24,7 +24,7 @@ public class NMSMaterialGas extends NMSMaterial {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MaterialGas#isBuildable()
+     * @see net.minecraft.server.v1_9_R1.MaterialGas#isBuildable()
      */
     @ReflectiveMethod(name = "isBuildable", types = {})
     public boolean isBuildable(){
@@ -32,7 +32,7 @@ public class NMSMaterialGas extends NMSMaterial {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MaterialGas#isSolid()
+     * @see net.minecraft.server.v1_9_R1.MaterialGas#isSolid()
      */
     @ReflectiveMethod(name = "isSolid", types = {})
     public boolean isSolid(){

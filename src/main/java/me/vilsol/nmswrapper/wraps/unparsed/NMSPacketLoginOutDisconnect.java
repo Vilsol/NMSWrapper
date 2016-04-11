@@ -17,7 +17,7 @@ public class NMSPacketLoginOutDisconnect extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PacketLoginOutDisconnect#a(net.minecraft.server.v1_8_R3.PacketListener)
+     * @see net.minecraft.server.v1_9_R1.PacketLoginOutDisconnect#a(net.minecraft.server.v1_9_R1.PacketListener)
      */
     @ReflectiveMethod(name = "a", types = {NMSPacketListener.class})
     public void a(NMSPacketListener packetListener){

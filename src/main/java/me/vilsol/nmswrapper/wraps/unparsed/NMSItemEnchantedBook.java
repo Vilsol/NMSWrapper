@@ -17,7 +17,7 @@ public class NMSItemEnchantedBook extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemEnchantedBook#a(java.util.Random, int, int, int)
+     * @see net.minecraft.server.v1_9_R1.ItemEnchantedBook#a(java.util.Random, int, int, int)
      */
     @ReflectiveMethod(name = "a", types = {Random.class, int.class, int.class, int.class})
     public NMSStructurePieceTreasure a(Random random, int i, int i1, int i2){
@@ -26,7 +26,7 @@ public class NMSItemEnchantedBook extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemEnchantedBook#b(java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.ItemEnchantedBook#b(java.util.Random)
      */
     @ReflectiveMethod(name = "b", types = {Random.class})
     public NMSStructurePieceTreasure b(Random random){
@@ -35,7 +35,7 @@ public class NMSItemEnchantedBook extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemEnchantedBook#f_(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemEnchantedBook#f_(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "f_", types = {NMSItemStack.class})
     public boolean f_(NMSItemStack itemStack){
@@ -44,7 +44,7 @@ public class NMSItemEnchantedBook extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemEnchantedBook#g(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemEnchantedBook#g(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "g", types = {NMSItemStack.class})
     public NMSEnumItemRarity g(NMSItemStack itemStack){
@@ -53,7 +53,7 @@ public class NMSItemEnchantedBook extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemEnchantedBook#h(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemEnchantedBook#h(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "h", types = {NMSItemStack.class})
     public NMSNBTTagList h(NMSItemStack itemStack){

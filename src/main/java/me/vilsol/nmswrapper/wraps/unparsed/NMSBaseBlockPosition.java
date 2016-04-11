@@ -25,7 +25,7 @@ public class NMSBaseBlockPosition extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BaseBlockPosition#c(double, double, double)
+     * @see net.minecraft.server.v1_9_R1.BaseBlockPosition#c(double, double, double)
      */
     @ReflectiveMethod(name = "c", types = {double.class, double.class, double.class})
     public double c(double d, double d1, double d2){
@@ -33,7 +33,7 @@ public class NMSBaseBlockPosition extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BaseBlockPosition#compareTo(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.BaseBlockPosition#compareTo(java.lang.Object)
      */
     @ReflectiveMethod(name = "compareTo", types = {Object.class})
     public int compareTo(Object object){
@@ -42,7 +42,7 @@ public class NMSBaseBlockPosition extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BaseBlockPosition#d(double, double, double)
+     * @see net.minecraft.server.v1_9_R1.BaseBlockPosition#d(double, double, double)
      */
     @ReflectiveMethod(name = "d", types = {double.class, double.class, double.class})
     public double d(double d, double d1, double d2){
@@ -50,7 +50,7 @@ public class NMSBaseBlockPosition extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BaseBlockPosition#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.BaseBlockPosition#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -59,7 +59,7 @@ public class NMSBaseBlockPosition extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BaseBlockPosition#g(net.minecraft.server.v1_8_R3.BaseBlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BaseBlockPosition#g(net.minecraft.server.v1_9_R1.BaseBlockPosition)
      */
     @ReflectiveMethod(name = "g", types = {NMSBaseBlockPosition.class})
     public int g(NMSBaseBlockPosition baseBlockPosition){
@@ -67,7 +67,7 @@ public class NMSBaseBlockPosition extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BaseBlockPosition#getX()
+     * @see net.minecraft.server.v1_9_R1.BaseBlockPosition#getX()
      */
     @ReflectiveMethod(name = "getX", types = {})
     public int getX(){
@@ -75,7 +75,7 @@ public class NMSBaseBlockPosition extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BaseBlockPosition#getY()
+     * @see net.minecraft.server.v1_9_R1.BaseBlockPosition#getY()
      */
     @ReflectiveMethod(name = "getY", types = {})
     public int getY(){
@@ -83,7 +83,7 @@ public class NMSBaseBlockPosition extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BaseBlockPosition#getZ()
+     * @see net.minecraft.server.v1_9_R1.BaseBlockPosition#getZ()
      */
     @ReflectiveMethod(name = "getZ", types = {})
     public int getZ(){
@@ -91,7 +91,7 @@ public class NMSBaseBlockPosition extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BaseBlockPosition#hashCode()
+     * @see net.minecraft.server.v1_9_R1.BaseBlockPosition#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -100,7 +100,7 @@ public class NMSBaseBlockPosition extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BaseBlockPosition#i(net.minecraft.server.v1_8_R3.BaseBlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BaseBlockPosition#i(net.minecraft.server.v1_9_R1.BaseBlockPosition)
      */
     @ReflectiveMethod(name = "i", types = {NMSBaseBlockPosition.class})
     public double i(NMSBaseBlockPosition baseBlockPosition){
@@ -108,7 +108,7 @@ public class NMSBaseBlockPosition extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BaseBlockPosition#toString()
+     * @see net.minecraft.server.v1_9_R1.BaseBlockPosition#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

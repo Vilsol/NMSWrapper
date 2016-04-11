@@ -17,7 +17,7 @@ public class NMSEntityComplexPart extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityComplexPart#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityComplexPart#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -26,7 +26,7 @@ public class NMSEntityComplexPart extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityComplexPart#ad()
+     * @see net.minecraft.server.v1_9_R1.EntityComplexPart#ad()
      */
     @ReflectiveMethod(name = "ad", types = {})
     public boolean ad(){
@@ -35,7 +35,7 @@ public class NMSEntityComplexPart extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityComplexPart#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityComplexPart#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -43,7 +43,7 @@ public class NMSEntityComplexPart extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityComplexPart#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityComplexPart#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -52,7 +52,7 @@ public class NMSEntityComplexPart extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityComplexPart#h()
+     * @see net.minecraft.server.v1_9_R1.EntityComplexPart#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -61,7 +61,7 @@ public class NMSEntityComplexPart extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityComplexPart#k(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityComplexPart#k(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "k", types = {NMSEntity.class})
     public boolean k(NMSEntity entity){

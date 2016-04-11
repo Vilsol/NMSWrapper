@@ -17,7 +17,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -26,7 +26,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#al()
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#al()
      */
     @ReflectiveMethod(name = "al", types = {})
     public void al(){
@@ -35,7 +35,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -44,7 +44,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -53,7 +53,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -61,7 +61,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#createChild(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#createChild(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "createChild", types = {NMSEntityAgeable.class})
     public NMSEntityAgeable createChild(NMSEntityAgeable entityAgeable){
@@ -70,7 +70,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#d(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#d(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "d", types = {NMSItemStack.class})
     public boolean d(NMSItemStack itemStack){
@@ -78,7 +78,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -87,7 +87,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#e(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#e(float, float)
      */
     @ReflectiveMethod(name = "e", types = {float.class, float.class})
     public void e(float f, float f1){
@@ -95,7 +95,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#getExpValue(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#getExpValue(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "getExpValue", types = {NMSEntityHuman.class})
     public int getExpValue(NMSEntityHuman entityHuman){
@@ -103,7 +103,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -111,7 +111,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -119,7 +119,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -127,7 +127,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#isChickenJockey()
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#isChickenJockey()
      */
     @ReflectiveMethod(name = "isChickenJockey", types = {})
     public boolean isChickenJockey(){
@@ -135,7 +135,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#isTypeNotPersistent()
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#isTypeNotPersistent()
      */
     @ReflectiveMethod(name = "isTypeNotPersistent", types = {})
     public boolean isTypeNotPersistent(){
@@ -144,7 +144,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#l(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#l(boolean)
      */
     @ReflectiveMethod(name = "l", types = {boolean.class})
     public void l(boolean b){
@@ -153,7 +153,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#m()
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -162,7 +162,7 @@ public class NMSEntityChicken extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityChicken#z()
+     * @see net.minecraft.server.v1_9_R1.EntityChicken#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

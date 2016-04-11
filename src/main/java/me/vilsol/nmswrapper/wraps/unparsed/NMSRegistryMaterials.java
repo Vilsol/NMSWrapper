@@ -13,7 +13,7 @@ public class NMSRegistryMaterials extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegistryMaterials#a(int)
+     * @see net.minecraft.server.v1_9_R1.RegistryMaterials#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public Object a(int i){
@@ -22,7 +22,7 @@ public class NMSRegistryMaterials extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegistryMaterials#b(Object)
+     * @see net.minecraft.server.v1_9_R1.RegistryMaterials#b(Object)
      */
     @ReflectiveMethod(name = "b", types = {Object.class})
     public int b(Object v){
@@ -31,7 +31,7 @@ public class NMSRegistryMaterials extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegistryMaterials#c(Object)
+     * @see net.minecraft.server.v1_9_R1.RegistryMaterials#c(Object)
      */
     @ReflectiveMethod(name = "c", types = {Object.class})
     public Object c(Object v){
@@ -40,7 +40,7 @@ public class NMSRegistryMaterials extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegistryMaterials#d(Object)
+     * @see net.minecraft.server.v1_9_R1.RegistryMaterials#d(Object)
      */
     @ReflectiveMethod(name = "d", types = {Object.class})
     public boolean d(Object k){
@@ -48,7 +48,7 @@ public class NMSRegistryMaterials extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RegistryMaterials#get(Object)
+     * @see net.minecraft.server.v1_9_R1.RegistryMaterials#get(Object)
      */
     @ReflectiveMethod(name = "get", types = {Object.class})
     public Object get(Object k){

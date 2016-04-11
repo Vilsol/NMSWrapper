@@ -16,7 +16,7 @@ public class NMSBlockMonsterEggs extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockMonsterEggs#a(java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockMonsterEggs#a(java.util.Random)
      */
     @ReflectiveMethod(name = "a", types = {Random.class})
     public int a(Random random){
@@ -25,7 +25,7 @@ public class NMSBlockMonsterEggs extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockMonsterEggs#d(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockMonsterEggs#d(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "d", types = {NMSIBlockData.class})
     public boolean d(NMSIBlockData iBlockData){
@@ -33,7 +33,7 @@ public class NMSBlockMonsterEggs extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockMonsterEggs#dropNaturally(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, float, int)
+     * @see net.minecraft.server.v1_9_R1.BlockMonsterEggs#dropNaturally(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, float, int)
      */
     @ReflectiveMethod(name = "dropNaturally", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, float.class, int.class})
     public void dropNaturally(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, float f, int i){
@@ -41,7 +41,7 @@ public class NMSBlockMonsterEggs extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockMonsterEggs#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockMonsterEggs#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -49,7 +49,7 @@ public class NMSBlockMonsterEggs extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockMonsterEggs#getDropData(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockMonsterEggs#getDropData(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSWorld.class, NMSBlockPosition.class})
     public int getDropData(NMSWorld world, NMSBlockPosition blockPosition){
@@ -57,7 +57,7 @@ public class NMSBlockMonsterEggs extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockMonsterEggs#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockMonsterEggs#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -66,7 +66,7 @@ public class NMSBlockMonsterEggs extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockMonsterEggs#i(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockMonsterEggs#i(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "i", types = {NMSIBlockData.class})
     public NMSItemStack i(NMSIBlockData iBlockData){
@@ -74,7 +74,7 @@ public class NMSBlockMonsterEggs extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockMonsterEggs#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockMonsterEggs#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

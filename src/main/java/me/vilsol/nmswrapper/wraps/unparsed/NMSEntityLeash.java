@@ -21,7 +21,7 @@ public class NMSEntityLeash extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLeash#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.EntityLeash#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class})
     public NMSEntityLeash a(NMSWorld world, NMSBlockPosition blockPosition){
@@ -30,7 +30,7 @@ public class NMSEntityLeash extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLeash#b(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.EntityLeash#b(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, NMSBlockPosition.class})
     public NMSEntityLeash b(NMSWorld world, NMSBlockPosition blockPosition){
@@ -39,7 +39,7 @@ public class NMSEntityLeash extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLeash#d(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityLeash#d(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "d", types = {NMSNBTTagCompound.class})
     public boolean d(NMSNBTTagCompound nBTTagCompound){
@@ -48,7 +48,7 @@ public class NMSEntityLeash extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLeash#e(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityLeash#e(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "e", types = {NMSEntityHuman.class})
     public boolean e(NMSEntityHuman entityHuman){
@@ -56,7 +56,7 @@ public class NMSEntityLeash extends NMSEntityHanging {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLeash#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntityLeash#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -65,7 +65,7 @@ public class NMSEntityLeash extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLeash#h()
+     * @see net.minecraft.server.v1_9_R1.EntityLeash#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -74,7 +74,7 @@ public class NMSEntityLeash extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLeash#l()
+     * @see net.minecraft.server.v1_9_R1.EntityLeash#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public int l(){
@@ -83,7 +83,7 @@ public class NMSEntityLeash extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLeash#m()
+     * @see net.minecraft.server.v1_9_R1.EntityLeash#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public int m(){
@@ -91,7 +91,7 @@ public class NMSEntityLeash extends NMSEntityHanging {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLeash#setDirection(net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.EntityLeash#setDirection(net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "setDirection", types = {NMSEnumDirection.class})
     public void setDirection(NMSEnumDirection enumDirection){
@@ -99,7 +99,7 @@ public class NMSEntityLeash extends NMSEntityHanging {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLeash#survives()
+     * @see net.minecraft.server.v1_9_R1.EntityLeash#survives()
      */
     @ReflectiveMethod(name = "survives", types = {})
     public boolean survives(){

@@ -37,7 +37,7 @@ public class NMSBlockPosition extends NMSBaseBlockPosition {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPosition#a(net.minecraft.server.v1_8_R3.BaseBlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockPosition#a(net.minecraft.server.v1_9_R1.BaseBlockPosition)
      */
     @ReflectiveMethod(name = "a", types = {NMSBaseBlockPosition.class})
     public NMSBlockPosition a(NMSBaseBlockPosition baseBlockPosition){
@@ -45,7 +45,7 @@ public class NMSBlockPosition extends NMSBaseBlockPosition {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPosition#asLong()
+     * @see net.minecraft.server.v1_9_R1.BlockPosition#asLong()
      */
     @ReflectiveMethod(name = "asLong", types = {})
     public long asLong(){
@@ -54,7 +54,7 @@ public class NMSBlockPosition extends NMSBaseBlockPosition {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPosition#b(net.minecraft.server.v1_8_R3.BaseBlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockPosition#b(net.minecraft.server.v1_9_R1.BaseBlockPosition)
      */
     @ReflectiveMethod(name = "b", types = {NMSBaseBlockPosition.class})
     public NMSBlockPosition b(NMSBaseBlockPosition baseBlockPosition){
@@ -63,7 +63,7 @@ public class NMSBlockPosition extends NMSBaseBlockPosition {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPosition#c(net.minecraft.server.v1_8_R3.BaseBlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockPosition#c(net.minecraft.server.v1_9_R1.BaseBlockPosition)
      */
     @ReflectiveMethod(name = "c", types = {NMSBaseBlockPosition.class})
     public NMSBlockPosition c(NMSBaseBlockPosition baseBlockPosition){
@@ -72,7 +72,7 @@ public class NMSBlockPosition extends NMSBaseBlockPosition {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPosition#d(net.minecraft.server.v1_8_R3.BaseBlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockPosition#d(net.minecraft.server.v1_9_R1.BaseBlockPosition)
      */
     @ReflectiveMethod(name = "d", types = {NMSBaseBlockPosition.class})
     public NMSBaseBlockPosition d(NMSBaseBlockPosition baseBlockPosition){
@@ -80,7 +80,7 @@ public class NMSBlockPosition extends NMSBaseBlockPosition {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPosition#down(int)
+     * @see net.minecraft.server.v1_9_R1.BlockPosition#down(int)
      */
     @ReflectiveMethod(name = "down", types = {int.class})
     public NMSBlockPosition down(int i){
@@ -88,7 +88,7 @@ public class NMSBlockPosition extends NMSBaseBlockPosition {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPosition#east(int)
+     * @see net.minecraft.server.v1_9_R1.BlockPosition#east(int)
      */
     @ReflectiveMethod(name = "east", types = {int.class})
     public NMSBlockPosition east(int i){
@@ -96,7 +96,7 @@ public class NMSBlockPosition extends NMSBaseBlockPosition {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPosition#fromLong(long)
+     * @see net.minecraft.server.v1_9_R1.BlockPosition#fromLong(long)
      */
     @ReflectiveMethod(name = "fromLong", types = {long.class})
     public NMSBlockPosition fromLong(long l){
@@ -104,7 +104,7 @@ public class NMSBlockPosition extends NMSBaseBlockPosition {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPosition#north(int)
+     * @see net.minecraft.server.v1_9_R1.BlockPosition#north(int)
      */
     @ReflectiveMethod(name = "north", types = {int.class})
     public NMSBlockPosition north(int i){
@@ -112,7 +112,7 @@ public class NMSBlockPosition extends NMSBaseBlockPosition {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPosition#shift(net.minecraft.server.v1_8_R3.EnumDirection, int)
+     * @see net.minecraft.server.v1_9_R1.BlockPosition#shift(net.minecraft.server.v1_9_R1.EnumDirection, int)
      */
     @ReflectiveMethod(name = "shift", types = {NMSEnumDirection.class, int.class})
     public NMSBlockPosition shift(NMSEnumDirection enumDirection, int i){
@@ -120,7 +120,7 @@ public class NMSBlockPosition extends NMSBaseBlockPosition {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPosition#south(int)
+     * @see net.minecraft.server.v1_9_R1.BlockPosition#south(int)
      */
     @ReflectiveMethod(name = "south", types = {int.class})
     public NMSBlockPosition south(int i){
@@ -129,7 +129,7 @@ public class NMSBlockPosition extends NMSBaseBlockPosition {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPosition#up(int)
+     * @see net.minecraft.server.v1_9_R1.BlockPosition#up(int)
      */
     @ReflectiveMethod(name = "up", types = {int.class})
     public NMSBlockPosition up(int i){
@@ -137,7 +137,7 @@ public class NMSBlockPosition extends NMSBaseBlockPosition {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPosition#west(int)
+     * @see net.minecraft.server.v1_9_R1.BlockPosition#west(int)
      */
     @ReflectiveMethod(name = "west", types = {int.class})
     public NMSBlockPosition west(int i){

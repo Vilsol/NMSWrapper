@@ -12,7 +12,7 @@ public class NMSRemoteControlSession extends NMSRemoteConnectionThread {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RemoteControlSession#run()
+     * @see net.minecraft.server.v1_9_R1.RemoteControlSession#run()
      */
     @ReflectiveMethod(name = "run", types = {})
     public void run(){

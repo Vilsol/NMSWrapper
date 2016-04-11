@@ -17,7 +17,7 @@ public class NMSCrashReport extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CrashReport#a(java.lang.Throwable, java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.CrashReport#a(java.lang.Throwable, java.lang.String)
      */
     @ReflectiveMethod(name = "a", types = {Throwable.class, String.class})
     public NMSCrashReport a(Throwable throwable, String s){
@@ -26,7 +26,7 @@ public class NMSCrashReport extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CrashReport#b()
+     * @see net.minecraft.server.v1_9_R1.CrashReport#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public Throwable b(){
@@ -35,7 +35,7 @@ public class NMSCrashReport extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CrashReport#d()
+     * @see net.minecraft.server.v1_9_R1.CrashReport#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public String d(){
@@ -44,7 +44,7 @@ public class NMSCrashReport extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CrashReport#e()
+     * @see net.minecraft.server.v1_9_R1.CrashReport#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public String e(){
@@ -53,7 +53,7 @@ public class NMSCrashReport extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CrashReport#g()
+     * @see net.minecraft.server.v1_9_R1.CrashReport#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public NMSCrashReportSystemDetails g(){

@@ -12,7 +12,7 @@ public class NMSEntitySlice extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySlice#add(Object)
+     * @see net.minecraft.server.v1_9_R1.EntitySlice#add(Object)
      */
     @ReflectiveMethod(name = "add", types = {Object.class})
     public boolean add(Object t){
@@ -20,7 +20,7 @@ public class NMSEntitySlice extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySlice#contains(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.EntitySlice#contains(java.lang.Object)
      */
     @ReflectiveMethod(name = "contains", types = {Object.class})
     public boolean contains(Object object){
@@ -28,7 +28,7 @@ public class NMSEntitySlice extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySlice#remove(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.EntitySlice#remove(java.lang.Object)
      */
     @ReflectiveMethod(name = "remove", types = {Object.class})
     public boolean remove(Object object){
@@ -36,7 +36,7 @@ public class NMSEntitySlice extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySlice#size()
+     * @see net.minecraft.server.v1_9_R1.EntitySlice#size()
      */
     @ReflectiveMethod(name = "size", types = {})
     public int size(){

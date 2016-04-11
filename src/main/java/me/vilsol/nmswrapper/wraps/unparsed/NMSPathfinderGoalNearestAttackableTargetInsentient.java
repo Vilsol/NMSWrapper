@@ -13,7 +13,7 @@ public class NMSPathfinderGoalNearestAttackableTargetInsentient extends NMSPathf
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalNearestAttackableTargetInsentient#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalNearestAttackableTargetInsentient#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -22,7 +22,7 @@ public class NMSPathfinderGoalNearestAttackableTargetInsentient extends NMSPathf
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalNearestAttackableTargetInsentient#b()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalNearestAttackableTargetInsentient#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -31,7 +31,7 @@ public class NMSPathfinderGoalNearestAttackableTargetInsentient extends NMSPathf
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalNearestAttackableTargetInsentient#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalNearestAttackableTargetInsentient#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -40,7 +40,7 @@ public class NMSPathfinderGoalNearestAttackableTargetInsentient extends NMSPathf
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalNearestAttackableTargetInsentient#d()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalNearestAttackableTargetInsentient#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -49,7 +49,7 @@ public class NMSPathfinderGoalNearestAttackableTargetInsentient extends NMSPathf
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalNearestAttackableTargetInsentient#f()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalNearestAttackableTargetInsentient#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public double f(){

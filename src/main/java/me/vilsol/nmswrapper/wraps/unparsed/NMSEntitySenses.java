@@ -17,7 +17,7 @@ public class NMSEntitySenses extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySenses#a(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntitySenses#a(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntity.class})
     public boolean a(NMSEntity entity){

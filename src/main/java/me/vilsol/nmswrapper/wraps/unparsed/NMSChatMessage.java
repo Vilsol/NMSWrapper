@@ -17,7 +17,7 @@ public class NMSChatMessage extends NMSChatBaseComponent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatMessage#b(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.ChatMessage#b(java.lang.String)
      */
     @ReflectiveMethod(name = "b", types = {String.class})
     public void b(String s){
@@ -25,7 +25,7 @@ public class NMSChatMessage extends NMSChatBaseComponent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatMessage#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.ChatMessage#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -34,7 +34,7 @@ public class NMSChatMessage extends NMSChatBaseComponent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatMessage#f()
+     * @see net.minecraft.server.v1_9_R1.ChatMessage#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public NMSIChatBaseComponent f(){
@@ -43,7 +43,7 @@ public class NMSChatMessage extends NMSChatBaseComponent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatMessage#g()
+     * @see net.minecraft.server.v1_9_R1.ChatMessage#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public void g(){
@@ -51,7 +51,7 @@ public class NMSChatMessage extends NMSChatBaseComponent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatMessage#getText()
+     * @see net.minecraft.server.v1_9_R1.ChatMessage#getText()
      */
     @ReflectiveMethod(name = "getText", types = {})
     public String getText(){
@@ -60,7 +60,7 @@ public class NMSChatMessage extends NMSChatBaseComponent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatMessage#h()
+     * @see net.minecraft.server.v1_9_R1.ChatMessage#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public NMSChatMessage h(){
@@ -68,7 +68,7 @@ public class NMSChatMessage extends NMSChatBaseComponent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatMessage#hashCode()
+     * @see net.minecraft.server.v1_9_R1.ChatMessage#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -77,7 +77,7 @@ public class NMSChatMessage extends NMSChatBaseComponent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatMessage#i()
+     * @see net.minecraft.server.v1_9_R1.ChatMessage#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public String i(){
@@ -85,7 +85,7 @@ public class NMSChatMessage extends NMSChatBaseComponent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatMessage#setChatModifier(net.minecraft.server.v1_8_R3.ChatModifier)
+     * @see net.minecraft.server.v1_9_R1.ChatMessage#setChatModifier(net.minecraft.server.v1_9_R1.ChatModifier)
      */
     @ReflectiveMethod(name = "setChatModifier", types = {NMSChatModifier.class})
     public NMSIChatBaseComponent setChatModifier(NMSChatModifier chatModifier){
@@ -93,7 +93,7 @@ public class NMSChatMessage extends NMSChatBaseComponent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatMessage#toString()
+     * @see net.minecraft.server.v1_9_R1.ChatMessage#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

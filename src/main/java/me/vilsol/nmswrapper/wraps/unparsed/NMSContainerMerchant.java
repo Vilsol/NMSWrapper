@@ -19,7 +19,7 @@ public class NMSContainerMerchant extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerMerchant#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ContainerMerchant#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -27,7 +27,7 @@ public class NMSContainerMerchant extends NMSContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ContainerMerchant#addSlotListener(net.minecraft.server.v1_8_R3.ICrafting)
+     * @see net.minecraft.server.v1_9_R1.ContainerMerchant#addSlotListener(net.minecraft.server.v1_9_R1.ICrafting)
      */
     @ReflectiveMethod(name = "addSlotListener", types = {NMSICrafting.class})
     public void addSlotListener(NMSICrafting iCrafting){
@@ -36,7 +36,7 @@ public class NMSContainerMerchant extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerMerchant#b(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ContainerMerchant#b(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityHuman.class})
     public void b(NMSEntityHuman entityHuman){
@@ -45,7 +45,7 @@ public class NMSContainerMerchant extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerMerchant#d(int)
+     * @see net.minecraft.server.v1_9_R1.ContainerMerchant#d(int)
      */
     @ReflectiveMethod(name = "d", types = {int.class})
     public void d(int i){
@@ -54,7 +54,7 @@ public class NMSContainerMerchant extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerMerchant#e()
+     * @see net.minecraft.server.v1_9_R1.ContainerMerchant#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public NMSInventoryMerchant e(){
@@ -62,7 +62,7 @@ public class NMSContainerMerchant extends NMSContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ContainerMerchant#getBukkitView()
+     * @see net.minecraft.server.v1_9_R1.ContainerMerchant#getBukkitView()
      */
     @ReflectiveMethod(name = "getBukkitView", types = {})
     public InventoryView getBukkitView(){

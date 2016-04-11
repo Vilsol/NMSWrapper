@@ -17,7 +17,7 @@ public class NMSEntityIronGolem extends NMSEntityGolem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityIronGolem#E()
+     * @see net.minecraft.server.v1_9_R1.EntityIronGolem#E()
      */
     @ReflectiveMethod(name = "E", types = {})
     public void E(){
@@ -26,7 +26,7 @@ public class NMSEntityIronGolem extends NMSEntityGolem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityIronGolem#a(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.EntityIronGolem#a(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "a", types = {NMSBlockPosition.class, NMSBlock.class})
     public void a(NMSBlockPosition blockPosition, NMSBlock block){
@@ -35,7 +35,7 @@ public class NMSEntityIronGolem extends NMSEntityGolem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityIronGolem#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityIronGolem#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -44,7 +44,7 @@ public class NMSEntityIronGolem extends NMSEntityGolem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityIronGolem#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityIronGolem#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -53,7 +53,7 @@ public class NMSEntityIronGolem extends NMSEntityGolem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityIronGolem#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityIronGolem#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -62,7 +62,7 @@ public class NMSEntityIronGolem extends NMSEntityGolem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityIronGolem#cm()
+     * @see net.minecraft.server.v1_9_R1.EntityIronGolem#cm()
      */
     @ReflectiveMethod(name = "cm", types = {})
     public int cm(){
@@ -70,7 +70,7 @@ public class NMSEntityIronGolem extends NMSEntityGolem {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityIronGolem#die(net.minecraft.server.v1_8_R3.DamageSource)
+     * @see net.minecraft.server.v1_9_R1.EntityIronGolem#die(net.minecraft.server.v1_9_R1.DamageSource)
      */
     @ReflectiveMethod(name = "die", types = {NMSDamageSource.class})
     public void die(NMSDamageSource damageSource){
@@ -78,7 +78,7 @@ public class NMSEntityIronGolem extends NMSEntityGolem {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityIronGolem#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityIronGolem#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -87,7 +87,7 @@ public class NMSEntityIronGolem extends NMSEntityGolem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityIronGolem#h()
+     * @see net.minecraft.server.v1_9_R1.EntityIronGolem#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -95,7 +95,7 @@ public class NMSEntityIronGolem extends NMSEntityGolem {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityIronGolem#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityIronGolem#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -103,7 +103,7 @@ public class NMSEntityIronGolem extends NMSEntityGolem {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityIronGolem#isPlayerCreated()
+     * @see net.minecraft.server.v1_9_R1.EntityIronGolem#isPlayerCreated()
      */
     @ReflectiveMethod(name = "isPlayerCreated", types = {})
     public boolean isPlayerCreated(){
@@ -112,7 +112,7 @@ public class NMSEntityIronGolem extends NMSEntityGolem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityIronGolem#j(int)
+     * @see net.minecraft.server.v1_9_R1.EntityIronGolem#j(int)
      */
     @ReflectiveMethod(name = "j", types = {int.class})
     public int j(int i){
@@ -121,7 +121,7 @@ public class NMSEntityIronGolem extends NMSEntityGolem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityIronGolem#m()
+     * @see net.minecraft.server.v1_9_R1.EntityIronGolem#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -130,7 +130,7 @@ public class NMSEntityIronGolem extends NMSEntityGolem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityIronGolem#n()
+     * @see net.minecraft.server.v1_9_R1.EntityIronGolem#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public NMSVillage n(){
@@ -139,7 +139,7 @@ public class NMSEntityIronGolem extends NMSEntityGolem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityIronGolem#r(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityIronGolem#r(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "r", types = {NMSEntity.class})
     public boolean r(NMSEntity entity){
@@ -148,7 +148,7 @@ public class NMSEntityIronGolem extends NMSEntityGolem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityIronGolem#s(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityIronGolem#s(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "s", types = {NMSEntity.class})
     public void s(NMSEntity entity){
@@ -156,7 +156,7 @@ public class NMSEntityIronGolem extends NMSEntityGolem {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityIronGolem#setPlayerCreated(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityIronGolem#setPlayerCreated(boolean)
      */
     @ReflectiveMethod(name = "setPlayerCreated", types = {boolean.class})
     public void setPlayerCreated(boolean b){

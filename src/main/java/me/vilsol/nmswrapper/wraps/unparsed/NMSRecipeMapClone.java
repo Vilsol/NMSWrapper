@@ -13,7 +13,7 @@ public class NMSRecipeMapClone extends NMSShapelessRecipes implements NMSIRecipe
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RecipeMapClone#a()
+     * @see net.minecraft.server.v1_9_R1.RecipeMapClone#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public int a(){
@@ -22,7 +22,7 @@ public class NMSRecipeMapClone extends NMSShapelessRecipes implements NMSIRecipe
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RecipeMapClone#b()
+     * @see net.minecraft.server.v1_9_R1.RecipeMapClone#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSItemStack b(){

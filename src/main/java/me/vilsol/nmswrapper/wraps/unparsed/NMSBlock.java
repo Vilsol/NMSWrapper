@@ -26,7 +26,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#A()
+     * @see net.minecraft.server.v1_9_R1.Block#A()
      */
     @ReflectiveMethod(name = "A", types = {})
     public boolean A(){
@@ -35,7 +35,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#B()
+     * @see net.minecraft.server.v1_9_R1.Block#B()
      */
     @ReflectiveMethod(name = "B", types = {})
     public double B(){
@@ -44,7 +44,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#C()
+     * @see net.minecraft.server.v1_9_R1.Block#C()
      */
     @ReflectiveMethod(name = "C", types = {})
     public double C(){
@@ -53,7 +53,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#D()
+     * @see net.minecraft.server.v1_9_R1.Block#D()
      */
     @ReflectiveMethod(name = "D", types = {})
     public double D(){
@@ -62,7 +62,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#E()
+     * @see net.minecraft.server.v1_9_R1.Block#E()
      */
     @ReflectiveMethod(name = "E", types = {})
     public double E(){
@@ -71,7 +71,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#F()
+     * @see net.minecraft.server.v1_9_R1.Block#F()
      */
     @ReflectiveMethod(name = "F", types = {})
     public double F(){
@@ -80,7 +80,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#G()
+     * @see net.minecraft.server.v1_9_R1.Block#G()
      */
     @ReflectiveMethod(name = "G", types = {})
     public double G(){
@@ -89,7 +89,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#I()
+     * @see net.minecraft.server.v1_9_R1.Block#I()
      */
     @ReflectiveMethod(name = "I", types = {})
     public boolean I(){
@@ -98,7 +98,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#J()
+     * @see net.minecraft.server.v1_9_R1.Block#J()
      */
     @ReflectiveMethod(name = "J", types = {})
     public boolean J(){
@@ -107,7 +107,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#K()
+     * @see net.minecraft.server.v1_9_R1.Block#K()
      */
     @ReflectiveMethod(name = "K", types = {})
     public NMSBlock K(){
@@ -116,7 +116,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#N()
+     * @see net.minecraft.server.v1_9_R1.Block#N()
      */
     @ReflectiveMethod(name = "N", types = {})
     public boolean N(){
@@ -125,7 +125,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#P()
+     * @see net.minecraft.server.v1_9_R1.Block#P()
      */
     @ReflectiveMethod(name = "P", types = {})
     public NMSBlockStateList P(){
@@ -134,7 +134,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#S()
+     * @see net.minecraft.server.v1_9_R1.Block#S()
      */
     @ReflectiveMethod(name = "S", types = {})
     public void S(){
@@ -143,7 +143,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#a(net.minecraft.server.v1_8_R3.Block, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.Block#a(net.minecraft.server.v1_9_R1.Block, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "a", types = {NMSBlock.class, NMSBlock.class})
     public boolean a(NMSBlock block, NMSBlock block1){
@@ -151,7 +151,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#asBlock(net.minecraft.server.v1_8_R3.Item)
+     * @see net.minecraft.server.v1_9_R1.Block#asBlock(net.minecraft.server.v1_9_R1.Item)
      */
     @ReflectiveMethod(name = "asBlock", types = {NMSItem.class})
     public NMSBlock asBlock(NMSItem item){
@@ -159,7 +159,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#attack(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.Block#attack(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "attack", types = {NMSWorld.class, NMSBlockPosition.class, NMSEntityHuman.class})
     public void attack(NMSWorld world, NMSBlockPosition blockPosition, NMSEntityHuman entityHuman){
@@ -168,7 +168,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#b(net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.Block#b(net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "b", types = {NMSBlock.class})
     public boolean b(NMSBlock block){
@@ -177,7 +177,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#c(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.Block#c(java.lang.String)
      */
     @ReflectiveMethod(name = "c", types = {String.class})
     public NMSBlock c(String s){
@@ -185,7 +185,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#canPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.Block#canPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "canPlace", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean canPlace(NMSWorld world, NMSBlockPosition blockPosition){
@@ -194,7 +194,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#d()
+     * @see net.minecraft.server.v1_9_R1.Block#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -202,7 +202,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.Block#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -210,7 +210,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#dropExperience(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, int)
+     * @see net.minecraft.server.v1_9_R1.Block#dropExperience(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, int)
      */
     @ReflectiveMethod(name = "dropExperience", types = {NMSWorld.class, NMSBlockPosition.class, int.class})
     public void dropExperience(NMSWorld world, NMSBlockPosition blockPosition, int i){
@@ -218,7 +218,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#dropNaturally(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, float, int)
+     * @see net.minecraft.server.v1_9_R1.Block#dropNaturally(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, float, int)
      */
     @ReflectiveMethod(name = "dropNaturally", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, float.class, int.class})
     public void dropNaturally(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, float f, int i){
@@ -227,7 +227,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#e(int)
+     * @see net.minecraft.server.v1_9_R1.Block#e(int)
      */
     @ReflectiveMethod(name = "e", types = {int.class})
     public NMSBlock e(int i){
@@ -235,7 +235,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.Block#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -244,7 +244,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#g()
+     * @see net.minecraft.server.v1_9_R1.Block#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public boolean g(){
@@ -252,7 +252,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#getBlockData()
+     * @see net.minecraft.server.v1_9_R1.Block#getBlockData()
      */
     @ReflectiveMethod(name = "getBlockData", types = {})
     public NMSIBlockData getBlockData(){
@@ -260,7 +260,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#getByCombinedId(int)
+     * @see net.minecraft.server.v1_9_R1.Block#getByCombinedId(int)
      */
     @ReflectiveMethod(name = "getByCombinedId", types = {int.class})
     public NMSIBlockData getByCombinedId(int i){
@@ -268,7 +268,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#getById(int)
+     * @see net.minecraft.server.v1_9_R1.Block#getById(int)
      */
     @ReflectiveMethod(name = "getById", types = {int.class})
     public NMSBlock getById(int i){
@@ -276,7 +276,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#getByName(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.Block#getByName(java.lang.String)
      */
     @ReflectiveMethod(name = "getByName", types = {String.class})
     public NMSBlock getByName(String s){
@@ -284,7 +284,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#getCombinedId(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.Block#getCombinedId(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getCombinedId", types = {NMSIBlockData.class})
     public int getCombinedId(NMSIBlockData iBlockData){
@@ -292,7 +292,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#getDamage(net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.Block#getDamage(net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getDamage", types = {NMSEntityHuman.class, NMSWorld.class, NMSBlockPosition.class})
     public float getDamage(NMSEntityHuman entityHuman, NMSWorld world, NMSBlockPosition blockPosition){
@@ -300,7 +300,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#getDropCount(int, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.Block#getDropCount(int, java.util.Random)
      */
     @ReflectiveMethod(name = "getDropCount", types = {int.class, Random.class})
     public int getDropCount(int i, Random random){
@@ -308,7 +308,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#getDropData(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.Block#getDropData(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSWorld.class, NMSBlockPosition.class})
     public int getDropData(NMSWorld world, NMSBlockPosition blockPosition){
@@ -316,7 +316,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.Block#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -324,7 +324,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#getExpDrop(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.IBlockData, int)
+     * @see net.minecraft.server.v1_9_R1.Block#getExpDrop(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.IBlockData, int)
      */
     @ReflectiveMethod(name = "getExpDrop", types = {NMSWorld.class, NMSIBlockData.class, int.class})
     public int getExpDrop(NMSWorld world, NMSIBlockData iBlockData, int i){
@@ -332,7 +332,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#getId(net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.Block#getId(net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "getId", types = {NMSBlock.class})
     public int getId(NMSBlock block){
@@ -340,7 +340,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#getMaterial()
+     * @see net.minecraft.server.v1_9_R1.Block#getMaterial()
      */
     @ReflectiveMethod(name = "getMaterial", types = {})
     public NMSMaterial getMaterial(){
@@ -348,7 +348,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#getName()
+     * @see net.minecraft.server.v1_9_R1.Block#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -356,7 +356,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#getPlacedState(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float, int, net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.Block#getPlacedState(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float, int, net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getPlacedState", types = {NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class, float.class, float.class, float.class, int.class, NMSEntityLiving.class})
     public NMSIBlockData getPlacedState(NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, float f, float f1, float f2, int i, NMSEntityLiving entityLiving){
@@ -364,7 +364,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#getStateList()
+     * @see net.minecraft.server.v1_9_R1.Block#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -373,7 +373,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#i(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.Block#i(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "i", types = {NMSIBlockData.class})
     public NMSItemStack i(NMSIBlockData iBlockData){
@@ -381,7 +381,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.Block#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -389,7 +389,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#isComplexRedstone()
+     * @see net.minecraft.server.v1_9_R1.Block#isComplexRedstone()
      */
     @ReflectiveMethod(name = "isComplexRedstone", types = {})
     public boolean isComplexRedstone(){
@@ -397,7 +397,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#isOccluding()
+     * @see net.minecraft.server.v1_9_R1.Block#isOccluding()
      */
     @ReflectiveMethod(name = "isOccluding", types = {})
     public boolean isOccluding(){
@@ -405,7 +405,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#isPowerSource()
+     * @see net.minecraft.server.v1_9_R1.Block#isPowerSource()
      */
     @ReflectiveMethod(name = "isPowerSource", types = {})
     public boolean isPowerSource(){
@@ -413,7 +413,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#isTicking()
+     * @see net.minecraft.server.v1_9_R1.Block#isTicking()
      */
     @ReflectiveMethod(name = "isTicking", types = {})
     public boolean isTicking(){
@@ -421,7 +421,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#isTileEntity()
+     * @see net.minecraft.server.v1_9_R1.Block#isTileEntity()
      */
     @ReflectiveMethod(name = "isTileEntity", types = {})
     public boolean isTileEntity(){
@@ -430,7 +430,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#j(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.Block#j(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "j", types = {NMSIBlockData.class})
     public void j(NMSIBlockData iBlockData){
@@ -439,7 +439,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#k(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.Block#k(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "k", types = {NMSWorld.class, NMSBlockPosition.class})
     public void k(NMSWorld world, NMSBlockPosition blockPosition){
@@ -448,7 +448,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#l(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.Block#l(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "l", types = {NMSWorld.class, NMSBlockPosition.class})
     public int l(NMSWorld world, NMSBlockPosition blockPosition){
@@ -457,7 +457,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#o()
+     * @see net.minecraft.server.v1_9_R1.Block#o()
      */
     @ReflectiveMethod(name = "o", types = {})
     public boolean o(){
@@ -465,7 +465,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#onPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.Block#onPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "onPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void onPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -474,7 +474,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#p()
+     * @see net.minecraft.server.v1_9_R1.Block#p()
      */
     @ReflectiveMethod(name = "p", types = {})
     public int p(){
@@ -482,7 +482,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#postBreak(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.Block#postBreak(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "postBreak", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void postBreak(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -490,7 +490,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#postPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityLiving, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.Block#postPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityLiving, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "postPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityLiving.class, NMSItemStack.class})
     public void postPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityLiving entityLiving, NMSItemStack itemStack){
@@ -499,7 +499,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#r()
+     * @see net.minecraft.server.v1_9_R1.Block#r()
      */
     @ReflectiveMethod(name = "r", types = {})
     public int r(){
@@ -507,7 +507,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#range(float, float, float)
+     * @see net.minecraft.server.v1_9_R1.Block#range(float, float, float)
      */
     @ReflectiveMethod(name = "range", types = {float.class, float.class, float.class})
     public float range(float f, float f1, float f2){
@@ -515,7 +515,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#remove(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.Block#remove(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "remove", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void remove(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -524,7 +524,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#s()
+     * @see net.minecraft.server.v1_9_R1.Block#s()
      */
     @ReflectiveMethod(name = "s", types = {})
     public boolean s(){
@@ -532,7 +532,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.Block#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -540,7 +540,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#toString()
+     * @see net.minecraft.server.v1_9_R1.Block#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){
@@ -549,7 +549,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#u()
+     * @see net.minecraft.server.v1_9_R1.Block#u()
      */
     @ReflectiveMethod(name = "u", types = {})
     public boolean u(){
@@ -557,7 +557,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.Block#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -565,7 +565,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#updateState(net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.Block#updateState(net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateState", types = {NMSIBlockData.class, NMSIBlockAccess.class, NMSBlockPosition.class})
     public NMSIBlockData updateState(NMSIBlockData iBlockData, NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -574,7 +574,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#w()
+     * @see net.minecraft.server.v1_9_R1.Block#w()
      */
     @ReflectiveMethod(name = "w", types = {})
     public boolean w(){
@@ -582,7 +582,7 @@ public class NMSBlock extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Block#wasExploded(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.Explosion)
+     * @see net.minecraft.server.v1_9_R1.Block#wasExploded(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.Explosion)
      */
     @ReflectiveMethod(name = "wasExploded", types = {NMSWorld.class, NMSBlockPosition.class, NMSExplosion.class})
     public void wasExploded(NMSWorld world, NMSBlockPosition blockPosition, NMSExplosion explosion){
@@ -591,7 +591,7 @@ public class NMSBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Block#x()
+     * @see net.minecraft.server.v1_9_R1.Block#x()
      */
     @ReflectiveMethod(name = "x", types = {})
     public NMSBlock x(){
@@ -610,7 +610,7 @@ public class NMSBlock extends NMSWrap {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.Block$StepSound#getBreakSound()
+         * @see net.minecraft.server.v1_9_R1.Block$StepSound#getBreakSound()
          */
         @ReflectiveMethod(name = "getBreakSound", types = {})
         public String getBreakSound(){
@@ -618,7 +618,7 @@ public class NMSBlock extends NMSWrap {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.Block$StepSound#getPlaceSound()
+         * @see net.minecraft.server.v1_9_R1.Block$StepSound#getPlaceSound()
          */
         @ReflectiveMethod(name = "getPlaceSound", types = {})
         public String getPlaceSound(){
@@ -626,7 +626,7 @@ public class NMSBlock extends NMSWrap {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.Block$StepSound#getStepSound()
+         * @see net.minecraft.server.v1_9_R1.Block$StepSound#getStepSound()
          */
         @ReflectiveMethod(name = "getStepSound", types = {})
         public String getStepSound(){
@@ -634,7 +634,7 @@ public class NMSBlock extends NMSWrap {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.Block$StepSound#getVolume1()
+         * @see net.minecraft.server.v1_9_R1.Block$StepSound#getVolume1()
          */
         @ReflectiveMethod(name = "getVolume1", types = {})
         public float getVolume1(){
@@ -642,7 +642,7 @@ public class NMSBlock extends NMSWrap {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.Block$StepSound#getVolume2()
+         * @see net.minecraft.server.v1_9_R1.Block$StepSound#getVolume2()
          */
         @ReflectiveMethod(name = "getVolume2", types = {})
         public float getVolume2(){

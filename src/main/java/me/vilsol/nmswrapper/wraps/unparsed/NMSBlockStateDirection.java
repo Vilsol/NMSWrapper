@@ -13,7 +13,7 @@ public class NMSBlockStateDirection extends NMSBlockStateEnum {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStateDirection#of(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.BlockStateDirection#of(java.lang.String)
      */
     @ReflectiveMethod(name = "of", types = {String.class})
     public NMSBlockStateDirection of(String s){

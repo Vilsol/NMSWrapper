@@ -17,7 +17,7 @@ public class NMSPathfinderGoalOwnerHurtTarget extends NMSPathfinderGoalTarget {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalOwnerHurtTarget#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalOwnerHurtTarget#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalOwnerHurtTarget extends NMSPathfinderGoalTarget {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalOwnerHurtTarget#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalOwnerHurtTarget#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){

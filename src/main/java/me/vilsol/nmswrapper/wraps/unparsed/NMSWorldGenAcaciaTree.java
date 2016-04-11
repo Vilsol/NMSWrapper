@@ -18,7 +18,7 @@ public class NMSWorldGenAcaciaTree extends NMSWorldGenTreeAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldGenAcaciaTree#generate(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.WorldGenAcaciaTree#generate(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "generate", types = {NMSWorld.class, Random.class, NMSBlockPosition.class})
     public boolean generate(NMSWorld world, Random random, NMSBlockPosition blockPosition){

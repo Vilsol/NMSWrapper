@@ -19,7 +19,7 @@ public class NMSWorldGenEnder extends NMSWorldGenerator {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldGenEnder#generate(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.WorldGenEnder#generate(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "generate", types = {NMSWorld.class, Random.class, NMSBlockPosition.class})
     public boolean generate(NMSWorld world, Random random, NMSBlockPosition blockPosition){

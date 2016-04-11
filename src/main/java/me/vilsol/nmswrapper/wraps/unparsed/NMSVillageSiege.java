@@ -17,7 +17,7 @@ public class NMSVillageSiege extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.VillageSiege#a()
+     * @see net.minecraft.server.v1_9_R1.VillageSiege#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public void a(){

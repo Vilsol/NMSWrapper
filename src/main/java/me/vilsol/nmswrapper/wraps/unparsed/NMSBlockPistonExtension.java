@@ -16,7 +16,7 @@ public class NMSBlockPistonExtension extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPistonExtension#a(java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockPistonExtension#a(java.util.Random)
      */
     @ReflectiveMethod(name = "a", types = {Random.class})
     public int a(Random random){
@@ -25,7 +25,7 @@ public class NMSBlockPistonExtension extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPistonExtension#b(int)
+     * @see net.minecraft.server.v1_9_R1.BlockPistonExtension#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public NMSEnumDirection b(int i){
@@ -34,7 +34,7 @@ public class NMSBlockPistonExtension extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPistonExtension#c()
+     * @see net.minecraft.server.v1_9_R1.BlockPistonExtension#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -42,7 +42,7 @@ public class NMSBlockPistonExtension extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPistonExtension#canPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.BlockPistonExtension#canPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "canPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class})
     public boolean canPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection){
@@ -51,7 +51,7 @@ public class NMSBlockPistonExtension extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPistonExtension#d(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockPistonExtension#d(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "d", types = {NMSIBlockData.class})
     public void d(NMSIBlockData iBlockData){
@@ -59,7 +59,7 @@ public class NMSBlockPistonExtension extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPistonExtension#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockPistonExtension#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -67,7 +67,7 @@ public class NMSBlockPistonExtension extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPistonExtension#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockPistonExtension#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -75,7 +75,7 @@ public class NMSBlockPistonExtension extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPistonExtension#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockPistonExtension#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -83,7 +83,7 @@ public class NMSBlockPistonExtension extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPistonExtension#remove(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockPistonExtension#remove(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "remove", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void remove(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -91,7 +91,7 @@ public class NMSBlockPistonExtension extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPistonExtension#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockPistonExtension#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -99,7 +99,7 @@ public class NMSBlockPistonExtension extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPistonExtension#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockPistonExtension#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

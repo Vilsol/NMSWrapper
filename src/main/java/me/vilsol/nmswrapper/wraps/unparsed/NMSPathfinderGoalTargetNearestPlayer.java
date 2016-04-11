@@ -17,7 +17,7 @@ public class NMSPathfinderGoalTargetNearestPlayer extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalTargetNearestPlayer#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalTargetNearestPlayer#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalTargetNearestPlayer extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalTargetNearestPlayer#b()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalTargetNearestPlayer#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -35,7 +35,7 @@ public class NMSPathfinderGoalTargetNearestPlayer extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalTargetNearestPlayer#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalTargetNearestPlayer#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -44,7 +44,7 @@ public class NMSPathfinderGoalTargetNearestPlayer extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalTargetNearestPlayer#d()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalTargetNearestPlayer#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -53,7 +53,7 @@ public class NMSPathfinderGoalTargetNearestPlayer extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalTargetNearestPlayer#f()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalTargetNearestPlayer#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public double f(){

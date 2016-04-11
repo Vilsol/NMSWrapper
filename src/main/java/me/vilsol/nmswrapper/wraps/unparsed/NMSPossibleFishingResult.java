@@ -18,7 +18,7 @@ public class NMSPossibleFishingResult extends NMSWeightedRandom.NMSWeightedRando
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PossibleFishingResult#a()
+     * @see net.minecraft.server.v1_9_R1.PossibleFishingResult#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public NMSPossibleFishingResult a(){

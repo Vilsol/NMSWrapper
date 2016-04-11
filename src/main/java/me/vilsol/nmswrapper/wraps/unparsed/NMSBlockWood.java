@@ -12,7 +12,7 @@ public class NMSBlockWood extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockWood#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockWood#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -21,7 +21,7 @@ public class NMSBlockWood extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockWood#g(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockWood#g(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "g", types = {NMSIBlockData.class})
     public NMSMaterialMapColor g(NMSIBlockData iBlockData){
@@ -29,7 +29,7 @@ public class NMSBlockWood extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockWood#getDropData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockWood#getDropData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSIBlockData.class})
     public int getDropData(NMSIBlockData iBlockData){
@@ -37,7 +37,7 @@ public class NMSBlockWood extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockWood#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockWood#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -45,7 +45,7 @@ public class NMSBlockWood extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockWood#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockWood#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

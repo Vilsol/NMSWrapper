@@ -13,7 +13,7 @@ public class NMSPathEntity extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathEntity#a(net.minecraft.server.v1_8_R3.PathEntity)
+     * @see net.minecraft.server.v1_9_R1.PathEntity#a(net.minecraft.server.v1_9_R1.PathEntity)
      */
     @ReflectiveMethod(name = "a", types = {NMSPathEntity.class})
     public boolean a(NMSPathEntity pathEntity){
@@ -22,7 +22,7 @@ public class NMSPathEntity extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathEntity#b(net.minecraft.server.v1_8_R3.Vec3D)
+     * @see net.minecraft.server.v1_9_R1.PathEntity#b(net.minecraft.server.v1_9_R1.Vec3D)
      */
     @ReflectiveMethod(name = "b", types = {NMSVec3D.class})
     public boolean b(NMSVec3D vec3D){
@@ -31,7 +31,7 @@ public class NMSPathEntity extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathEntity#c(int)
+     * @see net.minecraft.server.v1_9_R1.PathEntity#c(int)
      */
     @ReflectiveMethod(name = "c", types = {int.class})
     public void c(int i){
@@ -40,7 +40,7 @@ public class NMSPathEntity extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathEntity#d()
+     * @see net.minecraft.server.v1_9_R1.PathEntity#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public int d(){
@@ -49,7 +49,7 @@ public class NMSPathEntity extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathEntity#e()
+     * @see net.minecraft.server.v1_9_R1.PathEntity#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public int e(){

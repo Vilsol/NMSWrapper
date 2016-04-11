@@ -20,7 +20,7 @@ public class NMSBlockFalling extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFalling#a(net.minecraft.server.v1_8_R3.World)
+     * @see net.minecraft.server.v1_9_R1.BlockFalling#a(net.minecraft.server.v1_9_R1.World)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class})
     public int a(NMSWorld world){
@@ -29,7 +29,7 @@ public class NMSBlockFalling extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFalling#a_(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockFalling#a_(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "a_", types = {NMSWorld.class, NMSBlockPosition.class})
     public void a_(NMSWorld world, NMSBlockPosition blockPosition){
@@ -38,7 +38,7 @@ public class NMSBlockFalling extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFalling#b(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockFalling#b(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, java.util.Random)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, Random.class})
     public void b(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, Random random){
@@ -46,7 +46,7 @@ public class NMSBlockFalling extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFalling#canFall(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockFalling#canFall(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "canFall", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean canFall(NMSWorld world, NMSBlockPosition blockPosition){
@@ -54,7 +54,7 @@ public class NMSBlockFalling extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFalling#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockFalling#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -62,7 +62,7 @@ public class NMSBlockFalling extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFalling#onPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockFalling#onPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "onPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void onPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){

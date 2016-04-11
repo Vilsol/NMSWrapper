@@ -13,7 +13,7 @@ public class NMSBiomeDecorator extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeDecorator#a()
+     * @see net.minecraft.server.v1_9_R1.BiomeDecorator#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public void a(){
@@ -22,7 +22,7 @@ public class NMSBiomeDecorator extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeDecorator#b(int, net.minecraft.server.v1_8_R3.WorldGenerator, int, int)
+     * @see net.minecraft.server.v1_9_R1.BiomeDecorator#b(int, net.minecraft.server.v1_9_R1.WorldGenerator, int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, NMSWorldGenerator.class, int.class, int.class})
     public void b(int i, NMSWorldGenerator worldGenerator, int i1, int i2){

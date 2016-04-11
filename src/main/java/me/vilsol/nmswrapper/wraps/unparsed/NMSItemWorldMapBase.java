@@ -13,7 +13,7 @@ public class NMSItemWorldMapBase extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemWorldMapBase#c(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ItemWorldMapBase#c(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "c", types = {NMSItemStack.class, NMSWorld.class, NMSEntityHuman.class})
     public NMSPacket c(NMSItemStack itemStack, NMSWorld world, NMSEntityHuman entityHuman){
@@ -22,7 +22,7 @@ public class NMSItemWorldMapBase extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemWorldMapBase#f()
+     * @see net.minecraft.server.v1_9_R1.ItemWorldMapBase#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public boolean f(){

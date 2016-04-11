@@ -17,7 +17,7 @@ public class NMSControllerMove extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ControllerMove#a(float, float, float)
+     * @see net.minecraft.server.v1_9_R1.ControllerMove#a(float, float, float)
      */
     @ReflectiveMethod(name = "a", types = {float.class, float.class, float.class})
     public float a(float f, float f1, float f2){
@@ -26,7 +26,7 @@ public class NMSControllerMove extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ControllerMove#b()
+     * @see net.minecraft.server.v1_9_R1.ControllerMove#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public double b(){
@@ -35,7 +35,7 @@ public class NMSControllerMove extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ControllerMove#c()
+     * @see net.minecraft.server.v1_9_R1.ControllerMove#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -44,7 +44,7 @@ public class NMSControllerMove extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ControllerMove#d()
+     * @see net.minecraft.server.v1_9_R1.ControllerMove#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public double d(){
@@ -53,7 +53,7 @@ public class NMSControllerMove extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ControllerMove#e()
+     * @see net.minecraft.server.v1_9_R1.ControllerMove#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public double e(){
@@ -62,7 +62,7 @@ public class NMSControllerMove extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ControllerMove#f()
+     * @see net.minecraft.server.v1_9_R1.ControllerMove#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public double f(){

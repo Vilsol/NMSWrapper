@@ -18,7 +18,7 @@ public class NMSMobEffectList extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MobEffectList#a(int, net.minecraft.server.v1_8_R3.AttributeModifier)
+     * @see net.minecraft.server.v1_9_R1.MobEffectList#a(int, net.minecraft.server.v1_9_R1.AttributeModifier)
      */
     @ReflectiveMethod(name = "a", types = {int.class, NMSAttributeModifier.class})
     public double a(int i, NMSAttributeModifier attributeModifier){
@@ -26,7 +26,7 @@ public class NMSMobEffectList extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MobEffectList#applyInstantEffect(net.minecraft.server.v1_8_R3.Entity, net.minecraft.server.v1_8_R3.Entity, net.minecraft.server.v1_8_R3.EntityLiving, int, double)
+     * @see net.minecraft.server.v1_9_R1.MobEffectList#applyInstantEffect(net.minecraft.server.v1_9_R1.Entity, net.minecraft.server.v1_9_R1.Entity, net.minecraft.server.v1_9_R1.EntityLiving, int, double)
      */
     @ReflectiveMethod(name = "applyInstantEffect", types = {NMSEntity.class, NMSEntity.class, NMSEntityLiving.class, int.class, double.class})
     public void applyInstantEffect(NMSEntity entity, NMSEntity entity1, NMSEntityLiving entityLiving, int i, double d){
@@ -35,7 +35,7 @@ public class NMSMobEffectList extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MobEffectList#b(net.minecraft.server.v1_8_R3.EntityLiving, net.minecraft.server.v1_8_R3.AttributeMapBase, int)
+     * @see net.minecraft.server.v1_9_R1.MobEffectList#b(net.minecraft.server.v1_9_R1.EntityLiving, net.minecraft.server.v1_9_R1.AttributeMapBase, int)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityLiving.class, NMSAttributeMapBase.class, int.class})
     public void b(NMSEntityLiving entityLiving, NMSAttributeMapBase attributeMapBase, int i){
@@ -44,7 +44,7 @@ public class NMSMobEffectList extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MobEffectList#c(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.MobEffectList#c(java.lang.String)
      */
     @ReflectiveMethod(name = "c", types = {String.class})
     public NMSMobEffectList c(String s){
@@ -52,7 +52,7 @@ public class NMSMobEffectList extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MobEffectList#getDurationModifier()
+     * @see net.minecraft.server.v1_9_R1.MobEffectList#getDurationModifier()
      */
     @ReflectiveMethod(name = "getDurationModifier", types = {})
     public double getDurationModifier(){
@@ -60,7 +60,7 @@ public class NMSMobEffectList extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MobEffectList#getId()
+     * @see net.minecraft.server.v1_9_R1.MobEffectList#getId()
      */
     @ReflectiveMethod(name = "getId", types = {})
     public int getId(){
@@ -68,7 +68,7 @@ public class NMSMobEffectList extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MobEffectList#isInstant()
+     * @see net.minecraft.server.v1_9_R1.MobEffectList#isInstant()
      */
     @ReflectiveMethod(name = "isInstant", types = {})
     public boolean isInstant(){
@@ -77,7 +77,7 @@ public class NMSMobEffectList extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MobEffectList#j()
+     * @see net.minecraft.server.v1_9_R1.MobEffectList#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public boolean j(){
@@ -86,7 +86,7 @@ public class NMSMobEffectList extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MobEffectList#k()
+     * @see net.minecraft.server.v1_9_R1.MobEffectList#k()
      */
     @ReflectiveMethod(name = "k", types = {})
     public int k(){
@@ -94,7 +94,7 @@ public class NMSMobEffectList extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MobEffectList#tick(net.minecraft.server.v1_8_R3.EntityLiving, int)
+     * @see net.minecraft.server.v1_9_R1.MobEffectList#tick(net.minecraft.server.v1_9_R1.EntityLiving, int)
      */
     @ReflectiveMethod(name = "tick", types = {NMSEntityLiving.class, int.class})
     public void tick(NMSEntityLiving entityLiving, int i){

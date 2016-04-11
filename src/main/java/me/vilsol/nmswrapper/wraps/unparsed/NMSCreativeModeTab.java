@@ -17,7 +17,7 @@ public class NMSCreativeModeTab extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CreativeModeTab#a(net.minecraft.server.v1_8_R3.EnchantmentSlotType...)
+     * @see net.minecraft.server.v1_9_R1.CreativeModeTab#a(net.minecraft.server.v1_9_R1.EnchantmentSlotType...)
      */
     @ReflectiveMethod(name = "a", types = {NMSEnchantmentSlotType[].class})
     public NMSCreativeModeTab a(NMSEnchantmentSlotType[] array){
@@ -26,7 +26,7 @@ public class NMSCreativeModeTab extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CreativeModeTab#i()
+     * @see net.minecraft.server.v1_9_R1.CreativeModeTab#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public NMSCreativeModeTab i(){
@@ -35,7 +35,7 @@ public class NMSCreativeModeTab extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CreativeModeTab#k()
+     * @see net.minecraft.server.v1_9_R1.CreativeModeTab#k()
      */
     @ReflectiveMethod(name = "k", types = {})
     public NMSCreativeModeTab k(){

@@ -13,7 +13,7 @@ public class NMSLocaleLanguage extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.LocaleLanguage#a(java.lang.String, java.lang.Object...)
+     * @see net.minecraft.server.v1_9_R1.LocaleLanguage#a(java.lang.String, java.lang.Object...)
      */
     @ReflectiveMethod(name = "a", types = {String.class, Object[].class})
     public String a(String s, Object[] array){
@@ -22,7 +22,7 @@ public class NMSLocaleLanguage extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.LocaleLanguage#b(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.LocaleLanguage#b(java.lang.String)
      */
     @ReflectiveMethod(name = "b", types = {String.class})
     public boolean b(String s){
@@ -31,7 +31,7 @@ public class NMSLocaleLanguage extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.LocaleLanguage#c()
+     * @see net.minecraft.server.v1_9_R1.LocaleLanguage#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public long c(){

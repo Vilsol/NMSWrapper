@@ -13,7 +13,7 @@ public class NMSCommandBanIp extends NMSCommandAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandBanIp#a(net.minecraft.server.v1_8_R3.ICommandListener, java.lang.String, java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.CommandBanIp#a(net.minecraft.server.v1_9_R1.ICommandListener, java.lang.String, java.lang.String)
      */
     @ReflectiveMethod(name = "a", types = {NMSICommandListener.class, String.class, String.class})
     public void a(NMSICommandListener iCommandListener, String s, String s1){
@@ -21,7 +21,7 @@ public class NMSCommandBanIp extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandBanIp#canUse(net.minecraft.server.v1_8_R3.ICommandListener)
+     * @see net.minecraft.server.v1_9_R1.CommandBanIp#canUse(net.minecraft.server.v1_9_R1.ICommandListener)
      */
     @ReflectiveMethod(name = "canUse", types = {NMSICommandListener.class})
     public boolean canUse(NMSICommandListener iCommandListener){
@@ -29,7 +29,7 @@ public class NMSCommandBanIp extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandBanIp#getCommand()
+     * @see net.minecraft.server.v1_9_R1.CommandBanIp#getCommand()
      */
     @ReflectiveMethod(name = "getCommand", types = {})
     public String getCommand(){
@@ -37,7 +37,7 @@ public class NMSCommandBanIp extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandBanIp#getUsage(net.minecraft.server.v1_8_R3.ICommandListener)
+     * @see net.minecraft.server.v1_9_R1.CommandBanIp#getUsage(net.minecraft.server.v1_9_R1.ICommandListener)
      */
     @ReflectiveMethod(name = "getUsage", types = {NMSICommandListener.class})
     public String getUsage(NMSICommandListener iCommandListener){

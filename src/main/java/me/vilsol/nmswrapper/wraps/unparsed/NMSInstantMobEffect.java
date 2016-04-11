@@ -17,7 +17,7 @@ public class NMSInstantMobEffect extends NMSMobEffectList {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InstantMobEffect#a(int, int)
+     * @see net.minecraft.server.v1_9_R1.InstantMobEffect#a(int, int)
      */
     @ReflectiveMethod(name = "a", types = {int.class, int.class})
     public boolean a(int i, int i1){
@@ -25,7 +25,7 @@ public class NMSInstantMobEffect extends NMSMobEffectList {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InstantMobEffect#isInstant()
+     * @see net.minecraft.server.v1_9_R1.InstantMobEffect#isInstant()
      */
     @ReflectiveMethod(name = "isInstant", types = {})
     public boolean isInstant(){

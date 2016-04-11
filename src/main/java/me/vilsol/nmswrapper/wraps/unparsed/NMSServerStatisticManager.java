@@ -13,7 +13,7 @@ public class NMSServerStatisticManager extends NMSStatisticManager {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ServerStatisticManager#a(net.minecraft.server.v1_8_R3.EntityPlayer)
+     * @see net.minecraft.server.v1_9_R1.ServerStatisticManager#a(net.minecraft.server.v1_9_R1.EntityPlayer)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityPlayer.class})
     public void a(NMSEntityPlayer entityPlayer){
@@ -22,7 +22,7 @@ public class NMSServerStatisticManager extends NMSStatisticManager {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ServerStatisticManager#b()
+     * @see net.minecraft.server.v1_9_R1.ServerStatisticManager#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public void b(){
@@ -31,7 +31,7 @@ public class NMSServerStatisticManager extends NMSStatisticManager {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ServerStatisticManager#d()
+     * @see net.minecraft.server.v1_9_R1.ServerStatisticManager#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -40,7 +40,7 @@ public class NMSServerStatisticManager extends NMSStatisticManager {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ServerStatisticManager#e()
+     * @see net.minecraft.server.v1_9_R1.ServerStatisticManager#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public boolean e(){
@@ -48,7 +48,7 @@ public class NMSServerStatisticManager extends NMSStatisticManager {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ServerStatisticManager#setStatistic(net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.Statistic, int)
+     * @see net.minecraft.server.v1_9_R1.ServerStatisticManager#setStatistic(net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.Statistic, int)
      */
     @ReflectiveMethod(name = "setStatistic", types = {NMSEntityHuman.class, NMSStatistic.class, int.class})
     public void setStatistic(NMSEntityHuman entityHuman, NMSStatistic statistic, int i){
@@ -56,7 +56,7 @@ public class NMSServerStatisticManager extends NMSStatisticManager {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ServerStatisticManager#updateStatistics(net.minecraft.server.v1_8_R3.EntityPlayer)
+     * @see net.minecraft.server.v1_9_R1.ServerStatisticManager#updateStatistics(net.minecraft.server.v1_9_R1.EntityPlayer)
      */
     @ReflectiveMethod(name = "updateStatistics", types = {NMSEntityPlayer.class})
     public void updateStatistics(NMSEntityPlayer entityPlayer){

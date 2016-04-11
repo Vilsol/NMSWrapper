@@ -13,7 +13,7 @@ public class NMSNameReferencingFileConverter extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NameReferencingFileConverter#a(net.minecraft.server.v1_8_R3.PropertyManager)
+     * @see net.minecraft.server.v1_9_R1.NameReferencingFileConverter#a(net.minecraft.server.v1_9_R1.PropertyManager)
      */
     @ReflectiveMethod(name = "a", types = {NMSPropertyManager.class})
     public boolean a(NMSPropertyManager propertyManager){
@@ -22,7 +22,7 @@ public class NMSNameReferencingFileConverter extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NameReferencingFileConverter#b(net.minecraft.server.v1_8_R3.MinecraftServer)
+     * @see net.minecraft.server.v1_9_R1.NameReferencingFileConverter#b(net.minecraft.server.v1_9_R1.MinecraftServer)
      */
     @ReflectiveMethod(name = "b", types = {NMSMinecraftServer.class})
     public boolean b(NMSMinecraftServer minecraftServer){
@@ -31,7 +31,7 @@ public class NMSNameReferencingFileConverter extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NameReferencingFileConverter#c(net.minecraft.server.v1_8_R3.MinecraftServer)
+     * @see net.minecraft.server.v1_9_R1.NameReferencingFileConverter#c(net.minecraft.server.v1_9_R1.MinecraftServer)
      */
     @ReflectiveMethod(name = "c", types = {NMSMinecraftServer.class})
     public boolean c(NMSMinecraftServer minecraftServer){
@@ -40,7 +40,7 @@ public class NMSNameReferencingFileConverter extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NameReferencingFileConverter#d(net.minecraft.server.v1_8_R3.MinecraftServer)
+     * @see net.minecraft.server.v1_9_R1.NameReferencingFileConverter#d(net.minecraft.server.v1_9_R1.MinecraftServer)
      */
     @ReflectiveMethod(name = "d", types = {NMSMinecraftServer.class})
     public boolean d(NMSMinecraftServer minecraftServer){

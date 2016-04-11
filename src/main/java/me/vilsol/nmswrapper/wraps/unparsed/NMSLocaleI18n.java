@@ -13,7 +13,7 @@ public class NMSLocaleI18n extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.LocaleI18n#a()
+     * @see net.minecraft.server.v1_9_R1.LocaleI18n#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public long a(){
@@ -22,7 +22,7 @@ public class NMSLocaleI18n extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.LocaleI18n#b(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.LocaleI18n#b(java.lang.String)
      */
     @ReflectiveMethod(name = "b", types = {String.class})
     public String b(String s){
@@ -31,7 +31,7 @@ public class NMSLocaleI18n extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.LocaleI18n#c(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.LocaleI18n#c(java.lang.String)
      */
     @ReflectiveMethod(name = "c", types = {String.class})
     public boolean c(String s){
@@ -39,7 +39,7 @@ public class NMSLocaleI18n extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.LocaleI18n#get(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.LocaleI18n#get(java.lang.String)
      */
     @ReflectiveMethod(name = "get", types = {String.class})
     public String get(String s){

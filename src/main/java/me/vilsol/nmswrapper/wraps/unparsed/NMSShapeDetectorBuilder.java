@@ -13,7 +13,7 @@ public class NMSShapeDetectorBuilder extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ShapeDetectorBuilder#a()
+     * @see net.minecraft.server.v1_9_R1.ShapeDetectorBuilder#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public NMSShapeDetectorBuilder a(){
@@ -22,7 +22,7 @@ public class NMSShapeDetectorBuilder extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ShapeDetectorBuilder#b()
+     * @see net.minecraft.server.v1_9_R1.ShapeDetectorBuilder#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSShapeDetector b(){

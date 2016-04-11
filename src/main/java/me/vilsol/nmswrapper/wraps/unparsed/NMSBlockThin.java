@@ -15,7 +15,7 @@ public class NMSBlockThin extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockThin#I()
+     * @see net.minecraft.server.v1_9_R1.BlockThin#I()
      */
     @ReflectiveMethod(name = "I", types = {})
     public boolean I(){
@@ -24,7 +24,7 @@ public class NMSBlockThin extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockThin#c(net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockThin#c(net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "c", types = {NMSBlock.class})
     public boolean c(NMSBlock block){
@@ -33,7 +33,7 @@ public class NMSBlockThin extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockThin#d()
+     * @see net.minecraft.server.v1_9_R1.BlockThin#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -41,7 +41,7 @@ public class NMSBlockThin extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockThin#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockThin#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -49,7 +49,7 @@ public class NMSBlockThin extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockThin#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockThin#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -58,7 +58,7 @@ public class NMSBlockThin extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockThin#j()
+     * @see net.minecraft.server.v1_9_R1.BlockThin#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public void j(){
@@ -66,7 +66,7 @@ public class NMSBlockThin extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockThin#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockThin#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -74,7 +74,7 @@ public class NMSBlockThin extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockThin#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockThin#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -82,7 +82,7 @@ public class NMSBlockThin extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockThin#updateState(net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockThin#updateState(net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateState", types = {NMSIBlockData.class, NMSIBlockAccess.class, NMSBlockPosition.class})
     public NMSIBlockData updateState(NMSIBlockData iBlockData, NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

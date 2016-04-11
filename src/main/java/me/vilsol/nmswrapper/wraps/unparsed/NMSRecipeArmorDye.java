@@ -13,7 +13,7 @@ public class NMSRecipeArmorDye extends NMSShapelessRecipes implements NMSIRecipe
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RecipeArmorDye#a()
+     * @see net.minecraft.server.v1_9_R1.RecipeArmorDye#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public int a(){
@@ -22,7 +22,7 @@ public class NMSRecipeArmorDye extends NMSShapelessRecipes implements NMSIRecipe
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RecipeArmorDye#b()
+     * @see net.minecraft.server.v1_9_R1.RecipeArmorDye#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSItemStack b(){

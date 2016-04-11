@@ -16,7 +16,7 @@ public class NMSWorldGenLargeFeature extends NMSStructureGenerator {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenLargeFeature#a(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.WorldGenLargeFeature#a(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "a", types = {NMSBlockPosition.class})
     public boolean a(NMSBlockPosition blockPosition){
@@ -25,7 +25,7 @@ public class NMSWorldGenLargeFeature extends NMSStructureGenerator {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenLargeFeature#b(int, int)
+     * @see net.minecraft.server.v1_9_R1.WorldGenLargeFeature#b(int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public NMSStructureStart b(int i, int i1){

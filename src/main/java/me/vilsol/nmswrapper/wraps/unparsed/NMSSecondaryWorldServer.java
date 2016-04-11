@@ -19,7 +19,7 @@ public class NMSSecondaryWorldServer extends NMSWorldServer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldServer#b()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldServer#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSWorld b(){

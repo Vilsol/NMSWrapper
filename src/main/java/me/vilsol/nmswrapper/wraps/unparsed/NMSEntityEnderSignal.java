@@ -21,7 +21,7 @@ public class NMSEntityEnderSignal extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderSignal#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityEnderSignal#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -30,7 +30,7 @@ public class NMSEntityEnderSignal extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderSignal#aD()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderSignal#aD()
      */
     @ReflectiveMethod(name = "aD", types = {})
     public boolean aD(){
@@ -39,7 +39,7 @@ public class NMSEntityEnderSignal extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderSignal#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityEnderSignal#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -48,7 +48,7 @@ public class NMSEntityEnderSignal extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderSignal#c(float)
+     * @see net.minecraft.server.v1_9_R1.EntityEnderSignal#c(float)
      */
     @ReflectiveMethod(name = "c", types = {float.class})
     public float c(float f){
@@ -57,7 +57,7 @@ public class NMSEntityEnderSignal extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderSignal#h()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderSignal#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -66,7 +66,7 @@ public class NMSEntityEnderSignal extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderSignal#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderSignal#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){

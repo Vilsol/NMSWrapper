@@ -19,7 +19,7 @@ public class NMSLoginListener extends NMSWrap implements NMSIUpdatePlayerListBox
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.LoginListener#a(com.mojang.authlib.GameProfile)
+     * @see net.minecraft.server.v1_9_R1.LoginListener#a(com.mojang.authlib.GameProfile)
      */
     @ReflectiveMethod(name = "a", types = {GameProfile.class})
     public GameProfile a(GameProfile gameProfile){
@@ -28,7 +28,7 @@ public class NMSLoginListener extends NMSWrap implements NMSIUpdatePlayerListBox
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.LoginListener#b()
+     * @see net.minecraft.server.v1_9_R1.LoginListener#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public void b(){
@@ -37,7 +37,7 @@ public class NMSLoginListener extends NMSWrap implements NMSIUpdatePlayerListBox
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.LoginListener#c()
+     * @see net.minecraft.server.v1_9_R1.LoginListener#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -46,7 +46,7 @@ public class NMSLoginListener extends NMSWrap implements NMSIUpdatePlayerListBox
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.LoginListener#d()
+     * @see net.minecraft.server.v1_9_R1.LoginListener#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public String d(){
@@ -54,7 +54,7 @@ public class NMSLoginListener extends NMSWrap implements NMSIUpdatePlayerListBox
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.LoginListener#disconnect(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.LoginListener#disconnect(java.lang.String)
      */
     @ReflectiveMethod(name = "disconnect", types = {String.class})
     public void disconnect(String s){
@@ -62,7 +62,7 @@ public class NMSLoginListener extends NMSWrap implements NMSIUpdatePlayerListBox
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.LoginListener#initUUID()
+     * @see net.minecraft.server.v1_9_R1.LoginListener#initUUID()
      */
     @ReflectiveMethod(name = "initUUID", types = {})
     public void initUUID(){

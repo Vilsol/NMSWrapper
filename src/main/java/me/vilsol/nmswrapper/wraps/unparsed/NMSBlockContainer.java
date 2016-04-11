@@ -17,7 +17,7 @@ public class NMSBlockContainer extends NMSBlock implements NMSIContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockContainer#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, int, int)
+     * @see net.minecraft.server.v1_9_R1.BlockContainer#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, int, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, int.class, int.class})
     public boolean a(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, int i, int i1){
@@ -26,7 +26,7 @@ public class NMSBlockContainer extends NMSBlock implements NMSIContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockContainer#b()
+     * @see net.minecraft.server.v1_9_R1.BlockContainer#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public int b(){
@@ -35,7 +35,7 @@ public class NMSBlockContainer extends NMSBlock implements NMSIContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockContainer#e(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockContainer#e(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "e", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean e(NMSWorld world, NMSBlockPosition blockPosition){
@@ -43,7 +43,7 @@ public class NMSBlockContainer extends NMSBlock implements NMSIContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockContainer#remove(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockContainer#remove(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "remove", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void remove(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){

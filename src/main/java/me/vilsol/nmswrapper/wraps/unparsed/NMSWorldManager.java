@@ -17,7 +17,7 @@ public class NMSWorldManager extends NMSWrap implements NMSIWorldAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldManager#a(int, net.minecraft.server.v1_8_R3.BlockPosition, int)
+     * @see net.minecraft.server.v1_9_R1.WorldManager#a(int, net.minecraft.server.v1_9_R1.BlockPosition, int)
      */
     @ReflectiveMethod(name = "a", types = {int.class, NMSBlockPosition.class, int.class})
     public void a(int i, NMSBlockPosition blockPosition, int i1){
@@ -26,7 +26,7 @@ public class NMSWorldManager extends NMSWrap implements NMSIWorldAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldManager#b(int, net.minecraft.server.v1_8_R3.BlockPosition, int)
+     * @see net.minecraft.server.v1_9_R1.WorldManager#b(int, net.minecraft.server.v1_9_R1.BlockPosition, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, NMSBlockPosition.class, int.class})
     public void b(int i, NMSBlockPosition blockPosition, int i1){

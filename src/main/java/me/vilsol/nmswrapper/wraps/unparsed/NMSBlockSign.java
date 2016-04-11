@@ -15,7 +15,7 @@ public class NMSBlockSign extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSign#a(net.minecraft.server.v1_8_R3.World, int)
+     * @see net.minecraft.server.v1_9_R1.BlockSign#a(net.minecraft.server.v1_9_R1.World, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, int.class})
     public NMSTileEntity a(NMSWorld world, int i){
@@ -24,7 +24,7 @@ public class NMSBlockSign extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSign#b(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockSign#b(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "b", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public boolean b(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -33,7 +33,7 @@ public class NMSBlockSign extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSign#c()
+     * @see net.minecraft.server.v1_9_R1.BlockSign#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -41,7 +41,7 @@ public class NMSBlockSign extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSign#canPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockSign#canPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "canPlace", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean canPlace(NMSWorld world, NMSBlockPosition blockPosition){
@@ -50,7 +50,7 @@ public class NMSBlockSign extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSign#d()
+     * @see net.minecraft.server.v1_9_R1.BlockSign#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -59,7 +59,7 @@ public class NMSBlockSign extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSign#g()
+     * @see net.minecraft.server.v1_9_R1.BlockSign#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public boolean g(){
@@ -67,7 +67,7 @@ public class NMSBlockSign extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSign#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockSign#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -75,7 +75,7 @@ public class NMSBlockSign extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSign#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockSign#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){

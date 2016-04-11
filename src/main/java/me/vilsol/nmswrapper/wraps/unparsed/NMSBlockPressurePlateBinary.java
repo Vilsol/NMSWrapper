@@ -13,7 +13,7 @@ public class NMSBlockPressurePlateBinary extends NMSBlockPressurePlateAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateBinary#a(net.minecraft.server.v1_8_R3.IBlockData, int)
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateBinary#a(net.minecraft.server.v1_9_R1.IBlockData, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSIBlockData.class, int.class})
     public NMSIBlockData a(NMSIBlockData iBlockData, int i){
@@ -22,7 +22,7 @@ public class NMSBlockPressurePlateBinary extends NMSBlockPressurePlateAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateBinary#e(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateBinary#e(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "e", types = {NMSIBlockData.class})
     public int e(NMSIBlockData iBlockData){
@@ -31,7 +31,7 @@ public class NMSBlockPressurePlateBinary extends NMSBlockPressurePlateAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateBinary#f(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateBinary#f(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "f", types = {NMSWorld.class, NMSBlockPosition.class})
     public int f(NMSWorld world, NMSBlockPosition blockPosition){
@@ -39,7 +39,7 @@ public class NMSBlockPressurePlateBinary extends NMSBlockPressurePlateAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateBinary#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateBinary#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -47,7 +47,7 @@ public class NMSBlockPressurePlateBinary extends NMSBlockPressurePlateAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateBinary#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateBinary#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -55,7 +55,7 @@ public class NMSBlockPressurePlateBinary extends NMSBlockPressurePlateAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPressurePlateBinary#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockPressurePlateBinary#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

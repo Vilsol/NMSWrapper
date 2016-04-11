@@ -31,7 +31,7 @@ public class NMSMobEffect extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MobEffect#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.MobEffect#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public NMSNBTTagCompound a(NMSNBTTagCompound nBTTagCompound){
@@ -40,7 +40,7 @@ public class NMSMobEffect extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MobEffect#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.MobEffect#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public NMSMobEffect b(NMSNBTTagCompound nBTTagCompound){
@@ -48,7 +48,7 @@ public class NMSMobEffect extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MobEffect#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.MobEffect#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -57,7 +57,7 @@ public class NMSMobEffect extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MobEffect#g()
+     * @see net.minecraft.server.v1_9_R1.MobEffect#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public String g(){
@@ -65,7 +65,7 @@ public class NMSMobEffect extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MobEffect#getAmplifier()
+     * @see net.minecraft.server.v1_9_R1.MobEffect#getAmplifier()
      */
     @ReflectiveMethod(name = "getAmplifier", types = {})
     public int getAmplifier(){
@@ -73,7 +73,7 @@ public class NMSMobEffect extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MobEffect#getDuration()
+     * @see net.minecraft.server.v1_9_R1.MobEffect#getDuration()
      */
     @ReflectiveMethod(name = "getDuration", types = {})
     public int getDuration(){
@@ -81,7 +81,7 @@ public class NMSMobEffect extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MobEffect#getEffectId()
+     * @see net.minecraft.server.v1_9_R1.MobEffect#getEffectId()
      */
     @ReflectiveMethod(name = "getEffectId", types = {})
     public int getEffectId(){
@@ -89,7 +89,7 @@ public class NMSMobEffect extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MobEffect#hashCode()
+     * @see net.minecraft.server.v1_9_R1.MobEffect#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -97,7 +97,7 @@ public class NMSMobEffect extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MobEffect#isAmbient()
+     * @see net.minecraft.server.v1_9_R1.MobEffect#isAmbient()
      */
     @ReflectiveMethod(name = "isAmbient", types = {})
     public boolean isAmbient(){
@@ -105,7 +105,7 @@ public class NMSMobEffect extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MobEffect#isShowParticles()
+     * @see net.minecraft.server.v1_9_R1.MobEffect#isShowParticles()
      */
     @ReflectiveMethod(name = "isShowParticles", types = {})
     public boolean isShowParticles(){
@@ -113,7 +113,7 @@ public class NMSMobEffect extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MobEffect#setSplash(boolean)
+     * @see net.minecraft.server.v1_9_R1.MobEffect#setSplash(boolean)
      */
     @ReflectiveMethod(name = "setSplash", types = {boolean.class})
     public void setSplash(boolean b){
@@ -121,7 +121,7 @@ public class NMSMobEffect extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MobEffect#tick(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.MobEffect#tick(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "tick", types = {NMSEntityLiving.class})
     public boolean tick(NMSEntityLiving entityLiving){
@@ -129,7 +129,7 @@ public class NMSMobEffect extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MobEffect#toString()
+     * @see net.minecraft.server.v1_9_R1.MobEffect#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

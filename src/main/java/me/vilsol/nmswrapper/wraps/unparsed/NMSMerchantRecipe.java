@@ -36,7 +36,7 @@ public class NMSMerchantRecipe extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MerchantRecipe#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.MerchantRecipe#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -45,7 +45,7 @@ public class NMSMerchantRecipe extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MerchantRecipe#e()
+     * @see net.minecraft.server.v1_9_R1.MerchantRecipe#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public int e(){
@@ -54,7 +54,7 @@ public class NMSMerchantRecipe extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MerchantRecipe#f()
+     * @see net.minecraft.server.v1_9_R1.MerchantRecipe#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public int f(){
@@ -63,7 +63,7 @@ public class NMSMerchantRecipe extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MerchantRecipe#g()
+     * @see net.minecraft.server.v1_9_R1.MerchantRecipe#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public void g(){
@@ -71,7 +71,7 @@ public class NMSMerchantRecipe extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MerchantRecipe#getBuyItem1()
+     * @see net.minecraft.server.v1_9_R1.MerchantRecipe#getBuyItem1()
      */
     @ReflectiveMethod(name = "getBuyItem1", types = {})
     public NMSItemStack getBuyItem1(){
@@ -79,7 +79,7 @@ public class NMSMerchantRecipe extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MerchantRecipe#getBuyItem2()
+     * @see net.minecraft.server.v1_9_R1.MerchantRecipe#getBuyItem2()
      */
     @ReflectiveMethod(name = "getBuyItem2", types = {})
     public NMSItemStack getBuyItem2(){
@@ -87,7 +87,7 @@ public class NMSMerchantRecipe extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MerchantRecipe#getBuyItem3()
+     * @see net.minecraft.server.v1_9_R1.MerchantRecipe#getBuyItem3()
      */
     @ReflectiveMethod(name = "getBuyItem3", types = {})
     public NMSItemStack getBuyItem3(){
@@ -96,7 +96,7 @@ public class NMSMerchantRecipe extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MerchantRecipe#h()
+     * @see net.minecraft.server.v1_9_R1.MerchantRecipe#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public boolean h(){
@@ -104,7 +104,7 @@ public class NMSMerchantRecipe extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MerchantRecipe#hasSecondItem()
+     * @see net.minecraft.server.v1_9_R1.MerchantRecipe#hasSecondItem()
      */
     @ReflectiveMethod(name = "hasSecondItem", types = {})
     public boolean hasSecondItem(){
@@ -113,7 +113,7 @@ public class NMSMerchantRecipe extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MerchantRecipe#j()
+     * @see net.minecraft.server.v1_9_R1.MerchantRecipe#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public boolean j(){
@@ -122,7 +122,7 @@ public class NMSMerchantRecipe extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MerchantRecipe#k()
+     * @see net.minecraft.server.v1_9_R1.MerchantRecipe#k()
      */
     @ReflectiveMethod(name = "k", types = {})
     public NMSNBTTagCompound k(){

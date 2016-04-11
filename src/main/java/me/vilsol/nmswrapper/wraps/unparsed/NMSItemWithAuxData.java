@@ -21,7 +21,7 @@ public class NMSItemWithAuxData extends NMSItemBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemWithAuxData#e_(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemWithAuxData#e_(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "e_", types = {NMSItemStack.class})
     public String e_(NMSItemStack itemStack){
@@ -29,7 +29,7 @@ public class NMSItemWithAuxData extends NMSItemBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemWithAuxData#filterData(int)
+     * @see net.minecraft.server.v1_9_R1.ItemWithAuxData#filterData(int)
      */
     @ReflectiveMethod(name = "filterData", types = {int.class})
     public int filterData(int i){

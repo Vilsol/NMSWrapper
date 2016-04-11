@@ -21,7 +21,7 @@ public class NMSEntityExperienceOrb extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityExperienceOrb#W()
+     * @see net.minecraft.server.v1_9_R1.EntityExperienceOrb#W()
      */
     @ReflectiveMethod(name = "W", types = {})
     public boolean W(){
@@ -30,7 +30,7 @@ public class NMSEntityExperienceOrb extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityExperienceOrb#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityExperienceOrb#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -39,7 +39,7 @@ public class NMSEntityExperienceOrb extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityExperienceOrb#aD()
+     * @see net.minecraft.server.v1_9_R1.EntityExperienceOrb#aD()
      */
     @ReflectiveMethod(name = "aD", types = {})
     public boolean aD(){
@@ -48,7 +48,7 @@ public class NMSEntityExperienceOrb extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityExperienceOrb#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityExperienceOrb#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -56,7 +56,7 @@ public class NMSEntityExperienceOrb extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityExperienceOrb#burn(int)
+     * @see net.minecraft.server.v1_9_R1.EntityExperienceOrb#burn(int)
      */
     @ReflectiveMethod(name = "burn", types = {int.class})
     public void burn(int i){
@@ -65,7 +65,7 @@ public class NMSEntityExperienceOrb extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityExperienceOrb#d(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityExperienceOrb#d(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "d", types = {NMSEntityHuman.class})
     public void d(NMSEntityHuman entityHuman){
@@ -73,7 +73,7 @@ public class NMSEntityExperienceOrb extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityExperienceOrb#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityExperienceOrb#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -81,7 +81,7 @@ public class NMSEntityExperienceOrb extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityExperienceOrb#getOrbValue(int)
+     * @see net.minecraft.server.v1_9_R1.EntityExperienceOrb#getOrbValue(int)
      */
     @ReflectiveMethod(name = "getOrbValue", types = {int.class})
     public int getOrbValue(int i){
@@ -90,7 +90,7 @@ public class NMSEntityExperienceOrb extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityExperienceOrb#h()
+     * @see net.minecraft.server.v1_9_R1.EntityExperienceOrb#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -99,7 +99,7 @@ public class NMSEntityExperienceOrb extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityExperienceOrb#j()
+     * @see net.minecraft.server.v1_9_R1.EntityExperienceOrb#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public int j(){
@@ -108,7 +108,7 @@ public class NMSEntityExperienceOrb extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityExperienceOrb#s_()
+     * @see net.minecraft.server.v1_9_R1.EntityExperienceOrb#s_()
      */
     @ReflectiveMethod(name = "s_", types = {})
     public boolean s_(){
@@ -117,7 +117,7 @@ public class NMSEntityExperienceOrb extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityExperienceOrb#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityExperienceOrb#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){

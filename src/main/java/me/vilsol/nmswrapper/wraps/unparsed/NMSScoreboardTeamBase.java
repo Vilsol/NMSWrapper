@@ -16,7 +16,7 @@ public class NMSScoreboardTeamBase extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardTeamBase#allowFriendlyFire()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardTeamBase#allowFriendlyFire()
      */
     @ReflectiveMethod(name = "allowFriendlyFire", types = {})
     public boolean allowFriendlyFire(){
@@ -24,7 +24,7 @@ public class NMSScoreboardTeamBase extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardTeamBase#getFormattedName(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.ScoreboardTeamBase#getFormattedName(java.lang.String)
      */
     @ReflectiveMethod(name = "getFormattedName", types = {String.class})
     public String getFormattedName(String s){
@@ -32,7 +32,7 @@ public class NMSScoreboardTeamBase extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardTeamBase#getName()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardTeamBase#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -40,7 +40,7 @@ public class NMSScoreboardTeamBase extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardTeamBase#isAlly(net.minecraft.server.v1_8_R3.ScoreboardTeamBase)
+     * @see net.minecraft.server.v1_9_R1.ScoreboardTeamBase#isAlly(net.minecraft.server.v1_9_R1.ScoreboardTeamBase)
      */
     @ReflectiveMethod(name = "isAlly", types = {NMSScoreboardTeamBase.class})
     public boolean isAlly(NMSScoreboardTeamBase scoreboardTeamBase){
@@ -49,7 +49,7 @@ public class NMSScoreboardTeamBase extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ScoreboardTeamBase#j()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardTeamBase#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public NMSEnumNameTagVisibility j(){

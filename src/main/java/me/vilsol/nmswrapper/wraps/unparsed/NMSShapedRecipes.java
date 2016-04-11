@@ -16,7 +16,7 @@ public class NMSShapedRecipes extends NMSWrap implements NMSIRecipe {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ShapedRecipes#a()
+     * @see net.minecraft.server.v1_9_R1.ShapedRecipes#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public int a(){
@@ -25,7 +25,7 @@ public class NMSShapedRecipes extends NMSWrap implements NMSIRecipe {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ShapedRecipes#b()
+     * @see net.minecraft.server.v1_9_R1.ShapedRecipes#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSItemStack b(){
@@ -33,7 +33,7 @@ public class NMSShapedRecipes extends NMSWrap implements NMSIRecipe {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ShapedRecipes#toBukkitRecipe()
+     * @see net.minecraft.server.v1_9_R1.ShapedRecipes#toBukkitRecipe()
      */
     @ReflectiveMethod(name = "toBukkitRecipe", types = {})
     public Recipe toBukkitRecipe(){

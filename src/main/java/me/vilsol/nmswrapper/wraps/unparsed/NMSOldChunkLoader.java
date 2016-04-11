@@ -13,7 +13,7 @@ public class NMSOldChunkLoader extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.OldChunkLoader#a(net.minecraft.server.v1_8_R3.OldChunkLoader$OldChunk, net.minecraft.server.v1_8_R3.NBTTagCompound, net.minecraft.server.v1_8_R3.WorldChunkManager)
+     * @see net.minecraft.server.v1_9_R1.OldChunkLoader#a(net.minecraft.server.v1_9_R1.OldChunkLoader$OldChunk, net.minecraft.server.v1_9_R1.NBTTagCompound, net.minecraft.server.v1_9_R1.WorldChunkManager)
      */
     @ReflectiveMethod(name = "a", types = {NMSOldChunk.class, NMSNBTTagCompound.class, NMSWorldChunkManager.class})
     public void a(NMSOldChunk oldChunk, NMSNBTTagCompound nBTTagCompound, NMSWorldChunkManager worldChunkManager){

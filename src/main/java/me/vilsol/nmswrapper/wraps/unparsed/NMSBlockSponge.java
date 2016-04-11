@@ -12,7 +12,7 @@ public class NMSBlockSponge extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSponge#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockSponge#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -21,7 +21,7 @@ public class NMSBlockSponge extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSponge#e(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSponge#e(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "e", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void e(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -29,7 +29,7 @@ public class NMSBlockSponge extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSponge#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockSponge#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -37,7 +37,7 @@ public class NMSBlockSponge extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSponge#getDropData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSponge#getDropData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSIBlockData.class})
     public int getDropData(NMSIBlockData iBlockData){
@@ -45,7 +45,7 @@ public class NMSBlockSponge extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSponge#getName()
+     * @see net.minecraft.server.v1_9_R1.BlockSponge#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -53,7 +53,7 @@ public class NMSBlockSponge extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSponge#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockSponge#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -61,7 +61,7 @@ public class NMSBlockSponge extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSponge#onPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSponge#onPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "onPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void onPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -69,7 +69,7 @@ public class NMSBlockSponge extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSponge#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSponge#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

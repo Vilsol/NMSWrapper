@@ -13,7 +13,7 @@ public class NMSRecipeBookClone extends NMSShapelessRecipes implements NMSIRecip
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RecipeBookClone#a()
+     * @see net.minecraft.server.v1_9_R1.RecipeBookClone#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public int a(){
@@ -22,7 +22,7 @@ public class NMSRecipeBookClone extends NMSShapelessRecipes implements NMSIRecip
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RecipeBookClone#b()
+     * @see net.minecraft.server.v1_9_R1.RecipeBookClone#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSItemStack b(){

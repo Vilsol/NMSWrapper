@@ -20,7 +20,7 @@ public class NMSContainer extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Container#a(net.minecraft.server.v1_8_R3.TileEntity)
+     * @see net.minecraft.server.v1_9_R1.Container#a(net.minecraft.server.v1_9_R1.TileEntity)
      */
     @ReflectiveMethod(name = "a", types = {NMSTileEntity.class})
     public int a(NMSTileEntity tileEntity){
@@ -28,7 +28,7 @@ public class NMSContainer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Container#addSlotListener(net.minecraft.server.v1_8_R3.ICrafting)
+     * @see net.minecraft.server.v1_9_R1.Container#addSlotListener(net.minecraft.server.v1_9_R1.ICrafting)
      */
     @ReflectiveMethod(name = "addSlotListener", types = {NMSICrafting.class})
     public void addSlotListener(NMSICrafting iCrafting){
@@ -37,7 +37,7 @@ public class NMSContainer extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Container#b(net.minecraft.server.v1_8_R3.IInventory)
+     * @see net.minecraft.server.v1_9_R1.Container#b(net.minecraft.server.v1_9_R1.IInventory)
      */
     @ReflectiveMethod(name = "b", types = {NMSIInventory.class})
     public int b(NMSIInventory iInventory){
@@ -46,7 +46,7 @@ public class NMSContainer extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Container#c(int)
+     * @see net.minecraft.server.v1_9_R1.Container#c(int)
      */
     @ReflectiveMethod(name = "c", types = {int.class})
     public int c(int i){
@@ -54,7 +54,7 @@ public class NMSContainer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Container#clickItem(int, int, int, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.Container#clickItem(int, int, int, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "clickItem", types = {int.class, int.class, int.class, NMSEntityHuman.class})
     public NMSItemStack clickItem(int i, int i1, int i2, NMSEntityHuman entityHuman){
@@ -63,7 +63,7 @@ public class NMSContainer extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Container#d()
+     * @see net.minecraft.server.v1_9_R1.Container#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -71,7 +71,7 @@ public class NMSContainer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Container#getBukkitView()
+     * @see net.minecraft.server.v1_9_R1.Container#getBukkitView()
      */
     @ReflectiveMethod(name = "getBukkitView", types = {})
     public InventoryView getBukkitView(){
@@ -79,7 +79,7 @@ public class NMSContainer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Container#getSlot(int)
+     * @see net.minecraft.server.v1_9_R1.Container#getSlot(int)
      */
     @ReflectiveMethod(name = "getSlot", types = {int.class})
     public NMSSlot getSlot(int i){
@@ -87,7 +87,7 @@ public class NMSContainer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Container#setItem(int, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.Container#setItem(int, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "setItem", types = {int.class, NMSItemStack.class})
     public void setItem(int i, NMSItemStack itemStack){
@@ -95,7 +95,7 @@ public class NMSContainer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Container#transferTo(net.minecraft.server.v1_8_R3.Container, org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.Container#transferTo(net.minecraft.server.v1_9_R1.Container, org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "transferTo", types = {NMSContainer.class, NMSCraftHumanEntity.class})
     public void transferTo(NMSContainer container, NMSCraftHumanEntity craftHumanEntity){

@@ -20,7 +20,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#E()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#E()
      */
     @ReflectiveMethod(name = "E", types = {})
     public void E(){
@@ -29,7 +29,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#a(net.minecraft.server.v1_8_R3.EntityLiving, net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#a(net.minecraft.server.v1_9_R1.EntityLiving, net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityLiving.class, NMSEntityLiving.class})
     public boolean a(NMSEntityLiving entityLiving, NMSEntityLiving entityLiving1){
@@ -38,7 +38,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#b(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#b(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityAgeable.class})
     public NMSEntityWolf b(NMSEntityAgeable entityAgeable){
@@ -47,7 +47,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#bB()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#bB()
      */
     @ReflectiveMethod(name = "bB", types = {})
     public float bB(){
@@ -56,7 +56,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#bQ()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#bQ()
      */
     @ReflectiveMethod(name = "bQ", types = {})
     public int bQ(){
@@ -65,7 +65,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#bV()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#bV()
      */
     @ReflectiveMethod(name = "bV", types = {})
     public int bV(){
@@ -74,7 +74,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -83,7 +83,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -92,7 +92,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#cb()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#cb()
      */
     @ReflectiveMethod(name = "cb", types = {})
     public boolean cb(){
@@ -100,7 +100,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#createChild(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#createChild(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "createChild", types = {NMSEntityAgeable.class})
     public NMSEntityAgeable createChild(NMSEntityAgeable entityAgeable){
@@ -109,7 +109,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#cx()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#cx()
      */
     @ReflectiveMethod(name = "cx", types = {})
     public boolean cx(){
@@ -118,7 +118,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#d(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#d(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "d", types = {NMSItemStack.class})
     public boolean d(NMSItemStack itemStack){
@@ -126,7 +126,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -134,7 +134,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#getCollarColor()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#getCollarColor()
      */
     @ReflectiveMethod(name = "getCollarColor", types = {})
     public NMSEnumColor getCollarColor(){
@@ -142,7 +142,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -150,7 +150,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -159,7 +159,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#h()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -167,7 +167,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -175,7 +175,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#isAngry()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#isAngry()
      */
     @ReflectiveMethod(name = "isAngry", types = {})
     public boolean isAngry(){
@@ -183,7 +183,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#isTypeNotPersistent()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#isTypeNotPersistent()
      */
     @ReflectiveMethod(name = "isTypeNotPersistent", types = {})
     public boolean isTypeNotPersistent(){
@@ -192,7 +192,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#m()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -200,7 +200,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#mate(net.minecraft.server.v1_8_R3.EntityAnimal)
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#mate(net.minecraft.server.v1_9_R1.EntityAnimal)
      */
     @ReflectiveMethod(name = "mate", types = {NMSEntityAnimal.class})
     public boolean mate(NMSEntityAnimal entityAnimal){
@@ -209,7 +209,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#p(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#p(boolean)
      */
     @ReflectiveMethod(name = "p", types = {boolean.class})
     public void p(boolean b){
@@ -218,7 +218,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#r(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#r(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "r", types = {NMSEntity.class})
     public boolean r(NMSEntity entity){
@@ -226,7 +226,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#setAngry(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#setAngry(boolean)
      */
     @ReflectiveMethod(name = "setAngry", types = {boolean.class})
     public void setAngry(boolean b){
@@ -234,7 +234,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#setCollarColor(net.minecraft.server.v1_8_R3.EnumColor)
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#setCollarColor(net.minecraft.server.v1_9_R1.EnumColor)
      */
     @ReflectiveMethod(name = "setCollarColor", types = {NMSEnumColor.class})
     public void setCollarColor(NMSEnumColor enumColor){
@@ -242,7 +242,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#setGoalTarget(net.minecraft.server.v1_8_R3.EntityLiving, org.bukkit.event.entity.EntityTargetEvent$TargetReason, boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#setGoalTarget(net.minecraft.server.v1_9_R1.EntityLiving, org.bukkit.event.entity.EntityTargetEvent$TargetReason, boolean)
      */
     @ReflectiveMethod(name = "setGoalTarget", types = {NMSEntityLiving.class, EntityTargetEvent.TargetReason.class, boolean.class})
     public void setGoalTarget(NMSEntityLiving entityLiving, EntityTargetEvent.TargetReason targetReason, boolean b){
@@ -250,7 +250,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#setTamed(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#setTamed(boolean)
      */
     @ReflectiveMethod(name = "setTamed", types = {boolean.class})
     public void setTamed(boolean b){
@@ -259,7 +259,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){
@@ -268,7 +268,7 @@ public class NMSEntityWolf extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWolf#z()
+     * @see net.minecraft.server.v1_9_R1.EntityWolf#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

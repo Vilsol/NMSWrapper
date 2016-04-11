@@ -13,7 +13,7 @@ public class NMSBlockMinecartTrack extends NMSBlockMinecartTrackAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockMinecartTrack#b(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockMinecartTrack#b(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void b(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -21,7 +21,7 @@ public class NMSBlockMinecartTrack extends NMSBlockMinecartTrackAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockMinecartTrack#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockMinecartTrack#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -29,7 +29,7 @@ public class NMSBlockMinecartTrack extends NMSBlockMinecartTrackAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockMinecartTrack#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockMinecartTrack#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -37,7 +37,7 @@ public class NMSBlockMinecartTrack extends NMSBlockMinecartTrackAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockMinecartTrack#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockMinecartTrack#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

@@ -20,7 +20,7 @@ public class NMSOpList extends NMSJsonList {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.OpList#a(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.OpList#a(java.lang.Object)
      */
     @ReflectiveMethod(name = "a", types = {Object.class})
     public String a(Object object){
@@ -29,7 +29,7 @@ public class NMSOpList extends NMSJsonList {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.OpList#b(com.mojang.authlib.GameProfile)
+     * @see net.minecraft.server.v1_9_R1.OpList#b(com.mojang.authlib.GameProfile)
      */
     @ReflectiveMethod(name = "b", types = {GameProfile.class})
     public boolean b(GameProfile gameProfile){
@@ -38,7 +38,7 @@ public class NMSOpList extends NMSJsonList {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.OpList#c(com.mojang.authlib.GameProfile)
+     * @see net.minecraft.server.v1_9_R1.OpList#c(com.mojang.authlib.GameProfile)
      */
     @ReflectiveMethod(name = "c", types = {GameProfile.class})
     public String c(GameProfile gameProfile){

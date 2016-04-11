@@ -17,7 +17,7 @@ public class NMSPathfinderGoalSit extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalSit#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalSit#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalSit extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalSit#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalSit#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -35,7 +35,7 @@ public class NMSPathfinderGoalSit extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalSit#d()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalSit#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -43,7 +43,7 @@ public class NMSPathfinderGoalSit extends NMSPathfinderGoal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalSit#setSitting(boolean)
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalSit#setSitting(boolean)
      */
     @ReflectiveMethod(name = "setSitting", types = {boolean.class})
     public void setSitting(boolean b){

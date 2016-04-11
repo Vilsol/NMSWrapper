@@ -25,7 +25,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#B()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#B()
      */
     @ReflectiveMethod(name = "B", types = {})
     public void B(){
@@ -34,7 +34,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#G()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#G()
      */
     @ReflectiveMethod(name = "G", types = {})
     public void G(){
@@ -43,7 +43,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#K()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#K()
      */
     @ReflectiveMethod(name = "K", types = {})
     public void K(){
@@ -52,7 +52,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#O()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#O()
      */
     @ReflectiveMethod(name = "O", types = {})
     public void O(){
@@ -61,7 +61,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#a(net.minecraft.server.v1_8_R3.ScoreboardTeamBase)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#a(net.minecraft.server.v1_9_R1.ScoreboardTeamBase)
      */
     @ReflectiveMethod(name = "a", types = {NMSScoreboardTeamBase.class})
     public boolean a(NMSScoreboardTeamBase scoreboardTeamBase){
@@ -70,7 +70,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#aY()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#aY()
      */
     @ReflectiveMethod(name = "aY", types = {})
     public boolean aY(){
@@ -79,7 +79,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#aZ()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#aZ()
      */
     @ReflectiveMethod(name = "aZ", types = {})
     public void aZ(){
@@ -88,7 +88,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#ac()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#ac()
      */
     @ReflectiveMethod(name = "ac", types = {})
     public void ac(){
@@ -97,7 +97,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#ad()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#ad()
      */
     @ReflectiveMethod(name = "ad", types = {})
     public boolean ad(){
@@ -105,7 +105,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#addEffect(net.minecraft.server.v1_8_R3.MobEffect)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#addEffect(net.minecraft.server.v1_9_R1.MobEffect)
      */
     @ReflectiveMethod(name = "addEffect", types = {NMSMobEffect.class})
     public void addEffect(NMSMobEffect mobEffect){
@@ -114,7 +114,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#ae()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#ae()
      */
     @ReflectiveMethod(name = "ae", types = {})
     public boolean ae(){
@@ -123,7 +123,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#ak()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#ak()
      */
     @ReflectiveMethod(name = "ak", types = {})
     public void ak(){
@@ -131,7 +131,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#alwaysGivesExp()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#alwaysGivesExp()
      */
     @ReflectiveMethod(name = "alwaysGivesExp", types = {})
     public boolean alwaysGivesExp(){
@@ -140,7 +140,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#ap()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#ap()
      */
     @ReflectiveMethod(name = "ap", types = {})
     public NMSVec3D ap(){
@@ -148,7 +148,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#applyArmorModifier(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#applyArmorModifier(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "applyArmorModifier", types = {NMSDamageSource.class, float.class})
     public float applyArmorModifier(NMSDamageSource damageSource, float f){
@@ -156,7 +156,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#applyMagicModifier(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#applyMagicModifier(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "applyMagicModifier", types = {NMSDamageSource.class, float.class})
     public float applyMagicModifier(NMSDamageSource damageSource, float f){
@@ -165,7 +165,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#b(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#b(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "b", types = {NMSItemStack.class})
     public void b(NMSItemStack itemStack){
@@ -174,7 +174,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bA()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bA()
      */
     @ReflectiveMethod(name = "bA", types = {})
     public NMSItemStack bA(){
@@ -183,7 +183,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bB()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bB()
      */
     @ReflectiveMethod(name = "bB", types = {})
     public float bB(){
@@ -192,7 +192,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bC()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bC()
      */
     @ReflectiveMethod(name = "bC", types = {})
     public float bC(){
@@ -201,7 +201,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bD()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bD()
      */
     @ReflectiveMethod(name = "bD", types = {})
     public boolean bD(){
@@ -210,7 +210,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bE()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bE()
      */
     @ReflectiveMethod(name = "bE", types = {})
     public float bE(){
@@ -219,7 +219,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bF()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bF()
      */
     @ReflectiveMethod(name = "bF", types = {})
     public void bF(){
@@ -228,7 +228,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bG()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bG()
      */
     @ReflectiveMethod(name = "bG", types = {})
     public void bG(){
@@ -237,7 +237,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bH()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bH()
      */
     @ReflectiveMethod(name = "bH", types = {})
     public void bH(){
@@ -246,7 +246,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bI()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bI()
      */
     @ReflectiveMethod(name = "bI", types = {})
     public float bI(){
@@ -255,7 +255,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bL()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bL()
      */
     @ReflectiveMethod(name = "bL", types = {})
     public void bL(){
@@ -264,7 +264,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bM()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bM()
      */
     @ReflectiveMethod(name = "bM", types = {})
     public boolean bM(){
@@ -273,7 +273,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bP()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bP()
      */
     @ReflectiveMethod(name = "bP", types = {})
     public void bP(){
@@ -282,7 +282,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#ba()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#ba()
      */
     @ReflectiveMethod(name = "ba", types = {})
     public boolean ba(){
@@ -291,7 +291,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bc()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bc()
      */
     @ReflectiveMethod(name = "bc", types = {})
     public Random bc(){
@@ -300,7 +300,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#be()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#be()
      */
     @ReflectiveMethod(name = "be", types = {})
     public int be(){
@@ -309,7 +309,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bf()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bf()
      */
     @ReflectiveMethod(name = "bf", types = {})
     public NMSEntityLiving bf(){
@@ -318,7 +318,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bg()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bg()
      */
     @ReflectiveMethod(name = "bg", types = {})
     public int bg(){
@@ -327,7 +327,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bh()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bh()
      */
     @ReflectiveMethod(name = "bh", types = {})
     public int bh(){
@@ -336,7 +336,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bi()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bi()
      */
     @ReflectiveMethod(name = "bi", types = {})
     public void bi(){
@@ -345,7 +345,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bj()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bj()
      */
     @ReflectiveMethod(name = "bj", types = {})
     public void bj(){
@@ -354,7 +354,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bm()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bm()
      */
     @ReflectiveMethod(name = "bm", types = {})
     public boolean bm(){
@@ -363,7 +363,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -372,7 +372,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -381,7 +381,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#br()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#br()
      */
     @ReflectiveMethod(name = "br", types = {})
     public int br(){
@@ -390,7 +390,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bs()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bs()
      */
     @ReflectiveMethod(name = "bs", types = {})
     public NMSCombatTracker bs(){
@@ -399,7 +399,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bt()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bt()
      */
     @ReflectiveMethod(name = "bt", types = {})
     public NMSEntityLiving bt(){
@@ -408,7 +408,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bv()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bv()
      */
     @ReflectiveMethod(name = "bv", types = {})
     public int bv(){
@@ -417,7 +417,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bw()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bw()
      */
     @ReflectiveMethod(name = "bw", types = {})
     public void bw(){
@@ -426,7 +426,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#bx()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#bx()
      */
     @ReflectiveMethod(name = "bx", types = {})
     public void bx(){
@@ -435,7 +435,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#c(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#c(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "c", types = {NMSEntityLiving.class})
     public boolean c(NMSEntityLiving entityLiving){
@@ -444,7 +444,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#d(float)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#d(float)
      */
     @ReflectiveMethod(name = "d", types = {float.class})
     public NMSVec3D d(float f){
@@ -452,7 +452,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#damageArmor(float)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#damageArmor(float)
      */
     @ReflectiveMethod(name = "damageArmor", types = {float.class})
     public void damageArmor(float f){
@@ -460,7 +460,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -468,7 +468,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#die(net.minecraft.server.v1_8_R3.DamageSource)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#die(net.minecraft.server.v1_9_R1.DamageSource)
      */
     @ReflectiveMethod(name = "die", types = {NMSDamageSource.class})
     public void die(NMSDamageSource damageSource){
@@ -476,7 +476,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#doTick()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#doTick()
      */
     @ReflectiveMethod(name = "doTick", types = {})
     public void doTick(){
@@ -484,7 +484,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -492,7 +492,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#dropEquipment(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#dropEquipment(boolean, int)
      */
     @ReflectiveMethod(name = "dropEquipment", types = {boolean.class, int.class})
     public void dropEquipment(boolean b, int i){
@@ -501,7 +501,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#e(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#e(float, float)
      */
     @ReflectiveMethod(name = "e", types = {float.class, float.class})
     public void e(float f, float f1){
@@ -509,7 +509,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#enterCombat()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#enterCombat()
      */
     @ReflectiveMethod(name = "enterCombat", types = {})
     public void enterCombat(){
@@ -517,7 +517,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#exitCombat()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#exitCombat()
      */
     @ReflectiveMethod(name = "exitCombat", types = {})
     public void exitCombat(){
@@ -526,7 +526,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#f(float)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#f(float)
      */
     @ReflectiveMethod(name = "f", types = {float.class})
     public void f(float f){
@@ -535,7 +535,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#g(float)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#g(float)
      */
     @ReflectiveMethod(name = "g", types = {float.class})
     public void g(float f){
@@ -543,7 +543,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#getAbsorptionHearts()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#getAbsorptionHearts()
      */
     @ReflectiveMethod(name = "getAbsorptionHearts", types = {})
     public float getAbsorptionHearts(){
@@ -551,7 +551,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#getAttributeInstance(net.minecraft.server.v1_8_R3.IAttribute)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#getAttributeInstance(net.minecraft.server.v1_9_R1.IAttribute)
      */
     @ReflectiveMethod(name = "getAttributeInstance", types = {NMSIAttribute.class})
     public NMSAttributeInstance getAttributeInstance(NMSIAttribute iAttribute){
@@ -559,7 +559,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#getAttributeMap()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#getAttributeMap()
      */
     @ReflectiveMethod(name = "getAttributeMap", types = {})
     public NMSAttributeMapBase getAttributeMap(){
@@ -567,7 +567,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#getEffect(net.minecraft.server.v1_8_R3.MobEffectList)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#getEffect(net.minecraft.server.v1_9_R1.MobEffectList)
      */
     @ReflectiveMethod(name = "getEffect", types = {NMSMobEffectList.class})
     public NMSMobEffect getEffect(NMSMobEffectList mobEffectList){
@@ -575,7 +575,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#getEquipment(int)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#getEquipment(int)
      */
     @ReflectiveMethod(name = "getEquipment", types = {int.class})
     public NMSItemStack getEquipment(int i){
@@ -583,7 +583,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#getExpReward()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#getExpReward()
      */
     @ReflectiveMethod(name = "getExpReward", types = {})
     public int getExpReward(){
@@ -591,7 +591,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#getExpValue(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#getExpValue(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "getExpValue", types = {NMSEntityHuman.class})
     public int getExpValue(NMSEntityHuman entityHuman){
@@ -599,7 +599,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#getHeadRotation()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#getHeadRotation()
      */
     @ReflectiveMethod(name = "getHeadRotation", types = {})
     public float getHeadRotation(){
@@ -607,7 +607,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#getHealth()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#getHealth()
      */
     @ReflectiveMethod(name = "getHealth", types = {})
     public float getHealth(){
@@ -615,7 +615,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#getLastDamager()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#getLastDamager()
      */
     @ReflectiveMethod(name = "getLastDamager", types = {})
     public NMSEntityLiving getLastDamager(){
@@ -623,7 +623,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#getMaxHealth()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#getMaxHealth()
      */
     @ReflectiveMethod(name = "getMaxHealth", types = {})
     public float getMaxHealth(){
@@ -631,7 +631,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#getMonsterType()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#getMonsterType()
      */
     @ReflectiveMethod(name = "getMonsterType", types = {})
     public NMSEnumMonsterType getMonsterType(){
@@ -639,7 +639,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#getRareDrop()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#getRareDrop()
      */
     @ReflectiveMethod(name = "getRareDrop", types = {})
     public void getRareDrop(){
@@ -647,7 +647,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#getScoreboardTeam()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#getScoreboardTeam()
      */
     @ReflectiveMethod(name = "getScoreboardTeam", types = {})
     public NMSScoreboardTeamBase getScoreboardTeam(){
@@ -656,7 +656,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#h(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#h(float, float)
      */
     @ReflectiveMethod(name = "h", types = {float.class, float.class})
     public float h(float f, float f1){
@@ -664,7 +664,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#hasEffect(net.minecraft.server.v1_8_R3.MobEffectList)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#hasEffect(net.minecraft.server.v1_9_R1.MobEffectList)
      */
     @ReflectiveMethod(name = "hasEffect", types = {NMSMobEffectList.class})
     public boolean hasEffect(NMSMobEffectList mobEffectList){
@@ -672,7 +672,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#hasLineOfSight(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#hasLineOfSight(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "hasLineOfSight", types = {NMSEntity.class})
     public boolean hasLineOfSight(NMSEntity entity){
@@ -680,7 +680,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#heal(float, org.bukkit.event.entity.EntityRegainHealthEvent$RegainReason)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#heal(float, org.bukkit.event.entity.EntityRegainHealthEvent$RegainReason)
      */
     @ReflectiveMethod(name = "heal", types = {float.class, EntityRegainHealthEvent.RegainReason.class})
     public void heal(float f, EntityRegainHealthEvent.RegainReason regainReason){
@@ -689,7 +689,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#i(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#i(boolean)
      */
     @ReflectiveMethod(name = "i", types = {boolean.class})
     public void i(boolean b){
@@ -697,7 +697,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#inactiveTick()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#inactiveTick()
      */
     @ReflectiveMethod(name = "inactiveTick", types = {})
     public void inactiveTick(){
@@ -705,7 +705,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -713,7 +713,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#isAlive()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#isAlive()
      */
     @ReflectiveMethod(name = "isAlive", types = {})
     public boolean isAlive(){
@@ -721,7 +721,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#isBaby()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#isBaby()
      */
     @ReflectiveMethod(name = "isBaby", types = {})
     public boolean isBaby(){
@@ -729,7 +729,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#isSleeping()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#isSleeping()
      */
     @ReflectiveMethod(name = "isSleeping", types = {})
     public boolean isSleeping(){
@@ -738,7 +738,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#j(int)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#j(int)
      */
     @ReflectiveMethod(name = "j", types = {int.class})
     public int j(int i){
@@ -747,7 +747,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#k(float)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#k(float)
      */
     @ReflectiveMethod(name = "k", types = {float.class})
     public void k(float f){
@@ -756,7 +756,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#k_()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#k_()
      */
     @ReflectiveMethod(name = "k_", types = {})
     public boolean k_(){
@@ -765,7 +765,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#m()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -773,7 +773,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#mount(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#mount(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "mount", types = {NMSEntity.class})
     public void mount(NMSEntity entity){
@@ -782,7 +782,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#n(int)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#n(int)
      */
     @ReflectiveMethod(name = "n", types = {int.class})
     public String n(int i){
@@ -791,7 +791,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#o(int)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#o(int)
      */
     @ReflectiveMethod(name = "o", types = {int.class})
     public void o(int i){
@@ -800,7 +800,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#p(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#p(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "p", types = {NMSEntity.class})
     public void p(NMSEntity entity){
@@ -809,7 +809,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#q(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#q(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "q", types = {NMSEntity.class})
     public void q(NMSEntity entity){
@@ -818,7 +818,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#r(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#r(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "r", types = {NMSEntity.class})
     public boolean r(NMSEntity entity){
@@ -826,7 +826,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#receive(net.minecraft.server.v1_8_R3.Entity, int)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#receive(net.minecraft.server.v1_9_R1.Entity, int)
      */
     @ReflectiveMethod(name = "receive", types = {NMSEntity.class, int.class})
     public void receive(NMSEntity entity, int i){
@@ -834,7 +834,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#removeAllEffects()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#removeAllEffects()
      */
     @ReflectiveMethod(name = "removeAllEffects", types = {})
     public void removeAllEffects(){
@@ -842,7 +842,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#removeEffect(int)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#removeEffect(int)
      */
     @ReflectiveMethod(name = "removeEffect", types = {int.class})
     public void removeEffect(int i){
@@ -851,7 +851,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#s(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#s(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "s", types = {NMSEntity.class})
     public void s(NMSEntity entity){
@@ -859,7 +859,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#setAbsorptionHearts(float)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#setAbsorptionHearts(float)
      */
     @ReflectiveMethod(name = "setAbsorptionHearts", types = {float.class})
     public void setAbsorptionHearts(float f){
@@ -867,7 +867,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#setEquipment(int, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#setEquipment(int, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "setEquipment", types = {int.class, NMSItemStack.class})
     public void setEquipment(int i, NMSItemStack itemStack){
@@ -875,7 +875,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#setHealth(float)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#setHealth(float)
      */
     @ReflectiveMethod(name = "setHealth", types = {float.class})
     public void setHealth(float f){
@@ -883,7 +883,7 @@ public class NMSEntityLiving extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#setSprinting(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#setSprinting(boolean)
      */
     @ReflectiveMethod(name = "setSprinting", types = {boolean.class})
     public void setSprinting(boolean b){
@@ -892,7 +892,7 @@ public class NMSEntityLiving extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLiving#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityLiving#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){

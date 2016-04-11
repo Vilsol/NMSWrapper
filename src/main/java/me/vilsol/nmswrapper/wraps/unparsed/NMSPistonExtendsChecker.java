@@ -17,7 +17,7 @@ public class NMSPistonExtendsChecker extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PistonExtendsChecker#a()
+     * @see net.minecraft.server.v1_9_R1.PistonExtendsChecker#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){

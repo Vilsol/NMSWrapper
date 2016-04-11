@@ -18,7 +18,7 @@ public class NMSContainerChest extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerChest#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ContainerChest#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -27,7 +27,7 @@ public class NMSContainerChest extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerChest#b(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ContainerChest#b(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityHuman.class})
     public void b(NMSEntityHuman entityHuman){
@@ -36,7 +36,7 @@ public class NMSContainerChest extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerChest#e()
+     * @see net.minecraft.server.v1_9_R1.ContainerChest#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public NMSIInventory e(){
@@ -44,7 +44,7 @@ public class NMSContainerChest extends NMSContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ContainerChest#getBukkitView()
+     * @see net.minecraft.server.v1_9_R1.ContainerChest#getBukkitView()
      */
     @ReflectiveMethod(name = "getBukkitView", types = {})
     public InventoryView getBukkitView(){

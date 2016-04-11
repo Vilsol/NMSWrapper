@@ -13,7 +13,7 @@ public class NMSBlockSlime extends NMSBlockHalfTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSlime#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.BlockSlime#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class, NMSEntity.class})
     public void a(NMSWorld world, NMSBlockPosition blockPosition, NMSEntity entity){

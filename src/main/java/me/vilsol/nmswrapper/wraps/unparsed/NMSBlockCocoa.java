@@ -17,7 +17,7 @@ public class NMSBlockCocoa extends NMSBlockDirectional implements NMSIBlockFragi
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCocoa#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockCocoa#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSBlockPosition.class, NMSIBlockData.class})
     public boolean a(NMSWorld world, Random random, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -26,7 +26,7 @@ public class NMSBlockCocoa extends NMSBlockDirectional implements NMSIBlockFragi
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCocoa#b(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockCocoa#b(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, Random.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void b(NMSWorld world, Random random, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -35,7 +35,7 @@ public class NMSBlockCocoa extends NMSBlockDirectional implements NMSIBlockFragi
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCocoa#c()
+     * @see net.minecraft.server.v1_9_R1.BlockCocoa#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -44,7 +44,7 @@ public class NMSBlockCocoa extends NMSBlockDirectional implements NMSIBlockFragi
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCocoa#d()
+     * @see net.minecraft.server.v1_9_R1.BlockCocoa#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -52,7 +52,7 @@ public class NMSBlockCocoa extends NMSBlockDirectional implements NMSIBlockFragi
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCocoa#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockCocoa#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -60,7 +60,7 @@ public class NMSBlockCocoa extends NMSBlockDirectional implements NMSIBlockFragi
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCocoa#dropNaturally(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, float, int)
+     * @see net.minecraft.server.v1_9_R1.BlockCocoa#dropNaturally(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, float, int)
      */
     @ReflectiveMethod(name = "dropNaturally", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, float.class, int.class})
     public void dropNaturally(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, float f, int i){
@@ -69,7 +69,7 @@ public class NMSBlockCocoa extends NMSBlockDirectional implements NMSIBlockFragi
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCocoa#e(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockCocoa#e(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "e", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public boolean e(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -77,7 +77,7 @@ public class NMSBlockCocoa extends NMSBlockDirectional implements NMSIBlockFragi
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCocoa#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockCocoa#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -85,7 +85,7 @@ public class NMSBlockCocoa extends NMSBlockDirectional implements NMSIBlockFragi
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCocoa#getDropData(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockCocoa#getDropData(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSWorld.class, NMSBlockPosition.class})
     public int getDropData(NMSWorld world, NMSBlockPosition blockPosition){
@@ -93,7 +93,7 @@ public class NMSBlockCocoa extends NMSBlockDirectional implements NMSIBlockFragi
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCocoa#getPlacedState(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float, int, net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.BlockCocoa#getPlacedState(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float, int, net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getPlacedState", types = {NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class, float.class, float.class, float.class, int.class, NMSEntityLiving.class})
     public NMSIBlockData getPlacedState(NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, float f, float f1, float f2, int i, NMSEntityLiving entityLiving){
@@ -101,7 +101,7 @@ public class NMSBlockCocoa extends NMSBlockDirectional implements NMSIBlockFragi
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCocoa#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockCocoa#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -109,7 +109,7 @@ public class NMSBlockCocoa extends NMSBlockDirectional implements NMSIBlockFragi
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCocoa#postPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityLiving, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.BlockCocoa#postPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityLiving, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "postPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityLiving.class, NMSItemStack.class})
     public void postPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityLiving entityLiving, NMSItemStack itemStack){
@@ -117,7 +117,7 @@ public class NMSBlockCocoa extends NMSBlockDirectional implements NMSIBlockFragi
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCocoa#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockCocoa#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -125,7 +125,7 @@ public class NMSBlockCocoa extends NMSBlockDirectional implements NMSIBlockFragi
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCocoa#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockCocoa#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

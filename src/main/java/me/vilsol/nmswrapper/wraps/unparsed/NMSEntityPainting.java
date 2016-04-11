@@ -21,7 +21,7 @@ public class NMSEntityPainting extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPainting#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityPainting#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -30,7 +30,7 @@ public class NMSEntityPainting extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPainting#b(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityPainting#b(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntity.class})
     public void b(NMSEntity entity){
@@ -39,7 +39,7 @@ public class NMSEntityPainting extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPainting#l()
+     * @see net.minecraft.server.v1_9_R1.EntityPainting#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public int l(){
@@ -48,7 +48,7 @@ public class NMSEntityPainting extends NMSEntityHanging {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPainting#m()
+     * @see net.minecraft.server.v1_9_R1.EntityPainting#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public int m(){
@@ -56,7 +56,7 @@ public class NMSEntityPainting extends NMSEntityHanging {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPainting#setPositionRotation(double, double, double, float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityPainting#setPositionRotation(double, double, double, float, float)
      */
     @ReflectiveMethod(name = "setPositionRotation", types = {double.class, double.class, double.class, float.class, float.class})
     public void setPositionRotation(double d, double d1, double d2, float f, float f1){

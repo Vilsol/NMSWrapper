@@ -13,7 +13,7 @@ public class NMSPathfinderNormal extends NMSPathfinderAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderNormal#a(boolean)
+     * @see net.minecraft.server.v1_9_R1.PathfinderNormal#a(boolean)
      */
     @ReflectiveMethod(name = "a", types = {boolean.class})
     public void a(boolean b){
@@ -22,7 +22,7 @@ public class NMSPathfinderNormal extends NMSPathfinderAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderNormal#b()
+     * @see net.minecraft.server.v1_9_R1.PathfinderNormal#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -31,7 +31,7 @@ public class NMSPathfinderNormal extends NMSPathfinderAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderNormal#c(boolean)
+     * @see net.minecraft.server.v1_9_R1.PathfinderNormal#c(boolean)
      */
     @ReflectiveMethod(name = "c", types = {boolean.class})
     public void c(boolean b){
@@ -40,7 +40,7 @@ public class NMSPathfinderNormal extends NMSPathfinderAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderNormal#d()
+     * @see net.minecraft.server.v1_9_R1.PathfinderNormal#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -49,7 +49,7 @@ public class NMSPathfinderNormal extends NMSPathfinderAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderNormal#e()
+     * @see net.minecraft.server.v1_9_R1.PathfinderNormal#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public boolean e(){

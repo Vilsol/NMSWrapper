@@ -24,7 +24,7 @@ public class NMSOpListEntry extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.OpListEntry#a(com.google.gson.JsonObject)
+     * @see net.minecraft.server.v1_9_R1.OpListEntry#a(com.google.gson.JsonObject)
      */
     @ReflectiveMethod(name = "a", types = {JsonObject.class})
     public void a(JsonObject jsonObject){
@@ -33,7 +33,7 @@ public class NMSOpListEntry extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.OpListEntry#b()
+     * @see net.minecraft.server.v1_9_R1.OpListEntry#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){

@@ -12,7 +12,7 @@ public class NMSBlockFloorSign extends NMSBlockSign {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFloorSign#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockFloorSign#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -20,7 +20,7 @@ public class NMSBlockFloorSign extends NMSBlockSign {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFloorSign#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockFloorSign#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -28,7 +28,7 @@ public class NMSBlockFloorSign extends NMSBlockSign {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFloorSign#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockFloorSign#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -36,7 +36,7 @@ public class NMSBlockFloorSign extends NMSBlockSign {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFloorSign#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockFloorSign#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

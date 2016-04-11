@@ -12,7 +12,7 @@ public class NMSItemPickaxe extends NMSItemTool {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemPickaxe#canDestroySpecialBlock(net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.ItemPickaxe#canDestroySpecialBlock(net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "canDestroySpecialBlock", types = {NMSBlock.class})
     public boolean canDestroySpecialBlock(NMSBlock block){
@@ -20,7 +20,7 @@ public class NMSItemPickaxe extends NMSItemTool {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemPickaxe#getDestroySpeed(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.ItemPickaxe#getDestroySpeed(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "getDestroySpeed", types = {NMSItemStack.class, NMSBlock.class})
     public float getDestroySpeed(NMSItemStack itemStack, NMSBlock block){

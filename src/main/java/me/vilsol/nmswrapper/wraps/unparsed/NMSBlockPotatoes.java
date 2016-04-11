@@ -12,7 +12,7 @@ public class NMSBlockPotatoes extends NMSBlockCrops {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPotatoes#dropNaturally(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, float, int)
+     * @see net.minecraft.server.v1_9_R1.BlockPotatoes#dropNaturally(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, float, int)
      */
     @ReflectiveMethod(name = "dropNaturally", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, float.class, int.class})
     public void dropNaturally(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, float f, int i){
@@ -21,7 +21,7 @@ public class NMSBlockPotatoes extends NMSBlockCrops {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPotatoes#l()
+     * @see net.minecraft.server.v1_9_R1.BlockPotatoes#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public NMSItem l(){
@@ -30,7 +30,7 @@ public class NMSBlockPotatoes extends NMSBlockCrops {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPotatoes#n()
+     * @see net.minecraft.server.v1_9_R1.BlockPotatoes#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public NMSItem n(){

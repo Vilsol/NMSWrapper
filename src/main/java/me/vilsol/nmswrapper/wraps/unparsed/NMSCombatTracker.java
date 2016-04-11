@@ -17,7 +17,7 @@ public class NMSCombatTracker extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CombatTracker#a(net.minecraft.server.v1_8_R3.DamageSource, float, float)
+     * @see net.minecraft.server.v1_9_R1.CombatTracker#a(net.minecraft.server.v1_9_R1.DamageSource, float, float)
      */
     @ReflectiveMethod(name = "a", types = {NMSDamageSource.class, float.class, float.class})
     public void a(NMSDamageSource damageSource, float f, float f1){
@@ -26,7 +26,7 @@ public class NMSCombatTracker extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CombatTracker#b()
+     * @see net.minecraft.server.v1_9_R1.CombatTracker#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSIChatBaseComponent b(){
@@ -35,7 +35,7 @@ public class NMSCombatTracker extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CombatTracker#c()
+     * @see net.minecraft.server.v1_9_R1.CombatTracker#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public NMSEntityLiving c(){
@@ -44,7 +44,7 @@ public class NMSCombatTracker extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CombatTracker#f()
+     * @see net.minecraft.server.v1_9_R1.CombatTracker#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public int f(){
@@ -53,7 +53,7 @@ public class NMSCombatTracker extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CombatTracker#g()
+     * @see net.minecraft.server.v1_9_R1.CombatTracker#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public void g(){
@@ -62,7 +62,7 @@ public class NMSCombatTracker extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CombatTracker#h()
+     * @see net.minecraft.server.v1_9_R1.CombatTracker#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public NMSEntityLiving h(){

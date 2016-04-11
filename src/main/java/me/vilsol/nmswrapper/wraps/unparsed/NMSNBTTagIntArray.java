@@ -12,7 +12,7 @@ public class NMSNBTTagIntArray extends NMSNBTBase {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NBTTagIntArray#clone()
+     * @see net.minecraft.server.v1_9_R1.NBTTagIntArray#clone()
      */
     @ReflectiveMethod(name = "clone", types = {})
     public NMSNBTBase clone(){
@@ -20,7 +20,7 @@ public class NMSNBTTagIntArray extends NMSNBTBase {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NBTTagIntArray#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.NBTTagIntArray#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -28,7 +28,7 @@ public class NMSNBTTagIntArray extends NMSNBTBase {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NBTTagIntArray#getTypeId()
+     * @see net.minecraft.server.v1_9_R1.NBTTagIntArray#getTypeId()
      */
     @ReflectiveMethod(name = "getTypeId", types = {})
     public byte getTypeId(){
@@ -36,7 +36,7 @@ public class NMSNBTTagIntArray extends NMSNBTBase {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NBTTagIntArray#hashCode()
+     * @see net.minecraft.server.v1_9_R1.NBTTagIntArray#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -44,7 +44,7 @@ public class NMSNBTTagIntArray extends NMSNBTBase {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NBTTagIntArray#toString()
+     * @see net.minecraft.server.v1_9_R1.NBTTagIntArray#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

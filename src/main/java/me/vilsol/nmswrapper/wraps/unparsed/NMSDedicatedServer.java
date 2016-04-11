@@ -17,7 +17,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#B()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#B()
      */
     @ReflectiveMethod(name = "B", types = {})
     public void B(){
@@ -26,7 +26,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class, NMSEntityHuman.class})
     public boolean a(NMSWorld world, NMSBlockPosition blockPosition, NMSEntityHuman entityHuman){
@@ -35,7 +35,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#aB()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#aB()
      */
     @ReflectiveMethod(name = "aB", types = {})
     public boolean aB(){
@@ -44,7 +44,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#aI()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#aI()
      */
     @ReflectiveMethod(name = "aI", types = {})
     public int aI(){
@@ -53,7 +53,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#aK()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#aK()
      */
     @ReflectiveMethod(name = "aK", types = {})
     public int aK(){
@@ -62,7 +62,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#aO()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#aO()
      */
     @ReflectiveMethod(name = "aO", types = {})
     public void aO(){
@@ -71,7 +71,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#aP()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#aP()
      */
     @ReflectiveMethod(name = "aP", types = {})
     public NMSDedicatedPlayerList aP(){
@@ -80,7 +80,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#aQ()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#aQ()
      */
     @ReflectiveMethod(name = "aQ", types = {})
     public void aQ(){
@@ -89,7 +89,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#aR()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#aR()
      */
     @ReflectiveMethod(name = "aR", types = {})
     public boolean aR(){
@@ -98,7 +98,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#aS()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#aS()
      */
     @ReflectiveMethod(name = "aS", types = {})
     public long aS(){
@@ -107,7 +107,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#ae()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#ae()
      */
     @ReflectiveMethod(name = "ae", types = {})
     public boolean ae(){
@@ -116,7 +116,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#ai()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#ai()
      */
     @ReflectiveMethod(name = "ai", types = {})
     public boolean ai(){
@@ -125,7 +125,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#as()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#as()
      */
     @ReflectiveMethod(name = "as", types = {})
     public boolean as(){
@@ -134,7 +134,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#b()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public String b(){
@@ -142,7 +142,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#executeRemoteCommand(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#executeRemoteCommand(java.lang.String)
      */
     @ReflectiveMethod(name = "executeRemoteCommand", types = {String.class})
     public String executeRemoteCommand(String s){
@@ -150,7 +150,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#getAllowNether()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#getAllowNether()
      */
     @ReflectiveMethod(name = "getAllowNether", types = {})
     public boolean getAllowNether(){
@@ -158,7 +158,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#getDifficulty()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#getDifficulty()
      */
     @ReflectiveMethod(name = "getDifficulty", types = {})
     public NMSEnumDifficulty getDifficulty(){
@@ -166,7 +166,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#getEnableCommandBlock()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#getEnableCommandBlock()
      */
     @ReflectiveMethod(name = "getEnableCommandBlock", types = {})
     public boolean getEnableCommandBlock(){
@@ -174,7 +174,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#getGamemode()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#getGamemode()
      */
     @ReflectiveMethod(name = "getGamemode", types = {})
     public NMSEnumGamemode getGamemode(){
@@ -182,7 +182,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#getGenerateStructures()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#getGenerateStructures()
      */
     @ReflectiveMethod(name = "getGenerateStructures", types = {})
     public boolean getGenerateStructures(){
@@ -190,7 +190,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#getPlayerList()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#getPlayerList()
      */
     @ReflectiveMethod(name = "getPlayerList", types = {})
     public NMSPlayerList getPlayerList(){
@@ -198,7 +198,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#getPlugins()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#getPlugins()
      */
     @ReflectiveMethod(name = "getPlugins", types = {})
     public String getPlugins(){
@@ -206,7 +206,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#getPropertyManager()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#getPropertyManager()
      */
     @ReflectiveMethod(name = "getPropertyManager", types = {})
     public NMSPropertyManager getPropertyManager(){
@@ -214,7 +214,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#getSnooperEnabled()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#getSnooperEnabled()
      */
     @ReflectiveMethod(name = "getSnooperEnabled", types = {})
     public boolean getSnooperEnabled(){
@@ -222,7 +222,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#getSpawnMonsters()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#getSpawnMonsters()
      */
     @ReflectiveMethod(name = "getSpawnMonsters", types = {})
     public boolean getSpawnMonsters(){
@@ -230,7 +230,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#getSpawnProtection()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#getSpawnProtection()
      */
     @ReflectiveMethod(name = "getSpawnProtection", types = {})
     public int getSpawnProtection(){
@@ -238,7 +238,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#isHardcore()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#isHardcore()
      */
     @ReflectiveMethod(name = "isHardcore", types = {})
     public boolean isHardcore(){
@@ -246,7 +246,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#issueCommand(java.lang.String, net.minecraft.server.v1_8_R3.ICommandListener)
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#issueCommand(java.lang.String, net.minecraft.server.v1_9_R1.ICommandListener)
      */
     @ReflectiveMethod(name = "issueCommand", types = {String.class, NMSICommandListener.class})
     public void issueCommand(String s, NMSICommandListener iCommandListener){
@@ -255,7 +255,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#p()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#p()
      */
     @ReflectiveMethod(name = "p", types = {})
     public int p(){
@@ -264,7 +264,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#q()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#q()
      */
     @ReflectiveMethod(name = "q", types = {})
     public boolean q(){
@@ -273,7 +273,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#r()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#r()
      */
     @ReflectiveMethod(name = "r", types = {})
     public boolean r(){
@@ -281,7 +281,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#setGamemode(net.minecraft.server.v1_8_R3.WorldSettings$EnumGamemode)
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#setGamemode(net.minecraft.server.v1_9_R1.WorldSettings$EnumGamemode)
      */
     @ReflectiveMethod(name = "setGamemode", types = {NMSEnumGamemode.class})
     public void setGamemode(NMSEnumGamemode enumGamemode){
@@ -289,7 +289,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#setIdleTimeout(int)
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#setIdleTimeout(int)
      */
     @ReflectiveMethod(name = "setIdleTimeout", types = {int.class})
     public void setIdleTimeout(int i){
@@ -298,7 +298,7 @@ public class NMSDedicatedServer extends NMSMinecraftServer implements NMSIMinecr
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DedicatedServer#z()
+     * @see net.minecraft.server.v1_9_R1.DedicatedServer#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public void z(){

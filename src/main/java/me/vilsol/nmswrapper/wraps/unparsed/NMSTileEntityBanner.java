@@ -13,7 +13,7 @@ public class NMSTileEntityBanner extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityBanner#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBanner#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -22,7 +22,7 @@ public class NMSTileEntityBanner extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityBanner#b(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBanner#b(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "b", types = {NMSItemStack.class})
     public int b(NMSItemStack itemStack){
@@ -31,7 +31,7 @@ public class NMSTileEntityBanner extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityBanner#c(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBanner#c(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "c", types = {NMSItemStack.class})
     public int c(NMSItemStack itemStack){
@@ -40,7 +40,7 @@ public class NMSTileEntityBanner extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityBanner#d()
+     * @see net.minecraft.server.v1_9_R1.TileEntityBanner#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public NMSNBTTagList d(){
@@ -49,7 +49,7 @@ public class NMSTileEntityBanner extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityBanner#e(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBanner#e(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "e", types = {NMSItemStack.class})
     public void e(NMSItemStack itemStack){
@@ -57,7 +57,7 @@ public class NMSTileEntityBanner extends NMSTileEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBanner#getUpdatePacket()
+     * @see net.minecraft.server.v1_9_R1.TileEntityBanner#getUpdatePacket()
      */
     @ReflectiveMethod(name = "getUpdatePacket", types = {})
     public NMSPacket getUpdatePacket(){

@@ -21,7 +21,7 @@ public class NMSEntityMinecartFurnace extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartFurnace#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartFurnace#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -30,7 +30,7 @@ public class NMSEntityMinecartFurnace extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartFurnace#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartFurnace#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -39,7 +39,7 @@ public class NMSEntityMinecartFurnace extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartFurnace#e(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartFurnace#e(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "e", types = {NMSEntityHuman.class})
     public boolean e(NMSEntityHuman entityHuman){
@@ -48,7 +48,7 @@ public class NMSEntityMinecartFurnace extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartFurnace#h()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartFurnace#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -57,7 +57,7 @@ public class NMSEntityMinecartFurnace extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartFurnace#i(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartFurnace#i(boolean)
      */
     @ReflectiveMethod(name = "i", types = {boolean.class})
     public void i(boolean b){
@@ -66,7 +66,7 @@ public class NMSEntityMinecartFurnace extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartFurnace#j()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartFurnace#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public boolean j(){
@@ -75,7 +75,7 @@ public class NMSEntityMinecartFurnace extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartFurnace#m()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartFurnace#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public double m(){
@@ -84,7 +84,7 @@ public class NMSEntityMinecartFurnace extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartFurnace#o()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartFurnace#o()
      */
     @ReflectiveMethod(name = "o", types = {})
     public void o(){
@@ -93,7 +93,7 @@ public class NMSEntityMinecartFurnace extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartFurnace#s()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartFurnace#s()
      */
     @ReflectiveMethod(name = "s", types = {})
     public NMSEnumMinecartType s(){
@@ -102,7 +102,7 @@ public class NMSEntityMinecartFurnace extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartFurnace#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartFurnace#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){
@@ -111,7 +111,7 @@ public class NMSEntityMinecartFurnace extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartFurnace#u()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartFurnace#u()
      */
     @ReflectiveMethod(name = "u", types = {})
     public NMSIBlockData u(){

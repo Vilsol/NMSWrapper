@@ -19,7 +19,7 @@ public class NMSContainerPlayer extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerPlayer#a(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.Slot)
+     * @see net.minecraft.server.v1_9_R1.ContainerPlayer#a(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.Slot)
      */
     @ReflectiveMethod(name = "a", types = {NMSItemStack.class, NMSSlot.class})
     public boolean a(NMSItemStack itemStack, NMSSlot slot){
@@ -28,7 +28,7 @@ public class NMSContainerPlayer extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerPlayer#b(net.minecraft.server.v1_8_R3.EntityHuman, int)
+     * @see net.minecraft.server.v1_9_R1.ContainerPlayer#b(net.minecraft.server.v1_9_R1.EntityHuman, int)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityHuman.class, int.class})
     public NMSItemStack b(NMSEntityHuman entityHuman, int i){
@@ -36,7 +36,7 @@ public class NMSContainerPlayer extends NMSContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ContainerPlayer#getBukkitView()
+     * @see net.minecraft.server.v1_9_R1.ContainerPlayer#getBukkitView()
      */
     @ReflectiveMethod(name = "getBukkitView", types = {})
     public InventoryView getBukkitView(){

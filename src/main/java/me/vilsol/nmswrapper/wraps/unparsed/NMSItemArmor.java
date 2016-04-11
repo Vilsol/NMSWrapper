@@ -17,7 +17,7 @@ public class NMSItemArmor extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemArmor#a(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ItemArmor#a(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSItemStack.class, NMSWorld.class, NMSEntityHuman.class})
     public NMSItemStack a(NMSItemStack itemStack, NMSWorld world, NMSEntityHuman entityHuman){
@@ -26,7 +26,7 @@ public class NMSItemArmor extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemArmor#b(net.minecraft.server.v1_8_R3.ItemStack, int)
+     * @see net.minecraft.server.v1_9_R1.ItemArmor#b(net.minecraft.server.v1_9_R1.ItemStack, int)
      */
     @ReflectiveMethod(name = "b", types = {NMSItemStack.class, int.class})
     public void b(NMSItemStack itemStack, int i){
@@ -35,7 +35,7 @@ public class NMSItemArmor extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemArmor#c(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemArmor#c(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "c", types = {NMSItemStack.class})
     public void c(NMSItemStack itemStack){
@@ -44,7 +44,7 @@ public class NMSItemArmor extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemArmor#d_(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemArmor#d_(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "d_", types = {NMSItemStack.class})
     public boolean d_(NMSItemStack itemStack){
@@ -53,7 +53,7 @@ public class NMSItemArmor extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemArmor#x_()
+     * @see net.minecraft.server.v1_9_R1.ItemArmor#x_()
      */
     @ReflectiveMethod(name = "x_", types = {})
     public NMSEnumArmorMaterial x_(){

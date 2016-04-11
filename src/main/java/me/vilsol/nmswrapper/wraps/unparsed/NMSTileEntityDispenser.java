@@ -13,7 +13,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -21,7 +21,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#addItem(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#addItem(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "addItem", types = {NMSItemStack.class})
     public int addItem(NMSItemStack itemStack){
@@ -30,7 +30,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#b(int, int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#b(int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public void b(int i, int i1){
@@ -38,7 +38,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#closeContainer(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#closeContainer(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "closeContainer", types = {NMSEntityHuman.class})
     public void closeContainer(NMSEntityHuman entityHuman){
@@ -46,7 +46,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#createContainer(net.minecraft.server.v1_8_R3.PlayerInventory, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#createContainer(net.minecraft.server.v1_9_R1.PlayerInventory, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "createContainer", types = {NMSPlayerInventory.class, NMSEntityHuman.class})
     public NMSContainer createContainer(NMSPlayerInventory playerInventory, NMSEntityHuman entityHuman){
@@ -55,7 +55,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#g()
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public int g(){
@@ -63,7 +63,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#getContainerName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#getContainerName()
      */
     @ReflectiveMethod(name = "getContainerName", types = {})
     public String getContainerName(){
@@ -71,7 +71,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#getItem(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#getItem(int)
      */
     @ReflectiveMethod(name = "getItem", types = {int.class})
     public NMSItemStack getItem(int i){
@@ -79,7 +79,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#getMaxStackSize()
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#getMaxStackSize()
      */
     @ReflectiveMethod(name = "getMaxStackSize", types = {})
     public int getMaxStackSize(){
@@ -87,7 +87,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#getName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -95,7 +95,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#getProperty(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#getProperty(int)
      */
     @ReflectiveMethod(name = "getProperty", types = {int.class})
     public int getProperty(int i){
@@ -103,7 +103,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#getSize()
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#getSize()
      */
     @ReflectiveMethod(name = "getSize", types = {})
     public int getSize(){
@@ -111,7 +111,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#hasCustomName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#hasCustomName()
      */
     @ReflectiveMethod(name = "hasCustomName", types = {})
     public boolean hasCustomName(){
@@ -120,7 +120,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#l()
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public void l(){
@@ -129,7 +129,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#m()
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public int m(){
@@ -137,7 +137,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#onClose(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#onClose(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onClose", types = {NMSCraftHumanEntity.class})
     public void onClose(NMSCraftHumanEntity craftHumanEntity){
@@ -145,7 +145,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#onOpen(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#onOpen(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onOpen", types = {NMSCraftHumanEntity.class})
     public void onOpen(NMSCraftHumanEntity craftHumanEntity){
@@ -153,7 +153,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#setItem(int, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#setItem(int, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "setItem", types = {int.class, NMSItemStack.class})
     public void setItem(int i, NMSItemStack itemStack){
@@ -161,7 +161,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#setMaxStackSize(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#setMaxStackSize(int)
      */
     @ReflectiveMethod(name = "setMaxStackSize", types = {int.class})
     public void setMaxStackSize(int i){
@@ -169,7 +169,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#splitStack(int, int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#splitStack(int, int)
      */
     @ReflectiveMethod(name = "splitStack", types = {int.class, int.class})
     public NMSItemStack splitStack(int i, int i1){
@@ -177,7 +177,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#splitWithoutUpdate(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#splitWithoutUpdate(int)
      */
     @ReflectiveMethod(name = "splitWithoutUpdate", types = {int.class})
     public NMSItemStack splitWithoutUpdate(int i){
@@ -185,7 +185,7 @@ public class NMSTileEntityDispenser extends NMSTileEntityContainer implements NM
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDispenser#startOpen(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityDispenser#startOpen(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "startOpen", types = {NMSEntityHuman.class})
     public void startOpen(NMSEntityHuman entityHuman){

@@ -22,7 +22,7 @@ public class NMSTileEntityMobSpawnerData extends NMSWeightedRandom.NMSWeightedRa
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityMobSpawnerData#a(net.minecraft.server.v1_8_R3.TileEntityMobSpawnerData)
+     * @see net.minecraft.server.v1_9_R1.TileEntityMobSpawnerData#a(net.minecraft.server.v1_9_R1.TileEntityMobSpawnerData)
      */
     @ReflectiveMethod(name = "a", types = {NMSTileEntityMobSpawnerData.class})
     public String a(NMSTileEntityMobSpawnerData tileEntityMobSpawnerData){
@@ -31,7 +31,7 @@ public class NMSTileEntityMobSpawnerData extends NMSWeightedRandom.NMSWeightedRa
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityMobSpawnerData#b(net.minecraft.server.v1_8_R3.TileEntityMobSpawnerData)
+     * @see net.minecraft.server.v1_9_R1.TileEntityMobSpawnerData#b(net.minecraft.server.v1_9_R1.TileEntityMobSpawnerData)
      */
     @ReflectiveMethod(name = "b", types = {NMSTileEntityMobSpawnerData.class})
     public NMSNBTTagCompound b(NMSTileEntityMobSpawnerData tileEntityMobSpawnerData){

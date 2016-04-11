@@ -20,7 +20,7 @@ public class NMSWhiteList extends NMSJsonList {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WhiteList#a(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.WhiteList#a(java.lang.Object)
      */
     @ReflectiveMethod(name = "a", types = {Object.class})
     public String a(Object object){
@@ -29,7 +29,7 @@ public class NMSWhiteList extends NMSJsonList {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WhiteList#b(com.mojang.authlib.GameProfile)
+     * @see net.minecraft.server.v1_9_R1.WhiteList#b(com.mojang.authlib.GameProfile)
      */
     @ReflectiveMethod(name = "b", types = {GameProfile.class})
     public String b(GameProfile gameProfile){
@@ -37,7 +37,7 @@ public class NMSWhiteList extends NMSJsonList {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WhiteList#isWhitelisted(com.mojang.authlib.GameProfile)
+     * @see net.minecraft.server.v1_9_R1.WhiteList#isWhitelisted(com.mojang.authlib.GameProfile)
      */
     @ReflectiveMethod(name = "isWhitelisted", types = {GameProfile.class})
     public boolean isWhitelisted(GameProfile gameProfile){

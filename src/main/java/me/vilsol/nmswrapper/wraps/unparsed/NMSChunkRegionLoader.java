@@ -21,7 +21,7 @@ public class NMSChunkRegionLoader extends NMSWrap implements NMSIAsyncChunkSaver
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkRegionLoader#a()
+     * @see net.minecraft.server.v1_9_R1.ChunkRegionLoader#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public void a(){
@@ -30,7 +30,7 @@ public class NMSChunkRegionLoader extends NMSWrap implements NMSIAsyncChunkSaver
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkRegionLoader#b()
+     * @see net.minecraft.server.v1_9_R1.ChunkRegionLoader#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public void b(){
@@ -39,7 +39,7 @@ public class NMSChunkRegionLoader extends NMSWrap implements NMSIAsyncChunkSaver
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkRegionLoader#c()
+     * @see net.minecraft.server.v1_9_R1.ChunkRegionLoader#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -47,7 +47,7 @@ public class NMSChunkRegionLoader extends NMSWrap implements NMSIAsyncChunkSaver
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkRegionLoader#chunkExists(net.minecraft.server.v1_8_R3.World, int, int)
+     * @see net.minecraft.server.v1_9_R1.ChunkRegionLoader#chunkExists(net.minecraft.server.v1_9_R1.World, int, int)
      */
     @ReflectiveMethod(name = "chunkExists", types = {NMSWorld.class, int.class, int.class})
     public boolean chunkExists(NMSWorld world, int i, int i1){
@@ -55,7 +55,7 @@ public class NMSChunkRegionLoader extends NMSWrap implements NMSIAsyncChunkSaver
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkRegionLoader#loadEntities(net.minecraft.server.v1_8_R3.Chunk, net.minecraft.server.v1_8_R3.NBTTagCompound, net.minecraft.server.v1_8_R3.World)
+     * @see net.minecraft.server.v1_9_R1.ChunkRegionLoader#loadEntities(net.minecraft.server.v1_9_R1.Chunk, net.minecraft.server.v1_9_R1.NBTTagCompound, net.minecraft.server.v1_9_R1.World)
      */
     @ReflectiveMethod(name = "loadEntities", types = {NMSChunk.class, NMSNBTTagCompound.class, NMSWorld.class})
     public void loadEntities(NMSChunk chunk, NMSNBTTagCompound nBTTagCompound, NMSWorld world){

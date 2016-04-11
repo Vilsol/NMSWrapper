@@ -21,7 +21,7 @@ public class NMSStructureStart extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructureStart#a(net.minecraft.server.v1_8_R3.ChunkCoordIntPair)
+     * @see net.minecraft.server.v1_9_R1.StructureStart#a(net.minecraft.server.v1_9_R1.ChunkCoordIntPair)
      */
     @ReflectiveMethod(name = "a", types = {NMSChunkCoordIntPair.class})
     public boolean a(NMSChunkCoordIntPair chunkCoordIntPair){
@@ -30,7 +30,7 @@ public class NMSStructureStart extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructureStart#b(net.minecraft.server.v1_8_R3.ChunkCoordIntPair)
+     * @see net.minecraft.server.v1_9_R1.StructureStart#b(net.minecraft.server.v1_9_R1.ChunkCoordIntPair)
      */
     @ReflectiveMethod(name = "b", types = {NMSChunkCoordIntPair.class})
     public void b(NMSChunkCoordIntPair chunkCoordIntPair){
@@ -39,7 +39,7 @@ public class NMSStructureStart extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructureStart#c()
+     * @see net.minecraft.server.v1_9_R1.StructureStart#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -48,7 +48,7 @@ public class NMSStructureStart extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructureStart#d()
+     * @see net.minecraft.server.v1_9_R1.StructureStart#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -57,7 +57,7 @@ public class NMSStructureStart extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructureStart#e()
+     * @see net.minecraft.server.v1_9_R1.StructureStart#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public int e(){
@@ -66,7 +66,7 @@ public class NMSStructureStart extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructureStart#f()
+     * @see net.minecraft.server.v1_9_R1.StructureStart#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public int f(){

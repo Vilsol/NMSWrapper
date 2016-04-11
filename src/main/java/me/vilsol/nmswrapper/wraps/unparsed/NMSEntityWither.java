@@ -17,7 +17,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWither#D()
+     * @see net.minecraft.server.v1_9_R1.EntityWither#D()
      */
     @ReflectiveMethod(name = "D", types = {})
     public void D(){
@@ -26,7 +26,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWither#E()
+     * @see net.minecraft.server.v1_9_R1.EntityWither#E()
      */
     @ReflectiveMethod(name = "E", types = {})
     public void E(){
@@ -35,7 +35,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWither#a(net.minecraft.server.v1_8_R3.EntityLiving, float)
+     * @see net.minecraft.server.v1_9_R1.EntityWither#a(net.minecraft.server.v1_9_R1.EntityLiving, float)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityLiving.class, float.class})
     public void a(NMSEntityLiving entityLiving, float f){
@@ -44,7 +44,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWither#aA()
+     * @see net.minecraft.server.v1_9_R1.EntityWither#aA()
      */
     @ReflectiveMethod(name = "aA", types = {})
     public void aA(){
@@ -52,7 +52,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWither#addEffect(net.minecraft.server.v1_8_R3.MobEffect)
+     * @see net.minecraft.server.v1_9_R1.EntityWither#addEffect(net.minecraft.server.v1_9_R1.MobEffect)
      */
     @ReflectiveMethod(name = "addEffect", types = {NMSMobEffect.class})
     public void addEffect(NMSMobEffect mobEffect){
@@ -61,7 +61,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWither#b(int, int)
+     * @see net.minecraft.server.v1_9_R1.EntityWither#b(int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public void b(int i, int i1){
@@ -70,7 +70,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWither#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityWither#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -79,7 +79,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWither#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityWither#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -88,7 +88,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWither#br()
+     * @see net.minecraft.server.v1_9_R1.EntityWither#br()
      */
     @ReflectiveMethod(name = "br", types = {})
     public int br(){
@@ -97,7 +97,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWither#cl()
+     * @see net.minecraft.server.v1_9_R1.EntityWither#cl()
      */
     @ReflectiveMethod(name = "cl", types = {})
     public int cl(){
@@ -106,7 +106,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWither#cm()
+     * @see net.minecraft.server.v1_9_R1.EntityWither#cm()
      */
     @ReflectiveMethod(name = "cm", types = {})
     public boolean cm(){
@@ -114,7 +114,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWither#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityWither#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -122,7 +122,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWither#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityWither#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -131,7 +131,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWither#e(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityWither#e(float, float)
      */
     @ReflectiveMethod(name = "e", types = {float.class, float.class})
     public void e(float f, float f1){
@@ -139,7 +139,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWither#getMonsterType()
+     * @see net.minecraft.server.v1_9_R1.EntityWither#getMonsterType()
      */
     @ReflectiveMethod(name = "getMonsterType", types = {})
     public NMSEnumMonsterType getMonsterType(){
@@ -148,7 +148,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWither#h()
+     * @see net.minecraft.server.v1_9_R1.EntityWither#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -156,7 +156,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWither#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityWither#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -165,7 +165,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWither#m()
+     * @see net.minecraft.server.v1_9_R1.EntityWither#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -173,7 +173,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWither#mount(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityWither#mount(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "mount", types = {NMSEntity.class})
     public void mount(NMSEntity entity){
@@ -182,7 +182,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWither#n()
+     * @see net.minecraft.server.v1_9_R1.EntityWither#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public void n(){
@@ -191,7 +191,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWither#r(int)
+     * @see net.minecraft.server.v1_9_R1.EntityWither#r(int)
      */
     @ReflectiveMethod(name = "r", types = {int.class})
     public void r(int i){
@@ -200,7 +200,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWither#s(int)
+     * @see net.minecraft.server.v1_9_R1.EntityWither#s(int)
      */
     @ReflectiveMethod(name = "s", types = {int.class})
     public int s(int i){
@@ -209,7 +209,7 @@ public class NMSEntityWither extends NMSEntityMonster implements NMSIRangedEntit
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWither#z()
+     * @see net.minecraft.server.v1_9_R1.EntityWither#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

@@ -12,7 +12,7 @@ public class NMSBlockSmoothBrick extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSmoothBrick#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockSmoothBrick#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -20,7 +20,7 @@ public class NMSBlockSmoothBrick extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSmoothBrick#getDropData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSmoothBrick#getDropData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSIBlockData.class})
     public int getDropData(NMSIBlockData iBlockData){
@@ -28,7 +28,7 @@ public class NMSBlockSmoothBrick extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSmoothBrick#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockSmoothBrick#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -36,7 +36,7 @@ public class NMSBlockSmoothBrick extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSmoothBrick#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSmoothBrick#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

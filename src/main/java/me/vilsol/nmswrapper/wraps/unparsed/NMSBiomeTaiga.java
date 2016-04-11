@@ -20,7 +20,7 @@ public class NMSBiomeTaiga extends NMSBiomeBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeTaiga#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.ChunkSnapshot, int, int, double)
+     * @see net.minecraft.server.v1_9_R1.BiomeTaiga#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.ChunkSnapshot, int, int, double)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSChunkSnapshot.class, int.class, int.class, double.class})
     public void a(NMSWorld world, Random random, NMSChunkSnapshot chunkSnapshot, int i, int i1, double d){
@@ -29,7 +29,7 @@ public class NMSBiomeTaiga extends NMSBiomeBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeTaiga#b(java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BiomeTaiga#b(java.util.Random)
      */
     @ReflectiveMethod(name = "b", types = {Random.class})
     public NMSWorldGenerator b(Random random){
@@ -38,7 +38,7 @@ public class NMSBiomeTaiga extends NMSBiomeBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeTaiga#d(int)
+     * @see net.minecraft.server.v1_9_R1.BiomeTaiga#d(int)
      */
     @ReflectiveMethod(name = "d", types = {int.class})
     public NMSBiomeBase d(int i){

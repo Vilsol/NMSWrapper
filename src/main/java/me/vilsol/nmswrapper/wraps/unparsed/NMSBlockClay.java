@@ -15,7 +15,7 @@ public class NMSBlockClay extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockClay#a(java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockClay#a(java.util.Random)
      */
     @ReflectiveMethod(name = "a", types = {Random.class})
     public int a(Random random){
@@ -23,7 +23,7 @@ public class NMSBlockClay extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockClay#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockClay#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){

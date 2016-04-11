@@ -17,7 +17,7 @@ public class NMSControllerLook extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ControllerLook#a()
+     * @see net.minecraft.server.v1_9_R1.ControllerLook#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public void a(){
@@ -26,7 +26,7 @@ public class NMSControllerLook extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ControllerLook#b()
+     * @see net.minecraft.server.v1_9_R1.ControllerLook#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -35,7 +35,7 @@ public class NMSControllerLook extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ControllerLook#e()
+     * @see net.minecraft.server.v1_9_R1.ControllerLook#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public double e(){
@@ -44,7 +44,7 @@ public class NMSControllerLook extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ControllerLook#f()
+     * @see net.minecraft.server.v1_9_R1.ControllerLook#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public double f(){
@@ -53,7 +53,7 @@ public class NMSControllerLook extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ControllerLook#g()
+     * @see net.minecraft.server.v1_9_R1.ControllerLook#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public double g(){

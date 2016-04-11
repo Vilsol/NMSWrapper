@@ -16,7 +16,7 @@ public class NMSBiomeBigHills extends NMSBiomeBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeBigHills#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.ChunkSnapshot, int, int, double)
+     * @see net.minecraft.server.v1_9_R1.BiomeBigHills#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.ChunkSnapshot, int, int, double)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSChunkSnapshot.class, int.class, int.class, double.class})
     public void a(NMSWorld world, Random random, NMSChunkSnapshot chunkSnapshot, int i, int i1, double d){
@@ -25,7 +25,7 @@ public class NMSBiomeBigHills extends NMSBiomeBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeBigHills#d(int)
+     * @see net.minecraft.server.v1_9_R1.BiomeBigHills#d(int)
      */
     @ReflectiveMethod(name = "d", types = {int.class})
     public NMSBiomeBase d(int i){

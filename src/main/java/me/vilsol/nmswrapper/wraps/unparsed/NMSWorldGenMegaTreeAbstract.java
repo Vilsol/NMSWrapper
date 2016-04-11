@@ -21,7 +21,7 @@ public class NMSWorldGenMegaTreeAbstract extends NMSWorldGenTreeAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenMegaTreeAbstract#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, int)
+     * @see net.minecraft.server.v1_9_R1.WorldGenMegaTreeAbstract#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class, int.class})
     public void a(NMSWorld world, NMSBlockPosition blockPosition, int i){
@@ -30,7 +30,7 @@ public class NMSWorldGenMegaTreeAbstract extends NMSWorldGenTreeAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenMegaTreeAbstract#b(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, int)
+     * @see net.minecraft.server.v1_9_R1.WorldGenMegaTreeAbstract#b(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, int)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, NMSBlockPosition.class, int.class})
     public void b(NMSWorld world, NMSBlockPosition blockPosition, int i){

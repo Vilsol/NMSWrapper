@@ -12,7 +12,7 @@ public class NMSBlockWallSign extends NMSBlockSign {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockWallSign#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockWallSign#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -20,7 +20,7 @@ public class NMSBlockWallSign extends NMSBlockSign {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockWallSign#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockWallSign#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -28,7 +28,7 @@ public class NMSBlockWallSign extends NMSBlockSign {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockWallSign#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockWallSign#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -36,7 +36,7 @@ public class NMSBlockWallSign extends NMSBlockSign {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockWallSign#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockWallSign#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -44,7 +44,7 @@ public class NMSBlockWallSign extends NMSBlockSign {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockWallSign#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockWallSign#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

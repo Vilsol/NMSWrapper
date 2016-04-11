@@ -17,7 +17,7 @@ public class NMSEntityPigZombie extends NMSEntityZombie {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPigZombie#E()
+     * @see net.minecraft.server.v1_9_R1.EntityPigZombie#E()
      */
     @ReflectiveMethod(name = "E", types = {})
     public void E(){
@@ -26,7 +26,7 @@ public class NMSEntityPigZombie extends NMSEntityZombie {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPigZombie#a(net.minecraft.server.v1_8_R3.EntityPigZombie, net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityPigZombie#a(net.minecraft.server.v1_9_R1.EntityPigZombie, net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityPigZombie.class, NMSEntity.class})
     public void a(NMSEntityPigZombie entityPigZombie, NMSEntity entity){
@@ -35,7 +35,7 @@ public class NMSEntityPigZombie extends NMSEntityZombie {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPigZombie#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityPigZombie#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -44,7 +44,7 @@ public class NMSEntityPigZombie extends NMSEntityZombie {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPigZombie#bR()
+     * @see net.minecraft.server.v1_9_R1.EntityPigZombie#bR()
      */
     @ReflectiveMethod(name = "bR", types = {})
     public boolean bR(){
@@ -53,7 +53,7 @@ public class NMSEntityPigZombie extends NMSEntityZombie {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPigZombie#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityPigZombie#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -62,7 +62,7 @@ public class NMSEntityPigZombie extends NMSEntityZombie {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPigZombie#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityPigZombie#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -70,7 +70,7 @@ public class NMSEntityPigZombie extends NMSEntityZombie {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPigZombie#canSpawn()
+     * @see net.minecraft.server.v1_9_R1.EntityPigZombie#canSpawn()
      */
     @ReflectiveMethod(name = "canSpawn", types = {})
     public boolean canSpawn(){
@@ -79,7 +79,7 @@ public class NMSEntityPigZombie extends NMSEntityZombie {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPigZombie#cm()
+     * @see net.minecraft.server.v1_9_R1.EntityPigZombie#cm()
      */
     @ReflectiveMethod(name = "cm", types = {})
     public boolean cm(){
@@ -87,7 +87,7 @@ public class NMSEntityPigZombie extends NMSEntityZombie {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPigZombie#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityPigZombie#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -95,7 +95,7 @@ public class NMSEntityPigZombie extends NMSEntityZombie {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPigZombie#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityPigZombie#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -103,7 +103,7 @@ public class NMSEntityPigZombie extends NMSEntityZombie {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPigZombie#getRareDrop()
+     * @see net.minecraft.server.v1_9_R1.EntityPigZombie#getRareDrop()
      */
     @ReflectiveMethod(name = "getRareDrop", types = {})
     public void getRareDrop(){
@@ -111,7 +111,7 @@ public class NMSEntityPigZombie extends NMSEntityZombie {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPigZombie#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityPigZombie#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -120,7 +120,7 @@ public class NMSEntityPigZombie extends NMSEntityZombie {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPigZombie#n()
+     * @see net.minecraft.server.v1_9_R1.EntityPigZombie#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public void n(){
@@ -128,7 +128,7 @@ public class NMSEntityPigZombie extends NMSEntityZombie {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPigZombie#prepare(net.minecraft.server.v1_8_R3.DifficultyDamageScaler, net.minecraft.server.v1_8_R3.GroupDataEntity)
+     * @see net.minecraft.server.v1_9_R1.EntityPigZombie#prepare(net.minecraft.server.v1_9_R1.DifficultyDamageScaler, net.minecraft.server.v1_9_R1.GroupDataEntity)
      */
     @ReflectiveMethod(name = "prepare", types = {NMSDifficultyDamageScaler.class, NMSGroupDataEntity.class})
     public NMSGroupDataEntity prepare(NMSDifficultyDamageScaler difficultyDamageScaler, NMSGroupDataEntity groupDataEntity){
@@ -137,7 +137,7 @@ public class NMSEntityPigZombie extends NMSEntityZombie {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPigZombie#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityPigZombie#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){
@@ -146,7 +146,7 @@ public class NMSEntityPigZombie extends NMSEntityZombie {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPigZombie#z()
+     * @see net.minecraft.server.v1_9_R1.EntityPigZombie#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

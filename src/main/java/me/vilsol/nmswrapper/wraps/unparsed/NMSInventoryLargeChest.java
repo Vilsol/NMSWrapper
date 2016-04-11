@@ -20,7 +20,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#a(net.minecraft.server.v1_8_R3.ChestLock)
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#a(net.minecraft.server.v1_9_R1.ChestLock)
      */
     @ReflectiveMethod(name = "a", types = {NMSChestLock.class})
     public void a(NMSChestLock chestLock){
@@ -29,7 +29,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#b(int, int)
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#b(int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public void b(int i, int i1){
@@ -37,7 +37,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#closeContainer(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#closeContainer(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "closeContainer", types = {NMSEntityHuman.class})
     public void closeContainer(NMSEntityHuman entityHuman){
@@ -45,7 +45,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#createContainer(net.minecraft.server.v1_8_R3.PlayerInventory, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#createContainer(net.minecraft.server.v1_9_R1.PlayerInventory, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "createContainer", types = {NMSPlayerInventory.class, NMSEntityHuman.class})
     public NMSContainer createContainer(NMSPlayerInventory playerInventory, NMSEntityHuman entityHuman){
@@ -54,7 +54,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#g()
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public int g(){
@@ -62,7 +62,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#getContainerName()
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#getContainerName()
      */
     @ReflectiveMethod(name = "getContainerName", types = {})
     public String getContainerName(){
@@ -70,7 +70,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#getItem(int)
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#getItem(int)
      */
     @ReflectiveMethod(name = "getItem", types = {int.class})
     public NMSItemStack getItem(int i){
@@ -78,7 +78,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#getMaxStackSize()
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#getMaxStackSize()
      */
     @ReflectiveMethod(name = "getMaxStackSize", types = {})
     public int getMaxStackSize(){
@@ -86,7 +86,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#getName()
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -94,7 +94,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#getOwner()
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#getOwner()
      */
     @ReflectiveMethod(name = "getOwner", types = {})
     public InventoryHolder getOwner(){
@@ -102,7 +102,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#getProperty(int)
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#getProperty(int)
      */
     @ReflectiveMethod(name = "getProperty", types = {int.class})
     public int getProperty(int i){
@@ -110,7 +110,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#getScoreboardDisplayName()
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#getScoreboardDisplayName()
      */
     @ReflectiveMethod(name = "getScoreboardDisplayName", types = {})
     public NMSIChatBaseComponent getScoreboardDisplayName(){
@@ -118,7 +118,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#getSize()
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#getSize()
      */
     @ReflectiveMethod(name = "getSize", types = {})
     public int getSize(){
@@ -126,7 +126,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#hasCustomName()
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#hasCustomName()
      */
     @ReflectiveMethod(name = "hasCustomName", types = {})
     public boolean hasCustomName(){
@@ -135,7 +135,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#i()
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public NMSChestLock i(){
@@ -144,7 +144,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#l()
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public void l(){
@@ -152,7 +152,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#onClose(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#onClose(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onClose", types = {NMSCraftHumanEntity.class})
     public void onClose(NMSCraftHumanEntity craftHumanEntity){
@@ -160,7 +160,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#onOpen(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#onOpen(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onOpen", types = {NMSCraftHumanEntity.class})
     public void onOpen(NMSCraftHumanEntity craftHumanEntity){
@@ -169,7 +169,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#r_()
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#r_()
      */
     @ReflectiveMethod(name = "r_", types = {})
     public boolean r_(){
@@ -177,7 +177,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#setItem(int, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#setItem(int, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "setItem", types = {int.class, NMSItemStack.class})
     public void setItem(int i, NMSItemStack itemStack){
@@ -185,7 +185,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#setMaxStackSize(int)
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#setMaxStackSize(int)
      */
     @ReflectiveMethod(name = "setMaxStackSize", types = {int.class})
     public void setMaxStackSize(int i){
@@ -193,7 +193,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#splitStack(int, int)
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#splitStack(int, int)
      */
     @ReflectiveMethod(name = "splitStack", types = {int.class, int.class})
     public NMSItemStack splitStack(int i, int i1){
@@ -201,7 +201,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#splitWithoutUpdate(int)
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#splitWithoutUpdate(int)
      */
     @ReflectiveMethod(name = "splitWithoutUpdate", types = {int.class})
     public NMSItemStack splitWithoutUpdate(int i){
@@ -209,7 +209,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#startOpen(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#startOpen(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "startOpen", types = {NMSEntityHuman.class})
     public void startOpen(NMSEntityHuman entityHuman){
@@ -217,7 +217,7 @@ public class NMSInventoryLargeChest extends NMSWrap implements NMSITileInventory
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryLargeChest#update()
+     * @see net.minecraft.server.v1_9_R1.InventoryLargeChest#update()
      */
     @ReflectiveMethod(name = "update", types = {})
     public void update(){

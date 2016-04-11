@@ -24,7 +24,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#a(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#a(boolean)
      */
     @ReflectiveMethod(name = "a", types = {boolean.class})
     public void a(boolean b){
@@ -33,7 +33,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#aA()
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#aA()
      */
     @ReflectiveMethod(name = "aA", types = {})
     public void aA(){
@@ -42,7 +42,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#an()
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#an()
      */
     @ReflectiveMethod(name = "an", types = {})
     public double an(){
@@ -51,7 +51,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#b(net.minecraft.server.v1_8_R3.World)
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#b(net.minecraft.server.v1_9_R1.World)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class})
     public NMSNavigationAbstract b(NMSWorld world){
@@ -60,7 +60,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#bo()
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -69,7 +69,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#bp()
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -78,7 +78,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#d(net.minecraft.server.v1_8_R3.MobEffect)
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#d(net.minecraft.server.v1_9_R1.MobEffect)
      */
     @ReflectiveMethod(name = "d", types = {NMSMobEffect.class})
     public boolean d(NMSMobEffect mobEffect){
@@ -86,7 +86,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -94,7 +94,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -102,7 +102,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -110,7 +110,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#getMonsterType()
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#getMonsterType()
      */
     @ReflectiveMethod(name = "getMonsterType", types = {})
     public NMSEnumMonsterType getMonsterType(){
@@ -119,7 +119,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#h()
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -127,7 +127,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -136,7 +136,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#k_()
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#k_()
      */
     @ReflectiveMethod(name = "k_", types = {})
     public boolean k_(){
@@ -145,7 +145,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#n()
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public boolean n(){
@@ -153,7 +153,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#prepare(net.minecraft.server.v1_8_R3.DifficultyDamageScaler, net.minecraft.server.v1_8_R3.GroupDataEntity)
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#prepare(net.minecraft.server.v1_9_R1.DifficultyDamageScaler, net.minecraft.server.v1_9_R1.GroupDataEntity)
      */
     @ReflectiveMethod(name = "prepare", types = {NMSDifficultyDamageScaler.class, NMSGroupDataEntity.class})
     public NMSGroupDataEntity prepare(NMSDifficultyDamageScaler difficultyDamageScaler, NMSGroupDataEntity groupDataEntity){
@@ -162,7 +162,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#t_()
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){
@@ -171,7 +171,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySpider#z()
+     * @see net.minecraft.server.v1_9_R1.EntitySpider#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){
@@ -187,7 +187,7 @@ public class NMSEntitySpider extends NMSEntityMonster {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.EntitySpider$GroupDataSpider#a(java.util.Random)
+         * @see net.minecraft.server.v1_9_R1.EntitySpider$GroupDataSpider#a(java.util.Random)
          */
         @ReflectiveMethod(name = "a", types = {Random.class})
         public void a(Random random){

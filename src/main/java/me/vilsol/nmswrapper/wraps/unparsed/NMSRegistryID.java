@@ -13,7 +13,7 @@ public class NMSRegistryID extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegistryID#a(int)
+     * @see net.minecraft.server.v1_9_R1.RegistryID#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public Object a(int i){
@@ -22,7 +22,7 @@ public class NMSRegistryID extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegistryID#b(Object)
+     * @see net.minecraft.server.v1_9_R1.RegistryID#b(Object)
      */
     @ReflectiveMethod(name = "b", types = {Object.class})
     public int b(Object t){

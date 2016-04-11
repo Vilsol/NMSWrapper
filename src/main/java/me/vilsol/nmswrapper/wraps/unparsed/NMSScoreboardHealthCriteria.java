@@ -17,7 +17,7 @@ public class NMSScoreboardHealthCriteria extends NMSScoreboardBaseCriteria {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ScoreboardHealthCriteria#c()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardHealthCriteria#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public NMSEnumScoreboardHealthDisplay c(){
@@ -25,7 +25,7 @@ public class NMSScoreboardHealthCriteria extends NMSScoreboardBaseCriteria {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardHealthCriteria#isReadOnly()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardHealthCriteria#isReadOnly()
      */
     @ReflectiveMethod(name = "isReadOnly", types = {})
     public boolean isReadOnly(){

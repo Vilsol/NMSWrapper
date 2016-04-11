@@ -17,7 +17,7 @@ public class NMSPathfinderGoalTradeWithPlayer extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalTradeWithPlayer#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalTradeWithPlayer#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalTradeWithPlayer extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalTradeWithPlayer#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalTradeWithPlayer#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -35,7 +35,7 @@ public class NMSPathfinderGoalTradeWithPlayer extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalTradeWithPlayer#d()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalTradeWithPlayer#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){

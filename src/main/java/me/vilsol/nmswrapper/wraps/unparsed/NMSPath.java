@@ -13,7 +13,7 @@ public class NMSPath extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Path#a(net.minecraft.server.v1_8_R3.PathPoint, float)
+     * @see net.minecraft.server.v1_9_R1.Path#a(net.minecraft.server.v1_9_R1.PathPoint, float)
      */
     @ReflectiveMethod(name = "a", types = {NMSPathPoint.class, float.class})
     public void a(NMSPathPoint pathPoint, float f){
@@ -22,7 +22,7 @@ public class NMSPath extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Path#c()
+     * @see net.minecraft.server.v1_9_R1.Path#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public NMSPathPoint c(){
@@ -31,7 +31,7 @@ public class NMSPath extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Path#e()
+     * @see net.minecraft.server.v1_9_R1.Path#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public boolean e(){

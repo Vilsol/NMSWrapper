@@ -17,7 +17,7 @@ public class NMSWorldGenMonumentPieces extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenMonumentPieces#a()
+     * @see net.minecraft.server.v1_9_R1.WorldGenMonumentPieces#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public void a(){
@@ -37,7 +37,7 @@ public class NMSWorldGenMonumentPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMonumentPieces$WorldGenMonumentPiece8#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMonumentPieces$WorldGenMonumentPiece8#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -59,7 +59,7 @@ public class NMSWorldGenMonumentPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMonumentPieces$WorldGenMonumentPieceSimpleT#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMonumentPieces$WorldGenMonumentPieceSimpleT#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -81,7 +81,7 @@ public class NMSWorldGenMonumentPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMonumentPieces$WorldGenMonumentPiece1#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMonumentPieces$WorldGenMonumentPiece1#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -103,7 +103,7 @@ public class NMSWorldGenMonumentPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMonumentPieces$WorldGenMonumentPiece2#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMonumentPieces$WorldGenMonumentPiece2#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -125,7 +125,7 @@ public class NMSWorldGenMonumentPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMonumentPieces$WorldGenMonumentPiece3#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMonumentPieces$WorldGenMonumentPiece3#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -147,7 +147,7 @@ public class NMSWorldGenMonumentPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMonumentPieces$WorldGenMonumentPiece4#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMonumentPieces$WorldGenMonumentPiece4#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -169,7 +169,7 @@ public class NMSWorldGenMonumentPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMonumentPieces$WorldGenMonumentPiece5#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMonumentPieces$WorldGenMonumentPiece5#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -191,7 +191,7 @@ public class NMSWorldGenMonumentPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMonumentPieces$WorldGenMonumentPiece6#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMonumentPieces$WorldGenMonumentPiece6#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -213,7 +213,7 @@ public class NMSWorldGenMonumentPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMonumentPieces$WorldGenMonumentPieceSimple#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMonumentPieces$WorldGenMonumentPieceSimple#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -235,7 +235,7 @@ public class NMSWorldGenMonumentPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMonumentPieces$WorldGenMonumentPieceEntry#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMonumentPieces$WorldGenMonumentPieceEntry#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -257,7 +257,7 @@ public class NMSWorldGenMonumentPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMonumentPieces$WorldGenMonumentPiece7#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMonumentPieces$WorldGenMonumentPiece7#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -279,7 +279,7 @@ public class NMSWorldGenMonumentPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMonumentPieces$WorldGenMonumentPiecePenthouse#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMonumentPieces$WorldGenMonumentPiecePenthouse#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){

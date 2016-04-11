@@ -19,7 +19,7 @@ public class NMSWorldLoaderServer extends NMSWorldLoader {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldLoaderServer#a(java.lang.String, boolean)
+     * @see net.minecraft.server.v1_9_R1.WorldLoaderServer#a(java.lang.String, boolean)
      */
     @ReflectiveMethod(name = "a", types = {String.class, boolean.class})
     public NMSIDataManager a(String s, boolean b){
@@ -28,7 +28,7 @@ public class NMSWorldLoaderServer extends NMSWorldLoader {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldLoaderServer#c()
+     * @see net.minecraft.server.v1_9_R1.WorldLoaderServer#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public int c(){
@@ -36,7 +36,7 @@ public class NMSWorldLoaderServer extends NMSWorldLoader {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldLoaderServer#convert(java.lang.String, net.minecraft.server.v1_8_R3.IProgressUpdate)
+     * @see net.minecraft.server.v1_9_R1.WorldLoaderServer#convert(java.lang.String, net.minecraft.server.v1_9_R1.IProgressUpdate)
      */
     @ReflectiveMethod(name = "convert", types = {String.class, NMSIProgressUpdate.class})
     public boolean convert(String s, NMSIProgressUpdate iProgressUpdate){
@@ -45,7 +45,7 @@ public class NMSWorldLoaderServer extends NMSWorldLoader {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldLoaderServer#d()
+     * @see net.minecraft.server.v1_9_R1.WorldLoaderServer#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -53,7 +53,7 @@ public class NMSWorldLoaderServer extends NMSWorldLoader {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldLoaderServer#isConvertable(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.WorldLoaderServer#isConvertable(java.lang.String)
      */
     @ReflectiveMethod(name = "isConvertable", types = {String.class})
     public boolean isConvertable(String s){

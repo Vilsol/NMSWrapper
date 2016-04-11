@@ -16,7 +16,7 @@ public class NMSBlockNetherWart extends NMSBlockPlant {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockNetherWart#a(java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockNetherWart#a(java.util.Random)
      */
     @ReflectiveMethod(name = "a", types = {Random.class})
     public int a(Random random){
@@ -25,7 +25,7 @@ public class NMSBlockNetherWart extends NMSBlockPlant {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockNetherWart#b(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockNetherWart#b(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, java.util.Random)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, Random.class})
     public void b(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, Random random){
@@ -34,7 +34,7 @@ public class NMSBlockNetherWart extends NMSBlockPlant {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockNetherWart#c(net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockNetherWart#c(net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "c", types = {NMSBlock.class})
     public boolean c(NMSBlock block){
@@ -42,7 +42,7 @@ public class NMSBlockNetherWart extends NMSBlockPlant {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockNetherWart#dropNaturally(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, float, int)
+     * @see net.minecraft.server.v1_9_R1.BlockNetherWart#dropNaturally(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, float, int)
      */
     @ReflectiveMethod(name = "dropNaturally", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, float.class, int.class})
     public void dropNaturally(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, float f, int i){
@@ -51,7 +51,7 @@ public class NMSBlockNetherWart extends NMSBlockPlant {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockNetherWart#f(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockNetherWart#f(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "f", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public boolean f(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -59,7 +59,7 @@ public class NMSBlockNetherWart extends NMSBlockPlant {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockNetherWart#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockNetherWart#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -67,7 +67,7 @@ public class NMSBlockNetherWart extends NMSBlockPlant {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockNetherWart#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockNetherWart#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -75,7 +75,7 @@ public class NMSBlockNetherWart extends NMSBlockPlant {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockNetherWart#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockNetherWart#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -83,7 +83,7 @@ public class NMSBlockNetherWart extends NMSBlockPlant {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockNetherWart#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockNetherWart#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

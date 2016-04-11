@@ -17,7 +17,7 @@ public class NMSNBTReadLimiter extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NBTReadLimiter#a(long)
+     * @see net.minecraft.server.v1_9_R1.NBTReadLimiter#a(long)
      */
     @ReflectiveMethod(name = "a", types = {long.class})
     public void a(long l){

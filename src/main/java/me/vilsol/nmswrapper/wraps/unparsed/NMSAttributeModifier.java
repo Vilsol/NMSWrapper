@@ -24,7 +24,7 @@ public class NMSAttributeModifier extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AttributeModifier#a(boolean)
+     * @see net.minecraft.server.v1_9_R1.AttributeModifier#a(boolean)
      */
     @ReflectiveMethod(name = "a", types = {boolean.class})
     public NMSAttributeModifier a(boolean b){
@@ -33,7 +33,7 @@ public class NMSAttributeModifier extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AttributeModifier#b()
+     * @see net.minecraft.server.v1_9_R1.AttributeModifier#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public String b(){
@@ -42,7 +42,7 @@ public class NMSAttributeModifier extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AttributeModifier#c()
+     * @see net.minecraft.server.v1_9_R1.AttributeModifier#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public int c(){
@@ -51,7 +51,7 @@ public class NMSAttributeModifier extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AttributeModifier#d()
+     * @see net.minecraft.server.v1_9_R1.AttributeModifier#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public double d(){
@@ -60,7 +60,7 @@ public class NMSAttributeModifier extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AttributeModifier#e()
+     * @see net.minecraft.server.v1_9_R1.AttributeModifier#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public boolean e(){
@@ -68,7 +68,7 @@ public class NMSAttributeModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.AttributeModifier#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.AttributeModifier#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -76,7 +76,7 @@ public class NMSAttributeModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.AttributeModifier#hashCode()
+     * @see net.minecraft.server.v1_9_R1.AttributeModifier#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -84,7 +84,7 @@ public class NMSAttributeModifier extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.AttributeModifier#toString()
+     * @see net.minecraft.server.v1_9_R1.AttributeModifier#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

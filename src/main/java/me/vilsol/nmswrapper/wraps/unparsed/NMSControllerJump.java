@@ -21,7 +21,7 @@ public class NMSControllerJump extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ControllerJump#a()
+     * @see net.minecraft.server.v1_9_R1.ControllerJump#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public void a(){
@@ -30,7 +30,7 @@ public class NMSControllerJump extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ControllerJump#b()
+     * @see net.minecraft.server.v1_9_R1.ControllerJump#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public void b(){

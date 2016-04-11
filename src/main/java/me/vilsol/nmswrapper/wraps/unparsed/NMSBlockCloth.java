@@ -16,7 +16,7 @@ public class NMSBlockCloth extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCloth#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockCloth#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -25,7 +25,7 @@ public class NMSBlockCloth extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCloth#g(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockCloth#g(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "g", types = {NMSIBlockData.class})
     public NMSMaterialMapColor g(NMSIBlockData iBlockData){
@@ -33,7 +33,7 @@ public class NMSBlockCloth extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCloth#getDropData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockCloth#getDropData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSIBlockData.class})
     public int getDropData(NMSIBlockData iBlockData){
@@ -41,7 +41,7 @@ public class NMSBlockCloth extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCloth#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockCloth#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -49,7 +49,7 @@ public class NMSBlockCloth extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCloth#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockCloth#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

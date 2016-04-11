@@ -13,7 +13,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#A()
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#A()
      */
     @ReflectiveMethod(name = "A", types = {})
     public double A(){
@@ -22,7 +22,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#B()
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#B()
      */
     @ReflectiveMethod(name = "B", types = {})
     public double B(){
@@ -31,7 +31,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#C()
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#C()
      */
     @ReflectiveMethod(name = "C", types = {})
     public double C(){
@@ -40,7 +40,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#a(net.minecraft.server.v1_8_R3.IInventory, net.minecraft.server.v1_8_R3.EntityItem)
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#a(net.minecraft.server.v1_9_R1.IInventory, net.minecraft.server.v1_9_R1.EntityItem)
      */
     @ReflectiveMethod(name = "a", types = {NMSIInventory.class, NMSEntityItem.class})
     public boolean a(NMSIInventory iInventory, NMSEntityItem entityItem){
@@ -48,7 +48,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#addItem(net.minecraft.server.v1_8_R3.IInventory, net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#addItem(net.minecraft.server.v1_9_R1.IInventory, net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "addItem", types = {NMSIInventory.class, NMSItemStack.class, NMSEnumDirection.class})
     public NMSItemStack addItem(NMSIInventory iInventory, NMSItemStack itemStack, NMSEnumDirection enumDirection){
@@ -57,7 +57,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#b(int, int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#b(int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public void b(int i, int i1){
@@ -66,7 +66,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#c()
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -74,7 +74,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#closeContainer(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#closeContainer(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "closeContainer", types = {NMSEntityHuman.class})
     public void closeContainer(NMSEntityHuman entityHuman){
@@ -82,7 +82,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#createContainer(net.minecraft.server.v1_8_R3.PlayerInventory, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#createContainer(net.minecraft.server.v1_9_R1.PlayerInventory, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "createContainer", types = {NMSPlayerInventory.class, NMSEntityHuman.class})
     public NMSContainer createContainer(NMSPlayerInventory playerInventory, NMSEntityHuman entityHuman){
@@ -91,7 +91,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#d(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#d(int)
      */
     @ReflectiveMethod(name = "d", types = {int.class})
     public void d(int i){
@@ -100,7 +100,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#g()
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public int g(){
@@ -108,7 +108,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#getContainerName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#getContainerName()
      */
     @ReflectiveMethod(name = "getContainerName", types = {})
     public String getContainerName(){
@@ -116,7 +116,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#getItem(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#getItem(int)
      */
     @ReflectiveMethod(name = "getItem", types = {int.class})
     public NMSItemStack getItem(int i){
@@ -124,7 +124,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#getMaxStackSize()
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#getMaxStackSize()
      */
     @ReflectiveMethod(name = "getMaxStackSize", types = {})
     public int getMaxStackSize(){
@@ -132,7 +132,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#getName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -140,7 +140,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#getProperty(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#getProperty(int)
      */
     @ReflectiveMethod(name = "getProperty", types = {int.class})
     public int getProperty(int i){
@@ -148,7 +148,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#getSize()
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#getSize()
      */
     @ReflectiveMethod(name = "getSize", types = {})
     public int getSize(){
@@ -156,7 +156,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#hasCustomName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#hasCustomName()
      */
     @ReflectiveMethod(name = "hasCustomName", types = {})
     public boolean hasCustomName(){
@@ -165,7 +165,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#l()
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public void l(){
@@ -174,7 +174,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#m()
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public boolean m(){
@@ -183,7 +183,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#n()
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public boolean n(){
@@ -192,7 +192,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#o()
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#o()
      */
     @ReflectiveMethod(name = "o", types = {})
     public boolean o(){
@@ -200,7 +200,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#onClose(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#onClose(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onClose", types = {NMSCraftHumanEntity.class})
     public void onClose(NMSCraftHumanEntity craftHumanEntity){
@@ -208,7 +208,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#onOpen(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#onOpen(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onOpen", types = {NMSCraftHumanEntity.class})
     public void onOpen(NMSCraftHumanEntity craftHumanEntity){
@@ -216,7 +216,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#setItem(int, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#setItem(int, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "setItem", types = {int.class, NMSItemStack.class})
     public void setItem(int i, NMSItemStack itemStack){
@@ -224,7 +224,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#setMaxStackSize(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#setMaxStackSize(int)
      */
     @ReflectiveMethod(name = "setMaxStackSize", types = {int.class})
     public void setMaxStackSize(int i){
@@ -232,7 +232,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#splitStack(int, int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#splitStack(int, int)
      */
     @ReflectiveMethod(name = "splitStack", types = {int.class, int.class})
     public NMSItemStack splitStack(int i, int i1){
@@ -240,7 +240,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#splitWithoutUpdate(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#splitWithoutUpdate(int)
      */
     @ReflectiveMethod(name = "splitWithoutUpdate", types = {int.class})
     public NMSItemStack splitWithoutUpdate(int i){
@@ -248,7 +248,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#startOpen(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#startOpen(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "startOpen", types = {NMSEntityHuman.class})
     public void startOpen(NMSEntityHuman entityHuman){
@@ -256,7 +256,7 @@ public class NMSTileEntityHopper extends NMSTileEntityContainer implements NMSIU
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityHopper#update()
+     * @see net.minecraft.server.v1_9_R1.TileEntityHopper#update()
      */
     @ReflectiveMethod(name = "update", types = {})
     public void update(){

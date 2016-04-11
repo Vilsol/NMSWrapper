@@ -25,7 +25,7 @@ public class NMSEntityThrownExpBottle extends NMSEntityProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityThrownExpBottle#a(net.minecraft.server.v1_8_R3.MovingObjectPosition)
+     * @see net.minecraft.server.v1_9_R1.EntityThrownExpBottle#a(net.minecraft.server.v1_9_R1.MovingObjectPosition)
      */
     @ReflectiveMethod(name = "a", types = {NMSMovingObjectPosition.class})
     public void a(NMSMovingObjectPosition movingObjectPosition){
@@ -34,7 +34,7 @@ public class NMSEntityThrownExpBottle extends NMSEntityProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityThrownExpBottle#j()
+     * @see net.minecraft.server.v1_9_R1.EntityThrownExpBottle#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public float j(){
@@ -43,7 +43,7 @@ public class NMSEntityThrownExpBottle extends NMSEntityProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityThrownExpBottle#l()
+     * @see net.minecraft.server.v1_9_R1.EntityThrownExpBottle#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public float l(){
@@ -52,7 +52,7 @@ public class NMSEntityThrownExpBottle extends NMSEntityProjectile {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityThrownExpBottle#m()
+     * @see net.minecraft.server.v1_9_R1.EntityThrownExpBottle#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public float m(){

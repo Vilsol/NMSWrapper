@@ -13,7 +13,7 @@ public class NMSEntityPositionTypes extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPositionTypes#a(java.lang.Class)
+     * @see net.minecraft.server.v1_9_R1.EntityPositionTypes#a(java.lang.Class)
      */
     @ReflectiveMethod(name = "a", types = {Class.class})
     public NMSEnumEntityPositionType a(Class c){

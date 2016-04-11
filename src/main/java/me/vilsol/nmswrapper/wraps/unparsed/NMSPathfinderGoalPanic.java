@@ -17,7 +17,7 @@ public class NMSPathfinderGoalPanic extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalPanic#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalPanic#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalPanic extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalPanic#b()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalPanic#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -35,7 +35,7 @@ public class NMSPathfinderGoalPanic extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalPanic#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalPanic#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){

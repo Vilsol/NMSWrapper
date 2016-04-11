@@ -16,7 +16,7 @@ public class NMSBlockLongGrass extends NMSBlockPlant implements NMSIBlockFragile
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLongGrass#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockLongGrass#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSBlockPosition.class, NMSIBlockData.class})
     public boolean a(NMSWorld world, Random random, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -25,7 +25,7 @@ public class NMSBlockLongGrass extends NMSBlockPlant implements NMSIBlockFragile
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLongGrass#b(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockLongGrass#b(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, Random.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void b(NMSWorld world, Random random, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -34,7 +34,7 @@ public class NMSBlockLongGrass extends NMSBlockPlant implements NMSIBlockFragile
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLongGrass#f(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockLongGrass#f(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "f", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public boolean f(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -42,7 +42,7 @@ public class NMSBlockLongGrass extends NMSBlockPlant implements NMSIBlockFragile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLongGrass#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockLongGrass#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -50,7 +50,7 @@ public class NMSBlockLongGrass extends NMSBlockPlant implements NMSIBlockFragile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLongGrass#getDropCount(int, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockLongGrass#getDropCount(int, java.util.Random)
      */
     @ReflectiveMethod(name = "getDropCount", types = {int.class, Random.class})
     public int getDropCount(int i, Random random){
@@ -58,7 +58,7 @@ public class NMSBlockLongGrass extends NMSBlockPlant implements NMSIBlockFragile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLongGrass#getDropData(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockLongGrass#getDropData(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSWorld.class, NMSBlockPosition.class})
     public int getDropData(NMSWorld world, NMSBlockPosition blockPosition){
@@ -66,7 +66,7 @@ public class NMSBlockLongGrass extends NMSBlockPlant implements NMSIBlockFragile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLongGrass#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockLongGrass#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -74,7 +74,7 @@ public class NMSBlockLongGrass extends NMSBlockPlant implements NMSIBlockFragile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLongGrass#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockLongGrass#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -82,7 +82,7 @@ public class NMSBlockLongGrass extends NMSBlockPlant implements NMSIBlockFragile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLongGrass#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockLongGrass#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

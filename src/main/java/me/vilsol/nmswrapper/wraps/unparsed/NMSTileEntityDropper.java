@@ -12,7 +12,7 @@ public class NMSTileEntityDropper extends NMSTileEntityDispenser {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDropper#getContainerName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityDropper#getContainerName()
      */
     @ReflectiveMethod(name = "getContainerName", types = {})
     public String getContainerName(){
@@ -20,7 +20,7 @@ public class NMSTileEntityDropper extends NMSTileEntityDispenser {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityDropper#getName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityDropper#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){

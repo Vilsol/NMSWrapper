@@ -17,7 +17,7 @@ public class NMSPathfinderGoalEatTile extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalEatTile#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalEatTile#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalEatTile extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalEatTile#b()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalEatTile#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -35,7 +35,7 @@ public class NMSPathfinderGoalEatTile extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalEatTile#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalEatTile#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -44,7 +44,7 @@ public class NMSPathfinderGoalEatTile extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalEatTile#d()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalEatTile#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -53,7 +53,7 @@ public class NMSPathfinderGoalEatTile extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalEatTile#e()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalEatTile#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){
@@ -62,7 +62,7 @@ public class NMSPathfinderGoalEatTile extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalEatTile#f()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalEatTile#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public int f(){

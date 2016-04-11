@@ -18,7 +18,7 @@ public class NMSEntitySnowman extends NMSEntityGolem implements NMSIRangedEntity
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySnowman#a(net.minecraft.server.v1_8_R3.EntityLiving, float)
+     * @see net.minecraft.server.v1_9_R1.EntitySnowman#a(net.minecraft.server.v1_9_R1.EntityLiving, float)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityLiving.class, float.class})
     public void a(NMSEntityLiving entityLiving, float f){
@@ -26,7 +26,7 @@ public class NMSEntitySnowman extends NMSEntityGolem implements NMSIRangedEntity
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySnowman#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntitySnowman#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -34,7 +34,7 @@ public class NMSEntitySnowman extends NMSEntityGolem implements NMSIRangedEntity
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySnowman#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntitySnowman#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -42,7 +42,7 @@ public class NMSEntitySnowman extends NMSEntityGolem implements NMSIRangedEntity
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySnowman#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntitySnowman#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -50,7 +50,7 @@ public class NMSEntitySnowman extends NMSEntityGolem implements NMSIRangedEntity
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySnowman#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntitySnowman#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -59,7 +59,7 @@ public class NMSEntitySnowman extends NMSEntityGolem implements NMSIRangedEntity
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySnowman#m()
+     * @see net.minecraft.server.v1_9_R1.EntitySnowman#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){

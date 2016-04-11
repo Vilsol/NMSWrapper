@@ -13,7 +13,7 @@ public class NMSRegistryBlocks extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegistryBlocks#a(int)
+     * @see net.minecraft.server.v1_9_R1.RegistryBlocks#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public Object a(int i){
@@ -21,7 +21,7 @@ public class NMSRegistryBlocks extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RegistryBlocks#get(Object)
+     * @see net.minecraft.server.v1_9_R1.RegistryBlocks#get(Object)
      */
     @ReflectiveMethod(name = "get", types = {Object.class})
     public Object get(Object k){

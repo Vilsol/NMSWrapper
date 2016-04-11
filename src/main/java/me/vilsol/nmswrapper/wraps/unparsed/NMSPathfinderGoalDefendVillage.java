@@ -17,7 +17,7 @@ public class NMSPathfinderGoalDefendVillage extends NMSPathfinderGoalTarget {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalDefendVillage#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalDefendVillage#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalDefendVillage extends NMSPathfinderGoalTarget {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalDefendVillage#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalDefendVillage#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){

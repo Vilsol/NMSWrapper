@@ -20,7 +20,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#E()
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#E()
      */
     @ReflectiveMethod(name = "E", types = {})
     public void E(){
@@ -29,7 +29,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#a(java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#a(java.util.Random)
      */
     @ReflectiveMethod(name = "a", types = {Random.class})
     public NMSEnumColor a(Random random){
@@ -38,7 +38,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#b(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#b(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityAgeable.class})
     public NMSEntitySheep b(NMSEntityAgeable entityAgeable){
@@ -47,7 +47,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#bo()
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -56,7 +56,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#bp()
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -64,7 +64,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#createChild(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#createChild(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "createChild", types = {NMSEntityAgeable.class})
     public NMSEntityAgeable createChild(NMSEntityAgeable entityAgeable){
@@ -72,7 +72,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -80,7 +80,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#getColor()
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#getColor()
      */
     @ReflectiveMethod(name = "getColor", types = {})
     public NMSEnumColor getColor(){
@@ -88,7 +88,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -96,7 +96,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -105,7 +105,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#h()
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -113,7 +113,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -121,7 +121,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#isSheared()
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#isSheared()
      */
     @ReflectiveMethod(name = "isSheared", types = {})
     public boolean isSheared(){
@@ -130,7 +130,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#m()
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -138,7 +138,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#prepare(net.minecraft.server.v1_8_R3.DifficultyDamageScaler, net.minecraft.server.v1_8_R3.GroupDataEntity)
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#prepare(net.minecraft.server.v1_9_R1.DifficultyDamageScaler, net.minecraft.server.v1_9_R1.GroupDataEntity)
      */
     @ReflectiveMethod(name = "prepare", types = {NMSDifficultyDamageScaler.class, NMSGroupDataEntity.class})
     public NMSGroupDataEntity prepare(NMSDifficultyDamageScaler difficultyDamageScaler, NMSGroupDataEntity groupDataEntity){
@@ -146,7 +146,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#setColor(net.minecraft.server.v1_8_R3.EnumColor)
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#setColor(net.minecraft.server.v1_9_R1.EnumColor)
      */
     @ReflectiveMethod(name = "setColor", types = {NMSEnumColor.class})
     public void setColor(NMSEnumColor enumColor){
@@ -154,7 +154,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#setSheared(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#setSheared(boolean)
      */
     @ReflectiveMethod(name = "setSheared", types = {boolean.class})
     public void setSheared(boolean b){
@@ -163,7 +163,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#v()
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#v()
      */
     @ReflectiveMethod(name = "v", types = {})
     public void v(){
@@ -172,7 +172,7 @@ public class NMSEntitySheep extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySheep#z()
+     * @see net.minecraft.server.v1_9_R1.EntitySheep#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

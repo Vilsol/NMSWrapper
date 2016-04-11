@@ -13,7 +13,7 @@ public class NMSBlockMinecartDetector extends NMSBlockMinecartTrackAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockMinecartDetector#a(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.BlockMinecartDetector#a(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "a", types = {NMSIBlockAccess.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEnumDirection.class})
     public int a(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEnumDirection enumDirection){
@@ -22,7 +22,7 @@ public class NMSBlockMinecartDetector extends NMSBlockMinecartTrackAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockMinecartDetector#b(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.BlockMinecartDetector#b(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "b", types = {NMSIBlockAccess.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEnumDirection.class})
     public int b(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEnumDirection enumDirection){
@@ -30,7 +30,7 @@ public class NMSBlockMinecartDetector extends NMSBlockMinecartTrackAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockMinecartDetector#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockMinecartDetector#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -38,7 +38,7 @@ public class NMSBlockMinecartDetector extends NMSBlockMinecartTrackAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockMinecartDetector#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockMinecartDetector#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -46,7 +46,7 @@ public class NMSBlockMinecartDetector extends NMSBlockMinecartTrackAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockMinecartDetector#isComplexRedstone()
+     * @see net.minecraft.server.v1_9_R1.BlockMinecartDetector#isComplexRedstone()
      */
     @ReflectiveMethod(name = "isComplexRedstone", types = {})
     public boolean isComplexRedstone(){
@@ -54,7 +54,7 @@ public class NMSBlockMinecartDetector extends NMSBlockMinecartTrackAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockMinecartDetector#isPowerSource()
+     * @see net.minecraft.server.v1_9_R1.BlockMinecartDetector#isPowerSource()
      */
     @ReflectiveMethod(name = "isPowerSource", types = {})
     public boolean isPowerSource(){
@@ -63,7 +63,7 @@ public class NMSBlockMinecartDetector extends NMSBlockMinecartTrackAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockMinecartDetector#l(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockMinecartDetector#l(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "l", types = {NMSWorld.class, NMSBlockPosition.class})
     public int l(NMSWorld world, NMSBlockPosition blockPosition){
@@ -71,7 +71,7 @@ public class NMSBlockMinecartDetector extends NMSBlockMinecartTrackAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockMinecartDetector#onPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockMinecartDetector#onPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "onPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void onPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -79,7 +79,7 @@ public class NMSBlockMinecartDetector extends NMSBlockMinecartTrackAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockMinecartDetector#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockMinecartDetector#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

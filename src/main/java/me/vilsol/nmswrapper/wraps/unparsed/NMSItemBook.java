@@ -13,7 +13,7 @@ public class NMSItemBook extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemBook#b()
+     * @see net.minecraft.server.v1_9_R1.ItemBook#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public int b(){
@@ -22,7 +22,7 @@ public class NMSItemBook extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemBook#f_(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemBook#f_(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "f_", types = {NMSItemStack.class})
     public boolean f_(NMSItemStack itemStack){

@@ -15,7 +15,7 @@ public class NMSBlockPackedIce extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPackedIce#a(java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockPackedIce#a(java.util.Random)
      */
     @ReflectiveMethod(name = "a", types = {Random.class})
     public int a(Random random){

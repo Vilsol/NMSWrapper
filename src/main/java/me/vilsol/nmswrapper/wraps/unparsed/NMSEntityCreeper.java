@@ -17,7 +17,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -26,7 +26,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#aE()
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#aE()
      */
     @ReflectiveMethod(name = "aE", types = {})
     public int aE(){
@@ -35,7 +35,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -44,7 +44,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -53,7 +53,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -62,7 +62,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#cm()
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#cm()
      */
     @ReflectiveMethod(name = "cm", types = {})
     public int cm(){
@@ -71,7 +71,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#cn()
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#cn()
      */
     @ReflectiveMethod(name = "cn", types = {})
     public boolean cn(){
@@ -80,7 +80,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#co()
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#co()
      */
     @ReflectiveMethod(name = "co", types = {})
     public void co(){
@@ -89,7 +89,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#cp()
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#cp()
      */
     @ReflectiveMethod(name = "cp", types = {})
     public boolean cp(){
@@ -98,7 +98,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#cq()
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#cq()
      */
     @ReflectiveMethod(name = "cq", types = {})
     public void cq(){
@@ -106,7 +106,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#die(net.minecraft.server.v1_8_R3.DamageSource)
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#die(net.minecraft.server.v1_9_R1.DamageSource)
      */
     @ReflectiveMethod(name = "die", types = {NMSDamageSource.class})
     public void die(NMSDamageSource damageSource){
@@ -114,7 +114,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -123,7 +123,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#e(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#e(float, float)
      */
     @ReflectiveMethod(name = "e", types = {float.class, float.class})
     public void e(float f, float f1){
@@ -131,7 +131,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -140,7 +140,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#h()
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -148,7 +148,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -156,7 +156,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#isPowered()
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#isPowered()
      */
     @ReflectiveMethod(name = "isPowered", types = {})
     public boolean isPowered(){
@@ -164,7 +164,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#onLightningStrike(net.minecraft.server.v1_8_R3.EntityLightning)
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#onLightningStrike(net.minecraft.server.v1_9_R1.EntityLightning)
      */
     @ReflectiveMethod(name = "onLightningStrike", types = {NMSEntityLightning.class})
     public void onLightningStrike(NMSEntityLightning entityLightning){
@@ -173,7 +173,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#r(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#r(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "r", types = {NMSEntity.class})
     public boolean r(NMSEntity entity){
@@ -181,7 +181,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#setPowered(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#setPowered(boolean)
      */
     @ReflectiveMethod(name = "setPowered", types = {boolean.class})
     public void setPowered(boolean b){
@@ -190,7 +190,7 @@ public class NMSEntityCreeper extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCreeper#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityCreeper#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){

@@ -13,7 +13,7 @@ public class NMSWorldProvider extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldProvider#a(long)
+     * @see net.minecraft.server.v1_9_R1.WorldProvider#a(long)
      */
     @ReflectiveMethod(name = "a", types = {long.class})
     public int a(long l){
@@ -22,7 +22,7 @@ public class NMSWorldProvider extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldProvider#b()
+     * @see net.minecraft.server.v1_9_R1.WorldProvider#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public void b(){
@@ -30,7 +30,7 @@ public class NMSWorldProvider extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldProvider#byDimension(int)
+     * @see net.minecraft.server.v1_9_R1.WorldProvider#byDimension(int)
      */
     @ReflectiveMethod(name = "byDimension", types = {int.class})
     public NMSWorldProvider byDimension(int i){
@@ -38,7 +38,7 @@ public class NMSWorldProvider extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldProvider#canSpawn(int, int)
+     * @see net.minecraft.server.v1_9_R1.WorldProvider#canSpawn(int, int)
      */
     @ReflectiveMethod(name = "canSpawn", types = {int.class, int.class})
     public boolean canSpawn(int i, int i1){
@@ -47,7 +47,7 @@ public class NMSWorldProvider extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldProvider#d()
+     * @see net.minecraft.server.v1_9_R1.WorldProvider#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -56,7 +56,7 @@ public class NMSWorldProvider extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldProvider#e()
+     * @see net.minecraft.server.v1_9_R1.WorldProvider#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public boolean e(){
@@ -64,7 +64,7 @@ public class NMSWorldProvider extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldProvider#getChunkProvider()
+     * @see net.minecraft.server.v1_9_R1.WorldProvider#getChunkProvider()
      */
     @ReflectiveMethod(name = "getChunkProvider", types = {})
     public NMSIChunkProvider getChunkProvider(){
@@ -72,7 +72,7 @@ public class NMSWorldProvider extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldProvider#getDimension()
+     * @see net.minecraft.server.v1_9_R1.WorldProvider#getDimension()
      */
     @ReflectiveMethod(name = "getDimension", types = {})
     public int getDimension(){
@@ -80,7 +80,7 @@ public class NMSWorldProvider extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldProvider#getName()
+     * @see net.minecraft.server.v1_9_R1.WorldProvider#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -88,7 +88,7 @@ public class NMSWorldProvider extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldProvider#getSeaLevel()
+     * @see net.minecraft.server.v1_9_R1.WorldProvider#getSeaLevel()
      */
     @ReflectiveMethod(name = "getSeaLevel", types = {})
     public int getSeaLevel(){
@@ -96,7 +96,7 @@ public class NMSWorldProvider extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldProvider#getSuffix()
+     * @see net.minecraft.server.v1_9_R1.WorldProvider#getSuffix()
      */
     @ReflectiveMethod(name = "getSuffix", types = {})
     public String getSuffix(){
@@ -104,7 +104,7 @@ public class NMSWorldProvider extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldProvider#getWorldBorder()
+     * @see net.minecraft.server.v1_9_R1.WorldProvider#getWorldBorder()
      */
     @ReflectiveMethod(name = "getWorldBorder", types = {})
     public NMSWorldBorder getWorldBorder(){
@@ -113,7 +113,7 @@ public class NMSWorldProvider extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldProvider#h()
+     * @see net.minecraft.server.v1_9_R1.WorldProvider#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public NMSBlockPosition h(){
@@ -122,7 +122,7 @@ public class NMSWorldProvider extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldProvider#m()
+     * @see net.minecraft.server.v1_9_R1.WorldProvider#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public NMSWorldChunkManager m(){
@@ -131,7 +131,7 @@ public class NMSWorldProvider extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldProvider#n()
+     * @see net.minecraft.server.v1_9_R1.WorldProvider#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public boolean n(){
@@ -140,7 +140,7 @@ public class NMSWorldProvider extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldProvider#o()
+     * @see net.minecraft.server.v1_9_R1.WorldProvider#o()
      */
     @ReflectiveMethod(name = "o", types = {})
     public boolean o(){

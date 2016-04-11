@@ -12,7 +12,7 @@ public class NMSBlockFlowers extends NMSBlockPlant {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFlowers#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockFlowers#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -20,7 +20,7 @@ public class NMSBlockFlowers extends NMSBlockPlant {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFlowers#getDropData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockFlowers#getDropData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSIBlockData.class})
     public int getDropData(NMSIBlockData iBlockData){
@@ -28,7 +28,7 @@ public class NMSBlockFlowers extends NMSBlockPlant {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFlowers#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockFlowers#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -37,7 +37,7 @@ public class NMSBlockFlowers extends NMSBlockPlant {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFlowers#l()
+     * @see net.minecraft.server.v1_9_R1.BlockFlowers#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public NMSEnumFlowerType l(){
@@ -45,7 +45,7 @@ public class NMSBlockFlowers extends NMSBlockPlant {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFlowers#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockFlowers#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

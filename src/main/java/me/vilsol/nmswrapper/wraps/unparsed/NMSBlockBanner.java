@@ -15,7 +15,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockBanner#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.TileEntity)
+     * @see net.minecraft.server.v1_9_R1.BlockBanner#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.TileEntity)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSEntityHuman.class, NMSBlockPosition.class, NMSIBlockData.class, NMSTileEntity.class})
     public void a(NMSWorld world, NMSEntityHuman entityHuman, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSTileEntity tileEntity){
@@ -24,7 +24,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockBanner#b(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockBanner#b(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "b", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public boolean b(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -33,7 +33,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockBanner#c()
+     * @see net.minecraft.server.v1_9_R1.BlockBanner#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -41,7 +41,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockBanner#canPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockBanner#canPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "canPlace", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean canPlace(NMSWorld world, NMSBlockPosition blockPosition){
@@ -50,7 +50,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockBanner#d()
+     * @see net.minecraft.server.v1_9_R1.BlockBanner#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -58,7 +58,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockBanner#dropNaturally(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, float, int)
+     * @see net.minecraft.server.v1_9_R1.BlockBanner#dropNaturally(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, float, int)
      */
     @ReflectiveMethod(name = "dropNaturally", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, float.class, int.class})
     public void dropNaturally(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, float f, int i){
@@ -67,7 +67,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockBanner#g()
+     * @see net.minecraft.server.v1_9_R1.BlockBanner#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public boolean g(){
@@ -75,7 +75,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockBanner#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockBanner#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -83,7 +83,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockBanner#getName()
+     * @see net.minecraft.server.v1_9_R1.BlockBanner#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -98,7 +98,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockBanner$BlockStandingBanner#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+         * @see net.minecraft.server.v1_9_R1.BlockBanner$BlockStandingBanner#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
          */
         @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
         public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -106,7 +106,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockBanner$BlockStandingBanner#fromLegacyData(int)
+         * @see net.minecraft.server.v1_9_R1.BlockBanner$BlockStandingBanner#fromLegacyData(int)
          */
         @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
         public NMSIBlockData fromLegacyData(int i){
@@ -114,7 +114,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockBanner$BlockStandingBanner#getStateList()
+         * @see net.minecraft.server.v1_9_R1.BlockBanner$BlockStandingBanner#getStateList()
          */
         @ReflectiveMethod(name = "getStateList", types = {})
         public NMSBlockStateList getStateList(){
@@ -122,7 +122,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockBanner$BlockStandingBanner#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+         * @see net.minecraft.server.v1_9_R1.BlockBanner$BlockStandingBanner#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
          */
         @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
         public int toLegacyData(NMSIBlockData iBlockData){
@@ -139,7 +139,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockBanner$BlockWallBanner#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+         * @see net.minecraft.server.v1_9_R1.BlockBanner$BlockWallBanner#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
          */
         @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
         public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -147,7 +147,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockBanner$BlockWallBanner#fromLegacyData(int)
+         * @see net.minecraft.server.v1_9_R1.BlockBanner$BlockWallBanner#fromLegacyData(int)
          */
         @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
         public NMSIBlockData fromLegacyData(int i){
@@ -155,7 +155,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockBanner$BlockWallBanner#getStateList()
+         * @see net.minecraft.server.v1_9_R1.BlockBanner$BlockWallBanner#getStateList()
          */
         @ReflectiveMethod(name = "getStateList", types = {})
         public NMSBlockStateList getStateList(){
@@ -163,7 +163,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockBanner$BlockWallBanner#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+         * @see net.minecraft.server.v1_9_R1.BlockBanner$BlockWallBanner#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
          */
         @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
         public int toLegacyData(NMSIBlockData iBlockData){
@@ -171,7 +171,7 @@ public class NMSBlockBanner extends NMSBlockContainer {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockBanner$BlockWallBanner#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+         * @see net.minecraft.server.v1_9_R1.BlockBanner$BlockWallBanner#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
          */
         @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
         public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

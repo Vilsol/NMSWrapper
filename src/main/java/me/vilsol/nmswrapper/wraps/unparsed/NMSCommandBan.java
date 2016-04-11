@@ -13,7 +13,7 @@ public class NMSCommandBan extends NMSCommandAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandBan#a()
+     * @see net.minecraft.server.v1_9_R1.CommandBan#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public int a(){
@@ -21,7 +21,7 @@ public class NMSCommandBan extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandBan#canUse(net.minecraft.server.v1_8_R3.ICommandListener)
+     * @see net.minecraft.server.v1_9_R1.CommandBan#canUse(net.minecraft.server.v1_9_R1.ICommandListener)
      */
     @ReflectiveMethod(name = "canUse", types = {NMSICommandListener.class})
     public boolean canUse(NMSICommandListener iCommandListener){
@@ -29,7 +29,7 @@ public class NMSCommandBan extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandBan#getCommand()
+     * @see net.minecraft.server.v1_9_R1.CommandBan#getCommand()
      */
     @ReflectiveMethod(name = "getCommand", types = {})
     public String getCommand(){
@@ -37,7 +37,7 @@ public class NMSCommandBan extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandBan#getUsage(net.minecraft.server.v1_8_R3.ICommandListener)
+     * @see net.minecraft.server.v1_9_R1.CommandBan#getUsage(net.minecraft.server.v1_9_R1.ICommandListener)
      */
     @ReflectiveMethod(name = "getUsage", types = {NMSICommandListener.class})
     public String getUsage(NMSICommandListener iCommandListener){

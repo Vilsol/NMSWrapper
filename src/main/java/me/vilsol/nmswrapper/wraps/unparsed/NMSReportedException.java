@@ -17,7 +17,7 @@ public class NMSReportedException extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ReportedException#a()
+     * @see net.minecraft.server.v1_9_R1.ReportedException#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public NMSCrashReport a(){
@@ -25,7 +25,7 @@ public class NMSReportedException extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ReportedException#getCause()
+     * @see net.minecraft.server.v1_9_R1.ReportedException#getCause()
      */
     @ReflectiveMethod(name = "getCause", types = {})
     public Throwable getCause(){
@@ -33,7 +33,7 @@ public class NMSReportedException extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ReportedException#getMessage()
+     * @see net.minecraft.server.v1_9_R1.ReportedException#getMessage()
      */
     @ReflectiveMethod(name = "getMessage", types = {})
     public String getMessage(){

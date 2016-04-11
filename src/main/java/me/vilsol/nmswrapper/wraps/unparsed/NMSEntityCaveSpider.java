@@ -16,7 +16,7 @@ public class NMSEntityCaveSpider extends NMSEntitySpider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityCaveSpider#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntityCaveSpider#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -24,7 +24,7 @@ public class NMSEntityCaveSpider extends NMSEntitySpider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityCaveSpider#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityCaveSpider#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -32,7 +32,7 @@ public class NMSEntityCaveSpider extends NMSEntitySpider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityCaveSpider#prepare(net.minecraft.server.v1_8_R3.DifficultyDamageScaler, net.minecraft.server.v1_8_R3.GroupDataEntity)
+     * @see net.minecraft.server.v1_9_R1.EntityCaveSpider#prepare(net.minecraft.server.v1_9_R1.DifficultyDamageScaler, net.minecraft.server.v1_9_R1.GroupDataEntity)
      */
     @ReflectiveMethod(name = "prepare", types = {NMSDifficultyDamageScaler.class, NMSGroupDataEntity.class})
     public NMSGroupDataEntity prepare(NMSDifficultyDamageScaler difficultyDamageScaler, NMSGroupDataEntity groupDataEntity){
@@ -41,7 +41,7 @@ public class NMSEntityCaveSpider extends NMSEntitySpider {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCaveSpider#r(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityCaveSpider#r(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "r", types = {NMSEntity.class})
     public boolean r(NMSEntity entity){

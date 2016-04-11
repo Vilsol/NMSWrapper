@@ -16,7 +16,7 @@ public class NMSBlockRedstoneTorch extends NMSBlockTorch {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneTorch#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneTorch#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, java.util.Random)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, Random.class})
     public void a(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, Random random){
@@ -25,7 +25,7 @@ public class NMSBlockRedstoneTorch extends NMSBlockTorch {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneTorch#b(net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneTorch#b(net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "b", types = {NMSBlock.class})
     public boolean b(NMSBlock block){
@@ -33,7 +33,7 @@ public class NMSBlockRedstoneTorch extends NMSBlockTorch {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneTorch#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneTorch#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -41,7 +41,7 @@ public class NMSBlockRedstoneTorch extends NMSBlockTorch {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneTorch#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneTorch#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -49,7 +49,7 @@ public class NMSBlockRedstoneTorch extends NMSBlockTorch {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneTorch#isPowerSource()
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneTorch#isPowerSource()
      */
     @ReflectiveMethod(name = "isPowerSource", types = {})
     public boolean isPowerSource(){
@@ -57,7 +57,7 @@ public class NMSBlockRedstoneTorch extends NMSBlockTorch {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneTorch#onPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneTorch#onPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "onPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void onPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -65,7 +65,7 @@ public class NMSBlockRedstoneTorch extends NMSBlockTorch {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneTorch#remove(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneTorch#remove(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "remove", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void remove(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){

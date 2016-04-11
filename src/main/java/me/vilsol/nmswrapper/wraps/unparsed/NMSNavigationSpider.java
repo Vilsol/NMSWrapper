@@ -19,7 +19,7 @@ public class NMSNavigationSpider extends NMSNavigation {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NavigationSpider#a(net.minecraft.server.v1_8_R3.Entity, double)
+     * @see net.minecraft.server.v1_9_R1.NavigationSpider#a(net.minecraft.server.v1_9_R1.Entity, double)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntity.class, double.class})
     public boolean a(NMSEntity entity, double d){
@@ -28,7 +28,7 @@ public class NMSNavigationSpider extends NMSNavigation {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NavigationSpider#k()
+     * @see net.minecraft.server.v1_9_R1.NavigationSpider#k()
      */
     @ReflectiveMethod(name = "k", types = {})
     public void k(){

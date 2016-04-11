@@ -21,7 +21,7 @@ public class NMSGenLayer extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.GenLayer#a(int...)
+     * @see net.minecraft.server.v1_9_R1.GenLayer#a(int...)
      */
     @ReflectiveMethod(name = "a", types = {int[].class})
     public int a(int[] array){
@@ -30,7 +30,7 @@ public class NMSGenLayer extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.GenLayer#b(int, int, int, int)
+     * @see net.minecraft.server.v1_9_R1.GenLayer#b(int, int, int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class, int.class, int.class})
     public int b(int i, int i1, int i2, int i3){

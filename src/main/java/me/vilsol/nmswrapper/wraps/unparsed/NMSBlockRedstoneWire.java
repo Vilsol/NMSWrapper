@@ -16,7 +16,7 @@ public class NMSBlockRedstoneWire extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneWire#a(net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneWire#a(net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "a", types = {NMSIBlockData.class, NMSEnumDirection.class})
     public boolean a(NMSIBlockData iBlockData, NMSEnumDirection enumDirection){
@@ -25,7 +25,7 @@ public class NMSBlockRedstoneWire extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneWire#b(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneWire#b(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "b", types = {NMSIBlockAccess.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEnumDirection.class})
     public int b(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEnumDirection enumDirection){
@@ -34,7 +34,7 @@ public class NMSBlockRedstoneWire extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneWire#c()
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneWire#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -42,7 +42,7 @@ public class NMSBlockRedstoneWire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneWire#canPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneWire#canPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "canPlace", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean canPlace(NMSWorld world, NMSBlockPosition blockPosition){
@@ -51,7 +51,7 @@ public class NMSBlockRedstoneWire extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneWire#d(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneWire#d(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "d", types = {NMSIBlockData.class})
     public boolean d(NMSIBlockData iBlockData){
@@ -59,7 +59,7 @@ public class NMSBlockRedstoneWire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneWire#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneWire#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -68,7 +68,7 @@ public class NMSBlockRedstoneWire extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneWire#e(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneWire#e(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "e", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public boolean e(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -76,7 +76,7 @@ public class NMSBlockRedstoneWire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneWire#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneWire#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -84,7 +84,7 @@ public class NMSBlockRedstoneWire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneWire#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneWire#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -92,7 +92,7 @@ public class NMSBlockRedstoneWire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneWire#getPower(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, int)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneWire#getPower(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, int)
      */
     @ReflectiveMethod(name = "getPower", types = {NMSWorld.class, NMSBlockPosition.class, int.class})
     public int getPower(NMSWorld world, NMSBlockPosition blockPosition, int i){
@@ -100,7 +100,7 @@ public class NMSBlockRedstoneWire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneWire#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneWire#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -108,7 +108,7 @@ public class NMSBlockRedstoneWire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneWire#isPowerSource()
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneWire#isPowerSource()
      */
     @ReflectiveMethod(name = "isPowerSource", types = {})
     public boolean isPowerSource(){
@@ -116,7 +116,7 @@ public class NMSBlockRedstoneWire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneWire#onPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneWire#onPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "onPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void onPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -124,7 +124,7 @@ public class NMSBlockRedstoneWire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneWire#remove(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneWire#remove(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "remove", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void remove(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -132,7 +132,7 @@ public class NMSBlockRedstoneWire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneWire#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneWire#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -140,7 +140,7 @@ public class NMSBlockRedstoneWire extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneWire#updateState(net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneWire#updateState(net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateState", types = {NMSIBlockData.class, NMSIBlockAccess.class, NMSBlockPosition.class})
     public NMSIBlockData updateState(NMSIBlockData iBlockData, NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

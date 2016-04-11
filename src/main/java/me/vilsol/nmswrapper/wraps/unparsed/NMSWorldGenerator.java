@@ -24,7 +24,7 @@ public class NMSWorldGenerator extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenerator#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.WorldGenerator#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void a(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -33,7 +33,7 @@ public class NMSWorldGenerator extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenerator#e()
+     * @see net.minecraft.server.v1_9_R1.WorldGenerator#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){
@@ -41,7 +41,7 @@ public class NMSWorldGenerator extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldGenerator#generate(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.WorldGenerator#generate(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "generate", types = {NMSWorld.class, Random.class, NMSBlockPosition.class})
     public boolean generate(NMSWorld world, Random random, NMSBlockPosition blockPosition){

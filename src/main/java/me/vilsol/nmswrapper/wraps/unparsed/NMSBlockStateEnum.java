@@ -13,7 +13,7 @@ public class NMSBlockStateEnum extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStateEnum#a(java.lang.Comparable)
+     * @see net.minecraft.server.v1_9_R1.BlockStateEnum#a(java.lang.Comparable)
      */
     @ReflectiveMethod(name = "a", types = {Comparable.class})
     public String a(Comparable comparable){

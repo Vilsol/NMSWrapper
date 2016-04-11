@@ -19,7 +19,7 @@ public class NMSWorldGenMineshaftPieces extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenMineshaftPieces#a(net.minecraft.server.v1_8_R3.StructurePiece, java.util.List, java.util.Random, int, int, int, net.minecraft.server.v1_8_R3.EnumDirection, int)
+     * @see net.minecraft.server.v1_9_R1.WorldGenMineshaftPieces#a(net.minecraft.server.v1_9_R1.StructurePiece, java.util.List, java.util.Random, int, int, int, net.minecraft.server.v1_9_R1.EnumDirection, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSStructurePiece.class, List.class, Random.class, int.class, int.class, int.class, NMSEnumDirection.class, int.class})
     public NMSStructurePiece a(NMSStructurePiece structurePiece, List list, Random random, int i, int i1, int i2, NMSEnumDirection enumDirection, int i3){
@@ -28,7 +28,7 @@ public class NMSWorldGenMineshaftPieces extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenMineshaftPieces#b()
+     * @see net.minecraft.server.v1_9_R1.WorldGenMineshaftPieces#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public List b(){
@@ -48,7 +48,7 @@ public class NMSWorldGenMineshaftPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMineshaftPieces$WorldGenMineshaftCorridor#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMineshaftPieces$WorldGenMineshaftCorridor#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -57,7 +57,7 @@ public class NMSWorldGenMineshaftPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMineshaftPieces$WorldGenMineshaftCorridor#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMineshaftPieces$WorldGenMineshaftCorridor#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -79,7 +79,7 @@ public class NMSWorldGenMineshaftPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMineshaftPieces$WorldGenMineshaftCross#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMineshaftPieces$WorldGenMineshaftCross#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -88,7 +88,7 @@ public class NMSWorldGenMineshaftPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMineshaftPieces$WorldGenMineshaftCross#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMineshaftPieces$WorldGenMineshaftCross#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -110,7 +110,7 @@ public class NMSWorldGenMineshaftPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMineshaftPieces$WorldGenMineshaftRoom#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMineshaftPieces$WorldGenMineshaftRoom#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
         public void a(NMSNBTTagCompound nBTTagCompound){
@@ -119,7 +119,7 @@ public class NMSWorldGenMineshaftPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMineshaftPieces$WorldGenMineshaftRoom#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMineshaftPieces$WorldGenMineshaftRoom#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -141,7 +141,7 @@ public class NMSWorldGenMineshaftPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMineshaftPieces$WorldGenMineshaftStairs#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMineshaftPieces$WorldGenMineshaftStairs#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -150,7 +150,7 @@ public class NMSWorldGenMineshaftPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenMineshaftPieces$WorldGenMineshaftStairs#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenMineshaftPieces$WorldGenMineshaftStairs#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){

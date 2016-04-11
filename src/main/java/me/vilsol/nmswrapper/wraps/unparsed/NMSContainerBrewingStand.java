@@ -19,7 +19,7 @@ public class NMSContainerBrewingStand extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerBrewingStand#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ContainerBrewingStand#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -27,7 +27,7 @@ public class NMSContainerBrewingStand extends NMSContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ContainerBrewingStand#addSlotListener(net.minecraft.server.v1_8_R3.ICrafting)
+     * @see net.minecraft.server.v1_9_R1.ContainerBrewingStand#addSlotListener(net.minecraft.server.v1_9_R1.ICrafting)
      */
     @ReflectiveMethod(name = "addSlotListener", types = {NMSICrafting.class})
     public void addSlotListener(NMSICrafting iCrafting){
@@ -36,7 +36,7 @@ public class NMSContainerBrewingStand extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerBrewingStand#b(net.minecraft.server.v1_8_R3.EntityHuman, int)
+     * @see net.minecraft.server.v1_9_R1.ContainerBrewingStand#b(net.minecraft.server.v1_9_R1.EntityHuman, int)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityHuman.class, int.class})
     public NMSItemStack b(NMSEntityHuman entityHuman, int i){
@@ -44,7 +44,7 @@ public class NMSContainerBrewingStand extends NMSContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ContainerBrewingStand#getBukkitView()
+     * @see net.minecraft.server.v1_9_R1.ContainerBrewingStand#getBukkitView()
      */
     @ReflectiveMethod(name = "getBukkitView", types = {})
     public InventoryView getBukkitView(){

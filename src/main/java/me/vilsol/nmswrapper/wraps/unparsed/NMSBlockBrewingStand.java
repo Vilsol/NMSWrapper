@@ -16,7 +16,7 @@ public class NMSBlockBrewingStand extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockBrewingStand#a(net.minecraft.server.v1_8_R3.World, int)
+     * @see net.minecraft.server.v1_9_R1.BlockBrewingStand#a(net.minecraft.server.v1_9_R1.World, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, int.class})
     public NMSTileEntity a(NMSWorld world, int i){
@@ -25,7 +25,7 @@ public class NMSBlockBrewingStand extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockBrewingStand#b()
+     * @see net.minecraft.server.v1_9_R1.BlockBrewingStand#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public int b(){
@@ -34,7 +34,7 @@ public class NMSBlockBrewingStand extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockBrewingStand#c()
+     * @see net.minecraft.server.v1_9_R1.BlockBrewingStand#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -43,7 +43,7 @@ public class NMSBlockBrewingStand extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockBrewingStand#d()
+     * @see net.minecraft.server.v1_9_R1.BlockBrewingStand#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -51,7 +51,7 @@ public class NMSBlockBrewingStand extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockBrewingStand#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockBrewingStand#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -59,7 +59,7 @@ public class NMSBlockBrewingStand extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockBrewingStand#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockBrewingStand#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -67,7 +67,7 @@ public class NMSBlockBrewingStand extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockBrewingStand#getName()
+     * @see net.minecraft.server.v1_9_R1.BlockBrewingStand#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -75,7 +75,7 @@ public class NMSBlockBrewingStand extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockBrewingStand#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockBrewingStand#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -83,7 +83,7 @@ public class NMSBlockBrewingStand extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockBrewingStand#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockBrewingStand#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -91,7 +91,7 @@ public class NMSBlockBrewingStand extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockBrewingStand#isComplexRedstone()
+     * @see net.minecraft.server.v1_9_R1.BlockBrewingStand#isComplexRedstone()
      */
     @ReflectiveMethod(name = "isComplexRedstone", types = {})
     public boolean isComplexRedstone(){
@@ -100,7 +100,7 @@ public class NMSBlockBrewingStand extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockBrewingStand#j()
+     * @see net.minecraft.server.v1_9_R1.BlockBrewingStand#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public void j(){
@@ -109,7 +109,7 @@ public class NMSBlockBrewingStand extends NMSBlockContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockBrewingStand#l(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockBrewingStand#l(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "l", types = {NMSWorld.class, NMSBlockPosition.class})
     public int l(NMSWorld world, NMSBlockPosition blockPosition){
@@ -117,7 +117,7 @@ public class NMSBlockBrewingStand extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockBrewingStand#postPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityLiving, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.BlockBrewingStand#postPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityLiving, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "postPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityLiving.class, NMSItemStack.class})
     public void postPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityLiving entityLiving, NMSItemStack itemStack){
@@ -125,7 +125,7 @@ public class NMSBlockBrewingStand extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockBrewingStand#remove(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockBrewingStand#remove(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "remove", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void remove(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -133,7 +133,7 @@ public class NMSBlockBrewingStand extends NMSBlockContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockBrewingStand#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockBrewingStand#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

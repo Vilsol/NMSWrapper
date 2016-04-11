@@ -17,7 +17,7 @@ public class NMSEntitySilverfish extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySilverfish#a(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.EntitySilverfish#a(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "a", types = {NMSBlockPosition.class})
     public float a(NMSBlockPosition blockPosition){
@@ -26,7 +26,7 @@ public class NMSEntitySilverfish extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySilverfish#am()
+     * @see net.minecraft.server.v1_9_R1.EntitySilverfish#am()
      */
     @ReflectiveMethod(name = "am", types = {})
     public double am(){
@@ -35,7 +35,7 @@ public class NMSEntitySilverfish extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySilverfish#bR()
+     * @see net.minecraft.server.v1_9_R1.EntitySilverfish#bR()
      */
     @ReflectiveMethod(name = "bR", types = {})
     public boolean bR(){
@@ -44,7 +44,7 @@ public class NMSEntitySilverfish extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySilverfish#bo()
+     * @see net.minecraft.server.v1_9_R1.EntitySilverfish#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -53,7 +53,7 @@ public class NMSEntitySilverfish extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySilverfish#bp()
+     * @see net.minecraft.server.v1_9_R1.EntitySilverfish#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -61,7 +61,7 @@ public class NMSEntitySilverfish extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySilverfish#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntitySilverfish#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -69,7 +69,7 @@ public class NMSEntitySilverfish extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySilverfish#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntitySilverfish#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -77,7 +77,7 @@ public class NMSEntitySilverfish extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySilverfish#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntitySilverfish#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -85,7 +85,7 @@ public class NMSEntitySilverfish extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySilverfish#getMonsterType()
+     * @see net.minecraft.server.v1_9_R1.EntitySilverfish#getMonsterType()
      */
     @ReflectiveMethod(name = "getMonsterType", types = {})
     public NMSEnumMonsterType getMonsterType(){
@@ -93,7 +93,7 @@ public class NMSEntitySilverfish extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySilverfish#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntitySilverfish#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -102,7 +102,7 @@ public class NMSEntitySilverfish extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySilverfish#n_()
+     * @see net.minecraft.server.v1_9_R1.EntitySilverfish#n_()
      */
     @ReflectiveMethod(name = "n_", types = {})
     public boolean n_(){
@@ -111,7 +111,7 @@ public class NMSEntitySilverfish extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySilverfish#s_()
+     * @see net.minecraft.server.v1_9_R1.EntitySilverfish#s_()
      */
     @ReflectiveMethod(name = "s_", types = {})
     public boolean s_(){
@@ -120,7 +120,7 @@ public class NMSEntitySilverfish extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySilverfish#t_()
+     * @see net.minecraft.server.v1_9_R1.EntitySilverfish#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){
@@ -129,7 +129,7 @@ public class NMSEntitySilverfish extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySilverfish#z()
+     * @see net.minecraft.server.v1_9_R1.EntitySilverfish#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

@@ -13,7 +13,7 @@ public class NMSWorldBorder extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#a(int)
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public void a(int i){
@@ -22,7 +22,7 @@ public class NMSWorldBorder extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#b()
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public double b(){
@@ -31,7 +31,7 @@ public class NMSWorldBorder extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#c()
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public double c(){
@@ -40,7 +40,7 @@ public class NMSWorldBorder extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#d()
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public double d(){
@@ -49,7 +49,7 @@ public class NMSWorldBorder extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#e()
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public double e(){
@@ -57,7 +57,7 @@ public class NMSWorldBorder extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#getCenterX()
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#getCenterX()
      */
     @ReflectiveMethod(name = "getCenterX", types = {})
     public double getCenterX(){
@@ -65,7 +65,7 @@ public class NMSWorldBorder extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#getCenterZ()
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#getCenterZ()
      */
     @ReflectiveMethod(name = "getCenterZ", types = {})
     public double getCenterZ(){
@@ -73,7 +73,7 @@ public class NMSWorldBorder extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#getDamageAmount()
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#getDamageAmount()
      */
     @ReflectiveMethod(name = "getDamageAmount", types = {})
     public double getDamageAmount(){
@@ -81,7 +81,7 @@ public class NMSWorldBorder extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#getDamageBuffer()
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#getDamageBuffer()
      */
     @ReflectiveMethod(name = "getDamageBuffer", types = {})
     public double getDamageBuffer(){
@@ -89,7 +89,7 @@ public class NMSWorldBorder extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#getSize()
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#getSize()
      */
     @ReflectiveMethod(name = "getSize", types = {})
     public double getSize(){
@@ -97,7 +97,7 @@ public class NMSWorldBorder extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#getState()
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#getState()
      */
     @ReflectiveMethod(name = "getState", types = {})
     public NMSEnumWorldBorderState getState(){
@@ -105,7 +105,7 @@ public class NMSWorldBorder extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#getWarningDistance()
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#getWarningDistance()
      */
     @ReflectiveMethod(name = "getWarningDistance", types = {})
     public int getWarningDistance(){
@@ -113,7 +113,7 @@ public class NMSWorldBorder extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#getWarningTime()
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#getWarningTime()
      */
     @ReflectiveMethod(name = "getWarningTime", types = {})
     public int getWarningTime(){
@@ -122,7 +122,7 @@ public class NMSWorldBorder extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#i()
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public long i(){
@@ -130,7 +130,7 @@ public class NMSWorldBorder extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#isInBounds(int, int)
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#isInBounds(int, int)
      */
     @ReflectiveMethod(name = "isInBounds", types = {int.class, int.class})
     public boolean isInBounds(int i, int i1){
@@ -139,7 +139,7 @@ public class NMSWorldBorder extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#j()
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public double j(){
@@ -148,7 +148,7 @@ public class NMSWorldBorder extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#l()
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public int l(){
@@ -156,7 +156,7 @@ public class NMSWorldBorder extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#setCenter(double, double)
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#setCenter(double, double)
      */
     @ReflectiveMethod(name = "setCenter", types = {double.class, double.class})
     public void setCenter(double d, double d1){
@@ -164,7 +164,7 @@ public class NMSWorldBorder extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#setDamageAmount(double)
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#setDamageAmount(double)
      */
     @ReflectiveMethod(name = "setDamageAmount", types = {double.class})
     public void setDamageAmount(double d){
@@ -172,7 +172,7 @@ public class NMSWorldBorder extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#setDamageBuffer(double)
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#setDamageBuffer(double)
      */
     @ReflectiveMethod(name = "setDamageBuffer", types = {double.class})
     public void setDamageBuffer(double d){
@@ -180,7 +180,7 @@ public class NMSWorldBorder extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#setSize(double)
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#setSize(double)
      */
     @ReflectiveMethod(name = "setSize", types = {double.class})
     public void setSize(double d){
@@ -188,7 +188,7 @@ public class NMSWorldBorder extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#setWarningDistance(int)
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#setWarningDistance(int)
      */
     @ReflectiveMethod(name = "setWarningDistance", types = {int.class})
     public void setWarningDistance(int i){
@@ -196,7 +196,7 @@ public class NMSWorldBorder extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#setWarningTime(int)
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#setWarningTime(int)
      */
     @ReflectiveMethod(name = "setWarningTime", types = {int.class})
     public void setWarningTime(int i){
@@ -204,7 +204,7 @@ public class NMSWorldBorder extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldBorder#transitionSizeBetween(double, double, long)
+     * @see net.minecraft.server.v1_9_R1.WorldBorder#transitionSizeBetween(double, double, long)
      */
     @ReflectiveMethod(name = "transitionSizeBetween", types = {double.class, double.class, long.class})
     public void transitionSizeBetween(double d, double d1, long l){

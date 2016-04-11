@@ -13,7 +13,7 @@ public class NMSMethodProfiler extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MethodProfiler#a(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.MethodProfiler#a(java.lang.String)
      */
     @ReflectiveMethod(name = "a", types = {String.class})
     public void a(String s){
@@ -22,7 +22,7 @@ public class NMSMethodProfiler extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MethodProfiler#b()
+     * @see net.minecraft.server.v1_9_R1.MethodProfiler#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public void b(){
@@ -31,7 +31,7 @@ public class NMSMethodProfiler extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MethodProfiler#c()
+     * @see net.minecraft.server.v1_9_R1.MethodProfiler#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public String c(){

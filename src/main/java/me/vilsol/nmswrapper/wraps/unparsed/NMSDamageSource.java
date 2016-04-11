@@ -18,7 +18,7 @@ public class NMSDamageSource extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DamageSource#a()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSDamageSource extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DamageSource#arrow(net.minecraft.server.v1_8_R3.EntityArrow, net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.DamageSource#arrow(net.minecraft.server.v1_9_R1.EntityArrow, net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "arrow", types = {NMSEntityArrow.class, NMSEntity.class})
     public NMSDamageSource arrow(NMSEntityArrow entityArrow, NMSEntity entity){
@@ -35,7 +35,7 @@ public class NMSDamageSource extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DamageSource#b()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSDamageSource b(){
@@ -44,7 +44,7 @@ public class NMSDamageSource extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DamageSource#d()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public NMSDamageSource d(){
@@ -52,7 +52,7 @@ public class NMSDamageSource extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DamageSource#explosion(net.minecraft.server.v1_8_R3.Explosion)
+     * @see net.minecraft.server.v1_9_R1.DamageSource#explosion(net.minecraft.server.v1_9_R1.Explosion)
      */
     @ReflectiveMethod(name = "explosion", types = {NMSExplosion.class})
     public NMSDamageSource explosion(NMSExplosion explosion){
@@ -60,7 +60,7 @@ public class NMSDamageSource extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DamageSource#fireball(net.minecraft.server.v1_8_R3.EntityFireball, net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.DamageSource#fireball(net.minecraft.server.v1_9_R1.EntityFireball, net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "fireball", types = {NMSEntityFireball.class, NMSEntity.class})
     public NMSDamageSource fireball(NMSEntityFireball entityFireball, NMSEntity entity){
@@ -68,7 +68,7 @@ public class NMSDamageSource extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DamageSource#getEntity()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#getEntity()
      */
     @ReflectiveMethod(name = "getEntity", types = {})
     public NMSEntity getEntity(){
@@ -76,7 +76,7 @@ public class NMSDamageSource extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DamageSource#getExhaustionCost()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#getExhaustionCost()
      */
     @ReflectiveMethod(name = "getExhaustionCost", types = {})
     public float getExhaustionCost(){
@@ -84,7 +84,7 @@ public class NMSDamageSource extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DamageSource#getLocalizedDeathMessage(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.DamageSource#getLocalizedDeathMessage(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getLocalizedDeathMessage", types = {NMSEntityLiving.class})
     public NMSIChatBaseComponent getLocalizedDeathMessage(NMSEntityLiving entityLiving){
@@ -93,7 +93,7 @@ public class NMSDamageSource extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DamageSource#i()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public NMSEntity i(){
@@ -101,7 +101,7 @@ public class NMSDamageSource extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DamageSource#ignoresArmor()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#ignoresArmor()
      */
     @ReflectiveMethod(name = "ignoresArmor", types = {})
     public boolean ignoresArmor(){
@@ -109,7 +109,7 @@ public class NMSDamageSource extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DamageSource#ignoresInvulnerability()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#ignoresInvulnerability()
      */
     @ReflectiveMethod(name = "ignoresInvulnerability", types = {})
     public boolean ignoresInvulnerability(){
@@ -117,7 +117,7 @@ public class NMSDamageSource extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DamageSource#isExplosion()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#isExplosion()
      */
     @ReflectiveMethod(name = "isExplosion", types = {})
     public boolean isExplosion(){
@@ -125,7 +125,7 @@ public class NMSDamageSource extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DamageSource#isMagic()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#isMagic()
      */
     @ReflectiveMethod(name = "isMagic", types = {})
     public boolean isMagic(){
@@ -133,7 +133,7 @@ public class NMSDamageSource extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DamageSource#isStarvation()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#isStarvation()
      */
     @ReflectiveMethod(name = "isStarvation", types = {})
     public boolean isStarvation(){
@@ -142,7 +142,7 @@ public class NMSDamageSource extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DamageSource#l()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public NMSDamageSource l(){
@@ -151,7 +151,7 @@ public class NMSDamageSource extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DamageSource#m()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public NMSDamageSource m(){
@@ -159,7 +159,7 @@ public class NMSDamageSource extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DamageSource#mobAttack(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.DamageSource#mobAttack(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "mobAttack", types = {NMSEntityLiving.class})
     public NMSDamageSource mobAttack(NMSEntityLiving entityLiving){
@@ -168,7 +168,7 @@ public class NMSDamageSource extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DamageSource#o()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#o()
      */
     @ReflectiveMethod(name = "o", types = {})
     public boolean o(){
@@ -177,7 +177,7 @@ public class NMSDamageSource extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DamageSource#p()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#p()
      */
     @ReflectiveMethod(name = "p", types = {})
     public String p(){
@@ -185,7 +185,7 @@ public class NMSDamageSource extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DamageSource#playerAttack(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.DamageSource#playerAttack(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "playerAttack", types = {NMSEntityHuman.class})
     public NMSDamageSource playerAttack(NMSEntityHuman entityHuman){
@@ -193,7 +193,7 @@ public class NMSDamageSource extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DamageSource#projectile(net.minecraft.server.v1_8_R3.Entity, net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.DamageSource#projectile(net.minecraft.server.v1_9_R1.Entity, net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "projectile", types = {NMSEntity.class, NMSEntity.class})
     public NMSDamageSource projectile(NMSEntity entity, NMSEntity entity1){
@@ -202,7 +202,7 @@ public class NMSDamageSource extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DamageSource#q()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#q()
      */
     @ReflectiveMethod(name = "q", types = {})
     public NMSDamageSource q(){
@@ -211,7 +211,7 @@ public class NMSDamageSource extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DamageSource#r()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#r()
      */
     @ReflectiveMethod(name = "r", types = {})
     public boolean r(){
@@ -219,7 +219,7 @@ public class NMSDamageSource extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DamageSource#setExplosion()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#setExplosion()
      */
     @ReflectiveMethod(name = "setExplosion", types = {})
     public NMSDamageSource setExplosion(){
@@ -227,7 +227,7 @@ public class NMSDamageSource extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DamageSource#setIgnoreArmor()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#setIgnoreArmor()
      */
     @ReflectiveMethod(name = "setIgnoreArmor", types = {})
     public NMSDamageSource setIgnoreArmor(){
@@ -235,7 +235,7 @@ public class NMSDamageSource extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.DamageSource#setMagic()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#setMagic()
      */
     @ReflectiveMethod(name = "setMagic", types = {})
     public NMSDamageSource setMagic(){
@@ -244,7 +244,7 @@ public class NMSDamageSource extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DamageSource#u()
+     * @see net.minecraft.server.v1_9_R1.DamageSource#u()
      */
     @ReflectiveMethod(name = "u", types = {})
     public boolean u(){

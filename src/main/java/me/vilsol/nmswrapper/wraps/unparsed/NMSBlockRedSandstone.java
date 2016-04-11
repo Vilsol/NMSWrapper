@@ -12,7 +12,7 @@ public class NMSBlockRedSandstone extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedSandstone#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockRedSandstone#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -20,7 +20,7 @@ public class NMSBlockRedSandstone extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedSandstone#getDropData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedSandstone#getDropData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSIBlockData.class})
     public int getDropData(NMSIBlockData iBlockData){
@@ -28,7 +28,7 @@ public class NMSBlockRedSandstone extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedSandstone#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockRedSandstone#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -36,7 +36,7 @@ public class NMSBlockRedSandstone extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedSandstone#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedSandstone#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

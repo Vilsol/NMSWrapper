@@ -17,7 +17,7 @@ public class NMSItemSword extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemSword#a(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemSword#a(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "a", types = {NMSItemStack.class, NMSItemStack.class})
     public boolean a(NMSItemStack itemStack, NMSItemStack itemStack1){
@@ -26,7 +26,7 @@ public class NMSItemSword extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemSword#b()
+     * @see net.minecraft.server.v1_9_R1.ItemSword#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public int b(){
@@ -34,7 +34,7 @@ public class NMSItemSword extends NMSItem {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemSword#canDestroySpecialBlock(net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.ItemSword#canDestroySpecialBlock(net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "canDestroySpecialBlock", types = {NMSBlock.class})
     public boolean canDestroySpecialBlock(NMSBlock block){
@@ -43,7 +43,7 @@ public class NMSItemSword extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemSword#d(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemSword#d(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "d", types = {NMSItemStack.class})
     public int d(NMSItemStack itemStack){
@@ -52,7 +52,7 @@ public class NMSItemSword extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemSword#e(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemSword#e(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "e", types = {NMSItemStack.class})
     public NMSEnumAnimation e(NMSItemStack itemStack){
@@ -61,7 +61,7 @@ public class NMSItemSword extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemSword#g()
+     * @see net.minecraft.server.v1_9_R1.ItemSword#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public float g(){
@@ -69,7 +69,7 @@ public class NMSItemSword extends NMSItem {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemSword#getDestroySpeed(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.ItemSword#getDestroySpeed(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "getDestroySpeed", types = {NMSItemStack.class, NMSBlock.class})
     public float getDestroySpeed(NMSItemStack itemStack, NMSBlock block){
@@ -78,7 +78,7 @@ public class NMSItemSword extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemSword#h()
+     * @see net.minecraft.server.v1_9_R1.ItemSword#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public String h(){

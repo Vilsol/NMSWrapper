@@ -13,7 +13,7 @@ public class NMSMobSpawnerAbstract extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MobSpawnerAbstract#a()
+     * @see net.minecraft.server.v1_9_R1.MobSpawnerAbstract#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public NMSWorld a(){
@@ -22,7 +22,7 @@ public class NMSMobSpawnerAbstract extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MobSpawnerAbstract#b()
+     * @see net.minecraft.server.v1_9_R1.MobSpawnerAbstract#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSBlockPosition b(){
@@ -31,7 +31,7 @@ public class NMSMobSpawnerAbstract extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MobSpawnerAbstract#c()
+     * @see net.minecraft.server.v1_9_R1.MobSpawnerAbstract#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -39,7 +39,7 @@ public class NMSMobSpawnerAbstract extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MobSpawnerAbstract#getMobName()
+     * @see net.minecraft.server.v1_9_R1.MobSpawnerAbstract#getMobName()
      */
     @ReflectiveMethod(name = "getMobName", types = {})
     public String getMobName(){
@@ -47,7 +47,7 @@ public class NMSMobSpawnerAbstract extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MobSpawnerAbstract#setMobName(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.MobSpawnerAbstract#setMobName(java.lang.String)
      */
     @ReflectiveMethod(name = "setMobName", types = {String.class})
     public void setMobName(String s){

@@ -22,7 +22,7 @@ public class NMSUserCache extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.UserCache#a(java.util.UUID)
+     * @see net.minecraft.server.v1_9_R1.UserCache#a(java.util.UUID)
      */
     @ReflectiveMethod(name = "a", types = {UUID.class})
     public GameProfile a(UUID uUID){
@@ -31,7 +31,7 @@ public class NMSUserCache extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.UserCache#b()
+     * @see net.minecraft.server.v1_9_R1.UserCache#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public void b(){
@@ -40,7 +40,7 @@ public class NMSUserCache extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.UserCache#c()
+     * @see net.minecraft.server.v1_9_R1.UserCache#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -48,7 +48,7 @@ public class NMSUserCache extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.UserCache#getProfile(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.UserCache#getProfile(java.lang.String)
      */
     @ReflectiveMethod(name = "getProfile", types = {String.class})
     public GameProfile getProfile(String s){

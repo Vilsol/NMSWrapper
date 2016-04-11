@@ -12,7 +12,7 @@ public class NMSLongHashMap extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.LongHashMap#contains(long)
+     * @see net.minecraft.server.v1_9_R1.LongHashMap#contains(long)
      */
     @ReflectiveMethod(name = "contains", types = {long.class})
     public boolean contains(long l){
@@ -20,7 +20,7 @@ public class NMSLongHashMap extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.LongHashMap#count()
+     * @see net.minecraft.server.v1_9_R1.LongHashMap#count()
      */
     @ReflectiveMethod(name = "count", types = {})
     public int count(){
@@ -29,7 +29,7 @@ public class NMSLongHashMap extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.LongHashMap#f(long)
+     * @see net.minecraft.server.v1_9_R1.LongHashMap#f(long)
      */
     @ReflectiveMethod(name = "f", types = {long.class})
     public int f(long l){
@@ -37,7 +37,7 @@ public class NMSLongHashMap extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.LongHashMap#getEntry(long)
+     * @see net.minecraft.server.v1_9_R1.LongHashMap#getEntry(long)
      */
     @ReflectiveMethod(name = "getEntry", types = {long.class})
     public Object getEntry(long l){
@@ -45,7 +45,7 @@ public class NMSLongHashMap extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.LongHashMap#put(long, Object)
+     * @see net.minecraft.server.v1_9_R1.LongHashMap#put(long, Object)
      */
     @ReflectiveMethod(name = "put", types = {long.class, Object.class})
     public void put(long l, Object v){
@@ -53,7 +53,7 @@ public class NMSLongHashMap extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.LongHashMap#remove(long)
+     * @see net.minecraft.server.v1_9_R1.LongHashMap#remove(long)
      */
     @ReflectiveMethod(name = "remove", types = {long.class})
     public Object remove(long l){

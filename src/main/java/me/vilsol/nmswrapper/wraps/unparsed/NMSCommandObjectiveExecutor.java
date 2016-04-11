@@ -13,7 +13,7 @@ public class NMSCommandObjectiveExecutor extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandObjectiveExecutor#a(net.minecraft.server.v1_8_R3.CommandObjectiveExecutor)
+     * @see net.minecraft.server.v1_9_R1.CommandObjectiveExecutor#a(net.minecraft.server.v1_9_R1.CommandObjectiveExecutor)
      */
     @ReflectiveMethod(name = "a", types = {NMSCommandObjectiveExecutor.class})
     public void a(NMSCommandObjectiveExecutor commandObjectiveExecutor){
@@ -22,7 +22,7 @@ public class NMSCommandObjectiveExecutor extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandObjectiveExecutor#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.CommandObjectiveExecutor#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){

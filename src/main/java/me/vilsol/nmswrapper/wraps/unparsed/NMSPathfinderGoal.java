@@ -17,7 +17,7 @@ public class NMSPathfinderGoal extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoal#a(int)
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoal#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public void a(int i){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoal extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoal#b()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoal#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -35,7 +35,7 @@ public class NMSPathfinderGoal extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoal#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoal#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -44,7 +44,7 @@ public class NMSPathfinderGoal extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoal#d()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoal#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -53,7 +53,7 @@ public class NMSPathfinderGoal extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoal#e()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoal#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){
@@ -62,7 +62,7 @@ public class NMSPathfinderGoal extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoal#i()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoal#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public boolean i(){
@@ -71,7 +71,7 @@ public class NMSPathfinderGoal extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoal#j()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoal#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public int j(){

@@ -13,7 +13,7 @@ public class NMSShapeDetector extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ShapeDetector#a(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection, net.minecraft.server.v1_8_R3.EnumDirection, int, int, int)
+     * @see net.minecraft.server.v1_9_R1.ShapeDetector#a(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection, net.minecraft.server.v1_9_R1.EnumDirection, int, int, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSBlockPosition.class, NMSEnumDirection.class, NMSEnumDirection.class, int.class, int.class, int.class})
     public NMSBlockPosition a(NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, NMSEnumDirection enumDirection1, int i, int i1, int i2){
@@ -22,7 +22,7 @@ public class NMSShapeDetector extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ShapeDetector#b()
+     * @see net.minecraft.server.v1_9_R1.ShapeDetector#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public int b(){
@@ -31,7 +31,7 @@ public class NMSShapeDetector extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ShapeDetector#c()
+     * @see net.minecraft.server.v1_9_R1.ShapeDetector#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public int c(){
@@ -47,7 +47,7 @@ public class NMSShapeDetector extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.ShapeDetector$ShapeDetectorCollection#a(int, int, int)
+         * @see net.minecraft.server.v1_9_R1.ShapeDetector$ShapeDetectorCollection#a(int, int, int)
          */
         @ReflectiveMethod(name = "a", types = {int.class, int.class, int.class})
         public NMSShapeDetectorBlock a(int i, int i1, int i2){
@@ -56,7 +56,7 @@ public class NMSShapeDetector extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.ShapeDetector$ShapeDetectorCollection#b()
+         * @see net.minecraft.server.v1_9_R1.ShapeDetector$ShapeDetectorCollection#b()
          */
         @ReflectiveMethod(name = "b", types = {})
         public NMSEnumDirection b(){
@@ -65,7 +65,7 @@ public class NMSShapeDetector extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.ShapeDetector$ShapeDetectorCollection#c()
+         * @see net.minecraft.server.v1_9_R1.ShapeDetector$ShapeDetectorCollection#c()
          */
         @ReflectiveMethod(name = "c", types = {})
         public NMSEnumDirection c(){
@@ -74,7 +74,7 @@ public class NMSShapeDetector extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.ShapeDetector$ShapeDetectorCollection#d()
+         * @see net.minecraft.server.v1_9_R1.ShapeDetector$ShapeDetectorCollection#d()
          */
         @ReflectiveMethod(name = "d", types = {})
         public int d(){
@@ -83,7 +83,7 @@ public class NMSShapeDetector extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.ShapeDetector$ShapeDetectorCollection#e()
+         * @see net.minecraft.server.v1_9_R1.ShapeDetector$ShapeDetectorCollection#e()
          */
         @ReflectiveMethod(name = "e", types = {})
         public int e(){
@@ -91,7 +91,7 @@ public class NMSShapeDetector extends NMSWrap {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.ShapeDetector$ShapeDetectorCollection#toString()
+         * @see net.minecraft.server.v1_9_R1.ShapeDetector$ShapeDetectorCollection#toString()
          */
         @ReflectiveMethod(name = "toString", types = {})
         public String toString(){

@@ -34,7 +34,7 @@ public class NMSMovingObjectPosition extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MovingObjectPosition#a()
+     * @see net.minecraft.server.v1_9_R1.MovingObjectPosition#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public NMSBlockPosition a(){
@@ -42,7 +42,7 @@ public class NMSMovingObjectPosition extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MovingObjectPosition#toString()
+     * @see net.minecraft.server.v1_9_R1.MovingObjectPosition#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

@@ -17,7 +17,7 @@ public class NMSEntityGhast extends NMSEntityFlying implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGhast#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityGhast#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -26,7 +26,7 @@ public class NMSEntityGhast extends NMSEntityFlying implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGhast#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityGhast#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -35,7 +35,7 @@ public class NMSEntityGhast extends NMSEntityFlying implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGhast#bB()
+     * @see net.minecraft.server.v1_9_R1.EntityGhast#bB()
      */
     @ReflectiveMethod(name = "bB", types = {})
     public float bB(){
@@ -44,7 +44,7 @@ public class NMSEntityGhast extends NMSEntityFlying implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGhast#bR()
+     * @see net.minecraft.server.v1_9_R1.EntityGhast#bR()
      */
     @ReflectiveMethod(name = "bR", types = {})
     public boolean bR(){
@@ -53,7 +53,7 @@ public class NMSEntityGhast extends NMSEntityFlying implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGhast#bV()
+     * @see net.minecraft.server.v1_9_R1.EntityGhast#bV()
      */
     @ReflectiveMethod(name = "bV", types = {})
     public int bV(){
@@ -62,7 +62,7 @@ public class NMSEntityGhast extends NMSEntityFlying implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGhast#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityGhast#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -71,7 +71,7 @@ public class NMSEntityGhast extends NMSEntityFlying implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGhast#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityGhast#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -80,7 +80,7 @@ public class NMSEntityGhast extends NMSEntityFlying implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGhast#cf()
+     * @see net.minecraft.server.v1_9_R1.EntityGhast#cf()
      */
     @ReflectiveMethod(name = "cf", types = {})
     public int cf(){
@@ -88,7 +88,7 @@ public class NMSEntityGhast extends NMSEntityFlying implements NMSIMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityGhast#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityGhast#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -96,7 +96,7 @@ public class NMSEntityGhast extends NMSEntityFlying implements NMSIMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityGhast#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityGhast#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -104,7 +104,7 @@ public class NMSEntityGhast extends NMSEntityFlying implements NMSIMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityGhast#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntityGhast#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -112,7 +112,7 @@ public class NMSEntityGhast extends NMSEntityFlying implements NMSIMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityGhast#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntityGhast#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -121,7 +121,7 @@ public class NMSEntityGhast extends NMSEntityFlying implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGhast#h()
+     * @see net.minecraft.server.v1_9_R1.EntityGhast#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -129,7 +129,7 @@ public class NMSEntityGhast extends NMSEntityFlying implements NMSIMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityGhast#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityGhast#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -138,7 +138,7 @@ public class NMSEntityGhast extends NMSEntityFlying implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGhast#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityGhast#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){
@@ -147,7 +147,7 @@ public class NMSEntityGhast extends NMSEntityFlying implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGhast#z()
+     * @see net.minecraft.server.v1_9_R1.EntityGhast#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

@@ -17,7 +17,7 @@ public class NMSEntityEnderCrystal extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderCrystal#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityEnderCrystal#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -26,7 +26,7 @@ public class NMSEntityEnderCrystal extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderCrystal#ad()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderCrystal#ad()
      */
     @ReflectiveMethod(name = "ad", types = {})
     public boolean ad(){
@@ -35,7 +35,7 @@ public class NMSEntityEnderCrystal extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderCrystal#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityEnderCrystal#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -43,7 +43,7 @@ public class NMSEntityEnderCrystal extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityEnderCrystal#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityEnderCrystal#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -52,7 +52,7 @@ public class NMSEntityEnderCrystal extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderCrystal#h()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderCrystal#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -61,7 +61,7 @@ public class NMSEntityEnderCrystal extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderCrystal#s_()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderCrystal#s_()
      */
     @ReflectiveMethod(name = "s_", types = {})
     public boolean s_(){
@@ -70,7 +70,7 @@ public class NMSEntityEnderCrystal extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderCrystal#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderCrystal#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){

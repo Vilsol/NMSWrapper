@@ -13,7 +13,7 @@ public class NMSDispenserRegistry extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DispenserRegistry#a()
+     * @see net.minecraft.server.v1_9_R1.DispenserRegistry#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -22,7 +22,7 @@ public class NMSDispenserRegistry extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DispenserRegistry#b()
+     * @see net.minecraft.server.v1_9_R1.DispenserRegistry#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public void b(){
@@ -31,7 +31,7 @@ public class NMSDispenserRegistry extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DispenserRegistry#c()
+     * @see net.minecraft.server.v1_9_R1.DispenserRegistry#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){

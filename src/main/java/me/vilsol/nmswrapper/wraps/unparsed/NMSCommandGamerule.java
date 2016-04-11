@@ -13,7 +13,7 @@ public class NMSCommandGamerule extends NMSCommandAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandGamerule#a(net.minecraft.server.v1_8_R3.GameRules, java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.CommandGamerule#a(net.minecraft.server.v1_9_R1.GameRules, java.lang.String)
      */
     @ReflectiveMethod(name = "a", types = {NMSGameRules.class, String.class})
     public void a(NMSGameRules gameRules, String s){
@@ -21,7 +21,7 @@ public class NMSCommandGamerule extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandGamerule#compareTo(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.CommandGamerule#compareTo(java.lang.Object)
      */
     @ReflectiveMethod(name = "compareTo", types = {Object.class})
     public int compareTo(Object object){
@@ -29,7 +29,7 @@ public class NMSCommandGamerule extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandGamerule#getCommand()
+     * @see net.minecraft.server.v1_9_R1.CommandGamerule#getCommand()
      */
     @ReflectiveMethod(name = "getCommand", types = {})
     public String getCommand(){
@@ -37,7 +37,7 @@ public class NMSCommandGamerule extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandGamerule#getUsage(net.minecraft.server.v1_8_R3.ICommandListener)
+     * @see net.minecraft.server.v1_9_R1.CommandGamerule#getUsage(net.minecraft.server.v1_9_R1.ICommandListener)
      */
     @ReflectiveMethod(name = "getUsage", types = {NMSICommandListener.class})
     public String getUsage(NMSICommandListener iCommandListener){

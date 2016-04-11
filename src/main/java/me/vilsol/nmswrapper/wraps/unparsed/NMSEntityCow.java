@@ -21,7 +21,7 @@ public class NMSEntityCow extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCow#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityCow#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -30,7 +30,7 @@ public class NMSEntityCow extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCow#b(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityCow#b(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityAgeable.class})
     public NMSEntityCow b(NMSEntityAgeable entityAgeable){
@@ -39,7 +39,7 @@ public class NMSEntityCow extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCow#bB()
+     * @see net.minecraft.server.v1_9_R1.EntityCow#bB()
      */
     @ReflectiveMethod(name = "bB", types = {})
     public float bB(){
@@ -48,7 +48,7 @@ public class NMSEntityCow extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCow#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityCow#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -57,7 +57,7 @@ public class NMSEntityCow extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCow#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityCow#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -65,7 +65,7 @@ public class NMSEntityCow extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityCow#createChild(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityCow#createChild(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "createChild", types = {NMSEntityAgeable.class})
     public NMSEntityAgeable createChild(NMSEntityAgeable entityAgeable){
@@ -73,7 +73,7 @@ public class NMSEntityCow extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityCow#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityCow#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -81,7 +81,7 @@ public class NMSEntityCow extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityCow#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntityCow#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -89,7 +89,7 @@ public class NMSEntityCow extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityCow#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntityCow#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -97,7 +97,7 @@ public class NMSEntityCow extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityCow#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityCow#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -106,7 +106,7 @@ public class NMSEntityCow extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityCow#z()
+     * @see net.minecraft.server.v1_9_R1.EntityCow#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

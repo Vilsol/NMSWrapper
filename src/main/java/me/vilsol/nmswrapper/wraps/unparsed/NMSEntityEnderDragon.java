@@ -17,7 +17,7 @@ public class NMSEntityEnderDragon extends NMSEntityInsentient implements NMSIMon
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderDragon#D()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderDragon#D()
      */
     @ReflectiveMethod(name = "D", types = {})
     public void D(){
@@ -26,7 +26,7 @@ public class NMSEntityEnderDragon extends NMSEntityInsentient implements NMSIMon
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderDragon#G()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderDragon#G()
      */
     @ReflectiveMethod(name = "G", types = {})
     public void G(){
@@ -35,7 +35,7 @@ public class NMSEntityEnderDragon extends NMSEntityInsentient implements NMSIMon
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderDragon#a()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderDragon#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public NMSWorld a(){
@@ -44,7 +44,7 @@ public class NMSEntityEnderDragon extends NMSEntityInsentient implements NMSIMon
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderDragon#aZ()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderDragon#aZ()
      */
     @ReflectiveMethod(name = "aZ", types = {})
     public void aZ(){
@@ -53,7 +53,7 @@ public class NMSEntityEnderDragon extends NMSEntityInsentient implements NMSIMon
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderDragon#ad()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderDragon#ad()
      */
     @ReflectiveMethod(name = "ad", types = {})
     public boolean ad(){
@@ -62,7 +62,7 @@ public class NMSEntityEnderDragon extends NMSEntityInsentient implements NMSIMon
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderDragon#bB()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderDragon#bB()
      */
     @ReflectiveMethod(name = "bB", types = {})
     public float bB(){
@@ -71,7 +71,7 @@ public class NMSEntityEnderDragon extends NMSEntityInsentient implements NMSIMon
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderDragon#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderDragon#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -79,7 +79,7 @@ public class NMSEntityEnderDragon extends NMSEntityInsentient implements NMSIMon
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityEnderDragon#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityEnderDragon#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -87,7 +87,7 @@ public class NMSEntityEnderDragon extends NMSEntityInsentient implements NMSIMon
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityEnderDragon#dealDamage(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityEnderDragon#dealDamage(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "dealDamage", types = {NMSDamageSource.class, float.class})
     public boolean dealDamage(NMSDamageSource damageSource, float f){
@@ -95,7 +95,7 @@ public class NMSEntityEnderDragon extends NMSEntityInsentient implements NMSIMon
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityEnderDragon#getExpReward()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderDragon#getExpReward()
      */
     @ReflectiveMethod(name = "getExpReward", types = {})
     public int getExpReward(){
@@ -104,7 +104,7 @@ public class NMSEntityEnderDragon extends NMSEntityInsentient implements NMSIMon
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderDragon#h()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderDragon#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -112,7 +112,7 @@ public class NMSEntityEnderDragon extends NMSEntityInsentient implements NMSIMon
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityEnderDragon#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderDragon#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -121,7 +121,7 @@ public class NMSEntityEnderDragon extends NMSEntityInsentient implements NMSIMon
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderDragon#m()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderDragon#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -130,7 +130,7 @@ public class NMSEntityEnderDragon extends NMSEntityInsentient implements NMSIMon
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderDragon#z()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderDragon#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

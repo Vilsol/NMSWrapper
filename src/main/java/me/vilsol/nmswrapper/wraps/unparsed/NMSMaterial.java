@@ -20,7 +20,7 @@ public class NMSMaterial extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Material#blocksLight()
+     * @see net.minecraft.server.v1_9_R1.Material#blocksLight()
      */
     @ReflectiveMethod(name = "blocksLight", types = {})
     public boolean blocksLight(){
@@ -29,7 +29,7 @@ public class NMSMaterial extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Material#f()
+     * @see net.minecraft.server.v1_9_R1.Material#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public NMSMaterial f(){
@@ -38,7 +38,7 @@ public class NMSMaterial extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Material#g()
+     * @see net.minecraft.server.v1_9_R1.Material#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public NMSMaterial g(){
@@ -46,7 +46,7 @@ public class NMSMaterial extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Material#getPushReaction()
+     * @see net.minecraft.server.v1_9_R1.Material#getPushReaction()
      */
     @ReflectiveMethod(name = "getPushReaction", types = {})
     public int getPushReaction(){
@@ -55,7 +55,7 @@ public class NMSMaterial extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Material#i()
+     * @see net.minecraft.server.v1_9_R1.Material#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public NMSMaterial i(){
@@ -63,7 +63,7 @@ public class NMSMaterial extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Material#isAlwaysDestroyable()
+     * @see net.minecraft.server.v1_9_R1.Material#isAlwaysDestroyable()
      */
     @ReflectiveMethod(name = "isAlwaysDestroyable", types = {})
     public boolean isAlwaysDestroyable(){
@@ -71,7 +71,7 @@ public class NMSMaterial extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Material#isBuildable()
+     * @see net.minecraft.server.v1_9_R1.Material#isBuildable()
      */
     @ReflectiveMethod(name = "isBuildable", types = {})
     public boolean isBuildable(){
@@ -79,7 +79,7 @@ public class NMSMaterial extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Material#isBurnable()
+     * @see net.minecraft.server.v1_9_R1.Material#isBurnable()
      */
     @ReflectiveMethod(name = "isBurnable", types = {})
     public boolean isBurnable(){
@@ -87,7 +87,7 @@ public class NMSMaterial extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Material#isLiquid()
+     * @see net.minecraft.server.v1_9_R1.Material#isLiquid()
      */
     @ReflectiveMethod(name = "isLiquid", types = {})
     public boolean isLiquid(){
@@ -95,7 +95,7 @@ public class NMSMaterial extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Material#isReplaceable()
+     * @see net.minecraft.server.v1_9_R1.Material#isReplaceable()
      */
     @ReflectiveMethod(name = "isReplaceable", types = {})
     public boolean isReplaceable(){
@@ -103,7 +103,7 @@ public class NMSMaterial extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Material#isSolid()
+     * @see net.minecraft.server.v1_9_R1.Material#isSolid()
      */
     @ReflectiveMethod(name = "isSolid", types = {})
     public boolean isSolid(){
@@ -112,7 +112,7 @@ public class NMSMaterial extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Material#k()
+     * @see net.minecraft.server.v1_9_R1.Material#k()
      */
     @ReflectiveMethod(name = "k", types = {})
     public boolean k(){
@@ -121,7 +121,7 @@ public class NMSMaterial extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Material#n()
+     * @see net.minecraft.server.v1_9_R1.Material#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public NMSMaterial n(){
@@ -130,7 +130,7 @@ public class NMSMaterial extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Material#o()
+     * @see net.minecraft.server.v1_9_R1.Material#o()
      */
     @ReflectiveMethod(name = "o", types = {})
     public NMSMaterial o(){
@@ -139,7 +139,7 @@ public class NMSMaterial extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Material#p()
+     * @see net.minecraft.server.v1_9_R1.Material#p()
      */
     @ReflectiveMethod(name = "p", types = {})
     public NMSMaterial p(){
@@ -148,7 +148,7 @@ public class NMSMaterial extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Material#r()
+     * @see net.minecraft.server.v1_9_R1.Material#r()
      */
     @ReflectiveMethod(name = "r", types = {})
     public NMSMaterialMapColor r(){

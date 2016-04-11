@@ -13,7 +13,7 @@ public class NMSGameRules extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.GameRules#a(java.lang.String, net.minecraft.server.v1_8_R3.GameRules$EnumGameRuleType)
+     * @see net.minecraft.server.v1_9_R1.GameRules#a(java.lang.String, net.minecraft.server.v1_9_R1.GameRules$EnumGameRuleType)
      */
     @ReflectiveMethod(name = "a", types = {String.class, NMSEnumGameRuleType.class})
     public boolean a(String s, NMSEnumGameRuleType enumGameRuleType){
@@ -22,7 +22,7 @@ public class NMSGameRules extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.GameRules#c(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.GameRules#c(java.lang.String)
      */
     @ReflectiveMethod(name = "c", types = {String.class})
     public int c(String s){
@@ -30,7 +30,7 @@ public class NMSGameRules extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.GameRules#contains(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.GameRules#contains(java.lang.String)
      */
     @ReflectiveMethod(name = "contains", types = {String.class})
     public boolean contains(String s){
@@ -38,7 +38,7 @@ public class NMSGameRules extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.GameRules#get(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.GameRules#get(java.lang.String)
      */
     @ReflectiveMethod(name = "get", types = {String.class})
     public String get(String s){
@@ -46,7 +46,7 @@ public class NMSGameRules extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.GameRules#getBoolean(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.GameRules#getBoolean(java.lang.String)
      */
     @ReflectiveMethod(name = "getBoolean", types = {String.class})
     public boolean getBoolean(String s){
@@ -54,7 +54,7 @@ public class NMSGameRules extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.GameRules#set(java.lang.String, java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.GameRules#set(java.lang.String, java.lang.String)
      */
     @ReflectiveMethod(name = "set", types = {String.class, String.class})
     public void set(String s, String s1){

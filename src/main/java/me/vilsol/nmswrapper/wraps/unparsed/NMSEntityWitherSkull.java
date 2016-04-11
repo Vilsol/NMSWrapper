@@ -21,7 +21,7 @@ public class NMSEntityWitherSkull extends NMSEntityFireball {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWitherSkull#a(net.minecraft.server.v1_8_R3.MovingObjectPosition)
+     * @see net.minecraft.server.v1_9_R1.EntityWitherSkull#a(net.minecraft.server.v1_9_R1.MovingObjectPosition)
      */
     @ReflectiveMethod(name = "a", types = {NMSMovingObjectPosition.class})
     public void a(NMSMovingObjectPosition movingObjectPosition){
@@ -30,7 +30,7 @@ public class NMSEntityWitherSkull extends NMSEntityFireball {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWitherSkull#ad()
+     * @see net.minecraft.server.v1_9_R1.EntityWitherSkull#ad()
      */
     @ReflectiveMethod(name = "ad", types = {})
     public boolean ad(){
@@ -38,7 +38,7 @@ public class NMSEntityWitherSkull extends NMSEntityFireball {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWitherSkull#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityWitherSkull#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -47,7 +47,7 @@ public class NMSEntityWitherSkull extends NMSEntityFireball {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWitherSkull#h()
+     * @see net.minecraft.server.v1_9_R1.EntityWitherSkull#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -55,7 +55,7 @@ public class NMSEntityWitherSkull extends NMSEntityFireball {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWitherSkull#isBurning()
+     * @see net.minecraft.server.v1_9_R1.EntityWitherSkull#isBurning()
      */
     @ReflectiveMethod(name = "isBurning", types = {})
     public boolean isBurning(){
@@ -63,7 +63,7 @@ public class NMSEntityWitherSkull extends NMSEntityFireball {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWitherSkull#isCharged()
+     * @see net.minecraft.server.v1_9_R1.EntityWitherSkull#isCharged()
      */
     @ReflectiveMethod(name = "isCharged", types = {})
     public boolean isCharged(){
@@ -72,7 +72,7 @@ public class NMSEntityWitherSkull extends NMSEntityFireball {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWitherSkull#j()
+     * @see net.minecraft.server.v1_9_R1.EntityWitherSkull#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public float j(){
@@ -80,7 +80,7 @@ public class NMSEntityWitherSkull extends NMSEntityFireball {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWitherSkull#setCharged(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityWitherSkull#setCharged(boolean)
      */
     @ReflectiveMethod(name = "setCharged", types = {boolean.class})
     public void setCharged(boolean b){

@@ -16,7 +16,7 @@ public class NMSEntityDamageSourceIndirect extends NMSEntityDamageSource {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityDamageSourceIndirect#getEntity()
+     * @see net.minecraft.server.v1_9_R1.EntityDamageSourceIndirect#getEntity()
      */
     @ReflectiveMethod(name = "getEntity", types = {})
     public NMSEntity getEntity(){
@@ -24,7 +24,7 @@ public class NMSEntityDamageSourceIndirect extends NMSEntityDamageSource {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityDamageSourceIndirect#getLocalizedDeathMessage(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.EntityDamageSourceIndirect#getLocalizedDeathMessage(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getLocalizedDeathMessage", types = {NMSEntityLiving.class})
     public NMSIChatBaseComponent getLocalizedDeathMessage(NMSEntityLiving entityLiving){
@@ -32,7 +32,7 @@ public class NMSEntityDamageSourceIndirect extends NMSEntityDamageSource {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityDamageSourceIndirect#getProximateDamageSource()
+     * @see net.minecraft.server.v1_9_R1.EntityDamageSourceIndirect#getProximateDamageSource()
      */
     @ReflectiveMethod(name = "getProximateDamageSource", types = {})
     public NMSEntity getProximateDamageSource(){
@@ -41,7 +41,7 @@ public class NMSEntityDamageSourceIndirect extends NMSEntityDamageSource {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityDamageSourceIndirect#i()
+     * @see net.minecraft.server.v1_9_R1.EntityDamageSourceIndirect#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public NMSEntity i(){

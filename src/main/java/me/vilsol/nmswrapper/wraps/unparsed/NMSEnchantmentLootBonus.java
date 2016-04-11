@@ -13,7 +13,7 @@ public class NMSEnchantmentLootBonus extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentLootBonus#a(net.minecraft.server.v1_8_R3.Enchantment)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentLootBonus#a(net.minecraft.server.v1_9_R1.Enchantment)
      */
     @ReflectiveMethod(name = "a", types = {NMSEnchantment.class})
     public boolean a(NMSEnchantment enchantment){
@@ -22,7 +22,7 @@ public class NMSEnchantmentLootBonus extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentLootBonus#b(int)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentLootBonus#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public int b(int i){
@@ -30,7 +30,7 @@ public class NMSEnchantmentLootBonus extends NMSEnchantment {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentLootBonus#getMaxLevel()
+     * @see net.minecraft.server.v1_9_R1.EnchantmentLootBonus#getMaxLevel()
      */
     @ReflectiveMethod(name = "getMaxLevel", types = {})
     public int getMaxLevel(){

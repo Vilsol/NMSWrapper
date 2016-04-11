@@ -21,7 +21,7 @@ public class NMSEntityAgeable extends NMSEntityCreature {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityAgeable#a(float)
+     * @see net.minecraft.server.v1_9_R1.EntityAgeable#a(float)
      */
     @ReflectiveMethod(name = "a", types = {float.class})
     public void a(float f){
@@ -30,7 +30,7 @@ public class NMSEntityAgeable extends NMSEntityCreature {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityAgeable#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityAgeable#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -38,7 +38,7 @@ public class NMSEntityAgeable extends NMSEntityCreature {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityAgeable#createChild(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityAgeable#createChild(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "createChild", types = {NMSEntityAgeable.class})
     public NMSEntityAgeable createChild(NMSEntityAgeable entityAgeable){
@@ -46,7 +46,7 @@ public class NMSEntityAgeable extends NMSEntityCreature {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityAgeable#getAge()
+     * @see net.minecraft.server.v1_9_R1.EntityAgeable#getAge()
      */
     @ReflectiveMethod(name = "getAge", types = {})
     public int getAge(){
@@ -55,7 +55,7 @@ public class NMSEntityAgeable extends NMSEntityCreature {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityAgeable#h()
+     * @see net.minecraft.server.v1_9_R1.EntityAgeable#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -63,7 +63,7 @@ public class NMSEntityAgeable extends NMSEntityCreature {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityAgeable#inactiveTick()
+     * @see net.minecraft.server.v1_9_R1.EntityAgeable#inactiveTick()
      */
     @ReflectiveMethod(name = "inactiveTick", types = {})
     public void inactiveTick(){
@@ -71,7 +71,7 @@ public class NMSEntityAgeable extends NMSEntityCreature {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityAgeable#isBaby()
+     * @see net.minecraft.server.v1_9_R1.EntityAgeable#isBaby()
      */
     @ReflectiveMethod(name = "isBaby", types = {})
     public boolean isBaby(){
@@ -80,7 +80,7 @@ public class NMSEntityAgeable extends NMSEntityCreature {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityAgeable#m()
+     * @see net.minecraft.server.v1_9_R1.EntityAgeable#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -89,7 +89,7 @@ public class NMSEntityAgeable extends NMSEntityCreature {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityAgeable#n()
+     * @see net.minecraft.server.v1_9_R1.EntityAgeable#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public void n(){
@@ -97,7 +97,7 @@ public class NMSEntityAgeable extends NMSEntityCreature {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityAgeable#setAge(int)
+     * @see net.minecraft.server.v1_9_R1.EntityAgeable#setAge(int)
      */
     @ReflectiveMethod(name = "setAge", types = {int.class})
     public void setAge(int i){
@@ -105,7 +105,7 @@ public class NMSEntityAgeable extends NMSEntityCreature {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityAgeable#setAgeRaw(int)
+     * @see net.minecraft.server.v1_9_R1.EntityAgeable#setAgeRaw(int)
      */
     @ReflectiveMethod(name = "setAgeRaw", types = {int.class})
     public void setAgeRaw(int i){
@@ -113,7 +113,7 @@ public class NMSEntityAgeable extends NMSEntityCreature {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityAgeable#setSize(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityAgeable#setSize(float, float)
      */
     @ReflectiveMethod(name = "setSize", types = {float.class, float.class})
     public void setSize(float f, float f1){

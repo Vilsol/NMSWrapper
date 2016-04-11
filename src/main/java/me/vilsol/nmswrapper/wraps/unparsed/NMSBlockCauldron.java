@@ -16,7 +16,7 @@ public class NMSBlockCauldron extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCauldron#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, int)
+     * @see net.minecraft.server.v1_9_R1.BlockCauldron#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, int.class})
     public void a(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, int i){
@@ -25,7 +25,7 @@ public class NMSBlockCauldron extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCauldron#c()
+     * @see net.minecraft.server.v1_9_R1.BlockCauldron#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -34,7 +34,7 @@ public class NMSBlockCauldron extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCauldron#d()
+     * @see net.minecraft.server.v1_9_R1.BlockCauldron#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -42,7 +42,7 @@ public class NMSBlockCauldron extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCauldron#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockCauldron#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -50,7 +50,7 @@ public class NMSBlockCauldron extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCauldron#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockCauldron#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -58,7 +58,7 @@ public class NMSBlockCauldron extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCauldron#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockCauldron#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -66,7 +66,7 @@ public class NMSBlockCauldron extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCauldron#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockCauldron#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -74,7 +74,7 @@ public class NMSBlockCauldron extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCauldron#isComplexRedstone()
+     * @see net.minecraft.server.v1_9_R1.BlockCauldron#isComplexRedstone()
      */
     @ReflectiveMethod(name = "isComplexRedstone", types = {})
     public boolean isComplexRedstone(){
@@ -83,7 +83,7 @@ public class NMSBlockCauldron extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCauldron#j()
+     * @see net.minecraft.server.v1_9_R1.BlockCauldron#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public void j(){
@@ -92,7 +92,7 @@ public class NMSBlockCauldron extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCauldron#k(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockCauldron#k(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "k", types = {NMSWorld.class, NMSBlockPosition.class})
     public void k(NMSWorld world, NMSBlockPosition blockPosition){
@@ -101,7 +101,7 @@ public class NMSBlockCauldron extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCauldron#l(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockCauldron#l(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "l", types = {NMSWorld.class, NMSBlockPosition.class})
     public int l(NMSWorld world, NMSBlockPosition blockPosition){
@@ -109,7 +109,7 @@ public class NMSBlockCauldron extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCauldron#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockCauldron#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

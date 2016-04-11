@@ -17,7 +17,7 @@ public class NMSEntityPig extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPig#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityPig#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -26,7 +26,7 @@ public class NMSEntityPig extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPig#b(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityPig#b(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityAgeable.class})
     public NMSEntityPig b(NMSEntityAgeable entityAgeable){
@@ -35,7 +35,7 @@ public class NMSEntityPig extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPig#bW()
+     * @see net.minecraft.server.v1_9_R1.EntityPig#bW()
      */
     @ReflectiveMethod(name = "bW", types = {})
     public boolean bW(){
@@ -44,7 +44,7 @@ public class NMSEntityPig extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPig#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityPig#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -53,7 +53,7 @@ public class NMSEntityPig extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPig#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityPig#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -62,7 +62,7 @@ public class NMSEntityPig extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPig#cm()
+     * @see net.minecraft.server.v1_9_R1.EntityPig#cm()
      */
     @ReflectiveMethod(name = "cm", types = {})
     public NMSPathfinderGoalPassengerCarrotStick cm(){
@@ -70,7 +70,7 @@ public class NMSEntityPig extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPig#createChild(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityPig#createChild(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "createChild", types = {NMSEntityAgeable.class})
     public NMSEntityAgeable createChild(NMSEntityAgeable entityAgeable){
@@ -79,7 +79,7 @@ public class NMSEntityPig extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPig#d(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityPig#d(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "d", types = {NMSItemStack.class})
     public boolean d(NMSItemStack itemStack){
@@ -87,7 +87,7 @@ public class NMSEntityPig extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPig#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityPig#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -96,7 +96,7 @@ public class NMSEntityPig extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPig#e(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityPig#e(float, float)
      */
     @ReflectiveMethod(name = "e", types = {float.class, float.class})
     public void e(float f, float f1){
@@ -104,7 +104,7 @@ public class NMSEntityPig extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPig#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntityPig#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -113,7 +113,7 @@ public class NMSEntityPig extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPig#h()
+     * @see net.minecraft.server.v1_9_R1.EntityPig#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -121,7 +121,7 @@ public class NMSEntityPig extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPig#hasSaddle()
+     * @see net.minecraft.server.v1_9_R1.EntityPig#hasSaddle()
      */
     @ReflectiveMethod(name = "hasSaddle", types = {})
     public boolean hasSaddle(){
@@ -129,7 +129,7 @@ public class NMSEntityPig extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPig#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityPig#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -137,7 +137,7 @@ public class NMSEntityPig extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPig#onLightningStrike(net.minecraft.server.v1_8_R3.EntityLightning)
+     * @see net.minecraft.server.v1_9_R1.EntityPig#onLightningStrike(net.minecraft.server.v1_9_R1.EntityLightning)
      */
     @ReflectiveMethod(name = "onLightningStrike", types = {NMSEntityLightning.class})
     public void onLightningStrike(NMSEntityLightning entityLightning){
@@ -145,7 +145,7 @@ public class NMSEntityPig extends NMSEntityAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPig#setSaddle(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityPig#setSaddle(boolean)
      */
     @ReflectiveMethod(name = "setSaddle", types = {boolean.class})
     public void setSaddle(boolean b){
@@ -154,7 +154,7 @@ public class NMSEntityPig extends NMSEntityAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPig#z()
+     * @see net.minecraft.server.v1_9_R1.EntityPig#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

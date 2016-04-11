@@ -29,7 +29,7 @@ public class NMSChunk extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Chunk#a(long)
+     * @see net.minecraft.server.v1_9_R1.Chunk#a(long)
      */
     @ReflectiveMethod(name = "a", types = {long.class})
     public Random a(long l){
@@ -37,7 +37,7 @@ public class NMSChunk extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Chunk#addEntities()
+     * @see net.minecraft.server.v1_9_R1.Chunk#addEntities()
      */
     @ReflectiveMethod(name = "addEntities", types = {})
     public void addEntities(){
@@ -45,7 +45,7 @@ public class NMSChunk extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Chunk#areNeighborsLoaded(int)
+     * @see net.minecraft.server.v1_9_R1.Chunk#areNeighborsLoaded(int)
      */
     @ReflectiveMethod(name = "areNeighborsLoaded", types = {int.class})
     public boolean areNeighborsLoaded(int i){
@@ -54,7 +54,7 @@ public class NMSChunk extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Chunk#b(boolean)
+     * @see net.minecraft.server.v1_9_R1.Chunk#b(boolean)
      */
     @ReflectiveMethod(name = "b", types = {boolean.class})
     public void b(boolean b){
@@ -63,7 +63,7 @@ public class NMSChunk extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Chunk#c(long)
+     * @see net.minecraft.server.v1_9_R1.Chunk#c(long)
      */
     @ReflectiveMethod(name = "c", types = {long.class})
     public void c(long l){
@@ -72,7 +72,7 @@ public class NMSChunk extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Chunk#d(boolean)
+     * @see net.minecraft.server.v1_9_R1.Chunk#d(boolean)
      */
     @ReflectiveMethod(name = "d", types = {boolean.class})
     public void d(boolean b){
@@ -81,7 +81,7 @@ public class NMSChunk extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Chunk#e(boolean)
+     * @see net.minecraft.server.v1_9_R1.Chunk#e(boolean)
      */
     @ReflectiveMethod(name = "e", types = {boolean.class})
     public void e(boolean b){
@@ -90,7 +90,7 @@ public class NMSChunk extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Chunk#f(boolean)
+     * @see net.minecraft.server.v1_9_R1.Chunk#f(boolean)
      */
     @ReflectiveMethod(name = "f", types = {boolean.class})
     public void f(boolean b){
@@ -99,7 +99,7 @@ public class NMSChunk extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Chunk#g(boolean)
+     * @see net.minecraft.server.v1_9_R1.Chunk#g(boolean)
      */
     @ReflectiveMethod(name = "g", types = {boolean.class})
     public void g(boolean b){
@@ -107,7 +107,7 @@ public class NMSChunk extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Chunk#getBiome(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.WorldChunkManager)
+     * @see net.minecraft.server.v1_9_R1.Chunk#getBiome(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.WorldChunkManager)
      */
     @ReflectiveMethod(name = "getBiome", types = {NMSBlockPosition.class, NMSWorldChunkManager.class})
     public NMSBiomeBase getBiome(NMSBlockPosition blockPosition, NMSWorldChunkManager worldChunkManager){
@@ -115,7 +115,7 @@ public class NMSChunk extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Chunk#getBlockData(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.Chunk#getBlockData(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getBlockData", types = {NMSBlockPosition.class})
     public NMSIBlockData getBlockData(NMSBlockPosition blockPosition){
@@ -123,7 +123,7 @@ public class NMSChunk extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Chunk#getBrightness(net.minecraft.server.v1_8_R3.EnumSkyBlock, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.Chunk#getBrightness(net.minecraft.server.v1_9_R1.EnumSkyBlock, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getBrightness", types = {NMSEnumSkyBlock.class, NMSBlockPosition.class})
     public int getBrightness(NMSEnumSkyBlock enumSkyBlock, NMSBlockPosition blockPosition){
@@ -131,7 +131,7 @@ public class NMSChunk extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Chunk#getType(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.Chunk#getType(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getType", types = {NMSBlockPosition.class})
     public NMSBlock getType(NMSBlockPosition blockPosition){
@@ -139,7 +139,7 @@ public class NMSChunk extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Chunk#getTypeAbs(int, int, int)
+     * @see net.minecraft.server.v1_9_R1.Chunk#getTypeAbs(int, int, int)
      */
     @ReflectiveMethod(name = "getTypeAbs", types = {int.class, int.class, int.class})
     public NMSBlock getTypeAbs(int i, int i1, int i2){
@@ -147,7 +147,7 @@ public class NMSChunk extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Chunk#getWorld()
+     * @see net.minecraft.server.v1_9_R1.Chunk#getWorld()
      */
     @ReflectiveMethod(name = "getWorld", types = {})
     public NMSWorld getWorld(){
@@ -156,7 +156,7 @@ public class NMSChunk extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Chunk#h(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.Chunk#h(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "h", types = {NMSBlockPosition.class})
     public NMSBlockPosition h(NMSBlockPosition blockPosition){
@@ -164,7 +164,7 @@ public class NMSChunk extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Chunk#initLighting()
+     * @see net.minecraft.server.v1_9_R1.Chunk#initLighting()
      */
     @ReflectiveMethod(name = "initLighting", types = {})
     public void initLighting(){
@@ -172,7 +172,7 @@ public class NMSChunk extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Chunk#isDone()
+     * @see net.minecraft.server.v1_9_R1.Chunk#isDone()
      */
     @ReflectiveMethod(name = "isDone", types = {})
     public boolean isDone(){
@@ -180,7 +180,7 @@ public class NMSChunk extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Chunk#isEmpty()
+     * @see net.minecraft.server.v1_9_R1.Chunk#isEmpty()
      */
     @ReflectiveMethod(name = "isEmpty", types = {})
     public boolean isEmpty(){
@@ -188,7 +188,7 @@ public class NMSChunk extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Chunk#isReady()
+     * @see net.minecraft.server.v1_9_R1.Chunk#isReady()
      */
     @ReflectiveMethod(name = "isReady", types = {})
     public boolean isReady(){
@@ -197,7 +197,7 @@ public class NMSChunk extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Chunk#j()
+     * @see net.minecraft.server.v1_9_R1.Chunk#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public NMSChunkCoordIntPair j(){
@@ -206,7 +206,7 @@ public class NMSChunk extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Chunk#l()
+     * @see net.minecraft.server.v1_9_R1.Chunk#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public void l(){
@@ -214,7 +214,7 @@ public class NMSChunk extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Chunk#loadNearby(net.minecraft.server.v1_8_R3.IChunkProvider, net.minecraft.server.v1_8_R3.IChunkProvider, int, int)
+     * @see net.minecraft.server.v1_9_R1.Chunk#loadNearby(net.minecraft.server.v1_9_R1.IChunkProvider, net.minecraft.server.v1_9_R1.IChunkProvider, int, int)
      */
     @ReflectiveMethod(name = "loadNearby", types = {NMSIChunkProvider.class, NMSIChunkProvider.class, int.class, int.class})
     public void loadNearby(NMSIChunkProvider iChunkProvider, NMSIChunkProvider iChunkProvider1, int i, int i1){
@@ -223,7 +223,7 @@ public class NMSChunk extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Chunk#m()
+     * @see net.minecraft.server.v1_9_R1.Chunk#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -232,7 +232,7 @@ public class NMSChunk extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Chunk#n()
+     * @see net.minecraft.server.v1_9_R1.Chunk#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public void n(){
@@ -241,7 +241,7 @@ public class NMSChunk extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Chunk#o()
+     * @see net.minecraft.server.v1_9_R1.Chunk#o()
      */
     @ReflectiveMethod(name = "o", types = {})
     public boolean o(){
@@ -249,7 +249,7 @@ public class NMSChunk extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Chunk#removeEntities()
+     * @see net.minecraft.server.v1_9_R1.Chunk#removeEntities()
      */
     @ReflectiveMethod(name = "removeEntities", types = {})
     public void removeEntities(){
@@ -257,7 +257,7 @@ public class NMSChunk extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Chunk#setLastSaved(long)
+     * @see net.minecraft.server.v1_9_R1.Chunk#setLastSaved(long)
      */
     @ReflectiveMethod(name = "setLastSaved", types = {long.class})
     public void setLastSaved(long l){
@@ -265,7 +265,7 @@ public class NMSChunk extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Chunk#setNeighborLoaded(int, int)
+     * @see net.minecraft.server.v1_9_R1.Chunk#setNeighborLoaded(int, int)
      */
     @ReflectiveMethod(name = "setNeighborLoaded", types = {int.class, int.class})
     public void setNeighborLoaded(int i, int i1){
@@ -273,7 +273,7 @@ public class NMSChunk extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Chunk#setNeighborUnloaded(int, int)
+     * @see net.minecraft.server.v1_9_R1.Chunk#setNeighborUnloaded(int, int)
      */
     @ReflectiveMethod(name = "setNeighborUnloaded", types = {int.class, int.class})
     public void setNeighborUnloaded(int i, int i1){
@@ -282,7 +282,7 @@ public class NMSChunk extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Chunk#u()
+     * @see net.minecraft.server.v1_9_R1.Chunk#u()
      */
     @ReflectiveMethod(name = "u", types = {})
     public boolean u(){
@@ -291,7 +291,7 @@ public class NMSChunk extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Chunk#v()
+     * @see net.minecraft.server.v1_9_R1.Chunk#v()
      */
     @ReflectiveMethod(name = "v", types = {})
     public int v(){
@@ -300,7 +300,7 @@ public class NMSChunk extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Chunk#w()
+     * @see net.minecraft.server.v1_9_R1.Chunk#w()
      */
     @ReflectiveMethod(name = "w", types = {})
     public long w(){

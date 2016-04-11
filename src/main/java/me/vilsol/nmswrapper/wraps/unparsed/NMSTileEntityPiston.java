@@ -17,7 +17,7 @@ public class NMSTileEntityPiston extends NMSTileEntity implements NMSIUpdatePlay
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityPiston#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.TileEntityPiston#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -26,7 +26,7 @@ public class NMSTileEntityPiston extends NMSTileEntity implements NMSIUpdatePlay
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityPiston#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.TileEntityPiston#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -35,7 +35,7 @@ public class NMSTileEntityPiston extends NMSTileEntity implements NMSIUpdatePlay
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityPiston#c()
+     * @see net.minecraft.server.v1_9_R1.TileEntityPiston#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -44,7 +44,7 @@ public class NMSTileEntityPiston extends NMSTileEntity implements NMSIUpdatePlay
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityPiston#d()
+     * @see net.minecraft.server.v1_9_R1.TileEntityPiston#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -53,7 +53,7 @@ public class NMSTileEntityPiston extends NMSTileEntity implements NMSIUpdatePlay
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityPiston#e()
+     * @see net.minecraft.server.v1_9_R1.TileEntityPiston#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public NMSEnumDirection e(){
@@ -62,7 +62,7 @@ public class NMSTileEntityPiston extends NMSTileEntity implements NMSIUpdatePlay
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityPiston#h()
+     * @see net.minecraft.server.v1_9_R1.TileEntityPiston#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -71,7 +71,7 @@ public class NMSTileEntityPiston extends NMSTileEntity implements NMSIUpdatePlay
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityPiston#u()
+     * @see net.minecraft.server.v1_9_R1.TileEntityPiston#u()
      */
     @ReflectiveMethod(name = "u", types = {})
     public int u(){

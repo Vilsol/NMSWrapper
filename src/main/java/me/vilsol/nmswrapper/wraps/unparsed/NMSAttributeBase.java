@@ -17,7 +17,7 @@ public class NMSAttributeBase extends NMSWrap implements NMSIAttribute {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AttributeBase#a(boolean)
+     * @see net.minecraft.server.v1_9_R1.AttributeBase#a(boolean)
      */
     @ReflectiveMethod(name = "a", types = {boolean.class})
     public NMSAttributeBase a(boolean b){
@@ -26,7 +26,7 @@ public class NMSAttributeBase extends NMSWrap implements NMSIAttribute {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AttributeBase#b()
+     * @see net.minecraft.server.v1_9_R1.AttributeBase#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public double b(){
@@ -35,7 +35,7 @@ public class NMSAttributeBase extends NMSWrap implements NMSIAttribute {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AttributeBase#c()
+     * @see net.minecraft.server.v1_9_R1.AttributeBase#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -44,7 +44,7 @@ public class NMSAttributeBase extends NMSWrap implements NMSIAttribute {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AttributeBase#d()
+     * @see net.minecraft.server.v1_9_R1.AttributeBase#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public NMSIAttribute d(){
@@ -52,7 +52,7 @@ public class NMSAttributeBase extends NMSWrap implements NMSIAttribute {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.AttributeBase#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.AttributeBase#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -60,7 +60,7 @@ public class NMSAttributeBase extends NMSWrap implements NMSIAttribute {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.AttributeBase#getName()
+     * @see net.minecraft.server.v1_9_R1.AttributeBase#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -68,7 +68,7 @@ public class NMSAttributeBase extends NMSWrap implements NMSIAttribute {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.AttributeBase#hashCode()
+     * @see net.minecraft.server.v1_9_R1.AttributeBase#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){

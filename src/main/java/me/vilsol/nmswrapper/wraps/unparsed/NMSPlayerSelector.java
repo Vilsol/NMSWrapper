@@ -13,7 +13,7 @@ public class NMSPlayerSelector extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PlayerSelector#a(int)
+     * @see net.minecraft.server.v1_9_R1.PlayerSelector#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public int a(int i){
@@ -21,7 +21,7 @@ public class NMSPlayerSelector extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PlayerSelector#getPlayer(net.minecraft.server.v1_8_R3.ICommandListener, java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.PlayerSelector#getPlayer(net.minecraft.server.v1_9_R1.ICommandListener, java.lang.String)
      */
     @ReflectiveMethod(name = "getPlayer", types = {NMSICommandListener.class, String.class})
     public NMSEntityPlayer getPlayer(NMSICommandListener iCommandListener, String s){
@@ -29,7 +29,7 @@ public class NMSPlayerSelector extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PlayerSelector#getPlayerNames(net.minecraft.server.v1_8_R3.ICommandListener, java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.PlayerSelector#getPlayerNames(net.minecraft.server.v1_9_R1.ICommandListener, java.lang.String)
      */
     @ReflectiveMethod(name = "getPlayerNames", types = {NMSICommandListener.class, String.class})
     public NMSIChatBaseComponent getPlayerNames(NMSICommandListener iCommandListener, String s){
@@ -37,7 +37,7 @@ public class NMSPlayerSelector extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PlayerSelector#isList(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.PlayerSelector#isList(java.lang.String)
      */
     @ReflectiveMethod(name = "isList", types = {String.class})
     public boolean isList(String s){
@@ -45,7 +45,7 @@ public class NMSPlayerSelector extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PlayerSelector#isPattern(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.PlayerSelector#isPattern(java.lang.String)
      */
     @ReflectiveMethod(name = "isPattern", types = {String.class})
     public boolean isPattern(String s){

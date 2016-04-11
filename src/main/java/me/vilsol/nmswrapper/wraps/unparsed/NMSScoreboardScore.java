@@ -17,7 +17,7 @@ public class NMSScoreboardScore extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ScoreboardScore#a(boolean)
+     * @see net.minecraft.server.v1_9_R1.ScoreboardScore#a(boolean)
      */
     @ReflectiveMethod(name = "a", types = {boolean.class})
     public void a(boolean b){
@@ -25,7 +25,7 @@ public class NMSScoreboardScore extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardScore#addScore(int)
+     * @see net.minecraft.server.v1_9_R1.ScoreboardScore#addScore(int)
      */
     @ReflectiveMethod(name = "addScore", types = {int.class})
     public void addScore(int i){
@@ -34,7 +34,7 @@ public class NMSScoreboardScore extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ScoreboardScore#f()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardScore#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public NMSScoreboard f(){
@@ -43,7 +43,7 @@ public class NMSScoreboardScore extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ScoreboardScore#g()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardScore#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public boolean g(){
@@ -51,7 +51,7 @@ public class NMSScoreboardScore extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardScore#getObjective()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardScore#getObjective()
      */
     @ReflectiveMethod(name = "getObjective", types = {})
     public NMSScoreboardObjective getObjective(){
@@ -59,7 +59,7 @@ public class NMSScoreboardScore extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardScore#getPlayerName()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardScore#getPlayerName()
      */
     @ReflectiveMethod(name = "getPlayerName", types = {})
     public String getPlayerName(){
@@ -67,7 +67,7 @@ public class NMSScoreboardScore extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardScore#getScore()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardScore#getScore()
      */
     @ReflectiveMethod(name = "getScore", types = {})
     public int getScore(){
@@ -75,7 +75,7 @@ public class NMSScoreboardScore extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardScore#incrementScore()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardScore#incrementScore()
      */
     @ReflectiveMethod(name = "incrementScore", types = {})
     public void incrementScore(){
@@ -83,7 +83,7 @@ public class NMSScoreboardScore extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardScore#removeScore(int)
+     * @see net.minecraft.server.v1_9_R1.ScoreboardScore#removeScore(int)
      */
     @ReflectiveMethod(name = "removeScore", types = {int.class})
     public void removeScore(int i){
@@ -91,7 +91,7 @@ public class NMSScoreboardScore extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardScore#setScore(int)
+     * @see net.minecraft.server.v1_9_R1.ScoreboardScore#setScore(int)
      */
     @ReflectiveMethod(name = "setScore", types = {int.class})
     public void setScore(int i){

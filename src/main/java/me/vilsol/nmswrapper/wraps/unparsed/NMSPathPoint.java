@@ -17,7 +17,7 @@ public class NMSPathPoint extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathPoint#a()
+     * @see net.minecraft.server.v1_9_R1.PathPoint#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathPoint extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathPoint#b(net.minecraft.server.v1_8_R3.PathPoint)
+     * @see net.minecraft.server.v1_9_R1.PathPoint#b(net.minecraft.server.v1_9_R1.PathPoint)
      */
     @ReflectiveMethod(name = "b", types = {NMSPathPoint.class})
     public float b(NMSPathPoint pathPoint){
@@ -34,7 +34,7 @@ public class NMSPathPoint extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PathPoint#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.PathPoint#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -42,7 +42,7 @@ public class NMSPathPoint extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PathPoint#hashCode()
+     * @see net.minecraft.server.v1_9_R1.PathPoint#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -50,7 +50,7 @@ public class NMSPathPoint extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PathPoint#toString()
+     * @see net.minecraft.server.v1_9_R1.PathPoint#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

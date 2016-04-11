@@ -13,7 +13,7 @@ public class NMSCommandAbstract extends NMSWrap implements NMSICommand {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandAbstract#a(net.minecraft.server.v1_8_R3.ICommand)
+     * @see net.minecraft.server.v1_9_R1.CommandAbstract#a(net.minecraft.server.v1_9_R1.ICommand)
      */
     @ReflectiveMethod(name = "a", types = {NMSICommand.class})
     public int a(NMSICommand iCommand){
@@ -21,7 +21,7 @@ public class NMSCommandAbstract extends NMSWrap implements NMSICommand {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandAbstract#canUse(net.minecraft.server.v1_8_R3.ICommandListener)
+     * @see net.minecraft.server.v1_9_R1.CommandAbstract#canUse(net.minecraft.server.v1_9_R1.ICommandListener)
      */
     @ReflectiveMethod(name = "canUse", types = {NMSICommandListener.class})
     public boolean canUse(NMSICommandListener iCommandListener){
@@ -29,7 +29,7 @@ public class NMSCommandAbstract extends NMSWrap implements NMSICommand {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandAbstract#compareTo(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.CommandAbstract#compareTo(java.lang.Object)
      */
     @ReflectiveMethod(name = "compareTo", types = {Object.class})
     public int compareTo(Object object){

@@ -13,7 +13,7 @@ public class NMSRecipesTools extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RecipesTools#a(net.minecraft.server.v1_8_R3.CraftingManager)
+     * @see net.minecraft.server.v1_9_R1.RecipesTools#a(net.minecraft.server.v1_9_R1.CraftingManager)
      */
     @ReflectiveMethod(name = "a", types = {NMSCraftingManager.class})
     public void a(NMSCraftingManager craftingManager){

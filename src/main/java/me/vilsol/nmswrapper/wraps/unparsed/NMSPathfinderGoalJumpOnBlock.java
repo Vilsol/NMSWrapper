@@ -17,7 +17,7 @@ public class NMSPathfinderGoalJumpOnBlock extends NMSPathfinderGoalGotoTarget {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalJumpOnBlock#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalJumpOnBlock#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean a(NMSWorld world, NMSBlockPosition blockPosition){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalJumpOnBlock extends NMSPathfinderGoalGotoTarget {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalJumpOnBlock#b()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalJumpOnBlock#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -35,7 +35,7 @@ public class NMSPathfinderGoalJumpOnBlock extends NMSPathfinderGoalGotoTarget {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalJumpOnBlock#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalJumpOnBlock#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -44,7 +44,7 @@ public class NMSPathfinderGoalJumpOnBlock extends NMSPathfinderGoalGotoTarget {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalJumpOnBlock#d()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalJumpOnBlock#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -53,7 +53,7 @@ public class NMSPathfinderGoalJumpOnBlock extends NMSPathfinderGoalGotoTarget {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalJumpOnBlock#e()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalJumpOnBlock#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){

@@ -17,7 +17,7 @@ public class NMSScoreboardCriteriaInteger extends NMSWrap implements NMSIScorebo
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ScoreboardCriteriaInteger#c()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardCriteriaInteger#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public NMSEnumScoreboardHealthDisplay c(){
@@ -25,7 +25,7 @@ public class NMSScoreboardCriteriaInteger extends NMSWrap implements NMSIScorebo
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardCriteriaInteger#getName()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardCriteriaInteger#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -33,7 +33,7 @@ public class NMSScoreboardCriteriaInteger extends NMSWrap implements NMSIScorebo
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardCriteriaInteger#isReadOnly()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardCriteriaInteger#isReadOnly()
      */
     @ReflectiveMethod(name = "isReadOnly", types = {})
     public boolean isReadOnly(){

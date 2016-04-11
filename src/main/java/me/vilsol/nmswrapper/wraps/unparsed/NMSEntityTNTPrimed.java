@@ -21,7 +21,7 @@ public class NMSEntityTNTPrimed extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityTNTPrimed#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityTNTPrimed#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -30,7 +30,7 @@ public class NMSEntityTNTPrimed extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityTNTPrimed#ad()
+     * @see net.minecraft.server.v1_9_R1.EntityTNTPrimed#ad()
      */
     @ReflectiveMethod(name = "ad", types = {})
     public boolean ad(){
@@ -39,7 +39,7 @@ public class NMSEntityTNTPrimed extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityTNTPrimed#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityTNTPrimed#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -47,7 +47,7 @@ public class NMSEntityTNTPrimed extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTNTPrimed#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntityTNTPrimed#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -55,7 +55,7 @@ public class NMSEntityTNTPrimed extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTNTPrimed#getSource()
+     * @see net.minecraft.server.v1_9_R1.EntityTNTPrimed#getSource()
      */
     @ReflectiveMethod(name = "getSource", types = {})
     public NMSEntityLiving getSource(){
@@ -64,7 +64,7 @@ public class NMSEntityTNTPrimed extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityTNTPrimed#h()
+     * @see net.minecraft.server.v1_9_R1.EntityTNTPrimed#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -73,7 +73,7 @@ public class NMSEntityTNTPrimed extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityTNTPrimed#s_()
+     * @see net.minecraft.server.v1_9_R1.EntityTNTPrimed#s_()
      */
     @ReflectiveMethod(name = "s_", types = {})
     public boolean s_(){
@@ -82,7 +82,7 @@ public class NMSEntityTNTPrimed extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityTNTPrimed#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityTNTPrimed#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){

@@ -18,7 +18,7 @@ public class NMSContainerHopper extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerHopper#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ContainerHopper#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -27,7 +27,7 @@ public class NMSContainerHopper extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerHopper#b(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ContainerHopper#b(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityHuman.class})
     public void b(NMSEntityHuman entityHuman){
@@ -35,7 +35,7 @@ public class NMSContainerHopper extends NMSContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ContainerHopper#getBukkitView()
+     * @see net.minecraft.server.v1_9_R1.ContainerHopper#getBukkitView()
      */
     @ReflectiveMethod(name = "getBukkitView", types = {})
     public InventoryView getBukkitView(){

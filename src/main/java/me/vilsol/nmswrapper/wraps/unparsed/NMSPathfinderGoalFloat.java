@@ -17,7 +17,7 @@ public class NMSPathfinderGoalFloat extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalFloat#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalFloat#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalFloat extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalFloat#e()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalFloat#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){

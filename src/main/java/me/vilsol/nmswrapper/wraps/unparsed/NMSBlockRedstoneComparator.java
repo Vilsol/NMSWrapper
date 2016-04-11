@@ -20,7 +20,7 @@ public class NMSBlockRedstoneComparator extends NMSBlockDiodeAbstract implements
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneComparator#a(net.minecraft.server.v1_8_R3.World, int)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneComparator#a(net.minecraft.server.v1_9_R1.World, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, int.class})
     public NMSTileEntity a(NMSWorld world, int i){
@@ -29,7 +29,7 @@ public class NMSBlockRedstoneComparator extends NMSBlockDiodeAbstract implements
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneComparator#b(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneComparator#b(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, java.util.Random)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, Random.class})
     public void b(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, Random random){
@@ -38,7 +38,7 @@ public class NMSBlockRedstoneComparator extends NMSBlockDiodeAbstract implements
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneComparator#d(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneComparator#d(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "d", types = {NMSIBlockData.class})
     public int d(NMSIBlockData iBlockData){
@@ -47,7 +47,7 @@ public class NMSBlockRedstoneComparator extends NMSBlockDiodeAbstract implements
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneComparator#e(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneComparator#e(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "e", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public boolean e(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -56,7 +56,7 @@ public class NMSBlockRedstoneComparator extends NMSBlockDiodeAbstract implements
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneComparator#f(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneComparator#f(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "f", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public int f(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -64,7 +64,7 @@ public class NMSBlockRedstoneComparator extends NMSBlockDiodeAbstract implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneComparator#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneComparator#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -73,7 +73,7 @@ public class NMSBlockRedstoneComparator extends NMSBlockDiodeAbstract implements
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneComparator#g(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneComparator#g(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "g", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void g(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -81,7 +81,7 @@ public class NMSBlockRedstoneComparator extends NMSBlockDiodeAbstract implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneComparator#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneComparator#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -89,7 +89,7 @@ public class NMSBlockRedstoneComparator extends NMSBlockDiodeAbstract implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneComparator#getName()
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneComparator#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -97,7 +97,7 @@ public class NMSBlockRedstoneComparator extends NMSBlockDiodeAbstract implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneComparator#getPlacedState(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float, int, net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneComparator#getPlacedState(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float, int, net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getPlacedState", types = {NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class, float.class, float.class, float.class, int.class, NMSEntityLiving.class})
     public NMSIBlockData getPlacedState(NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, float f, float f1, float f2, int i, NMSEntityLiving entityLiving){
@@ -105,7 +105,7 @@ public class NMSBlockRedstoneComparator extends NMSBlockDiodeAbstract implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneComparator#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneComparator#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -113,7 +113,7 @@ public class NMSBlockRedstoneComparator extends NMSBlockDiodeAbstract implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneComparator#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneComparator#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -122,7 +122,7 @@ public class NMSBlockRedstoneComparator extends NMSBlockDiodeAbstract implements
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneComparator#k(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneComparator#k(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "k", types = {NMSIBlockData.class})
     public NMSIBlockData k(NMSIBlockData iBlockData){
@@ -131,7 +131,7 @@ public class NMSBlockRedstoneComparator extends NMSBlockDiodeAbstract implements
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneComparator#l(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneComparator#l(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "l", types = {NMSIBlockData.class})
     public boolean l(NMSIBlockData iBlockData){
@@ -139,7 +139,7 @@ public class NMSBlockRedstoneComparator extends NMSBlockDiodeAbstract implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneComparator#onPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneComparator#onPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "onPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void onPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -147,7 +147,7 @@ public class NMSBlockRedstoneComparator extends NMSBlockDiodeAbstract implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneComparator#remove(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneComparator#remove(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "remove", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void remove(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -155,7 +155,7 @@ public class NMSBlockRedstoneComparator extends NMSBlockDiodeAbstract implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRedstoneComparator#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRedstoneComparator#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

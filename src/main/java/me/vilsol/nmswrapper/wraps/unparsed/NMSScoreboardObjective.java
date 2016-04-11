@@ -17,7 +17,7 @@ public class NMSScoreboardObjective extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ScoreboardObjective#a(net.minecraft.server.v1_8_R3.IScoreboardCriteria$EnumScoreboardHealthDisplay)
+     * @see net.minecraft.server.v1_9_R1.ScoreboardObjective#a(net.minecraft.server.v1_9_R1.IScoreboardCriteria$EnumScoreboardHealthDisplay)
      */
     @ReflectiveMethod(name = "a", types = {NMSEnumScoreboardHealthDisplay.class})
     public void a(NMSEnumScoreboardHealthDisplay enumScoreboardHealthDisplay){
@@ -26,7 +26,7 @@ public class NMSScoreboardObjective extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ScoreboardObjective#e()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardObjective#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public NMSEnumScoreboardHealthDisplay e(){
@@ -34,7 +34,7 @@ public class NMSScoreboardObjective extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardObjective#getCriteria()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardObjective#getCriteria()
      */
     @ReflectiveMethod(name = "getCriteria", types = {})
     public NMSIScoreboardCriteria getCriteria(){
@@ -42,7 +42,7 @@ public class NMSScoreboardObjective extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardObjective#getDisplayName()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardObjective#getDisplayName()
      */
     @ReflectiveMethod(name = "getDisplayName", types = {})
     public String getDisplayName(){
@@ -50,7 +50,7 @@ public class NMSScoreboardObjective extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardObjective#getName()
+     * @see net.minecraft.server.v1_9_R1.ScoreboardObjective#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -58,7 +58,7 @@ public class NMSScoreboardObjective extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ScoreboardObjective#setDisplayName(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.ScoreboardObjective#setDisplayName(java.lang.String)
      */
     @ReflectiveMethod(name = "setDisplayName", types = {String.class})
     public void setDisplayName(String s){

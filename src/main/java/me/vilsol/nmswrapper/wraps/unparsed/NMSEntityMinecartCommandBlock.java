@@ -21,7 +21,7 @@ public class NMSEntityMinecartCommandBlock extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartCommandBlock#a(int, int, int, boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartCommandBlock#a(int, int, int, boolean)
      */
     @ReflectiveMethod(name = "a", types = {int.class, int.class, int.class, boolean.class})
     public void a(int i, int i1, int i2, boolean b){
@@ -30,7 +30,7 @@ public class NMSEntityMinecartCommandBlock extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartCommandBlock#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartCommandBlock#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -39,7 +39,7 @@ public class NMSEntityMinecartCommandBlock extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartCommandBlock#e(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartCommandBlock#e(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "e", types = {NMSEntityHuman.class})
     public boolean e(NMSEntityHuman entityHuman){
@@ -47,7 +47,7 @@ public class NMSEntityMinecartCommandBlock extends NMSEntityMinecartAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartCommandBlock#getCommandBlock()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartCommandBlock#getCommandBlock()
      */
     @ReflectiveMethod(name = "getCommandBlock", types = {})
     public NMSCommandBlockListenerAbstract getCommandBlock(){
@@ -56,7 +56,7 @@ public class NMSEntityMinecartCommandBlock extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartCommandBlock#h()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartCommandBlock#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -65,7 +65,7 @@ public class NMSEntityMinecartCommandBlock extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartCommandBlock#i(int)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartCommandBlock#i(int)
      */
     @ReflectiveMethod(name = "i", types = {int.class})
     public void i(int i){
@@ -74,7 +74,7 @@ public class NMSEntityMinecartCommandBlock extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartCommandBlock#s()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartCommandBlock#s()
      */
     @ReflectiveMethod(name = "s", types = {})
     public NMSEnumMinecartType s(){
@@ -83,7 +83,7 @@ public class NMSEntityMinecartCommandBlock extends NMSEntityMinecartAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartCommandBlock#u()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartCommandBlock#u()
      */
     @ReflectiveMethod(name = "u", types = {})
     public NMSIBlockData u(){

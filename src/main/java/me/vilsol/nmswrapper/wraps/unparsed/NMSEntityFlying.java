@@ -21,7 +21,7 @@ public class NMSEntityFlying extends NMSEntityInsentient {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFlying#a(double, boolean, net.minecraft.server.v1_8_R3.Block, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.EntityFlying#a(double, boolean, net.minecraft.server.v1_9_R1.Block, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "a", types = {double.class, boolean.class, NMSBlock.class, NMSBlockPosition.class})
     public void a(double d, boolean b, NMSBlock block, NMSBlockPosition blockPosition){
@@ -30,7 +30,7 @@ public class NMSEntityFlying extends NMSEntityInsentient {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFlying#e(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityFlying#e(float, float)
      */
     @ReflectiveMethod(name = "e", types = {float.class, float.class})
     public void e(float f, float f1){
@@ -39,7 +39,7 @@ public class NMSEntityFlying extends NMSEntityInsentient {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFlying#g(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityFlying#g(float, float)
      */
     @ReflectiveMethod(name = "g", types = {float.class, float.class})
     public void g(float f, float f1){
@@ -48,7 +48,7 @@ public class NMSEntityFlying extends NMSEntityInsentient {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFlying#k_()
+     * @see net.minecraft.server.v1_9_R1.EntityFlying#k_()
      */
     @ReflectiveMethod(name = "k_", types = {})
     public boolean k_(){

@@ -17,7 +17,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#bF()
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#bF()
      */
     @ReflectiveMethod(name = "bF", types = {})
     public void bF(){
@@ -26,7 +26,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#bH()
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#bH()
      */
     @ReflectiveMethod(name = "bH", types = {})
     public void bH(){
@@ -35,7 +35,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#bR()
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#bR()
      */
     @ReflectiveMethod(name = "bR", types = {})
     public boolean bR(){
@@ -44,7 +44,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#br()
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#br()
      */
     @ReflectiveMethod(name = "br", types = {})
     public int br(){
@@ -53,7 +53,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#c(float)
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#c(float)
      */
     @ReflectiveMethod(name = "c", types = {float.class})
     public float c(float f){
@@ -61,7 +61,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#canSpawn()
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#canSpawn()
      */
     @ReflectiveMethod(name = "canSpawn", types = {})
     public boolean canSpawn(){
@@ -70,7 +70,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#cf()
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#cf()
      */
     @ReflectiveMethod(name = "cf", types = {})
     public NMSEntitySlime cf(){
@@ -79,7 +79,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#cg()
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#cg()
      */
     @ReflectiveMethod(name = "cg", types = {})
     public int cg(){
@@ -88,7 +88,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#ch()
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#ch()
      */
     @ReflectiveMethod(name = "ch", types = {})
     public void ch(){
@@ -97,7 +97,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#ci()
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#ci()
      */
     @ReflectiveMethod(name = "ci", types = {})
     public boolean ci(){
@@ -106,7 +106,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#cj()
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#cj()
      */
     @ReflectiveMethod(name = "cj", types = {})
     public int cj(){
@@ -115,7 +115,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#ck()
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#ck()
      */
     @ReflectiveMethod(name = "ck", types = {})
     public String ck(){
@@ -124,7 +124,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#cl()
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#cl()
      */
     @ReflectiveMethod(name = "cl", types = {})
     public boolean cl(){
@@ -132,7 +132,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -141,7 +141,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#e(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#e(float, float)
      */
     @ReflectiveMethod(name = "e", types = {float.class, float.class})
     public void e(float f, float f1){
@@ -149,7 +149,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -157,7 +157,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -165,7 +165,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#isBurning()
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#isBurning()
      */
     @ReflectiveMethod(name = "isBurning", types = {})
     public boolean isBurning(){
@@ -174,7 +174,7 @@ public class NMSEntityMagmaCube extends NMSEntitySlime {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMagmaCube#n()
+     * @see net.minecraft.server.v1_9_R1.EntityMagmaCube#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public NMSEnumParticle n(){

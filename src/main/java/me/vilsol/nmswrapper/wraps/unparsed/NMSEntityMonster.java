@@ -21,7 +21,7 @@ public class NMSEntityMonster extends NMSEntityCreature implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMonster#P()
+     * @see net.minecraft.server.v1_9_R1.EntityMonster#P()
      */
     @ReflectiveMethod(name = "P", types = {})
     public String P(){
@@ -30,7 +30,7 @@ public class NMSEntityMonster extends NMSEntityCreature implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMonster#a(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.EntityMonster#a(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "a", types = {NMSBlockPosition.class})
     public float a(NMSBlockPosition blockPosition){
@@ -39,7 +39,7 @@ public class NMSEntityMonster extends NMSEntityCreature implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMonster#aa()
+     * @see net.minecraft.server.v1_9_R1.EntityMonster#aa()
      */
     @ReflectiveMethod(name = "aa", types = {})
     public String aa(){
@@ -48,7 +48,7 @@ public class NMSEntityMonster extends NMSEntityCreature implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMonster#bR()
+     * @see net.minecraft.server.v1_9_R1.EntityMonster#bR()
      */
     @ReflectiveMethod(name = "bR", types = {})
     public boolean bR(){
@@ -57,7 +57,7 @@ public class NMSEntityMonster extends NMSEntityCreature implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMonster#ba()
+     * @see net.minecraft.server.v1_9_R1.EntityMonster#ba()
      */
     @ReflectiveMethod(name = "ba", types = {})
     public boolean ba(){
@@ -66,7 +66,7 @@ public class NMSEntityMonster extends NMSEntityCreature implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMonster#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityMonster#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -75,7 +75,7 @@ public class NMSEntityMonster extends NMSEntityCreature implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMonster#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityMonster#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -83,7 +83,7 @@ public class NMSEntityMonster extends NMSEntityCreature implements NMSIMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMonster#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityMonster#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -91,7 +91,7 @@ public class NMSEntityMonster extends NMSEntityCreature implements NMSIMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMonster#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityMonster#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -100,7 +100,7 @@ public class NMSEntityMonster extends NMSEntityCreature implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMonster#m()
+     * @see net.minecraft.server.v1_9_R1.EntityMonster#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -109,7 +109,7 @@ public class NMSEntityMonster extends NMSEntityCreature implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMonster#n(int)
+     * @see net.minecraft.server.v1_9_R1.EntityMonster#n(int)
      */
     @ReflectiveMethod(name = "n", types = {int.class})
     public String n(int i){
@@ -118,7 +118,7 @@ public class NMSEntityMonster extends NMSEntityCreature implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMonster#n_()
+     * @see net.minecraft.server.v1_9_R1.EntityMonster#n_()
      */
     @ReflectiveMethod(name = "n_", types = {})
     public boolean n_(){
@@ -127,7 +127,7 @@ public class NMSEntityMonster extends NMSEntityCreature implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMonster#r(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityMonster#r(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "r", types = {NMSEntity.class})
     public boolean r(NMSEntity entity){
@@ -136,7 +136,7 @@ public class NMSEntityMonster extends NMSEntityCreature implements NMSIMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMonster#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityMonster#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){

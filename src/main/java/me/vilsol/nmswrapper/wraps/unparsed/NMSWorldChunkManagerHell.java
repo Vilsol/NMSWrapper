@@ -16,7 +16,7 @@ public class NMSWorldChunkManagerHell extends NMSWorldChunkManager {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldChunkManagerHell#getBiome(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.WorldChunkManagerHell#getBiome(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getBiome", types = {NMSBlockPosition.class})
     public NMSBiomeBase getBiome(NMSBlockPosition blockPosition){

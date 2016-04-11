@@ -20,7 +20,7 @@ public class NMSEnchantmentThorns extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentThorns#a(int, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentThorns#a(int, java.util.Random)
      */
     @ReflectiveMethod(name = "a", types = {int.class, Random.class})
     public boolean a(int i, Random random){
@@ -29,7 +29,7 @@ public class NMSEnchantmentThorns extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentThorns#b(int, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentThorns#b(int, java.util.Random)
      */
     @ReflectiveMethod(name = "b", types = {int.class, Random.class})
     public int b(int i, Random random){
@@ -37,7 +37,7 @@ public class NMSEnchantmentThorns extends NMSEnchantment {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentThorns#canEnchant(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentThorns#canEnchant(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "canEnchant", types = {NMSItemStack.class})
     public boolean canEnchant(NMSItemStack itemStack){
@@ -45,7 +45,7 @@ public class NMSEnchantmentThorns extends NMSEnchantment {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentThorns#getMaxLevel()
+     * @see net.minecraft.server.v1_9_R1.EnchantmentThorns#getMaxLevel()
      */
     @ReflectiveMethod(name = "getMaxLevel", types = {})
     public int getMaxLevel(){

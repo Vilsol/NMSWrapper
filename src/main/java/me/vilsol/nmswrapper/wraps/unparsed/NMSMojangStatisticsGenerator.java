@@ -21,7 +21,7 @@ public class NMSMojangStatisticsGenerator extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MojangStatisticsGenerator#a(net.minecraft.server.v1_8_R3.MojangStatisticsGenerator)
+     * @see net.minecraft.server.v1_9_R1.MojangStatisticsGenerator#a(net.minecraft.server.v1_9_R1.MojangStatisticsGenerator)
      */
     @ReflectiveMethod(name = "a", types = {NMSMojangStatisticsGenerator.class})
     public NMSIMojangStatistics a(NMSMojangStatisticsGenerator mojangStatisticsGenerator){
@@ -30,7 +30,7 @@ public class NMSMojangStatisticsGenerator extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MojangStatisticsGenerator#b(net.minecraft.server.v1_8_R3.MojangStatisticsGenerator)
+     * @see net.minecraft.server.v1_9_R1.MojangStatisticsGenerator#b(net.minecraft.server.v1_9_R1.MojangStatisticsGenerator)
      */
     @ReflectiveMethod(name = "b", types = {NMSMojangStatisticsGenerator.class})
     public Object b(NMSMojangStatisticsGenerator mojangStatisticsGenerator){
@@ -39,7 +39,7 @@ public class NMSMojangStatisticsGenerator extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MojangStatisticsGenerator#c(net.minecraft.server.v1_8_R3.MojangStatisticsGenerator)
+     * @see net.minecraft.server.v1_9_R1.MojangStatisticsGenerator#c(net.minecraft.server.v1_9_R1.MojangStatisticsGenerator)
      */
     @ReflectiveMethod(name = "c", types = {NMSMojangStatisticsGenerator.class})
     public Map c(NMSMojangStatisticsGenerator mojangStatisticsGenerator){
@@ -48,7 +48,7 @@ public class NMSMojangStatisticsGenerator extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MojangStatisticsGenerator#d(net.minecraft.server.v1_8_R3.MojangStatisticsGenerator)
+     * @see net.minecraft.server.v1_9_R1.MojangStatisticsGenerator#d(net.minecraft.server.v1_9_R1.MojangStatisticsGenerator)
      */
     @ReflectiveMethod(name = "d", types = {NMSMojangStatisticsGenerator.class})
     public int d(NMSMojangStatisticsGenerator mojangStatisticsGenerator){
@@ -57,7 +57,7 @@ public class NMSMojangStatisticsGenerator extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MojangStatisticsGenerator#e(net.minecraft.server.v1_8_R3.MojangStatisticsGenerator)
+     * @see net.minecraft.server.v1_9_R1.MojangStatisticsGenerator#e(net.minecraft.server.v1_9_R1.MojangStatisticsGenerator)
      */
     @ReflectiveMethod(name = "e", types = {NMSMojangStatisticsGenerator.class})
     public Map e(NMSMojangStatisticsGenerator mojangStatisticsGenerator){
@@ -66,7 +66,7 @@ public class NMSMojangStatisticsGenerator extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MojangStatisticsGenerator#f(net.minecraft.server.v1_8_R3.MojangStatisticsGenerator)
+     * @see net.minecraft.server.v1_9_R1.MojangStatisticsGenerator#f(net.minecraft.server.v1_9_R1.MojangStatisticsGenerator)
      */
     @ReflectiveMethod(name = "f", types = {NMSMojangStatisticsGenerator.class})
     public int f(NMSMojangStatisticsGenerator mojangStatisticsGenerator){
@@ -75,7 +75,7 @@ public class NMSMojangStatisticsGenerator extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MojangStatisticsGenerator#g(net.minecraft.server.v1_8_R3.MojangStatisticsGenerator)
+     * @see net.minecraft.server.v1_9_R1.MojangStatisticsGenerator#g(net.minecraft.server.v1_9_R1.MojangStatisticsGenerator)
      */
     @ReflectiveMethod(name = "g", types = {NMSMojangStatisticsGenerator.class})
     public String g(NMSMojangStatisticsGenerator mojangStatisticsGenerator){
@@ -84,7 +84,7 @@ public class NMSMojangStatisticsGenerator extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MojangStatisticsGenerator#h(net.minecraft.server.v1_8_R3.MojangStatisticsGenerator)
+     * @see net.minecraft.server.v1_9_R1.MojangStatisticsGenerator#h(net.minecraft.server.v1_9_R1.MojangStatisticsGenerator)
      */
     @ReflectiveMethod(name = "h", types = {NMSMojangStatisticsGenerator.class})
     public URL h(NMSMojangStatisticsGenerator mojangStatisticsGenerator){

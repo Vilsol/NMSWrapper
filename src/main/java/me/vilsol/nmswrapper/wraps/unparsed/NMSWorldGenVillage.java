@@ -17,7 +17,7 @@ public class NMSWorldGenVillage extends NMSStructureGenerator {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenVillage#a(int, int)
+     * @see net.minecraft.server.v1_9_R1.WorldGenVillage#a(int, int)
      */
     @ReflectiveMethod(name = "a", types = {int.class, int.class})
     public boolean a(int i, int i1){
@@ -26,7 +26,7 @@ public class NMSWorldGenVillage extends NMSStructureGenerator {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenVillage#b(int, int)
+     * @see net.minecraft.server.v1_9_R1.WorldGenVillage#b(int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public NMSStructureStart b(int i, int i1){
@@ -46,7 +46,7 @@ public class NMSWorldGenVillage extends NMSStructureGenerator {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillage$WorldGenVillageStart#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillage$WorldGenVillageStart#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
         public void a(NMSNBTTagCompound nBTTagCompound){
@@ -55,7 +55,7 @@ public class NMSWorldGenVillage extends NMSStructureGenerator {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillage$WorldGenVillageStart#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillage$WorldGenVillageStart#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -64,7 +64,7 @@ public class NMSWorldGenVillage extends NMSStructureGenerator {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenVillage$WorldGenVillageStart#d()
+         * @see net.minecraft.server.v1_9_R1.WorldGenVillage$WorldGenVillageStart#d()
          */
         @ReflectiveMethod(name = "d", types = {})
         public boolean d(){

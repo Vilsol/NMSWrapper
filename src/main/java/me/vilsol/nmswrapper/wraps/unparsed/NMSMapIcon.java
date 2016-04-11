@@ -20,7 +20,7 @@ public class NMSMapIcon extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MapIcon#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.MapIcon#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -28,7 +28,7 @@ public class NMSMapIcon extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MapIcon#getRotation()
+     * @see net.minecraft.server.v1_9_R1.MapIcon#getRotation()
      */
     @ReflectiveMethod(name = "getRotation", types = {})
     public byte getRotation(){
@@ -36,7 +36,7 @@ public class NMSMapIcon extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MapIcon#getType()
+     * @see net.minecraft.server.v1_9_R1.MapIcon#getType()
      */
     @ReflectiveMethod(name = "getType", types = {})
     public byte getType(){
@@ -44,7 +44,7 @@ public class NMSMapIcon extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MapIcon#getX()
+     * @see net.minecraft.server.v1_9_R1.MapIcon#getX()
      */
     @ReflectiveMethod(name = "getX", types = {})
     public byte getX(){
@@ -52,7 +52,7 @@ public class NMSMapIcon extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MapIcon#getY()
+     * @see net.minecraft.server.v1_9_R1.MapIcon#getY()
      */
     @ReflectiveMethod(name = "getY", types = {})
     public byte getY(){
@@ -60,7 +60,7 @@ public class NMSMapIcon extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MapIcon#hashCode()
+     * @see net.minecraft.server.v1_9_R1.MapIcon#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){

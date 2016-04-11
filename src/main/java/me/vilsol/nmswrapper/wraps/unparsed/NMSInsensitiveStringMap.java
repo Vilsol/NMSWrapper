@@ -13,7 +13,7 @@ public class NMSInsensitiveStringMap extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InsensitiveStringMap#a(java.lang.String, Object)
+     * @see net.minecraft.server.v1_9_R1.InsensitiveStringMap#a(java.lang.String, Object)
      */
     @ReflectiveMethod(name = "a", types = {String.class, Object.class})
     public Object a(String s, Object v){
@@ -21,7 +21,7 @@ public class NMSInsensitiveStringMap extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InsensitiveStringMap#clear()
+     * @see net.minecraft.server.v1_9_R1.InsensitiveStringMap#clear()
      */
     @ReflectiveMethod(name = "clear", types = {})
     public void clear(){
@@ -29,7 +29,7 @@ public class NMSInsensitiveStringMap extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InsensitiveStringMap#containsKey(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.InsensitiveStringMap#containsKey(java.lang.Object)
      */
     @ReflectiveMethod(name = "containsKey", types = {Object.class})
     public boolean containsKey(Object object){
@@ -37,7 +37,7 @@ public class NMSInsensitiveStringMap extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InsensitiveStringMap#containsValue(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.InsensitiveStringMap#containsValue(java.lang.Object)
      */
     @ReflectiveMethod(name = "containsValue", types = {Object.class})
     public boolean containsValue(Object object){
@@ -45,7 +45,7 @@ public class NMSInsensitiveStringMap extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InsensitiveStringMap#get(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.InsensitiveStringMap#get(java.lang.Object)
      */
     @ReflectiveMethod(name = "get", types = {Object.class})
     public Object get(Object object){
@@ -53,7 +53,7 @@ public class NMSInsensitiveStringMap extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InsensitiveStringMap#isEmpty()
+     * @see net.minecraft.server.v1_9_R1.InsensitiveStringMap#isEmpty()
      */
     @ReflectiveMethod(name = "isEmpty", types = {})
     public boolean isEmpty(){
@@ -61,7 +61,7 @@ public class NMSInsensitiveStringMap extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InsensitiveStringMap#put(java.lang.Object, java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.InsensitiveStringMap#put(java.lang.Object, java.lang.Object)
      */
     @ReflectiveMethod(name = "put", types = {Object.class, Object.class})
     public Object put(Object object, Object object1){
@@ -69,7 +69,7 @@ public class NMSInsensitiveStringMap extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InsensitiveStringMap#remove(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.InsensitiveStringMap#remove(java.lang.Object)
      */
     @ReflectiveMethod(name = "remove", types = {Object.class})
     public Object remove(Object object){
@@ -77,7 +77,7 @@ public class NMSInsensitiveStringMap extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InsensitiveStringMap#size()
+     * @see net.minecraft.server.v1_9_R1.InsensitiveStringMap#size()
      */
     @ReflectiveMethod(name = "size", types = {})
     public int size(){

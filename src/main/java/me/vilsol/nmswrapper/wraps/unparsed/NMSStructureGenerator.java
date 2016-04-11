@@ -13,7 +13,7 @@ public class NMSStructureGenerator extends NMSWorldGenBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructureGenerator#a(int, int)
+     * @see net.minecraft.server.v1_9_R1.StructureGenerator#a(int, int)
      */
     @ReflectiveMethod(name = "a", types = {int.class, int.class})
     public boolean a(int i, int i1){
@@ -22,7 +22,7 @@ public class NMSStructureGenerator extends NMSWorldGenBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructureGenerator#b(int, int)
+     * @see net.minecraft.server.v1_9_R1.StructureGenerator#b(int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public NMSStructureStart b(int i, int i1){
@@ -31,7 +31,7 @@ public class NMSStructureGenerator extends NMSWorldGenBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructureGenerator#c(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.StructureGenerator#c(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "c", types = {NMSBlockPosition.class})
     public NMSStructureStart c(NMSBlockPosition blockPosition){
@@ -39,7 +39,7 @@ public class NMSStructureGenerator extends NMSWorldGenBase {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.StructureGenerator#getNearestGeneratedFeature(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.StructureGenerator#getNearestGeneratedFeature(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getNearestGeneratedFeature", types = {NMSWorld.class, NMSBlockPosition.class})
     public NMSBlockPosition getNearestGeneratedFeature(NMSWorld world, NMSBlockPosition blockPosition){

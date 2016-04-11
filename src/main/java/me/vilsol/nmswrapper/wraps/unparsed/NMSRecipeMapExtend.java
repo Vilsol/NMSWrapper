@@ -13,7 +13,7 @@ public class NMSRecipeMapExtend extends NMSShapedRecipes {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RecipeMapExtend#a(net.minecraft.server.v1_8_R3.InventoryCrafting)
+     * @see net.minecraft.server.v1_9_R1.RecipeMapExtend#a(net.minecraft.server.v1_9_R1.InventoryCrafting)
      */
     @ReflectiveMethod(name = "a", types = {NMSInventoryCrafting.class})
     public NMSItemStack a(NMSInventoryCrafting inventoryCrafting){

@@ -17,7 +17,7 @@ public class NMSEntitySquid extends NMSEntityWaterAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySquid#b(float, float, float)
+     * @see net.minecraft.server.v1_9_R1.EntitySquid#b(float, float, float)
      */
     @ReflectiveMethod(name = "b", types = {float.class, float.class, float.class})
     public void b(float f, float f1, float f2){
@@ -26,7 +26,7 @@ public class NMSEntitySquid extends NMSEntityWaterAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySquid#bB()
+     * @see net.minecraft.server.v1_9_R1.EntitySquid#bB()
      */
     @ReflectiveMethod(name = "bB", types = {})
     public float bB(){
@@ -35,7 +35,7 @@ public class NMSEntitySquid extends NMSEntityWaterAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySquid#bR()
+     * @see net.minecraft.server.v1_9_R1.EntitySquid#bR()
      */
     @ReflectiveMethod(name = "bR", types = {})
     public boolean bR(){
@@ -44,7 +44,7 @@ public class NMSEntitySquid extends NMSEntityWaterAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySquid#bo()
+     * @see net.minecraft.server.v1_9_R1.EntitySquid#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -53,7 +53,7 @@ public class NMSEntitySquid extends NMSEntityWaterAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySquid#bp()
+     * @see net.minecraft.server.v1_9_R1.EntitySquid#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -61,7 +61,7 @@ public class NMSEntitySquid extends NMSEntityWaterAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySquid#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntitySquid#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -70,7 +70,7 @@ public class NMSEntitySquid extends NMSEntityWaterAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySquid#g(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntitySquid#g(float, float)
      */
     @ReflectiveMethod(name = "g", types = {float.class, float.class})
     public void g(float f, float f1){
@@ -78,7 +78,7 @@ public class NMSEntitySquid extends NMSEntityWaterAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySquid#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntitySquid#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -86,7 +86,7 @@ public class NMSEntitySquid extends NMSEntityWaterAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySquid#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntitySquid#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -94,7 +94,7 @@ public class NMSEntitySquid extends NMSEntityWaterAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySquid#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntitySquid#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -103,7 +103,7 @@ public class NMSEntitySquid extends NMSEntityWaterAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySquid#m()
+     * @see net.minecraft.server.v1_9_R1.EntitySquid#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -112,7 +112,7 @@ public class NMSEntitySquid extends NMSEntityWaterAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySquid#n()
+     * @see net.minecraft.server.v1_9_R1.EntitySquid#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public boolean n(){
@@ -121,7 +121,7 @@ public class NMSEntitySquid extends NMSEntityWaterAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySquid#s_()
+     * @see net.minecraft.server.v1_9_R1.EntitySquid#s_()
      */
     @ReflectiveMethod(name = "s_", types = {})
     public boolean s_(){
@@ -130,7 +130,7 @@ public class NMSEntitySquid extends NMSEntityWaterAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySquid#z()
+     * @see net.minecraft.server.v1_9_R1.EntitySquid#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

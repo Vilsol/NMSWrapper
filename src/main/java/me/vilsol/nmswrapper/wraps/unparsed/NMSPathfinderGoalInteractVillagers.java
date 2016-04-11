@@ -17,7 +17,7 @@ public class NMSPathfinderGoalInteractVillagers extends NMSPathfinderGoalInterac
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalInteractVillagers#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalInteractVillagers#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalInteractVillagers extends NMSPathfinderGoalInterac
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalInteractVillagers#e()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalInteractVillagers#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){

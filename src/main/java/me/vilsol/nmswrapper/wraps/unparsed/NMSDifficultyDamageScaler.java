@@ -17,7 +17,7 @@ public class NMSDifficultyDamageScaler extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DifficultyDamageScaler#c()
+     * @see net.minecraft.server.v1_9_R1.DifficultyDamageScaler#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public float c(){

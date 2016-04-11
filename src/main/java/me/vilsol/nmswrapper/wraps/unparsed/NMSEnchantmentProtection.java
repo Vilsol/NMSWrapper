@@ -17,7 +17,7 @@ public class NMSEnchantmentProtection extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentProtection#a(net.minecraft.server.v1_8_R3.Entity, double)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentProtection#a(net.minecraft.server.v1_9_R1.Entity, double)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntity.class, double.class})
     public double a(NMSEntity entity, double d){
@@ -26,7 +26,7 @@ public class NMSEnchantmentProtection extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentProtection#b(int)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentProtection#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public int b(int i){
@@ -34,7 +34,7 @@ public class NMSEnchantmentProtection extends NMSEnchantment {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentProtection#getMaxLevel()
+     * @see net.minecraft.server.v1_9_R1.EnchantmentProtection#getMaxLevel()
      */
     @ReflectiveMethod(name = "getMaxLevel", types = {})
     public int getMaxLevel(){

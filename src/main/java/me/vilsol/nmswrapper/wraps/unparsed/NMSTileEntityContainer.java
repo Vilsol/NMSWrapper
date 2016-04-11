@@ -13,7 +13,7 @@ public class NMSTileEntityContainer extends NMSTileEntity implements NMSITileInv
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityContainer#a(net.minecraft.server.v1_8_R3.ChestLock)
+     * @see net.minecraft.server.v1_9_R1.TileEntityContainer#a(net.minecraft.server.v1_9_R1.ChestLock)
      */
     @ReflectiveMethod(name = "a", types = {NMSChestLock.class})
     public void a(NMSChestLock chestLock){
@@ -22,7 +22,7 @@ public class NMSTileEntityContainer extends NMSTileEntity implements NMSITileInv
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityContainer#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.TileEntityContainer#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -30,7 +30,7 @@ public class NMSTileEntityContainer extends NMSTileEntity implements NMSITileInv
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityContainer#getScoreboardDisplayName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityContainer#getScoreboardDisplayName()
      */
     @ReflectiveMethod(name = "getScoreboardDisplayName", types = {})
     public NMSIChatBaseComponent getScoreboardDisplayName(){
@@ -39,7 +39,7 @@ public class NMSTileEntityContainer extends NMSTileEntity implements NMSITileInv
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityContainer#i()
+     * @see net.minecraft.server.v1_9_R1.TileEntityContainer#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public NMSChestLock i(){
@@ -48,7 +48,7 @@ public class NMSTileEntityContainer extends NMSTileEntity implements NMSITileInv
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityContainer#r_()
+     * @see net.minecraft.server.v1_9_R1.TileEntityContainer#r_()
      */
     @ReflectiveMethod(name = "r_", types = {})
     public boolean r_(){

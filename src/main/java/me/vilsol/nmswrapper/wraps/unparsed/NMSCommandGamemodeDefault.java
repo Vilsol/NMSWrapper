@@ -13,7 +13,7 @@ public class NMSCommandGamemodeDefault extends NMSCommandGamemode {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandGamemodeDefault#a(net.minecraft.server.v1_8_R3.WorldSettings$EnumGamemode)
+     * @see net.minecraft.server.v1_9_R1.CommandGamemodeDefault#a(net.minecraft.server.v1_9_R1.WorldSettings$EnumGamemode)
      */
     @ReflectiveMethod(name = "a", types = {NMSEnumGamemode.class})
     public void a(NMSEnumGamemode enumGamemode){
@@ -21,7 +21,7 @@ public class NMSCommandGamemodeDefault extends NMSCommandGamemode {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandGamemodeDefault#getCommand()
+     * @see net.minecraft.server.v1_9_R1.CommandGamemodeDefault#getCommand()
      */
     @ReflectiveMethod(name = "getCommand", types = {})
     public String getCommand(){
@@ -29,7 +29,7 @@ public class NMSCommandGamemodeDefault extends NMSCommandGamemode {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandGamemodeDefault#getUsage(net.minecraft.server.v1_8_R3.ICommandListener)
+     * @see net.minecraft.server.v1_9_R1.CommandGamemodeDefault#getUsage(net.minecraft.server.v1_9_R1.ICommandListener)
      */
     @ReflectiveMethod(name = "getUsage", types = {NMSICommandListener.class})
     public String getUsage(NMSICommandListener iCommandListener){

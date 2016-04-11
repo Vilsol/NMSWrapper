@@ -13,7 +13,7 @@ public class NMSEnchantmentFire extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentFire#a(int)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentFire#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public int a(int i){
@@ -22,7 +22,7 @@ public class NMSEnchantmentFire extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentFire#b(int)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentFire#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public int b(int i){
@@ -30,7 +30,7 @@ public class NMSEnchantmentFire extends NMSEnchantment {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentFire#getMaxLevel()
+     * @see net.minecraft.server.v1_9_R1.EnchantmentFire#getMaxLevel()
      */
     @ReflectiveMethod(name = "getMaxLevel", types = {})
     public int getMaxLevel(){

@@ -13,7 +13,7 @@ public class NMSWorldGenFlatInfo extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenFlatInfo#a(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.WorldGenFlatInfo#a(java.lang.String)
      */
     @ReflectiveMethod(name = "a", types = {String.class})
     public NMSWorldGenFlatInfo a(String s){
@@ -22,7 +22,7 @@ public class NMSWorldGenFlatInfo extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenFlatInfo#d()
+     * @see net.minecraft.server.v1_9_R1.WorldGenFlatInfo#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -31,7 +31,7 @@ public class NMSWorldGenFlatInfo extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenFlatInfo#e()
+     * @see net.minecraft.server.v1_9_R1.WorldGenFlatInfo#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public NMSWorldGenFlatInfo e(){
@@ -39,7 +39,7 @@ public class NMSWorldGenFlatInfo extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldGenFlatInfo#toString()
+     * @see net.minecraft.server.v1_9_R1.WorldGenFlatInfo#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

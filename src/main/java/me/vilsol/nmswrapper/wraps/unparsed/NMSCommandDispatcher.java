@@ -13,7 +13,7 @@ public class NMSCommandDispatcher extends NMSCommandHandler implements NMSIComma
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandDispatcher#a(net.minecraft.server.v1_8_R3.ICommandListener, net.minecraft.server.v1_8_R3.ICommand, int, java.lang.String, java.lang.Object...)
+     * @see net.minecraft.server.v1_9_R1.CommandDispatcher#a(net.minecraft.server.v1_9_R1.ICommandListener, net.minecraft.server.v1_9_R1.ICommand, int, java.lang.String, java.lang.Object...)
      */
     @ReflectiveMethod(name = "a", types = {NMSICommandListener.class, NMSICommand.class, int.class, String.class, Object[].class})
     public void a(NMSICommandListener iCommandListener, NMSICommand iCommand, int i, String s, Object[] array){

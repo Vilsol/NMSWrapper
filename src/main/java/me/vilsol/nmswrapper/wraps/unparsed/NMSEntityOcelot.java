@@ -17,7 +17,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#E()
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#E()
      */
     @ReflectiveMethod(name = "E", types = {})
     public void E(){
@@ -26,7 +26,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -35,7 +35,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#b(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#b(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityAgeable.class})
     public NMSEntityOcelot b(NMSEntityAgeable entityAgeable){
@@ -44,7 +44,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#bB()
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#bB()
      */
     @ReflectiveMethod(name = "bB", types = {})
     public float bB(){
@@ -53,7 +53,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#bR()
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#bR()
      */
     @ReflectiveMethod(name = "bR", types = {})
     public boolean bR(){
@@ -62,7 +62,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -71,7 +71,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -79,7 +79,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#canSpawn()
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#canSpawn()
      */
     @ReflectiveMethod(name = "canSpawn", types = {})
     public boolean canSpawn(){
@@ -88,7 +88,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#cm()
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#cm()
      */
     @ReflectiveMethod(name = "cm", types = {})
     public void cm(){
@@ -96,7 +96,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#createChild(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#createChild(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "createChild", types = {NMSEntityAgeable.class})
     public NMSEntityAgeable createChild(NMSEntityAgeable entityAgeable){
@@ -105,7 +105,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#d(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#d(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "d", types = {NMSItemStack.class})
     public boolean d(NMSItemStack itemStack){
@@ -113,7 +113,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -122,7 +122,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#e(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#e(float, float)
      */
     @ReflectiveMethod(name = "e", types = {float.class, float.class})
     public void e(float f, float f1){
@@ -130,7 +130,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#getCatType()
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#getCatType()
      */
     @ReflectiveMethod(name = "getCatType", types = {})
     public int getCatType(){
@@ -138,7 +138,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -146,7 +146,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#getName()
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -155,7 +155,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#h()
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -163,7 +163,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -171,7 +171,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#isTypeNotPersistent()
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#isTypeNotPersistent()
      */
     @ReflectiveMethod(name = "isTypeNotPersistent", types = {})
     public boolean isTypeNotPersistent(){
@@ -179,7 +179,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#mate(net.minecraft.server.v1_8_R3.EntityAnimal)
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#mate(net.minecraft.server.v1_9_R1.EntityAnimal)
      */
     @ReflectiveMethod(name = "mate", types = {NMSEntityAnimal.class})
     public boolean mate(NMSEntityAnimal entityAnimal){
@@ -187,7 +187,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#prepare(net.minecraft.server.v1_8_R3.DifficultyDamageScaler, net.minecraft.server.v1_8_R3.GroupDataEntity)
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#prepare(net.minecraft.server.v1_9_R1.DifficultyDamageScaler, net.minecraft.server.v1_9_R1.GroupDataEntity)
      */
     @ReflectiveMethod(name = "prepare", types = {NMSDifficultyDamageScaler.class, NMSGroupDataEntity.class})
     public NMSGroupDataEntity prepare(NMSDifficultyDamageScaler difficultyDamageScaler, NMSGroupDataEntity groupDataEntity){
@@ -196,7 +196,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#r(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#r(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "r", types = {NMSEntity.class})
     public boolean r(NMSEntity entity){
@@ -204,7 +204,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#setCatType(int)
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#setCatType(int)
      */
     @ReflectiveMethod(name = "setCatType", types = {int.class})
     public void setCatType(int i){
@@ -212,7 +212,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#setTamed(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#setTamed(boolean)
      */
     @ReflectiveMethod(name = "setTamed", types = {boolean.class})
     public void setTamed(boolean b){
@@ -221,7 +221,7 @@ public class NMSEntityOcelot extends NMSEntityTameableAnimal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityOcelot#z()
+     * @see net.minecraft.server.v1_9_R1.EntityOcelot#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

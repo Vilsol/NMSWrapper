@@ -17,7 +17,7 @@ public class NMSPacketStatusListener extends NMSWrap implements NMSPacketStatusI
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PacketStatusListener#a(net.minecraft.server.v1_8_R3.PacketStatusInPing)
+     * @see net.minecraft.server.v1_9_R1.PacketStatusListener#a(net.minecraft.server.v1_9_R1.PacketStatusInPing)
      */
     @ReflectiveMethod(name = "a", types = {NMSPacketStatusInPing.class})
     public void a(NMSPacketStatusInPing packetStatusInPing){

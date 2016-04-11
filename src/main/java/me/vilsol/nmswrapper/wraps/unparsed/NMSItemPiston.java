@@ -16,7 +16,7 @@ public class NMSItemPiston extends NMSItemBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemPiston#filterData(int)
+     * @see net.minecraft.server.v1_9_R1.ItemPiston#filterData(int)
      */
     @ReflectiveMethod(name = "filterData", types = {int.class})
     public int filterData(int i){

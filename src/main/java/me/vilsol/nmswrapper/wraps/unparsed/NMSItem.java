@@ -20,7 +20,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#a(net.minecraft.server.v1_8_R3.Block, net.minecraft.server.v1_8_R3.Item)
+     * @see net.minecraft.server.v1_9_R1.Item#a(net.minecraft.server.v1_9_R1.Block, net.minecraft.server.v1_9_R1.Item)
      */
     @ReflectiveMethod(name = "a", types = {NMSBlock.class, NMSItem.class})
     public void a(NMSBlock block, NMSItem item){
@@ -29,7 +29,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#b()
+     * @see net.minecraft.server.v1_9_R1.Item#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public int b(){
@@ -38,7 +38,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#c(net.minecraft.server.v1_8_R3.Item)
+     * @see net.minecraft.server.v1_9_R1.Item#c(net.minecraft.server.v1_9_R1.Item)
      */
     @ReflectiveMethod(name = "c", types = {NMSItem.class})
     public NMSItem c(NMSItem item){
@@ -46,7 +46,7 @@ public class NMSItem extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Item#canDestroySpecialBlock(net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.Item#canDestroySpecialBlock(net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "canDestroySpecialBlock", types = {NMSBlock.class})
     public boolean canDestroySpecialBlock(NMSBlock block){
@@ -55,7 +55,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#d(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.Item#d(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "d", types = {NMSItemStack.class})
     public int d(NMSItemStack itemStack){
@@ -64,7 +64,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#e(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.Item#e(java.lang.String)
      */
     @ReflectiveMethod(name = "e", types = {String.class})
     public NMSItem e(String s){
@@ -73,7 +73,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#e_(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.Item#e_(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "e_", types = {NMSItemStack.class})
     public String e_(NMSItemStack itemStack){
@@ -82,7 +82,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#f()
+     * @see net.minecraft.server.v1_9_R1.Item#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public boolean f(){
@@ -91,7 +91,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#f_(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.Item#f_(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "f_", types = {NMSItemStack.class})
     public boolean f_(NMSItemStack itemStack){
@@ -99,7 +99,7 @@ public class NMSItem extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Item#filterData(int)
+     * @see net.minecraft.server.v1_9_R1.Item#filterData(int)
      */
     @ReflectiveMethod(name = "filterData", types = {int.class})
     public int filterData(int i){
@@ -108,7 +108,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#g(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.Item#g(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "g", types = {NMSItemStack.class})
     public NMSEnumItemRarity g(NMSItemStack itemStack){
@@ -116,7 +116,7 @@ public class NMSItem extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Item#getById(int)
+     * @see net.minecraft.server.v1_9_R1.Item#getById(int)
      */
     @ReflectiveMethod(name = "getById", types = {int.class})
     public NMSItem getById(int i){
@@ -124,7 +124,7 @@ public class NMSItem extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Item#getDestroySpeed(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.Item#getDestroySpeed(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "getDestroySpeed", types = {NMSItemStack.class, NMSBlock.class})
     public float getDestroySpeed(NMSItemStack itemStack, NMSBlock block){
@@ -132,7 +132,7 @@ public class NMSItem extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Item#getId(net.minecraft.server.v1_8_R3.Item)
+     * @see net.minecraft.server.v1_9_R1.Item#getId(net.minecraft.server.v1_9_R1.Item)
      */
     @ReflectiveMethod(name = "getId", types = {NMSItem.class})
     public int getId(NMSItem item){
@@ -140,7 +140,7 @@ public class NMSItem extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Item#getItemOf(net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.Item#getItemOf(net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "getItemOf", types = {NMSBlock.class})
     public NMSItem getItemOf(NMSBlock block){
@@ -148,7 +148,7 @@ public class NMSItem extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Item#getMaxDurability()
+     * @see net.minecraft.server.v1_9_R1.Item#getMaxDurability()
      */
     @ReflectiveMethod(name = "getMaxDurability", types = {})
     public int getMaxDurability(){
@@ -156,7 +156,7 @@ public class NMSItem extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Item#getMaxStackSize()
+     * @see net.minecraft.server.v1_9_R1.Item#getMaxStackSize()
      */
     @ReflectiveMethod(name = "getMaxStackSize", types = {})
     public int getMaxStackSize(){
@@ -164,7 +164,7 @@ public class NMSItem extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Item#getName()
+     * @see net.minecraft.server.v1_9_R1.Item#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -172,7 +172,7 @@ public class NMSItem extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Item#interactWith(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.Item#interactWith(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interactWith", types = {NMSItemStack.class, NMSEntityHuman.class, NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interactWith(NMSItemStack itemStack, NMSEntityHuman entityHuman, NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -181,7 +181,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#j(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.Item#j(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "j", types = {NMSItemStack.class})
     public String j(NMSItemStack itemStack){
@@ -190,7 +190,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#k(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.Item#k(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "k", types = {NMSItemStack.class})
     public String k(NMSItemStack itemStack){
@@ -199,7 +199,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#l(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.Item#l(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "l", types = {NMSItemStack.class})
     public boolean l(NMSItemStack itemStack){
@@ -208,7 +208,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#n()
+     * @see net.minecraft.server.v1_9_R1.Item#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public NMSItem n(){
@@ -217,7 +217,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#p()
+     * @see net.minecraft.server.v1_9_R1.Item#p()
      */
     @ReflectiveMethod(name = "p", types = {})
     public boolean p(){
@@ -226,7 +226,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#q()
+     * @see net.minecraft.server.v1_9_R1.Item#q()
      */
     @ReflectiveMethod(name = "q", types = {})
     public NMSItem q(){
@@ -235,7 +235,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#r()
+     * @see net.minecraft.server.v1_9_R1.Item#r()
      */
     @ReflectiveMethod(name = "r", types = {})
     public boolean r(){
@@ -244,7 +244,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#s()
+     * @see net.minecraft.server.v1_9_R1.Item#s()
      */
     @ReflectiveMethod(name = "s", types = {})
     public boolean s(){
@@ -252,7 +252,7 @@ public class NMSItem extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Item#setMaxDurability(int)
+     * @see net.minecraft.server.v1_9_R1.Item#setMaxDurability(int)
      */
     @ReflectiveMethod(name = "setMaxDurability", types = {int.class})
     public NMSItem setMaxDurability(int i){
@@ -261,7 +261,7 @@ public class NMSItem extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Item#t()
+     * @see net.minecraft.server.v1_9_R1.Item#t()
      */
     @ReflectiveMethod(name = "t", types = {})
     public void t(){
@@ -269,7 +269,7 @@ public class NMSItem extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Item#usesDurability()
+     * @see net.minecraft.server.v1_9_R1.Item#usesDurability()
      */
     @ReflectiveMethod(name = "usesDurability", types = {})
     public boolean usesDurability(){

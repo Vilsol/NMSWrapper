@@ -17,7 +17,7 @@ public class NMSPathfinderGoalSwell extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalSwell#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalSwell#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalSwell extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalSwell#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalSwell#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -35,7 +35,7 @@ public class NMSPathfinderGoalSwell extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalSwell#d()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalSwell#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -44,7 +44,7 @@ public class NMSPathfinderGoalSwell extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalSwell#e()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalSwell#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){

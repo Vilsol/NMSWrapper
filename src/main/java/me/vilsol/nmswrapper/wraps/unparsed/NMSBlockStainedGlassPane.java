@@ -12,7 +12,7 @@ public class NMSBlockStainedGlassPane extends NMSBlockThin {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStainedGlassPane#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockStainedGlassPane#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -21,7 +21,7 @@ public class NMSBlockStainedGlassPane extends NMSBlockThin {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStainedGlassPane#g(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockStainedGlassPane#g(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "g", types = {NMSIBlockData.class})
     public NMSMaterialMapColor g(NMSIBlockData iBlockData){
@@ -29,7 +29,7 @@ public class NMSBlockStainedGlassPane extends NMSBlockThin {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStainedGlassPane#getDropData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockStainedGlassPane#getDropData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSIBlockData.class})
     public int getDropData(NMSIBlockData iBlockData){
@@ -37,7 +37,7 @@ public class NMSBlockStainedGlassPane extends NMSBlockThin {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStainedGlassPane#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockStainedGlassPane#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -45,7 +45,7 @@ public class NMSBlockStainedGlassPane extends NMSBlockThin {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStainedGlassPane#onPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockStainedGlassPane#onPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "onPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void onPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -53,7 +53,7 @@ public class NMSBlockStainedGlassPane extends NMSBlockThin {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStainedGlassPane#remove(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockStainedGlassPane#remove(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "remove", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void remove(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -61,7 +61,7 @@ public class NMSBlockStainedGlassPane extends NMSBlockThin {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStainedGlassPane#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockStainedGlassPane#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

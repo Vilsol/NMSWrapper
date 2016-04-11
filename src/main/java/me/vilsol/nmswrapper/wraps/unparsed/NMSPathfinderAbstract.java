@@ -13,7 +13,7 @@ public class NMSPathfinderAbstract extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderAbstract#a(net.minecraft.server.v1_8_R3.Entity, double, double, double)
+     * @see net.minecraft.server.v1_9_R1.PathfinderAbstract#a(net.minecraft.server.v1_9_R1.Entity, double, double, double)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntity.class, double.class, double.class, double.class})
     public NMSPathPoint a(NMSEntity entity, double d, double d1, double d2){

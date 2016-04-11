@@ -25,7 +25,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#a(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#a(java.lang.String)
      */
     @ReflectiveMethod(name = "a", types = {String.class})
     public NMSPacketDataSerializer a(String s){
@@ -33,7 +33,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#alloc()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#alloc()
      */
     @ReflectiveMethod(name = "alloc", types = {})
     public ByteBufAllocator alloc(){
@@ -41,7 +41,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#arrayOffset()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#arrayOffset()
      */
     @ReflectiveMethod(name = "arrayOffset", types = {})
     public int arrayOffset(){
@@ -50,7 +50,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#b(long)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#b(long)
      */
     @ReflectiveMethod(name = "b", types = {long.class})
     public void b(long l){
@@ -58,7 +58,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#bytesBefore(int, int, byte)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#bytesBefore(int, int, byte)
      */
     @ReflectiveMethod(name = "bytesBefore", types = {int.class, int.class, byte.class})
     public int bytesBefore(int i, int i1, byte b){
@@ -67,7 +67,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#c(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#c(int)
      */
     @ReflectiveMethod(name = "c", types = {int.class})
     public String c(int i){
@@ -75,7 +75,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#capacity(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#capacity(int)
      */
     @ReflectiveMethod(name = "capacity", types = {int.class})
     public ByteBuf capacity(int i){
@@ -83,7 +83,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#clear()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#clear()
      */
     @ReflectiveMethod(name = "clear", types = {})
     public ByteBuf clear(){
@@ -91,7 +91,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#compareTo(io.netty.buffer.ByteBuf)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#compareTo(io.netty.buffer.ByteBuf)
      */
     @ReflectiveMethod(name = "compareTo", types = {ByteBuf.class})
     public int compareTo(ByteBuf byteBuf){
@@ -99,7 +99,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#copy(int, int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#copy(int, int)
      */
     @ReflectiveMethod(name = "copy", types = {int.class, int.class})
     public ByteBuf copy(int i, int i1){
@@ -107,7 +107,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#discardReadBytes()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#discardReadBytes()
      */
     @ReflectiveMethod(name = "discardReadBytes", types = {})
     public ByteBuf discardReadBytes(){
@@ -115,7 +115,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#discardSomeReadBytes()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#discardSomeReadBytes()
      */
     @ReflectiveMethod(name = "discardSomeReadBytes", types = {})
     public ByteBuf discardSomeReadBytes(){
@@ -123,7 +123,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#duplicate()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#duplicate()
      */
     @ReflectiveMethod(name = "duplicate", types = {})
     public ByteBuf duplicate(){
@@ -132,7 +132,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#e()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public int e(){
@@ -140,7 +140,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#ensureWritable(int, boolean)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#ensureWritable(int, boolean)
      */
     @ReflectiveMethod(name = "ensureWritable", types = {int.class, boolean.class})
     public int ensureWritable(int i, boolean b){
@@ -148,7 +148,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -157,7 +157,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#f()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public long f(){
@@ -165,7 +165,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#forEachByte(int, int, io.netty.buffer.ByteBufProcessor)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#forEachByte(int, int, io.netty.buffer.ByteBufProcessor)
      */
     @ReflectiveMethod(name = "forEachByte", types = {int.class, int.class, ByteBufProcessor.class})
     public int forEachByte(int i, int i1, ByteBufProcessor byteBufProcessor){
@@ -173,7 +173,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#forEachByteDesc(int, int, io.netty.buffer.ByteBufProcessor)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#forEachByteDesc(int, int, io.netty.buffer.ByteBufProcessor)
      */
     @ReflectiveMethod(name = "forEachByteDesc", types = {int.class, int.class, ByteBufProcessor.class})
     public int forEachByteDesc(int i, int i1, ByteBufProcessor byteBufProcessor){
@@ -182,7 +182,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#g()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public UUID g(){
@@ -190,7 +190,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#getBoolean(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#getBoolean(int)
      */
     @ReflectiveMethod(name = "getBoolean", types = {int.class})
     public boolean getBoolean(int i){
@@ -198,7 +198,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#getByte(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#getByte(int)
      */
     @ReflectiveMethod(name = "getByte", types = {int.class})
     public byte getByte(int i){
@@ -206,7 +206,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#getBytes(int, java.nio.ByteBuffer)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#getBytes(int, java.nio.ByteBuffer)
      */
     @ReflectiveMethod(name = "getBytes", types = {int.class, ByteBuffer.class})
     public ByteBuf getBytes(int i, ByteBuffer byteBuffer){
@@ -214,7 +214,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#getChar(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#getChar(int)
      */
     @ReflectiveMethod(name = "getChar", types = {int.class})
     public char getChar(int i){
@@ -222,7 +222,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#getDouble(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#getDouble(int)
      */
     @ReflectiveMethod(name = "getDouble", types = {int.class})
     public double getDouble(int i){
@@ -230,7 +230,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#getFloat(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#getFloat(int)
      */
     @ReflectiveMethod(name = "getFloat", types = {int.class})
     public float getFloat(int i){
@@ -238,7 +238,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#getInt(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#getInt(int)
      */
     @ReflectiveMethod(name = "getInt", types = {int.class})
     public int getInt(int i){
@@ -246,7 +246,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#getLong(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#getLong(int)
      */
     @ReflectiveMethod(name = "getLong", types = {int.class})
     public long getLong(int i){
@@ -254,7 +254,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#getMedium(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#getMedium(int)
      */
     @ReflectiveMethod(name = "getMedium", types = {int.class})
     public int getMedium(int i){
@@ -262,7 +262,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#getShort(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#getShort(int)
      */
     @ReflectiveMethod(name = "getShort", types = {int.class})
     public short getShort(int i){
@@ -270,7 +270,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#getUnsignedByte(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#getUnsignedByte(int)
      */
     @ReflectiveMethod(name = "getUnsignedByte", types = {int.class})
     public short getUnsignedByte(int i){
@@ -278,7 +278,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#getUnsignedInt(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#getUnsignedInt(int)
      */
     @ReflectiveMethod(name = "getUnsignedInt", types = {int.class})
     public long getUnsignedInt(int i){
@@ -286,7 +286,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#getUnsignedMedium(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#getUnsignedMedium(int)
      */
     @ReflectiveMethod(name = "getUnsignedMedium", types = {int.class})
     public int getUnsignedMedium(int i){
@@ -294,7 +294,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#getUnsignedShort(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#getUnsignedShort(int)
      */
     @ReflectiveMethod(name = "getUnsignedShort", types = {int.class})
     public int getUnsignedShort(int i){
@@ -302,7 +302,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#hasArray()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#hasArray()
      */
     @ReflectiveMethod(name = "hasArray", types = {})
     public boolean hasArray(){
@@ -310,7 +310,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#hasMemoryAddress()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#hasMemoryAddress()
      */
     @ReflectiveMethod(name = "hasMemoryAddress", types = {})
     public boolean hasMemoryAddress(){
@@ -318,7 +318,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#hashCode()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -326,7 +326,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#indexOf(int, int, byte)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#indexOf(int, int, byte)
      */
     @ReflectiveMethod(name = "indexOf", types = {int.class, int.class, byte.class})
     public int indexOf(int i, int i1, byte b){
@@ -334,7 +334,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#internalNioBuffer(int, int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#internalNioBuffer(int, int)
      */
     @ReflectiveMethod(name = "internalNioBuffer", types = {int.class, int.class})
     public ByteBuffer internalNioBuffer(int i, int i1){
@@ -342,7 +342,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#isDirect()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#isDirect()
      */
     @ReflectiveMethod(name = "isDirect", types = {})
     public boolean isDirect(){
@@ -350,7 +350,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#isReadable(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#isReadable(int)
      */
     @ReflectiveMethod(name = "isReadable", types = {int.class})
     public boolean isReadable(int i){
@@ -358,7 +358,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#isWritable(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#isWritable(int)
      */
     @ReflectiveMethod(name = "isWritable", types = {int.class})
     public boolean isWritable(int i){
@@ -366,7 +366,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#markReaderIndex()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#markReaderIndex()
      */
     @ReflectiveMethod(name = "markReaderIndex", types = {})
     public ByteBuf markReaderIndex(){
@@ -374,7 +374,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#markWriterIndex()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#markWriterIndex()
      */
     @ReflectiveMethod(name = "markWriterIndex", types = {})
     public ByteBuf markWriterIndex(){
@@ -382,7 +382,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#maxCapacity()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#maxCapacity()
      */
     @ReflectiveMethod(name = "maxCapacity", types = {})
     public int maxCapacity(){
@@ -390,7 +390,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#maxWritableBytes()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#maxWritableBytes()
      */
     @ReflectiveMethod(name = "maxWritableBytes", types = {})
     public int maxWritableBytes(){
@@ -398,7 +398,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#memoryAddress()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#memoryAddress()
      */
     @ReflectiveMethod(name = "memoryAddress", types = {})
     public long memoryAddress(){
@@ -406,7 +406,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#nioBuffer(int, int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#nioBuffer(int, int)
      */
     @ReflectiveMethod(name = "nioBuffer", types = {int.class, int.class})
     public ByteBuffer nioBuffer(int i, int i1){
@@ -414,7 +414,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#nioBufferCount()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#nioBufferCount()
      */
     @ReflectiveMethod(name = "nioBufferCount", types = {})
     public int nioBufferCount(){
@@ -422,7 +422,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#order(java.nio.ByteOrder)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#order(java.nio.ByteOrder)
      */
     @ReflectiveMethod(name = "order", types = {ByteOrder.class})
     public ByteBuf order(ByteOrder byteOrder){
@@ -430,7 +430,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#readBoolean()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#readBoolean()
      */
     @ReflectiveMethod(name = "readBoolean", types = {})
     public boolean readBoolean(){
@@ -438,7 +438,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#readByte()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#readByte()
      */
     @ReflectiveMethod(name = "readByte", types = {})
     public byte readByte(){
@@ -446,7 +446,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#readBytes(java.nio.ByteBuffer)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#readBytes(java.nio.ByteBuffer)
      */
     @ReflectiveMethod(name = "readBytes", types = {ByteBuffer.class})
     public ByteBuf readBytes(ByteBuffer byteBuffer){
@@ -454,7 +454,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#readChar()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#readChar()
      */
     @ReflectiveMethod(name = "readChar", types = {})
     public char readChar(){
@@ -462,7 +462,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#readDouble()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#readDouble()
      */
     @ReflectiveMethod(name = "readDouble", types = {})
     public double readDouble(){
@@ -470,7 +470,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#readFloat()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#readFloat()
      */
     @ReflectiveMethod(name = "readFloat", types = {})
     public float readFloat(){
@@ -478,7 +478,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#readInt()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#readInt()
      */
     @ReflectiveMethod(name = "readInt", types = {})
     public int readInt(){
@@ -486,7 +486,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#readLong()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#readLong()
      */
     @ReflectiveMethod(name = "readLong", types = {})
     public long readLong(){
@@ -494,7 +494,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#readMedium()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#readMedium()
      */
     @ReflectiveMethod(name = "readMedium", types = {})
     public int readMedium(){
@@ -502,7 +502,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#readShort()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#readShort()
      */
     @ReflectiveMethod(name = "readShort", types = {})
     public short readShort(){
@@ -510,7 +510,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#readSlice(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#readSlice(int)
      */
     @ReflectiveMethod(name = "readSlice", types = {int.class})
     public ByteBuf readSlice(int i){
@@ -518,7 +518,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#readUnsignedByte()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#readUnsignedByte()
      */
     @ReflectiveMethod(name = "readUnsignedByte", types = {})
     public short readUnsignedByte(){
@@ -526,7 +526,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#readUnsignedInt()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#readUnsignedInt()
      */
     @ReflectiveMethod(name = "readUnsignedInt", types = {})
     public long readUnsignedInt(){
@@ -534,7 +534,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#readUnsignedMedium()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#readUnsignedMedium()
      */
     @ReflectiveMethod(name = "readUnsignedMedium", types = {})
     public int readUnsignedMedium(){
@@ -542,7 +542,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#readUnsignedShort()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#readUnsignedShort()
      */
     @ReflectiveMethod(name = "readUnsignedShort", types = {})
     public int readUnsignedShort(){
@@ -550,7 +550,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#readableBytes()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#readableBytes()
      */
     @ReflectiveMethod(name = "readableBytes", types = {})
     public int readableBytes(){
@@ -558,7 +558,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#readerIndex(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#readerIndex(int)
      */
     @ReflectiveMethod(name = "readerIndex", types = {int.class})
     public ByteBuf readerIndex(int i){
@@ -566,7 +566,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#refCnt()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#refCnt()
      */
     @ReflectiveMethod(name = "refCnt", types = {})
     public int refCnt(){
@@ -574,7 +574,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#release(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#release(int)
      */
     @ReflectiveMethod(name = "release", types = {int.class})
     public boolean release(int i){
@@ -582,7 +582,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#resetReaderIndex()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#resetReaderIndex()
      */
     @ReflectiveMethod(name = "resetReaderIndex", types = {})
     public ByteBuf resetReaderIndex(){
@@ -590,7 +590,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#resetWriterIndex()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#resetWriterIndex()
      */
     @ReflectiveMethod(name = "resetWriterIndex", types = {})
     public ByteBuf resetWriterIndex(){
@@ -598,7 +598,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#retain()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#retain()
      */
     @ReflectiveMethod(name = "retain", types = {})
     public ByteBuf retain(){
@@ -606,7 +606,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#setBoolean(int, boolean)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#setBoolean(int, boolean)
      */
     @ReflectiveMethod(name = "setBoolean", types = {int.class, boolean.class})
     public ByteBuf setBoolean(int i, boolean b){
@@ -614,7 +614,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#setByte(int, int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#setByte(int, int)
      */
     @ReflectiveMethod(name = "setByte", types = {int.class, int.class})
     public ByteBuf setByte(int i, int i1){
@@ -622,7 +622,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#setBytes(int, java.nio.ByteBuffer)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#setBytes(int, java.nio.ByteBuffer)
      */
     @ReflectiveMethod(name = "setBytes", types = {int.class, ByteBuffer.class})
     public ByteBuf setBytes(int i, ByteBuffer byteBuffer){
@@ -630,7 +630,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#setChar(int, int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#setChar(int, int)
      */
     @ReflectiveMethod(name = "setChar", types = {int.class, int.class})
     public ByteBuf setChar(int i, int i1){
@@ -638,7 +638,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#setDouble(int, double)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#setDouble(int, double)
      */
     @ReflectiveMethod(name = "setDouble", types = {int.class, double.class})
     public ByteBuf setDouble(int i, double d){
@@ -646,7 +646,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#setFloat(int, float)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#setFloat(int, float)
      */
     @ReflectiveMethod(name = "setFloat", types = {int.class, float.class})
     public ByteBuf setFloat(int i, float f){
@@ -654,7 +654,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#setIndex(int, int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#setIndex(int, int)
      */
     @ReflectiveMethod(name = "setIndex", types = {int.class, int.class})
     public ByteBuf setIndex(int i, int i1){
@@ -662,7 +662,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#setInt(int, int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#setInt(int, int)
      */
     @ReflectiveMethod(name = "setInt", types = {int.class, int.class})
     public ByteBuf setInt(int i, int i1){
@@ -670,7 +670,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#setLong(int, long)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#setLong(int, long)
      */
     @ReflectiveMethod(name = "setLong", types = {int.class, long.class})
     public ByteBuf setLong(int i, long l){
@@ -678,7 +678,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#setMedium(int, int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#setMedium(int, int)
      */
     @ReflectiveMethod(name = "setMedium", types = {int.class, int.class})
     public ByteBuf setMedium(int i, int i1){
@@ -686,7 +686,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#setShort(int, int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#setShort(int, int)
      */
     @ReflectiveMethod(name = "setShort", types = {int.class, int.class})
     public ByteBuf setShort(int i, int i1){
@@ -694,7 +694,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#setZero(int, int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#setZero(int, int)
      */
     @ReflectiveMethod(name = "setZero", types = {int.class, int.class})
     public ByteBuf setZero(int i, int i1){
@@ -702,7 +702,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#skipBytes(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#skipBytes(int)
      */
     @ReflectiveMethod(name = "skipBytes", types = {int.class})
     public ByteBuf skipBytes(int i){
@@ -710,7 +710,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#slice(int, int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#slice(int, int)
      */
     @ReflectiveMethod(name = "slice", types = {int.class, int.class})
     public ByteBuf slice(int i, int i1){
@@ -718,7 +718,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#toString()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){
@@ -726,7 +726,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#unwrap()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#unwrap()
      */
     @ReflectiveMethod(name = "unwrap", types = {})
     public ByteBuf unwrap(){
@@ -734,7 +734,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#writableBytes()
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#writableBytes()
      */
     @ReflectiveMethod(name = "writableBytes", types = {})
     public int writableBytes(){
@@ -742,7 +742,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#writeBoolean(boolean)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#writeBoolean(boolean)
      */
     @ReflectiveMethod(name = "writeBoolean", types = {boolean.class})
     public ByteBuf writeBoolean(boolean b){
@@ -750,7 +750,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#writeByte(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#writeByte(int)
      */
     @ReflectiveMethod(name = "writeByte", types = {int.class})
     public ByteBuf writeByte(int i){
@@ -758,7 +758,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#writeBytes(java.nio.ByteBuffer)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#writeBytes(java.nio.ByteBuffer)
      */
     @ReflectiveMethod(name = "writeBytes", types = {ByteBuffer.class})
     public ByteBuf writeBytes(ByteBuffer byteBuffer){
@@ -766,7 +766,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#writeChar(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#writeChar(int)
      */
     @ReflectiveMethod(name = "writeChar", types = {int.class})
     public ByteBuf writeChar(int i){
@@ -774,7 +774,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#writeDouble(double)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#writeDouble(double)
      */
     @ReflectiveMethod(name = "writeDouble", types = {double.class})
     public ByteBuf writeDouble(double d){
@@ -782,7 +782,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#writeFloat(float)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#writeFloat(float)
      */
     @ReflectiveMethod(name = "writeFloat", types = {float.class})
     public ByteBuf writeFloat(float f){
@@ -790,7 +790,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#writeInt(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#writeInt(int)
      */
     @ReflectiveMethod(name = "writeInt", types = {int.class})
     public ByteBuf writeInt(int i){
@@ -798,7 +798,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#writeLong(long)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#writeLong(long)
      */
     @ReflectiveMethod(name = "writeLong", types = {long.class})
     public ByteBuf writeLong(long l){
@@ -806,7 +806,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#writeMedium(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#writeMedium(int)
      */
     @ReflectiveMethod(name = "writeMedium", types = {int.class})
     public ByteBuf writeMedium(int i){
@@ -814,7 +814,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#writeShort(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#writeShort(int)
      */
     @ReflectiveMethod(name = "writeShort", types = {int.class})
     public ByteBuf writeShort(int i){
@@ -822,7 +822,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#writeZero(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#writeZero(int)
      */
     @ReflectiveMethod(name = "writeZero", types = {int.class})
     public ByteBuf writeZero(int i){
@@ -830,7 +830,7 @@ public class NMSPacketDataSerializer extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PacketDataSerializer#writerIndex(int)
+     * @see net.minecraft.server.v1_9_R1.PacketDataSerializer#writerIndex(int)
      */
     @ReflectiveMethod(name = "writerIndex", types = {int.class})
     public ByteBuf writerIndex(int i){

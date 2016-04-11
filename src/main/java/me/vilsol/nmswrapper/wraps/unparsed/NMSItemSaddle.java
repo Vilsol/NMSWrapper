@@ -13,7 +13,7 @@ public class NMSItemSaddle extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemSaddle#a(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.EntityLiving, net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.ItemSaddle#a(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.EntityLiving, net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "a", types = {NMSItemStack.class, NMSEntityLiving.class, NMSEntityLiving.class})
     public boolean a(NMSItemStack itemStack, NMSEntityLiving entityLiving, NMSEntityLiving entityLiving1){

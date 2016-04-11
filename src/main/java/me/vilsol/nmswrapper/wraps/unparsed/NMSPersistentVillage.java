@@ -21,7 +21,7 @@ public class NMSPersistentVillage extends NMSPersistentBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PersistentVillage#a(net.minecraft.server.v1_8_R3.WorldProvider)
+     * @see net.minecraft.server.v1_9_R1.PersistentVillage#a(net.minecraft.server.v1_9_R1.WorldProvider)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorldProvider.class})
     public String a(NMSWorldProvider worldProvider){
@@ -30,7 +30,7 @@ public class NMSPersistentVillage extends NMSPersistentBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PersistentVillage#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.PersistentVillage#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -38,7 +38,7 @@ public class NMSPersistentVillage extends NMSPersistentBase {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PersistentVillage#getClosestVillage(net.minecraft.server.v1_8_R3.BlockPosition, int)
+     * @see net.minecraft.server.v1_9_R1.PersistentVillage#getClosestVillage(net.minecraft.server.v1_9_R1.BlockPosition, int)
      */
     @ReflectiveMethod(name = "getClosestVillage", types = {NMSBlockPosition.class, int.class})
     public NMSVillage getClosestVillage(NMSBlockPosition blockPosition, int i){
@@ -46,7 +46,7 @@ public class NMSPersistentVillage extends NMSPersistentBase {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PersistentVillage#tick()
+     * @see net.minecraft.server.v1_9_R1.PersistentVillage#tick()
      */
     @ReflectiveMethod(name = "tick", types = {})
     public void tick(){

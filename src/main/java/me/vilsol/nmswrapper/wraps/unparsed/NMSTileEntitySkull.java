@@ -15,7 +15,7 @@ public class NMSTileEntitySkull extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntitySkull#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.TileEntitySkull#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -24,7 +24,7 @@ public class NMSTileEntitySkull extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntitySkull#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.TileEntitySkull#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -32,7 +32,7 @@ public class NMSTileEntitySkull extends NMSTileEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntitySkull#getGameProfile()
+     * @see net.minecraft.server.v1_9_R1.TileEntitySkull#getGameProfile()
      */
     @ReflectiveMethod(name = "getGameProfile", types = {})
     public GameProfile getGameProfile(){
@@ -40,7 +40,7 @@ public class NMSTileEntitySkull extends NMSTileEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntitySkull#getRotation()
+     * @see net.minecraft.server.v1_9_R1.TileEntitySkull#getRotation()
      */
     @ReflectiveMethod(name = "getRotation", types = {})
     public int getRotation(){
@@ -48,7 +48,7 @@ public class NMSTileEntitySkull extends NMSTileEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntitySkull#getSkullType()
+     * @see net.minecraft.server.v1_9_R1.TileEntitySkull#getSkullType()
      */
     @ReflectiveMethod(name = "getSkullType", types = {})
     public int getSkullType(){
@@ -56,7 +56,7 @@ public class NMSTileEntitySkull extends NMSTileEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntitySkull#getUpdatePacket()
+     * @see net.minecraft.server.v1_9_R1.TileEntitySkull#getUpdatePacket()
      */
     @ReflectiveMethod(name = "getUpdatePacket", types = {})
     public NMSPacket getUpdatePacket(){
@@ -64,7 +64,7 @@ public class NMSTileEntitySkull extends NMSTileEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntitySkull#setGameProfile(com.mojang.authlib.GameProfile)
+     * @see net.minecraft.server.v1_9_R1.TileEntitySkull#setGameProfile(com.mojang.authlib.GameProfile)
      */
     @ReflectiveMethod(name = "setGameProfile", types = {GameProfile.class})
     public void setGameProfile(GameProfile gameProfile){
@@ -72,7 +72,7 @@ public class NMSTileEntitySkull extends NMSTileEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntitySkull#setRotation(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntitySkull#setRotation(int)
      */
     @ReflectiveMethod(name = "setRotation", types = {int.class})
     public void setRotation(int i){
@@ -80,7 +80,7 @@ public class NMSTileEntitySkull extends NMSTileEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntitySkull#setSkullType(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntitySkull#setSkullType(int)
      */
     @ReflectiveMethod(name = "setSkullType", types = {int.class})
     public void setSkullType(int i){

@@ -19,7 +19,7 @@ public class NMSExplosion extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Explosion#a(boolean)
+     * @see net.minecraft.server.v1_9_R1.Explosion#a(boolean)
      */
     @ReflectiveMethod(name = "a", types = {boolean.class})
     public void a(boolean b){
@@ -28,7 +28,7 @@ public class NMSExplosion extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Explosion#c()
+     * @see net.minecraft.server.v1_9_R1.Explosion#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public NMSEntityLiving c(){
@@ -36,7 +36,7 @@ public class NMSExplosion extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Explosion#clearBlocks()
+     * @see net.minecraft.server.v1_9_R1.Explosion#clearBlocks()
      */
     @ReflectiveMethod(name = "clearBlocks", types = {})
     public void clearBlocks(){

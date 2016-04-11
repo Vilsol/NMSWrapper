@@ -17,7 +17,7 @@ public class NMSEntityTrackerEntry extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityTrackerEntry#a(net.minecraft.server.v1_8_R3.EntityPlayer)
+     * @see net.minecraft.server.v1_9_R1.EntityTrackerEntry#a(net.minecraft.server.v1_9_R1.EntityPlayer)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityPlayer.class})
     public void a(NMSEntityPlayer entityPlayer){
@@ -25,7 +25,7 @@ public class NMSEntityTrackerEntry extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTrackerEntry#broadcast(net.minecraft.server.v1_8_R3.Packet)
+     * @see net.minecraft.server.v1_9_R1.EntityTrackerEntry#broadcast(net.minecraft.server.v1_9_R1.Packet)
      */
     @ReflectiveMethod(name = "broadcast", types = {NMSPacket.class})
     public void broadcast(NMSPacket packet){
@@ -33,7 +33,7 @@ public class NMSEntityTrackerEntry extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTrackerEntry#broadcastIncludingSelf(net.minecraft.server.v1_8_R3.Packet)
+     * @see net.minecraft.server.v1_9_R1.EntityTrackerEntry#broadcastIncludingSelf(net.minecraft.server.v1_9_R1.Packet)
      */
     @ReflectiveMethod(name = "broadcastIncludingSelf", types = {NMSPacket.class})
     public void broadcastIncludingSelf(NMSPacket packet){
@@ -42,7 +42,7 @@ public class NMSEntityTrackerEntry extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityTrackerEntry#c(net.minecraft.server.v1_8_R3.EntityPlayer)
+     * @see net.minecraft.server.v1_9_R1.EntityTrackerEntry#c(net.minecraft.server.v1_9_R1.EntityPlayer)
      */
     @ReflectiveMethod(name = "c", types = {NMSEntityPlayer.class})
     public boolean c(NMSEntityPlayer entityPlayer){
@@ -50,7 +50,7 @@ public class NMSEntityTrackerEntry extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTrackerEntry#clear(net.minecraft.server.v1_8_R3.EntityPlayer)
+     * @see net.minecraft.server.v1_9_R1.EntityTrackerEntry#clear(net.minecraft.server.v1_9_R1.EntityPlayer)
      */
     @ReflectiveMethod(name = "clear", types = {NMSEntityPlayer.class})
     public void clear(NMSEntityPlayer entityPlayer){
@@ -58,7 +58,7 @@ public class NMSEntityTrackerEntry extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTrackerEntry#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.EntityTrackerEntry#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -66,7 +66,7 @@ public class NMSEntityTrackerEntry extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTrackerEntry#hashCode()
+     * @see net.minecraft.server.v1_9_R1.EntityTrackerEntry#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -74,7 +74,7 @@ public class NMSEntityTrackerEntry extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTrackerEntry#updatePlayer(net.minecraft.server.v1_8_R3.EntityPlayer)
+     * @see net.minecraft.server.v1_9_R1.EntityTrackerEntry#updatePlayer(net.minecraft.server.v1_9_R1.EntityPlayer)
      */
     @ReflectiveMethod(name = "updatePlayer", types = {NMSEntityPlayer.class})
     public void updatePlayer(NMSEntityPlayer entityPlayer){

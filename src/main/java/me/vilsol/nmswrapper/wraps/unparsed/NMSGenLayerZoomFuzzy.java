@@ -17,7 +17,7 @@ public class NMSGenLayerZoomFuzzy extends NMSGenLayerZoom {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.GenLayerZoomFuzzy#b(int, int, int, int)
+     * @see net.minecraft.server.v1_9_R1.GenLayerZoomFuzzy#b(int, int, int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class, int.class, int.class})
     public int b(int i, int i1, int i2, int i3){

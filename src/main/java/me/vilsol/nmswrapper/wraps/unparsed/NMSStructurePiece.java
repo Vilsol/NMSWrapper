@@ -17,7 +17,7 @@ public class NMSStructurePiece extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructurePiece#a(int, int, int)
+     * @see net.minecraft.server.v1_9_R1.StructurePiece#a(int, int, int)
      */
     @ReflectiveMethod(name = "a", types = {int.class, int.class, int.class})
     public void a(int i, int i1, int i2){
@@ -26,7 +26,7 @@ public class NMSStructurePiece extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructurePiece#b(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.IBlockData, int, int, int, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+     * @see net.minecraft.server.v1_9_R1.StructurePiece#b(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.IBlockData, int, int, int, net.minecraft.server.v1_9_R1.StructureBoundingBox)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, NMSIBlockData.class, int.class, int.class, int.class, NMSStructureBoundingBox.class})
     public void b(NMSWorld world, NMSIBlockData iBlockData, int i, int i1, int i2, NMSStructureBoundingBox structureBoundingBox){
@@ -35,7 +35,7 @@ public class NMSStructurePiece extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructurePiece#c()
+     * @see net.minecraft.server.v1_9_R1.StructurePiece#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public NMSStructureBoundingBox c(){
@@ -44,7 +44,7 @@ public class NMSStructurePiece extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StructurePiece#d(int)
+     * @see net.minecraft.server.v1_9_R1.StructurePiece#d(int)
      */
     @ReflectiveMethod(name = "d", types = {int.class})
     public int d(int i){
@@ -60,7 +60,7 @@ public class NMSStructurePiece extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.StructurePiece$StructurePieceBlockSelector#a()
+         * @see net.minecraft.server.v1_9_R1.StructurePiece$StructurePieceBlockSelector#a()
          */
         @ReflectiveMethod(name = "a", types = {})
         public NMSIBlockData a(){

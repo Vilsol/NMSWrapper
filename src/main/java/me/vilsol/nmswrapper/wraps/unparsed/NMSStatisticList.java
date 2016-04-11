@@ -14,7 +14,7 @@ public class NMSStatisticList extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StatisticList#a(net.minecraft.server.v1_8_R3.EntityTypes$MonsterEggInfo)
+     * @see net.minecraft.server.v1_9_R1.StatisticList#a(net.minecraft.server.v1_9_R1.EntityTypes$MonsterEggInfo)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityTypes.NMSMonsterEggInfo.class})
     public NMSStatistic a(NMSEntityTypes.NMSMonsterEggInfo monsterEggInfo){
@@ -23,7 +23,7 @@ public class NMSStatisticList extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.StatisticList#b(net.minecraft.server.v1_8_R3.EntityTypes$MonsterEggInfo)
+     * @see net.minecraft.server.v1_9_R1.StatisticList#b(net.minecraft.server.v1_9_R1.EntityTypes$MonsterEggInfo)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityTypes.NMSMonsterEggInfo.class})
     public NMSStatistic b(NMSEntityTypes.NMSMonsterEggInfo monsterEggInfo){
@@ -31,7 +31,7 @@ public class NMSStatisticList extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.StatisticList#getStatistic(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.StatisticList#getStatistic(java.lang.String)
      */
     @ReflectiveMethod(name = "getStatistic", types = {String.class})
     public NMSStatistic getStatistic(String s){

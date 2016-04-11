@@ -17,7 +17,7 @@ public class NMSTileEntityFlowerPot extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityFlowerPot#a(net.minecraft.server.v1_8_R3.Item, int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFlowerPot#a(net.minecraft.server.v1_9_R1.Item, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSItem.class, int.class})
     public void a(NMSItem item, int i){
@@ -26,7 +26,7 @@ public class NMSTileEntityFlowerPot extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityFlowerPot#b()
+     * @see net.minecraft.server.v1_9_R1.TileEntityFlowerPot#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSItem b(){
@@ -35,7 +35,7 @@ public class NMSTileEntityFlowerPot extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityFlowerPot#c()
+     * @see net.minecraft.server.v1_9_R1.TileEntityFlowerPot#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public int c(){
@@ -43,7 +43,7 @@ public class NMSTileEntityFlowerPot extends NMSTileEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFlowerPot#getUpdatePacket()
+     * @see net.minecraft.server.v1_9_R1.TileEntityFlowerPot#getUpdatePacket()
      */
     @ReflectiveMethod(name = "getUpdatePacket", types = {})
     public NMSPacket getUpdatePacket(){

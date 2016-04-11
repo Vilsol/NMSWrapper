@@ -17,7 +17,7 @@ public class NMSVillage extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Village#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.Village#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -26,7 +26,7 @@ public class NMSVillage extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Village#b(int)
+     * @see net.minecraft.server.v1_9_R1.Village#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public void b(int i){
@@ -35,7 +35,7 @@ public class NMSVillage extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Village#c(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.Village#c(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "c", types = {NMSEntityLiving.class})
     public NMSEntityHuman c(NMSEntityLiving entityLiving){
@@ -44,7 +44,7 @@ public class NMSVillage extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Village#d(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.Village#d(java.lang.String)
      */
     @ReflectiveMethod(name = "d", types = {String.class})
     public boolean d(String s){
@@ -53,7 +53,7 @@ public class NMSVillage extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Village#e(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.Village#e(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "e", types = {NMSBlockPosition.class})
     public NMSVillageDoor e(NMSBlockPosition blockPosition){
@@ -62,7 +62,7 @@ public class NMSVillage extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Village#g()
+     * @see net.minecraft.server.v1_9_R1.Village#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public boolean g(){
@@ -71,7 +71,7 @@ public class NMSVillage extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Village#h()
+     * @see net.minecraft.server.v1_9_R1.Village#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -80,7 +80,7 @@ public class NMSVillage extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Village#i()
+     * @see net.minecraft.server.v1_9_R1.Village#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public boolean i(){

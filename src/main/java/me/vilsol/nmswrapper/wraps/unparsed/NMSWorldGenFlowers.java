@@ -19,7 +19,7 @@ public class NMSWorldGenFlowers extends NMSWorldGenerator {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenFlowers#a(net.minecraft.server.v1_8_R3.BlockFlowers, net.minecraft.server.v1_8_R3.BlockFlowers$EnumFlowerVarient)
+     * @see net.minecraft.server.v1_9_R1.WorldGenFlowers#a(net.minecraft.server.v1_9_R1.BlockFlowers, net.minecraft.server.v1_9_R1.BlockFlowers$EnumFlowerVarient)
      */
     @ReflectiveMethod(name = "a", types = {NMSBlockFlowers.class, NMSEnumFlowerVarient.class})
     public void a(NMSBlockFlowers blockFlowers, NMSEnumFlowerVarient enumFlowerVarient){
@@ -27,7 +27,7 @@ public class NMSWorldGenFlowers extends NMSWorldGenerator {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldGenFlowers#generate(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.WorldGenFlowers#generate(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "generate", types = {NMSWorld.class, Random.class, NMSBlockPosition.class})
     public boolean generate(NMSWorld world, Random random, NMSBlockPosition blockPosition){

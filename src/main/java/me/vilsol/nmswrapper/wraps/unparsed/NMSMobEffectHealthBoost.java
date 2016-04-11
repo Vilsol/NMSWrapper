@@ -17,7 +17,7 @@ public class NMSMobEffectHealthBoost extends NMSMobEffectList {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MobEffectHealthBoost#a(net.minecraft.server.v1_8_R3.EntityLiving, net.minecraft.server.v1_8_R3.AttributeMapBase, int)
+     * @see net.minecraft.server.v1_9_R1.MobEffectHealthBoost#a(net.minecraft.server.v1_9_R1.EntityLiving, net.minecraft.server.v1_9_R1.AttributeMapBase, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityLiving.class, NMSAttributeMapBase.class, int.class})
     public void a(NMSEntityLiving entityLiving, NMSAttributeMapBase attributeMapBase, int i){

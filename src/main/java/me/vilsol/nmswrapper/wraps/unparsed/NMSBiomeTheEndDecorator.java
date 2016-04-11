@@ -13,7 +13,7 @@ public class NMSBiomeTheEndDecorator extends NMSBiomeDecorator {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeTheEndDecorator#a(net.minecraft.server.v1_8_R3.BiomeBase)
+     * @see net.minecraft.server.v1_9_R1.BiomeTheEndDecorator#a(net.minecraft.server.v1_9_R1.BiomeBase)
      */
     @ReflectiveMethod(name = "a", types = {NMSBiomeBase.class})
     public void a(NMSBiomeBase biomeBase){

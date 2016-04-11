@@ -16,7 +16,7 @@ public class NMSBlockSapling extends NMSBlockPlant implements NMSIBlockFragilePl
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSapling#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSapling#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSBlockPosition.class, NMSIBlockData.class})
     public boolean a(NMSWorld world, Random random, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -25,7 +25,7 @@ public class NMSBlockSapling extends NMSBlockPlant implements NMSIBlockFragilePl
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSapling#b(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSapling#b(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, Random.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void b(NMSWorld world, Random random, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -34,7 +34,7 @@ public class NMSBlockSapling extends NMSBlockPlant implements NMSIBlockFragilePl
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSapling#e(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockSapling#e(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, java.util.Random)
      */
     @ReflectiveMethod(name = "e", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, Random.class})
     public void e(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, Random random){
@@ -42,7 +42,7 @@ public class NMSBlockSapling extends NMSBlockPlant implements NMSIBlockFragilePl
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSapling#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockSapling#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -50,7 +50,7 @@ public class NMSBlockSapling extends NMSBlockPlant implements NMSIBlockFragilePl
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSapling#getDropData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSapling#getDropData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSIBlockData.class})
     public int getDropData(NMSIBlockData iBlockData){
@@ -58,7 +58,7 @@ public class NMSBlockSapling extends NMSBlockPlant implements NMSIBlockFragilePl
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSapling#getName()
+     * @see net.minecraft.server.v1_9_R1.BlockSapling#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -66,7 +66,7 @@ public class NMSBlockSapling extends NMSBlockPlant implements NMSIBlockFragilePl
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSapling#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockSapling#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -74,7 +74,7 @@ public class NMSBlockSapling extends NMSBlockPlant implements NMSIBlockFragilePl
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSapling#grow(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockSapling#grow(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, java.util.Random)
      */
     @ReflectiveMethod(name = "grow", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, Random.class})
     public void grow(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, Random random){
@@ -82,7 +82,7 @@ public class NMSBlockSapling extends NMSBlockPlant implements NMSIBlockFragilePl
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSapling#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSapling#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

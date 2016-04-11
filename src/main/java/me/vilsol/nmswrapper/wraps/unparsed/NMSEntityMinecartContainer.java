@@ -27,7 +27,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#a(net.minecraft.server.v1_8_R3.ChestLock)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#a(net.minecraft.server.v1_9_R1.ChestLock)
      */
     @ReflectiveMethod(name = "a", types = {NMSChestLock.class})
     public void a(NMSChestLock chestLock){
@@ -36,7 +36,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#b(int, int)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#b(int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public void b(int i, int i1){
@@ -45,7 +45,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#c(int)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#c(int)
      */
     @ReflectiveMethod(name = "c", types = {int.class})
     public void c(int i){
@@ -53,7 +53,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#closeContainer(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#closeContainer(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "closeContainer", types = {NMSEntityHuman.class})
     public void closeContainer(NMSEntityHuman entityHuman){
@@ -61,7 +61,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#die()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#die()
      */
     @ReflectiveMethod(name = "die", types = {})
     public void die(){
@@ -70,7 +70,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#e(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#e(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "e", types = {NMSEntityHuman.class})
     public boolean e(NMSEntityHuman entityHuman){
@@ -79,7 +79,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#g()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public int g(){
@@ -87,7 +87,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#getItem(int)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#getItem(int)
      */
     @ReflectiveMethod(name = "getItem", types = {int.class})
     public NMSItemStack getItem(int i){
@@ -95,7 +95,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#getMaxStackSize()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#getMaxStackSize()
      */
     @ReflectiveMethod(name = "getMaxStackSize", types = {})
     public int getMaxStackSize(){
@@ -103,7 +103,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#getName()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -111,7 +111,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#getOwner()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#getOwner()
      */
     @ReflectiveMethod(name = "getOwner", types = {})
     public InventoryHolder getOwner(){
@@ -119,7 +119,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#getProperty(int)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#getProperty(int)
      */
     @ReflectiveMethod(name = "getProperty", types = {int.class})
     public int getProperty(int i){
@@ -128,7 +128,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#i()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public NMSChestLock i(){
@@ -137,7 +137,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#l()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public void l(){
@@ -146,7 +146,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#o()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#o()
      */
     @ReflectiveMethod(name = "o", types = {})
     public void o(){
@@ -154,7 +154,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#onClose(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#onClose(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onClose", types = {NMSCraftHumanEntity.class})
     public void onClose(NMSCraftHumanEntity craftHumanEntity){
@@ -162,7 +162,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#onOpen(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#onOpen(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onOpen", types = {NMSCraftHumanEntity.class})
     public void onOpen(NMSCraftHumanEntity craftHumanEntity){
@@ -171,7 +171,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#r_()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#r_()
      */
     @ReflectiveMethod(name = "r_", types = {})
     public boolean r_(){
@@ -179,7 +179,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#setItem(int, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#setItem(int, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "setItem", types = {int.class, NMSItemStack.class})
     public void setItem(int i, NMSItemStack itemStack){
@@ -187,7 +187,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#setMaxStackSize(int)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#setMaxStackSize(int)
      */
     @ReflectiveMethod(name = "setMaxStackSize", types = {int.class})
     public void setMaxStackSize(int i){
@@ -195,7 +195,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#splitStack(int, int)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#splitStack(int, int)
      */
     @ReflectiveMethod(name = "splitStack", types = {int.class, int.class})
     public NMSItemStack splitStack(int i, int i1){
@@ -203,7 +203,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#splitWithoutUpdate(int)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#splitWithoutUpdate(int)
      */
     @ReflectiveMethod(name = "splitWithoutUpdate", types = {int.class})
     public NMSItemStack splitWithoutUpdate(int i){
@@ -211,7 +211,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#startOpen(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#startOpen(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "startOpen", types = {NMSEntityHuman.class})
     public void startOpen(NMSEntityHuman entityHuman){
@@ -219,7 +219,7 @@ public class NMSEntityMinecartContainer extends NMSEntityMinecartAbstract implem
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartContainer#update()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartContainer#update()
      */
     @ReflectiveMethod(name = "update", types = {})
     public void update(){

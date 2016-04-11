@@ -18,7 +18,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces#a(java.lang.Class)
+     * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces#a(java.lang.Class)
      */
     @ReflectiveMethod(name = "a", types = {Class.class})
     public Class a(Class c){
@@ -27,7 +27,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces#b()
+     * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public void b(){
@@ -36,7 +36,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces#c()
+     * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public NMSWorldGenStrongholdStones c(){
@@ -56,7 +56,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdStairsStraight#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdStairsStraight#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -78,7 +78,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdCrossing#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdCrossing#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -87,7 +87,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdCrossing#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdCrossing#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -109,7 +109,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdPrison#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdPrison#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -127,7 +127,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdRightTurn#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdRightTurn#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -149,7 +149,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdStairs#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdStairs#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -158,7 +158,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdStairs#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdStairs#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -180,7 +180,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdCorridor#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdCorridor#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -189,7 +189,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdCorridor#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdCorridor#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -211,7 +211,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdLibrary#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdLibrary#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -220,7 +220,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdLibrary#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdLibrary#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -242,7 +242,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdChestCorridor#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdChestCorridor#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -251,7 +251,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdChestCorridor#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdChestCorridor#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -273,7 +273,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdPortalRoom#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdPortalRoom#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -282,7 +282,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdPortalRoom#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdPortalRoom#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -304,7 +304,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdRoomCrossing#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdRoomCrossing#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -313,7 +313,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdRoomCrossing#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdRoomCrossing#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -343,7 +343,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdStairs2#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdStairs2#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){
@@ -352,7 +352,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdStairs2#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdStairs2#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
          */
         @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
         public void b(NMSNBTTagCompound nBTTagCompound){
@@ -374,7 +374,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdStart#a()
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdStart#a()
          */
         @ReflectiveMethod(name = "a", types = {})
         public NMSBlockPosition a(){
@@ -396,7 +396,7 @@ public class NMSWorldGenStrongholdPieces extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldGenStrongholdPieces$WorldGenStrongholdLeftTurn#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.StructureBoundingBox)
+         * @see net.minecraft.server.v1_9_R1.WorldGenStrongholdPieces$WorldGenStrongholdLeftTurn#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.StructureBoundingBox)
          */
         @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSStructureBoundingBox.class})
         public boolean a(NMSWorld world, Random random, NMSStructureBoundingBox structureBoundingBox){

@@ -21,7 +21,7 @@ public class NMSEntityLargeFireball extends NMSEntityFireball {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLargeFireball#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityLargeFireball#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -30,7 +30,7 @@ public class NMSEntityLargeFireball extends NMSEntityFireball {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLargeFireball#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityLargeFireball#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){

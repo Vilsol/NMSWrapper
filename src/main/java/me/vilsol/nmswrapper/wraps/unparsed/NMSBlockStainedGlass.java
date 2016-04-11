@@ -20,7 +20,7 @@ public class NMSBlockStainedGlass extends NMSBlockHalfTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStainedGlass#I()
+     * @see net.minecraft.server.v1_9_R1.BlockStainedGlass#I()
      */
     @ReflectiveMethod(name = "I", types = {})
     public boolean I(){
@@ -29,7 +29,7 @@ public class NMSBlockStainedGlass extends NMSBlockHalfTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStainedGlass#a(java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockStainedGlass#a(java.util.Random)
      */
     @ReflectiveMethod(name = "a", types = {Random.class})
     public int a(Random random){
@@ -38,7 +38,7 @@ public class NMSBlockStainedGlass extends NMSBlockHalfTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStainedGlass#d()
+     * @see net.minecraft.server.v1_9_R1.BlockStainedGlass#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -46,7 +46,7 @@ public class NMSBlockStainedGlass extends NMSBlockHalfTransparent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStainedGlass#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockStainedGlass#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -55,7 +55,7 @@ public class NMSBlockStainedGlass extends NMSBlockHalfTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStainedGlass#g(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockStainedGlass#g(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "g", types = {NMSIBlockData.class})
     public NMSMaterialMapColor g(NMSIBlockData iBlockData){
@@ -63,7 +63,7 @@ public class NMSBlockStainedGlass extends NMSBlockHalfTransparent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStainedGlass#getDropData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockStainedGlass#getDropData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSIBlockData.class})
     public int getDropData(NMSIBlockData iBlockData){
@@ -71,7 +71,7 @@ public class NMSBlockStainedGlass extends NMSBlockHalfTransparent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStainedGlass#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockStainedGlass#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -79,7 +79,7 @@ public class NMSBlockStainedGlass extends NMSBlockHalfTransparent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStainedGlass#onPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockStainedGlass#onPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "onPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void onPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -87,7 +87,7 @@ public class NMSBlockStainedGlass extends NMSBlockHalfTransparent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStainedGlass#remove(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockStainedGlass#remove(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "remove", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void remove(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -95,7 +95,7 @@ public class NMSBlockStainedGlass extends NMSBlockHalfTransparent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStainedGlass#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockStainedGlass#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

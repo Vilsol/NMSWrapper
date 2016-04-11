@@ -21,7 +21,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#B()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#B()
      */
     @ReflectiveMethod(name = "B", types = {})
     public void B(){
@@ -30,7 +30,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#G()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#G()
      */
     @ReflectiveMethod(name = "G", types = {})
     public void G(){
@@ -39,7 +39,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#a(net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.Vec3D)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#a(net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.Vec3D)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class, NMSVec3D.class})
     public boolean a(NMSEntityHuman entityHuman, NMSVec3D vec3D){
@@ -48,7 +48,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#aW()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#aW()
      */
     @ReflectiveMethod(name = "aW", types = {})
     public boolean aW(){
@@ -57,7 +57,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#ad()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#ad()
      */
     @ReflectiveMethod(name = "ad", types = {})
     public boolean ad(){
@@ -66,7 +66,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#ae()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#ae()
      */
     @ReflectiveMethod(name = "ae", types = {})
     public boolean ae(){
@@ -75,7 +75,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -84,7 +84,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#bA()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#bA()
      */
     @ReflectiveMethod(name = "bA", types = {})
     public NMSItemStack bA(){
@@ -93,7 +93,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#bL()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#bL()
      */
     @ReflectiveMethod(name = "bL", types = {})
     public void bL(){
@@ -102,7 +102,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#bM()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#bM()
      */
     @ReflectiveMethod(name = "bM", types = {})
     public boolean bM(){
@@ -111,7 +111,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#d(int, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#d(int, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "d", types = {int.class, NMSItemStack.class})
     public boolean d(int i, NMSItemStack itemStack){
@@ -119,7 +119,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -128,7 +128,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#g(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#g(float, float)
      */
     @ReflectiveMethod(name = "g", types = {float.class, float.class})
     public void g(float f, float f1){
@@ -136,7 +136,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#getEquipment(int)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#getEquipment(int)
      */
     @ReflectiveMethod(name = "getEquipment", types = {int.class})
     public NMSItemStack getEquipment(int i){
@@ -144,7 +144,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -153,7 +153,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#h(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#h(float, float)
      */
     @ReflectiveMethod(name = "h", types = {float.class, float.class})
     public float h(float f, float f1){
@@ -161,7 +161,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#hasArms()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#hasArms()
      */
     @ReflectiveMethod(name = "hasArms", types = {})
     public boolean hasArms(){
@@ -169,7 +169,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#hasBasePlate()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#hasBasePlate()
      */
     @ReflectiveMethod(name = "hasBasePlate", types = {})
     public boolean hasBasePlate(){
@@ -177,7 +177,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#hasGravity()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#hasGravity()
      */
     @ReflectiveMethod(name = "hasGravity", types = {})
     public boolean hasGravity(){
@@ -185,7 +185,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#isBaby()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#isBaby()
      */
     @ReflectiveMethod(name = "isBaby", types = {})
     public boolean isBaby(){
@@ -193,7 +193,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#isSmall()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#isSmall()
      */
     @ReflectiveMethod(name = "isSmall", types = {})
     public boolean isSmall(){
@@ -202,7 +202,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#n(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#n(boolean)
      */
     @ReflectiveMethod(name = "n", types = {boolean.class})
     public void n(boolean b){
@@ -211,7 +211,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#s()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#s()
      */
     @ReflectiveMethod(name = "s", types = {})
     public boolean s(){
@@ -219,7 +219,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#setArms(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#setArms(boolean)
      */
     @ReflectiveMethod(name = "setArms", types = {boolean.class})
     public void setArms(boolean b){
@@ -227,7 +227,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#setBasePlate(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#setBasePlate(boolean)
      */
     @ReflectiveMethod(name = "setBasePlate", types = {boolean.class})
     public void setBasePlate(boolean b){
@@ -235,7 +235,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#setBodyPose(net.minecraft.server.v1_8_R3.Vector3f)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#setBodyPose(net.minecraft.server.v1_9_R1.Vector3f)
      */
     @ReflectiveMethod(name = "setBodyPose", types = {NMSVector3f.class})
     public void setBodyPose(NMSVector3f vector3f){
@@ -243,7 +243,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#setEquipment(int, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#setEquipment(int, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "setEquipment", types = {int.class, NMSItemStack.class})
     public void setEquipment(int i, NMSItemStack itemStack){
@@ -251,7 +251,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#setGravity(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#setGravity(boolean)
      */
     @ReflectiveMethod(name = "setGravity", types = {boolean.class})
     public void setGravity(boolean b){
@@ -259,7 +259,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#setHeadPose(net.minecraft.server.v1_8_R3.Vector3f)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#setHeadPose(net.minecraft.server.v1_9_R1.Vector3f)
      */
     @ReflectiveMethod(name = "setHeadPose", types = {NMSVector3f.class})
     public void setHeadPose(NMSVector3f vector3f){
@@ -267,7 +267,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#setInvisible(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#setInvisible(boolean)
      */
     @ReflectiveMethod(name = "setInvisible", types = {boolean.class})
     public void setInvisible(boolean b){
@@ -275,7 +275,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#setLeftArmPose(net.minecraft.server.v1_8_R3.Vector3f)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#setLeftArmPose(net.minecraft.server.v1_9_R1.Vector3f)
      */
     @ReflectiveMethod(name = "setLeftArmPose", types = {NMSVector3f.class})
     public void setLeftArmPose(NMSVector3f vector3f){
@@ -283,7 +283,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#setLeftLegPose(net.minecraft.server.v1_8_R3.Vector3f)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#setLeftLegPose(net.minecraft.server.v1_9_R1.Vector3f)
      */
     @ReflectiveMethod(name = "setLeftLegPose", types = {NMSVector3f.class})
     public void setLeftLegPose(NMSVector3f vector3f){
@@ -291,7 +291,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#setRightArmPose(net.minecraft.server.v1_8_R3.Vector3f)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#setRightArmPose(net.minecraft.server.v1_9_R1.Vector3f)
      */
     @ReflectiveMethod(name = "setRightArmPose", types = {NMSVector3f.class})
     public void setRightArmPose(NMSVector3f vector3f){
@@ -299,7 +299,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#setRightLegPose(net.minecraft.server.v1_8_R3.Vector3f)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#setRightLegPose(net.minecraft.server.v1_9_R1.Vector3f)
      */
     @ReflectiveMethod(name = "setRightLegPose", types = {NMSVector3f.class})
     public void setRightLegPose(NMSVector3f vector3f){
@@ -307,7 +307,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#setSmall(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#setSmall(boolean)
      */
     @ReflectiveMethod(name = "setSmall", types = {boolean.class})
     public void setSmall(boolean b){
@@ -316,7 +316,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#t()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#t()
      */
     @ReflectiveMethod(name = "t", types = {})
     public NMSVector3f t(){
@@ -325,7 +325,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){
@@ -334,7 +334,7 @@ public class NMSEntityArmorStand extends NMSEntityLiving {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityArmorStand#u()
+     * @see net.minecraft.server.v1_9_R1.EntityArmorStand#u()
      */
     @ReflectiveMethod(name = "u", types = {})
     public NMSVector3f u(){

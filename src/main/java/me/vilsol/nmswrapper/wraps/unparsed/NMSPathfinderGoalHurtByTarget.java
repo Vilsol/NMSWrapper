@@ -17,7 +17,7 @@ public class NMSPathfinderGoalHurtByTarget extends NMSPathfinderGoalTarget {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalHurtByTarget#a(net.minecraft.server.v1_8_R3.EntityCreature, net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalHurtByTarget#a(net.minecraft.server.v1_9_R1.EntityCreature, net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityCreature.class, NMSEntityLiving.class})
     public void a(NMSEntityCreature entityCreature, NMSEntityLiving entityLiving){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalHurtByTarget extends NMSPathfinderGoalTarget {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalHurtByTarget#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalHurtByTarget#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){

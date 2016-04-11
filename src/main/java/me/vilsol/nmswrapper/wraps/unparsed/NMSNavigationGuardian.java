@@ -19,7 +19,7 @@ public class NMSNavigationGuardian extends NMSNavigationAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NavigationGuardian#a(net.minecraft.server.v1_8_R3.Vec3D, net.minecraft.server.v1_8_R3.Vec3D, int, int, int)
+     * @see net.minecraft.server.v1_9_R1.NavigationGuardian#a(net.minecraft.server.v1_9_R1.Vec3D, net.minecraft.server.v1_9_R1.Vec3D, int, int, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSVec3D.class, NMSVec3D.class, int.class, int.class, int.class})
     public boolean a(NMSVec3D vec3D, NMSVec3D vec3D1, int i, int i1, int i2){
@@ -28,7 +28,7 @@ public class NMSNavigationGuardian extends NMSNavigationAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NavigationGuardian#b()
+     * @see net.minecraft.server.v1_9_R1.NavigationGuardian#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -37,7 +37,7 @@ public class NMSNavigationGuardian extends NMSNavigationAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NavigationGuardian#c()
+     * @see net.minecraft.server.v1_9_R1.NavigationGuardian#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public NMSVec3D c(){
@@ -46,7 +46,7 @@ public class NMSNavigationGuardian extends NMSNavigationAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NavigationGuardian#d()
+     * @see net.minecraft.server.v1_9_R1.NavigationGuardian#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -55,7 +55,7 @@ public class NMSNavigationGuardian extends NMSNavigationAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NavigationGuardian#l()
+     * @see net.minecraft.server.v1_9_R1.NavigationGuardian#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public void l(){

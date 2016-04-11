@@ -17,7 +17,7 @@ public class NMSSlotFurnaceFuel extends NMSSlot {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SlotFurnaceFuel#c_(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.SlotFurnaceFuel#c_(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "c_", types = {NMSItemStack.class})
     public boolean c_(NMSItemStack itemStack){
@@ -25,7 +25,7 @@ public class NMSSlotFurnaceFuel extends NMSSlot {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SlotFurnaceFuel#getMaxStackSize(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.SlotFurnaceFuel#getMaxStackSize(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "getMaxStackSize", types = {NMSItemStack.class})
     public int getMaxStackSize(NMSItemStack itemStack){
@@ -33,7 +33,7 @@ public class NMSSlotFurnaceFuel extends NMSSlot {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SlotFurnaceFuel#isAllowed(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.SlotFurnaceFuel#isAllowed(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "isAllowed", types = {NMSItemStack.class})
     public boolean isAllowed(NMSItemStack itemStack){

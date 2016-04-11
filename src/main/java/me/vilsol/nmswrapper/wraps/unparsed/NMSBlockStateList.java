@@ -16,7 +16,7 @@ public class NMSBlockStateList extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStateList#getBlock()
+     * @see net.minecraft.server.v1_9_R1.BlockStateList#getBlock()
      */
     @ReflectiveMethod(name = "getBlock", types = {})
     public NMSBlock getBlock(){
@@ -24,7 +24,7 @@ public class NMSBlockStateList extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStateList#getBlockData()
+     * @see net.minecraft.server.v1_9_R1.BlockStateList#getBlockData()
      */
     @ReflectiveMethod(name = "getBlockData", types = {})
     public NMSIBlockData getBlockData(){
@@ -32,7 +32,7 @@ public class NMSBlockStateList extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStateList#toString()
+     * @see net.minecraft.server.v1_9_R1.BlockStateList#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

@@ -17,7 +17,7 @@ public class NMSChatComponentScore extends NMSChatBaseComponent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatComponentScore#b(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.ChatComponentScore#b(java.lang.String)
      */
     @ReflectiveMethod(name = "b", types = {String.class})
     public void b(String s){
@@ -25,7 +25,7 @@ public class NMSChatComponentScore extends NMSChatBaseComponent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatComponentScore#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.ChatComponentScore#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -34,7 +34,7 @@ public class NMSChatComponentScore extends NMSChatBaseComponent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatComponentScore#f()
+     * @see net.minecraft.server.v1_9_R1.ChatComponentScore#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public NMSIChatBaseComponent f(){
@@ -43,7 +43,7 @@ public class NMSChatComponentScore extends NMSChatBaseComponent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatComponentScore#g()
+     * @see net.minecraft.server.v1_9_R1.ChatComponentScore#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public String g(){
@@ -51,7 +51,7 @@ public class NMSChatComponentScore extends NMSChatBaseComponent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatComponentScore#getText()
+     * @see net.minecraft.server.v1_9_R1.ChatComponentScore#getText()
      */
     @ReflectiveMethod(name = "getText", types = {})
     public String getText(){
@@ -60,7 +60,7 @@ public class NMSChatComponentScore extends NMSChatBaseComponent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatComponentScore#h()
+     * @see net.minecraft.server.v1_9_R1.ChatComponentScore#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public String h(){
@@ -69,7 +69,7 @@ public class NMSChatComponentScore extends NMSChatBaseComponent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatComponentScore#i()
+     * @see net.minecraft.server.v1_9_R1.ChatComponentScore#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public NMSChatComponentScore i(){
@@ -77,7 +77,7 @@ public class NMSChatComponentScore extends NMSChatBaseComponent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatComponentScore#toString()
+     * @see net.minecraft.server.v1_9_R1.ChatComponentScore#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

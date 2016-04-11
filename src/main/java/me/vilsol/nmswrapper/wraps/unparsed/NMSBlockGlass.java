@@ -19,7 +19,7 @@ public class NMSBlockGlass extends NMSBlockHalfTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockGlass#I()
+     * @see net.minecraft.server.v1_9_R1.BlockGlass#I()
      */
     @ReflectiveMethod(name = "I", types = {})
     public boolean I(){
@@ -28,7 +28,7 @@ public class NMSBlockGlass extends NMSBlockHalfTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockGlass#a(java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockGlass#a(java.util.Random)
      */
     @ReflectiveMethod(name = "a", types = {Random.class})
     public int a(Random random){
@@ -37,7 +37,7 @@ public class NMSBlockGlass extends NMSBlockHalfTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockGlass#d()
+     * @see net.minecraft.server.v1_9_R1.BlockGlass#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){

@@ -20,7 +20,7 @@ public class NMSPortalTravelAgent extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PortalTravelAgent#a(long)
+     * @see net.minecraft.server.v1_9_R1.PortalTravelAgent#a(long)
      */
     @ReflectiveMethod(name = "a", types = {long.class})
     public void a(long l){
@@ -28,7 +28,7 @@ public class NMSPortalTravelAgent extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PortalTravelAgent#adjustExit(net.minecraft.server.v1_8_R3.Entity, org.bukkit.Location, org.bukkit.util.Vector)
+     * @see net.minecraft.server.v1_9_R1.PortalTravelAgent#adjustExit(net.minecraft.server.v1_9_R1.Entity, org.bukkit.Location, org.bukkit.util.Vector)
      */
     @ReflectiveMethod(name = "adjustExit", types = {NMSEntity.class, Location.class, Vector.class})
     public void adjustExit(NMSEntity entity, Location location, Vector vector){
@@ -37,7 +37,7 @@ public class NMSPortalTravelAgent extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PortalTravelAgent#b(net.minecraft.server.v1_8_R3.Entity, float)
+     * @see net.minecraft.server.v1_9_R1.PortalTravelAgent#b(net.minecraft.server.v1_9_R1.Entity, float)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntity.class, float.class})
     public boolean b(NMSEntity entity, float f){
@@ -45,7 +45,7 @@ public class NMSPortalTravelAgent extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PortalTravelAgent#createPortal(double, double, double, int)
+     * @see net.minecraft.server.v1_9_R1.PortalTravelAgent#createPortal(double, double, double, int)
      */
     @ReflectiveMethod(name = "createPortal", types = {double.class, double.class, double.class, int.class})
     public boolean createPortal(double d, double d1, double d2, int i){
@@ -53,7 +53,7 @@ public class NMSPortalTravelAgent extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PortalTravelAgent#findPortal(double, double, double, int)
+     * @see net.minecraft.server.v1_9_R1.PortalTravelAgent#findPortal(double, double, double, int)
      */
     @ReflectiveMethod(name = "findPortal", types = {double.class, double.class, double.class, int.class})
     public NMSBlockPosition findPortal(double d, double d1, double d2, int i){

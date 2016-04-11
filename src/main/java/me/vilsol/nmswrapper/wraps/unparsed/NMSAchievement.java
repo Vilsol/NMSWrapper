@@ -25,7 +25,7 @@ public class NMSAchievement extends NMSStatistic {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Achievement#a()
+     * @see net.minecraft.server.v1_9_R1.Achievement#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public NMSAchievement a(){
@@ -34,7 +34,7 @@ public class NMSAchievement extends NMSStatistic {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Achievement#b(java.lang.Class)
+     * @see net.minecraft.server.v1_9_R1.Achievement#b(java.lang.Class)
      */
     @ReflectiveMethod(name = "b", types = {Class.class})
     public NMSStatistic b(Class c){
@@ -43,7 +43,7 @@ public class NMSAchievement extends NMSStatistic {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Achievement#c()
+     * @see net.minecraft.server.v1_9_R1.Achievement#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public NMSAchievement c(){
@@ -52,7 +52,7 @@ public class NMSAchievement extends NMSStatistic {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Achievement#d()
+     * @see net.minecraft.server.v1_9_R1.Achievement#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -61,7 +61,7 @@ public class NMSAchievement extends NMSStatistic {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Achievement#e()
+     * @see net.minecraft.server.v1_9_R1.Achievement#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public NMSIChatBaseComponent e(){
@@ -70,7 +70,7 @@ public class NMSAchievement extends NMSStatistic {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Achievement#g()
+     * @see net.minecraft.server.v1_9_R1.Achievement#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public boolean g(){
@@ -79,7 +79,7 @@ public class NMSAchievement extends NMSStatistic {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Achievement#h()
+     * @see net.minecraft.server.v1_9_R1.Achievement#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public NMSStatistic h(){
@@ -88,7 +88,7 @@ public class NMSAchievement extends NMSStatistic {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Achievement#i()
+     * @see net.minecraft.server.v1_9_R1.Achievement#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public NMSStatistic i(){

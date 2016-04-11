@@ -19,7 +19,7 @@ public class NMSBlockHugeMushroom extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockHugeMushroom#a(java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockHugeMushroom#a(java.util.Random)
      */
     @ReflectiveMethod(name = "a", types = {Random.class})
     public int a(Random random){
@@ -27,7 +27,7 @@ public class NMSBlockHugeMushroom extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockHugeMushroom#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockHugeMushroom#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -36,7 +36,7 @@ public class NMSBlockHugeMushroom extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockHugeMushroom#g(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockHugeMushroom#g(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "g", types = {NMSIBlockData.class})
     public NMSMaterialMapColor g(NMSIBlockData iBlockData){
@@ -44,7 +44,7 @@ public class NMSBlockHugeMushroom extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockHugeMushroom#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockHugeMushroom#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -52,7 +52,7 @@ public class NMSBlockHugeMushroom extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockHugeMushroom#getPlacedState(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float, int, net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.BlockHugeMushroom#getPlacedState(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float, int, net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getPlacedState", types = {NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class, float.class, float.class, float.class, int.class, NMSEntityLiving.class})
     public NMSIBlockData getPlacedState(NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, float f, float f1, float f2, int i, NMSEntityLiving entityLiving){
@@ -60,7 +60,7 @@ public class NMSBlockHugeMushroom extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockHugeMushroom#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockHugeMushroom#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -68,7 +68,7 @@ public class NMSBlockHugeMushroom extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockHugeMushroom#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockHugeMushroom#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

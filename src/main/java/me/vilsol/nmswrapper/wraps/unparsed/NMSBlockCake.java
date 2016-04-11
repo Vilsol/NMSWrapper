@@ -15,7 +15,7 @@ public class NMSBlockCake extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCake#a(java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BlockCake#a(java.util.Random)
      */
     @ReflectiveMethod(name = "a", types = {Random.class})
     public int a(Random random){
@@ -23,7 +23,7 @@ public class NMSBlockCake extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCake#attack(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.BlockCake#attack(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "attack", types = {NMSWorld.class, NMSBlockPosition.class, NMSEntityHuman.class})
     public void attack(NMSWorld world, NMSBlockPosition blockPosition, NMSEntityHuman entityHuman){
@@ -32,7 +32,7 @@ public class NMSBlockCake extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCake#c()
+     * @see net.minecraft.server.v1_9_R1.BlockCake#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -40,7 +40,7 @@ public class NMSBlockCake extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCake#canPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockCake#canPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "canPlace", types = {NMSWorld.class, NMSBlockPosition.class})
     public boolean canPlace(NMSWorld world, NMSBlockPosition blockPosition){
@@ -49,7 +49,7 @@ public class NMSBlockCake extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCake#d()
+     * @see net.minecraft.server.v1_9_R1.BlockCake#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -57,7 +57,7 @@ public class NMSBlockCake extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCake#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockCake#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -65,7 +65,7 @@ public class NMSBlockCake extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCake#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockCake#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -73,7 +73,7 @@ public class NMSBlockCake extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCake#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockCake#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -81,7 +81,7 @@ public class NMSBlockCake extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCake#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockCake#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -89,7 +89,7 @@ public class NMSBlockCake extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCake#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockCake#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -97,7 +97,7 @@ public class NMSBlockCake extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCake#isComplexRedstone()
+     * @see net.minecraft.server.v1_9_R1.BlockCake#isComplexRedstone()
      */
     @ReflectiveMethod(name = "isComplexRedstone", types = {})
     public boolean isComplexRedstone(){
@@ -106,7 +106,7 @@ public class NMSBlockCake extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCake#j()
+     * @see net.minecraft.server.v1_9_R1.BlockCake#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public void j(){
@@ -115,7 +115,7 @@ public class NMSBlockCake extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCake#l(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockCake#l(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "l", types = {NMSWorld.class, NMSBlockPosition.class})
     public int l(NMSWorld world, NMSBlockPosition blockPosition){
@@ -123,7 +123,7 @@ public class NMSBlockCake extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCake#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockCake#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -131,7 +131,7 @@ public class NMSBlockCake extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCake#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockCake#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

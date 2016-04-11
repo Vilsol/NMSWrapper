@@ -13,7 +13,7 @@ public class NMSMobEffectAttackDamage extends NMSMobEffectList {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.MobEffectAttackDamage#a(int, net.minecraft.server.v1_8_R3.AttributeModifier)
+     * @see net.minecraft.server.v1_9_R1.MobEffectAttackDamage#a(int, net.minecraft.server.v1_9_R1.AttributeModifier)
      */
     @ReflectiveMethod(name = "a", types = {int.class, NMSAttributeModifier.class})
     public double a(int i, NMSAttributeModifier attributeModifier){

@@ -15,7 +15,7 @@ public class NMSAchievementSet extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AchievementSet#a()
+     * @see net.minecraft.server.v1_9_R1.AchievementSet#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public JsonElement a(){
@@ -23,7 +23,7 @@ public class NMSAchievementSet extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.AchievementSet#delegate()
+     * @see net.minecraft.server.v1_9_R1.AchievementSet#delegate()
      */
     @ReflectiveMethod(name = "delegate", types = {})
     public Object delegate(){

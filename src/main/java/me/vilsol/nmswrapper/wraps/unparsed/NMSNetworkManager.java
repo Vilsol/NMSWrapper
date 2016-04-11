@@ -21,7 +21,7 @@ public class NMSNetworkManager extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NetworkManager#a(int)
+     * @see net.minecraft.server.v1_9_R1.NetworkManager#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public void a(int i){
@@ -30,7 +30,7 @@ public class NMSNetworkManager extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NetworkManager#c()
+     * @see net.minecraft.server.v1_9_R1.NetworkManager#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -38,7 +38,7 @@ public class NMSNetworkManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NetworkManager#close(net.minecraft.server.v1_8_R3.IChatBaseComponent)
+     * @see net.minecraft.server.v1_9_R1.NetworkManager#close(net.minecraft.server.v1_9_R1.IChatBaseComponent)
      */
     @ReflectiveMethod(name = "close", types = {NMSIChatBaseComponent.class})
     public void close(NMSIChatBaseComponent iChatBaseComponent){
@@ -47,7 +47,7 @@ public class NMSNetworkManager extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NetworkManager#g()
+     * @see net.minecraft.server.v1_9_R1.NetworkManager#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public boolean g(){
@@ -55,7 +55,7 @@ public class NMSNetworkManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NetworkManager#getPacketListener()
+     * @see net.minecraft.server.v1_9_R1.NetworkManager#getPacketListener()
      */
     @ReflectiveMethod(name = "getPacketListener", types = {})
     public NMSPacketListener getPacketListener(){
@@ -63,7 +63,7 @@ public class NMSNetworkManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NetworkManager#getRawAddress()
+     * @see net.minecraft.server.v1_9_R1.NetworkManager#getRawAddress()
      */
     @ReflectiveMethod(name = "getRawAddress", types = {})
     public SocketAddress getRawAddress(){
@@ -71,7 +71,7 @@ public class NMSNetworkManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NetworkManager#getSocketAddress()
+     * @see net.minecraft.server.v1_9_R1.NetworkManager#getSocketAddress()
      */
     @ReflectiveMethod(name = "getSocketAddress", types = {})
     public SocketAddress getSocketAddress(){
@@ -80,7 +80,7 @@ public class NMSNetworkManager extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NetworkManager#h()
+     * @see net.minecraft.server.v1_9_R1.NetworkManager#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public boolean h(){
@@ -88,7 +88,7 @@ public class NMSNetworkManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.NetworkManager#handle(net.minecraft.server.v1_8_R3.Packet)
+     * @see net.minecraft.server.v1_9_R1.NetworkManager#handle(net.minecraft.server.v1_9_R1.Packet)
      */
     @ReflectiveMethod(name = "handle", types = {NMSPacket.class})
     public void handle(NMSPacket packet){
@@ -97,7 +97,7 @@ public class NMSNetworkManager extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NetworkManager#j()
+     * @see net.minecraft.server.v1_9_R1.NetworkManager#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public NMSIChatBaseComponent j(){
@@ -106,7 +106,7 @@ public class NMSNetworkManager extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NetworkManager#k()
+     * @see net.minecraft.server.v1_9_R1.NetworkManager#k()
      */
     @ReflectiveMethod(name = "k", types = {})
     public void k(){
@@ -115,7 +115,7 @@ public class NMSNetworkManager extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.NetworkManager#l()
+     * @see net.minecraft.server.v1_9_R1.NetworkManager#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public void l(){

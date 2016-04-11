@@ -17,7 +17,7 @@ public class NMSEnchantmentFlameArrows extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentFlameArrows#a(int)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentFlameArrows#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public int a(int i){
@@ -26,7 +26,7 @@ public class NMSEnchantmentFlameArrows extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentFlameArrows#b(int)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentFlameArrows#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public int b(int i){
@@ -34,7 +34,7 @@ public class NMSEnchantmentFlameArrows extends NMSEnchantment {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentFlameArrows#getMaxLevel()
+     * @see net.minecraft.server.v1_9_R1.EnchantmentFlameArrows#getMaxLevel()
      */
     @ReflectiveMethod(name = "getMaxLevel", types = {})
     public int getMaxLevel(){

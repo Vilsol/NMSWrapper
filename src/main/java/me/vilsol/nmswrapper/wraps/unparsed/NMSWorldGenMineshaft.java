@@ -13,7 +13,7 @@ public class NMSWorldGenMineshaft extends NMSStructureGenerator {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenMineshaft#a(int, int)
+     * @see net.minecraft.server.v1_9_R1.WorldGenMineshaft#a(int, int)
      */
     @ReflectiveMethod(name = "a", types = {int.class, int.class})
     public boolean a(int i, int i1){
@@ -22,7 +22,7 @@ public class NMSWorldGenMineshaft extends NMSStructureGenerator {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenMineshaft#b(int, int)
+     * @see net.minecraft.server.v1_9_R1.WorldGenMineshaft#b(int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public NMSStructureStart b(int i, int i1){

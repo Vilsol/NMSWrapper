@@ -18,7 +18,7 @@ public class NMSRegionFileCache extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegionFileCache#a()
+     * @see net.minecraft.server.v1_9_R1.RegionFileCache#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public void a(){
@@ -27,7 +27,7 @@ public class NMSRegionFileCache extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegionFileCache#c(java.io.File, int, int)
+     * @see net.minecraft.server.v1_9_R1.RegionFileCache#c(java.io.File, int, int)
      */
     @ReflectiveMethod(name = "c", types = {File.class, int.class, int.class})
     public DataInputStream c(File file, int i, int i1){
@@ -36,7 +36,7 @@ public class NMSRegionFileCache extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.RegionFileCache#d(java.io.File, int, int)
+     * @see net.minecraft.server.v1_9_R1.RegionFileCache#d(java.io.File, int, int)
      */
     @ReflectiveMethod(name = "d", types = {File.class, int.class, int.class})
     public DataOutputStream d(File file, int i, int i1){

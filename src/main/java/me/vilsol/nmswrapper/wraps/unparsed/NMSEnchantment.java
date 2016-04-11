@@ -17,7 +17,7 @@ public class NMSEnchantment extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Enchantment#a(net.minecraft.server.v1_8_R3.EntityLiving, net.minecraft.server.v1_8_R3.Entity, int)
+     * @see net.minecraft.server.v1_9_R1.Enchantment#a(net.minecraft.server.v1_9_R1.EntityLiving, net.minecraft.server.v1_9_R1.Entity, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityLiving.class, NMSEntity.class, int.class})
     public void a(NMSEntityLiving entityLiving, NMSEntity entity, int i){
@@ -26,7 +26,7 @@ public class NMSEnchantment extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Enchantment#b(net.minecraft.server.v1_8_R3.EntityLiving, net.minecraft.server.v1_8_R3.Entity, int)
+     * @see net.minecraft.server.v1_9_R1.Enchantment#b(net.minecraft.server.v1_9_R1.EntityLiving, net.minecraft.server.v1_9_R1.Entity, int)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityLiving.class, NMSEntity.class, int.class})
     public void b(NMSEntityLiving entityLiving, NMSEntity entity, int i){
@@ -35,7 +35,7 @@ public class NMSEnchantment extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Enchantment#c(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.Enchantment#c(java.lang.String)
      */
     @ReflectiveMethod(name = "c", types = {String.class})
     public NMSEnchantment c(String s){
@@ -43,7 +43,7 @@ public class NMSEnchantment extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Enchantment#canEnchant(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.Enchantment#canEnchant(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "canEnchant", types = {NMSItemStack.class})
     public boolean canEnchant(NMSItemStack itemStack){
@@ -52,7 +52,7 @@ public class NMSEnchantment extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Enchantment#d(int)
+     * @see net.minecraft.server.v1_9_R1.Enchantment#d(int)
      */
     @ReflectiveMethod(name = "d", types = {int.class})
     public String d(int i){
@@ -60,7 +60,7 @@ public class NMSEnchantment extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Enchantment#getById(int)
+     * @see net.minecraft.server.v1_9_R1.Enchantment#getById(int)
      */
     @ReflectiveMethod(name = "getById", types = {int.class})
     public NMSEnchantment getById(int i){
@@ -68,7 +68,7 @@ public class NMSEnchantment extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Enchantment#getByName(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.Enchantment#getByName(java.lang.String)
      */
     @ReflectiveMethod(name = "getByName", types = {String.class})
     public NMSEnchantment getByName(String s){
@@ -76,7 +76,7 @@ public class NMSEnchantment extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Enchantment#getMaxLevel()
+     * @see net.minecraft.server.v1_9_R1.Enchantment#getMaxLevel()
      */
     @ReflectiveMethod(name = "getMaxLevel", types = {})
     public int getMaxLevel(){
@@ -84,7 +84,7 @@ public class NMSEnchantment extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Enchantment#getRandomWeight()
+     * @see net.minecraft.server.v1_9_R1.Enchantment#getRandomWeight()
      */
     @ReflectiveMethod(name = "getRandomWeight", types = {})
     public int getRandomWeight(){
@@ -92,7 +92,7 @@ public class NMSEnchantment extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Enchantment#getStartLevel()
+     * @see net.minecraft.server.v1_9_R1.Enchantment#getStartLevel()
      */
     @ReflectiveMethod(name = "getStartLevel", types = {})
     public int getStartLevel(){

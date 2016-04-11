@@ -16,7 +16,7 @@ public class NMSItemSpade extends NMSItemTool {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemSpade#canDestroySpecialBlock(net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.ItemSpade#canDestroySpecialBlock(net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "canDestroySpecialBlock", types = {NMSBlock.class})
     public boolean canDestroySpecialBlock(NMSBlock block){

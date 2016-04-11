@@ -13,7 +13,7 @@ public class NMSBlockTrapdoor extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockTrapdoor#a(net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.BlockTrapdoor#a(net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "a", types = {NMSEnumDirection.class})
     public int a(NMSEnumDirection enumDirection){
@@ -22,7 +22,7 @@ public class NMSBlockTrapdoor extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockTrapdoor#b(int)
+     * @see net.minecraft.server.v1_9_R1.BlockTrapdoor#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public NMSEnumDirection b(int i){
@@ -31,7 +31,7 @@ public class NMSBlockTrapdoor extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockTrapdoor#c()
+     * @see net.minecraft.server.v1_9_R1.BlockTrapdoor#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -39,7 +39,7 @@ public class NMSBlockTrapdoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTrapdoor#canPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.BlockTrapdoor#canPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "canPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class})
     public boolean canPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection){
@@ -48,7 +48,7 @@ public class NMSBlockTrapdoor extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockTrapdoor#d(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockTrapdoor#d(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "d", types = {NMSIBlockData.class})
     public void d(NMSIBlockData iBlockData){
@@ -56,7 +56,7 @@ public class NMSBlockTrapdoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTrapdoor#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockTrapdoor#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -64,7 +64,7 @@ public class NMSBlockTrapdoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTrapdoor#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockTrapdoor#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -72,7 +72,7 @@ public class NMSBlockTrapdoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTrapdoor#getPlacedState(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float, int, net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.BlockTrapdoor#getPlacedState(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float, int, net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getPlacedState", types = {NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class, float.class, float.class, float.class, int.class, NMSEntityLiving.class})
     public NMSIBlockData getPlacedState(NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, float f, float f1, float f2, int i, NMSEntityLiving entityLiving){
@@ -80,7 +80,7 @@ public class NMSBlockTrapdoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTrapdoor#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockTrapdoor#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -88,7 +88,7 @@ public class NMSBlockTrapdoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTrapdoor#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockTrapdoor#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -97,7 +97,7 @@ public class NMSBlockTrapdoor extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockTrapdoor#j()
+     * @see net.minecraft.server.v1_9_R1.BlockTrapdoor#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public void j(){
@@ -105,7 +105,7 @@ public class NMSBlockTrapdoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTrapdoor#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockTrapdoor#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -113,7 +113,7 @@ public class NMSBlockTrapdoor extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTrapdoor#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockTrapdoor#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

@@ -13,7 +13,7 @@ public class NMSSystemUtils extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SystemUtils#a()
+     * @see net.minecraft.server.v1_9_R1.SystemUtils#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public String a(){

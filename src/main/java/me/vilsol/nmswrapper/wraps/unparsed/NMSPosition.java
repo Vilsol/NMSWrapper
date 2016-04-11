@@ -16,7 +16,7 @@ public class NMSPosition extends NMSWrap implements NMSIPosition {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Position#getX()
+     * @see net.minecraft.server.v1_9_R1.Position#getX()
      */
     @ReflectiveMethod(name = "getX", types = {})
     public double getX(){
@@ -24,7 +24,7 @@ public class NMSPosition extends NMSWrap implements NMSIPosition {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Position#getY()
+     * @see net.minecraft.server.v1_9_R1.Position#getY()
      */
     @ReflectiveMethod(name = "getY", types = {})
     public double getY(){
@@ -32,7 +32,7 @@ public class NMSPosition extends NMSWrap implements NMSIPosition {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Position#getZ()
+     * @see net.minecraft.server.v1_9_R1.Position#getZ()
      */
     @ReflectiveMethod(name = "getZ", types = {})
     public double getZ(){

@@ -21,7 +21,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#a(net.minecraft.server.v1_8_R3.Item)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#a(net.minecraft.server.v1_9_R1.Item)
      */
     @ReflectiveMethod(name = "a", types = {NMSItem.class})
     public boolean a(NMSItem item){
@@ -30,7 +30,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#ae()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#ae()
      */
     @ReflectiveMethod(name = "ae", types = {})
     public boolean ae(){
@@ -39,7 +39,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#al()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#al()
      */
     @ReflectiveMethod(name = "al", types = {})
     public void al(){
@@ -48,7 +48,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -57,7 +57,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#bB()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#bB()
      */
     @ReflectiveMethod(name = "bB", types = {})
     public float bB(){
@@ -66,7 +66,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#bD()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#bD()
      */
     @ReflectiveMethod(name = "bD", types = {})
     public boolean bD(){
@@ -75,7 +75,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#bR()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#bR()
      */
     @ReflectiveMethod(name = "bR", types = {})
     public boolean bR(){
@@ -84,7 +84,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#bV()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#bV()
      */
     @ReflectiveMethod(name = "bV", types = {})
     public int bV(){
@@ -93,7 +93,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -102,7 +102,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -111,7 +111,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#br()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#br()
      */
     @ReflectiveMethod(name = "br", types = {})
     public int br(){
@@ -120,7 +120,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cA()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cA()
      */
     @ReflectiveMethod(name = "cA", types = {})
     public boolean cA(){
@@ -129,7 +129,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cB()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cB()
      */
     @ReflectiveMethod(name = "cB", types = {})
     public boolean cB(){
@@ -138,7 +138,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cD()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cD()
      */
     @ReflectiveMethod(name = "cD", types = {})
     public boolean cD(){
@@ -147,7 +147,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cE()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cE()
      */
     @ReflectiveMethod(name = "cE", types = {})
     public void cE(){
@@ -156,7 +156,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cG()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cG()
      */
     @ReflectiveMethod(name = "cG", types = {})
     public boolean cG(){
@@ -165,7 +165,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cH()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cH()
      */
     @ReflectiveMethod(name = "cH", types = {})
     public String cH(){
@@ -174,7 +174,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cO()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cO()
      */
     @ReflectiveMethod(name = "cO", types = {})
     public boolean cO(){
@@ -183,7 +183,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cP()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cP()
      */
     @ReflectiveMethod(name = "cP", types = {})
     public boolean cP(){
@@ -192,7 +192,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cR()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cR()
      */
     @ReflectiveMethod(name = "cR", types = {})
     public boolean cR(){
@@ -201,7 +201,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cS()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cS()
      */
     @ReflectiveMethod(name = "cS", types = {})
     public boolean cS(){
@@ -210,7 +210,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cW()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cW()
      */
     @ReflectiveMethod(name = "cW", types = {})
     public void cW(){
@@ -219,7 +219,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cb()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cb()
      */
     @ReflectiveMethod(name = "cb", types = {})
     public boolean cb(){
@@ -228,7 +228,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cn()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cn()
      */
     @ReflectiveMethod(name = "cn", types = {})
     public boolean cn(){
@@ -237,7 +237,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cp()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cp()
      */
     @ReflectiveMethod(name = "cp", types = {})
     public boolean cp(){
@@ -245,7 +245,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#createChild(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#createChild(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "createChild", types = {NMSEntityAgeable.class})
     public NMSEntityAgeable createChild(NMSEntityAgeable entityAgeable){
@@ -254,7 +254,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cu()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cu()
      */
     @ReflectiveMethod(name = "cu", types = {})
     public float cu(){
@@ -263,7 +263,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cv()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cv()
      */
     @ReflectiveMethod(name = "cv", types = {})
     public boolean cv(){
@@ -272,7 +272,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cx()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cx()
      */
     @ReflectiveMethod(name = "cx", types = {})
     public int cx(){
@@ -281,7 +281,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cy()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cy()
      */
     @ReflectiveMethod(name = "cy", types = {})
     public boolean cy(){
@@ -290,7 +290,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#cz()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#cz()
      */
     @ReflectiveMethod(name = "cz", types = {})
     public boolean cz(){
@@ -299,7 +299,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#d(int, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#d(int, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "d", types = {int.class, NMSItemStack.class})
     public boolean d(int i, NMSItemStack itemStack){
@@ -307,7 +307,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -315,7 +315,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#die(net.minecraft.server.v1_8_R3.DamageSource)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#die(net.minecraft.server.v1_9_R1.DamageSource)
      */
     @ReflectiveMethod(name = "die", types = {NMSDamageSource.class})
     public void die(NMSDamageSource damageSource){
@@ -323,7 +323,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#dropChest()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#dropChest()
      */
     @ReflectiveMethod(name = "dropChest", types = {})
     public void dropChest(){
@@ -331,7 +331,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -340,7 +340,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#e(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#e(float, float)
      */
     @ReflectiveMethod(name = "e", types = {float.class, float.class})
     public void e(float f, float f1){
@@ -349,7 +349,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#f(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#f(boolean)
      */
     @ReflectiveMethod(name = "f", types = {boolean.class})
     public void f(boolean b){
@@ -358,7 +358,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#g(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#g(float, float)
      */
     @ReflectiveMethod(name = "g", types = {float.class, float.class})
     public void g(float f, float f1){
@@ -366,7 +366,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -374,7 +374,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#getJumpStrength()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#getJumpStrength()
      */
     @ReflectiveMethod(name = "getJumpStrength", types = {})
     public double getJumpStrength(){
@@ -382,7 +382,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -390,7 +390,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#getMaxDomestication()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#getMaxDomestication()
      */
     @ReflectiveMethod(name = "getMaxDomestication", types = {})
     public int getMaxDomestication(){
@@ -398,7 +398,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#getName()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -406,7 +406,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#getOwnerUUID()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#getOwnerUUID()
      */
     @ReflectiveMethod(name = "getOwnerUUID", types = {})
     public String getOwnerUUID(){
@@ -414,7 +414,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#getTemper()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#getTemper()
      */
     @ReflectiveMethod(name = "getTemper", types = {})
     public int getTemper(){
@@ -422,7 +422,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#getType()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#getType()
      */
     @ReflectiveMethod(name = "getType", types = {})
     public int getType(){
@@ -430,7 +430,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#getVariant()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#getVariant()
      */
     @ReflectiveMethod(name = "getVariant", types = {})
     public int getVariant(){
@@ -439,7 +439,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#h(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#h(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "h", types = {NMSEntityHuman.class})
     public boolean h(NMSEntityHuman entityHuman){
@@ -447,7 +447,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#hasChest()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#hasChest()
      */
     @ReflectiveMethod(name = "hasChest", types = {})
     public boolean hasChest(){
@@ -455,7 +455,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -463,7 +463,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#isTame()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#isTame()
      */
     @ReflectiveMethod(name = "isTame", types = {})
     public boolean isTame(){
@@ -472,7 +472,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#k_()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#k_()
      */
     @ReflectiveMethod(name = "k_", types = {})
     public boolean k_(){
@@ -480,7 +480,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#loadChest()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#loadChest()
      */
     @ReflectiveMethod(name = "loadChest", types = {})
     public void loadChest(){
@@ -489,7 +489,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#m()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -497,7 +497,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#mate(net.minecraft.server.v1_8_R3.EntityAnimal)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#mate(net.minecraft.server.v1_9_R1.EntityAnimal)
      */
     @ReflectiveMethod(name = "mate", types = {NMSEntityAnimal.class})
     public boolean mate(NMSEntityAnimal entityAnimal){
@@ -506,7 +506,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#n(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#n(boolean)
      */
     @ReflectiveMethod(name = "n", types = {boolean.class})
     public void n(boolean b){
@@ -515,7 +515,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#o(float)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#o(float)
      */
     @ReflectiveMethod(name = "o", types = {float.class})
     public void o(float f){
@@ -524,7 +524,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#p(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#p(boolean)
      */
     @ReflectiveMethod(name = "p", types = {boolean.class})
     public void p(boolean b){
@@ -532,7 +532,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#prepare(net.minecraft.server.v1_8_R3.DifficultyDamageScaler, net.minecraft.server.v1_8_R3.GroupDataEntity)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#prepare(net.minecraft.server.v1_9_R1.DifficultyDamageScaler, net.minecraft.server.v1_9_R1.GroupDataEntity)
      */
     @ReflectiveMethod(name = "prepare", types = {NMSDifficultyDamageScaler.class, NMSGroupDataEntity.class})
     public NMSGroupDataEntity prepare(NMSDifficultyDamageScaler difficultyDamageScaler, NMSGroupDataEntity groupDataEntity){
@@ -541,7 +541,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#q(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#q(boolean)
      */
     @ReflectiveMethod(name = "q", types = {boolean.class})
     public void q(boolean b){
@@ -550,7 +550,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#r(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#r(boolean)
      */
     @ReflectiveMethod(name = "r", types = {boolean.class})
     public void r(boolean b){
@@ -559,7 +559,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#s(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#s(boolean)
      */
     @ReflectiveMethod(name = "s", types = {boolean.class})
     public void s(boolean b){
@@ -567,7 +567,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#setHasChest(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#setHasChest(boolean)
      */
     @ReflectiveMethod(name = "setHasChest", types = {boolean.class})
     public void setHasChest(boolean b){
@@ -575,7 +575,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#setOwnerUUID(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#setOwnerUUID(java.lang.String)
      */
     @ReflectiveMethod(name = "setOwnerUUID", types = {String.class})
     public void setOwnerUUID(String s){
@@ -583,7 +583,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#setTame(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#setTame(boolean)
      */
     @ReflectiveMethod(name = "setTame", types = {boolean.class})
     public void setTame(boolean b){
@@ -591,7 +591,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#setTemper(int)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#setTemper(int)
      */
     @ReflectiveMethod(name = "setTemper", types = {int.class})
     public void setTemper(int i){
@@ -599,7 +599,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#setType(int)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#setType(int)
      */
     @ReflectiveMethod(name = "setType", types = {int.class})
     public void setType(int i){
@@ -607,7 +607,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#setVariant(int)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#setVariant(int)
      */
     @ReflectiveMethod(name = "setVariant", types = {int.class})
     public void setVariant(int i){
@@ -616,7 +616,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){
@@ -625,7 +625,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#u(int)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#u(int)
      */
     @ReflectiveMethod(name = "u", types = {int.class})
     public int u(int i){
@@ -634,7 +634,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#v(int)
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#v(int)
      */
     @ReflectiveMethod(name = "v", types = {int.class})
     public void v(int i){
@@ -643,7 +643,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#w()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#w()
      */
     @ReflectiveMethod(name = "w", types = {})
     public int w(){
@@ -652,7 +652,7 @@ public class NMSEntityHorse extends NMSEntityAnimal implements NMSIInventoryList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHorse#z()
+     * @see net.minecraft.server.v1_9_R1.EntityHorse#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

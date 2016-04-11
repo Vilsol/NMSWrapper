@@ -17,7 +17,7 @@ public class NMSItemTool extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemTool#a(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemTool#a(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "a", types = {NMSItemStack.class, NMSItemStack.class})
     public boolean a(NMSItemStack itemStack, NMSItemStack itemStack1){
@@ -26,7 +26,7 @@ public class NMSItemTool extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemTool#b()
+     * @see net.minecraft.server.v1_9_R1.ItemTool#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public int b(){
@@ -35,7 +35,7 @@ public class NMSItemTool extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemTool#g()
+     * @see net.minecraft.server.v1_9_R1.ItemTool#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public NMSEnumToolMaterial g(){
@@ -43,7 +43,7 @@ public class NMSItemTool extends NMSItem {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemTool#getDestroySpeed(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.ItemTool#getDestroySpeed(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "getDestroySpeed", types = {NMSItemStack.class, NMSBlock.class})
     public float getDestroySpeed(NMSItemStack itemStack, NMSBlock block){
@@ -52,7 +52,7 @@ public class NMSItemTool extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemTool#h()
+     * @see net.minecraft.server.v1_9_R1.ItemTool#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public String h(){

@@ -19,7 +19,7 @@ public class NMSBiomeIcePlains extends NMSBiomeBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeIcePlains#a(java.util.Random)
+     * @see net.minecraft.server.v1_9_R1.BiomeIcePlains#a(java.util.Random)
      */
     @ReflectiveMethod(name = "a", types = {Random.class})
     public NMSWorldGenTreeAbstract a(Random random){
@@ -28,7 +28,7 @@ public class NMSBiomeIcePlains extends NMSBiomeBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeIcePlains#d(int)
+     * @see net.minecraft.server.v1_9_R1.BiomeIcePlains#d(int)
      */
     @ReflectiveMethod(name = "d", types = {int.class})
     public NMSBiomeBase d(int i){

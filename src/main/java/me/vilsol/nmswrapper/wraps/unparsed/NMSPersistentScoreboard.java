@@ -17,7 +17,7 @@ public class NMSPersistentScoreboard extends NMSPersistentBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PersistentScoreboard#a()
+     * @see net.minecraft.server.v1_9_R1.PersistentScoreboard#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public NMSNBTTagList a(){
@@ -26,7 +26,7 @@ public class NMSPersistentScoreboard extends NMSPersistentBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PersistentScoreboard#b()
+     * @see net.minecraft.server.v1_9_R1.PersistentScoreboard#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSNBTTagList b(){
@@ -35,7 +35,7 @@ public class NMSPersistentScoreboard extends NMSPersistentBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PersistentScoreboard#c(net.minecraft.server.v1_8_R3.NBTTagList)
+     * @see net.minecraft.server.v1_9_R1.PersistentScoreboard#c(net.minecraft.server.v1_9_R1.NBTTagList)
      */
     @ReflectiveMethod(name = "c", types = {NMSNBTTagList.class})
     public void c(NMSNBTTagList nBTTagList){
@@ -44,7 +44,7 @@ public class NMSPersistentScoreboard extends NMSPersistentBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PersistentScoreboard#d(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.PersistentScoreboard#d(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "d", types = {NMSNBTTagCompound.class})
     public void d(NMSNBTTagCompound nBTTagCompound){
@@ -53,7 +53,7 @@ public class NMSPersistentScoreboard extends NMSPersistentBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PersistentScoreboard#e()
+     * @see net.minecraft.server.v1_9_R1.PersistentScoreboard#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public NMSNBTTagList e(){

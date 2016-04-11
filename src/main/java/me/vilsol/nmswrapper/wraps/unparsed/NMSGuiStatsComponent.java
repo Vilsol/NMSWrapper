@@ -20,7 +20,7 @@ public class NMSGuiStatsComponent extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.GuiStatsComponent#a(net.minecraft.server.v1_8_R3.GuiStatsComponent)
+     * @see net.minecraft.server.v1_9_R1.GuiStatsComponent#a(net.minecraft.server.v1_9_R1.GuiStatsComponent)
      */
     @ReflectiveMethod(name = "a", types = {NMSGuiStatsComponent.class})
     public void a(NMSGuiStatsComponent guiStatsComponent){
@@ -28,7 +28,7 @@ public class NMSGuiStatsComponent extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.GuiStatsComponent#paint(java.awt.Graphics)
+     * @see net.minecraft.server.v1_9_R1.GuiStatsComponent#paint(java.awt.Graphics)
      */
     @ReflectiveMethod(name = "paint", types = {Graphics.class})
     public void paint(Graphics graphics){

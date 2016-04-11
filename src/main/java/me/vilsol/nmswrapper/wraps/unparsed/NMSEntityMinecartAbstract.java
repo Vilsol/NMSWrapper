@@ -27,7 +27,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#S()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#S()
      */
     @ReflectiveMethod(name = "S", types = {})
     public NMSAxisAlignedBB S(){
@@ -35,7 +35,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#SetDisplayBlockOffset(int)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#SetDisplayBlockOffset(int)
      */
     @ReflectiveMethod(name = "SetDisplayBlockOffset", types = {int.class})
     public void SetDisplayBlockOffset(int i){
@@ -44,7 +44,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#a(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#a(boolean)
      */
     @ReflectiveMethod(name = "a", types = {boolean.class})
     public void a(boolean b){
@@ -53,7 +53,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#ad()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#ad()
      */
     @ReflectiveMethod(name = "ad", types = {})
     public boolean ad(){
@@ -62,7 +62,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#ae()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#ae()
      */
     @ReflectiveMethod(name = "ae", types = {})
     public boolean ae(){
@@ -71,7 +71,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#an()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#an()
      */
     @ReflectiveMethod(name = "an", types = {})
     public double an(){
@@ -80,7 +80,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -88,7 +88,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#collide(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#collide(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "collide", types = {NMSEntity.class})
     public void collide(NMSEntity entity){
@@ -96,7 +96,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -104,7 +104,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#die()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#die()
      */
     @ReflectiveMethod(name = "die", types = {})
     public void die(){
@@ -112,7 +112,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#getCustomName()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#getCustomName()
      */
     @ReflectiveMethod(name = "getCustomName", types = {})
     public String getCustomName(){
@@ -120,7 +120,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#getDamage()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#getDamage()
      */
     @ReflectiveMethod(name = "getDamage", types = {})
     public float getDamage(){
@@ -128,7 +128,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#getDerailedVelocityMod()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#getDerailedVelocityMod()
      */
     @ReflectiveMethod(name = "getDerailedVelocityMod", types = {})
     public Vector getDerailedVelocityMod(){
@@ -136,7 +136,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#getDisplayBlock()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#getDisplayBlock()
      */
     @ReflectiveMethod(name = "getDisplayBlock", types = {})
     public NMSIBlockData getDisplayBlock(){
@@ -144,7 +144,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#getDisplayBlockOffset()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#getDisplayBlockOffset()
      */
     @ReflectiveMethod(name = "getDisplayBlockOffset", types = {})
     public int getDisplayBlockOffset(){
@@ -152,7 +152,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#getFlyingVelocityMod()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#getFlyingVelocityMod()
      */
     @ReflectiveMethod(name = "getFlyingVelocityMod", types = {})
     public Vector getFlyingVelocityMod(){
@@ -160,7 +160,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#getName()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -168,7 +168,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#getScoreboardDisplayName()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#getScoreboardDisplayName()
      */
     @ReflectiveMethod(name = "getScoreboardDisplayName", types = {})
     public NMSIChatBaseComponent getScoreboardDisplayName(){
@@ -176,7 +176,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#getType()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#getType()
      */
     @ReflectiveMethod(name = "getType", types = {})
     public int getType(){
@@ -185,7 +185,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#h()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -193,7 +193,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#hasCustomName()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#hasCustomName()
      */
     @ReflectiveMethod(name = "hasCustomName", types = {})
     public boolean hasCustomName(){
@@ -202,7 +202,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#j(int)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#j(int)
      */
     @ReflectiveMethod(name = "j", types = {int.class})
     public void j(int i){
@@ -211,7 +211,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#k(int)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#k(int)
      */
     @ReflectiveMethod(name = "k", types = {int.class})
     public void k(int i){
@@ -220,7 +220,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#m()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public double m(){
@@ -229,7 +229,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#n()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public void n(){
@@ -238,7 +238,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#o()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#o()
      */
     @ReflectiveMethod(name = "o", types = {})
     public void o(){
@@ -247,7 +247,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#r()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#r()
      */
     @ReflectiveMethod(name = "r", types = {})
     public int r(){
@@ -256,7 +256,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#s()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#s()
      */
     @ReflectiveMethod(name = "s", types = {})
     public NMSEnumMinecartType s(){
@@ -265,7 +265,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#s_()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#s_()
      */
     @ReflectiveMethod(name = "s_", types = {})
     public boolean s_(){
@@ -273,7 +273,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#setCustomName(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#setCustomName(java.lang.String)
      */
     @ReflectiveMethod(name = "setCustomName", types = {String.class})
     public void setCustomName(String s){
@@ -281,7 +281,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#setDamage(float)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#setDamage(float)
      */
     @ReflectiveMethod(name = "setDamage", types = {float.class})
     public void setDamage(float f){
@@ -289,7 +289,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#setDerailedVelocityMod(org.bukkit.util.Vector)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#setDerailedVelocityMod(org.bukkit.util.Vector)
      */
     @ReflectiveMethod(name = "setDerailedVelocityMod", types = {Vector.class})
     public void setDerailedVelocityMod(Vector vector){
@@ -297,7 +297,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#setDisplayBlock(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#setDisplayBlock(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "setDisplayBlock", types = {NMSIBlockData.class})
     public void setDisplayBlock(NMSIBlockData iBlockData){
@@ -305,7 +305,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#setFlyingVelocityMod(org.bukkit.util.Vector)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#setFlyingVelocityMod(org.bukkit.util.Vector)
      */
     @ReflectiveMethod(name = "setFlyingVelocityMod", types = {Vector.class})
     public void setFlyingVelocityMod(Vector vector){
@@ -313,7 +313,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#setPosition(double, double, double)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#setPosition(double, double, double)
      */
     @ReflectiveMethod(name = "setPosition", types = {double.class, double.class, double.class})
     public void setPosition(double d, double d1, double d2){
@@ -322,7 +322,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){
@@ -331,7 +331,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#u()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#u()
      */
     @ReflectiveMethod(name = "u", types = {})
     public NMSIBlockData u(){
@@ -340,7 +340,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#w()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#w()
      */
     @ReflectiveMethod(name = "w", types = {})
     public int w(){
@@ -349,7 +349,7 @@ public class NMSEntityMinecartAbstract extends NMSEntity implements NMSINamableT
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartAbstract#x()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartAbstract#x()
      */
     @ReflectiveMethod(name = "x", types = {})
     public boolean x(){

@@ -20,7 +20,7 @@ public class NMSContainerAnvil extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerAnvil#a(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.ContainerAnvil#a(java.lang.String)
      */
     @ReflectiveMethod(name = "a", types = {String.class})
     public void a(String s){
@@ -28,7 +28,7 @@ public class NMSContainerAnvil extends NMSContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ContainerAnvil#addSlotListener(net.minecraft.server.v1_8_R3.ICrafting)
+     * @see net.minecraft.server.v1_9_R1.ContainerAnvil#addSlotListener(net.minecraft.server.v1_9_R1.ICrafting)
      */
     @ReflectiveMethod(name = "addSlotListener", types = {NMSICrafting.class})
     public void addSlotListener(NMSICrafting iCrafting){
@@ -37,7 +37,7 @@ public class NMSContainerAnvil extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerAnvil#b(net.minecraft.server.v1_8_R3.EntityHuman, int)
+     * @see net.minecraft.server.v1_9_R1.ContainerAnvil#b(net.minecraft.server.v1_9_R1.EntityHuman, int)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityHuman.class, int.class})
     public NMSItemStack b(NMSEntityHuman entityHuman, int i){
@@ -46,7 +46,7 @@ public class NMSContainerAnvil extends NMSContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ContainerAnvil#e()
+     * @see net.minecraft.server.v1_9_R1.ContainerAnvil#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){
@@ -54,7 +54,7 @@ public class NMSContainerAnvil extends NMSContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ContainerAnvil#getBukkitView()
+     * @see net.minecraft.server.v1_9_R1.ContainerAnvil#getBukkitView()
      */
     @ReflectiveMethod(name = "getBukkitView", types = {})
     public InventoryView getBukkitView(){

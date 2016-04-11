@@ -17,7 +17,7 @@ public class NMSPersistentStructure extends NMSPersistentBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PersistentStructure#a()
+     * @see net.minecraft.server.v1_9_R1.PersistentStructure#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public NMSNBTTagCompound a(){
@@ -26,7 +26,7 @@ public class NMSPersistentStructure extends NMSPersistentBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PersistentStructure#b(int, int)
+     * @see net.minecraft.server.v1_9_R1.PersistentStructure#b(int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public String b(int i, int i1){

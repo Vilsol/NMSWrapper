@@ -16,7 +16,7 @@ public class NMSBlockStem extends NMSBlockPlant implements NMSIBlockFragilePlant
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStem#a(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockStem#a(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, Random.class, NMSBlockPosition.class, NMSIBlockData.class})
     public boolean a(NMSWorld world, Random random, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -25,7 +25,7 @@ public class NMSBlockStem extends NMSBlockPlant implements NMSIBlockFragilePlant
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStem#b(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockStem#b(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, Random.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void b(NMSWorld world, Random random, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -34,7 +34,7 @@ public class NMSBlockStem extends NMSBlockPlant implements NMSIBlockFragilePlant
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStem#c(net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockStem#c(net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "c", types = {NMSBlock.class})
     public boolean c(NMSBlock block){
@@ -42,7 +42,7 @@ public class NMSBlockStem extends NMSBlockPlant implements NMSIBlockFragilePlant
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStem#dropNaturally(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, float, int)
+     * @see net.minecraft.server.v1_9_R1.BlockStem#dropNaturally(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, float, int)
      */
     @ReflectiveMethod(name = "dropNaturally", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, float.class, int.class})
     public void dropNaturally(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, float f, int i){
@@ -50,7 +50,7 @@ public class NMSBlockStem extends NMSBlockPlant implements NMSIBlockFragilePlant
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStem#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockStem#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -59,7 +59,7 @@ public class NMSBlockStem extends NMSBlockPlant implements NMSIBlockFragilePlant
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStem#g(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockStem#g(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "g", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void g(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -67,7 +67,7 @@ public class NMSBlockStem extends NMSBlockPlant implements NMSIBlockFragilePlant
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStem#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockStem#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -75,7 +75,7 @@ public class NMSBlockStem extends NMSBlockPlant implements NMSIBlockFragilePlant
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStem#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockStem#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -84,7 +84,7 @@ public class NMSBlockStem extends NMSBlockPlant implements NMSIBlockFragilePlant
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStem#j()
+     * @see net.minecraft.server.v1_9_R1.BlockStem#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public void j(){
@@ -93,7 +93,7 @@ public class NMSBlockStem extends NMSBlockPlant implements NMSIBlockFragilePlant
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStem#l()
+     * @see net.minecraft.server.v1_9_R1.BlockStem#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public NMSItem l(){
@@ -101,7 +101,7 @@ public class NMSBlockStem extends NMSBlockPlant implements NMSIBlockFragilePlant
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStem#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockStem#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -109,7 +109,7 @@ public class NMSBlockStem extends NMSBlockPlant implements NMSIBlockFragilePlant
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStem#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockStem#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -117,7 +117,7 @@ public class NMSBlockStem extends NMSBlockPlant implements NMSIBlockFragilePlant
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStem#updateState(net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockStem#updateState(net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateState", types = {NMSIBlockData.class, NMSIBlockAccess.class, NMSBlockPosition.class})
     public NMSIBlockData updateState(NMSIBlockData iBlockData, NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

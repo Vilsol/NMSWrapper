@@ -17,7 +17,7 @@ public class NMSPathfinderGoalLookAtTradingPlayer extends NMSPathfinderGoalLookA
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalLookAtTradingPlayer#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalLookAtTradingPlayer#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){

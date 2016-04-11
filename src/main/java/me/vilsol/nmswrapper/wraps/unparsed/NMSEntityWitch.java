@@ -17,7 +17,7 @@ public class NMSEntityWitch extends NMSEntityMonster implements NMSIRangedEntity
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWitch#a(net.minecraft.server.v1_8_R3.EntityLiving, float)
+     * @see net.minecraft.server.v1_9_R1.EntityWitch#a(net.minecraft.server.v1_9_R1.EntityLiving, float)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityLiving.class, float.class})
     public void a(NMSEntityLiving entityLiving, float f){
@@ -25,7 +25,7 @@ public class NMSEntityWitch extends NMSEntityMonster implements NMSIRangedEntity
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWitch#applyMagicModifier(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityWitch#applyMagicModifier(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "applyMagicModifier", types = {NMSDamageSource.class, float.class})
     public float applyMagicModifier(NMSDamageSource damageSource, float f){
@@ -34,7 +34,7 @@ public class NMSEntityWitch extends NMSEntityMonster implements NMSIRangedEntity
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWitch#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityWitch#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -43,7 +43,7 @@ public class NMSEntityWitch extends NMSEntityMonster implements NMSIRangedEntity
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWitch#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityWitch#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -51,7 +51,7 @@ public class NMSEntityWitch extends NMSEntityMonster implements NMSIRangedEntity
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWitch#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityWitch#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -59,7 +59,7 @@ public class NMSEntityWitch extends NMSEntityMonster implements NMSIRangedEntity
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWitch#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntityWitch#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -68,7 +68,7 @@ public class NMSEntityWitch extends NMSEntityMonster implements NMSIRangedEntity
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWitch#h()
+     * @see net.minecraft.server.v1_9_R1.EntityWitch#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -76,7 +76,7 @@ public class NMSEntityWitch extends NMSEntityMonster implements NMSIRangedEntity
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWitch#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityWitch#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -85,7 +85,7 @@ public class NMSEntityWitch extends NMSEntityMonster implements NMSIRangedEntity
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWitch#m()
+     * @see net.minecraft.server.v1_9_R1.EntityWitch#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -94,7 +94,7 @@ public class NMSEntityWitch extends NMSEntityMonster implements NMSIRangedEntity
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWitch#n()
+     * @see net.minecraft.server.v1_9_R1.EntityWitch#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public boolean n(){
@@ -103,7 +103,7 @@ public class NMSEntityWitch extends NMSEntityMonster implements NMSIRangedEntity
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWitch#z()
+     * @see net.minecraft.server.v1_9_R1.EntityWitch#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

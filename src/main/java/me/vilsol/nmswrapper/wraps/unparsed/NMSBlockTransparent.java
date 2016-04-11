@@ -13,7 +13,7 @@ public class NMSBlockTransparent extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockTransparent#c()
+     * @see net.minecraft.server.v1_9_R1.BlockTransparent#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){

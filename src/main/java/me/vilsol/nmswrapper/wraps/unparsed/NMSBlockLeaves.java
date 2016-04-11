@@ -15,7 +15,7 @@ public class NMSBlockLeaves extends NMSBlockTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLeaves#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, int)
+     * @see net.minecraft.server.v1_9_R1.BlockLeaves#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, int.class})
     public void a(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, int i){
@@ -24,7 +24,7 @@ public class NMSBlockLeaves extends NMSBlockTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLeaves#b(int)
+     * @see net.minecraft.server.v1_9_R1.BlockLeaves#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public NMSEnumLogVariant b(int i){
@@ -33,7 +33,7 @@ public class NMSBlockLeaves extends NMSBlockTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLeaves#c()
+     * @see net.minecraft.server.v1_9_R1.BlockLeaves#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -42,7 +42,7 @@ public class NMSBlockLeaves extends NMSBlockTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLeaves#d(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockLeaves#d(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "d", types = {NMSIBlockData.class})
     public int d(NMSIBlockData iBlockData){
@@ -50,7 +50,7 @@ public class NMSBlockLeaves extends NMSBlockTransparent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLeaves#dropNaturally(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, float, int)
+     * @see net.minecraft.server.v1_9_R1.BlockLeaves#dropNaturally(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, float, int)
      */
     @ReflectiveMethod(name = "dropNaturally", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, float.class, int.class})
     public void dropNaturally(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, float f, int i){
@@ -58,7 +58,7 @@ public class NMSBlockLeaves extends NMSBlockTransparent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLeaves#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockLeaves#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -66,7 +66,7 @@ public class NMSBlockLeaves extends NMSBlockTransparent {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockLeaves#remove(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockLeaves#remove(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "remove", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void remove(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -75,7 +75,7 @@ public class NMSBlockLeaves extends NMSBlockTransparent {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockLeaves#w()
+     * @see net.minecraft.server.v1_9_R1.BlockLeaves#w()
      */
     @ReflectiveMethod(name = "w", types = {})
     public boolean w(){

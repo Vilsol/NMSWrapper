@@ -17,7 +17,7 @@ public class NMSEnchantmentManager extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentManager#a(java.util.Random, net.minecraft.server.v1_8_R3.ItemStack, int)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentManager#a(java.util.Random, net.minecraft.server.v1_9_R1.ItemStack, int)
      */
     @ReflectiveMethod(name = "a", types = {Random.class, NMSItemStack.class, int.class})
     public NMSItemStack a(Random random, NMSItemStack itemStack, int i){
@@ -26,7 +26,7 @@ public class NMSEnchantmentManager extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentManager#b(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentManager#b(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntity.class})
     public int b(NMSEntity entity){
@@ -35,7 +35,7 @@ public class NMSEnchantmentManager extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentManager#g(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentManager#g(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "g", types = {NMSEntityLiving.class})
     public int g(NMSEntityLiving entityLiving){
@@ -43,7 +43,7 @@ public class NMSEnchantmentManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentManager#getBonusBlockLootEnchantmentLevel(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentManager#getBonusBlockLootEnchantmentLevel(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getBonusBlockLootEnchantmentLevel", types = {NMSEntityLiving.class})
     public int getBonusBlockLootEnchantmentLevel(NMSEntityLiving entityLiving){
@@ -51,7 +51,7 @@ public class NMSEnchantmentManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentManager#getBonusMonsterLootEnchantmentLevel(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentManager#getBonusMonsterLootEnchantmentLevel(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getBonusMonsterLootEnchantmentLevel", types = {NMSEntityLiving.class})
     public int getBonusMonsterLootEnchantmentLevel(NMSEntityLiving entityLiving){
@@ -59,7 +59,7 @@ public class NMSEnchantmentManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentManager#getDigSpeedEnchantmentLevel(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentManager#getDigSpeedEnchantmentLevel(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getDigSpeedEnchantmentLevel", types = {NMSEntityLiving.class})
     public int getDigSpeedEnchantmentLevel(NMSEntityLiving entityLiving){
@@ -67,7 +67,7 @@ public class NMSEnchantmentManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentManager#getEnchantmentLevel(int, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentManager#getEnchantmentLevel(int, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "getEnchantmentLevel", types = {int.class, NMSItemStack.class})
     public int getEnchantmentLevel(int i, NMSItemStack itemStack){
@@ -75,7 +75,7 @@ public class NMSEnchantmentManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentManager#getFireAspectEnchantmentLevel(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentManager#getFireAspectEnchantmentLevel(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getFireAspectEnchantmentLevel", types = {NMSEntityLiving.class})
     public int getFireAspectEnchantmentLevel(NMSEntityLiving entityLiving){
@@ -83,7 +83,7 @@ public class NMSEnchantmentManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentManager#getOxygenEnchantmentLevel(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentManager#getOxygenEnchantmentLevel(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "getOxygenEnchantmentLevel", types = {NMSEntity.class})
     public int getOxygenEnchantmentLevel(NMSEntity entity){
@@ -92,7 +92,7 @@ public class NMSEnchantmentManager extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentManager#h(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentManager#h(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "h", types = {NMSEntityLiving.class})
     public int h(NMSEntityLiving entityLiving){
@@ -100,7 +100,7 @@ public class NMSEnchantmentManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentManager#hasSilkTouchEnchantment(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentManager#hasSilkTouchEnchantment(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "hasSilkTouchEnchantment", types = {NMSEntityLiving.class})
     public boolean hasSilkTouchEnchantment(NMSEntityLiving entityLiving){
@@ -109,7 +109,7 @@ public class NMSEnchantmentManager extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentManager#j(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentManager#j(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "j", types = {NMSEntityLiving.class})
     public boolean j(NMSEntityLiving entityLiving){

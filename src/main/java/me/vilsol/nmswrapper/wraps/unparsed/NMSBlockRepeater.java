@@ -16,7 +16,7 @@ public class NMSBlockRepeater extends NMSBlockDiodeAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRepeater#b(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRepeater#b(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "b", types = {NMSIBlockAccess.class, NMSBlockPosition.class, NMSIBlockData.class})
     public boolean b(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -25,7 +25,7 @@ public class NMSBlockRepeater extends NMSBlockDiodeAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRepeater#c(net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockRepeater#c(net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "c", types = {NMSBlock.class})
     public boolean c(NMSBlock block){
@@ -34,7 +34,7 @@ public class NMSBlockRepeater extends NMSBlockDiodeAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRepeater#d(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRepeater#d(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "d", types = {NMSIBlockData.class})
     public int d(NMSIBlockData iBlockData){
@@ -43,7 +43,7 @@ public class NMSBlockRepeater extends NMSBlockDiodeAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRepeater#e(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRepeater#e(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "e", types = {NMSIBlockData.class})
     public NMSIBlockData e(NMSIBlockData iBlockData){
@@ -51,7 +51,7 @@ public class NMSBlockRepeater extends NMSBlockDiodeAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRepeater#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockRepeater#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -59,7 +59,7 @@ public class NMSBlockRepeater extends NMSBlockDiodeAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRepeater#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockRepeater#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -67,7 +67,7 @@ public class NMSBlockRepeater extends NMSBlockDiodeAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRepeater#getName()
+     * @see net.minecraft.server.v1_9_R1.BlockRepeater#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -75,7 +75,7 @@ public class NMSBlockRepeater extends NMSBlockDiodeAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRepeater#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockRepeater#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -83,7 +83,7 @@ public class NMSBlockRepeater extends NMSBlockDiodeAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRepeater#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockRepeater#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -92,7 +92,7 @@ public class NMSBlockRepeater extends NMSBlockDiodeAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockRepeater#k(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRepeater#k(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "k", types = {NMSIBlockData.class})
     public NMSIBlockData k(NMSIBlockData iBlockData){
@@ -100,7 +100,7 @@ public class NMSBlockRepeater extends NMSBlockDiodeAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRepeater#remove(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRepeater#remove(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "remove", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void remove(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -108,7 +108,7 @@ public class NMSBlockRepeater extends NMSBlockDiodeAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRepeater#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockRepeater#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -116,7 +116,7 @@ public class NMSBlockRepeater extends NMSBlockDiodeAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockRepeater#updateState(net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockRepeater#updateState(net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateState", types = {NMSIBlockData.class, NMSIBlockAccess.class, NMSBlockPosition.class})
     public NMSIBlockData updateState(NMSIBlockData iBlockData, NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

@@ -13,7 +13,7 @@ public class NMSCraftingManager extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CraftingManager#a(net.minecraft.server.v1_8_R3.IRecipe)
+     * @see net.minecraft.server.v1_9_R1.CraftingManager#a(net.minecraft.server.v1_9_R1.IRecipe)
      */
     @ReflectiveMethod(name = "a", types = {NMSIRecipe.class})
     public void a(NMSIRecipe iRecipe){
@@ -21,7 +21,7 @@ public class NMSCraftingManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CraftingManager#craft(net.minecraft.server.v1_8_R3.InventoryCrafting, net.minecraft.server.v1_8_R3.World)
+     * @see net.minecraft.server.v1_9_R1.CraftingManager#craft(net.minecraft.server.v1_9_R1.InventoryCrafting, net.minecraft.server.v1_9_R1.World)
      */
     @ReflectiveMethod(name = "craft", types = {NMSInventoryCrafting.class, NMSWorld.class})
     public NMSItemStack craft(NMSInventoryCrafting inventoryCrafting, NMSWorld world){
@@ -29,7 +29,7 @@ public class NMSCraftingManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CraftingManager#getInstance()
+     * @see net.minecraft.server.v1_9_R1.CraftingManager#getInstance()
      */
     @ReflectiveMethod(name = "getInstance", types = {})
     public NMSCraftingManager getInstance(){
@@ -37,7 +37,7 @@ public class NMSCraftingManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CraftingManager#registerShapedRecipe(net.minecraft.server.v1_8_R3.ItemStack, java.lang.Object...)
+     * @see net.minecraft.server.v1_9_R1.CraftingManager#registerShapedRecipe(net.minecraft.server.v1_9_R1.ItemStack, java.lang.Object...)
      */
     @ReflectiveMethod(name = "registerShapedRecipe", types = {NMSItemStack.class, Object[].class})
     public NMSShapedRecipes registerShapedRecipe(NMSItemStack itemStack, Object[] array){
@@ -45,7 +45,7 @@ public class NMSCraftingManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CraftingManager#registerShapelessRecipe(net.minecraft.server.v1_8_R3.ItemStack, java.lang.Object...)
+     * @see net.minecraft.server.v1_9_R1.CraftingManager#registerShapelessRecipe(net.minecraft.server.v1_9_R1.ItemStack, java.lang.Object...)
      */
     @ReflectiveMethod(name = "registerShapelessRecipe", types = {NMSItemStack.class, Object[].class})
     public void registerShapelessRecipe(NMSItemStack itemStack, Object[] array){
@@ -53,7 +53,7 @@ public class NMSCraftingManager extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CraftingManager#sort()
+     * @see net.minecraft.server.v1_9_R1.CraftingManager#sort()
      */
     @ReflectiveMethod(name = "sort", types = {})
     public void sort(){

@@ -13,7 +13,7 @@ public class NMSWorldGenFactory extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenFactory#a(net.minecraft.server.v1_8_R3.NBTTagCompound, net.minecraft.server.v1_8_R3.World)
+     * @see net.minecraft.server.v1_9_R1.WorldGenFactory#a(net.minecraft.server.v1_9_R1.NBTTagCompound, net.minecraft.server.v1_9_R1.World)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class, NMSWorld.class})
     public NMSStructureStart a(NMSNBTTagCompound nBTTagCompound, NMSWorld world){
@@ -22,7 +22,7 @@ public class NMSWorldGenFactory extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenFactory#b(net.minecraft.server.v1_8_R3.NBTTagCompound, net.minecraft.server.v1_8_R3.World)
+     * @see net.minecraft.server.v1_9_R1.WorldGenFactory#b(net.minecraft.server.v1_9_R1.NBTTagCompound, net.minecraft.server.v1_9_R1.World)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class, NMSWorld.class})
     public NMSStructurePiece b(NMSNBTTagCompound nBTTagCompound, NMSWorld world){

@@ -13,7 +13,7 @@ public class NMSDispenseBehaviorItem extends NMSWrap implements NMSIDispenseBeha
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DispenseBehaviorItem#a(net.minecraft.server.v1_8_R3.ISourceBlock, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.DispenseBehaviorItem#a(net.minecraft.server.v1_9_R1.ISourceBlock, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "a", types = {NMSISourceBlock.class, NMSEnumDirection.class})
     public void a(NMSISourceBlock iSourceBlock, NMSEnumDirection enumDirection){
@@ -22,7 +22,7 @@ public class NMSDispenseBehaviorItem extends NMSWrap implements NMSIDispenseBeha
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.DispenseBehaviorItem#b(net.minecraft.server.v1_8_R3.ISourceBlock, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.DispenseBehaviorItem#b(net.minecraft.server.v1_9_R1.ISourceBlock, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "b", types = {NMSISourceBlock.class, NMSItemStack.class})
     public NMSItemStack b(NMSISourceBlock iSourceBlock, NMSItemStack itemStack){

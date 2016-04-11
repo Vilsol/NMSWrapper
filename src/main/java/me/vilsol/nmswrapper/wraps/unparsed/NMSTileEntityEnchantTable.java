@@ -13,7 +13,7 @@ public class NMSTileEntityEnchantTable extends NMSTileEntity implements NMSITile
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityEnchantTable#a(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.TileEntityEnchantTable#a(java.lang.String)
      */
     @ReflectiveMethod(name = "a", types = {String.class})
     public void a(String s){
@@ -22,7 +22,7 @@ public class NMSTileEntityEnchantTable extends NMSTileEntity implements NMSITile
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityEnchantTable#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.TileEntityEnchantTable#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -31,7 +31,7 @@ public class NMSTileEntityEnchantTable extends NMSTileEntity implements NMSITile
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityEnchantTable#c()
+     * @see net.minecraft.server.v1_9_R1.TileEntityEnchantTable#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -39,7 +39,7 @@ public class NMSTileEntityEnchantTable extends NMSTileEntity implements NMSITile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityEnchantTable#createContainer(net.minecraft.server.v1_8_R3.PlayerInventory, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityEnchantTable#createContainer(net.minecraft.server.v1_9_R1.PlayerInventory, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "createContainer", types = {NMSPlayerInventory.class, NMSEntityHuman.class})
     public NMSContainer createContainer(NMSPlayerInventory playerInventory, NMSEntityHuman entityHuman){
@@ -47,7 +47,7 @@ public class NMSTileEntityEnchantTable extends NMSTileEntity implements NMSITile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityEnchantTable#getContainerName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityEnchantTable#getContainerName()
      */
     @ReflectiveMethod(name = "getContainerName", types = {})
     public String getContainerName(){
@@ -55,7 +55,7 @@ public class NMSTileEntityEnchantTable extends NMSTileEntity implements NMSITile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityEnchantTable#getName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityEnchantTable#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -63,7 +63,7 @@ public class NMSTileEntityEnchantTable extends NMSTileEntity implements NMSITile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityEnchantTable#getScoreboardDisplayName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityEnchantTable#getScoreboardDisplayName()
      */
     @ReflectiveMethod(name = "getScoreboardDisplayName", types = {})
     public NMSIChatBaseComponent getScoreboardDisplayName(){
@@ -71,7 +71,7 @@ public class NMSTileEntityEnchantTable extends NMSTileEntity implements NMSITile
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityEnchantTable#hasCustomName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityEnchantTable#hasCustomName()
      */
     @ReflectiveMethod(name = "hasCustomName", types = {})
     public boolean hasCustomName(){

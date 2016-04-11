@@ -21,7 +21,7 @@ public class NMSPlayerConnection extends NMSWrap implements NMSIUpdatePlayerList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PlayerConnection#a(net.minecraft.server.v1_8_R3.PacketPlayInCustomPayload)
+     * @see net.minecraft.server.v1_9_R1.PlayerConnection#a(net.minecraft.server.v1_9_R1.PacketPlayInCustomPayload)
      */
     @ReflectiveMethod(name = "a", types = {NMSPacketPlayInCustomPayload.class})
     public void a(NMSPacketPlayInCustomPayload packetPlayInCustomPayload){
@@ -30,7 +30,7 @@ public class NMSPlayerConnection extends NMSWrap implements NMSIUpdatePlayerList
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PlayerConnection#c()
+     * @see net.minecraft.server.v1_9_R1.PlayerConnection#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -38,7 +38,7 @@ public class NMSPlayerConnection extends NMSWrap implements NMSIUpdatePlayerList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PlayerConnection#chat(java.lang.String, boolean)
+     * @see net.minecraft.server.v1_9_R1.PlayerConnection#chat(java.lang.String, boolean)
      */
     @ReflectiveMethod(name = "chat", types = {String.class, boolean.class})
     public void chat(String s, boolean b){
@@ -46,7 +46,7 @@ public class NMSPlayerConnection extends NMSWrap implements NMSIUpdatePlayerList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PlayerConnection#disconnect(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.PlayerConnection#disconnect(java.lang.String)
      */
     @ReflectiveMethod(name = "disconnect", types = {String.class})
     public void disconnect(String s){
@@ -54,7 +54,7 @@ public class NMSPlayerConnection extends NMSWrap implements NMSIUpdatePlayerList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PlayerConnection#getPlayer()
+     * @see net.minecraft.server.v1_9_R1.PlayerConnection#getPlayer()
      */
     @ReflectiveMethod(name = "getPlayer", types = {})
     public NMSCraftPlayer getPlayer(){
@@ -62,7 +62,7 @@ public class NMSPlayerConnection extends NMSWrap implements NMSIUpdatePlayerList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PlayerConnection#isDisconnected()
+     * @see net.minecraft.server.v1_9_R1.PlayerConnection#isDisconnected()
      */
     @ReflectiveMethod(name = "isDisconnected", types = {})
     public boolean isDisconnected(){
@@ -70,7 +70,7 @@ public class NMSPlayerConnection extends NMSWrap implements NMSIUpdatePlayerList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PlayerConnection#sendPacket(net.minecraft.server.v1_8_R3.Packet)
+     * @see net.minecraft.server.v1_9_R1.PlayerConnection#sendPacket(net.minecraft.server.v1_9_R1.Packet)
      */
     @ReflectiveMethod(name = "sendPacket", types = {NMSPacket.class})
     public void sendPacket(NMSPacket packet){
@@ -78,7 +78,7 @@ public class NMSPlayerConnection extends NMSWrap implements NMSIUpdatePlayerList
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.PlayerConnection#teleport(org.bukkit.Location, java.util.Set)
+     * @see net.minecraft.server.v1_9_R1.PlayerConnection#teleport(org.bukkit.Location, java.util.Set)
      */
     @ReflectiveMethod(name = "teleport", types = {Location.class, Set.class})
     public void teleport(Location location, Set set){

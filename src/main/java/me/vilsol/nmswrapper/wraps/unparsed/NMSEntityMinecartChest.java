@@ -21,7 +21,7 @@ public class NMSEntityMinecartChest extends NMSEntityMinecartContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartChest#a(net.minecraft.server.v1_8_R3.DamageSource)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartChest#a(net.minecraft.server.v1_9_R1.DamageSource)
      */
     @ReflectiveMethod(name = "a", types = {NMSDamageSource.class})
     public void a(NMSDamageSource damageSource){
@@ -29,7 +29,7 @@ public class NMSEntityMinecartChest extends NMSEntityMinecartContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartChest#createContainer(net.minecraft.server.v1_8_R3.PlayerInventory, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartChest#createContainer(net.minecraft.server.v1_9_R1.PlayerInventory, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "createContainer", types = {NMSPlayerInventory.class, NMSEntityHuman.class})
     public NMSContainer createContainer(NMSPlayerInventory playerInventory, NMSEntityHuman entityHuman){
@@ -37,7 +37,7 @@ public class NMSEntityMinecartChest extends NMSEntityMinecartContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartChest#getContainerName()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartChest#getContainerName()
      */
     @ReflectiveMethod(name = "getContainerName", types = {})
     public String getContainerName(){
@@ -45,7 +45,7 @@ public class NMSEntityMinecartChest extends NMSEntityMinecartContainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartChest#getSize()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartChest#getSize()
      */
     @ReflectiveMethod(name = "getSize", types = {})
     public int getSize(){
@@ -54,7 +54,7 @@ public class NMSEntityMinecartChest extends NMSEntityMinecartContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartChest#s()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartChest#s()
      */
     @ReflectiveMethod(name = "s", types = {})
     public NMSEnumMinecartType s(){
@@ -63,7 +63,7 @@ public class NMSEntityMinecartChest extends NMSEntityMinecartContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartChest#u()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartChest#u()
      */
     @ReflectiveMethod(name = "u", types = {})
     public NMSIBlockData u(){
@@ -72,7 +72,7 @@ public class NMSEntityMinecartChest extends NMSEntityMinecartContainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMinecartChest#w()
+     * @see net.minecraft.server.v1_9_R1.EntityMinecartChest#w()
      */
     @ReflectiveMethod(name = "w", types = {})
     public int w(){

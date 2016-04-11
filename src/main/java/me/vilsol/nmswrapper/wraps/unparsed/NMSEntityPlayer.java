@@ -21,7 +21,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#B()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#B()
      */
     @ReflectiveMethod(name = "B", types = {})
     public void B(){
@@ -30,7 +30,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#C()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#C()
      */
     @ReflectiveMethod(name = "C", types = {})
     public NMSEntity C(){
@@ -39,7 +39,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#D()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#D()
      */
     @ReflectiveMethod(name = "D", types = {})
     public long D(){
@@ -48,7 +48,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#ad()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#ad()
      */
     @ReflectiveMethod(name = "ad", types = {})
     public boolean ad(){
@@ -57,7 +57,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#ae()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#ae()
      */
     @ReflectiveMethod(name = "ae", types = {})
     public boolean ae(){
@@ -65,7 +65,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#attack(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#attack(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "attack", types = {NMSEntity.class})
     public void attack(NMSEntity entity){
@@ -74,7 +74,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#b(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#b(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntity.class})
     public void b(NMSEntity entity){
@@ -82,7 +82,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#broadcastCarriedItem()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#broadcastCarriedItem()
      */
     @ReflectiveMethod(name = "broadcastCarriedItem", types = {})
     public void broadcastCarriedItem(){
@@ -91,7 +91,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#c(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#c(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "c", types = {NMSEntity.class})
     public void c(NMSEntity entity){
@@ -99,7 +99,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#closeInventory()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#closeInventory()
      */
     @ReflectiveMethod(name = "closeInventory", types = {})
     public void closeInventory(){
@@ -107,7 +107,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#copyTo(net.minecraft.server.v1_8_R3.EntityHuman, boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#copyTo(net.minecraft.server.v1_9_R1.EntityHuman, boolean)
      */
     @ReflectiveMethod(name = "copyTo", types = {NMSEntityHuman.class, boolean.class})
     public void copyTo(NMSEntityHuman entityHuman, boolean b){
@@ -116,7 +116,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#d(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#d(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "d", types = {NMSEntity.class})
     public void d(NMSEntity entity){
@@ -124,7 +124,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -132,7 +132,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#die(net.minecraft.server.v1_8_R3.DamageSource)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#die(net.minecraft.server.v1_9_R1.DamageSource)
      */
     @ReflectiveMethod(name = "die", types = {NMSDamageSource.class})
     public void die(NMSDamageSource damageSource){
@@ -140,7 +140,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#enderTeleportTo(double, double, double)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#enderTeleportTo(double, double, double)
      */
     @ReflectiveMethod(name = "enderTeleportTo", types = {double.class, double.class, double.class})
     public void enderTeleportTo(double d, double d1, double d2){
@@ -148,7 +148,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#enterCombat()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#enterCombat()
      */
     @ReflectiveMethod(name = "enterCombat", types = {})
     public void enterCombat(){
@@ -156,7 +156,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#exitCombat()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#exitCombat()
      */
     @ReflectiveMethod(name = "exitCombat", types = {})
     public void exitCombat(){
@@ -164,7 +164,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#getChatFlags()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#getChatFlags()
      */
     @ReflectiveMethod(name = "getChatFlags", types = {})
     public NMSEnumChatVisibility getChatFlags(){
@@ -172,7 +172,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#getChunkCoordinates()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#getChunkCoordinates()
      */
     @ReflectiveMethod(name = "getChunkCoordinates", types = {})
     public NMSBlockPosition getChunkCoordinates(){
@@ -180,7 +180,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#getPlayerListName()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#getPlayerListName()
      */
     @ReflectiveMethod(name = "getPlayerListName", types = {})
     public NMSIChatBaseComponent getPlayerListName(){
@@ -188,7 +188,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#getPlayerTime()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#getPlayerTime()
      */
     @ReflectiveMethod(name = "getPlayerTime", types = {})
     public long getPlayerTime(){
@@ -196,7 +196,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#getPlayerWeather()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#getPlayerWeather()
      */
     @ReflectiveMethod(name = "getPlayerWeather", types = {})
     public WeatherType getPlayerWeather(){
@@ -204,7 +204,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#getStatisticManager()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#getStatisticManager()
      */
     @ReflectiveMethod(name = "getStatisticManager", types = {})
     public NMSServerStatisticManager getStatisticManager(){
@@ -213,7 +213,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#i_()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#i_()
      */
     @ReflectiveMethod(name = "i_", types = {})
     public void i_(){
@@ -221,7 +221,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#isSpectator()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#isSpectator()
      */
     @ReflectiveMethod(name = "isSpectator", types = {})
     public boolean isSpectator(){
@@ -230,7 +230,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#l()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public void l(){
@@ -238,7 +238,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#levelDown(int)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#levelDown(int)
      */
     @ReflectiveMethod(name = "levelDown", types = {int.class})
     public void levelDown(int i){
@@ -246,7 +246,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#mount(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#mount(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "mount", types = {NMSEntity.class})
     public void mount(NMSEntity entity){
@@ -254,7 +254,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#nextContainerCounter()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#nextContainerCounter()
      */
     @ReflectiveMethod(name = "nextContainerCounter", types = {})
     public int nextContainerCounter(){
@@ -262,7 +262,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#openBook(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#openBook(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "openBook", types = {NMSItemStack.class})
     public void openBook(NMSItemStack itemStack){
@@ -270,7 +270,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#openContainer(net.minecraft.server.v1_8_R3.IInventory)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#openContainer(net.minecraft.server.v1_9_R1.IInventory)
      */
     @ReflectiveMethod(name = "openContainer", types = {NMSIInventory.class})
     public void openContainer(NMSIInventory iInventory){
@@ -278,7 +278,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#openHorseInventory(net.minecraft.server.v1_8_R3.EntityHorse, net.minecraft.server.v1_8_R3.IInventory)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#openHorseInventory(net.minecraft.server.v1_9_R1.EntityHorse, net.minecraft.server.v1_9_R1.IInventory)
      */
     @ReflectiveMethod(name = "openHorseInventory", types = {NMSEntityHorse.class, NMSIInventory.class})
     public void openHorseInventory(NMSEntityHorse entityHorse, NMSIInventory iInventory){
@@ -286,7 +286,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#openSign(net.minecraft.server.v1_8_R3.TileEntitySign)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#openSign(net.minecraft.server.v1_9_R1.TileEntitySign)
      */
     @ReflectiveMethod(name = "openSign", types = {NMSTileEntitySign.class})
     public void openSign(NMSTileEntitySign tileEntitySign){
@@ -294,7 +294,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#openTileEntity(net.minecraft.server.v1_8_R3.ITileEntityContainer)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#openTileEntity(net.minecraft.server.v1_9_R1.ITileEntityContainer)
      */
     @ReflectiveMethod(name = "openTileEntity", types = {NMSITileEntityContainer.class})
     public void openTileEntity(NMSITileEntityContainer iTileEntityContainer){
@@ -302,7 +302,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#openTrade(net.minecraft.server.v1_8_R3.IMerchant)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#openTrade(net.minecraft.server.v1_9_R1.IMerchant)
      */
     @ReflectiveMethod(name = "openTrade", types = {NMSIMerchant.class})
     public void openTrade(NMSIMerchant iMerchant){
@@ -311,7 +311,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#p()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#p()
      */
     @ReflectiveMethod(name = "p", types = {})
     public void p(){
@@ -320,7 +320,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#q()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#q()
      */
     @ReflectiveMethod(name = "q", types = {})
     public void q(){
@@ -328,7 +328,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#receive(net.minecraft.server.v1_8_R3.Entity, int)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#receive(net.minecraft.server.v1_9_R1.Entity, int)
      */
     @ReflectiveMethod(name = "receive", types = {NMSEntity.class, int.class})
     public void receive(NMSEntity entity, int i){
@@ -336,7 +336,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#reset()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#reset()
      */
     @ReflectiveMethod(name = "reset", types = {})
     public void reset(){
@@ -344,7 +344,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#resetIdleTimer()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#resetIdleTimer()
      */
     @ReflectiveMethod(name = "resetIdleTimer", types = {})
     public void resetIdleTimer(){
@@ -352,7 +352,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#resetPlayerWeather()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#resetPlayerWeather()
      */
     @ReflectiveMethod(name = "resetPlayerWeather", types = {})
     public void resetPlayerWeather(){
@@ -361,7 +361,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#s()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#s()
      */
     @ReflectiveMethod(name = "s", types = {})
     public void s(){
@@ -369,7 +369,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#sendMessage(net.minecraft.server.v1_8_R3.IChatBaseComponent)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#sendMessage(net.minecraft.server.v1_9_R1.IChatBaseComponent)
      */
     @ReflectiveMethod(name = "sendMessage", types = {NMSIChatBaseComponent.class})
     public void sendMessage(NMSIChatBaseComponent iChatBaseComponent){
@@ -377,7 +377,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#setContainerData(net.minecraft.server.v1_8_R3.Container, net.minecraft.server.v1_8_R3.IInventory)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#setContainerData(net.minecraft.server.v1_9_R1.Container, net.minecraft.server.v1_9_R1.IInventory)
      */
     @ReflectiveMethod(name = "setContainerData", types = {NMSContainer.class, NMSIInventory.class})
     public void setContainerData(NMSContainer container, NMSIInventory iInventory){
@@ -385,7 +385,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#setPlayerWeather(org.bukkit.WeatherType, boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#setPlayerWeather(org.bukkit.WeatherType, boolean)
      */
     @ReflectiveMethod(name = "setPlayerWeather", types = {WeatherType.class, boolean.class})
     public void setPlayerWeather(WeatherType weatherType, boolean b){
@@ -393,7 +393,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#setResourcePack(java.lang.String, java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#setResourcePack(java.lang.String, java.lang.String)
      */
     @ReflectiveMethod(name = "setResourcePack", types = {String.class, String.class})
     public void setResourcePack(String s, String s1){
@@ -401,7 +401,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#setSpectatorTarget(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#setSpectatorTarget(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "setSpectatorTarget", types = {NMSEntity.class})
     public void setSpectatorTarget(NMSEntity entity){
@@ -409,7 +409,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#spawnIn(net.minecraft.server.v1_8_R3.World)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#spawnIn(net.minecraft.server.v1_9_R1.World)
      */
     @ReflectiveMethod(name = "spawnIn", types = {NMSWorld.class})
     public void spawnIn(NMSWorld world){
@@ -417,7 +417,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#syncInventory()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#syncInventory()
      */
     @ReflectiveMethod(name = "syncInventory", types = {})
     public void syncInventory(){
@@ -426,7 +426,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){
@@ -434,7 +434,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#tickWeather()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#tickWeather()
      */
     @ReflectiveMethod(name = "tickWeather", types = {})
     public void tickWeather(){
@@ -442,7 +442,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#toString()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){
@@ -450,7 +450,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#triggerHealthUpdate()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#triggerHealthUpdate()
      */
     @ReflectiveMethod(name = "triggerHealthUpdate", types = {})
     public void triggerHealthUpdate(){
@@ -459,7 +459,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#u()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#u()
      */
     @ReflectiveMethod(name = "u", types = {})
     public NMSWorldServer u(){
@@ -467,7 +467,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#updateAbilities()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#updateAbilities()
      */
     @ReflectiveMethod(name = "updateAbilities", types = {})
     public void updateAbilities(){
@@ -475,7 +475,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#updateInventory(net.minecraft.server.v1_8_R3.Container)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#updateInventory(net.minecraft.server.v1_9_R1.Container)
      */
     @ReflectiveMethod(name = "updateInventory", types = {NMSContainer.class})
     public void updateInventory(NMSContainer container){
@@ -483,7 +483,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#updateWeather(float, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#updateWeather(float, float, float, float)
      */
     @ReflectiveMethod(name = "updateWeather", types = {float.class, float.class, float.class, float.class})
     public void updateWeather(float f, float f1, float f2, float f3){
@@ -492,7 +492,7 @@ public class NMSEntityPlayer extends NMSEntityHuman implements NMSICrafting {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityPlayer#w()
+     * @see net.minecraft.server.v1_9_R1.EntityPlayer#w()
      */
     @ReflectiveMethod(name = "w", types = {})
     public String w(){

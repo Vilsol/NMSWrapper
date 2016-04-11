@@ -17,7 +17,7 @@ public class NMSPathfinderGoalFleeSun extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalFleeSun#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalFleeSun#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalFleeSun extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalFleeSun#b()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalFleeSun#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -35,7 +35,7 @@ public class NMSPathfinderGoalFleeSun extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalFleeSun#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalFleeSun#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){

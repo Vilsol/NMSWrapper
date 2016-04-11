@@ -17,7 +17,7 @@ public class NMSShapeDetectorBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ShapeDetectorBlock#a()
+     * @see net.minecraft.server.v1_9_R1.ShapeDetectorBlock#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public NMSIBlockData a(){
@@ -26,7 +26,7 @@ public class NMSShapeDetectorBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ShapeDetectorBlock#b()
+     * @see net.minecraft.server.v1_9_R1.ShapeDetectorBlock#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public NMSTileEntity b(){
@@ -35,7 +35,7 @@ public class NMSShapeDetectorBlock extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ShapeDetectorBlock#d()
+     * @see net.minecraft.server.v1_9_R1.ShapeDetectorBlock#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public NMSBlockPosition d(){

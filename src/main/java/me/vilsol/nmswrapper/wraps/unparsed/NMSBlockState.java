@@ -13,7 +13,7 @@ public class NMSBlockState extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockState#a()
+     * @see net.minecraft.server.v1_9_R1.BlockState#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public String a(){
@@ -21,7 +21,7 @@ public class NMSBlockState extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockState#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.BlockState#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -29,7 +29,7 @@ public class NMSBlockState extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockState#hashCode()
+     * @see net.minecraft.server.v1_9_R1.BlockState#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -37,7 +37,7 @@ public class NMSBlockState extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockState#toString()
+     * @see net.minecraft.server.v1_9_R1.BlockState#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

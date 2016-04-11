@@ -25,7 +25,7 @@ public class NMSEntityLightning extends NMSEntityWeather {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLightning#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityLightning#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -34,7 +34,7 @@ public class NMSEntityLightning extends NMSEntityWeather {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLightning#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityLightning#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -43,7 +43,7 @@ public class NMSEntityLightning extends NMSEntityWeather {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLightning#h()
+     * @see net.minecraft.server.v1_9_R1.EntityLightning#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -52,7 +52,7 @@ public class NMSEntityLightning extends NMSEntityWeather {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityLightning#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityLightning#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){

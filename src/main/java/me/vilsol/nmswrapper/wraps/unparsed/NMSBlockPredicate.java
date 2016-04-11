@@ -13,7 +13,7 @@ public class NMSBlockPredicate extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockPredicate#a(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockPredicate#a(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "a", types = {NMSIBlockData.class})
     public boolean a(NMSIBlockData iBlockData){
@@ -21,7 +21,7 @@ public class NMSBlockPredicate extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockPredicate#apply(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.BlockPredicate#apply(java.lang.Object)
      */
     @ReflectiveMethod(name = "apply", types = {Object.class})
     public boolean apply(Object object){

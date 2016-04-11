@@ -13,7 +13,7 @@ public class NMSPlayerAbilities extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PlayerAbilities#a()
+     * @see net.minecraft.server.v1_9_R1.PlayerAbilities#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public float a(){
@@ -22,7 +22,7 @@ public class NMSPlayerAbilities extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PlayerAbilities#b()
+     * @see net.minecraft.server.v1_9_R1.PlayerAbilities#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public float b(){

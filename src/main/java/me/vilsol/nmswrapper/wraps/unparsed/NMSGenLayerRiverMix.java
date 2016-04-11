@@ -17,7 +17,7 @@ public class NMSGenLayerRiverMix extends NMSGenLayer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.GenLayerRiverMix#a(long)
+     * @see net.minecraft.server.v1_9_R1.GenLayerRiverMix#a(long)
      */
     @ReflectiveMethod(name = "a", types = {long.class})
     public void a(long l){

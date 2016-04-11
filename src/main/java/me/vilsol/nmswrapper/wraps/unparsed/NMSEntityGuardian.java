@@ -17,7 +17,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#E()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#E()
      */
     @ReflectiveMethod(name = "E", types = {})
     public void E(){
@@ -26,7 +26,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#a(net.minecraft.server.v1_8_R3.EntityGuardian, boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#a(net.minecraft.server.v1_9_R1.EntityGuardian, boolean)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityGuardian.class, boolean.class})
     public void a(NMSEntityGuardian entityGuardian, boolean b){
@@ -35,7 +35,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#b(net.minecraft.server.v1_8_R3.World)
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#b(net.minecraft.server.v1_9_R1.World)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class})
     public NMSNavigationAbstract b(NMSWorld world){
@@ -44,7 +44,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#bQ()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#bQ()
      */
     @ReflectiveMethod(name = "bQ", types = {})
     public int bQ(){
@@ -53,7 +53,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#bR()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#bR()
      */
     @ReflectiveMethod(name = "bR", types = {})
     public boolean bR(){
@@ -62,7 +62,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -71,7 +71,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -79,7 +79,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#canSpawn()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#canSpawn()
      */
     @ReflectiveMethod(name = "canSpawn", types = {})
     public boolean canSpawn(){
@@ -88,7 +88,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#cm()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#cm()
      */
     @ReflectiveMethod(name = "cm", types = {})
     public int cm(){
@@ -97,7 +97,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#cp()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#cp()
      */
     @ReflectiveMethod(name = "cp", types = {})
     public boolean cp(){
@@ -106,7 +106,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#cq()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#cq()
      */
     @ReflectiveMethod(name = "cq", types = {})
     public NMSEntityLiving cq(){
@@ -114,7 +114,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -122,7 +122,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -131,7 +131,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#g(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#g(float, float)
      */
     @ReflectiveMethod(name = "g", types = {float.class, float.class})
     public void g(float f, float f1){
@@ -139,7 +139,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -147,7 +147,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#getRareDrop()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#getRareDrop()
      */
     @ReflectiveMethod(name = "getRareDrop", types = {})
     public void getRareDrop(){
@@ -156,7 +156,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#h()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -165,7 +165,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#i(int)
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#i(int)
      */
     @ReflectiveMethod(name = "i", types = {int.class})
     public void i(int i){
@@ -173,7 +173,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -181,7 +181,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#isElder()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#isElder()
      */
     @ReflectiveMethod(name = "isElder", types = {})
     public boolean isElder(){
@@ -190,7 +190,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#m()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -199,7 +199,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#n()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public boolean n(){
@@ -208,7 +208,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#n_()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#n_()
      */
     @ReflectiveMethod(name = "n_", types = {})
     public boolean n_(){
@@ -217,7 +217,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#q(float)
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#q(float)
      */
     @ReflectiveMethod(name = "q", types = {float.class})
     public float q(float f){
@@ -226,7 +226,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#s_()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#s_()
      */
     @ReflectiveMethod(name = "s_", types = {})
     public boolean s_(){
@@ -234,7 +234,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#setElder(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#setElder(boolean)
      */
     @ReflectiveMethod(name = "setElder", types = {boolean.class})
     public void setElder(boolean b){
@@ -243,7 +243,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#w()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#w()
      */
     @ReflectiveMethod(name = "w", types = {})
     public int w(){
@@ -252,7 +252,7 @@ public class NMSEntityGuardian extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityGuardian#z()
+     * @see net.minecraft.server.v1_9_R1.EntityGuardian#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

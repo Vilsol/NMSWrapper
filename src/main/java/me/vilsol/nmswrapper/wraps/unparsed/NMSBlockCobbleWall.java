@@ -17,7 +17,7 @@ public class NMSBlockCobbleWall extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCobbleWall#a(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockCobbleWall#a(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public NMSAxisAlignedBB a(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -26,7 +26,7 @@ public class NMSBlockCobbleWall extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCobbleWall#b(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockCobbleWall#b(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "b", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public boolean b(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -35,7 +35,7 @@ public class NMSBlockCobbleWall extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCobbleWall#c()
+     * @see net.minecraft.server.v1_9_R1.BlockCobbleWall#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -44,7 +44,7 @@ public class NMSBlockCobbleWall extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCobbleWall#d()
+     * @see net.minecraft.server.v1_9_R1.BlockCobbleWall#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -53,7 +53,7 @@ public class NMSBlockCobbleWall extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockCobbleWall#e(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockCobbleWall#e(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "e", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public boolean e(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -61,7 +61,7 @@ public class NMSBlockCobbleWall extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCobbleWall#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockCobbleWall#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -69,7 +69,7 @@ public class NMSBlockCobbleWall extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCobbleWall#getDropData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockCobbleWall#getDropData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSIBlockData.class})
     public int getDropData(NMSIBlockData iBlockData){
@@ -77,7 +77,7 @@ public class NMSBlockCobbleWall extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCobbleWall#getName()
+     * @see net.minecraft.server.v1_9_R1.BlockCobbleWall#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -85,7 +85,7 @@ public class NMSBlockCobbleWall extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCobbleWall#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockCobbleWall#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -93,7 +93,7 @@ public class NMSBlockCobbleWall extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCobbleWall#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockCobbleWall#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -101,7 +101,7 @@ public class NMSBlockCobbleWall extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCobbleWall#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockCobbleWall#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -109,7 +109,7 @@ public class NMSBlockCobbleWall extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockCobbleWall#updateState(net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockCobbleWall#updateState(net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateState", types = {NMSIBlockData.class, NMSIBlockAccess.class, NMSBlockPosition.class})
     public NMSIBlockData updateState(NMSIBlockData iBlockData, NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

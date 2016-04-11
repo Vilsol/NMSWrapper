@@ -21,7 +21,7 @@ public class NMSEntityFishingHook extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFishingHook#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityFishingHook#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -30,7 +30,7 @@ public class NMSEntityFishingHook extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFishingHook#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityFishingHook#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -39,7 +39,7 @@ public class NMSEntityFishingHook extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFishingHook#c(double, double, double, float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityFishingHook#c(double, double, double, float, float)
      */
     @ReflectiveMethod(name = "c", types = {double.class, double.class, double.class, float.class, float.class})
     public void c(double d, double d1, double d2, float f, float f1){
@@ -47,7 +47,7 @@ public class NMSEntityFishingHook extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityFishingHook#die()
+     * @see net.minecraft.server.v1_9_R1.EntityFishingHook#die()
      */
     @ReflectiveMethod(name = "die", types = {})
     public void die(){
@@ -56,7 +56,7 @@ public class NMSEntityFishingHook extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFishingHook#h()
+     * @see net.minecraft.server.v1_9_R1.EntityFishingHook#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -65,7 +65,7 @@ public class NMSEntityFishingHook extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFishingHook#l()
+     * @see net.minecraft.server.v1_9_R1.EntityFishingHook#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public int l(){
@@ -74,7 +74,7 @@ public class NMSEntityFishingHook extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityFishingHook#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityFishingHook#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){

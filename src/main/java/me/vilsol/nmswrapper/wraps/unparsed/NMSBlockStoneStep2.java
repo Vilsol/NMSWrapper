@@ -13,7 +13,7 @@ public class NMSBlockStoneStep2 extends NMSBlockDoubleStoneStepAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStoneStep2#l()
+     * @see net.minecraft.server.v1_9_R1.BlockStoneStep2#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public boolean l(){

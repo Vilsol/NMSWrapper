@@ -17,7 +17,7 @@ public class NMSPathfinderGoalFollowParent extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalFollowParent#a()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalFollowParent#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public boolean a(){
@@ -26,7 +26,7 @@ public class NMSPathfinderGoalFollowParent extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalFollowParent#b()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalFollowParent#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public boolean b(){
@@ -35,7 +35,7 @@ public class NMSPathfinderGoalFollowParent extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalFollowParent#c()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalFollowParent#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -44,7 +44,7 @@ public class NMSPathfinderGoalFollowParent extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalFollowParent#d()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalFollowParent#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -53,7 +53,7 @@ public class NMSPathfinderGoalFollowParent extends NMSPathfinderGoal {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PathfinderGoalFollowParent#e()
+     * @see net.minecraft.server.v1_9_R1.PathfinderGoalFollowParent#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){

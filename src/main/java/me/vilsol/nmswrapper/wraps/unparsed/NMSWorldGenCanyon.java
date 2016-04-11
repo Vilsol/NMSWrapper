@@ -13,7 +13,7 @@ public class NMSWorldGenCanyon extends NMSWorldGenBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenCanyon#a(net.minecraft.server.v1_8_R3.World, int, int, int, int, net.minecraft.server.v1_8_R3.ChunkSnapshot)
+     * @see net.minecraft.server.v1_9_R1.WorldGenCanyon#a(net.minecraft.server.v1_9_R1.World, int, int, int, int, net.minecraft.server.v1_9_R1.ChunkSnapshot)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, int.class, int.class, int.class, int.class, NMSChunkSnapshot.class})
     public void a(NMSWorld world, int i, int i1, int i2, int i3, NMSChunkSnapshot chunkSnapshot){

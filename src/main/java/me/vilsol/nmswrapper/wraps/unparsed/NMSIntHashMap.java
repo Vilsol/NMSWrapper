@@ -13,7 +13,7 @@ public class NMSIntHashMap extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.IntHashMap#a(int, V)
+     * @see net.minecraft.server.v1_9_R1.IntHashMap#a(int, V)
      */
     @ReflectiveMethod(name = "a", types = {int.class, Object.class})
     public void a(int i, Object v){
@@ -22,7 +22,7 @@ public class NMSIntHashMap extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.IntHashMap#b(int)
+     * @see net.minecraft.server.v1_9_R1.IntHashMap#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public boolean b(int i){
@@ -31,7 +31,7 @@ public class NMSIntHashMap extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.IntHashMap#c()
+     * @see net.minecraft.server.v1_9_R1.IntHashMap#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -40,7 +40,7 @@ public class NMSIntHashMap extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.IntHashMap#d(int)
+     * @see net.minecraft.server.v1_9_R1.IntHashMap#d(int)
      */
     @ReflectiveMethod(name = "d", types = {int.class})
     public Object d(int i){
@@ -49,7 +49,7 @@ public class NMSIntHashMap extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.IntHashMap#f(int)
+     * @see net.minecraft.server.v1_9_R1.IntHashMap#f(int)
      */
     @ReflectiveMethod(name = "f", types = {int.class})
     public int f(int i){
@@ -57,7 +57,7 @@ public class NMSIntHashMap extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.IntHashMap#get(int)
+     * @see net.minecraft.server.v1_9_R1.IntHashMap#get(int)
      */
     @ReflectiveMethod(name = "get", types = {int.class})
     public Object get(int i){

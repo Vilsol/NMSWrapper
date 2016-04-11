@@ -16,7 +16,7 @@ public class NMSMaterialDecoration extends NMSMaterial {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MaterialDecoration#blocksLight()
+     * @see net.minecraft.server.v1_9_R1.MaterialDecoration#blocksLight()
      */
     @ReflectiveMethod(name = "blocksLight", types = {})
     public boolean blocksLight(){
@@ -24,7 +24,7 @@ public class NMSMaterialDecoration extends NMSMaterial {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MaterialDecoration#isBuildable()
+     * @see net.minecraft.server.v1_9_R1.MaterialDecoration#isBuildable()
      */
     @ReflectiveMethod(name = "isBuildable", types = {})
     public boolean isBuildable(){
@@ -32,7 +32,7 @@ public class NMSMaterialDecoration extends NMSMaterial {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.MaterialDecoration#isSolid()
+     * @see net.minecraft.server.v1_9_R1.MaterialDecoration#isSolid()
      */
     @ReflectiveMethod(name = "isSolid", types = {})
     public boolean isSolid(){

@@ -17,7 +17,7 @@ public class NMSBlockStepAbstract extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStepAbstract#I()
+     * @see net.minecraft.server.v1_9_R1.BlockStepAbstract#I()
      */
     @ReflectiveMethod(name = "I", types = {})
     public boolean I(){
@@ -26,7 +26,7 @@ public class NMSBlockStepAbstract extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStepAbstract#a(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.BlockStepAbstract#a(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "a", types = {NMSItemStack.class})
     public Object a(NMSItemStack itemStack){
@@ -35,7 +35,7 @@ public class NMSBlockStepAbstract extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStepAbstract#b(int)
+     * @see net.minecraft.server.v1_9_R1.BlockStepAbstract#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public String b(int i){
@@ -44,7 +44,7 @@ public class NMSBlockStepAbstract extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStepAbstract#c()
+     * @see net.minecraft.server.v1_9_R1.BlockStepAbstract#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -53,7 +53,7 @@ public class NMSBlockStepAbstract extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStepAbstract#d()
+     * @see net.minecraft.server.v1_9_R1.BlockStepAbstract#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -61,7 +61,7 @@ public class NMSBlockStepAbstract extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStepAbstract#getDropData(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockStepAbstract#getDropData(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSWorld.class, NMSBlockPosition.class})
     public int getDropData(NMSWorld world, NMSBlockPosition blockPosition){
@@ -69,7 +69,7 @@ public class NMSBlockStepAbstract extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStepAbstract#getPlacedState(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float, int, net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.BlockStepAbstract#getPlacedState(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float, int, net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getPlacedState", types = {NMSWorld.class, NMSBlockPosition.class, NMSEnumDirection.class, float.class, float.class, float.class, int.class, NMSEntityLiving.class})
     public NMSIBlockData getPlacedState(NMSWorld world, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, float f, float f1, float f2, int i, NMSEntityLiving entityLiving){
@@ -78,7 +78,7 @@ public class NMSBlockStepAbstract extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStepAbstract#j()
+     * @see net.minecraft.server.v1_9_R1.BlockStepAbstract#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public void j(){
@@ -87,7 +87,7 @@ public class NMSBlockStepAbstract extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockStepAbstract#l()
+     * @see net.minecraft.server.v1_9_R1.BlockStepAbstract#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public boolean l(){
@@ -95,7 +95,7 @@ public class NMSBlockStepAbstract extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockStepAbstract#updateShape(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockStepAbstract#updateShape(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "updateShape", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public void updateShape(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){

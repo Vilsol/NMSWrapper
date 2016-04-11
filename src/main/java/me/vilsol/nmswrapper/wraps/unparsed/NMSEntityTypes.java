@@ -13,7 +13,7 @@ public class NMSEntityTypes extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityTypes#a(net.minecraft.server.v1_8_R3.Entity, java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.EntityTypes#a(net.minecraft.server.v1_9_R1.Entity, java.lang.String)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntity.class, String.class})
     public boolean a(NMSEntity entity, String s){
@@ -22,7 +22,7 @@ public class NMSEntityTypes extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityTypes#b(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.EntityTypes#b(java.lang.String)
      */
     @ReflectiveMethod(name = "b", types = {String.class})
     public boolean b(String s){
@@ -30,7 +30,7 @@ public class NMSEntityTypes extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityTypes#createEntityByName(java.lang.String, net.minecraft.server.v1_8_R3.World)
+     * @see net.minecraft.server.v1_9_R1.EntityTypes#createEntityByName(java.lang.String, net.minecraft.server.v1_9_R1.World)
      */
     @ReflectiveMethod(name = "createEntityByName", types = {String.class, NMSWorld.class})
     public NMSEntity createEntityByName(String s, NMSWorld world){

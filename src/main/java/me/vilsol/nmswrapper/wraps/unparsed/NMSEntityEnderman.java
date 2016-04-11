@@ -17,7 +17,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#E()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#E()
      */
     @ReflectiveMethod(name = "E", types = {})
     public void E(){
@@ -26,7 +26,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#a(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#a(boolean)
      */
     @ReflectiveMethod(name = "a", types = {boolean.class})
     public void a(boolean b){
@@ -35,7 +35,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#b(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#b(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntity.class})
     public boolean b(NMSEntity entity){
@@ -44,7 +44,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -53,7 +53,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -62,7 +62,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#co()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#co()
      */
     @ReflectiveMethod(name = "co", types = {})
     public boolean co(){
@@ -70,7 +70,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -78,7 +78,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -86,7 +86,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#getCarried()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#getCarried()
      */
     @ReflectiveMethod(name = "getCarried", types = {})
     public NMSIBlockData getCarried(){
@@ -94,7 +94,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -102,7 +102,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -111,7 +111,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#h()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -119,7 +119,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -128,7 +128,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#k(double, double, double)
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#k(double, double, double)
      */
     @ReflectiveMethod(name = "k", types = {double.class, double.class, double.class})
     public boolean k(double d, double d1, double d2){
@@ -137,7 +137,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#m()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -146,7 +146,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#n()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public boolean n(){
@@ -154,7 +154,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#setCarried(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#setCarried(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "setCarried", types = {NMSIBlockData.class})
     public void setCarried(NMSIBlockData iBlockData){
@@ -163,7 +163,7 @@ public class NMSEntityEnderman extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityEnderman#z()
+     * @see net.minecraft.server.v1_9_R1.EntityEnderman#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

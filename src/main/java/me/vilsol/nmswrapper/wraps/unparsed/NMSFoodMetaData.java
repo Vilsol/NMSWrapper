@@ -17,7 +17,7 @@ public class NMSFoodMetaData extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.FoodMetaData#a(int)
+     * @see net.minecraft.server.v1_9_R1.FoodMetaData#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public void a(int i){
@@ -26,7 +26,7 @@ public class NMSFoodMetaData extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.FoodMetaData#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.FoodMetaData#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -35,7 +35,7 @@ public class NMSFoodMetaData extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.FoodMetaData#c()
+     * @see net.minecraft.server.v1_9_R1.FoodMetaData#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -43,7 +43,7 @@ public class NMSFoodMetaData extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.FoodMetaData#eat(int, float)
+     * @see net.minecraft.server.v1_9_R1.FoodMetaData#eat(int, float)
      */
     @ReflectiveMethod(name = "eat", types = {int.class, float.class})
     public void eat(int i, float f){
@@ -51,7 +51,7 @@ public class NMSFoodMetaData extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.FoodMetaData#getFoodLevel()
+     * @see net.minecraft.server.v1_9_R1.FoodMetaData#getFoodLevel()
      */
     @ReflectiveMethod(name = "getFoodLevel", types = {})
     public int getFoodLevel(){
@@ -59,7 +59,7 @@ public class NMSFoodMetaData extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.FoodMetaData#getSaturationLevel()
+     * @see net.minecraft.server.v1_9_R1.FoodMetaData#getSaturationLevel()
      */
     @ReflectiveMethod(name = "getSaturationLevel", types = {})
     public float getSaturationLevel(){

@@ -17,7 +17,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#a(net.minecraft.server.v1_8_R3.WorldType)
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#a(net.minecraft.server.v1_9_R1.WorldType)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorldType.class})
     public void a(NMSWorldType worldType){
@@ -26,7 +26,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#c(boolean)
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#c(boolean)
      */
     @ReflectiveMethod(name = "c", types = {boolean.class})
     public void c(boolean b){
@@ -35,7 +35,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#d(boolean)
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#d(boolean)
      */
     @ReflectiveMethod(name = "d", types = {boolean.class})
     public void d(boolean b){
@@ -44,7 +44,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#e(boolean)
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#e(boolean)
      */
     @ReflectiveMethod(name = "e", types = {boolean.class})
     public void e(boolean b){
@@ -52,7 +52,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#getDayTime()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#getDayTime()
      */
     @ReflectiveMethod(name = "getDayTime", types = {})
     public long getDayTime(){
@@ -60,7 +60,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#getDifficulty()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#getDifficulty()
      */
     @ReflectiveMethod(name = "getDifficulty", types = {})
     public NMSEnumDifficulty getDifficulty(){
@@ -68,7 +68,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#getGameType()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#getGameType()
      */
     @ReflectiveMethod(name = "getGameType", types = {})
     public NMSEnumGamemode getGameType(){
@@ -76,7 +76,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#getName()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -84,7 +84,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#getSeed()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#getSeed()
      */
     @ReflectiveMethod(name = "getSeed", types = {})
     public long getSeed(){
@@ -92,7 +92,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#getThunderDuration()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#getThunderDuration()
      */
     @ReflectiveMethod(name = "getThunderDuration", types = {})
     public int getThunderDuration(){
@@ -100,7 +100,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#getTime()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#getTime()
      */
     @ReflectiveMethod(name = "getTime", types = {})
     public long getTime(){
@@ -108,7 +108,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#getType()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#getType()
      */
     @ReflectiveMethod(name = "getType", types = {})
     public NMSWorldType getType(){
@@ -116,7 +116,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#getWeatherDuration()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#getWeatherDuration()
      */
     @ReflectiveMethod(name = "getWeatherDuration", types = {})
     public int getWeatherDuration(){
@@ -124,7 +124,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#hasStorm()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#hasStorm()
      */
     @ReflectiveMethod(name = "hasStorm", types = {})
     public boolean hasStorm(){
@@ -133,7 +133,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#i()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public NMSNBTTagCompound i(){
@@ -141,7 +141,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#isDifficultyLocked()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#isDifficultyLocked()
      */
     @ReflectiveMethod(name = "isDifficultyLocked", types = {})
     public boolean isDifficultyLocked(){
@@ -149,7 +149,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#isHardcore()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#isHardcore()
      */
     @ReflectiveMethod(name = "isHardcore", types = {})
     public boolean isHardcore(){
@@ -157,7 +157,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#isThundering()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#isThundering()
      */
     @ReflectiveMethod(name = "isThundering", types = {})
     public boolean isThundering(){
@@ -166,7 +166,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#l()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public int l(){
@@ -174,7 +174,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#setDayTime(long)
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#setDayTime(long)
      */
     @ReflectiveMethod(name = "setDayTime", types = {long.class})
     public void setDayTime(long l){
@@ -182,7 +182,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#setDifficulty(net.minecraft.server.v1_8_R3.EnumDifficulty)
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#setDifficulty(net.minecraft.server.v1_9_R1.EnumDifficulty)
      */
     @ReflectiveMethod(name = "setDifficulty", types = {NMSEnumDifficulty.class})
     public void setDifficulty(NMSEnumDifficulty enumDifficulty){
@@ -190,7 +190,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#setSpawn(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#setSpawn(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "setSpawn", types = {NMSBlockPosition.class})
     public void setSpawn(NMSBlockPosition blockPosition){
@@ -198,7 +198,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#setStorm(boolean)
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#setStorm(boolean)
      */
     @ReflectiveMethod(name = "setStorm", types = {boolean.class})
     public void setStorm(boolean b){
@@ -206,7 +206,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#setThunderDuration(int)
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#setThunderDuration(int)
      */
     @ReflectiveMethod(name = "setThunderDuration", types = {int.class})
     public void setThunderDuration(int i){
@@ -214,7 +214,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#setThundering(boolean)
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#setThundering(boolean)
      */
     @ReflectiveMethod(name = "setThundering", types = {boolean.class})
     public void setThundering(boolean b){
@@ -222,7 +222,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#setTime(long)
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#setTime(long)
      */
     @ReflectiveMethod(name = "setTime", types = {long.class})
     public void setTime(long l){
@@ -230,7 +230,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#setWeatherDuration(int)
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#setWeatherDuration(int)
      */
     @ReflectiveMethod(name = "setWeatherDuration", types = {int.class})
     public void setWeatherDuration(int i){
@@ -238,7 +238,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#shouldGenerateMapFeatures()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#shouldGenerateMapFeatures()
      */
     @ReflectiveMethod(name = "shouldGenerateMapFeatures", types = {})
     public boolean shouldGenerateMapFeatures(){
@@ -247,7 +247,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#v()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#v()
      */
     @ReflectiveMethod(name = "v", types = {})
     public boolean v(){
@@ -256,7 +256,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#w()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#w()
      */
     @ReflectiveMethod(name = "w", types = {})
     public boolean w(){
@@ -265,7 +265,7 @@ public class NMSSecondaryWorldData extends NMSWorldData {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.SecondaryWorldData#x()
+     * @see net.minecraft.server.v1_9_R1.SecondaryWorldData#x()
      */
     @ReflectiveMethod(name = "x", types = {})
     public NMSGameRules x(){

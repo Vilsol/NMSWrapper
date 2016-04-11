@@ -12,7 +12,7 @@ public class NMSRegistryDefault extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.RegistryDefault#get(Object)
+     * @see net.minecraft.server.v1_9_R1.RegistryDefault#get(Object)
      */
     @ReflectiveMethod(name = "get", types = {Object.class})
     public Object get(Object k){

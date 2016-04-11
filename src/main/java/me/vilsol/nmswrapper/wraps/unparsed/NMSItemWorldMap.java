@@ -15,7 +15,7 @@ public class NMSItemWorldMap extends NMSItemWorldMapBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemWorldMap#a(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.Entity, int, boolean)
+     * @see net.minecraft.server.v1_9_R1.ItemWorldMap#a(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.Entity, int, boolean)
      */
     @ReflectiveMethod(name = "a", types = {NMSItemStack.class, NMSWorld.class, NMSEntity.class, int.class, boolean.class})
     public void a(NMSItemStack itemStack, NMSWorld world, NMSEntity entity, int i, boolean b){
@@ -24,7 +24,7 @@ public class NMSItemWorldMap extends NMSItemWorldMapBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemWorldMap#c(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ItemWorldMap#c(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "c", types = {NMSItemStack.class, NMSWorld.class, NMSEntityHuman.class})
     public NMSPacket c(NMSItemStack itemStack, NMSWorld world, NMSEntityHuman entityHuman){
@@ -33,7 +33,7 @@ public class NMSItemWorldMap extends NMSItemWorldMapBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemWorldMap#d(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ItemWorldMap#d(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "d", types = {NMSItemStack.class, NMSWorld.class, NMSEntityHuman.class})
     public void d(NMSItemStack itemStack, NMSWorld world, NMSEntityHuman entityHuman){
@@ -41,7 +41,7 @@ public class NMSItemWorldMap extends NMSItemWorldMapBase {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemWorldMap#getSavedMap(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.World)
+     * @see net.minecraft.server.v1_9_R1.ItemWorldMap#getSavedMap(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.World)
      */
     @ReflectiveMethod(name = "getSavedMap", types = {NMSItemStack.class, NMSWorld.class})
     public NMSWorldMap getSavedMap(NMSItemStack itemStack, NMSWorld world){

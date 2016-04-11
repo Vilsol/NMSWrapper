@@ -17,7 +17,7 @@ public class NMSChunkCoordIntPair extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkCoordIntPair#a(int)
+     * @see net.minecraft.server.v1_9_R1.ChunkCoordIntPair#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public NMSBlockPosition a(int i){
@@ -26,7 +26,7 @@ public class NMSChunkCoordIntPair extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkCoordIntPair#b()
+     * @see net.minecraft.server.v1_9_R1.ChunkCoordIntPair#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public int b(){
@@ -35,7 +35,7 @@ public class NMSChunkCoordIntPair extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkCoordIntPair#c()
+     * @see net.minecraft.server.v1_9_R1.ChunkCoordIntPair#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public int c(){
@@ -44,7 +44,7 @@ public class NMSChunkCoordIntPair extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkCoordIntPair#d()
+     * @see net.minecraft.server.v1_9_R1.ChunkCoordIntPair#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public int d(){
@@ -53,7 +53,7 @@ public class NMSChunkCoordIntPair extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkCoordIntPair#e()
+     * @see net.minecraft.server.v1_9_R1.ChunkCoordIntPair#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public int e(){
@@ -61,7 +61,7 @@ public class NMSChunkCoordIntPair extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkCoordIntPair#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.ChunkCoordIntPair#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -70,7 +70,7 @@ public class NMSChunkCoordIntPair extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkCoordIntPair#f()
+     * @see net.minecraft.server.v1_9_R1.ChunkCoordIntPair#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public int f(){
@@ -78,7 +78,7 @@ public class NMSChunkCoordIntPair extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkCoordIntPair#hashCode()
+     * @see net.minecraft.server.v1_9_R1.ChunkCoordIntPair#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -86,7 +86,7 @@ public class NMSChunkCoordIntPair extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkCoordIntPair#toString()
+     * @see net.minecraft.server.v1_9_R1.ChunkCoordIntPair#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

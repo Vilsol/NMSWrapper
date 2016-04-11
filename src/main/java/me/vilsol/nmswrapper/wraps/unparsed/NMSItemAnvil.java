@@ -16,7 +16,7 @@ public class NMSItemAnvil extends NMSItemMultiTexture {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemAnvil#filterData(int)
+     * @see net.minecraft.server.v1_9_R1.ItemAnvil#filterData(int)
      */
     @ReflectiveMethod(name = "filterData", types = {int.class})
     public int filterData(int i){

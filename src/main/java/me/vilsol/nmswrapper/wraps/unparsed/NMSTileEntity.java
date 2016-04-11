@@ -20,7 +20,7 @@ public class NMSTileEntity extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntity#D()
+     * @see net.minecraft.server.v1_9_R1.TileEntity#D()
      */
     @ReflectiveMethod(name = "D", types = {})
     public void D(){
@@ -29,7 +29,7 @@ public class NMSTileEntity extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntity#E()
+     * @see net.minecraft.server.v1_9_R1.TileEntity#E()
      */
     @ReflectiveMethod(name = "E", types = {})
     public void E(){
@@ -38,7 +38,7 @@ public class NMSTileEntity extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntity#F()
+     * @see net.minecraft.server.v1_9_R1.TileEntity#F()
      */
     @ReflectiveMethod(name = "F", types = {})
     public boolean F(){
@@ -47,7 +47,7 @@ public class NMSTileEntity extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntity#a(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.TileEntity#a(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "a", types = {NMSBlockPosition.class})
     public void a(NMSBlockPosition blockPosition){
@@ -56,7 +56,7 @@ public class NMSTileEntity extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntity#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.TileEntity#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -65,7 +65,7 @@ public class NMSTileEntity extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntity#c(int, int)
+     * @see net.minecraft.server.v1_9_R1.TileEntity#c(int, int)
      */
     @ReflectiveMethod(name = "c", types = {int.class, int.class})
     public boolean c(int i, int i1){
@@ -73,7 +73,7 @@ public class NMSTileEntity extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntity#getOwner()
+     * @see net.minecraft.server.v1_9_R1.TileEntity#getOwner()
      */
     @ReflectiveMethod(name = "getOwner", types = {})
     public InventoryHolder getOwner(){
@@ -81,7 +81,7 @@ public class NMSTileEntity extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntity#getPosition()
+     * @see net.minecraft.server.v1_9_R1.TileEntity#getPosition()
      */
     @ReflectiveMethod(name = "getPosition", types = {})
     public NMSBlockPosition getPosition(){
@@ -89,7 +89,7 @@ public class NMSTileEntity extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntity#getUpdatePacket()
+     * @see net.minecraft.server.v1_9_R1.TileEntity#getUpdatePacket()
      */
     @ReflectiveMethod(name = "getUpdatePacket", types = {})
     public NMSPacket getUpdatePacket(){
@@ -97,7 +97,7 @@ public class NMSTileEntity extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntity#getWorld()
+     * @see net.minecraft.server.v1_9_R1.TileEntity#getWorld()
      */
     @ReflectiveMethod(name = "getWorld", types = {})
     public NMSWorld getWorld(){
@@ -106,7 +106,7 @@ public class NMSTileEntity extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntity#t()
+     * @see net.minecraft.server.v1_9_R1.TileEntity#t()
      */
     @ReflectiveMethod(name = "t", types = {})
     public boolean t(){
@@ -115,7 +115,7 @@ public class NMSTileEntity extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntity#u()
+     * @see net.minecraft.server.v1_9_R1.TileEntity#u()
      */
     @ReflectiveMethod(name = "u", types = {})
     public int u(){
@@ -123,7 +123,7 @@ public class NMSTileEntity extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntity#update()
+     * @see net.minecraft.server.v1_9_R1.TileEntity#update()
      */
     @ReflectiveMethod(name = "update", types = {})
     public void update(){
@@ -132,7 +132,7 @@ public class NMSTileEntity extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntity#w()
+     * @see net.minecraft.server.v1_9_R1.TileEntity#w()
      */
     @ReflectiveMethod(name = "w", types = {})
     public NMSBlock w(){
@@ -141,7 +141,7 @@ public class NMSTileEntity extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntity#x()
+     * @see net.minecraft.server.v1_9_R1.TileEntity#x()
      */
     @ReflectiveMethod(name = "x", types = {})
     public boolean x(){
@@ -150,7 +150,7 @@ public class NMSTileEntity extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntity#y()
+     * @see net.minecraft.server.v1_9_R1.TileEntity#y()
      */
     @ReflectiveMethod(name = "y", types = {})
     public void y(){

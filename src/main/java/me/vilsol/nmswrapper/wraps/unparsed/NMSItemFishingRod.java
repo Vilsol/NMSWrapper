@@ -13,7 +13,7 @@ public class NMSItemFishingRod extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemFishingRod#a(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ItemFishingRod#a(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSItemStack.class, NMSWorld.class, NMSEntityHuman.class})
     public NMSItemStack a(NMSItemStack itemStack, NMSWorld world, NMSEntityHuman entityHuman){
@@ -22,7 +22,7 @@ public class NMSItemFishingRod extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemFishingRod#b()
+     * @see net.minecraft.server.v1_9_R1.ItemFishingRod#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public int b(){
@@ -31,7 +31,7 @@ public class NMSItemFishingRod extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemFishingRod#f_(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemFishingRod#f_(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "f_", types = {NMSItemStack.class})
     public boolean f_(NMSItemStack itemStack){

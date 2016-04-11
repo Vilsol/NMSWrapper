@@ -17,7 +17,7 @@ public class NMSCombatEntry extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CombatEntry#a()
+     * @see net.minecraft.server.v1_9_R1.CombatEntry#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public NMSDamageSource a(){
@@ -26,7 +26,7 @@ public class NMSCombatEntry extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CombatEntry#c()
+     * @see net.minecraft.server.v1_9_R1.CombatEntry#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public float c(){
@@ -35,7 +35,7 @@ public class NMSCombatEntry extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CombatEntry#f()
+     * @see net.minecraft.server.v1_9_R1.CombatEntry#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public boolean f(){
@@ -44,7 +44,7 @@ public class NMSCombatEntry extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CombatEntry#g()
+     * @see net.minecraft.server.v1_9_R1.CombatEntry#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public String g(){
@@ -53,7 +53,7 @@ public class NMSCombatEntry extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CombatEntry#h()
+     * @see net.minecraft.server.v1_9_R1.CombatEntry#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public NMSIChatBaseComponent h(){
@@ -62,7 +62,7 @@ public class NMSCombatEntry extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CombatEntry#i()
+     * @see net.minecraft.server.v1_9_R1.CombatEntry#i()
      */
     @ReflectiveMethod(name = "i", types = {})
     public float i(){

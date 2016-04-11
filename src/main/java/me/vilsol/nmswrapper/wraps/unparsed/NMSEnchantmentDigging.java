@@ -13,7 +13,7 @@ public class NMSEnchantmentDigging extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentDigging#a(int)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentDigging#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public int a(int i){
@@ -22,7 +22,7 @@ public class NMSEnchantmentDigging extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentDigging#b(int)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentDigging#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public int b(int i){
@@ -30,7 +30,7 @@ public class NMSEnchantmentDigging extends NMSEnchantment {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentDigging#canEnchant(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentDigging#canEnchant(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "canEnchant", types = {NMSItemStack.class})
     public boolean canEnchant(NMSItemStack itemStack){
@@ -38,7 +38,7 @@ public class NMSEnchantmentDigging extends NMSEnchantment {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentDigging#getMaxLevel()
+     * @see net.minecraft.server.v1_9_R1.EnchantmentDigging#getMaxLevel()
      */
     @ReflectiveMethod(name = "getMaxLevel", types = {})
     public int getMaxLevel(){

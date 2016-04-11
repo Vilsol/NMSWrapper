@@ -17,7 +17,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -26,7 +26,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#ak()
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#ak()
      */
     @ReflectiveMethod(name = "ak", types = {})
     public void ak(){
@@ -35,7 +35,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#am()
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#am()
      */
     @ReflectiveMethod(name = "am", types = {})
     public double am(){
@@ -44,7 +44,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -53,7 +53,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#bo()
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -62,7 +62,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#bp()
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -70,7 +70,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#die(net.minecraft.server.v1_8_R3.DamageSource)
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#die(net.minecraft.server.v1_9_R1.DamageSource)
      */
     @ReflectiveMethod(name = "die", types = {NMSDamageSource.class})
     public void die(NMSDamageSource damageSource){
@@ -78,7 +78,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#dropDeathLoot(boolean, int)
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#dropDeathLoot(boolean, int)
      */
     @ReflectiveMethod(name = "dropDeathLoot", types = {boolean.class, int.class})
     public void dropDeathLoot(boolean b, int i){
@@ -86,7 +86,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -94,7 +94,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#getMonsterType()
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#getMonsterType()
      */
     @ReflectiveMethod(name = "getMonsterType", types = {})
     public NMSEnumMonsterType getMonsterType(){
@@ -102,7 +102,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#getRareDrop()
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#getRareDrop()
      */
     @ReflectiveMethod(name = "getRareDrop", types = {})
     public void getRareDrop(){
@@ -110,7 +110,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#getSkeletonType()
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#getSkeletonType()
      */
     @ReflectiveMethod(name = "getSkeletonType", types = {})
     public int getSkeletonType(){
@@ -119,7 +119,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#h()
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -127,7 +127,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -136,7 +136,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#m()
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -145,7 +145,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#n()
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public void n(){
@@ -153,7 +153,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#prepare(net.minecraft.server.v1_8_R3.DifficultyDamageScaler, net.minecraft.server.v1_8_R3.GroupDataEntity)
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#prepare(net.minecraft.server.v1_9_R1.DifficultyDamageScaler, net.minecraft.server.v1_9_R1.GroupDataEntity)
      */
     @ReflectiveMethod(name = "prepare", types = {NMSDifficultyDamageScaler.class, NMSGroupDataEntity.class})
     public NMSGroupDataEntity prepare(NMSDifficultyDamageScaler difficultyDamageScaler, NMSGroupDataEntity groupDataEntity){
@@ -162,7 +162,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#r(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#r(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "r", types = {NMSEntity.class})
     public boolean r(NMSEntity entity){
@@ -170,7 +170,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#setEquipment(int, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#setEquipment(int, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "setEquipment", types = {int.class, NMSItemStack.class})
     public void setEquipment(int i, NMSItemStack itemStack){
@@ -178,7 +178,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#setSkeletonType(int)
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#setSkeletonType(int)
      */
     @ReflectiveMethod(name = "setSkeletonType", types = {int.class})
     public void setSkeletonType(int i){
@@ -187,7 +187,7 @@ public class NMSEntitySkeleton extends NMSEntityMonster implements NMSIRangedEnt
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntitySkeleton#z()
+     * @see net.minecraft.server.v1_9_R1.EntitySkeleton#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

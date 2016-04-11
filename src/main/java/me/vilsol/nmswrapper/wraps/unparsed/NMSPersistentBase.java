@@ -21,7 +21,7 @@ public class NMSPersistentBase extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PersistentBase#a(boolean)
+     * @see net.minecraft.server.v1_9_R1.PersistentBase#a(boolean)
      */
     @ReflectiveMethod(name = "a", types = {boolean.class})
     public void a(boolean b){
@@ -30,7 +30,7 @@ public class NMSPersistentBase extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PersistentBase#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.PersistentBase#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -39,7 +39,7 @@ public class NMSPersistentBase extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PersistentBase#c()
+     * @see net.minecraft.server.v1_9_R1.PersistentBase#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -48,7 +48,7 @@ public class NMSPersistentBase extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.PersistentBase#d()
+     * @see net.minecraft.server.v1_9_R1.PersistentBase#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){

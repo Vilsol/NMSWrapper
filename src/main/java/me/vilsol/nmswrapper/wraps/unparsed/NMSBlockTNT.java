@@ -13,7 +13,7 @@ public class NMSBlockTNT extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockTNT#a(net.minecraft.server.v1_8_R3.Explosion)
+     * @see net.minecraft.server.v1_9_R1.BlockTNT#a(net.minecraft.server.v1_9_R1.Explosion)
      */
     @ReflectiveMethod(name = "a", types = {NMSExplosion.class})
     public boolean a(NMSExplosion explosion){
@@ -21,7 +21,7 @@ public class NMSBlockTNT extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTNT#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockTNT#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -29,7 +29,7 @@ public class NMSBlockTNT extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTNT#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockTNT#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -37,7 +37,7 @@ public class NMSBlockTNT extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTNT#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockTNT#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -45,7 +45,7 @@ public class NMSBlockTNT extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTNT#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockTNT#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -53,7 +53,7 @@ public class NMSBlockTNT extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTNT#onPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockTNT#onPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "onPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void onPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -61,7 +61,7 @@ public class NMSBlockTNT extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTNT#postBreak(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockTNT#postBreak(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "postBreak", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void postBreak(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -69,7 +69,7 @@ public class NMSBlockTNT extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTNT#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockTNT#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){
@@ -77,7 +77,7 @@ public class NMSBlockTNT extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockTNT#wasExploded(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.Explosion)
+     * @see net.minecraft.server.v1_9_R1.BlockTNT#wasExploded(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.Explosion)
      */
     @ReflectiveMethod(name = "wasExploded", types = {NMSWorld.class, NMSBlockPosition.class, NMSExplosion.class})
     public void wasExploded(NMSWorld world, NMSBlockPosition blockPosition, NMSExplosion explosion){

@@ -13,7 +13,7 @@ public class NMSLazyInitVar extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.LazyInitVar#c()
+     * @see net.minecraft.server.v1_9_R1.LazyInitVar#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public Object c(){
@@ -21,7 +21,7 @@ public class NMSLazyInitVar extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.LazyInitVar#init()
+     * @see net.minecraft.server.v1_9_R1.LazyInitVar#init()
      */
     @ReflectiveMethod(name = "init", types = {})
     public Object init(){

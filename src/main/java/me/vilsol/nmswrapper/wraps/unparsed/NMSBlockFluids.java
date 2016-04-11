@@ -15,7 +15,7 @@ public class NMSBlockFluids extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFluids#a(net.minecraft.server.v1_8_R3.Material)
+     * @see net.minecraft.server.v1_9_R1.BlockFluids#a(net.minecraft.server.v1_9_R1.Material)
      */
     @ReflectiveMethod(name = "a", types = {NMSMaterial.class})
     public NMSBlockFlowing a(NMSMaterial material){
@@ -24,7 +24,7 @@ public class NMSBlockFluids extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFluids#b(net.minecraft.server.v1_8_R3.Material)
+     * @see net.minecraft.server.v1_9_R1.BlockFluids#b(net.minecraft.server.v1_9_R1.Material)
      */
     @ReflectiveMethod(name = "b", types = {NMSMaterial.class})
     public NMSBlockStationary b(NMSMaterial material){
@@ -33,7 +33,7 @@ public class NMSBlockFluids extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFluids#c()
+     * @see net.minecraft.server.v1_9_R1.BlockFluids#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public boolean c(){
@@ -42,7 +42,7 @@ public class NMSBlockFluids extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFluids#d()
+     * @see net.minecraft.server.v1_9_R1.BlockFluids#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public boolean d(){
@@ -50,7 +50,7 @@ public class NMSBlockFluids extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFluids#doPhysics(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.BlockFluids#doPhysics(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "doPhysics", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSBlock.class})
     public void doPhysics(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSBlock block){
@@ -59,7 +59,7 @@ public class NMSBlockFluids extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFluids#e(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockFluids#e(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "e", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public boolean e(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -68,7 +68,7 @@ public class NMSBlockFluids extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFluids#f(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockFluids#f(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "f", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public int f(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -76,7 +76,7 @@ public class NMSBlockFluids extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFluids#fizz(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockFluids#fizz(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "fizz", types = {NMSWorld.class, NMSBlockPosition.class})
     public void fizz(NMSWorld world, NMSBlockPosition blockPosition){
@@ -84,7 +84,7 @@ public class NMSBlockFluids extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFluids#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockFluids#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -92,7 +92,7 @@ public class NMSBlockFluids extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFluids#getDropType(net.minecraft.server.v1_8_R3.IBlockData, java.util.Random, int)
+     * @see net.minecraft.server.v1_9_R1.BlockFluids#getDropType(net.minecraft.server.v1_9_R1.IBlockData, java.util.Random, int)
      */
     @ReflectiveMethod(name = "getDropType", types = {NMSIBlockData.class, Random.class, int.class})
     public NMSItem getDropType(NMSIBlockData iBlockData, Random random, int i){
@@ -100,7 +100,7 @@ public class NMSBlockFluids extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFluids#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockFluids#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -109,7 +109,7 @@ public class NMSBlockFluids extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockFluids#h(net.minecraft.server.v1_8_R3.IBlockAccess, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockFluids#h(net.minecraft.server.v1_9_R1.IBlockAccess, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "h", types = {NMSIBlockAccess.class, NMSBlockPosition.class})
     public NMSVec3D h(NMSIBlockAccess iBlockAccess, NMSBlockPosition blockPosition){
@@ -117,7 +117,7 @@ public class NMSBlockFluids extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFluids#onPlace(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockFluids#onPlace(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "onPlace", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class})
     public void onPlace(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -125,7 +125,7 @@ public class NMSBlockFluids extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockFluids#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockFluids#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

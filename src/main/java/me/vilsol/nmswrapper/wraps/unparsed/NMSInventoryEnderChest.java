@@ -15,7 +15,7 @@ public class NMSInventoryEnderChest extends NMSInventorySubcontainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryEnderChest#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.InventoryEnderChest#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -23,7 +23,7 @@ public class NMSInventoryEnderChest extends NMSInventorySubcontainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryEnderChest#closeContainer(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.InventoryEnderChest#closeContainer(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "closeContainer", types = {NMSEntityHuman.class})
     public void closeContainer(NMSEntityHuman entityHuman){
@@ -31,7 +31,7 @@ public class NMSInventoryEnderChest extends NMSInventorySubcontainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryEnderChest#getMaxStackSize()
+     * @see net.minecraft.server.v1_9_R1.InventoryEnderChest#getMaxStackSize()
      */
     @ReflectiveMethod(name = "getMaxStackSize", types = {})
     public int getMaxStackSize(){
@@ -39,7 +39,7 @@ public class NMSInventoryEnderChest extends NMSInventorySubcontainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryEnderChest#getOwner()
+     * @see net.minecraft.server.v1_9_R1.InventoryEnderChest#getOwner()
      */
     @ReflectiveMethod(name = "getOwner", types = {})
     public InventoryHolder getOwner(){
@@ -48,7 +48,7 @@ public class NMSInventoryEnderChest extends NMSInventorySubcontainer {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.InventoryEnderChest#h()
+     * @see net.minecraft.server.v1_9_R1.InventoryEnderChest#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public NMSNBTTagList h(){
@@ -56,7 +56,7 @@ public class NMSInventoryEnderChest extends NMSInventorySubcontainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryEnderChest#onClose(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.InventoryEnderChest#onClose(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onClose", types = {NMSCraftHumanEntity.class})
     public void onClose(NMSCraftHumanEntity craftHumanEntity){
@@ -64,7 +64,7 @@ public class NMSInventoryEnderChest extends NMSInventorySubcontainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryEnderChest#onOpen(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.InventoryEnderChest#onOpen(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onOpen", types = {NMSCraftHumanEntity.class})
     public void onOpen(NMSCraftHumanEntity craftHumanEntity){
@@ -72,7 +72,7 @@ public class NMSInventoryEnderChest extends NMSInventorySubcontainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryEnderChest#setMaxStackSize(int)
+     * @see net.minecraft.server.v1_9_R1.InventoryEnderChest#setMaxStackSize(int)
      */
     @ReflectiveMethod(name = "setMaxStackSize", types = {int.class})
     public void setMaxStackSize(int i){
@@ -80,7 +80,7 @@ public class NMSInventoryEnderChest extends NMSInventorySubcontainer {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.InventoryEnderChest#startOpen(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.InventoryEnderChest#startOpen(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "startOpen", types = {NMSEntityHuman.class})
     public void startOpen(NMSEntityHuman entityHuman){

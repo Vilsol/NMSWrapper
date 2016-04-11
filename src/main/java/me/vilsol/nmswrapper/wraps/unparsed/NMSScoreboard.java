@@ -17,7 +17,7 @@ public class NMSScoreboard extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#a(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#a(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntity.class})
     public void a(NMSEntity entity){
@@ -25,7 +25,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#addPlayerToTeam(java.lang.String, java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#addPlayerToTeam(java.lang.String, java.lang.String)
      */
     @ReflectiveMethod(name = "addPlayerToTeam", types = {String.class, String.class})
     public boolean addPlayerToTeam(String s, String s1){
@@ -34,7 +34,7 @@ public class NMSScoreboard extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#b(java.lang.String, net.minecraft.server.v1_8_R3.ScoreboardObjective)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#b(java.lang.String, net.minecraft.server.v1_9_R1.ScoreboardObjective)
      */
     @ReflectiveMethod(name = "b", types = {String.class, NMSScoreboardObjective.class})
     public boolean b(String s, NMSScoreboardObjective scoreboardObjective){
@@ -42,7 +42,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#createTeam(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#createTeam(java.lang.String)
      */
     @ReflectiveMethod(name = "createTeam", types = {String.class})
     public NMSScoreboardTeam createTeam(String s){
@@ -50,7 +50,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#getObjective(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#getObjective(java.lang.String)
      */
     @ReflectiveMethod(name = "getObjective", types = {String.class})
     public NMSScoreboardObjective getObjective(String s){
@@ -58,7 +58,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#getObjectiveForSlot(int)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#getObjectiveForSlot(int)
      */
     @ReflectiveMethod(name = "getObjectiveForSlot", types = {int.class})
     public NMSScoreboardObjective getObjectiveForSlot(int i){
@@ -66,7 +66,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#getPlayerScoreForObjective(java.lang.String, net.minecraft.server.v1_8_R3.ScoreboardObjective)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#getPlayerScoreForObjective(java.lang.String, net.minecraft.server.v1_9_R1.ScoreboardObjective)
      */
     @ReflectiveMethod(name = "getPlayerScoreForObjective", types = {String.class, NMSScoreboardObjective.class})
     public NMSScoreboardScore getPlayerScoreForObjective(String s, NMSScoreboardObjective scoreboardObjective){
@@ -74,7 +74,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#getPlayerTeam(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#getPlayerTeam(java.lang.String)
      */
     @ReflectiveMethod(name = "getPlayerTeam", types = {String.class})
     public NMSScoreboardTeam getPlayerTeam(String s){
@@ -82,7 +82,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#getSlotForName(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#getSlotForName(java.lang.String)
      */
     @ReflectiveMethod(name = "getSlotForName", types = {String.class})
     public int getSlotForName(String s){
@@ -90,7 +90,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#getSlotName(int)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#getSlotName(int)
      */
     @ReflectiveMethod(name = "getSlotName", types = {int.class})
     public String getSlotName(int i){
@@ -98,7 +98,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#getTeam(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#getTeam(java.lang.String)
      */
     @ReflectiveMethod(name = "getTeam", types = {String.class})
     public NMSScoreboardTeam getTeam(String s){
@@ -106,7 +106,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#handleObjectiveAdded(net.minecraft.server.v1_8_R3.ScoreboardObjective)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#handleObjectiveAdded(net.minecraft.server.v1_9_R1.ScoreboardObjective)
      */
     @ReflectiveMethod(name = "handleObjectiveAdded", types = {NMSScoreboardObjective.class})
     public void handleObjectiveAdded(NMSScoreboardObjective scoreboardObjective){
@@ -114,7 +114,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#handleObjectiveChanged(net.minecraft.server.v1_8_R3.ScoreboardObjective)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#handleObjectiveChanged(net.minecraft.server.v1_9_R1.ScoreboardObjective)
      */
     @ReflectiveMethod(name = "handleObjectiveChanged", types = {NMSScoreboardObjective.class})
     public void handleObjectiveChanged(NMSScoreboardObjective scoreboardObjective){
@@ -122,7 +122,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#handleObjectiveRemoved(net.minecraft.server.v1_8_R3.ScoreboardObjective)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#handleObjectiveRemoved(net.minecraft.server.v1_9_R1.ScoreboardObjective)
      */
     @ReflectiveMethod(name = "handleObjectiveRemoved", types = {NMSScoreboardObjective.class})
     public void handleObjectiveRemoved(NMSScoreboardObjective scoreboardObjective){
@@ -130,7 +130,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#handlePlayerRemoved(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#handlePlayerRemoved(java.lang.String)
      */
     @ReflectiveMethod(name = "handlePlayerRemoved", types = {String.class})
     public void handlePlayerRemoved(String s){
@@ -138,7 +138,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#handleScoreChanged(net.minecraft.server.v1_8_R3.ScoreboardScore)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#handleScoreChanged(net.minecraft.server.v1_9_R1.ScoreboardScore)
      */
     @ReflectiveMethod(name = "handleScoreChanged", types = {NMSScoreboardScore.class})
     public void handleScoreChanged(NMSScoreboardScore scoreboardScore){
@@ -146,7 +146,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#handleTeamAdded(net.minecraft.server.v1_8_R3.ScoreboardTeam)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#handleTeamAdded(net.minecraft.server.v1_9_R1.ScoreboardTeam)
      */
     @ReflectiveMethod(name = "handleTeamAdded", types = {NMSScoreboardTeam.class})
     public void handleTeamAdded(NMSScoreboardTeam scoreboardTeam){
@@ -154,7 +154,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#handleTeamChanged(net.minecraft.server.v1_8_R3.ScoreboardTeam)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#handleTeamChanged(net.minecraft.server.v1_9_R1.ScoreboardTeam)
      */
     @ReflectiveMethod(name = "handleTeamChanged", types = {NMSScoreboardTeam.class})
     public void handleTeamChanged(NMSScoreboardTeam scoreboardTeam){
@@ -162,7 +162,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#handleTeamRemoved(net.minecraft.server.v1_8_R3.ScoreboardTeam)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#handleTeamRemoved(net.minecraft.server.v1_9_R1.ScoreboardTeam)
      */
     @ReflectiveMethod(name = "handleTeamRemoved", types = {NMSScoreboardTeam.class})
     public void handleTeamRemoved(NMSScoreboardTeam scoreboardTeam){
@@ -170,7 +170,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#registerObjective(java.lang.String, net.minecraft.server.v1_8_R3.IScoreboardCriteria)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#registerObjective(java.lang.String, net.minecraft.server.v1_9_R1.IScoreboardCriteria)
      */
     @ReflectiveMethod(name = "registerObjective", types = {String.class, NMSIScoreboardCriteria.class})
     public NMSScoreboardObjective registerObjective(String s, NMSIScoreboardCriteria iScoreboardCriteria){
@@ -178,7 +178,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#removePlayerFromTeam(java.lang.String, net.minecraft.server.v1_8_R3.ScoreboardTeam)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#removePlayerFromTeam(java.lang.String, net.minecraft.server.v1_9_R1.ScoreboardTeam)
      */
     @ReflectiveMethod(name = "removePlayerFromTeam", types = {String.class, NMSScoreboardTeam.class})
     public void removePlayerFromTeam(String s, NMSScoreboardTeam scoreboardTeam){
@@ -186,7 +186,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#removeTeam(net.minecraft.server.v1_8_R3.ScoreboardTeam)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#removeTeam(net.minecraft.server.v1_9_R1.ScoreboardTeam)
      */
     @ReflectiveMethod(name = "removeTeam", types = {NMSScoreboardTeam.class})
     public void removeTeam(NMSScoreboardTeam scoreboardTeam){
@@ -194,7 +194,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#resetPlayerScores(java.lang.String, net.minecraft.server.v1_8_R3.ScoreboardObjective)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#resetPlayerScores(java.lang.String, net.minecraft.server.v1_9_R1.ScoreboardObjective)
      */
     @ReflectiveMethod(name = "resetPlayerScores", types = {String.class, NMSScoreboardObjective.class})
     public void resetPlayerScores(String s, NMSScoreboardObjective scoreboardObjective){
@@ -202,7 +202,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#setDisplaySlot(int, net.minecraft.server.v1_8_R3.ScoreboardObjective)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#setDisplaySlot(int, net.minecraft.server.v1_9_R1.ScoreboardObjective)
      */
     @ReflectiveMethod(name = "setDisplaySlot", types = {int.class, NMSScoreboardObjective.class})
     public void setDisplaySlot(int i, NMSScoreboardObjective scoreboardObjective){
@@ -210,7 +210,7 @@ public class NMSScoreboard extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Scoreboard#unregisterObjective(net.minecraft.server.v1_8_R3.ScoreboardObjective)
+     * @see net.minecraft.server.v1_9_R1.Scoreboard#unregisterObjective(net.minecraft.server.v1_9_R1.ScoreboardObjective)
      */
     @ReflectiveMethod(name = "unregisterObjective", types = {NMSScoreboardObjective.class})
     public void unregisterObjective(NMSScoreboardObjective scoreboardObjective){

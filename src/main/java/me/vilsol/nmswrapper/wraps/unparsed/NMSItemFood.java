@@ -25,7 +25,7 @@ public class NMSItemFood extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemFood#a(int, int, int, float)
+     * @see net.minecraft.server.v1_9_R1.ItemFood#a(int, int, int, float)
      */
     @ReflectiveMethod(name = "a", types = {int.class, int.class, int.class, float.class})
     public NMSItemFood a(int i, int i1, int i2, float f){
@@ -34,7 +34,7 @@ public class NMSItemFood extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemFood#b(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ItemFood#b(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "b", types = {NMSItemStack.class, NMSWorld.class, NMSEntityHuman.class})
     public NMSItemStack b(NMSItemStack itemStack, NMSWorld world, NMSEntityHuman entityHuman){
@@ -43,7 +43,7 @@ public class NMSItemFood extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemFood#c(net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.ItemFood#c(net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "c", types = {NMSItemStack.class, NMSWorld.class, NMSEntityHuman.class})
     public void c(NMSItemStack itemStack, NMSWorld world, NMSEntityHuman entityHuman){
@@ -52,7 +52,7 @@ public class NMSItemFood extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemFood#d(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemFood#d(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "d", types = {NMSItemStack.class})
     public int d(NMSItemStack itemStack){
@@ -61,7 +61,7 @@ public class NMSItemFood extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemFood#e(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemFood#e(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "e", types = {NMSItemStack.class})
     public NMSEnumAnimation e(NMSItemStack itemStack){
@@ -70,7 +70,7 @@ public class NMSItemFood extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemFood#g()
+     * @see net.minecraft.server.v1_9_R1.ItemFood#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public boolean g(){
@@ -78,7 +78,7 @@ public class NMSItemFood extends NMSItem {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemFood#getNutrition(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemFood#getNutrition(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "getNutrition", types = {NMSItemStack.class})
     public int getNutrition(NMSItemStack itemStack){
@@ -86,7 +86,7 @@ public class NMSItemFood extends NMSItem {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ItemFood#getSaturationModifier(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.ItemFood#getSaturationModifier(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "getSaturationModifier", types = {NMSItemStack.class})
     public float getSaturationModifier(NMSItemStack itemStack){
@@ -95,7 +95,7 @@ public class NMSItemFood extends NMSItem {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ItemFood#h()
+     * @see net.minecraft.server.v1_9_R1.ItemFood#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public NMSItemFood h(){

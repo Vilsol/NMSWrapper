@@ -17,7 +17,7 @@ public class NMSAttributeRanged extends NMSAttributeBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AttributeRanged#a(double)
+     * @see net.minecraft.server.v1_9_R1.AttributeRanged#a(double)
      */
     @ReflectiveMethod(name = "a", types = {double.class})
     public double a(double d){
@@ -26,7 +26,7 @@ public class NMSAttributeRanged extends NMSAttributeBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AttributeRanged#g()
+     * @see net.minecraft.server.v1_9_R1.AttributeRanged#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public String g(){

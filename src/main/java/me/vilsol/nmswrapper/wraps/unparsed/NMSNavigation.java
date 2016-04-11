@@ -23,7 +23,7 @@ public class NMSNavigation extends NMSNavigationAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Navigation#a(boolean)
+     * @see net.minecraft.server.v1_9_R1.Navigation#a(boolean)
      */
     @ReflectiveMethod(name = "a", types = {boolean.class})
     public void a(boolean b){
@@ -32,7 +32,7 @@ public class NMSNavigation extends NMSNavigationAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Navigation#b(boolean)
+     * @see net.minecraft.server.v1_9_R1.Navigation#b(boolean)
      */
     @ReflectiveMethod(name = "b", types = {boolean.class})
     public void b(boolean b){
@@ -41,7 +41,7 @@ public class NMSNavigation extends NMSNavigationAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Navigation#c(boolean)
+     * @see net.minecraft.server.v1_9_R1.Navigation#c(boolean)
      */
     @ReflectiveMethod(name = "c", types = {boolean.class})
     public void c(boolean b){
@@ -50,7 +50,7 @@ public class NMSNavigation extends NMSNavigationAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Navigation#d(boolean)
+     * @see net.minecraft.server.v1_9_R1.Navigation#d(boolean)
      */
     @ReflectiveMethod(name = "d", types = {boolean.class})
     public void d(boolean b){
@@ -59,7 +59,7 @@ public class NMSNavigation extends NMSNavigationAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Navigation#e(boolean)
+     * @see net.minecraft.server.v1_9_R1.Navigation#e(boolean)
      */
     @ReflectiveMethod(name = "e", types = {boolean.class})
     public void e(boolean b){
@@ -68,7 +68,7 @@ public class NMSNavigation extends NMSNavigationAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Navigation#g()
+     * @see net.minecraft.server.v1_9_R1.Navigation#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public boolean g(){
@@ -77,7 +77,7 @@ public class NMSNavigation extends NMSNavigationAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Navigation#h()
+     * @see net.minecraft.server.v1_9_R1.Navigation#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public boolean h(){

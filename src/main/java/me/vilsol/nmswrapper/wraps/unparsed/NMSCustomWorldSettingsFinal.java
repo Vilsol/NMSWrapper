@@ -25,7 +25,7 @@ public class NMSCustomWorldSettingsFinal extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.CustomWorldSettingsFinal$CustomWorldSettings#a()
+         * @see net.minecraft.server.v1_9_R1.CustomWorldSettingsFinal$CustomWorldSettings#a()
          */
         @ReflectiveMethod(name = "a", types = {})
         public void a(){
@@ -34,7 +34,7 @@ public class NMSCustomWorldSettingsFinal extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.CustomWorldSettingsFinal$CustomWorldSettings#b()
+         * @see net.minecraft.server.v1_9_R1.CustomWorldSettingsFinal$CustomWorldSettings#b()
          */
         @ReflectiveMethod(name = "b", types = {})
         public NMSCustomWorldSettingsFinal b(){
@@ -42,7 +42,7 @@ public class NMSCustomWorldSettingsFinal extends NMSWrap {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.CustomWorldSettingsFinal$CustomWorldSettings#equals(java.lang.Object)
+         * @see net.minecraft.server.v1_9_R1.CustomWorldSettingsFinal$CustomWorldSettings#equals(java.lang.Object)
          */
         @ReflectiveMethod(name = "equals", types = {Object.class})
         public boolean equals(Object object){
@@ -50,7 +50,7 @@ public class NMSCustomWorldSettingsFinal extends NMSWrap {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.CustomWorldSettingsFinal$CustomWorldSettings#hashCode()
+         * @see net.minecraft.server.v1_9_R1.CustomWorldSettingsFinal$CustomWorldSettings#hashCode()
          */
         @ReflectiveMethod(name = "hashCode", types = {})
         public int hashCode(){
@@ -58,7 +58,7 @@ public class NMSCustomWorldSettingsFinal extends NMSWrap {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.CustomWorldSettingsFinal$CustomWorldSettings#toString()
+         * @see net.minecraft.server.v1_9_R1.CustomWorldSettingsFinal$CustomWorldSettings#toString()
          */
         @ReflectiveMethod(name = "toString", types = {})
         public String toString(){
@@ -76,7 +76,7 @@ public class NMSCustomWorldSettingsFinal extends NMSWrap {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.CustomWorldSettingsFinal$CustomWorldSettingsSerializer#a(net.minecraft.server.v1_8_R3.CustomWorldSettingsFinal$CustomWorldSettings, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
+         * @see net.minecraft.server.v1_9_R1.CustomWorldSettingsFinal$CustomWorldSettingsSerializer#a(net.minecraft.server.v1_9_R1.CustomWorldSettingsFinal$CustomWorldSettings, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
          */
         @ReflectiveMethod(name = "a", types = {NMSCustomWorldSettings.class, Type.class, JsonSerializationContext.class})
         public JsonElement a(NMSCustomWorldSettings customWorldSettings, Type type, JsonSerializationContext jsonSerializationContext){
@@ -84,7 +84,7 @@ public class NMSCustomWorldSettingsFinal extends NMSWrap {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.CustomWorldSettingsFinal$CustomWorldSettingsSerializer#serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
+         * @see net.minecraft.server.v1_9_R1.CustomWorldSettingsFinal$CustomWorldSettingsSerializer#serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)
          */
         @ReflectiveMethod(name = "serialize", types = {Object.class, Type.class, JsonSerializationContext.class})
         public JsonElement serialize(Object object, Type type, JsonSerializationContext jsonSerializationContext){

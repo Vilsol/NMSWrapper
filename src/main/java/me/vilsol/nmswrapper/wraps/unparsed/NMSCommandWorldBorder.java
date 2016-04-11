@@ -13,7 +13,7 @@ public class NMSCommandWorldBorder extends NMSCommandAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandWorldBorder#a()
+     * @see net.minecraft.server.v1_9_R1.CommandWorldBorder#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public int a(){
@@ -22,7 +22,7 @@ public class NMSCommandWorldBorder extends NMSCommandAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandWorldBorder#d()
+     * @see net.minecraft.server.v1_9_R1.CommandWorldBorder#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public NMSWorldBorder d(){
@@ -30,7 +30,7 @@ public class NMSCommandWorldBorder extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandWorldBorder#getCommand()
+     * @see net.minecraft.server.v1_9_R1.CommandWorldBorder#getCommand()
      */
     @ReflectiveMethod(name = "getCommand", types = {})
     public String getCommand(){
@@ -38,7 +38,7 @@ public class NMSCommandWorldBorder extends NMSCommandAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandWorldBorder#getUsage(net.minecraft.server.v1_8_R3.ICommandListener)
+     * @see net.minecraft.server.v1_9_R1.CommandWorldBorder#getUsage(net.minecraft.server.v1_9_R1.ICommandListener)
      */
     @ReflectiveMethod(name = "getUsage", types = {NMSICommandListener.class})
     public String getUsage(NMSICommandListener iCommandListener){

@@ -17,7 +17,7 @@ public class NMSEnchantmentArrowKnockback extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentArrowKnockback#a(int)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentArrowKnockback#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public int a(int i){
@@ -26,7 +26,7 @@ public class NMSEnchantmentArrowKnockback extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentArrowKnockback#b(int)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentArrowKnockback#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public int b(int i){
@@ -34,7 +34,7 @@ public class NMSEnchantmentArrowKnockback extends NMSEnchantment {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentArrowKnockback#getMaxLevel()
+     * @see net.minecraft.server.v1_9_R1.EnchantmentArrowKnockback#getMaxLevel()
      */
     @ReflectiveMethod(name = "getMaxLevel", types = {})
     public int getMaxLevel(){

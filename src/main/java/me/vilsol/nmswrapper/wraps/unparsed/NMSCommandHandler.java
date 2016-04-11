@@ -13,7 +13,7 @@ public class NMSCommandHandler extends NMSWrap implements NMSICommandHandler {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandHandler#a(net.minecraft.server.v1_8_R3.ICommand)
+     * @see net.minecraft.server.v1_9_R1.CommandHandler#a(net.minecraft.server.v1_9_R1.ICommand)
      */
     @ReflectiveMethod(name = "a", types = {NMSICommand.class})
     public NMSICommand a(NMSICommand iCommand){

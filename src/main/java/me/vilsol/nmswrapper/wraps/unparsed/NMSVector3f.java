@@ -21,7 +21,7 @@ public class NMSVector3f extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.Vector3f#a()
+     * @see net.minecraft.server.v1_9_R1.Vector3f#a()
      */
     @ReflectiveMethod(name = "a", types = {})
     public NMSNBTTagList a(){
@@ -29,7 +29,7 @@ public class NMSVector3f extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Vector3f#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.Vector3f#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -37,7 +37,7 @@ public class NMSVector3f extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Vector3f#getX()
+     * @see net.minecraft.server.v1_9_R1.Vector3f#getX()
      */
     @ReflectiveMethod(name = "getX", types = {})
     public float getX(){
@@ -45,7 +45,7 @@ public class NMSVector3f extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Vector3f#getY()
+     * @see net.minecraft.server.v1_9_R1.Vector3f#getY()
      */
     @ReflectiveMethod(name = "getY", types = {})
     public float getY(){
@@ -53,7 +53,7 @@ public class NMSVector3f extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.Vector3f#getZ()
+     * @see net.minecraft.server.v1_9_R1.Vector3f#getZ()
      */
     @ReflectiveMethod(name = "getZ", types = {})
     public float getZ(){

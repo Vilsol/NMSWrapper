@@ -20,7 +20,7 @@ public class NMSBiomeBase extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeBase#a(net.minecraft.server.v1_8_R3.BiomeBase)
+     * @see net.minecraft.server.v1_9_R1.BiomeBase#a(net.minecraft.server.v1_9_R1.BiomeBase)
      */
     @ReflectiveMethod(name = "a", types = {NMSBiomeBase.class})
     public boolean a(NMSBiomeBase biomeBase){
@@ -29,7 +29,7 @@ public class NMSBiomeBase extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeBase#b(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.ChunkSnapshot, int, int, double)
+     * @see net.minecraft.server.v1_9_R1.BiomeBase#b(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.ChunkSnapshot, int, int, double)
      */
     @ReflectiveMethod(name = "b", types = {NMSWorld.class, Random.class, NMSChunkSnapshot.class, int.class, int.class, double.class})
     public void b(NMSWorld world, Random random, NMSChunkSnapshot chunkSnapshot, int i, int i1, double d){
@@ -38,7 +38,7 @@ public class NMSBiomeBase extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeBase#c(int)
+     * @see net.minecraft.server.v1_9_R1.BiomeBase#c(int)
      */
     @ReflectiveMethod(name = "c", types = {int.class})
     public NMSBiomeBase c(int i){
@@ -47,7 +47,7 @@ public class NMSBiomeBase extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeBase#d(int)
+     * @see net.minecraft.server.v1_9_R1.BiomeBase#d(int)
      */
     @ReflectiveMethod(name = "d", types = {int.class})
     public NMSBiomeBase d(int i){
@@ -56,7 +56,7 @@ public class NMSBiomeBase extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeBase#e()
+     * @see net.minecraft.server.v1_9_R1.BiomeBase#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public boolean e(){
@@ -65,7 +65,7 @@ public class NMSBiomeBase extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeBase#f()
+     * @see net.minecraft.server.v1_9_R1.BiomeBase#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public boolean f(){
@@ -74,7 +74,7 @@ public class NMSBiomeBase extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeBase#g()
+     * @see net.minecraft.server.v1_9_R1.BiomeBase#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public float g(){
@@ -82,7 +82,7 @@ public class NMSBiomeBase extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BiomeBase#getBiome(int, net.minecraft.server.v1_8_R3.BiomeBase)
+     * @see net.minecraft.server.v1_9_R1.BiomeBase#getBiome(int, net.minecraft.server.v1_9_R1.BiomeBase)
      */
     @ReflectiveMethod(name = "getBiome", types = {int.class, NMSBiomeBase.class})
     public NMSBiomeBase getBiome(int i, NMSBiomeBase biomeBase){
@@ -91,7 +91,7 @@ public class NMSBiomeBase extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeBase#h()
+     * @see net.minecraft.server.v1_9_R1.BiomeBase#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public int h(){
@@ -100,7 +100,7 @@ public class NMSBiomeBase extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeBase#j()
+     * @see net.minecraft.server.v1_9_R1.BiomeBase#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public boolean j(){
@@ -109,7 +109,7 @@ public class NMSBiomeBase extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeBase#k()
+     * @see net.minecraft.server.v1_9_R1.BiomeBase#k()
      */
     @ReflectiveMethod(name = "k", types = {})
     public NMSBiomeBase k(){
@@ -118,7 +118,7 @@ public class NMSBiomeBase extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BiomeBase#m()
+     * @see net.minecraft.server.v1_9_R1.BiomeBase#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public NMSEnumTemperature m(){

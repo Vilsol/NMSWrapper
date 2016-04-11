@@ -17,7 +17,7 @@ public class NMSEnchantmentWaterWorker extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentWaterWorker#a(int)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentWaterWorker#a(int)
      */
     @ReflectiveMethod(name = "a", types = {int.class})
     public int a(int i){
@@ -26,7 +26,7 @@ public class NMSEnchantmentWaterWorker extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentWaterWorker#b(int)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentWaterWorker#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public int b(int i){
@@ -34,7 +34,7 @@ public class NMSEnchantmentWaterWorker extends NMSEnchantment {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentWaterWorker#getMaxLevel()
+     * @see net.minecraft.server.v1_9_R1.EnchantmentWaterWorker#getMaxLevel()
      */
     @ReflectiveMethod(name = "getMaxLevel", types = {})
     public int getMaxLevel(){

@@ -18,7 +18,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#A(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#A(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "A", types = {NMSBlockPosition.class})
     public int A(NMSBlockPosition blockPosition){
@@ -27,7 +27,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#B(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#B(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "B", types = {NMSBlockPosition.class})
     public void B(NMSBlockPosition blockPosition){
@@ -36,7 +36,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#C()
+     * @see net.minecraft.server.v1_9_R1.World#C()
      */
     @ReflectiveMethod(name = "C", types = {})
     public void C(){
@@ -45,7 +45,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#D(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#D(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "D", types = {NMSBlockPosition.class})
     public boolean D(NMSBlockPosition blockPosition){
@@ -54,7 +54,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#E(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#E(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "E", types = {NMSBlockPosition.class})
     public NMSDifficultyDamageScaler E(NMSBlockPosition blockPosition){
@@ -63,7 +63,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#F()
+     * @see net.minecraft.server.v1_9_R1.World#F()
      */
     @ReflectiveMethod(name = "F", types = {})
     public int F(){
@@ -72,7 +72,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#G()
+     * @see net.minecraft.server.v1_9_R1.World#G()
      */
     @ReflectiveMethod(name = "G", types = {})
     public NMSWorldType G(){
@@ -81,7 +81,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#N()
+     * @see net.minecraft.server.v1_9_R1.World#N()
      */
     @ReflectiveMethod(name = "N", types = {})
     public NMSIChunkProvider N(){
@@ -90,7 +90,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#R()
+     * @see net.minecraft.server.v1_9_R1.World#R()
      */
     @ReflectiveMethod(name = "R", types = {})
     public boolean R(){
@@ -99,7 +99,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#S()
+     * @see net.minecraft.server.v1_9_R1.World#S()
      */
     @ReflectiveMethod(name = "S", types = {})
     public boolean S(){
@@ -108,7 +108,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#T()
+     * @see net.minecraft.server.v1_9_R1.World#T()
      */
     @ReflectiveMethod(name = "T", types = {})
     public NMSPersistentCollection T(){
@@ -117,7 +117,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#V()
+     * @see net.minecraft.server.v1_9_R1.World#V()
      */
     @ReflectiveMethod(name = "V", types = {})
     public int V(){
@@ -126,7 +126,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#Y()
+     * @see net.minecraft.server.v1_9_R1.World#Y()
      */
     @ReflectiveMethod(name = "Y", types = {})
     public Calendar Y(){
@@ -135,7 +135,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#a(net.minecraft.server.v1_8_R3.CrashReport)
+     * @see net.minecraft.server.v1_9_R1.World#a(net.minecraft.server.v1_9_R1.CrashReport)
      */
     @ReflectiveMethod(name = "a", types = {NMSCrashReport.class})
     public NMSCrashReportSystemDetails a(NMSCrashReport crashReport){
@@ -144,7 +144,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#ab()
+     * @see net.minecraft.server.v1_9_R1.World#ab()
      */
     @ReflectiveMethod(name = "ab", types = {})
     public int ab(){
@@ -153,7 +153,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#ad()
+     * @see net.minecraft.server.v1_9_R1.World#ad()
      */
     @ReflectiveMethod(name = "ad", types = {})
     public boolean ad(){
@@ -161,7 +161,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#addEntity(net.minecraft.server.v1_8_R3.Entity, org.bukkit.event.entity.CreatureSpawnEvent$SpawnReason)
+     * @see net.minecraft.server.v1_9_R1.World#addEntity(net.minecraft.server.v1_9_R1.Entity, org.bukkit.event.entity.CreatureSpawnEvent$SpawnReason)
      */
     @ReflectiveMethod(name = "addEntity", types = {NMSEntity.class, CreatureSpawnEvent.SpawnReason.class})
     public boolean addEntity(NMSEntity entity, CreatureSpawnEvent.SpawnReason spawnReason){
@@ -169,7 +169,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#addIWorldAccess(net.minecraft.server.v1_8_R3.IWorldAccess)
+     * @see net.minecraft.server.v1_9_R1.World#addIWorldAccess(net.minecraft.server.v1_9_R1.IWorldAccess)
      */
     @ReflectiveMethod(name = "addIWorldAccess", types = {NMSIWorldAccess.class})
     public void addIWorldAccess(NMSIWorldAccess iWorldAccess){
@@ -177,7 +177,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#addParticle(net.minecraft.server.v1_8_R3.EnumParticle, double, double, double, double, double, double, int...)
+     * @see net.minecraft.server.v1_9_R1.World#addParticle(net.minecraft.server.v1_9_R1.EnumParticle, double, double, double, double, double, double, int...)
      */
     @ReflectiveMethod(name = "addParticle", types = {NMSEnumParticle.class, double.class, double.class, double.class, double.class, double.class, double.class, int[].class})
     public void addParticle(NMSEnumParticle enumParticle, double d, double d1, double d2, double d3, double d4, double d5, int[] array){
@@ -186,7 +186,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#ae()
+     * @see net.minecraft.server.v1_9_R1.World#ae()
      */
     @ReflectiveMethod(name = "ae", types = {})
     public NMSPersistentVillage ae(){
@@ -194,7 +194,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#applyPhysics(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.World#applyPhysics(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "applyPhysics", types = {NMSBlockPosition.class, NMSBlock.class})
     public void applyPhysics(NMSBlockPosition blockPosition, NMSBlock block){
@@ -202,7 +202,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#areChunksLoaded(net.minecraft.server.v1_8_R3.BlockPosition, int, boolean)
+     * @see net.minecraft.server.v1_9_R1.World#areChunksLoaded(net.minecraft.server.v1_9_R1.BlockPosition, int, boolean)
      */
     @ReflectiveMethod(name = "areChunksLoaded", types = {NMSBlockPosition.class, int.class, boolean.class})
     public boolean areChunksLoaded(NMSBlockPosition blockPosition, int i, boolean b){
@@ -210,7 +210,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#areChunksLoadedBetween(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.BlockPosition, boolean)
+     * @see net.minecraft.server.v1_9_R1.World#areChunksLoadedBetween(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.BlockPosition, boolean)
      */
     @ReflectiveMethod(name = "areChunksLoadedBetween", types = {NMSBlockPosition.class, NMSBlockPosition.class, boolean.class})
     public boolean areChunksLoadedBetween(NMSBlockPosition blockPosition, NMSBlockPosition blockPosition1, boolean b){
@@ -219,7 +219,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#b(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.World#b(java.lang.String)
      */
     @ReflectiveMethod(name = "b", types = {String.class})
     public int b(String s){
@@ -227,7 +227,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#broadcastEntityEffect(net.minecraft.server.v1_8_R3.Entity, byte)
+     * @see net.minecraft.server.v1_9_R1.World#broadcastEntityEffect(net.minecraft.server.v1_9_R1.Entity, byte)
      */
     @ReflectiveMethod(name = "broadcastEntityEffect", types = {NMSEntity.class, byte.class})
     public void broadcastEntityEffect(NMSEntity entity, byte b){
@@ -236,7 +236,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#c(int, int)
+     * @see net.minecraft.server.v1_9_R1.World#c(int, int)
      */
     @ReflectiveMethod(name = "c", types = {int.class, int.class})
     public boolean c(int i, int i1){
@@ -244,7 +244,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#checkSleepStatus()
+     * @see net.minecraft.server.v1_9_R1.World#checkSleepStatus()
      */
     @ReflectiveMethod(name = "checkSleepStatus", types = {})
     public void checkSleepStatus(){
@@ -252,7 +252,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#chunkToKey(int, int)
+     * @see net.minecraft.server.v1_9_R1.World#chunkToKey(int, int)
      */
     @ReflectiveMethod(name = "chunkToKey", types = {int.class, int.class})
     public long chunkToKey(int i, int i1){
@@ -260,7 +260,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#containsLiquid(net.minecraft.server.v1_8_R3.AxisAlignedBB)
+     * @see net.minecraft.server.v1_9_R1.World#containsLiquid(net.minecraft.server.v1_9_R1.AxisAlignedBB)
      */
     @ReflectiveMethod(name = "containsLiquid", types = {NMSAxisAlignedBB.class})
     public boolean containsLiquid(NMSAxisAlignedBB axisAlignedBB){
@@ -268,7 +268,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#createExplosion(net.minecraft.server.v1_8_R3.Entity, double, double, double, float, boolean, boolean)
+     * @see net.minecraft.server.v1_9_R1.World#createExplosion(net.minecraft.server.v1_9_R1.Entity, double, double, double, float, boolean, boolean)
      */
     @ReflectiveMethod(name = "createExplosion", types = {NMSEntity.class, double.class, double.class, double.class, float.class, boolean.class, boolean.class})
     public NMSExplosion createExplosion(NMSEntity entity, double d, double d1, double d2, float f, boolean b, boolean b1){
@@ -277,7 +277,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#d(int)
+     * @see net.minecraft.server.v1_9_R1.World#d(int)
      */
     @ReflectiveMethod(name = "d", types = {int.class})
     public void d(int i){
@@ -285,7 +285,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#doTick()
+     * @see net.minecraft.server.v1_9_R1.World#doTick()
      */
     @ReflectiveMethod(name = "doTick", types = {})
     public void doTick(){
@@ -293,7 +293,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#douseFire(net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.World#douseFire(net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "douseFire", types = {NMSEntityHuman.class, NMSBlockPosition.class, NMSEnumDirection.class})
     public boolean douseFire(NMSEntityHuman entityHuman, NMSBlockPosition blockPosition, NMSEnumDirection enumDirection){
@@ -302,7 +302,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#e(net.minecraft.server.v1_8_R3.BlockPosition, boolean)
+     * @see net.minecraft.server.v1_9_R1.World#e(net.minecraft.server.v1_9_R1.BlockPosition, boolean)
      */
     @ReflectiveMethod(name = "e", types = {NMSBlockPosition.class, boolean.class})
     public boolean e(NMSBlockPosition blockPosition, boolean b){
@@ -310,7 +310,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#entityJoinedWorld(net.minecraft.server.v1_8_R3.Entity, boolean)
+     * @see net.minecraft.server.v1_9_R1.World#entityJoinedWorld(net.minecraft.server.v1_9_R1.Entity, boolean)
      */
     @ReflectiveMethod(name = "entityJoinedWorld", types = {NMSEntity.class, boolean.class})
     public void entityJoinedWorld(NMSEntity entity, boolean b){
@@ -318,7 +318,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#everyoneSleeping()
+     * @see net.minecraft.server.v1_9_R1.World#everyoneSleeping()
      */
     @ReflectiveMethod(name = "everyoneSleeping", types = {})
     public void everyoneSleeping(){
@@ -326,7 +326,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#explode(net.minecraft.server.v1_8_R3.Entity, double, double, double, float, boolean)
+     * @see net.minecraft.server.v1_9_R1.World#explode(net.minecraft.server.v1_9_R1.Entity, double, double, double, float, boolean)
      */
     @ReflectiveMethod(name = "explode", types = {NMSEntity.class, double.class, double.class, double.class, float.class, boolean.class})
     public NMSExplosion explode(NMSEntity entity, double d, double d1, double d2, float f, boolean b){
@@ -335,7 +335,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#f(net.minecraft.server.v1_8_R3.BlockPosition, boolean)
+     * @see net.minecraft.server.v1_9_R1.World#f(net.minecraft.server.v1_9_R1.BlockPosition, boolean)
      */
     @ReflectiveMethod(name = "f", types = {NMSBlockPosition.class, boolean.class})
     public boolean f(NMSBlockPosition blockPosition, boolean b){
@@ -343,7 +343,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#findNearbyPlayer(double, double, double, double)
+     * @see net.minecraft.server.v1_9_R1.World#findNearbyPlayer(double, double, double, double)
      */
     @ReflectiveMethod(name = "findNearbyPlayer", types = {double.class, double.class, double.class, double.class})
     public NMSEntityHuman findNearbyPlayer(double d, double d1, double d2, double d3){
@@ -352,7 +352,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#g(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.World#g(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "g", types = {NMSEntity.class})
     public void g(NMSEntity entity){
@@ -360,7 +360,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getBiome(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#getBiome(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getBiome", types = {NMSBlockPosition.class})
     public NMSBiomeBase getBiome(NMSBlockPosition blockPosition){
@@ -368,7 +368,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getBlockFacePower(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.World#getBlockFacePower(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "getBlockFacePower", types = {NMSBlockPosition.class, NMSEnumDirection.class})
     public int getBlockFacePower(NMSBlockPosition blockPosition, NMSEnumDirection enumDirection){
@@ -376,7 +376,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getBlockPower(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#getBlockPower(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getBlockPower", types = {NMSBlockPosition.class})
     public int getBlockPower(NMSBlockPosition blockPosition){
@@ -384,7 +384,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getChunkAt(int, int)
+     * @see net.minecraft.server.v1_9_R1.World#getChunkAt(int, int)
      */
     @ReflectiveMethod(name = "getChunkAt", types = {int.class, int.class})
     public NMSChunk getChunkAt(int i, int i1){
@@ -392,7 +392,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getChunkAtWorldCoords(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#getChunkAtWorldCoords(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getChunkAtWorldCoords", types = {NMSBlockPosition.class})
     public NMSChunk getChunkAtWorldCoords(NMSBlockPosition blockPosition){
@@ -400,7 +400,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getChunkIfLoaded(int, int)
+     * @see net.minecraft.server.v1_9_R1.World#getChunkIfLoaded(int, int)
      */
     @ReflectiveMethod(name = "getChunkIfLoaded", types = {int.class, int.class})
     public NMSChunk getChunkIfLoaded(int i, int i1){
@@ -408,7 +408,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getDataManager()
+     * @see net.minecraft.server.v1_9_R1.World#getDataManager()
      */
     @ReflectiveMethod(name = "getDataManager", types = {})
     public NMSIDataManager getDataManager(){
@@ -416,7 +416,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getDayTime()
+     * @see net.minecraft.server.v1_9_R1.World#getDayTime()
      */
     @ReflectiveMethod(name = "getDayTime", types = {})
     public long getDayTime(){
@@ -424,7 +424,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getDifficulty()
+     * @see net.minecraft.server.v1_9_R1.World#getDifficulty()
      */
     @ReflectiveMethod(name = "getDifficulty", types = {})
     public NMSEnumDifficulty getDifficulty(){
@@ -432,7 +432,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getGameRules()
+     * @see net.minecraft.server.v1_9_R1.World#getGameRules()
      */
     @ReflectiveMethod(name = "getGameRules", types = {})
     public NMSGameRules getGameRules(){
@@ -440,7 +440,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getHeight()
+     * @see net.minecraft.server.v1_9_R1.World#getHeight()
      */
     @ReflectiveMethod(name = "getHeight", types = {})
     public int getHeight(){
@@ -448,7 +448,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getHighestBlockYAt(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#getHighestBlockYAt(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getHighestBlockYAt", types = {NMSBlockPosition.class})
     public NMSBlockPosition getHighestBlockYAt(NMSBlockPosition blockPosition){
@@ -456,7 +456,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getLightLevel(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#getLightLevel(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getLightLevel", types = {NMSBlockPosition.class})
     public int getLightLevel(NMSBlockPosition blockPosition){
@@ -464,7 +464,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getScoreboard()
+     * @see net.minecraft.server.v1_9_R1.World#getScoreboard()
      */
     @ReflectiveMethod(name = "getScoreboard", types = {})
     public NMSScoreboard getScoreboard(){
@@ -472,7 +472,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getSeed()
+     * @see net.minecraft.server.v1_9_R1.World#getSeed()
      */
     @ReflectiveMethod(name = "getSeed", types = {})
     public long getSeed(){
@@ -480,7 +480,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getServer()
+     * @see net.minecraft.server.v1_9_R1.World#getServer()
      */
     @ReflectiveMethod(name = "getServer", types = {})
     public NMSCraftServer getServer(){
@@ -488,7 +488,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getSpawn()
+     * @see net.minecraft.server.v1_9_R1.World#getSpawn()
      */
     @ReflectiveMethod(name = "getSpawn", types = {})
     public NMSBlockPosition getSpawn(){
@@ -496,7 +496,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getTileEntity(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#getTileEntity(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getTileEntity", types = {NMSBlockPosition.class})
     public NMSTileEntity getTileEntity(NMSBlockPosition blockPosition){
@@ -504,7 +504,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getTime()
+     * @see net.minecraft.server.v1_9_R1.World#getTime()
      */
     @ReflectiveMethod(name = "getTime", types = {})
     public long getTime(){
@@ -512,7 +512,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getType(net.minecraft.server.v1_8_R3.BlockPosition, boolean)
+     * @see net.minecraft.server.v1_9_R1.World#getType(net.minecraft.server.v1_9_R1.BlockPosition, boolean)
      */
     @ReflectiveMethod(name = "getType", types = {NMSBlockPosition.class, boolean.class})
     public NMSIBlockData getType(NMSBlockPosition blockPosition, boolean b){
@@ -520,7 +520,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getWorld()
+     * @see net.minecraft.server.v1_9_R1.World#getWorld()
      */
     @ReflectiveMethod(name = "getWorld", types = {})
     public NMSCraftWorld getWorld(){
@@ -528,7 +528,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getWorldBorder()
+     * @see net.minecraft.server.v1_9_R1.World#getWorldBorder()
      */
     @ReflectiveMethod(name = "getWorldBorder", types = {})
     public NMSWorldBorder getWorldBorder(){
@@ -536,7 +536,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getWorldChunkManager()
+     * @see net.minecraft.server.v1_9_R1.World#getWorldChunkManager()
      */
     @ReflectiveMethod(name = "getWorldChunkManager", types = {})
     public NMSWorldChunkManager getWorldChunkManager(){
@@ -544,7 +544,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#getWorldData()
+     * @see net.minecraft.server.v1_9_R1.World#getWorldData()
      */
     @ReflectiveMethod(name = "getWorldData", types = {})
     public NMSWorldData getWorldData(){
@@ -553,7 +553,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#h(float)
+     * @see net.minecraft.server.v1_9_R1.World#h(float)
      */
     @ReflectiveMethod(name = "h", types = {float.class})
     public float h(float f){
@@ -562,7 +562,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#i(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#i(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "i", types = {NMSBlockPosition.class})
     public boolean i(NMSBlockPosition blockPosition){
@@ -570,7 +570,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#isBlockFacePowered(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.World#isBlockFacePowered(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "isBlockFacePowered", types = {NMSBlockPosition.class, NMSEnumDirection.class})
     public boolean isBlockFacePowered(NMSBlockPosition blockPosition, NMSEnumDirection enumDirection){
@@ -578,7 +578,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#isBlockIndirectlyPowered(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#isBlockIndirectlyPowered(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "isBlockIndirectlyPowered", types = {NMSBlockPosition.class})
     public boolean isBlockIndirectlyPowered(NMSBlockPosition blockPosition){
@@ -586,7 +586,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#isChunkLoaded(int, int, boolean)
+     * @see net.minecraft.server.v1_9_R1.World#isChunkLoaded(int, int, boolean)
      */
     @ReflectiveMethod(name = "isChunkLoaded", types = {int.class, int.class, boolean.class})
     public boolean isChunkLoaded(int i, int i1, boolean b){
@@ -594,7 +594,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#isEmpty(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#isEmpty(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "isEmpty", types = {NMSBlockPosition.class})
     public boolean isEmpty(NMSBlockPosition blockPosition){
@@ -602,7 +602,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#isLoaded(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#isLoaded(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "isLoaded", types = {NMSBlockPosition.class})
     public boolean isLoaded(NMSBlockPosition blockPosition){
@@ -610,7 +610,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#isPlayerNearby(double, double, double, double)
+     * @see net.minecraft.server.v1_9_R1.World#isPlayerNearby(double, double, double, double)
      */
     @ReflectiveMethod(name = "isPlayerNearby", types = {double.class, double.class, double.class, double.class})
     public boolean isPlayerNearby(double d, double d1, double d2, double d3){
@@ -618,7 +618,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#isRainingAt(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#isRainingAt(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "isRainingAt", types = {NMSBlockPosition.class})
     public boolean isRainingAt(NMSBlockPosition blockPosition){
@@ -627,7 +627,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#j(float)
+     * @see net.minecraft.server.v1_9_R1.World#j(float)
      */
     @ReflectiveMethod(name = "j", types = {float.class})
     public float j(float f){
@@ -636,7 +636,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#k(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#k(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "k", types = {NMSBlockPosition.class})
     public int k(NMSBlockPosition blockPosition){
@@ -644,7 +644,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#keyToX(long)
+     * @see net.minecraft.server.v1_9_R1.World#keyToX(long)
      */
     @ReflectiveMethod(name = "keyToX", types = {long.class})
     public int keyToX(long l){
@@ -652,7 +652,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#keyToZ(long)
+     * @see net.minecraft.server.v1_9_R1.World#keyToZ(long)
      */
     @ReflectiveMethod(name = "keyToZ", types = {long.class})
     public int keyToZ(long l){
@@ -660,7 +660,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#kill(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.World#kill(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "kill", types = {NMSEntity.class})
     public void kill(NMSEntity entity){
@@ -668,7 +668,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#makeSound(double, double, double, java.lang.String, float, float)
+     * @see net.minecraft.server.v1_9_R1.World#makeSound(double, double, double, java.lang.String, float, float)
      */
     @ReflectiveMethod(name = "makeSound", types = {double.class, double.class, double.class, String.class, float.class, float.class})
     public void makeSound(double d, double d1, double d2, String s, float f, float f1){
@@ -677,7 +677,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#n(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#n(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "n", types = {NMSBlockPosition.class})
     public void n(NMSBlockPosition blockPosition){
@@ -685,7 +685,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#notify(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#notify(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "notify", types = {NMSBlockPosition.class})
     public void notify(NMSBlockPosition blockPosition){
@@ -693,7 +693,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#notifyAndUpdatePhysics(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.Chunk, net.minecraft.server.v1_8_R3.Block, net.minecraft.server.v1_8_R3.Block, int)
+     * @see net.minecraft.server.v1_9_R1.World#notifyAndUpdatePhysics(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.Chunk, net.minecraft.server.v1_9_R1.Block, net.minecraft.server.v1_9_R1.Block, int)
      */
     @ReflectiveMethod(name = "notifyAndUpdatePhysics", types = {NMSBlockPosition.class, NMSChunk.class, NMSBlock.class, NMSBlock.class, int.class})
     public void notifyAndUpdatePhysics(NMSBlockPosition blockPosition, NMSChunk chunk, NMSBlock block, NMSBlock block1, int i){
@@ -702,7 +702,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#o(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#o(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "o", types = {NMSBlockPosition.class})
     public float o(NMSBlockPosition blockPosition){
@@ -711,7 +711,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#p()
+     * @see net.minecraft.server.v1_9_R1.World#p()
      */
     @ReflectiveMethod(name = "p", types = {})
     public void p(){
@@ -719,7 +719,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#playBlockAction(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.Block, int, int)
+     * @see net.minecraft.server.v1_9_R1.World#playBlockAction(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.Block, int, int)
      */
     @ReflectiveMethod(name = "playBlockAction", types = {NMSBlockPosition.class, NMSBlock.class, int.class, int.class})
     public void playBlockAction(NMSBlockPosition blockPosition, NMSBlock block, int i, int i1){
@@ -728,7 +728,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#q()
+     * @see net.minecraft.server.v1_9_R1.World#q()
      */
     @ReflectiveMethod(name = "q", types = {})
     public int q(){
@@ -737,7 +737,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#r(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#r(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "r", types = {NMSBlockPosition.class})
     public NMSBlockPosition r(NMSBlockPosition blockPosition){
@@ -745,7 +745,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#rayTrace(net.minecraft.server.v1_8_R3.Vec3D, net.minecraft.server.v1_8_R3.Vec3D, boolean, boolean, boolean)
+     * @see net.minecraft.server.v1_9_R1.World#rayTrace(net.minecraft.server.v1_9_R1.Vec3D, net.minecraft.server.v1_9_R1.Vec3D, boolean, boolean, boolean)
      */
     @ReflectiveMethod(name = "rayTrace", types = {NMSVec3D.class, NMSVec3D.class, boolean.class, boolean.class, boolean.class})
     public NMSMovingObjectPosition rayTrace(NMSVec3D vec3D, NMSVec3D vec3D1, boolean b, boolean b1, boolean b2){
@@ -753,7 +753,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#removeEntity(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.World#removeEntity(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "removeEntity", types = {NMSEntity.class})
     public void removeEntity(NMSEntity entity){
@@ -761,7 +761,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#setAir(net.minecraft.server.v1_8_R3.BlockPosition, boolean)
+     * @see net.minecraft.server.v1_9_R1.World#setAir(net.minecraft.server.v1_9_R1.BlockPosition, boolean)
      */
     @ReflectiveMethod(name = "setAir", types = {NMSBlockPosition.class, boolean.class})
     public boolean setAir(NMSBlockPosition blockPosition, boolean b){
@@ -769,7 +769,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#setDayTime(long)
+     * @see net.minecraft.server.v1_9_R1.World#setDayTime(long)
      */
     @ReflectiveMethod(name = "setDayTime", types = {long.class})
     public void setDayTime(long l){
@@ -777,7 +777,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#setSpawnFlags(boolean, boolean)
+     * @see net.minecraft.server.v1_9_R1.World#setSpawnFlags(boolean, boolean)
      */
     @ReflectiveMethod(name = "setSpawnFlags", types = {boolean.class, boolean.class})
     public void setSpawnFlags(boolean b, boolean b1){
@@ -785,7 +785,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#setTileEntity(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.TileEntity)
+     * @see net.minecraft.server.v1_9_R1.World#setTileEntity(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.TileEntity)
      */
     @ReflectiveMethod(name = "setTileEntity", types = {NMSBlockPosition.class, NMSTileEntity.class})
     public void setTileEntity(NMSBlockPosition blockPosition, NMSTileEntity tileEntity){
@@ -793,7 +793,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#setTypeAndData(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, int)
+     * @see net.minecraft.server.v1_9_R1.World#setTypeAndData(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, int)
      */
     @ReflectiveMethod(name = "setTypeAndData", types = {NMSBlockPosition.class, NMSIBlockData.class, int.class})
     public boolean setTypeAndData(NMSBlockPosition blockPosition, NMSIBlockData iBlockData, int i){
@@ -801,7 +801,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#setTypeUpdate(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.World#setTypeUpdate(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "setTypeUpdate", types = {NMSBlockPosition.class, NMSIBlockData.class})
     public boolean setTypeUpdate(NMSBlockPosition blockPosition, NMSIBlockData iBlockData){
@@ -809,7 +809,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#strikeLightning(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.World#strikeLightning(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "strikeLightning", types = {NMSEntity.class})
     public boolean strikeLightning(NMSEntity entity){
@@ -818,7 +818,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#t(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#t(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "t", types = {NMSBlockPosition.class})
     public void t(NMSBlockPosition blockPosition){
@@ -826,7 +826,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#tickEntities()
+     * @see net.minecraft.server.v1_9_R1.World#tickEntities()
      */
     @ReflectiveMethod(name = "tickEntities", types = {})
     public void tickEntities(){
@@ -834,7 +834,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#triggerEffect(int, net.minecraft.server.v1_8_R3.BlockPosition, int)
+     * @see net.minecraft.server.v1_9_R1.World#triggerEffect(int, net.minecraft.server.v1_9_R1.BlockPosition, int)
      */
     @ReflectiveMethod(name = "triggerEffect", types = {int.class, NMSBlockPosition.class, int.class})
     public void triggerEffect(int i, NMSBlockPosition blockPosition, int i1){
@@ -843,7 +843,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#u(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#u(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "u", types = {NMSBlockPosition.class})
     public boolean u(NMSBlockPosition blockPosition){
@@ -851,7 +851,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#update(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.World#update(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "update", types = {NMSBlockPosition.class, NMSBlock.class})
     public void update(NMSBlockPosition blockPosition, NMSBlock block){
@@ -859,7 +859,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.World#updateAdjacentComparators(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.Block)
+     * @see net.minecraft.server.v1_9_R1.World#updateAdjacentComparators(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.Block)
      */
     @ReflectiveMethod(name = "updateAdjacentComparators", types = {NMSBlockPosition.class, NMSBlock.class})
     public void updateAdjacentComparators(NMSBlockPosition blockPosition, NMSBlock block){
@@ -868,7 +868,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#v(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#v(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "v", types = {NMSBlockPosition.class})
     public boolean v(NMSBlockPosition blockPosition){
@@ -877,7 +877,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#w(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#w(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "w", types = {NMSBlockPosition.class})
     public boolean w(NMSBlockPosition blockPosition){
@@ -886,7 +886,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#x(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.World#x(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "x", types = {NMSBlockPosition.class})
     public boolean x(NMSBlockPosition blockPosition){
@@ -895,7 +895,7 @@ public class NMSWorld extends NMSWrap implements NMSIBlockAccess {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.World#y()
+     * @see net.minecraft.server.v1_9_R1.World#y()
      */
     @ReflectiveMethod(name = "y", types = {})
     public float y(){

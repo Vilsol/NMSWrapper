@@ -20,7 +20,7 @@ public class NMSWorldGenBigTree extends NMSWorldGenTreeAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenBigTree#a(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.WorldGenBigTree#a(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "a", types = {NMSBlockPosition.class, NMSBlockPosition.class})
     public int a(NMSBlockPosition blockPosition, NMSBlockPosition blockPosition1){
@@ -29,7 +29,7 @@ public class NMSWorldGenBigTree extends NMSWorldGenTreeAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenBigTree#b()
+     * @see net.minecraft.server.v1_9_R1.WorldGenBigTree#b()
      */
     @ReflectiveMethod(name = "b", types = {})
     public void b(){
@@ -38,7 +38,7 @@ public class NMSWorldGenBigTree extends NMSWorldGenTreeAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenBigTree#c()
+     * @see net.minecraft.server.v1_9_R1.WorldGenBigTree#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -47,7 +47,7 @@ public class NMSWorldGenBigTree extends NMSWorldGenTreeAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenBigTree#d()
+     * @see net.minecraft.server.v1_9_R1.WorldGenBigTree#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -56,7 +56,7 @@ public class NMSWorldGenBigTree extends NMSWorldGenTreeAbstract {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldGenBigTree#e()
+     * @see net.minecraft.server.v1_9_R1.WorldGenBigTree#e()
      */
     @ReflectiveMethod(name = "e", types = {})
     public void e(){
@@ -64,7 +64,7 @@ public class NMSWorldGenBigTree extends NMSWorldGenTreeAbstract {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldGenBigTree#generate(net.minecraft.server.v1_8_R3.World, java.util.Random, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.WorldGenBigTree#generate(net.minecraft.server.v1_9_R1.World, java.util.Random, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "generate", types = {NMSWorld.class, Random.class, NMSBlockPosition.class})
     public boolean generate(NMSWorld world, Random random, NMSBlockPosition blockPosition){

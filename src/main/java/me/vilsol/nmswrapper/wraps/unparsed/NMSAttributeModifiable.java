@@ -17,7 +17,7 @@ public class NMSAttributeModifiable extends NMSWrap implements NMSAttributeInsta
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AttributeModifiable#a(net.minecraft.server.v1_8_R3.AttributeModifier)
+     * @see net.minecraft.server.v1_9_R1.AttributeModifiable#a(net.minecraft.server.v1_9_R1.AttributeModifier)
      */
     @ReflectiveMethod(name = "a", types = {NMSAttributeModifier.class})
     public boolean a(NMSAttributeModifier attributeModifier){
@@ -26,7 +26,7 @@ public class NMSAttributeModifiable extends NMSWrap implements NMSAttributeInsta
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AttributeModifiable#b(net.minecraft.server.v1_8_R3.AttributeModifier)
+     * @see net.minecraft.server.v1_9_R1.AttributeModifiable#b(net.minecraft.server.v1_9_R1.AttributeModifier)
      */
     @ReflectiveMethod(name = "b", types = {NMSAttributeModifier.class})
     public void b(NMSAttributeModifier attributeModifier){
@@ -35,7 +35,7 @@ public class NMSAttributeModifiable extends NMSWrap implements NMSAttributeInsta
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AttributeModifiable#c(net.minecraft.server.v1_8_R3.AttributeModifier)
+     * @see net.minecraft.server.v1_9_R1.AttributeModifiable#c(net.minecraft.server.v1_9_R1.AttributeModifier)
      */
     @ReflectiveMethod(name = "c", types = {NMSAttributeModifier.class})
     public void c(NMSAttributeModifier attributeModifier){
@@ -44,7 +44,7 @@ public class NMSAttributeModifiable extends NMSWrap implements NMSAttributeInsta
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AttributeModifiable#f()
+     * @see net.minecraft.server.v1_9_R1.AttributeModifiable#f()
      */
     @ReflectiveMethod(name = "f", types = {})
     public void f(){
@@ -52,7 +52,7 @@ public class NMSAttributeModifiable extends NMSWrap implements NMSAttributeInsta
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.AttributeModifiable#getAttribute()
+     * @see net.minecraft.server.v1_9_R1.AttributeModifiable#getAttribute()
      */
     @ReflectiveMethod(name = "getAttribute", types = {})
     public NMSIAttribute getAttribute(){
@@ -60,7 +60,7 @@ public class NMSAttributeModifiable extends NMSWrap implements NMSAttributeInsta
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.AttributeModifiable#getValue()
+     * @see net.minecraft.server.v1_9_R1.AttributeModifiable#getValue()
      */
     @ReflectiveMethod(name = "getValue", types = {})
     public double getValue(){
@@ -68,7 +68,7 @@ public class NMSAttributeModifiable extends NMSWrap implements NMSAttributeInsta
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.AttributeModifiable#setValue(double)
+     * @see net.minecraft.server.v1_9_R1.AttributeModifiable#setValue(double)
      */
     @ReflectiveMethod(name = "setValue", types = {double.class})
     public void setValue(double d){

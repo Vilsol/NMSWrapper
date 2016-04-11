@@ -12,7 +12,7 @@ public class NMSBlockSandStone extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSandStone#fromLegacyData(int)
+     * @see net.minecraft.server.v1_9_R1.BlockSandStone#fromLegacyData(int)
      */
     @ReflectiveMethod(name = "fromLegacyData", types = {int.class})
     public NMSIBlockData fromLegacyData(int i){
@@ -21,7 +21,7 @@ public class NMSBlockSandStone extends NMSBlock {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockSandStone#g(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSandStone#g(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "g", types = {NMSIBlockData.class})
     public NMSMaterialMapColor g(NMSIBlockData iBlockData){
@@ -29,7 +29,7 @@ public class NMSBlockSandStone extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSandStone#getDropData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSandStone#getDropData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "getDropData", types = {NMSIBlockData.class})
     public int getDropData(NMSIBlockData iBlockData){
@@ -37,7 +37,7 @@ public class NMSBlockSandStone extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSandStone#getStateList()
+     * @see net.minecraft.server.v1_9_R1.BlockSandStone#getStateList()
      */
     @ReflectiveMethod(name = "getStateList", types = {})
     public NMSBlockStateList getStateList(){
@@ -45,7 +45,7 @@ public class NMSBlockSandStone extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockSandStone#toLegacyData(net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.BlockSandStone#toLegacyData(net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "toLegacyData", types = {NMSIBlockData.class})
     public int toLegacyData(NMSIBlockData iBlockData){

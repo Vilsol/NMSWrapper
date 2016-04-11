@@ -13,7 +13,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -22,7 +22,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#b(int, int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#b(int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public void b(int i, int i1){
@@ -31,7 +31,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#c()
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -39,7 +39,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#canPlaceItemThroughFace(int, net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#canPlaceItemThroughFace(int, net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "canPlaceItemThroughFace", types = {int.class, NMSItemStack.class, NMSEnumDirection.class})
     public boolean canPlaceItemThroughFace(int i, NMSItemStack itemStack, NMSEnumDirection enumDirection){
@@ -47,7 +47,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#canTakeItemThroughFace(int, net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#canTakeItemThroughFace(int, net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "canTakeItemThroughFace", types = {int.class, NMSItemStack.class, NMSEnumDirection.class})
     public boolean canTakeItemThroughFace(int i, NMSItemStack itemStack, NMSEnumDirection enumDirection){
@@ -55,7 +55,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#closeContainer(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#closeContainer(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "closeContainer", types = {NMSEntityHuman.class})
     public void closeContainer(NMSEntityHuman entityHuman){
@@ -63,7 +63,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#createContainer(net.minecraft.server.v1_8_R3.PlayerInventory, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#createContainer(net.minecraft.server.v1_9_R1.PlayerInventory, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "createContainer", types = {NMSPlayerInventory.class, NMSEntityHuman.class})
     public NMSContainer createContainer(NMSPlayerInventory playerInventory, NMSEntityHuman entityHuman){
@@ -72,7 +72,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#g()
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public int g(){
@@ -80,7 +80,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#getContainerName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#getContainerName()
      */
     @ReflectiveMethod(name = "getContainerName", types = {})
     public String getContainerName(){
@@ -88,7 +88,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#getItem(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#getItem(int)
      */
     @ReflectiveMethod(name = "getItem", types = {int.class})
     public NMSItemStack getItem(int i){
@@ -96,7 +96,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#getMaxStackSize()
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#getMaxStackSize()
      */
     @ReflectiveMethod(name = "getMaxStackSize", types = {})
     public int getMaxStackSize(){
@@ -104,7 +104,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#getName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -112,7 +112,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#getProperty(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#getProperty(int)
      */
     @ReflectiveMethod(name = "getProperty", types = {int.class})
     public int getProperty(int i){
@@ -120,7 +120,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#getSize()
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#getSize()
      */
     @ReflectiveMethod(name = "getSize", types = {})
     public int getSize(){
@@ -128,7 +128,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#hasCustomName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#hasCustomName()
      */
     @ReflectiveMethod(name = "hasCustomName", types = {})
     public boolean hasCustomName(){
@@ -137,7 +137,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#l()
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public void l(){
@@ -145,7 +145,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#onClose(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#onClose(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onClose", types = {NMSCraftHumanEntity.class})
     public void onClose(NMSCraftHumanEntity craftHumanEntity){
@@ -153,7 +153,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#onOpen(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#onOpen(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onOpen", types = {NMSCraftHumanEntity.class})
     public void onOpen(NMSCraftHumanEntity craftHumanEntity){
@@ -161,7 +161,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#setItem(int, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#setItem(int, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "setItem", types = {int.class, NMSItemStack.class})
     public void setItem(int i, NMSItemStack itemStack){
@@ -169,7 +169,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#setMaxStackSize(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#setMaxStackSize(int)
      */
     @ReflectiveMethod(name = "setMaxStackSize", types = {int.class})
     public void setMaxStackSize(int i){
@@ -177,7 +177,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#splitStack(int, int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#splitStack(int, int)
      */
     @ReflectiveMethod(name = "splitStack", types = {int.class, int.class})
     public NMSItemStack splitStack(int i, int i1){
@@ -185,7 +185,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#splitWithoutUpdate(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#splitWithoutUpdate(int)
      */
     @ReflectiveMethod(name = "splitWithoutUpdate", types = {int.class})
     public NMSItemStack splitWithoutUpdate(int i){
@@ -193,7 +193,7 @@ public class NMSTileEntityBrewingStand extends NMSTileEntityContainer implements
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityBrewingStand#startOpen(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityBrewingStand#startOpen(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "startOpen", types = {NMSEntityHuman.class})
     public void startOpen(NMSEntityHuman entityHuman){

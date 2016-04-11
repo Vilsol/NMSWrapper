@@ -17,7 +17,7 @@ public class NMSWorldMap extends NMSPersistentBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldMap#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.WorldMap#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public NMSWorldMapHumanTracker a(NMSEntityHuman entityHuman){
@@ -26,7 +26,7 @@ public class NMSWorldMap extends NMSPersistentBase {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldMap#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.WorldMap#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -34,7 +34,7 @@ public class NMSWorldMap extends NMSPersistentBase {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldMap#flagDirty(int, int)
+     * @see net.minecraft.server.v1_9_R1.WorldMap#flagDirty(int, int)
      */
     @ReflectiveMethod(name = "flagDirty", types = {int.class, int.class})
     public void flagDirty(int i, int i1){
@@ -54,7 +54,7 @@ public class NMSWorldMap extends NMSPersistentBase {
 
         /**
          * TODO Find correct name
-         * @see net.minecraft.server.v1_8_R3.WorldMap$WorldMapHumanTracker#a(int, int)
+         * @see net.minecraft.server.v1_9_R1.WorldMap$WorldMapHumanTracker#a(int, int)
          */
         @ReflectiveMethod(name = "a", types = {int.class, int.class})
         public void a(int i, int i1){

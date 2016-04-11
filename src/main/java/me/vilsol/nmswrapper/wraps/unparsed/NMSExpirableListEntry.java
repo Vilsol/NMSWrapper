@@ -25,7 +25,7 @@ public class NMSExpirableListEntry extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ExpirableListEntry#a(com.google.gson.JsonObject)
+     * @see net.minecraft.server.v1_9_R1.ExpirableListEntry#a(com.google.gson.JsonObject)
      */
     @ReflectiveMethod(name = "a", types = {JsonObject.class})
     public void a(JsonObject jsonObject){
@@ -33,7 +33,7 @@ public class NMSExpirableListEntry extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ExpirableListEntry#getCreated()
+     * @see net.minecraft.server.v1_9_R1.ExpirableListEntry#getCreated()
      */
     @ReflectiveMethod(name = "getCreated", types = {})
     public Date getCreated(){
@@ -41,7 +41,7 @@ public class NMSExpirableListEntry extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ExpirableListEntry#getExpires()
+     * @see net.minecraft.server.v1_9_R1.ExpirableListEntry#getExpires()
      */
     @ReflectiveMethod(name = "getExpires", types = {})
     public Date getExpires(){
@@ -49,7 +49,7 @@ public class NMSExpirableListEntry extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ExpirableListEntry#getReason()
+     * @see net.minecraft.server.v1_9_R1.ExpirableListEntry#getReason()
      */
     @ReflectiveMethod(name = "getReason", types = {})
     public String getReason(){
@@ -57,7 +57,7 @@ public class NMSExpirableListEntry extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ExpirableListEntry#getSource()
+     * @see net.minecraft.server.v1_9_R1.ExpirableListEntry#getSource()
      */
     @ReflectiveMethod(name = "getSource", types = {})
     public String getSource(){
@@ -65,7 +65,7 @@ public class NMSExpirableListEntry extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ExpirableListEntry#hasExpired()
+     * @see net.minecraft.server.v1_9_R1.ExpirableListEntry#hasExpired()
      */
     @ReflectiveMethod(name = "hasExpired", types = {})
     public boolean hasExpired(){

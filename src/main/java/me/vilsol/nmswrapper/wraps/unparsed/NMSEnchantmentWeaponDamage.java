@@ -17,7 +17,7 @@ public class NMSEnchantmentWeaponDamage extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentWeaponDamage#a(net.minecraft.server.v1_8_R3.EntityLiving, net.minecraft.server.v1_8_R3.Entity, int)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentWeaponDamage#a(net.minecraft.server.v1_9_R1.EntityLiving, net.minecraft.server.v1_9_R1.Entity, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityLiving.class, NMSEntity.class, int.class})
     public void a(NMSEntityLiving entityLiving, NMSEntity entity, int i){
@@ -26,7 +26,7 @@ public class NMSEnchantmentWeaponDamage extends NMSEnchantment {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EnchantmentWeaponDamage#b(int)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentWeaponDamage#b(int)
      */
     @ReflectiveMethod(name = "b", types = {int.class})
     public int b(int i){
@@ -34,7 +34,7 @@ public class NMSEnchantmentWeaponDamage extends NMSEnchantment {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentWeaponDamage#canEnchant(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.EnchantmentWeaponDamage#canEnchant(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "canEnchant", types = {NMSItemStack.class})
     public boolean canEnchant(NMSItemStack itemStack){
@@ -42,7 +42,7 @@ public class NMSEnchantmentWeaponDamage extends NMSEnchantment {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EnchantmentWeaponDamage#getMaxLevel()
+     * @see net.minecraft.server.v1_9_R1.EnchantmentWeaponDamage#getMaxLevel()
      */
     @ReflectiveMethod(name = "getMaxLevel", types = {})
     public int getMaxLevel(){

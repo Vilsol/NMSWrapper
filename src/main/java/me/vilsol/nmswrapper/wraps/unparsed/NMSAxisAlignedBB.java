@@ -21,7 +21,7 @@ public class NMSAxisAlignedBB extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AxisAlignedBB#a(net.minecraft.server.v1_8_R3.Vec3D, net.minecraft.server.v1_8_R3.Vec3D)
+     * @see net.minecraft.server.v1_9_R1.AxisAlignedBB#a(net.minecraft.server.v1_9_R1.Vec3D, net.minecraft.server.v1_9_R1.Vec3D)
      */
     @ReflectiveMethod(name = "a", types = {NMSVec3D.class, NMSVec3D.class})
     public NMSMovingObjectPosition a(NMSVec3D vec3D, NMSVec3D vec3D1){
@@ -30,7 +30,7 @@ public class NMSAxisAlignedBB extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AxisAlignedBB#b(net.minecraft.server.v1_8_R3.AxisAlignedBB)
+     * @see net.minecraft.server.v1_9_R1.AxisAlignedBB#b(net.minecraft.server.v1_9_R1.AxisAlignedBB)
      */
     @ReflectiveMethod(name = "b", types = {NMSAxisAlignedBB.class})
     public boolean b(NMSAxisAlignedBB axisAlignedBB){
@@ -39,7 +39,7 @@ public class NMSAxisAlignedBB extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.AxisAlignedBB#c(net.minecraft.server.v1_8_R3.AxisAlignedBB, double)
+     * @see net.minecraft.server.v1_9_R1.AxisAlignedBB#c(net.minecraft.server.v1_9_R1.AxisAlignedBB, double)
      */
     @ReflectiveMethod(name = "c", types = {NMSAxisAlignedBB.class, double.class})
     public double c(NMSAxisAlignedBB axisAlignedBB, double d){
@@ -47,7 +47,7 @@ public class NMSAxisAlignedBB extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.AxisAlignedBB#grow(double, double, double)
+     * @see net.minecraft.server.v1_9_R1.AxisAlignedBB#grow(double, double, double)
      */
     @ReflectiveMethod(name = "grow", types = {double.class, double.class, double.class})
     public NMSAxisAlignedBB grow(double d, double d1, double d2){
@@ -55,7 +55,7 @@ public class NMSAxisAlignedBB extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.AxisAlignedBB#shrink(double, double, double)
+     * @see net.minecraft.server.v1_9_R1.AxisAlignedBB#shrink(double, double, double)
      */
     @ReflectiveMethod(name = "shrink", types = {double.class, double.class, double.class})
     public NMSAxisAlignedBB shrink(double d, double d1, double d2){
@@ -63,7 +63,7 @@ public class NMSAxisAlignedBB extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.AxisAlignedBB#toString()
+     * @see net.minecraft.server.v1_9_R1.AxisAlignedBB#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

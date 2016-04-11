@@ -17,7 +17,7 @@ public class NMSHandshakeListener extends NMSWrap implements NMSPacketHandshakin
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.HandshakeListener#a(net.minecraft.server.v1_8_R3.IChatBaseComponent)
+     * @see net.minecraft.server.v1_9_R1.HandshakeListener#a(net.minecraft.server.v1_9_R1.IChatBaseComponent)
      */
     @ReflectiveMethod(name = "a", types = {NMSIChatBaseComponent.class})
     public void a(NMSIChatBaseComponent iChatBaseComponent){

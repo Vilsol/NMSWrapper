@@ -13,7 +13,7 @@ public class NMSBlockDropper extends NMSBlockDispenser {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockDropper#a(net.minecraft.server.v1_8_R3.World, int)
+     * @see net.minecraft.server.v1_9_R1.BlockDropper#a(net.minecraft.server.v1_9_R1.World, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSWorld.class, int.class})
     public NMSTileEntity a(NMSWorld world, int i){
@@ -21,7 +21,7 @@ public class NMSBlockDropper extends NMSBlockDispenser {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockDropper#dispense(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.BlockDropper#dispense(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "dispense", types = {NMSWorld.class, NMSBlockPosition.class})
     public void dispense(NMSWorld world, NMSBlockPosition blockPosition){

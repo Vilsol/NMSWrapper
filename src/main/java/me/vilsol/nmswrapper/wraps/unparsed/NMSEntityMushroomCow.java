@@ -17,7 +17,7 @@ public class NMSEntityMushroomCow extends NMSEntityCow {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMushroomCow#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityMushroomCow#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -26,7 +26,7 @@ public class NMSEntityMushroomCow extends NMSEntityCow {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMushroomCow#b(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityMushroomCow#b(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityAgeable.class})
     public NMSEntityCow b(NMSEntityAgeable entityAgeable){
@@ -35,7 +35,7 @@ public class NMSEntityMushroomCow extends NMSEntityCow {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityMushroomCow#c(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityMushroomCow#c(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "c", types = {NMSEntityAgeable.class})
     public NMSEntityMushroomCow c(NMSEntityAgeable entityAgeable){
@@ -43,7 +43,7 @@ public class NMSEntityMushroomCow extends NMSEntityCow {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityMushroomCow#createChild(net.minecraft.server.v1_8_R3.EntityAgeable)
+     * @see net.minecraft.server.v1_9_R1.EntityMushroomCow#createChild(net.minecraft.server.v1_9_R1.EntityAgeable)
      */
     @ReflectiveMethod(name = "createChild", types = {NMSEntityAgeable.class})
     public NMSEntityAgeable createChild(NMSEntityAgeable entityAgeable){

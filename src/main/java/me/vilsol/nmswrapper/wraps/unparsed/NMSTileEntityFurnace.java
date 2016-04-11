@@ -13,7 +13,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -22,7 +22,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#b(int, int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#b(int, int)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class})
     public void b(int i, int i1){
@@ -30,7 +30,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#burn()
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#burn()
      */
     @ReflectiveMethod(name = "burn", types = {})
     public void burn(){
@@ -39,7 +39,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#c()
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -47,7 +47,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#canPlaceItemThroughFace(int, net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#canPlaceItemThroughFace(int, net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "canPlaceItemThroughFace", types = {int.class, NMSItemStack.class, NMSEnumDirection.class})
     public boolean canPlaceItemThroughFace(int i, NMSItemStack itemStack, NMSEnumDirection enumDirection){
@@ -55,7 +55,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#canTakeItemThroughFace(int, net.minecraft.server.v1_8_R3.ItemStack, net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#canTakeItemThroughFace(int, net.minecraft.server.v1_9_R1.ItemStack, net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "canTakeItemThroughFace", types = {int.class, NMSItemStack.class, NMSEnumDirection.class})
     public boolean canTakeItemThroughFace(int i, NMSItemStack itemStack, NMSEnumDirection enumDirection){
@@ -63,7 +63,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#closeContainer(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#closeContainer(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "closeContainer", types = {NMSEntityHuman.class})
     public void closeContainer(NMSEntityHuman entityHuman){
@@ -71,7 +71,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#createContainer(net.minecraft.server.v1_8_R3.PlayerInventory, net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#createContainer(net.minecraft.server.v1_9_R1.PlayerInventory, net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "createContainer", types = {NMSPlayerInventory.class, NMSEntityHuman.class})
     public NMSContainer createContainer(NMSPlayerInventory playerInventory, NMSEntityHuman entityHuman){
@@ -79,7 +79,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#fuelTime(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#fuelTime(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "fuelTime", types = {NMSItemStack.class})
     public int fuelTime(NMSItemStack itemStack){
@@ -88,7 +88,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#g()
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#g()
      */
     @ReflectiveMethod(name = "g", types = {})
     public int g(){
@@ -96,7 +96,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#getContainerName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#getContainerName()
      */
     @ReflectiveMethod(name = "getContainerName", types = {})
     public String getContainerName(){
@@ -104,7 +104,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#getItem(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#getItem(int)
      */
     @ReflectiveMethod(name = "getItem", types = {int.class})
     public NMSItemStack getItem(int i){
@@ -112,7 +112,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#getMaxStackSize()
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#getMaxStackSize()
      */
     @ReflectiveMethod(name = "getMaxStackSize", types = {})
     public int getMaxStackSize(){
@@ -120,7 +120,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#getName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -128,7 +128,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#getProperty(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#getProperty(int)
      */
     @ReflectiveMethod(name = "getProperty", types = {int.class})
     public int getProperty(int i){
@@ -136,7 +136,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#getSize()
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#getSize()
      */
     @ReflectiveMethod(name = "getSize", types = {})
     public int getSize(){
@@ -144,7 +144,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#hasCustomName()
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#hasCustomName()
      */
     @ReflectiveMethod(name = "hasCustomName", types = {})
     public boolean hasCustomName(){
@@ -152,7 +152,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#isBurning()
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#isBurning()
      */
     @ReflectiveMethod(name = "isBurning", types = {})
     public boolean isBurning(){
@@ -160,7 +160,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#isFuel(net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#isFuel(net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "isFuel", types = {NMSItemStack.class})
     public boolean isFuel(NMSItemStack itemStack){
@@ -169,7 +169,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#l()
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public void l(){
@@ -177,7 +177,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#onClose(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#onClose(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onClose", types = {NMSCraftHumanEntity.class})
     public void onClose(NMSCraftHumanEntity craftHumanEntity){
@@ -185,7 +185,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#onOpen(org.bukkit.craftbukkit.v1_8_R3.entity.CraftHumanEntity)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#onOpen(org.bukkit.craftbukkit.v1_9_R1.entity.CraftHumanEntity)
      */
     @ReflectiveMethod(name = "onOpen", types = {NMSCraftHumanEntity.class})
     public void onOpen(NMSCraftHumanEntity craftHumanEntity){
@@ -193,7 +193,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#setItem(int, net.minecraft.server.v1_8_R3.ItemStack)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#setItem(int, net.minecraft.server.v1_9_R1.ItemStack)
      */
     @ReflectiveMethod(name = "setItem", types = {int.class, NMSItemStack.class})
     public void setItem(int i, NMSItemStack itemStack){
@@ -201,7 +201,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#setMaxStackSize(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#setMaxStackSize(int)
      */
     @ReflectiveMethod(name = "setMaxStackSize", types = {int.class})
     public void setMaxStackSize(int i){
@@ -209,7 +209,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#splitStack(int, int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#splitStack(int, int)
      */
     @ReflectiveMethod(name = "splitStack", types = {int.class, int.class})
     public NMSItemStack splitStack(int i, int i1){
@@ -217,7 +217,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#splitWithoutUpdate(int)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#splitWithoutUpdate(int)
      */
     @ReflectiveMethod(name = "splitWithoutUpdate", types = {int.class})
     public NMSItemStack splitWithoutUpdate(int i){
@@ -225,7 +225,7 @@ public class NMSTileEntityFurnace extends NMSTileEntityContainer implements NMSI
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntityFurnace#startOpen(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntityFurnace#startOpen(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "startOpen", types = {NMSEntityHuman.class})
     public void startOpen(NMSEntityHuman entityHuman){

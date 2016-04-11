@@ -25,7 +25,7 @@ public class NMSEntityHanging extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHanging#a(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityHanging#a(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "a", types = {NMSNBTTagCompound.class})
     public void a(NMSNBTTagCompound nBTTagCompound){
@@ -34,7 +34,7 @@ public class NMSEntityHanging extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHanging#ad()
+     * @see net.minecraft.server.v1_9_R1.EntityHanging#ad()
      */
     @ReflectiveMethod(name = "ad", types = {})
     public boolean ad(){
@@ -43,7 +43,7 @@ public class NMSEntityHanging extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHanging#af()
+     * @see net.minecraft.server.v1_9_R1.EntityHanging#af()
      */
     @ReflectiveMethod(name = "af", types = {})
     public boolean af(){
@@ -52,7 +52,7 @@ public class NMSEntityHanging extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHanging#b(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityHanging#b(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntity.class})
     public void b(NMSEntity entity){
@@ -60,7 +60,7 @@ public class NMSEntityHanging extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHanging#calculateBoundingBox(net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.EnumDirection, int, int)
+     * @see net.minecraft.server.v1_9_R1.EntityHanging#calculateBoundingBox(net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.EnumDirection, int, int)
      */
     @ReflectiveMethod(name = "calculateBoundingBox", types = {NMSBlockPosition.class, NMSEnumDirection.class, int.class, int.class})
     public NMSAxisAlignedBB calculateBoundingBox(NMSBlockPosition blockPosition, NMSEnumDirection enumDirection, int i, int i1){
@@ -68,7 +68,7 @@ public class NMSEntityHanging extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHanging#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityHanging#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -77,7 +77,7 @@ public class NMSEntityHanging extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHanging#g(double, double, double)
+     * @see net.minecraft.server.v1_9_R1.EntityHanging#g(double, double, double)
      */
     @ReflectiveMethod(name = "g", types = {double.class, double.class, double.class})
     public void g(double d, double d1, double d2){
@@ -85,7 +85,7 @@ public class NMSEntityHanging extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHanging#getBlockPosition()
+     * @see net.minecraft.server.v1_9_R1.EntityHanging#getBlockPosition()
      */
     @ReflectiveMethod(name = "getBlockPosition", types = {})
     public NMSBlockPosition getBlockPosition(){
@@ -93,7 +93,7 @@ public class NMSEntityHanging extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHanging#getDirection()
+     * @see net.minecraft.server.v1_9_R1.EntityHanging#getDirection()
      */
     @ReflectiveMethod(name = "getDirection", types = {})
     public NMSEnumDirection getDirection(){
@@ -102,7 +102,7 @@ public class NMSEntityHanging extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHanging#h()
+     * @see net.minecraft.server.v1_9_R1.EntityHanging#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -111,7 +111,7 @@ public class NMSEntityHanging extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHanging#l()
+     * @see net.minecraft.server.v1_9_R1.EntityHanging#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public int l(){
@@ -120,7 +120,7 @@ public class NMSEntityHanging extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHanging#m()
+     * @see net.minecraft.server.v1_9_R1.EntityHanging#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public int m(){
@@ -128,7 +128,7 @@ public class NMSEntityHanging extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHanging#move(double, double, double)
+     * @see net.minecraft.server.v1_9_R1.EntityHanging#move(double, double, double)
      */
     @ReflectiveMethod(name = "move", types = {double.class, double.class, double.class})
     public void move(double d, double d1, double d2){
@@ -136,7 +136,7 @@ public class NMSEntityHanging extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHanging#setDirection(net.minecraft.server.v1_8_R3.EnumDirection)
+     * @see net.minecraft.server.v1_9_R1.EntityHanging#setDirection(net.minecraft.server.v1_9_R1.EnumDirection)
      */
     @ReflectiveMethod(name = "setDirection", types = {NMSEnumDirection.class})
     public void setDirection(NMSEnumDirection enumDirection){
@@ -144,7 +144,7 @@ public class NMSEntityHanging extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHanging#setPosition(double, double, double)
+     * @see net.minecraft.server.v1_9_R1.EntityHanging#setPosition(double, double, double)
      */
     @ReflectiveMethod(name = "setPosition", types = {double.class, double.class, double.class})
     public void setPosition(double d, double d1, double d2){
@@ -152,7 +152,7 @@ public class NMSEntityHanging extends NMSEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityHanging#survives()
+     * @see net.minecraft.server.v1_9_R1.EntityHanging#survives()
      */
     @ReflectiveMethod(name = "survives", types = {})
     public boolean survives(){
@@ -161,7 +161,7 @@ public class NMSEntityHanging extends NMSEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityHanging#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityHanging#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){

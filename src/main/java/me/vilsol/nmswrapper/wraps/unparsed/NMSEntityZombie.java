@@ -21,7 +21,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#a(float)
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#a(float)
      */
     @ReflectiveMethod(name = "a", types = {float.class})
     public void a(float f){
@@ -30,7 +30,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#am()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#am()
      */
     @ReflectiveMethod(name = "am", types = {})
     public double am(){
@@ -39,7 +39,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#b(net.minecraft.server.v1_8_R3.NBTTagCompound)
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#b(net.minecraft.server.v1_9_R1.NBTTagCompound)
      */
     @ReflectiveMethod(name = "b", types = {NMSNBTTagCompound.class})
     public void b(NMSNBTTagCompound nBTTagCompound){
@@ -48,7 +48,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#bo()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#bo()
      */
     @ReflectiveMethod(name = "bo", types = {})
     public String bo(){
@@ -57,7 +57,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#bp()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#bp()
      */
     @ReflectiveMethod(name = "bp", types = {})
     public String bp(){
@@ -66,7 +66,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#br()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#br()
      */
     @ReflectiveMethod(name = "br", types = {})
     public int br(){
@@ -75,7 +75,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#cn()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#cn()
      */
     @ReflectiveMethod(name = "cn", types = {})
     public boolean cn(){
@@ -84,7 +84,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#cp()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#cp()
      */
     @ReflectiveMethod(name = "cp", types = {})
     public boolean cp(){
@@ -93,7 +93,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#cq()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#cq()
      */
     @ReflectiveMethod(name = "cq", types = {})
     public void cq(){
@@ -102,7 +102,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#cr()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#cr()
      */
     @ReflectiveMethod(name = "cr", types = {})
     public int cr(){
@@ -110,7 +110,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#damageEntity(net.minecraft.server.v1_8_R3.DamageSource, float)
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#damageEntity(net.minecraft.server.v1_9_R1.DamageSource, float)
      */
     @ReflectiveMethod(name = "damageEntity", types = {NMSDamageSource.class, float.class})
     public boolean damageEntity(NMSDamageSource damageSource, float f){
@@ -118,7 +118,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#die(net.minecraft.server.v1_8_R3.DamageSource)
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#die(net.minecraft.server.v1_9_R1.DamageSource)
      */
     @ReflectiveMethod(name = "die", types = {NMSDamageSource.class})
     public void die(NMSDamageSource damageSource){
@@ -126,7 +126,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#getExpValue(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#getExpValue(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "getExpValue", types = {NMSEntityHuman.class})
     public int getExpValue(NMSEntityHuman entityHuman){
@@ -134,7 +134,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#getHeadHeight()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#getHeadHeight()
      */
     @ReflectiveMethod(name = "getHeadHeight", types = {})
     public float getHeadHeight(){
@@ -142,7 +142,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#getLoot()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#getLoot()
      */
     @ReflectiveMethod(name = "getLoot", types = {})
     public NMSItem getLoot(){
@@ -150,7 +150,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#getMonsterType()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#getMonsterType()
      */
     @ReflectiveMethod(name = "getMonsterType", types = {})
     public NMSEnumMonsterType getMonsterType(){
@@ -158,7 +158,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#getRareDrop()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#getRareDrop()
      */
     @ReflectiveMethod(name = "getRareDrop", types = {})
     public void getRareDrop(){
@@ -167,7 +167,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#h()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -175,7 +175,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#initAttributes()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#initAttributes()
      */
     @ReflectiveMethod(name = "initAttributes", types = {})
     public void initAttributes(){
@@ -183,7 +183,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#isBaby()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#isBaby()
      */
     @ReflectiveMethod(name = "isBaby", types = {})
     public boolean isBaby(){
@@ -191,7 +191,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#isTypeNotPersistent()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#isTypeNotPersistent()
      */
     @ReflectiveMethod(name = "isTypeNotPersistent", types = {})
     public boolean isTypeNotPersistent(){
@@ -199,7 +199,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#isVillager()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#isVillager()
      */
     @ReflectiveMethod(name = "isVillager", types = {})
     public boolean isVillager(){
@@ -208,7 +208,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#m()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public void m(){
@@ -217,7 +217,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#n(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#n(boolean)
      */
     @ReflectiveMethod(name = "n", types = {boolean.class})
     public void n(boolean b){
@@ -225,7 +225,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#prepare(net.minecraft.server.v1_8_R3.DifficultyDamageScaler, net.minecraft.server.v1_8_R3.GroupDataEntity)
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#prepare(net.minecraft.server.v1_9_R1.DifficultyDamageScaler, net.minecraft.server.v1_9_R1.GroupDataEntity)
      */
     @ReflectiveMethod(name = "prepare", types = {NMSDifficultyDamageScaler.class, NMSGroupDataEntity.class})
     public NMSGroupDataEntity prepare(NMSDifficultyDamageScaler difficultyDamageScaler, NMSGroupDataEntity groupDataEntity){
@@ -234,7 +234,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#r(net.minecraft.server.v1_8_R3.Entity)
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#r(net.minecraft.server.v1_9_R1.Entity)
      */
     @ReflectiveMethod(name = "r", types = {NMSEntity.class})
     public boolean r(NMSEntity entity){
@@ -242,7 +242,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#setBaby(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#setBaby(boolean)
      */
     @ReflectiveMethod(name = "setBaby", types = {boolean.class})
     public void setBaby(boolean b){
@@ -250,7 +250,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#setSize(float, float)
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#setSize(float, float)
      */
     @ReflectiveMethod(name = "setSize", types = {float.class, float.class})
     public void setSize(float f, float f1){
@@ -258,7 +258,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#setVillager(boolean)
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#setVillager(boolean)
      */
     @ReflectiveMethod(name = "setVillager", types = {boolean.class})
     public void setVillager(boolean b){
@@ -267,7 +267,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#t_()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#t_()
      */
     @ReflectiveMethod(name = "t_", types = {})
     public void t_(){
@@ -276,7 +276,7 @@ public class NMSEntityZombie extends NMSEntityMonster {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityZombie#z()
+     * @see net.minecraft.server.v1_9_R1.EntityZombie#z()
      */
     @ReflectiveMethod(name = "z", types = {})
     public String z(){

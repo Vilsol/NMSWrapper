@@ -24,7 +24,7 @@ public class NMSWorldLoader extends NMSWrap implements NMSConvertable {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldLoader#a(java.lang.String, boolean)
+     * @see net.minecraft.server.v1_9_R1.WorldLoader#a(java.lang.String, boolean)
      */
     @ReflectiveMethod(name = "a", types = {String.class, boolean.class})
     public NMSIDataManager a(String s, boolean b){
@@ -33,7 +33,7 @@ public class NMSWorldLoader extends NMSWrap implements NMSConvertable {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldLoader#c(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.WorldLoader#c(java.lang.String)
      */
     @ReflectiveMethod(name = "c", types = {String.class})
     public NMSWorldData c(String s){
@@ -41,7 +41,7 @@ public class NMSWorldLoader extends NMSWrap implements NMSConvertable {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldLoader#convert(java.lang.String, net.minecraft.server.v1_8_R3.IProgressUpdate)
+     * @see net.minecraft.server.v1_9_R1.WorldLoader#convert(java.lang.String, net.minecraft.server.v1_9_R1.IProgressUpdate)
      */
     @ReflectiveMethod(name = "convert", types = {String.class, NMSIProgressUpdate.class})
     public boolean convert(String s, NMSIProgressUpdate iProgressUpdate){
@@ -50,7 +50,7 @@ public class NMSWorldLoader extends NMSWrap implements NMSConvertable {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldLoader#d()
+     * @see net.minecraft.server.v1_9_R1.WorldLoader#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public void d(){
@@ -59,7 +59,7 @@ public class NMSWorldLoader extends NMSWrap implements NMSConvertable {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.WorldLoader#e(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.WorldLoader#e(java.lang.String)
      */
     @ReflectiveMethod(name = "e", types = {String.class})
     public boolean e(String s){
@@ -67,7 +67,7 @@ public class NMSWorldLoader extends NMSWrap implements NMSConvertable {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.WorldLoader#isConvertable(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.WorldLoader#isConvertable(java.lang.String)
      */
     @ReflectiveMethod(name = "isConvertable", types = {String.class})
     public boolean isConvertable(String s){

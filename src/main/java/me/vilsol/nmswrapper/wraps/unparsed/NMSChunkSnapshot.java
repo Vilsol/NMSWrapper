@@ -13,7 +13,7 @@ public class NMSChunkSnapshot extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkSnapshot#a(int, net.minecraft.server.v1_8_R3.IBlockData)
+     * @see net.minecraft.server.v1_9_R1.ChunkSnapshot#a(int, net.minecraft.server.v1_9_R1.IBlockData)
      */
     @ReflectiveMethod(name = "a", types = {int.class, NMSIBlockData.class})
     public void a(int i, NMSIBlockData iBlockData){

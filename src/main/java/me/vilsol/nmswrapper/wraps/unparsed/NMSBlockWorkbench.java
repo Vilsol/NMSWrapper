@@ -12,7 +12,7 @@ public class NMSBlockWorkbench extends NMSBlock {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.BlockWorkbench#interact(net.minecraft.server.v1_8_R3.World, net.minecraft.server.v1_8_R3.BlockPosition, net.minecraft.server.v1_8_R3.IBlockData, net.minecraft.server.v1_8_R3.EntityHuman, net.minecraft.server.v1_8_R3.EnumDirection, float, float, float)
+     * @see net.minecraft.server.v1_9_R1.BlockWorkbench#interact(net.minecraft.server.v1_9_R1.World, net.minecraft.server.v1_9_R1.BlockPosition, net.minecraft.server.v1_9_R1.IBlockData, net.minecraft.server.v1_9_R1.EntityHuman, net.minecraft.server.v1_9_R1.EnumDirection, float, float, float)
      */
     @ReflectiveMethod(name = "interact", types = {NMSWorld.class, NMSBlockPosition.class, NMSIBlockData.class, NMSEntityHuman.class, NMSEnumDirection.class, float.class, float.class, float.class})
     public boolean interact(NMSWorld world, NMSBlockPosition blockPosition, NMSIBlockData iBlockData, NMSEntityHuman entityHuman, NMSEnumDirection enumDirection, float f, float f1, float f2){
@@ -31,7 +31,7 @@ public class NMSBlockWorkbench extends NMSBlock {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockWorkbench$TileEntityContainerWorkbench#createContainer(net.minecraft.server.v1_8_R3.PlayerInventory, net.minecraft.server.v1_8_R3.EntityHuman)
+         * @see net.minecraft.server.v1_9_R1.BlockWorkbench$TileEntityContainerWorkbench#createContainer(net.minecraft.server.v1_9_R1.PlayerInventory, net.minecraft.server.v1_9_R1.EntityHuman)
          */
         @ReflectiveMethod(name = "createContainer", types = {NMSPlayerInventory.class, NMSEntityHuman.class})
         public NMSContainer createContainer(NMSPlayerInventory playerInventory, NMSEntityHuman entityHuman){
@@ -39,7 +39,7 @@ public class NMSBlockWorkbench extends NMSBlock {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockWorkbench$TileEntityContainerWorkbench#getContainerName()
+         * @see net.minecraft.server.v1_9_R1.BlockWorkbench$TileEntityContainerWorkbench#getContainerName()
          */
         @ReflectiveMethod(name = "getContainerName", types = {})
         public String getContainerName(){
@@ -47,7 +47,7 @@ public class NMSBlockWorkbench extends NMSBlock {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockWorkbench$TileEntityContainerWorkbench#getName()
+         * @see net.minecraft.server.v1_9_R1.BlockWorkbench$TileEntityContainerWorkbench#getName()
          */
         @ReflectiveMethod(name = "getName", types = {})
         public String getName(){
@@ -55,7 +55,7 @@ public class NMSBlockWorkbench extends NMSBlock {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockWorkbench$TileEntityContainerWorkbench#getScoreboardDisplayName()
+         * @see net.minecraft.server.v1_9_R1.BlockWorkbench$TileEntityContainerWorkbench#getScoreboardDisplayName()
          */
         @ReflectiveMethod(name = "getScoreboardDisplayName", types = {})
         public NMSIChatBaseComponent getScoreboardDisplayName(){
@@ -63,7 +63,7 @@ public class NMSBlockWorkbench extends NMSBlock {
         }
 
         /**
-         * @see net.minecraft.server.v1_8_R3.BlockWorkbench$TileEntityContainerWorkbench#hasCustomName()
+         * @see net.minecraft.server.v1_9_R1.BlockWorkbench$TileEntityContainerWorkbench#hasCustomName()
          */
         @ReflectiveMethod(name = "hasCustomName", types = {})
         public boolean hasCustomName(){

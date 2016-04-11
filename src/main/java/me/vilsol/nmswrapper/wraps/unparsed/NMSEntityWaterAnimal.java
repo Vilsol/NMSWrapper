@@ -21,7 +21,7 @@ public class NMSEntityWaterAnimal extends NMSEntityInsentient implements NMSIAni
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWaterAnimal#K()
+     * @see net.minecraft.server.v1_9_R1.EntityWaterAnimal#K()
      */
     @ReflectiveMethod(name = "K", types = {})
     public void K(){
@@ -30,7 +30,7 @@ public class NMSEntityWaterAnimal extends NMSEntityInsentient implements NMSIAni
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWaterAnimal#aL()
+     * @see net.minecraft.server.v1_9_R1.EntityWaterAnimal#aL()
      */
     @ReflectiveMethod(name = "aL", types = {})
     public boolean aL(){
@@ -39,7 +39,7 @@ public class NMSEntityWaterAnimal extends NMSEntityInsentient implements NMSIAni
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWaterAnimal#aY()
+     * @see net.minecraft.server.v1_9_R1.EntityWaterAnimal#aY()
      */
     @ReflectiveMethod(name = "aY", types = {})
     public boolean aY(){
@@ -48,7 +48,7 @@ public class NMSEntityWaterAnimal extends NMSEntityInsentient implements NMSIAni
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWaterAnimal#bR()
+     * @see net.minecraft.server.v1_9_R1.EntityWaterAnimal#bR()
      */
     @ReflectiveMethod(name = "bR", types = {})
     public boolean bR(){
@@ -56,7 +56,7 @@ public class NMSEntityWaterAnimal extends NMSEntityInsentient implements NMSIAni
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWaterAnimal#canSpawn()
+     * @see net.minecraft.server.v1_9_R1.EntityWaterAnimal#canSpawn()
      */
     @ReflectiveMethod(name = "canSpawn", types = {})
     public boolean canSpawn(){
@@ -64,7 +64,7 @@ public class NMSEntityWaterAnimal extends NMSEntityInsentient implements NMSIAni
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWaterAnimal#getExpValue(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.EntityWaterAnimal#getExpValue(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "getExpValue", types = {NMSEntityHuman.class})
     public int getExpValue(NMSEntityHuman entityHuman){
@@ -72,7 +72,7 @@ public class NMSEntityWaterAnimal extends NMSEntityInsentient implements NMSIAni
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityWaterAnimal#isTypeNotPersistent()
+     * @see net.minecraft.server.v1_9_R1.EntityWaterAnimal#isTypeNotPersistent()
      */
     @ReflectiveMethod(name = "isTypeNotPersistent", types = {})
     public boolean isTypeNotPersistent(){
@@ -81,7 +81,7 @@ public class NMSEntityWaterAnimal extends NMSEntityInsentient implements NMSIAni
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityWaterAnimal#w()
+     * @see net.minecraft.server.v1_9_R1.EntityWaterAnimal#w()
      */
     @ReflectiveMethod(name = "w", types = {})
     public int w(){

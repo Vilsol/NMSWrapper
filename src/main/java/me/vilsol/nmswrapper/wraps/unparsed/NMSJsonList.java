@@ -24,7 +24,7 @@ public class NMSJsonList extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.JsonList#a(Object)
+     * @see net.minecraft.server.v1_9_R1.JsonList#a(Object)
      */
     @ReflectiveMethod(name = "a", types = {Object.class})
     public String a(Object k){
@@ -32,7 +32,7 @@ public class NMSJsonList extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.JsonList#add(Object)
+     * @see net.minecraft.server.v1_9_R1.JsonList#add(Object)
      */
     @ReflectiveMethod(name = "add", types = {Object.class})
     public void add(Object v){
@@ -41,7 +41,7 @@ public class NMSJsonList extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.JsonList#c()
+     * @see net.minecraft.server.v1_9_R1.JsonList#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public File c(){
@@ -50,7 +50,7 @@ public class NMSJsonList extends NMSWrap {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.JsonList#d(Object)
+     * @see net.minecraft.server.v1_9_R1.JsonList#d(Object)
      */
     @ReflectiveMethod(name = "d", types = {Object.class})
     public boolean d(Object k){
@@ -58,7 +58,7 @@ public class NMSJsonList extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.JsonList#get(Object)
+     * @see net.minecraft.server.v1_9_R1.JsonList#get(Object)
      */
     @ReflectiveMethod(name = "get", types = {Object.class})
     public Object get(Object k){
@@ -66,7 +66,7 @@ public class NMSJsonList extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.JsonList#isEmpty()
+     * @see net.minecraft.server.v1_9_R1.JsonList#isEmpty()
      */
     @ReflectiveMethod(name = "isEmpty", types = {})
     public boolean isEmpty(){
@@ -74,7 +74,7 @@ public class NMSJsonList extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.JsonList#isEnabled()
+     * @see net.minecraft.server.v1_9_R1.JsonList#isEnabled()
      */
     @ReflectiveMethod(name = "isEnabled", types = {})
     public boolean isEnabled(){
@@ -82,7 +82,7 @@ public class NMSJsonList extends NMSWrap {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.JsonList#remove(Object)
+     * @see net.minecraft.server.v1_9_R1.JsonList#remove(Object)
      */
     @ReflectiveMethod(name = "remove", types = {Object.class})
     public void remove(Object k){

@@ -13,7 +13,7 @@ public class NMSBlockYellowFlowers extends NMSBlockFlowers {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.BlockYellowFlowers#l()
+     * @see net.minecraft.server.v1_9_R1.BlockYellowFlowers#l()
      */
     @ReflectiveMethod(name = "l", types = {})
     public NMSEnumFlowerType l(){

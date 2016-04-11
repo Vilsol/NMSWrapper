@@ -13,7 +13,7 @@ public class NMSTileEntitySign extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntitySign#F()
+     * @see net.minecraft.server.v1_9_R1.TileEntitySign#F()
      */
     @ReflectiveMethod(name = "F", types = {})
     public boolean F(){
@@ -22,7 +22,7 @@ public class NMSTileEntitySign extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntitySign#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntitySign#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public void a(NMSEntityHuman entityHuman){
@@ -31,7 +31,7 @@ public class NMSTileEntitySign extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntitySign#b(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.TileEntitySign#b(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "b", types = {NMSEntityHuman.class})
     public boolean b(NMSEntityHuman entityHuman){
@@ -40,7 +40,7 @@ public class NMSTileEntitySign extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntitySign#c()
+     * @see net.minecraft.server.v1_9_R1.TileEntitySign#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public NMSEntityHuman c(){
@@ -49,7 +49,7 @@ public class NMSTileEntitySign extends NMSTileEntity {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.TileEntitySign#d()
+     * @see net.minecraft.server.v1_9_R1.TileEntitySign#d()
      */
     @ReflectiveMethod(name = "d", types = {})
     public NMSCommandObjectiveExecutor d(){
@@ -57,7 +57,7 @@ public class NMSTileEntitySign extends NMSTileEntity {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.TileEntitySign#getUpdatePacket()
+     * @see net.minecraft.server.v1_9_R1.TileEntitySign#getUpdatePacket()
      */
     @ReflectiveMethod(name = "getUpdatePacket", types = {})
     public NMSPacket getUpdatePacket(){

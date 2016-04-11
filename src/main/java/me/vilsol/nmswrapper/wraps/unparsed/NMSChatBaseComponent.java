@@ -17,7 +17,7 @@ public class NMSChatBaseComponent extends NMSWrap implements NMSIChatBaseCompone
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatBaseComponent#a(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.ChatBaseComponent#a(java.lang.String)
      */
     @ReflectiveMethod(name = "a", types = {String.class})
     public NMSIChatBaseComponent a(String s){
@@ -25,7 +25,7 @@ public class NMSChatBaseComponent extends NMSWrap implements NMSIChatBaseCompone
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatBaseComponent#addSibling(net.minecraft.server.v1_8_R3.IChatBaseComponent)
+     * @see net.minecraft.server.v1_9_R1.ChatBaseComponent#addSibling(net.minecraft.server.v1_9_R1.IChatBaseComponent)
      */
     @ReflectiveMethod(name = "addSibling", types = {NMSIChatBaseComponent.class})
     public NMSIChatBaseComponent addSibling(NMSIChatBaseComponent iChatBaseComponent){
@@ -34,7 +34,7 @@ public class NMSChatBaseComponent extends NMSWrap implements NMSIChatBaseCompone
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChatBaseComponent#c()
+     * @see net.minecraft.server.v1_9_R1.ChatBaseComponent#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public String c(){
@@ -42,7 +42,7 @@ public class NMSChatBaseComponent extends NMSWrap implements NMSIChatBaseCompone
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatBaseComponent#equals(java.lang.Object)
+     * @see net.minecraft.server.v1_9_R1.ChatBaseComponent#equals(java.lang.Object)
      */
     @ReflectiveMethod(name = "equals", types = {Object.class})
     public boolean equals(Object object){
@@ -50,7 +50,7 @@ public class NMSChatBaseComponent extends NMSWrap implements NMSIChatBaseCompone
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatBaseComponent#getChatModifier()
+     * @see net.minecraft.server.v1_9_R1.ChatBaseComponent#getChatModifier()
      */
     @ReflectiveMethod(name = "getChatModifier", types = {})
     public NMSChatModifier getChatModifier(){
@@ -58,7 +58,7 @@ public class NMSChatBaseComponent extends NMSWrap implements NMSIChatBaseCompone
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatBaseComponent#hashCode()
+     * @see net.minecraft.server.v1_9_R1.ChatBaseComponent#hashCode()
      */
     @ReflectiveMethod(name = "hashCode", types = {})
     public int hashCode(){
@@ -66,7 +66,7 @@ public class NMSChatBaseComponent extends NMSWrap implements NMSIChatBaseCompone
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatBaseComponent#setChatModifier(net.minecraft.server.v1_8_R3.ChatModifier)
+     * @see net.minecraft.server.v1_9_R1.ChatBaseComponent#setChatModifier(net.minecraft.server.v1_9_R1.ChatModifier)
      */
     @ReflectiveMethod(name = "setChatModifier", types = {NMSChatModifier.class})
     public NMSIChatBaseComponent setChatModifier(NMSChatModifier chatModifier){
@@ -74,7 +74,7 @@ public class NMSChatBaseComponent extends NMSWrap implements NMSIChatBaseCompone
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChatBaseComponent#toString()
+     * @see net.minecraft.server.v1_9_R1.ChatBaseComponent#toString()
      */
     @ReflectiveMethod(name = "toString", types = {})
     public String toString(){

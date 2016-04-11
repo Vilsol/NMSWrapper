@@ -19,7 +19,7 @@ public class NMSEntityDamageSource extends NMSDamageSource {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityDamageSource#getEntity()
+     * @see net.minecraft.server.v1_9_R1.EntityDamageSource#getEntity()
      */
     @ReflectiveMethod(name = "getEntity", types = {})
     public NMSEntity getEntity(){
@@ -27,7 +27,7 @@ public class NMSEntityDamageSource extends NMSDamageSource {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.EntityDamageSource#getLocalizedDeathMessage(net.minecraft.server.v1_8_R3.EntityLiving)
+     * @see net.minecraft.server.v1_9_R1.EntityDamageSource#getLocalizedDeathMessage(net.minecraft.server.v1_9_R1.EntityLiving)
      */
     @ReflectiveMethod(name = "getLocalizedDeathMessage", types = {NMSEntityLiving.class})
     public NMSIChatBaseComponent getLocalizedDeathMessage(NMSEntityLiving entityLiving){
@@ -36,7 +36,7 @@ public class NMSEntityDamageSource extends NMSDamageSource {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityDamageSource#r()
+     * @see net.minecraft.server.v1_9_R1.EntityDamageSource#r()
      */
     @ReflectiveMethod(name = "r", types = {})
     public boolean r(){
@@ -45,7 +45,7 @@ public class NMSEntityDamageSource extends NMSDamageSource {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityDamageSource#v()
+     * @see net.minecraft.server.v1_9_R1.EntityDamageSource#v()
      */
     @ReflectiveMethod(name = "v", types = {})
     public NMSEntityDamageSource v(){
@@ -54,7 +54,7 @@ public class NMSEntityDamageSource extends NMSDamageSource {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.EntityDamageSource#w()
+     * @see net.minecraft.server.v1_9_R1.EntityDamageSource#w()
      */
     @ReflectiveMethod(name = "w", types = {})
     public boolean w(){

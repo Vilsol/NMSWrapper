@@ -15,7 +15,7 @@ public class NMSCommandBlockListenerAbstract extends NMSWrap implements NMSIComm
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract#a(net.minecraft.server.v1_8_R3.EntityHuman)
+     * @see net.minecraft.server.v1_9_R1.CommandBlockListenerAbstract#a(net.minecraft.server.v1_9_R1.EntityHuman)
      */
     @ReflectiveMethod(name = "a", types = {NMSEntityHuman.class})
     public boolean a(NMSEntityHuman entityHuman){
@@ -24,7 +24,7 @@ public class NMSCommandBlockListenerAbstract extends NMSWrap implements NMSIComm
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract#b(net.minecraft.server.v1_8_R3.IChatBaseComponent)
+     * @see net.minecraft.server.v1_9_R1.CommandBlockListenerAbstract#b(net.minecraft.server.v1_9_R1.IChatBaseComponent)
      */
     @ReflectiveMethod(name = "b", types = {NMSIChatBaseComponent.class})
     public void b(NMSIChatBaseComponent iChatBaseComponent){
@@ -32,7 +32,7 @@ public class NMSCommandBlockListenerAbstract extends NMSWrap implements NMSIComm
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract#executeCommand(net.minecraft.server.v1_8_R3.ICommandListener, org.bukkit.command.CommandSender, java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.CommandBlockListenerAbstract#executeCommand(net.minecraft.server.v1_9_R1.ICommandListener, org.bukkit.command.CommandSender, java.lang.String)
      */
     @ReflectiveMethod(name = "executeCommand", types = {NMSICommandListener.class, CommandSender.class, String.class})
     public int executeCommand(NMSICommandListener iCommandListener, CommandSender commandSender, String s){
@@ -40,7 +40,7 @@ public class NMSCommandBlockListenerAbstract extends NMSWrap implements NMSIComm
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract#getCommand()
+     * @see net.minecraft.server.v1_9_R1.CommandBlockListenerAbstract#getCommand()
      */
     @ReflectiveMethod(name = "getCommand", types = {})
     public String getCommand(){
@@ -48,7 +48,7 @@ public class NMSCommandBlockListenerAbstract extends NMSWrap implements NMSIComm
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract#getName()
+     * @see net.minecraft.server.v1_9_R1.CommandBlockListenerAbstract#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -56,7 +56,7 @@ public class NMSCommandBlockListenerAbstract extends NMSWrap implements NMSIComm
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract#getScoreboardDisplayName()
+     * @see net.minecraft.server.v1_9_R1.CommandBlockListenerAbstract#getScoreboardDisplayName()
      */
     @ReflectiveMethod(name = "getScoreboardDisplayName", types = {})
     public NMSIChatBaseComponent getScoreboardDisplayName(){
@@ -64,7 +64,7 @@ public class NMSCommandBlockListenerAbstract extends NMSWrap implements NMSIComm
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract#getSendCommandFeedback()
+     * @see net.minecraft.server.v1_9_R1.CommandBlockListenerAbstract#getSendCommandFeedback()
      */
     @ReflectiveMethod(name = "getSendCommandFeedback", types = {})
     public boolean getSendCommandFeedback(){
@@ -73,7 +73,7 @@ public class NMSCommandBlockListenerAbstract extends NMSWrap implements NMSIComm
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract#h()
+     * @see net.minecraft.server.v1_9_R1.CommandBlockListenerAbstract#h()
      */
     @ReflectiveMethod(name = "h", types = {})
     public void h(){
@@ -82,7 +82,7 @@ public class NMSCommandBlockListenerAbstract extends NMSWrap implements NMSIComm
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract#j()
+     * @see net.minecraft.server.v1_9_R1.CommandBlockListenerAbstract#j()
      */
     @ReflectiveMethod(name = "j", types = {})
     public int j(){
@@ -91,7 +91,7 @@ public class NMSCommandBlockListenerAbstract extends NMSWrap implements NMSIComm
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract#k()
+     * @see net.minecraft.server.v1_9_R1.CommandBlockListenerAbstract#k()
      */
     @ReflectiveMethod(name = "k", types = {})
     public NMSIChatBaseComponent k(){
@@ -100,7 +100,7 @@ public class NMSCommandBlockListenerAbstract extends NMSWrap implements NMSIComm
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract#m()
+     * @see net.minecraft.server.v1_9_R1.CommandBlockListenerAbstract#m()
      */
     @ReflectiveMethod(name = "m", types = {})
     public boolean m(){
@@ -109,7 +109,7 @@ public class NMSCommandBlockListenerAbstract extends NMSWrap implements NMSIComm
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract#n()
+     * @see net.minecraft.server.v1_9_R1.CommandBlockListenerAbstract#n()
      */
     @ReflectiveMethod(name = "n", types = {})
     public NMSCommandObjectiveExecutor n(){
@@ -117,7 +117,7 @@ public class NMSCommandBlockListenerAbstract extends NMSWrap implements NMSIComm
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract#sendMessage(net.minecraft.server.v1_8_R3.IChatBaseComponent)
+     * @see net.minecraft.server.v1_9_R1.CommandBlockListenerAbstract#sendMessage(net.minecraft.server.v1_9_R1.IChatBaseComponent)
      */
     @ReflectiveMethod(name = "sendMessage", types = {NMSIChatBaseComponent.class})
     public void sendMessage(NMSIChatBaseComponent iChatBaseComponent){
@@ -125,7 +125,7 @@ public class NMSCommandBlockListenerAbstract extends NMSWrap implements NMSIComm
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract#setCommand(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.CommandBlockListenerAbstract#setCommand(java.lang.String)
      */
     @ReflectiveMethod(name = "setCommand", types = {String.class})
     public void setCommand(String s){
@@ -133,7 +133,7 @@ public class NMSCommandBlockListenerAbstract extends NMSWrap implements NMSIComm
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract#setName(java.lang.String)
+     * @see net.minecraft.server.v1_9_R1.CommandBlockListenerAbstract#setName(java.lang.String)
      */
     @ReflectiveMethod(name = "setName", types = {String.class})
     public void setName(String s){

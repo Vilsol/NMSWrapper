@@ -17,7 +17,7 @@ public class NMSChunkProviderHell extends NMSWrap implements NMSIChunkProvider {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkProviderHell#a(net.minecraft.server.v1_8_R3.IChunkProvider, net.minecraft.server.v1_8_R3.Chunk, int, int)
+     * @see net.minecraft.server.v1_9_R1.ChunkProviderHell#a(net.minecraft.server.v1_9_R1.IChunkProvider, net.minecraft.server.v1_9_R1.Chunk, int, int)
      */
     @ReflectiveMethod(name = "a", types = {NMSIChunkProvider.class, NMSChunk.class, int.class, int.class})
     public boolean a(NMSIChunkProvider iChunkProvider, NMSChunk chunk, int i, int i1){
@@ -26,7 +26,7 @@ public class NMSChunkProviderHell extends NMSWrap implements NMSIChunkProvider {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkProviderHell#b(int, int, net.minecraft.server.v1_8_R3.ChunkSnapshot)
+     * @see net.minecraft.server.v1_9_R1.ChunkProviderHell#b(int, int, net.minecraft.server.v1_9_R1.ChunkSnapshot)
      */
     @ReflectiveMethod(name = "b", types = {int.class, int.class, NMSChunkSnapshot.class})
     public void b(int i, int i1, NMSChunkSnapshot chunkSnapshot){
@@ -35,7 +35,7 @@ public class NMSChunkProviderHell extends NMSWrap implements NMSIChunkProvider {
 
     /**
      * TODO Find correct name
-     * @see net.minecraft.server.v1_8_R3.ChunkProviderHell#c()
+     * @see net.minecraft.server.v1_9_R1.ChunkProviderHell#c()
      */
     @ReflectiveMethod(name = "c", types = {})
     public void c(){
@@ -43,7 +43,7 @@ public class NMSChunkProviderHell extends NMSWrap implements NMSIChunkProvider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkProviderHell#canSave()
+     * @see net.minecraft.server.v1_9_R1.ChunkProviderHell#canSave()
      */
     @ReflectiveMethod(name = "canSave", types = {})
     public boolean canSave(){
@@ -51,7 +51,7 @@ public class NMSChunkProviderHell extends NMSWrap implements NMSIChunkProvider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkProviderHell#findNearestMapFeature(net.minecraft.server.v1_8_R3.World, java.lang.String, net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.ChunkProviderHell#findNearestMapFeature(net.minecraft.server.v1_9_R1.World, java.lang.String, net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "findNearestMapFeature", types = {NMSWorld.class, String.class, NMSBlockPosition.class})
     public NMSBlockPosition findNearestMapFeature(NMSWorld world, String s, NMSBlockPosition blockPosition){
@@ -59,7 +59,7 @@ public class NMSChunkProviderHell extends NMSWrap implements NMSIChunkProvider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkProviderHell#getChunkAt(net.minecraft.server.v1_8_R3.BlockPosition)
+     * @see net.minecraft.server.v1_9_R1.ChunkProviderHell#getChunkAt(net.minecraft.server.v1_9_R1.BlockPosition)
      */
     @ReflectiveMethod(name = "getChunkAt", types = {NMSBlockPosition.class})
     public NMSChunk getChunkAt(NMSBlockPosition blockPosition){
@@ -67,7 +67,7 @@ public class NMSChunkProviderHell extends NMSWrap implements NMSIChunkProvider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkProviderHell#getLoadedChunks()
+     * @see net.minecraft.server.v1_9_R1.ChunkProviderHell#getLoadedChunks()
      */
     @ReflectiveMethod(name = "getLoadedChunks", types = {})
     public int getLoadedChunks(){
@@ -75,7 +75,7 @@ public class NMSChunkProviderHell extends NMSWrap implements NMSIChunkProvider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkProviderHell#getName()
+     * @see net.minecraft.server.v1_9_R1.ChunkProviderHell#getName()
      */
     @ReflectiveMethod(name = "getName", types = {})
     public String getName(){
@@ -83,7 +83,7 @@ public class NMSChunkProviderHell extends NMSWrap implements NMSIChunkProvider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkProviderHell#getOrCreateChunk(int, int)
+     * @see net.minecraft.server.v1_9_R1.ChunkProviderHell#getOrCreateChunk(int, int)
      */
     @ReflectiveMethod(name = "getOrCreateChunk", types = {int.class, int.class})
     public NMSChunk getOrCreateChunk(int i, int i1){
@@ -91,7 +91,7 @@ public class NMSChunkProviderHell extends NMSWrap implements NMSIChunkProvider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkProviderHell#isChunkLoaded(int, int)
+     * @see net.minecraft.server.v1_9_R1.ChunkProviderHell#isChunkLoaded(int, int)
      */
     @ReflectiveMethod(name = "isChunkLoaded", types = {int.class, int.class})
     public boolean isChunkLoaded(int i, int i1){
@@ -99,7 +99,7 @@ public class NMSChunkProviderHell extends NMSWrap implements NMSIChunkProvider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkProviderHell#recreateStructures(net.minecraft.server.v1_8_R3.Chunk, int, int)
+     * @see net.minecraft.server.v1_9_R1.ChunkProviderHell#recreateStructures(net.minecraft.server.v1_9_R1.Chunk, int, int)
      */
     @ReflectiveMethod(name = "recreateStructures", types = {NMSChunk.class, int.class, int.class})
     public void recreateStructures(NMSChunk chunk, int i, int i1){
@@ -107,7 +107,7 @@ public class NMSChunkProviderHell extends NMSWrap implements NMSIChunkProvider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkProviderHell#saveChunks(boolean, net.minecraft.server.v1_8_R3.IProgressUpdate)
+     * @see net.minecraft.server.v1_9_R1.ChunkProviderHell#saveChunks(boolean, net.minecraft.server.v1_9_R1.IProgressUpdate)
      */
     @ReflectiveMethod(name = "saveChunks", types = {boolean.class, NMSIProgressUpdate.class})
     public boolean saveChunks(boolean b, NMSIProgressUpdate iProgressUpdate){
@@ -115,7 +115,7 @@ public class NMSChunkProviderHell extends NMSWrap implements NMSIChunkProvider {
     }
 
     /**
-     * @see net.minecraft.server.v1_8_R3.ChunkProviderHell#unloadChunks()
+     * @see net.minecraft.server.v1_9_R1.ChunkProviderHell#unloadChunks()
      */
     @ReflectiveMethod(name = "unloadChunks", types = {})
     public boolean unloadChunks(){
